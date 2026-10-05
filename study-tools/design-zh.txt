@@ -1,0 +1,20 @@
+Requirements and API Design|先确认用户、负载和业务约束，再定义资源、状态与API契约。耗时研究任务返回任务ID，由用户查询状态；说明认证、错误和幂等规则。
+Data Modeling and Indexes|先确定实体、每行粒度及常用查询，再设计主外键、约束和索引。用实际查询计划验证索引收益，同时考虑写入与存储成本。
+Cache and API Service|缓存键包含数据版本、查询参数与权限范围，定义过期和失效策略。冷缓存及依赖失败时需限制负载，避免缓存击穿。
+Queues and Job Scheduler|提交任务和outbox记录应在同一事务中写入，再异步派发。worker使用租约和幂等提交处理重复投递、进程崩溃与恢复。
+Rate Limiting and Capacity|分别限制到达速率和正在执行的请求数。平均并发约等于到达速率乘服务时间，还需峰值余量；限制队列长度和等待时间。
+Retries, Idempotency and Consistency|幂等键绑定请求内容，重复提交返回原状态或结果。暂时失败采用有次数限制的退避重试；超时不能证明远端没有成功。
+Latency and Observability|用请求关联ID、日志、指标和追踪定位各环节耗时，观察p50和p95。定义可采取行动的告警，并保护敏感数据。
+CI/CD and AWS Deployment|自动验证代码后构建版本化镜像，使用最小权限部署并做健康检查。保留可回滚版本，验证环境配置与应用兼容性。
+Financial Research RAG|按实体、期间和权限检索财务证据，保留原始位置与单位。生成答案前检查证据充足性，输出可核验引用并在不足时拒答。
+RAG Evaluation and Retrieval Trade-offs|建立标注查询与相关证据集，分别测量召回、排序、重复及答案依据。分块、MMR和重排序的收益必须与延迟、成本和覆盖损失一起比较。
+Financial Text-to-SQL|提供受控schema与业务口径，验证SQL后以只读、限时和限量权限执行。结果核对单位、日期与连接粒度，无法明确的问题先澄清。
+Text-to-SQL Evaluation and Data Quality|以执行结果和业务语义评估SQL，同时测试权限、成本和拒答。空值、重复、单位与时点问题应有明确数据检查。
+Agents with Human Approval|模型提出操作后，服务端先检查契约与权限；高影响操作展示具体参数供人批准。批准与操作内容绑定，记录审计并避免重复执行。
+Agent Memory and Tool Contracts|定义工具参数、错误与副作用，区分可信状态和外部文本。记忆需要权限、版本和保留期，不能自动升级为可信指令。
+AI-Assisted Experiment Platform|实验记录数据、代码、模型、参数与指标版本。任务运行应可恢复、可复现，并将AI建议与实际执行权限分开控制。
+Volatility Forecasting Service|使用时点正确的特征和时间顺序验证，与合理金融基线比较。训练与服务保持预处理一致，监控预测误差、延迟和漂移并支持回滚。
+Evaluation and Regression Pipeline|用固定案例检查每次提示、检索或模型变更，再用独立测试估计效果。设置质量门槛和失败分类，防止平均分掩盖严重错误。
+AI Latency and Cost Budget|分解检索、工具、模型及排队耗时，记录token和实际费用。缓存、路由和流式输出要在质量门槛下验证收益。
+AI Security and Reliability|对检索和工具落实权限、租户隔离和资源限制，外部文本只作数据。测试注入、敏感数据泄露和依赖失败，明确安全降级行为。
+Transfer Mock: Contract Review Assistant|先明确合同审阅范围与风险类别，检索并引用条款，区分证据与建议。保护敏感合同，对重要决策保留人工复核及审计。

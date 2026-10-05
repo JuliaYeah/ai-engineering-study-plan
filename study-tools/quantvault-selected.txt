@@ -1,0 +1,47 @@
+1962|Machine Learning|Easy|Explaining Machine Learning to a Non-Technical Audience
+1432|Regression|Medium|Linear Regression: Model, Estimation, and When to Use It
+1966|Machine Learning|Easy|Framework for Open-Ended Modeling Strategy
+1953|Machine Learning|Medium|End-to-End Prediction Modeling Pipeline
+1613|Regression|Medium|Loss Function Minimizers and Regression Variants
+1261|Machine Learning|Easy|Diagnosing Overfitting and Cross-Validation
+1118|Regression|Easy|Definition and Range of R-Squared
+1861|Regression|Medium|Linear Regression, Ridge, and Lasso
+1078|Machine Learning|Medium|Advantages of Lasso Over Other Linear Feature Selection Methods
+2606|Machine Learning|Medium|Interpreting Logistic Regression Coefficients
+1473|Machine Learning|Medium|Precision and Recall in Classification
+1666|Machine Learning|Hard|Profit-Aware Classification Threshold
+3699|Machine Learning|Medium|MSE or Cross Entropy: Picking a Loss for a Probabilistic Classifier
+1836|Machine Learning|Medium|Controlling Overfitting in Decision Trees and XGBoost
+2017|Machine Learning|Medium|Missing Data Imputation and Regression Pipeline
+1625|Regression|Medium|Median Regression vs. OLS
+1431|Regression|Medium|Lasso, Ridge, and Elastic Net Comparison
+1447|Regression|Easy|Multicollinearity Consequences in OLS
+1670|Machine Learning|Medium|Random Forests, Bagging, and Variance Reduction
+1743|Machine Learning|Easy|Gradient Boosting vs. Random Forests, Batch Normalization, and SGD Momentum
+1746|Machine Learning|Easy|Hyperparameter Selection in Machine Learning
+1587|Machine Learning|Medium|Hyperparameter Tuning and Diagnosing Flat Out-of-Sample Performance
+1676|Machine Learning|Medium|Ridge Regression Hyperparameter Diagnostics
+1757|Machine Learning|Easy|Limitations of One-Hot Encoding
+1964|Machine Learning|Medium|Feature Selection for Return Prediction
+3080|Machine Learning|Medium|Feature Importance in Tree Models and What a SHAP Value Measures
+1939|Machine Learning|Medium|Cross-Validation Leakage in Financial Time Series
+2001|Machine Learning|Medium|Lookahead Bias From Universe Membership Leakage
+1980|Regression|Medium|Handling Delayed Features in a Regression Model
+2168|Machine Learning|Hard|Purged Walk-Forward Cross-Validation
+2150|Machine Learning|Medium|Leak-Free Feature Standardization in Walk-Forward Validation
+1978|Regression|Medium|HAR-RV Model for Realized Variance Forecasting
+3103|Machine Learning|Hard|Combining Features With Different Update Frequencies
+1996|Regression|Hard|LASSO for Return Prediction with Time-Series Validation
+1677|Regression|Medium|Ridge Regression Regularization in Time Series
+2126|Machine Learning|Medium|Comparing Forecasting Models for Daily Asset Returns
+1937|Regression|Medium|Cross-Sectional Factor Model Estimation and Diagnostics
+1465|Machine Learning|Easy|Out-of-Distribution Prediction: Dog Weight Regression
+1867|Regression|Medium|OLS Coefficient Confidence Intervals
+1638|Regression|Medium|OLS with Correlated Errors
+2000|Regression|Medium|Logistic Regression: Log-Likelihood, Gradient, and Threshold Selection
+1736|Machine Learning|Medium|End-to-End EDA and Linear Regression Pipeline
+2152|Machine Learning|Medium|ML Model Failures in Production
+3102|Machine Learning|Hard|Debugging a Model That Underperforms Live
+1866|Regression|Medium|OLS Assumptions, Violations, and Diagnostics
+3100|Machine Learning|Hard|Handling Simultaneous Feature and Target Distribution Shift
+3322|Machine Learning|Medium|Preventing Overfitting and Ensuring Model Robustness

@@ -1,0 +1,80 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "results": [
+    {
+      "file": "01_train_validation_test_split.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "02_supervised_and_unsupervised_learning_baselines.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "04_mae_rmse.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "05_bias_variance_overfitting_regularization_linear_regression.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "07_pr_auc_roc_auc_calibration.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "08_decision_trees_random_forests_gradient_boosting.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "09_cross_validation_hyperparameter_tuning.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "10_feature_engineering_interpretability_feature_importance.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "14_reproducibility_model_versioning_serving_rollback.ipynb",
+      "status": "passed",
+      "charts": 1
+    },
+    {
+      "file": "15_drift_retraining.ipynb",
+      "status": "passed",
+      "charts": 1
+    }
+  ]
+}

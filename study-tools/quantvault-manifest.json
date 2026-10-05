@@ -1,0 +1,1122 @@
+{
+  "checked": "2026-10-04",
+  "assumePro": true,
+  "excluded": [
+    "Coding",
+    "Optimization"
+  ],
+  "publicCounts": {
+    "Regression": 170,
+    "Machine Learning": 94
+  },
+  "publicUniqueIds": 264,
+  "selectedUnique": 47,
+  "notScheduled": 217,
+  "problems": [
+    {
+      "id": 1962,
+      "category": "Machine Learning",
+      "difficulty": "Easy",
+      "title": "Explaining Machine Learning to a Non-Technical Audience",
+      "url": "https://quantvault.org/problems.html?id=1962"
+    },
+    {
+      "id": 1432,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "Linear Regression: Model, Estimation, and When to Use It",
+      "url": "https://quantvault.org/problems.html?id=1432"
+    },
+    {
+      "id": 1966,
+      "category": "Machine Learning",
+      "difficulty": "Easy",
+      "title": "Framework for Open-Ended Modeling Strategy",
+      "url": "https://quantvault.org/problems.html?id=1966"
+    },
+    {
+      "id": 1953,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "End-to-End Prediction Modeling Pipeline",
+      "url": "https://quantvault.org/problems.html?id=1953"
+    },
+    {
+      "id": 1613,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "Loss Function Minimizers and Regression Variants",
+      "url": "https://quantvault.org/problems.html?id=1613"
+    },
+    {
+      "id": 1261,
+      "category": "Machine Learning",
+      "difficulty": "Easy",
+      "title": "Diagnosing Overfitting and Cross-Validation",
+      "url": "https://quantvault.org/problems.html?id=1261"
+    },
+    {
+      "id": 1118,
+      "category": "Regression",
+      "difficulty": "Easy",
+      "title": "Definition and Range of R-Squared",
+      "url": "https://quantvault.org/problems.html?id=1118"
+    },
+    {
+      "id": 1861,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "Linear Regression, Ridge, and Lasso",
+      "url": "https://quantvault.org/problems.html?id=1861"
+    },
+    {
+      "id": 1078,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Advantages of Lasso Over Other Linear Feature Selection Methods",
+      "url": "https://quantvault.org/problems.html?id=1078"
+    },
+    {
+      "id": 2606,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Interpreting Logistic Regression Coefficients",
+      "url": "https://quantvault.org/problems.html?id=2606"
+    },
+    {
+      "id": 1473,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Precision and Recall in Classification",
+      "url": "https://quantvault.org/problems.html?id=1473"
+    },
+    {
+      "id": 1666,
+      "category": "Machine Learning",
+      "difficulty": "Hard",
+      "title": "Profit-Aware Classification Threshold",
+      "url": "https://quantvault.org/problems.html?id=1666"
+    },
+    {
+      "id": 3699,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "MSE or Cross Entropy: Picking a Loss for a Probabilistic Classifier",
+      "url": "https://quantvault.org/problems.html?id=3699"
+    },
+    {
+      "id": 1836,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Controlling Overfitting in Decision Trees and XGBoost",
+      "url": "https://quantvault.org/problems.html?id=1836"
+    },
+    {
+      "id": 2017,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Missing Data Imputation and Regression Pipeline",
+      "url": "https://quantvault.org/problems.html?id=2017"
+    },
+    {
+      "id": 1625,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "Median Regression vs. OLS",
+      "url": "https://quantvault.org/problems.html?id=1625"
+    },
+    {
+      "id": 1431,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "Lasso, Ridge, and Elastic Net Comparison",
+      "url": "https://quantvault.org/problems.html?id=1431"
+    },
+    {
+      "id": 1447,
+      "category": "Regression",
+      "difficulty": "Easy",
+      "title": "Multicollinearity Consequences in OLS",
+      "url": "https://quantvault.org/problems.html?id=1447"
+    },
+    {
+      "id": 1670,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Random Forests, Bagging, and Variance Reduction",
+      "url": "https://quantvault.org/problems.html?id=1670"
+    },
+    {
+      "id": 1743,
+      "category": "Machine Learning",
+      "difficulty": "Easy",
+      "title": "Gradient Boosting vs. Random Forests, Batch Normalization, and SGD Momentum",
+      "url": "https://quantvault.org/problems.html?id=1743"
+    },
+    {
+      "id": 1746,
+      "category": "Machine Learning",
+      "difficulty": "Easy",
+      "title": "Hyperparameter Selection in Machine Learning",
+      "url": "https://quantvault.org/problems.html?id=1746"
+    },
+    {
+      "id": 1587,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Hyperparameter Tuning and Diagnosing Flat Out-of-Sample Performance",
+      "url": "https://quantvault.org/problems.html?id=1587"
+    },
+    {
+      "id": 1676,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Ridge Regression Hyperparameter Diagnostics",
+      "url": "https://quantvault.org/problems.html?id=1676"
+    },
+    {
+      "id": 1757,
+      "category": "Machine Learning",
+      "difficulty": "Easy",
+      "title": "Limitations of One-Hot Encoding",
+      "url": "https://quantvault.org/problems.html?id=1757"
+    },
+    {
+      "id": 1964,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Feature Selection for Return Prediction",
+      "url": "https://quantvault.org/problems.html?id=1964"
+    },
+    {
+      "id": 3080,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Feature Importance in Tree Models and What a SHAP Value Measures",
+      "url": "https://quantvault.org/problems.html?id=3080"
+    },
+    {
+      "id": 1939,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Cross-Validation Leakage in Financial Time Series",
+      "url": "https://quantvault.org/problems.html?id=1939"
+    },
+    {
+      "id": 2001,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Lookahead Bias From Universe Membership Leakage",
+      "url": "https://quantvault.org/problems.html?id=2001"
+    },
+    {
+      "id": 1980,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "Handling Delayed Features in a Regression Model",
+      "url": "https://quantvault.org/problems.html?id=1980"
+    },
+    {
+      "id": 2168,
+      "category": "Machine Learning",
+      "difficulty": "Hard",
+      "title": "Purged Walk-Forward Cross-Validation",
+      "url": "https://quantvault.org/problems.html?id=2168"
+    },
+    {
+      "id": 2150,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Leak-Free Feature Standardization in Walk-Forward Validation",
+      "url": "https://quantvault.org/problems.html?id=2150"
+    },
+    {
+      "id": 1978,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "HAR-RV Model for Realized Variance Forecasting",
+      "url": "https://quantvault.org/problems.html?id=1978"
+    },
+    {
+      "id": 3103,
+      "category": "Machine Learning",
+      "difficulty": "Hard",
+      "title": "Combining Features With Different Update Frequencies",
+      "url": "https://quantvault.org/problems.html?id=3103"
+    },
+    {
+      "id": 1996,
+      "category": "Regression",
+      "difficulty": "Hard",
+      "title": "LASSO for Return Prediction with Time-Series Validation",
+      "url": "https://quantvault.org/problems.html?id=1996"
+    },
+    {
+      "id": 1677,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "Ridge Regression Regularization in Time Series",
+      "url": "https://quantvault.org/problems.html?id=1677"
+    },
+    {
+      "id": 2126,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Comparing Forecasting Models for Daily Asset Returns",
+      "url": "https://quantvault.org/problems.html?id=2126"
+    },
+    {
+      "id": 1937,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "Cross-Sectional Factor Model Estimation and Diagnostics",
+      "url": "https://quantvault.org/problems.html?id=1937"
+    },
+    {
+      "id": 1465,
+      "category": "Machine Learning",
+      "difficulty": "Easy",
+      "title": "Out-of-Distribution Prediction: Dog Weight Regression",
+      "url": "https://quantvault.org/problems.html?id=1465"
+    },
+    {
+      "id": 1867,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "OLS Coefficient Confidence Intervals",
+      "url": "https://quantvault.org/problems.html?id=1867"
+    },
+    {
+      "id": 1638,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "OLS with Correlated Errors",
+      "url": "https://quantvault.org/problems.html?id=1638"
+    },
+    {
+      "id": 2000,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "Logistic Regression: Log-Likelihood, Gradient, and Threshold Selection",
+      "url": "https://quantvault.org/problems.html?id=2000"
+    },
+    {
+      "id": 1736,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "End-to-End EDA and Linear Regression Pipeline",
+      "url": "https://quantvault.org/problems.html?id=1736"
+    },
+    {
+      "id": 2152,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "ML Model Failures in Production",
+      "url": "https://quantvault.org/problems.html?id=2152"
+    },
+    {
+      "id": 3102,
+      "category": "Machine Learning",
+      "difficulty": "Hard",
+      "title": "Debugging a Model That Underperforms Live",
+      "url": "https://quantvault.org/problems.html?id=3102"
+    },
+    {
+      "id": 1866,
+      "category": "Regression",
+      "difficulty": "Medium",
+      "title": "OLS Assumptions, Violations, and Diagnostics",
+      "url": "https://quantvault.org/problems.html?id=1866"
+    },
+    {
+      "id": 3100,
+      "category": "Machine Learning",
+      "difficulty": "Hard",
+      "title": "Handling Simultaneous Feature and Target Distribution Shift",
+      "url": "https://quantvault.org/problems.html?id=3100"
+    },
+    {
+      "id": 3322,
+      "category": "Machine Learning",
+      "difficulty": "Medium",
+      "title": "Preventing Overfitting and Ensuring Model Robustness",
+      "url": "https://quantvault.org/problems.html?id=3322"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "周一 10/5",
+      "topic": "train-validation-test-split",
+      "ids": [
+        1962
+      ],
+      "depth": "Conceptual",
+      "scope": "用自己的金融工作解释Feature、Target、Training和Prediction；先不背模型名。",
+      "prerequisites": "先读Machine Learning Foundations。",
+      "mode": "foundation",
+      "minutes": {
+        "lesson": 20,
+        "notebook": 15,
+        "practice": 10
+      }
+    },
+    {
+      "day": 2,
+      "date": "周二 10/6",
+      "topic": "supervised-and-unsupervised-learning-baselines",
+      "ids": [
+        1432,
+        1966
+      ],
+      "depth": "Conceptual",
+      "scope": "先解释线性函数的输入、系数和数值输出，再用目标→数据→基线→验证组织建模思路。",
+      "prerequisites": "入门页的Linear Regression公式；两题各用约5分钟。",
+      "mode": "foundation",
+      "minutes": {
+        "lesson": 20,
+        "notebook": 15,
+        "practice": 10
+      }
+    },
+    {
+      "day": 3,
+      "date": "周三 10/7",
+      "topic": "data-leakage-scaling-scikit-learn-pipelines",
+      "ids": [
+        1953
+      ],
+      "depth": "Case outline",
+      "scope": "只画Data → Split → Preprocessing → Fit → Evaluate，标出哪些步骤只能看训练集。整题的完整建模方案留到Day 31。",
+      "prerequisites": "先读Data Leakage与scikit-learn Pipelines。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 4,
+      "date": "周四 10/8",
+      "topic": "mae-rmse",
+      "ids": [
+        1613
+      ],
+      "depth": "Conceptual",
+      "scope": "只比较Squared Loss与Absolute Loss，以及均值/中位数对应关系；不要求完成所有回归变体推导。",
+      "prerequisites": "先读MAE、RMSE；Loss是训练目标，Metric是评价方式，两者可以不同。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 5,
+      "date": "周五 10/9",
+      "topic": "bias-variance-overfitting-regularization-linear-regression",
+      "ids": [
+        1261,
+        1118
+      ],
+      "depth": "Conceptual",
+      "scope": "先识别训练好、验证差的过拟合，再解释R-Squared衡量相对均值基线的拟合；Cross-Validation细节留到Day 17。",
+      "prerequisites": "补读R-Squared = 1 − SSE/SST；它不同于RMSE，样本外可能为负。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 6,
+      "date": "周一 10/12",
+      "topic": "bias-variance-overfitting-regularization-linear-regression",
+      "ids": [
+        1861,
+        1078
+      ],
+      "depth": "Comparison",
+      "scope": "先比较OLS、Ridge与Lasso，再回答Lasso的特征选择优势及相关特征下不稳定的限制。",
+      "prerequisites": "先读Regularization讲义；L1可归零，L2通常缩小，alpha用验证选。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 7,
+      "date": "周二 10/13",
+      "topic": "logistic-regression-precision-recall-f1-class-imbalance",
+      "ids": [
+        2606
+      ],
+      "depth": "Conceptual",
+      "scope": "解释线性score→sigmoid→概率；系数影响log-odds，不能直接说概率增加相同数值。",
+      "prerequisites": "先读Logistic Regression；Odds = p/(1−p)，Log-odds = log(Odds)。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 8,
+      "date": "周三 10/14",
+      "topic": "logistic-regression-precision-recall-f1-class-imbalance",
+      "ids": [
+        1473
+      ],
+      "depth": "Worked example",
+      "scope": "手算一组TP、FP、FN的Precision与Recall；改变阈值，解释误报和漏报。",
+      "prerequisites": "先认识Confusion Matrix：实际类别与预测类别的交叉计数。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 9,
+      "date": "周四 10/15",
+      "topic": "pr-auc-roc-auc-calibration",
+      "ids": [
+        1666
+      ],
+      "depth": "Advanced: scoped calculation",
+      "scope": "只完成二分类阈值的收益/损失判断。先画PR/ROC曲线的含义，再说明排序指标不能替代决策成本。",
+      "prerequisites": "先读Precision、Recall、ROC-AUC与PR-AUC；用每次正确收益/错误损失的小数字例子。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 10,
+      "date": "周五 10/16",
+      "topic": "pr-auc-roc-auc-calibration",
+      "ids": [
+        3699
+      ],
+      "depth": "Conceptual",
+      "scope": "比较数值回归损失与概率分类损失；先读Calibration，说明校准、排序和训练目标是不同问题。",
+      "prerequisites": "Cross Entropy衡量真实类别被赋予的概率；Brier Score是概率的平方误差。这里不要求证明。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 11,
+      "date": "周一 10/19",
+      "topic": "decision-trees-random-forests-gradient-boosting",
+      "ids": [
+        1836
+      ],
+      "depth": "Conceptual",
+      "scope": "先讨论树深、叶子样本数与过拟合，只做Decision Tree部分；XGBoost部分留到Day 16对照。",
+      "prerequisites": "先读Decision Trees；Boosting细节尚未学，不要求第一次完整作答。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 12,
+      "date": "周二 10/20",
+      "topic": "data-leakage-scaling-scikit-learn-pipelines",
+      "ids": [
+        2017
+      ],
+      "depth": "Implementation sketch",
+      "scope": "只写缺失值处理与Scaler放入Pipeline的最小片段；验证预处理没有读取验证集。完整题不要求当日实现。",
+      "prerequisites": "先读Imputation：用训练数据确定填充值；Notebook示例仍保留。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 13,
+      "date": "周三 10/21",
+      "topic": "mae-rmse",
+      "ids": [
+        1625
+      ],
+      "depth": "Comparison",
+      "scope": "比较MAE/Absolute Loss与MSE/Squared Loss，说明异常值为何影响不同；不要求完整Quantile Regression证明。",
+      "prerequisites": "Median Regression对应中位数目标；注意它与均值OLS的差异。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 14,
+      "date": "周四 10/22",
+      "topic": "bias-variance-overfitting-regularization-linear-regression",
+      "ids": [
+        1431,
+        1447
+      ],
+      "depth": "Comparison",
+      "scope": "比较Lasso、Ridge与Elastic Net，结合相关特征解释系数稳定性和特征选择。",
+      "prerequisites": "Elastic Net结合L1与L2；Multicollinearity指输入特征近似线性相关。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 15,
+      "date": "周五 10/23",
+      "topic": "decision-trees-random-forests-gradient-boosting",
+      "ids": [
+        1670
+      ],
+      "depth": "Conceptual",
+      "scope": "解释Bagging、随机特征与树平均怎样降低方差，并指出不是所有树都独立。",
+      "prerequisites": "先读Random Forests；Bagging是重采样后组合模型。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 16,
+      "date": "周一 10/26",
+      "topic": "decision-trees-random-forests-gradient-boosting",
+      "ids": [
+        1743
+      ],
+      "depth": "Comparison",
+      "scope": "只比较Random Forest与Gradient Boosting，并复习Day 11的XGBoost限制；Batch Norm和SGD Momentum作为扩展。",
+      "prerequisites": "先读Gradient Boosting；逐步纠正当前损失，与独立树平均不同。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 17,
+      "date": "周二 10/27",
+      "topic": "cross-validation-hyperparameter-tuning",
+      "ids": [
+        1746
+      ],
+      "depth": "Conceptual",
+      "scope": "区分模型学到的Parameter与人为选择的Hyperparameter，说明Cross-Validation和最终测试的分工。",
+      "prerequisites": "先读Cross-Validation；随机K-fold不能直接用于金融时间序列。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 18,
+      "date": "周三 10/28",
+      "topic": "cross-validation-hyperparameter-tuning",
+      "ids": [
+        1587,
+        1676
+      ],
+      "depth": "Diagnosis",
+      "scope": "面对样本外表现平坦，先判断数据、基线、alpha、样本量与验证方差，再决定是否继续调参。",
+      "prerequisites": "先读Hyperparameter Tuning；不根据最终测试反复选择配置。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 19,
+      "date": "周四 10/29",
+      "topic": "feature-engineering-interpretability-feature-importance",
+      "ids": [
+        1757,
+        1964
+      ],
+      "depth": "Feature strategy",
+      "scope": "说明One-Hot Encoding的维度与未知类别问题；特征选择也必须在训练/验证流程内完成。",
+      "prerequisites": "先读Feature Engineering；One-Hot用多个0/1变量表示类别。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 20,
+      "date": "周五 10/30",
+      "topic": "feature-engineering-interpretability-feature-importance",
+      "ids": [
+        3080
+      ],
+      "depth": "Conceptual",
+      "scope": "区分树内Importance、Permutation Importance与SHAP，说明相关特征及因果解释的限制。",
+      "prerequisites": "SHAP把某个预测相对基准的差异分摊到特征，取决于所用基准与方法。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 21,
+      "date": "周一 11/2",
+      "topic": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "ids": [
+        1939
+      ],
+      "depth": "Case outline",
+      "scope": "画时间轴，指出随机切分、提前标准化和重叠目标怎样造成泄漏。",
+      "prerequisites": "先读Time-Series Splits、Walk-Forward Validation。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 22,
+      "date": "周二 11/3",
+      "topic": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "ids": [
+        2001,
+        1980
+      ],
+      "depth": "Point-in-time audit",
+      "scope": "分别检查股票池成员和延迟发布特征；列出Observation Date、Publication Date、Prediction Date。",
+      "prerequisites": "Point-in-Time只使用预测时已知信息，期末日期不等于公布日期。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 23,
+      "date": "周三 11/4",
+      "topic": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "ids": [
+        2168
+      ],
+      "depth": "Advanced: diagram only",
+      "scope": "用时间轴解释训练标签与验证区间重叠时需要purging；只画窗口和gap，不要求完整实现。",
+      "prerequisites": "Purging排除信息区间重叠的训练样本；Embargo是额外隔离期，长度取决于标签和依赖。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 24,
+      "date": "周四 11/5",
+      "topic": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "ids": [
+        2150
+      ],
+      "depth": "Implementation sketch",
+      "scope": "在每个时间fold内fit预处理，只transform后续窗口；检查扩展窗口与滚动窗口差别。",
+      "prerequisites": "先读Scaling与Pipeline；只写关键伪代码，沿用本地Notebook实验。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 25,
+      "date": "周五 11/6",
+      "topic": "volatility-forecasting-out-of-sample-evaluation",
+      "ids": [
+        1978
+      ],
+      "depth": "Financial baseline outline",
+      "scope": "只解释HAR-RV使用不同历史尺度的已实现方差作输入，并定义未来目标、单位和简单基线。",
+      "prerequisites": "Realized Variance是已实现方差；HAR组合日/周/月等历史尺度，详细估计作为扩展。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 26,
+      "date": "周一 11/9",
+      "topic": "volatility-forecasting-out-of-sample-evaluation",
+      "ids": [
+        3103
+      ],
+      "depth": "Advanced: feature contract",
+      "scope": "列出日/周/月数据的发布时间、前向填充规则和缺失状态；不使用预测时不可获得的新值。",
+      "prerequisites": "先读Forecast Horizons、Temporal Leakage；频率低不等于可以引用未来发布值。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 27,
+      "date": "周二 11/10",
+      "topic": "volatility-forecasting-out-of-sample-evaluation",
+      "ids": [
+        1996
+      ],
+      "depth": "Advanced: validation outline",
+      "scope": "只设计Lasso时间序列development folds和特征缩放，不执行整套投资回测。",
+      "prerequisites": "先复习Lasso、Walk-Forward与基线；具体预测目标使用本地Workbench契约。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 28,
+      "date": "周三 11/11",
+      "topic": "volatility-forecasting-out-of-sample-evaluation",
+      "ids": [
+        1677
+      ],
+      "depth": "Model selection",
+      "scope": "解释alpha、训练窗口、预测期限与Ridge稳定性，所有配置在development数据上选择。",
+      "prerequisites": "先复习Ridge与Hyperparameter Tuning。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 29,
+      "date": "周四 11/12",
+      "topic": "volatility-forecasting-out-of-sample-evaluation",
+      "ids": [
+        2126
+      ],
+      "depth": "Evaluation protocol",
+      "scope": "比较两个预测模型前先冻结数据、日期、指标与基线；最终测试不用于反复调整。",
+      "prerequisites": "先读Out-of-Sample Evaluation；本题题名是收益，举例可迁移到波动率但不能混淆目标。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 30,
+      "date": "周五 11/13",
+      "topic": "volatility-forecasting-out-of-sample-evaluation",
+      "ids": [
+        1937
+      ],
+      "depth": "Case outline",
+      "scope": "只讨论资产切片、数据口径与回归残差诊断；完整横截面因子模型作为扩展。",
+      "prerequisites": "先读Residual：实际值减预测值；核对同一时期和信息可用时间。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 31,
+      "date": "周一 11/16",
+      "topic": "volatility-forecasting-out-of-sample-evaluation",
+      "ids": [
+        1953
+      ],
+      "depth": "Case outline: second pass",
+      "scope": "补齐数据契约、实验追踪、模型产物、推理一致性、监控与回滚，复用Day 03的流程。",
+      "prerequisites": "先读Reproducibility、Model Versioning；本地Notebook继续承担数值实验。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 32,
+      "date": "周二 11/17",
+      "topic": "regime-changes-statistical-uncertainty-prediction-intervals",
+      "ids": [
+        1465
+      ],
+      "depth": "Conceptual",
+      "scope": "解释Distribution Shift与Extrapolation，训练范围外的输入为何可能失效，连接金融Regime Change。",
+      "prerequisites": "先读Regime Changes；模型能输出数值不等于有有效外推依据。",
+      "mode": "learn",
+      "minutes": {
+        "lesson": 15,
+        "notebook": 20,
+        "practice": 10
+      }
+    },
+    {
+      "day": 33,
+      "date": "周三 11/18",
+      "topic": "regime-changes-statistical-uncertainty-prediction-intervals",
+      "ids": [
+        1867
+      ],
+      "depth": "Uncertainty comparison",
+      "scope": "区分系数Confidence Interval与单次未来结果Prediction Interval；只说明假设与不同对象，不完成整题证明。",
+      "prerequisites": "先读Prediction Intervals；置信区间描述估计参数不确定性，预测区间还含新观测噪声。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 34,
+      "date": "周四 11/19",
+      "topic": "regime-changes-statistical-uncertainty-prediction-intervals",
+      "ids": [
+        1638
+      ],
+      "depth": "Conceptual",
+      "scope": "说明残差相关时独立样本标准误为何不可靠，连接区块估计与配对比较。",
+      "prerequisites": "先认识Autocorrelation；本题只分析依赖和评价假设，GLS推导作为扩展。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 35,
+      "date": "周五 11/20",
+      "topic": "logistic-regression-precision-recall-f1-class-imbalance",
+      "ids": [
+        2000
+      ],
+      "depth": "Derivation sketch",
+      "scope": "用已学sigmoid和交叉熵写梯度关键步骤，再说明概率与阈值的分工；不要求完整Hessian。",
+      "prerequisites": "复习Day 07、Day 10；先看本地NumPy Logistic Regression。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 36,
+      "date": "周一 11/23",
+      "topic": "reproducibility-model-versioning-serving-rollback",
+      "ids": [
+        1736
+      ],
+      "depth": "Case outline",
+      "scope": "只形成EDA→缺失处理→切分→Pipeline→指标→版本化产物的方案，明确训练与服务使用同一变换。",
+      "prerequisites": "EDA是Exploratory Data Analysis；完整网站Coding题不作为额外算法刷题。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 37,
+      "date": "周二 11/24",
+      "topic": "reproducibility-model-versioning-serving-rollback",
+      "ids": [
+        2152
+      ],
+      "depth": "Production diagnosis",
+      "scope": "检查输入schema、预处理、版本、真实标签延迟和服务指标；比较离线与线上预测一致性。",
+      "prerequisites": "先读Serving、Drift、Model Versioning。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 38,
+      "date": "周三 11/25",
+      "topic": "reproducibility-model-versioning-serving-rollback",
+      "ids": [
+        3102
+      ],
+      "depth": "Advanced: incident outline",
+      "scope": "给出定位、可安全回滚、证据保留和复验顺序；说明哪些证据支持数据变化，哪些支持实现故障。",
+      "prerequisites": "先复习Day 37，避免一看到低分就直接重训练。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 39,
+      "date": "周四 11/26",
+      "topic": "supervised-and-unsupervised-learning-baselines",
+      "ids": [
+        1866
+      ],
+      "depth": "Mock: regression foundations",
+      "scope": "口述模型、假设、残差与常见失效；重点是预测有效性，不把因果或无偏推断当作自动结论。",
+      "prerequisites": "复习Linear Regression、Data Leakage、Multicollinearity。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 40,
+      "date": "周五 11/27",
+      "topic": "train-validation-test-split",
+      "ids": [
+        1261,
+        1078
+      ],
+      "depth": "Mock: evaluation and regularization",
+      "scope": "不看答案各用2分钟回答，再回答一个追问；重点检查验证角色及Lasso限制。",
+      "prerequisites": "复习Day 05、Day 06；缓冲周按错误安排重做。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 41,
+      "date": "周一 11/30",
+      "topic": "train-validation-test-split",
+      "ids": [
+        1118,
+        1447
+      ],
+      "depth": "Buffer: remediation",
+      "scope": "重做R-Squared和Multicollinearity；若已熟悉，用最弱的Regression题替换，不增加新题。",
+      "prerequisites": "复习自己的错题记录。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 42,
+      "date": "周二 12/1",
+      "topic": "drift-retraining",
+      "ids": [
+        3100
+      ],
+      "depth": "Advanced: monitoring outline",
+      "scope": "分别讨论Feature Distribution与Target Distribution变化，以及标签何时才能观测。",
+      "prerequisites": "先读Drift；概念分析，不要求完成完整分布适配项目。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 43,
+      "date": "周三 12/2",
+      "topic": "drift-retraining",
+      "ids": [
+        3102
+      ],
+      "depth": "Buffer: incident replay",
+      "scope": "重新解释真实标签延迟、预处理故障与数据变化的排查；依据错题补漏。",
+      "prerequisites": "复习Day 37、Day 38、Day 42。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 44,
+      "date": "周四 12/3",
+      "topic": "drift-retraining",
+      "ids": [
+        3322
+      ],
+      "depth": "Retraining decision",
+      "scope": "说明重训练触发条件、候选验证、基线比较和回滚；不把漂移告警等同于部署新模型。",
+      "prerequisites": "先读Retraining与Drift。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    },
+    {
+      "day": 45,
+      "date": "周五 12/4",
+      "topic": "drift-retraining",
+      "ids": [
+        1966
+      ],
+      "depth": "Final mock",
+      "scope": "用自己项目讲目标、数据、基线、切分、指标、失败与下一步；选最弱两题补问。",
+      "prerequisites": "仅复习，不再加入未学过的高级模型。",
+      "mode": "review",
+      "minutes": {
+        "lesson": 10,
+        "notebook": 15,
+        "practice": 20
+      }
+    }
+  ]
+}

@@ -50,3 +50,5 @@ jobs/raw
 # Work in progress
 /_work-in-progress/
 .tmp/
+
+.study-venv/

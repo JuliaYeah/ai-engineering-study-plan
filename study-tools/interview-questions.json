@@ -1,0 +1,2494 @@
+[
+  {
+    "id": "Q001",
+    "question": "How do LLMs work?"
+  },
+  {
+    "id": "Q002",
+    "question": "How do transformers work?"
+  },
+  {
+    "id": "Q003",
+    "question": "What is tokenization and how does it affect LLM performance?"
+  },
+  {
+    "id": "Q004",
+    "question": "What is the difference between pre-training and fine-tuning?"
+  },
+  {
+    "id": "Q005",
+    "question": "Explain context windows and their limitations."
+  },
+  {
+    "id": "Q006",
+    "question": "What are scaling laws and why do they matter?"
+  },
+  {
+    "id": "Q007",
+    "question": "What is temperature and top-p sampling? How do they affect outputs?"
+  },
+  {
+    "id": "Q008",
+    "question": "Explain few-shot learning and chain-of-thought prompting."
+  },
+  {
+    "id": "Q009",
+    "question": "What is KV cache? How does it help in LLM inference?"
+  },
+  {
+    "id": "Q010",
+    "question": "Can you describe the difference between GenAI and traditional programming in the context of solving a real-world problem?"
+  },
+  {
+    "id": "Q011",
+    "question": "How do you ensure the outputs from large language models are consistent and accurate, especially when dealing with complex multi-step workflows?"
+  },
+  {
+    "id": "Q012",
+    "question": "What's an RAG model? Explain the complete process."
+  },
+  {
+    "id": "Q013",
+    "question": "What are embeddings?"
+  },
+  {
+    "id": "Q014",
+    "question": "How does chunking happen?"
+  },
+  {
+    "id": "Q015",
+    "question": "What is the difference between discriminative and generative models?"
+  },
+  {
+    "id": "Q016",
+    "question": "What is graph RAG? How does it differ from standard RAG?"
+  },
+  {
+    "id": "Q017",
+    "question": "What is reflection in the context of LLM agents?"
+  },
+  {
+    "id": "Q018",
+    "question": "Explain KL divergence."
+  },
+  {
+    "id": "Q019",
+    "question": "What is the difference between symbolic and connectionist AI?"
+  },
+  {
+    "id": "Q020",
+    "question": "Describe the types of text summarization techniques and when you'd use each."
+  },
+  {
+    "id": "Q021",
+    "question": "How do you do memory management and context management with LLMs?"
+  },
+  {
+    "id": "Q022",
+    "question": "What is the self-attention mechanism? How does it differ from multi-head attention?"
+  },
+  {
+    "id": "Q023",
+    "question": "What is grouped query attention and how does it differ from standard multi-head attention?"
+  },
+  {
+    "id": "Q024",
+    "question": "What are the differences between BPE, WordPiece, and character-level tokenization? What are the trade-offs?"
+  },
+  {
+    "id": "Q025",
+    "question": "Explain the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures. When would you use each?"
+  },
+  {
+    "id": "Q026",
+    "question": "Why are decoder-only models dominant even for non-generation tasks?"
+  },
+  {
+    "id": "Q027",
+    "question": "What is positional encoding and why is it needed in Transformers?"
+  },
+  {
+    "id": "Q028",
+    "question": "What are the key MMLU, BigBench, and HumanEval benchmarks? What does each measure and what are its limitations?"
+  },
+  {
+    "id": "Q029",
+    "question": "What is the difference between RLHF and DPO? When would you prefer one over the other?"
+  },
+  {
+    "id": "Q030",
+    "question": "What is Mixture of Experts (MoE)? How does it improve efficiency?"
+  },
+  {
+    "id": "Q031",
+    "question": "How do LLMs actually generate text? Explain the autoregressive decoding process."
+  },
+  {
+    "id": "Q032",
+    "question": "What are decoding strategies like beam search, top-k, and top-p? When do you use each?"
+  },
+  {
+    "id": "Q033",
+    "question": "What is FlashAttention and how does it work?"
+  },
+  {
+    "id": "Q034",
+    "question": "Why is LLM inference memory-bounded?"
+  },
+  {
+    "id": "Q035",
+    "question": "How do stop sequences work in LLMs?"
+  },
+  {
+    "id": "Q036",
+    "question": "What is the context window and what happens when you exceed it? How do you handle long documents?"
+  },
+  {
+    "id": "Q037",
+    "question": "What risks arise from applying a general-purpose tokenizer to specialized domains like legal or medical text?"
+  },
+  {
+    "id": "Q492",
+    "question": "What is the self-attention mechanism?"
+  },
+  {
+    "id": "Q038",
+    "question": "Design a RAG system for a customer support chatbot. How do you evaluate it? (reported across multiple companies)"
+  },
+  {
+    "id": "Q039",
+    "question": "How would you design an LLM-powered enterprise search system?"
+  },
+  {
+    "id": "Q040",
+    "question": "Design a generative AI document-processing pipeline for unstructured data (emails, PDFs, images) to automate workflows like claims processing."
+  },
+  {
+    "id": "Q041",
+    "question": "How would you use GPT-4 to generate accurate answers based on proprietary documents?"
+  },
+  {
+    "id": "Q042",
+    "question": "Design a generative QA assistant for your company's knowledge base."
+  },
+  {
+    "id": "Q043",
+    "question": "You're making a system that processes huge PDF reports. How would you handle the problem of not keeping an entire report's context when splitting a document for a chatbot?"
+  },
+  {
+    "id": "Q044",
+    "question": "How would you efficiently generate and store embeddings for products and queries in a chatbot application?"
+  },
+  {
+    "id": "Q045",
+    "question": "How would you handle the problem of a model hallucinating when no information is found in the given context?"
+  },
+  {
+    "id": "Q046",
+    "question": "What retrieval-augmented generation (RAG) projects have you worked on?"
+  },
+  {
+    "id": "Q047",
+    "question": "Design a question-answering system over internal documentation."
+  },
+  {
+    "id": "Q048",
+    "question": "How do you ensure the quality of data that an LLM interacts with?"
+  },
+  {
+    "id": "Q049",
+    "question": "Compare sparse vs. dense retrieval. When would you use each?"
+  },
+  {
+    "id": "Q050",
+    "question": "What are common RAG failure points and how do you debug them?"
+  },
+  {
+    "id": "Q051",
+    "question": "How do you protect sensitive/confidential data in a RAG pipeline?"
+  },
+  {
+    "id": "Q052",
+    "question": "What vector databases have you used? Which ones and why?"
+  },
+  {
+    "id": "Q053",
+    "question": "You have a financial report where page 1 says \"all amounts in thousands.\" How do you handle document-wide context when chunking page by page?"
+  },
+  {
+    "id": "Q054",
+    "question": "What is hybrid search? When would you combine vector search with keyword search (BM25)?"
+  },
+  {
+    "id": "Q055",
+    "question": "What is re-ranking and why is it needed on top of vector retrieval? Explain cross-encoder vs. bi-encoder."
+  },
+  {
+    "id": "Q056",
+    "question": "How do you scale a RAG system to 10M+ articles? Discuss sharding, caching, and retrieval optimization."
+  },
+  {
+    "id": "Q057",
+    "question": "Your RAG system returns relevant documents but users still can't find the answer. How do you transform it from a search engine into an answer engine?"
+  },
+  {
+    "id": "Q058",
+    "question": "How do you evaluate a RAG pipeline? What metrics would you use? (NDCG, MRR, precision@k, recall)"
+  },
+  {
+    "id": "Q059",
+    "question": "How do you handle citations and source attribution in a RAG system?"
+  },
+  {
+    "id": "Q060",
+    "question": "How does Approximate Nearest Neighbor (ANN) search work? Explain HNSW indexing."
+  },
+  {
+    "id": "Q061",
+    "question": "Where do embeddings fail? Discuss negation, temporal reasoning, and precision requirements."
+  },
+  {
+    "id": "Q062",
+    "question": "What is semantic caching and how can it reduce cost and latency in a RAG system?"
+  },
+  {
+    "id": "Q063",
+    "question": "Design a RAG system that maintains context across multi-turn conversations."
+  },
+  {
+    "id": "Q064",
+    "question": "What are the key tradeoffs when designing a RAG system (latency vs accuracy, chunk size vs context, cost vs quality)?"
+  },
+  {
+    "id": "Q065",
+    "question": "How do you optimize RAG latency in production?"
+  },
+  {
+    "id": "Q471",
+    "question": "What's RAG? Explain the complete process."
+  },
+  {
+    "id": "Q472",
+    "question": "Text vs Vector search. When would you use each?"
+  },
+  {
+    "id": "Q473",
+    "question": "You're making a system for huge PDF reports. How would you process them?"
+  },
+  {
+    "id": "Q474",
+    "question": "What is semantic caching?"
+  },
+  {
+    "id": "Q475",
+    "question": "How do you scale a RAG system to 10M+ articles?"
+  },
+  {
+    "id": "Q476",
+    "question": "What are the key tradeoffs when designing a RAG system?"
+  },
+  {
+    "id": "Q066",
+    "question": "What is an AI agent and what is its role in a broader system?"
+  },
+  {
+    "id": "Q067",
+    "question": "What's the difference between an agent and a simple LLM chain? (reported across multiple companies)"
+  },
+  {
+    "id": "Q068",
+    "question": "What makes an AI system truly agentic and what does not qualify?"
+  },
+  {
+    "id": "Q069",
+    "question": "When is an agentic architecture the wrong solution?"
+  },
+  {
+    "id": "Q070",
+    "question": "How do you define and enforce agent autonomy boundaries?"
+  },
+  {
+    "id": "Q071",
+    "question": "What are the essential components of an agent beyond an LLM?"
+  },
+  {
+    "id": "Q072",
+    "question": "How do you prevent agents from over-reasoning or over-planning?"
+  },
+  {
+    "id": "Q073",
+    "question": "Walk through a production-ready agent architecture."
+  },
+  {
+    "id": "Q074",
+    "question": "What logic belongs in the orchestrator vs the LLM?"
+  },
+  {
+    "id": "Q075",
+    "question": "How do you design a safe and debuggable agent loop?"
+  },
+  {
+    "id": "Q076",
+    "question": "How do you implement termination conditions in long-running agents?"
+  },
+  {
+    "id": "Q077",
+    "question": "How do agents decompose high-level goals into executable steps?"
+  },
+  {
+    "id": "Q078",
+    "question": "Chain-of-thought vs tree-of-thought vs graph planning - when would you use each?"
+  },
+  {
+    "id": "Q079",
+    "question": "How do you detect and stop infinite planning loops?"
+  },
+  {
+    "id": "Q080",
+    "question": "How do you handle partial observability or missing information?"
+  },
+  {
+    "id": "Q081",
+    "question": "How do agents decide a task is \"done\"?"
+  },
+  {
+    "id": "Q082",
+    "question": "What planning failures are hardest to detect in production?"
+  },
+  {
+    "id": "Q083",
+    "question": "How do agents decide which tool to use?"
+  },
+  {
+    "id": "Q084",
+    "question": "How do you design tool schemas that reduce hallucinated actions?"
+  },
+  {
+    "id": "Q085",
+    "question": "How do you sandbox tool execution safely?"
+  },
+  {
+    "id": "Q086",
+    "question": "How do you handle tool failures, retries, and idempotency?"
+  },
+  {
+    "id": "Q087",
+    "question": "What are the biggest security risks with tool-using agents?"
+  },
+  {
+    "id": "Q088",
+    "question": "How do you control cost explosions from tool calls?"
+  },
+  {
+    "id": "Q089",
+    "question": "Stateless vs stateful agents - tradeoffs and use cases?"
+  },
+  {
+    "id": "Q090",
+    "question": "How do you version and roll back agent behavior?"
+  },
+  {
+    "id": "Q091",
+    "question": "Describe how you would architect an AI agent system, including the agent loop, tool interfaces, memory design, orchestration technologies, and safety considerations."
+  },
+  {
+    "id": "Q092",
+    "question": "Design an agent analyzing customer support tickets, drafting responses, and escalating complex issues."
+  },
+  {
+    "id": "Q093",
+    "question": "Create a system where agents collaborate on research reports with citations."
+  },
+  {
+    "id": "Q094",
+    "question": "Build an agent reviewing code and suggesting improvements."
+  },
+  {
+    "id": "Q095",
+    "question": "How do you explain agentic systems to non-technical stakeholders?"
+  },
+  {
+    "id": "Q096",
+    "question": "What types of memory do agentic systems need? Describe working, episodic, semantic, and procedural memory."
+  },
+  {
+    "id": "Q097",
+    "question": "How do you design long-term memory without polluting it?"
+  },
+  {
+    "id": "Q098",
+    "question": "How do you implement human-in-the-loop (HIL) patterns and decide when to trigger human review?"
+  },
+  {
+    "id": "Q099",
+    "question": "How do you monitor and observe autonomous agent behavior in production?"
+  },
+  {
+    "id": "Q100",
+    "question": "How do you architect agents for regulated or compliance-heavy domains (e.g., financial, healthcare)?"
+  },
+  {
+    "id": "Q101",
+    "question": "When do you use orchestration vs choreography patterns for multi-agent systems?"
+  },
+  {
+    "id": "Q102",
+    "question": "How do you filter PII in agent pipelines before data reaches the LLM?"
+  },
+  {
+    "id": "Q103",
+    "question": "How do you evaluate agent performance? What metrics matter (tool selection quality, action advancement, context adherence)?"
+  },
+  {
+    "id": "Q477",
+    "question": "What makes an AI system agentic?"
+  },
+  {
+    "id": "Q478",
+    "question": "When agent is the wrong solution?"
+  },
+  {
+    "id": "Q479",
+    "question": "How do you create an agent for analyzing customer support tickets, drafting responses, and escalating complex issues."
+  },
+  {
+    "id": "Q104",
+    "question": "When would you fine-tune vs use prompt engineering? (reported across multiple companies)"
+  },
+  {
+    "id": "Q105",
+    "question": "What is PEFT/LoRA and when would you use it?"
+  },
+  {
+    "id": "Q106",
+    "question": "What is QLoRA and how does it differ from LoRA? When would you choose one over the other?"
+  },
+  {
+    "id": "Q107",
+    "question": "What is RLHF and why is it important?"
+  },
+  {
+    "id": "Q108",
+    "question": "Fine-tune or use prompt-engineered RAG?"
+  },
+  {
+    "id": "Q109",
+    "question": "How would you design a model that can solve math problems? Walk through data collection, supervised fine-tuning, post-training, and evaluation."
+  },
+  {
+    "id": "Q110",
+    "question": "How would you design a scalable and efficient system for training a large language model, considering both computational and data constraints?"
+  },
+  {
+    "id": "Q111",
+    "question": "Explain the RLHF pipeline: supervised fine-tuning, reward model training, and PPO. How does DPO simplify this?"
+  },
+  {
+    "id": "Q112",
+    "question": "What is instruction tuning and how does it differ from pre-training?"
+  },
+  {
+    "id": "Q113",
+    "question": "What is speculative decoding and how does it speed up inference?"
+  },
+  {
+    "id": "Q114",
+    "question": "How do you convert implicit user behavior (edits, acceptance, rejection) into training signals for model improvement?"
+  },
+  {
+    "id": "Q115",
+    "question": "Explain quantization. What are the trade-offs between model size, speed, and accuracy?"
+  },
+  {
+    "id": "Q491",
+    "question": "When would you fine-tune vs use prompt engineering vs RAG?"
+  },
+  {
+    "id": "Q116",
+    "question": "What metrics do you consider when benchmarking and evaluating LLM performance?"
+  },
+  {
+    "id": "Q117",
+    "question": "How do you evaluate a chatbot? (candidates wish they prepared for this)"
+  },
+  {
+    "id": "Q118",
+    "question": "How do you detect and mitigate hallucinations in production? (reported across multiple companies)"
+  },
+  {
+    "id": "Q119",
+    "question": "How would you prevent factual errors in a summarization system?"
+  },
+  {
+    "id": "Q120",
+    "question": "How would you reduce hallucinations in a medical chatbot?"
+  },
+  {
+    "id": "Q121",
+    "question": "What happens when the LLM is confidently wrong? How do you debug a RAG chatbot giving confident but wrong answers? (candidates wish they prepared for this)"
+  },
+  {
+    "id": "Q122",
+    "question": "Explain SHAP, LIME, and model interpretability."
+  },
+  {
+    "id": "Q123",
+    "question": "How do you detect and mitigate hallucinations?"
+  },
+  {
+    "id": "Q124",
+    "question": "Explain evaluation metrics: perplexity, ROUGE, BLEU. What are the pitfalls of n-gram-based metrics?"
+  },
+  {
+    "id": "Q125",
+    "question": "What are your testing strategies for non-deterministic outputs?"
+  },
+  {
+    "id": "Q126",
+    "question": "How do you measure accuracy in generative systems where traditional metrics don't apply?"
+  },
+  {
+    "id": "Q127",
+    "question": "What operational/business metrics matter for AI systems beyond accuracy? (win rate, deflection rate, p95 latency)"
+  },
+  {
+    "id": "Q128",
+    "question": "How would you evaluate and monitor a model in production, not just offline?"
+  },
+  {
+    "id": "Q129",
+    "question": "How have you addressed bias/fairness in your models? Can you provide an example of a trade-off you've faced?"
+  },
+  {
+    "id": "Q130",
+    "question": "What is time to first token and why does it matter for user experience?"
+  },
+  {
+    "id": "Q131",
+    "question": "How do you measure hallucination rate in production?"
+  },
+  {
+    "id": "Q132",
+    "question": "What is \"vibes-based\" evaluation vs. a formal eval framework? How do you build proper evals?"
+  },
+  {
+    "id": "Q133",
+    "question": "How do you build a golden dataset for evaluation? How do you use it for regression testing?"
+  },
+  {
+    "id": "Q134",
+    "question": "How does the system get better over time? Describe feedback and reinforcement loops."
+  },
+  {
+    "id": "Q135",
+    "question": "How do you decide success metrics for an ML model?"
+  },
+  {
+    "id": "Q136",
+    "question": "How would you implement A/B testing for different prompt variations?"
+  },
+  {
+    "id": "Q137",
+    "question": "How would you test a new model before full deployment? Describe A/B testing, canary, interleaved, and shadow testing strategies."
+  },
+  {
+    "id": "Q138",
+    "question": "Two models have identical accuracy but different confidence levels. Which do you choose? Explain model calibration."
+  },
+  {
+    "id": "Q139",
+    "question": "A production chatbot's accuracy dropped from 95% to 80% in six weeks. How do you diagnose the root cause before retraining?"
+  },
+  {
+    "id": "Q480",
+    "question": "How do you ensure the output from LLMs is consistent and accurate?"
+  },
+  {
+    "id": "Q481",
+    "question": "How do you evaluate a chatbot?"
+  },
+  {
+    "id": "Q482",
+    "question": "What metrics do you consider when evaluating LLM performance?"
+  },
+  {
+    "id": "Q483",
+    "question": "How do you build a golden dataset for evaluation?"
+  },
+  {
+    "id": "Q484",
+    "question": "How do you debug a RAG chatbot giving confident but wrong answers?"
+  },
+  {
+    "id": "Q485",
+    "question": "How do you evaluate a RAG pipeline?"
+  },
+  {
+    "id": "Q140",
+    "question": "How do you approach data pre-processing and feature engineering?"
+  },
+  {
+    "id": "Q141",
+    "question": "Explain SQL versus NoSQL databases for AI workloads."
+  },
+  {
+    "id": "Q142",
+    "question": "What steps would you take to diagnose performance bugs in a model?"
+  },
+  {
+    "id": "Q143",
+    "question": "Should you optimize for latency or throughput? (for a personal assistant with one request)"
+  },
+  {
+    "id": "Q144",
+    "question": "Should you use data parallelism for a single-request personal assistant? Why or why not?"
+  },
+  {
+    "id": "Q145",
+    "question": "Explain how Transformers work. Why are they foundational? (reported across multiple companies)"
+  },
+  {
+    "id": "Q146",
+    "question": "How would you handle real-time versus batch processing for data updates? When is one preferred over the other?"
+  },
+  {
+    "id": "Q147",
+    "question": "How do you ingest and process different types of data (structured, unstructured, event data)?"
+  },
+  {
+    "id": "Q148",
+    "question": "Explain the bias-variance tradeoff in simple terms."
+  },
+  {
+    "id": "Q149",
+    "question": "Why are neural networks usually not the first choice for tabular data?"
+  },
+  {
+    "id": "Q150",
+    "question": "How do you handle imbalanced datasets in real projects?"
+  },
+  {
+    "id": "Q151",
+    "question": "Explain the difference between RNN and LSTM."
+  },
+  {
+    "id": "Q152",
+    "question": "Debug a model that runs but doesn't learn. Identify broadcasting errors and dimension mismatches."
+  },
+  {
+    "id": "Q153",
+    "question": "Statistics questions: probability, distributions, regression, Bayesian analysis, hypothesis testing."
+  },
+  {
+    "id": "Q154",
+    "question": "Explain supervised vs. unsupervised learning. When would you use each?"
+  },
+  {
+    "id": "Q155",
+    "question": "What is regularization? Compare L1, L2, and dropout."
+  },
+  {
+    "id": "Q156",
+    "question": "What is feature scaling and when is it necessary? Compare normalization vs standardization."
+  },
+  {
+    "id": "Q157",
+    "question": "Implement cosine similarity in NumPy."
+  },
+  {
+    "id": "Q158",
+    "question": "How do you handle race conditions in your code?"
+  },
+  {
+    "id": "Q159",
+    "question": "What is the Global Interpreter Lock (GIL) in Python?"
+  },
+  {
+    "id": "Q160",
+    "question": "What is something unique about Python when it comes to concurrency?"
+  },
+  {
+    "id": "Q161",
+    "question": "What are some problems you can run into when using asynchronous programming in Python?"
+  },
+  {
+    "id": "Q162",
+    "question": "What is Docker?"
+  },
+  {
+    "id": "Q163",
+    "question": "Why do we use Selenium?"
+  },
+  {
+    "id": "Q164",
+    "question": "Have you heard about Redis?"
+  },
+  {
+    "id": "Q165",
+    "question": "Explain the JavaScript event loop."
+  },
+  {
+    "id": "Q166",
+    "question": "How do you call models via API/SDK? How do you handle retries, timeouts, and logging?"
+  },
+  {
+    "id": "Q167",
+    "question": "Which AI development platforms or tools do you regularly use, and why?"
+  },
+  {
+    "id": "Q168",
+    "question": "Explain memory leaks and garbage collection in Python."
+  },
+  {
+    "id": "Q169",
+    "question": "What is the difference between class methods and static methods?"
+  },
+  {
+    "id": "Q170",
+    "question": "Explain super() and Method Resolution Order in multiple inheritance."
+  },
+  {
+    "id": "Q171",
+    "question": "How do you debug Python code in production? \"In production, there will be no VS Code.\""
+  },
+  {
+    "id": "Q172",
+    "question": "How do you use asyncio for concurrent I/O in Python? When would you use threading vs. multiprocessing instead?"
+  },
+  {
+    "id": "Q173",
+    "question": "How do you optimize SQL queries? Explain the order of execution in SQL."
+  },
+  {
+    "id": "Q174",
+    "question": "What are Git branching strategies for deployment? How do you perform a rebase? How do you handle merge conflicts?"
+  },
+  {
+    "id": "Q175",
+    "question": "Have you worked with real-time communication technologies like WebRTC?"
+  },
+  {
+    "id": "Q176",
+    "question": "How would you design a large-scale AI model deployment system?"
+  },
+  {
+    "id": "Q177",
+    "question": "How would you design a distributed training system for deep learning?"
+  },
+  {
+    "id": "Q178",
+    "question": "How would you design a scalable data pipeline for ML applications?"
+  },
+  {
+    "id": "Q179",
+    "question": "How would you design a GenAI system to handle traffic spikes without overwhelming the model provider?"
+  },
+  {
+    "id": "Q180",
+    "question": "How would you monitor production AI systems?"
+  },
+  {
+    "id": "Q181",
+    "question": "What are major scaling challenges for LLM-powered applications?"
+  },
+  {
+    "id": "Q486",
+    "question": "What operational/business metrics matter for AI systems?"
+  },
+  {
+    "id": "Q487",
+    "question": "How would you test a new model before full deployment?"
+  },
+  {
+    "id": "Q182",
+    "question": "Your app gets 1M queries/day - how do you optimize cost? (reported across multiple companies)"
+  },
+  {
+    "id": "Q183",
+    "question": "How do you reduce token costs at scale? (candidates wish they prepared for this)"
+  },
+  {
+    "id": "Q184",
+    "question": "How would you think about cost and capacity planning for an LLM-powered application at scale?"
+  },
+  {
+    "id": "Q185",
+    "question": "How would you make GPT-based API calls cost-efficient under heavy load?"
+  },
+  {
+    "id": "Q186",
+    "question": "How would you reduce token costs?"
+  },
+  {
+    "id": "Q187",
+    "question": "Explain quantization and model distillation for inference optimization."
+  },
+  {
+    "id": "Q188",
+    "question": "Describe the latency/cost/relevancy tradeoff triangle in GenAI systems. How do you manage all three?"
+  },
+  {
+    "id": "Q189",
+    "question": "How do you reduce latency in GenAI applications?"
+  },
+  {
+    "id": "Q190",
+    "question": "Cost vs. quality trade-offs: when is a small open-source model \"good enough\" vs. GPT-4-class?"
+  },
+  {
+    "id": "Q191",
+    "question": "By trimming prompts and caching embeddings, how would you reduce API spend? Walk through a before-and-after cost breakdown."
+  },
+  {
+    "id": "Q192",
+    "question": "Explain multi-layer caching strategies: retrieval cache, prompt cache, and response cache."
+  },
+  {
+    "id": "Q193",
+    "question": "What is model tiering? When do you route to a small distilled model vs. a large LLM?"
+  },
+  {
+    "id": "Q194",
+    "question": "What is prompt compression and how does it reduce cost?"
+  },
+  {
+    "id": "Q195",
+    "question": "Latency vs. throughput optimization for LLM serving - what are the trade-offs?"
+  },
+  {
+    "id": "Q196",
+    "question": "How would you benchmark each LLM call in a multi-step pipeline to identify latency bottlenecks?"
+  },
+  {
+    "id": "Q197",
+    "question": "Estimate the budget for a RAG pipeline at enterprise scale (e.g., 300,000 legal contracts)."
+  },
+  {
+    "id": "Q198",
+    "question": "What's the real bottleneck in LLM serving throughput? How does PagedAttention address it?"
+  },
+  {
+    "id": "Q488",
+    "question": "How do you reduce token costs?"
+  },
+  {
+    "id": "Q489",
+    "question": "Cost vs. quality trade-offs: when is a small open-source model \"good enough\"?"
+  },
+  {
+    "id": "Q490",
+    "question": "Your app gets 1M queries/day - how do you optimize cost?"
+  },
+  {
+    "id": "Q199",
+    "question": "When and how would you implement LLM guardrails?"
+  },
+  {
+    "id": "Q200",
+    "question": "How would you design a language model that minimizes harmful outputs while still being useful and expressive?"
+  },
+  {
+    "id": "Q201",
+    "question": "How would you build a system that detects whether content violates policy or contains offensive material?"
+  },
+  {
+    "id": "Q202",
+    "question": "How do you protect against prompt injection and jailbreaking?"
+  },
+  {
+    "id": "Q203",
+    "question": "What steps would you take to handle exceptions in a GenAI application?"
+  },
+  {
+    "id": "Q204",
+    "question": "Explain Constitutional AI and alignment considerations."
+  },
+  {
+    "id": "Q205",
+    "question": "How do you handle data privacy and PII in prompts and logs?"
+  },
+  {
+    "id": "Q206",
+    "question": "How do you address bias in training data and generated content?"
+  },
+  {
+    "id": "Q207",
+    "question": "How do you red-team an LLM system?"
+  },
+  {
+    "id": "Q208",
+    "question": "Your application generates code that gets executed. How do you prevent malicious code generation and execution?"
+  },
+  {
+    "id": "Q288",
+    "question": "Word Search on Grid using Trie + DFS (LeetCode Medium)."
+  },
+  {
+    "id": "Q289",
+    "question": "LRU Cache with O(1) time complexity using HashMap + Doubly Linked List."
+  },
+  {
+    "id": "Q290",
+    "question": "Prime numbers between 0 and 100."
+  },
+  {
+    "id": "Q291",
+    "question": "Check whether two strings are anagrams of each other."
+  },
+  {
+    "id": "Q292",
+    "question": "Serialize Binary Tree (space-optimized, discussion-based with compression techniques and backward compatibility)."
+  },
+  {
+    "id": "Q293",
+    "question": "LeetCode 2408: Design SQL."
+  },
+  {
+    "id": "Q294",
+    "question": "LeetCode 981: Time Based Key-Value Store."
+  },
+  {
+    "id": "Q295",
+    "question": "Unix cd command with symbolic link resolution."
+  },
+  {
+    "id": "Q296",
+    "question": "Reverse a linked list with constraints (AI-assisted coding round - candidate must prompt LLM effectively)."
+  },
+  {
+    "id": "Q297",
+    "question": "Find the Excel column name from its column number (e.g., column 702 = \"AAA\")."
+  },
+  {
+    "id": "Q298",
+    "question": "Construct a tree from a list where index = node value and value = parent node (LC Medium)."
+  },
+  {
+    "id": "Q299",
+    "question": "CodeSignal GCA: 4 questions in 70 min - two medium-hard, one graph, one greedy with bit ops."
+  },
+  {
+    "id": "Q300",
+    "question": "Union Find problem + AI question (use DistilBERT to categorize CSV text with sentiments, must pass 5 test cases checking embeddings length, output structure)."
+  },
+  {
+    "id": "Q301",
+    "question": "Write code for a banking application using HashMap/TreeMap. Design a task executor - store and pause tasks."
+  },
+  {
+    "id": "Q302",
+    "question": "A gRPC service is timing out. Add an async boundary, handle failure modes (retries, dead letter queues, idempotency), scale with multi-threading or message queues."
+  },
+  {
+    "id": "Q303",
+    "question": "Discuss serialization approaches, compression techniques, streaming formats, backward compatibility, and corruption recovery - no code written, pure discussion. (Microsoft senior)"
+  },
+  {
+    "id": "Q304",
+    "question": "KV Store Serialize/Deserialize."
+  },
+  {
+    "id": "Q305",
+    "question": "In-Memory Database: Implement SQL-Like Operations."
+  },
+  {
+    "id": "Q306",
+    "question": "Versioned key-value store implementation (Time Travel Hash variant)."
+  },
+  {
+    "id": "Q307",
+    "question": "Credits management system - track credit state across issued and used credits with different expiration rules and usage requirements, with increasing complexity."
+  },
+  {
+    "id": "Q308",
+    "question": "Refactoring round: 100-120 lines of intentionally convoluted, deeply nested code. Refactor for long-term maintainability while keeping existing tests green and extending to new ones."
+  },
+  {
+    "id": "Q309",
+    "question": "4-level progressive coding assessment: Level 1 (SET/GET/DELETE), Level 2 (SCAN/SCAN_BY_PREFIX), Level 3 (timestamped operations + TTL), Level 4 (file compression/decompression with storage management)."
+  },
+  {
+    "id": "Q310",
+    "question": "1-NN (simplest KNN case) and feedforward neural network implementation."
+  },
+  {
+    "id": "Q311",
+    "question": "Transformer bug-fixing exercise with position embedding and KV cache issues."
+  },
+  {
+    "id": "Q312",
+    "question": "PyTorch code completion with complexity analysis."
+  },
+  {
+    "id": "Q313",
+    "question": "Implement Multi-Head Attention from memory."
+  },
+  {
+    "id": "Q314",
+    "question": "Implement a full Transformer layer from memory."
+  },
+  {
+    "id": "Q315",
+    "question": "Implement LoRA adapter from scratch."
+  },
+  {
+    "id": "Q316",
+    "question": "Implement efficient LLM API batch processing."
+  },
+  {
+    "id": "Q317",
+    "question": "Debug code handling embeddings."
+  },
+  {
+    "id": "Q318",
+    "question": "Write scripts preparing text for fine-tuning."
+  },
+  {
+    "id": "Q319",
+    "question": "Build a gRPC service for financial report generation (async conversion, thread management, error handling, batch processing)."
+  },
+  {
+    "id": "Q320",
+    "question": "Implement neural networks, LSTMs, and RNNs from scratch using NumPy or PyTorch."
+  },
+  {
+    "id": "Q321",
+    "question": "Implement cached attention and grouped query attention variants."
+  },
+  {
+    "id": "Q322",
+    "question": "Implement beam search, top-k, and top-p decoding strategies from scratch."
+  },
+  {
+    "id": "Q323",
+    "question": "Implement autoregressive generation with top-p sampling."
+  },
+  {
+    "id": "Q324",
+    "question": "Implement logistic regression with SGD, L2 regularization, and early stopping in NumPy."
+  },
+  {
+    "id": "Q325",
+    "question": "Implement stratified K-fold splitting."
+  },
+  {
+    "id": "Q326",
+    "question": "Speed coding: given a complicated JSON file, extract a specific part following some pattern, then feed that to an AI model and get the summary. 30-minute time limit, browser/ChatGPT allowed."
+  },
+  {
+    "id": "Q327",
+    "question": "Design a concurrent web crawler handling robots.txt, rate limiting, and circular references while maintaining data integrity and freshness."
+  },
+  {
+    "id": "Q493",
+    "question": "Implement a website crawler (my personal experience)"
+  },
+  {
+    "id": "Q494",
+    "question": "Refactor 100-120 lines of convoluted, deeply nested code."
+  },
+  {
+    "id": "Q495",
+    "question": "Build a key-value database starting with basic operations (SET/GET/DELETE)."
+  },
+  {
+    "id": "Q496",
+    "question": "RLE encoding (my personal experience)."
+  },
+  {
+    "id": "Q497",
+    "question": "LRU Cache with O(1) time complexity."
+  },
+  {
+    "id": "Q209",
+    "question": "Design ChatGPT."
+  },
+  {
+    "id": "Q210",
+    "question": "Design our Claude chat service."
+  },
+  {
+    "id": "Q211",
+    "question": "Design a small language learning model that could run on a phone while making sure it's polite."
+  },
+  {
+    "id": "Q212",
+    "question": "Here's a junior developer's design for an inference batching system. Can you review it and explain what you'd change or improve?"
+  },
+  {
+    "id": "Q213",
+    "question": "Design the OpenAI Playground - specifically the feature that lets developers simulate full conversations and threads."
+  },
+  {
+    "id": "Q214",
+    "question": "Design a real-time chatbot API (low-latency handling, session management, concurrency, safety filters)."
+  },
+  {
+    "id": "Q215",
+    "question": "Design a Document Q&A Assistant."
+  },
+  {
+    "id": "Q216",
+    "question": "Design a Hallucination-Free Banking Chatbot."
+  },
+  {
+    "id": "Q217",
+    "question": "Design a Hospital Voice Assistant (handle noise, privacy, latency, domain vocabulary)."
+  },
+  {
+    "id": "Q218",
+    "question": "Design a Feedback Loop for Writing Tools."
+  },
+  {
+    "id": "Q219",
+    "question": "Design a Legal Contract Generation system with compliance requirements."
+  },
+  {
+    "id": "Q220",
+    "question": "Design an AI Search system scaling to 10M+ articles."
+  },
+  {
+    "id": "Q221",
+    "question": "Design a Resume Classifier for Team Routing."
+  },
+  {
+    "id": "Q222",
+    "question": "Design an AI-powered Candidate Sourcing System with 750M profiles, semantic search, and <500ms latency."
+  },
+  {
+    "id": "Q223",
+    "question": "Scale an AI chat feature to 1M daily users - discuss trade-offs. (reported across multiple companies)"
+  },
+  {
+    "id": "Q224",
+    "question": "Design for 1M users (scale beyond prototype). (candidates wish they prepared for this)"
+  },
+  {
+    "id": "Q225",
+    "question": "Design a system to process 10k user uploads per month (bank payslips, IDs, references). How would you extract data, detect inconsistencies, reject invalid files, and handle LLM provider downtime?"
+  },
+  {
+    "id": "Q226",
+    "question": "Design a system that lets doctors automatically send billing info to insurers based on patient notes."
+  },
+  {
+    "id": "Q227",
+    "question": "Design a conversational recommender system that suggests products based on user preferences, combining chat, retrieval, and database layers."
+  },
+  {
+    "id": "Q228",
+    "question": "Design a fast autocomplete system using LLMs."
+  },
+  {
+    "id": "Q229",
+    "question": "Design an AI-powered legal assistant."
+  },
+  {
+    "id": "Q230",
+    "question": "Build a generative resume builder with memory."
+  },
+  {
+    "id": "Q231",
+    "question": "Create an internal Slack bot answering HR questions."
+  },
+  {
+    "id": "Q232",
+    "question": "Design a GitHub Copilot-style JavaScript development tool."
+  },
+  {
+    "id": "Q233",
+    "question": "Design an AI co-pilot like GitHub Copilot (real-time streaming completions)."
+  },
+  {
+    "id": "Q234",
+    "question": "Design a Midjourney/Stable Diffusion image generation service (queueing, GPU scheduling)."
+  },
+  {
+    "id": "Q235",
+    "question": "Design a Perplexity.ai / real-time LLM-powered search engine."
+  },
+  {
+    "id": "Q236",
+    "question": "Design a Ghibli Image Generator (text prompt ingestion, model selection, GPU inference, cost throttling, safety filters)."
+  },
+  {
+    "id": "Q237",
+    "question": "Design a Dynamic Questionnaire Engine for an Insurance Platform (JSON-driven, frontend decision tree without backend calls)."
+  },
+  {
+    "id": "Q238",
+    "question": "Design a user profile system addressing storage, multi-device tracking, and preference flexibility. Optimize for 100 million users with batch migration."
+  },
+  {
+    "id": "Q239",
+    "question": "Design a distributed search system capable of handling a billion documents and a million QPS, while also managing LLM inference for over 10,000 requests per second."
+  },
+  {
+    "id": "Q240",
+    "question": "Design hybrid search combining traditional text retrieval with semantic similarity - top-k similar documents from a corpus of over 10M documents with a response time under 50ms."
+  },
+  {
+    "id": "Q241",
+    "question": "Design a workflow to remove all dead links for hundreds of client websites assuming you have API access to overwrite their HTML."
+  },
+  {
+    "id": "Q242",
+    "question": "How would you design the UX for an AI assistant that is often slow?"
+  },
+  {
+    "id": "Q243",
+    "question": "How would you surface model limitations or errors to users without breaking trust?"
+  },
+  {
+    "id": "Q244",
+    "question": "Design a scalable image-generation pipeline for millions of users."
+  },
+  {
+    "id": "Q245",
+    "question": "How would you scale a generative content platform for millions of users?"
+  },
+  {
+    "id": "Q246",
+    "question": "Design an In-Memory Database with SET, GET, BEGIN, ROLLBACK, COMMIT, and nested transaction support."
+  },
+  {
+    "id": "Q247",
+    "question": "Design an AI recommendation system."
+  },
+  {
+    "id": "Q248",
+    "question": "Design a fraud detection system."
+  },
+  {
+    "id": "Q249",
+    "question": "Design a chatbot architecture end-to-end (LLM + backend + data flow)."
+  },
+  {
+    "id": "Q250",
+    "question": "Design a distributed job queue for 100k+ GPU training jobs with preemption and checkpointing."
+  },
+  {
+    "id": "Q251",
+    "question": "Design a temperature prediction system handling inconsistent global datasets (hybrid ML-LLM)."
+  },
+  {
+    "id": "Q252",
+    "question": "Design an end-to-end RAG service: data ingestion, indexing, retrieval, generation, evals, tracing, guardrails."
+  },
+  {
+    "id": "Q253",
+    "question": "Design a rate-limiter and code the core part."
+  },
+  {
+    "id": "Q254",
+    "question": "Scaling AI systems to millions of users: latency and cost trade-offs, batching, caching, streaming, failure modes."
+  },
+  {
+    "id": "Q255",
+    "question": "Design ChatGPT's cross-conversation memory feature."
+  },
+  {
+    "id": "Q256",
+    "question": "Design a multi-step agentic workflow (meeting scheduling, code review, email campaigns)."
+  },
+  {
+    "id": "Q257",
+    "question": "Design a content/policy violation detection system."
+  },
+  {
+    "id": "Q258",
+    "question": "Design a unified query engine across dispersed data sources like email, calendar, documents, and chat."
+  },
+  {
+    "id": "Q259",
+    "question": "How would you implement an AI application from start to finish, from kickoff meeting through deployment? (IBM)"
+  },
+  {
+    "id": "Q260",
+    "question": "How would you design a scalable and reliable automation workflow? What considerations for error handling, monitoring, and debugging?"
+  },
+  {
+    "id": "Q261",
+    "question": "Design GitHub Actions."
+  },
+  {
+    "id": "Q262",
+    "question": "Design Slack."
+  },
+  {
+    "id": "Q263",
+    "question": "Design Online Chess."
+  },
+  {
+    "id": "Q264",
+    "question": "Design a Payment System."
+  },
+  {
+    "id": "Q265",
+    "question": "Design a Webhook Callback System."
+  },
+  {
+    "id": "Q266",
+    "question": "Design TinyURL (Bitly)."
+  },
+  {
+    "id": "Q267",
+    "question": "Design Instagram / TikTok feed."
+  },
+  {
+    "id": "Q268",
+    "question": "Design Twitter / X (timeline, posting, followers, trending topics)."
+  },
+  {
+    "id": "Q269",
+    "question": "Design YouTube / Netflix video streaming platform."
+  },
+  {
+    "id": "Q270",
+    "question": "Design Uber (ride-sharing backend: matching, ETA, pricing surges)."
+  },
+  {
+    "id": "Q271",
+    "question": "Design WhatsApp / Messenger (1:1 + group chat at global scale)."
+  },
+  {
+    "id": "Q272",
+    "question": "Design a distributed key-value store (like DynamoDB / Cassandra)."
+  },
+  {
+    "id": "Q273",
+    "question": "Design Google Docs collaborative editing (real-time, eventually consistent)."
+  },
+  {
+    "id": "Q274",
+    "question": "Design Yelp / Google Maps nearby search."
+  },
+  {
+    "id": "Q275",
+    "question": "Design a rate limiter (global, per-user, distributed)."
+  },
+  {
+    "id": "Q276",
+    "question": "Design Discord (voice + text chat, millions concurrent in voice channels)."
+  },
+  {
+    "id": "Q277",
+    "question": "Design Stripe payment processing system (high consistency, PCI compliance)."
+  },
+  {
+    "id": "Q278",
+    "question": "Design a distributed job scheduler (like AWS Batch at planetary scale)."
+  },
+  {
+    "id": "Q279",
+    "question": "Design a notification system that can send 1B notifications/day with <1% loss."
+  },
+  {
+    "id": "Q280",
+    "question": "Design a strongly-consistent distributed database (Spanner / CockroachDB-like)."
+  },
+  {
+    "id": "Q281",
+    "question": "Design a high-frequency trading exchange matching engine."
+  },
+  {
+    "id": "Q282",
+    "question": "Our p99 latency went from 50ms to 2s overnight - how would you debug and fix?"
+  },
+  {
+    "id": "Q283",
+    "question": "Design a global WebSocket service (10M+ concurrent connections)."
+  },
+  {
+    "id": "Q284",
+    "question": "Design a global feature flag / config service (multi-region, zero-downtime rollouts)."
+  },
+  {
+    "id": "Q285",
+    "question": "A system's 95th percentile latency spiked from 100ms to 2000ms. Identify bottlenecks rapidly."
+  },
+  {
+    "id": "Q286",
+    "question": "How would you handle a 10x traffic spike during a product launch?"
+  },
+  {
+    "id": "Q287",
+    "question": "What happens if your primary data center goes offline for six hours?"
+  },
+  {
+    "id": "Q513",
+    "question": "Scale an AI chat feature to 1M daily users - discuss trade-offs"
+  },
+  {
+    "id": "Q514",
+    "question": "Design an AI chatbot (ChatGPT, Claude chat service)."
+  },
+  {
+    "id": "Q515",
+    "question": "Design a Document Q&A Assistant / RAG system."
+  },
+  {
+    "id": "Q516",
+    "question": "Design an AI co-pilot like GitHub Copilot"
+  },
+  {
+    "id": "Q517",
+    "question": "Design an AI-powered Candidate Sourcing System."
+  },
+  {
+    "id": "Q518",
+    "question": "Design a system to process 10K user uploads/month (bank payslips, IDs, references)."
+  },
+  {
+    "id": "Q519",
+    "question": "Design a large-scale AI model deployment system - model serving, GPU scaling, model versioning, result caching. (OpenAI)"
+  },
+  {
+    "id": "Q520",
+    "question": "Design a recommendation system"
+  },
+  {
+    "id": "Q521",
+    "question": "Design a spam classifier"
+  },
+  {
+    "id": "Q522",
+    "question": "Design a search ranking system"
+  },
+  {
+    "id": "Q523",
+    "question": "Design an ad click prediction system"
+  },
+  {
+    "id": "Q524",
+    "question": "Design Instagram / TikTok / X (timeline, posting, followers)."
+  },
+  {
+    "id": "Q407",
+    "question": "Walk me through your most technically challenging project. (OpenAI - 45-min presentation to a peer engineer)"
+  },
+  {
+    "id": "Q408",
+    "question": "Walk me through a project you owned end-to-end. What were the key technical decisions? (Anthropic - 25-min presentation + 15-20 min discussion)"
+  },
+  {
+    "id": "Q409",
+    "question": "Tell me about a project you're most proud of, and what role you played. (OpenAI)"
+  },
+  {
+    "id": "Q410",
+    "question": "Why did you choose that particular storage/model/architecture over alternatives?"
+  },
+  {
+    "id": "Q411",
+    "question": "Is there an actual eval framework here, or is it vibes-based? (OpenAI)"
+  },
+  {
+    "id": "Q412",
+    "question": "What alternative approaches did you consider, and why did you reject them?"
+  },
+  {
+    "id": "Q413",
+    "question": "How would you handle different requirements or scale constraints?"
+  },
+  {
+    "id": "Q414",
+    "question": "What would you do differently if you started this project over?"
+  },
+  {
+    "id": "Q415",
+    "question": "What was the most challenging technical decision and how did you make it?"
+  },
+  {
+    "id": "Q416",
+    "question": "Did the solution actually work? How do you know? What metrics did you track?"
+  },
+  {
+    "id": "Q417",
+    "question": "What were the trade-offs you made, and are you still comfortable with them?"
+  },
+  {
+    "id": "Q418",
+    "question": "How did you communicate technical decisions to stakeholders?"
+  },
+  {
+    "id": "Q419",
+    "question": "What would you explore next if you had more time?"
+  },
+  {
+    "id": "Q420",
+    "question": "How do you monitor the model post-deployment for drift or degradation?"
+  },
+  {
+    "id": "Q421",
+    "question": "What trade-offs did you make between retrieval speed vs. context length, fine-tuning vs. prompt engineering, GPU cost vs. latency?"
+  },
+  {
+    "id": "Q498",
+    "question": "Walk me through an AI project you built end-to-end."
+  },
+  {
+    "id": "Q499",
+    "question": "Walk through a recent technical project."
+  },
+  {
+    "id": "Q500",
+    "question": "Walk me through your most technically challenging project."
+  },
+  {
+    "id": "Q501",
+    "question": "Tell me about a recent/favorite project and some of the difficulties you had."
+  },
+  {
+    "id": "Q502",
+    "question": "Tell me about the greatest accomplishment of your career."
+  },
+  {
+    "id": "Q503",
+    "question": "What business problem were you solving? Why was it a priority?"
+  },
+  {
+    "id": "Q504",
+    "question": "Who was the customer? Who benefited from this work?"
+  },
+  {
+    "id": "Q505",
+    "question": "What was your actual role in building this?"
+  },
+  {
+    "id": "Q506",
+    "question": "Why did you choose that particular approach over alternatives?"
+  },
+  {
+    "id": "Q507",
+    "question": "Why did you pick that particular tech stack for data processing?"
+  },
+  {
+    "id": "Q508",
+    "question": "What went wrong? What was harder than expected?"
+  },
+  {
+    "id": "Q509",
+    "question": "How did you debug production issues?"
+  },
+  {
+    "id": "Q510",
+    "question": "Is there an actual eval framework here, or is it vibes-based?"
+  },
+  {
+    "id": "Q511",
+    "question": "What was the outcome? How did stakeholders react?"
+  },
+  {
+    "id": "Q512",
+    "question": "How did you handle data quality and preprocessing challenges?"
+  },
+  {
+    "id": "Q328",
+    "question": "Walk me through an AI project you built end-to-end. (very common in 2026)"
+  },
+  {
+    "id": "Q329",
+    "question": "Tell me about a project you're most proud of, and what role you played?"
+  },
+  {
+    "id": "Q330",
+    "question": "What is your most challenging work in GenAI?"
+  },
+  {
+    "id": "Q331",
+    "question": "Describe a time you reduced hallucinations/cost in production. (very common in 2026)"
+  },
+  {
+    "id": "Q332",
+    "question": "Describe a time you had to optimize an existing process or workflow for efficiency or scalability."
+  },
+  {
+    "id": "Q333",
+    "question": "Describe a challenging prompt engineering problem that you solved."
+  },
+  {
+    "id": "Q334",
+    "question": "Is there an actual eval framework, or is it vibes-based?"
+  },
+  {
+    "id": "Q335",
+    "question": "Present a \"proud\" project to a panel: design decisions, trade-offs, what broke, and what you'd change."
+  },
+  {
+    "id": "Q336",
+    "question": "Tell me about your past projects. (Apple, Discord, Anduril)"
+  },
+  {
+    "id": "Q337",
+    "question": "Tell me about a recent/favorite project and some of the difficulties you had. (Meta)"
+  },
+  {
+    "id": "Q338",
+    "question": "Tell me about a technical challenge that you have overcome."
+  },
+  {
+    "id": "Q339",
+    "question": "Tell me about the greatest accomplishment of your career. (Meta)"
+  },
+  {
+    "id": "Q340",
+    "question": "What level of prompts have you written? What kind of projects did you work on?"
+  },
+  {
+    "id": "Q341",
+    "question": "Give a specific example of conflict with another person, how resolution took form, and the rationale behind the choices you made."
+  },
+  {
+    "id": "Q342",
+    "question": "How do you collaborate with non-technical stakeholders?"
+  },
+  {
+    "id": "Q343",
+    "question": "How do you manage workload in a distributed team?"
+  },
+  {
+    "id": "Q344",
+    "question": "Conflict handling."
+  },
+  {
+    "id": "Q345",
+    "question": "Describe a time you disagreed with a team member about how to approach a problem. How did you handle it?"
+  },
+  {
+    "id": "Q346",
+    "question": "Tell me about a time you struggled to work with one of your colleagues. (Meta)"
+  },
+  {
+    "id": "Q347",
+    "question": "Tell me about a time you handled a difficult stakeholder."
+  },
+  {
+    "id": "Q348",
+    "question": "Tell me about a time you had to explain a complex technical concept to someone without a technical background."
+  },
+  {
+    "id": "Q349",
+    "question": "Tell me about a time you convinced someone to change their mind."
+  },
+  {
+    "id": "Q350",
+    "question": "What types of team members do you find difficult to work with? (Visa)"
+  },
+  {
+    "id": "Q351",
+    "question": "Describe communication to resolve ambiguity. (Anthropic)"
+  },
+  {
+    "id": "Q352",
+    "question": "Describe a time you had trouble communicating with stakeholders and how you overcame it. (OpenAI)"
+  },
+  {
+    "id": "Q353",
+    "question": "Have you mentored teammates remotely?"
+  },
+  {
+    "id": "Q354",
+    "question": "Describe a time you drove technical decisions at scale and guided teams through complex challenges."
+  },
+  {
+    "id": "Q355",
+    "question": "Describe a time you mentored engineers who went on to senior roles."
+  },
+  {
+    "id": "Q356",
+    "question": "Tell me about a time you showed leadership. (OpenAI EM)"
+  },
+  {
+    "id": "Q357",
+    "question": "Tell me about a time you led an initiative or took ownership of a challenging task."
+  },
+  {
+    "id": "Q358",
+    "question": "Tell me about a time you took the initiative to solve a problem."
+  },
+  {
+    "id": "Q359",
+    "question": "Tell me about a time when you made short-term sacrifices for long-term gains."
+  },
+  {
+    "id": "Q360",
+    "question": "How do you prioritize tasks?"
+  },
+  {
+    "id": "Q361",
+    "question": "How do you lead under risk and uncertainty? (Anthropic)"
+  },
+  {
+    "id": "Q362",
+    "question": "As a manager, how do you handle trade-offs? (OpenAI EM)"
+  },
+  {
+    "id": "Q363",
+    "question": "How do you manage your team's career growth? (OpenAI EM)"
+  },
+  {
+    "id": "Q364",
+    "question": "Tell me about a time when you worked on a project with a tight deadline."
+  },
+  {
+    "id": "Q365",
+    "question": "Explain management style, execution strategy, and culture choices. (Anthropic)"
+  },
+  {
+    "id": "Q366",
+    "question": "Which model provider do you prefer for creative writing tasks?"
+  },
+  {
+    "id": "Q367",
+    "question": "How do you compare AI coding assistants like Cursor, Windsurf, or Claude Code?"
+  },
+  {
+    "id": "Q368",
+    "question": "What recent AI paper or development caught your attention?"
+  },
+  {
+    "id": "Q369",
+    "question": "What side projects have you built with AI?"
+  },
+  {
+    "id": "Q370",
+    "question": "Why a particular storage solution over alternatives?"
+  },
+  {
+    "id": "Q371",
+    "question": "How did you decide which model to use for inference?"
+  },
+  {
+    "id": "Q372",
+    "question": "What frameworks are you familiar with? What have you built before?"
+  },
+  {
+    "id": "Q373",
+    "question": "Which models have you worked with? Which cloud providers are you familiar with?"
+  },
+  {
+    "id": "Q374",
+    "question": "Tell me about a time when you solved a complex problem and how you went about it."
+  },
+  {
+    "id": "Q375",
+    "question": "Tell me about a time when a technical misjudgment led to a project delay. What did you learn? (Anthropic)"
+  },
+  {
+    "id": "Q376",
+    "question": "What would you do if, midway through a project, you realized it was actually unfeasible? (Anthropic)"
+  },
+  {
+    "id": "Q377",
+    "question": "Describe a time you had to quickly learn a new technology or methodology to complete a project."
+  },
+  {
+    "id": "Q378",
+    "question": "Most challenging project."
+  },
+  {
+    "id": "Q379",
+    "question": "What would you do differently?"
+  },
+  {
+    "id": "Q380",
+    "question": "Tell me about a time when you received negative feedback and how you handled it."
+  },
+  {
+    "id": "Q381",
+    "question": "What's a mistake you made, and what did you learn from it?"
+  },
+  {
+    "id": "Q382",
+    "question": "Describe a project that didn't go as planned. What did you learn? (Anthropic)"
+  },
+  {
+    "id": "Q383",
+    "question": "Describe a project where your AI solution failed and how you addressed it. (Google DeepMind)"
+  },
+  {
+    "id": "Q384",
+    "question": "Why do you think we should NOT hire you? (Google, Visa)"
+  },
+  {
+    "id": "Q385",
+    "question": "Tell me about a time when you had to think outside the box to complete a task."
+  },
+  {
+    "id": "Q386",
+    "question": "How do you stay updated with fast-changing AI tech? (very common in 2026)"
+  },
+  {
+    "id": "Q387",
+    "question": "How do you collaborate with non-technical stakeholders on AI features? (very common in 2026)"
+  },
+  {
+    "id": "Q388",
+    "question": "Can you give an example of a time when you addressed ethical concerns in an ML project?"
+  },
+  {
+    "id": "Q389",
+    "question": "Tell me about a time you made a safety-first decision in a project. (Anthropic)"
+  },
+  {
+    "id": "Q390",
+    "question": "Tell me about a time you identified a major risk in an AI system — what did you do? (Mistral)"
+  },
+  {
+    "id": "Q391",
+    "question": "Describe a time you reduced cost or latency in a production AI system."
+  },
+  {
+    "id": "Q392",
+    "question": "How do you manage ambiguity in ML projects where requirements and data evolve over time?"
+  },
+  {
+    "id": "Q393",
+    "question": "How do you use AI coding agents in your work?"
+  },
+  {
+    "id": "Q394",
+    "question": "Did you apply GenAI techniques to solve a problem not usually solved with GenAI?"
+  },
+  {
+    "id": "Q395",
+    "question": "Do you fact-check AI outputs or just trust them? How do you validate AI-generated content?"
+  },
+  {
+    "id": "Q396",
+    "question": "Why OpenAI? / Why Microsoft? / Why this company?"
+  },
+  {
+    "id": "Q397",
+    "question": "Why change now?"
+  },
+  {
+    "id": "Q398",
+    "question": "Tell me about yourself."
+  },
+  {
+    "id": "Q399",
+    "question": "Walk me through your resume. (OpenAI)"
+  },
+  {
+    "id": "Q400",
+    "question": "Describe career decisions and culture fit. (Anthropic)"
+  },
+  {
+    "id": "Q401",
+    "question": "How do you handle AI-safety conflicts with project goals? (Anthropic)"
+  },
+  {
+    "id": "Q402",
+    "question": "Why do you want to pursue research? (for research roles)"
+  },
+  {
+    "id": "Q403",
+    "question": "How would you handle edge cases?"
+  },
+  {
+    "id": "Q404",
+    "question": "What alternative approaches did you consider?"
+  },
+  {
+    "id": "Q405",
+    "question": "Time and space complexity analysis."
+  },
+  {
+    "id": "Q406",
+    "question": "Why did you choose this specific data structure?"
+  },
+  {
+    "id": "Q525",
+    "question": "How do you stay up-to-date with the latest developments in AI?"
+  },
+  {
+    "id": "Q526",
+    "question": "What side projects have you built with AI? What frameworks and models have you worked with?"
+  },
+  {
+    "id": "Q527",
+    "question": "Describe a project that didn't go as planned or where your AI solution failed"
+  },
+  {
+    "id": "Q528",
+    "question": "Tell me about a specific conflict with another person"
+  },
+  {
+    "id": "Q529",
+    "question": "Tell me about a time when you had to explain a complex technical concept to someone without a technical background"
+  },
+  {
+    "id": "Q530",
+    "question": "How do you collaborate with non-technical stakeholders on AI features?"
+  },
+  {
+    "id": "Q531",
+    "question": "Tell me about a time when you made short-term sacrifices for long-term"
+  },
+  {
+    "id": "Q532",
+    "question": "Describe a time you drove an architectural decision that affected multiple teams"
+  },
+  {
+    "id": "Q533",
+    "question": "Tell me about a time you mentored an engineer who went on to a senior role"
+  },
+  {
+    "id": "Q534",
+    "question": "How do you lead under risk and uncertainty?"
+  },
+  {
+    "id": "Q535",
+    "question": "Tell me about a time when a technical misjudgment led to a project delay. What did you learn?"
+  },
+  {
+    "id": "Q536",
+    "question": "What would you do if, midway through a project, you realized it was unfeasible?"
+  },
+  {
+    "id": "Q537",
+    "question": "Describe a time you had to quickly learn a new technology or methodology"
+  },
+  {
+    "id": "Q538",
+    "question": "Describe failure impact and resolve cross-functional conflict"
+  },
+  {
+    "id": "Q539",
+    "question": "Why do you think we should NOT hire you?"
+  },
+  {
+    "id": "Q540",
+    "question": "Discuss culture, collaboration, and mission alignment"
+  },
+  {
+    "id": "Q541",
+    "question": "Describe career decisions and cultural alignment"
+  },
+  {
+    "id": "Q542",
+    "question": "Open-ended behavioral at senior level: conflicts with managers, deadline pressure, design disagreements, mistakes"
+  },
+  {
+    "id": "Q543",
+    "question": "Why [company]?"
+  },
+  {
+    "id": "Q544",
+    "question": "Why do you want to work here?"
+  },
+  {
+    "id": "Q545",
+    "question": "Why [this startup]? with evidence of due diligence"
+  },
+  {
+    "id": "Q546",
+    "question": "Discuss career decisions and culture fit"
+  },
+  {
+    "id": "Q422",
+    "question": "Blood test report AI: Create a project that takes a blood test report in PDF format, understands medical issues, and provides suggestions by fetching them from online blog articles. Submit in a few hours."
+  },
+  {
+    "id": "Q423",
+    "question": "Customer support RAG chatbot: Design a production-ready chatbot using open-source tools. Requirements: 100+ concurrent users, <2 second latency, grounded in company docs, cost-effective, analytics tracking. Score: 9/10."
+  },
+  {
+    "id": "Q424",
+    "question": "Document Q&A system: Build a document Q&A system with citation tracking for multi-hop questions."
+  },
+  {
+    "id": "Q425",
+    "question": "Build a RAG chatbot that ingests PDFs/documents, creates embeddings in a vector DB, and answers questions with citations (10+ candidate submissions across 5+ companies)."
+  },
+  {
+    "id": "Q426",
+    "question": "Refactor a messy RAG codebase into a modular, production-ready service with FastAPI and LangGraph (5+ candidate submissions for one company)."
+  },
+  {
+    "id": "Q427",
+    "question": "Build a policy document RAG assistant with mandatory source citations for every answer. Includes a 7-question evaluation set."
+  },
+  {
+    "id": "Q428",
+    "question": "Build an AI agent demonstrating natural interaction, agentic behavior, clear reasoning steps, and strong technical decision-making. 3-day window. Company: Eightfold.ai."
+  },
+  {
+    "id": "Q429",
+    "question": "Customer email campaign agent: Build an agent reading customer CSV data and generating personalized email campaigns with evaluation metrics."
+  },
+  {
+    "id": "Q430",
+    "question": "Code review agent: Implement a code review agent for Python files with actionable feedback."
+  },
+  {
+    "id": "Q431",
+    "question": "Conversational Calendar Booking Agent: LangGraph/LangChain orchestration, Streamlit chat interface, FastAPI backend, Google Calendar integration via Service Accounts, function calling for booking logic."
+  },
+  {
+    "id": "Q432",
+    "question": "Create a customer support agent relevant to the company's product within 1.5 hours. Red flag if candidate doesn't start with evals."
+  },
+  {
+    "id": "Q433",
+    "question": "Build a simple autonomous agent using an open-source LLM with a task-specific goal and an observability/eval layer."
+  },
+  {
+    "id": "Q434",
+    "question": "Build an assistant agent handling database queries, document search, and bash commands. Explicit evaluation criteria: tool selection accuracy, response grounding, error handling."
+  },
+  {
+    "id": "Q435",
+    "question": "Build a production-ready AI agent that transforms project management data into conversational business insights using dual-LLM architecture (primary + fallback)."
+  },
+  {
+    "id": "Q436",
+    "question": "Build an agentic RAG system evaluated using RAGAS metrics (faithfulness, answer relevancy, context precision)."
+  },
+  {
+    "id": "Q437",
+    "question": "Build a chatbot-driven TikTok Ad Campaign Creation Agent."
+  },
+  {
+    "id": "Q438",
+    "question": "Build a multi-agent content generation system: 5 core agents (research, writing, editing, SEO, publishing) orchestrated through a pipeline."
+  },
+  {
+    "id": "Q439",
+    "question": "Implement a minimal workflow engine with graph-based nodes, state management, branching/looping, and tool-based logic. Max 50 steps. Unit tests mandatory (6+ candidate submissions)."
+  },
+  {
+    "id": "Q440",
+    "question": "Build a 5-agent CBT therapy system with crisis detection, safety filtering, and PII redaction."
+  },
+  {
+    "id": "Q564",
+    "question": "Build a multi-agent content generation system: 5 core agents (research, writing, editing, SEO, publishing). Takes product JSON input, generates FAQ document, product page, and comparison page. All outputs must follow strict JSON formats. LangChain + Groq."
+  },
+  {
+    "id": "Q565",
+    "question": "Implement a minimal workflow engine with graph-based nodes, state management, branching/looping, and tool-based logic. Max 50 steps. Built-in infinite-cycle protection required. Unit tests mandatory (6+ candidate submissions)."
+  },
+  {
+    "id": "Q566",
+    "question": "Build a 5-agent CBT therapy system: agents autonomously design, critique, and refine therapy exercises. Human-in-the-loop approval required before finalization."
+  },
+  {
+    "id": "Q567",
+    "question": "Build a 4-stage bedtime story pipeline: Spec Builder, Storyteller, LLM Judge, Rewriter. Must use gpt-3.5-turbo. Up to 2 revision cycles. LLM judge evaluates stories against the spec."
+  },
+  {
+    "id": "Q441",
+    "question": "Build an evaluation tool for LLM hallucination detection."
+  },
+  {
+    "id": "Q442",
+    "question": "Build a 4-stage bedtime story pipeline: Spec Builder, Storyteller, LLM Judge, Rewriter. Must use gpt-3.5-turbo. Up to 2 revision cycles (4+ candidate submissions)."
+  },
+  {
+    "id": "Q443",
+    "question": "Build a sales insights agent with PII safety: 3-dimension evaluation (accuracy, safety, reasoning)."
+  },
+  {
+    "id": "Q444",
+    "question": "Build a live chat agent grounded in FAQ knowledge base (2 candidate submissions with different tech stacks)."
+  },
+  {
+    "id": "Q445",
+    "question": "Build a marksheet extraction API: parse complex table layouts and handwriting. Confidence scoring required. FastAPI + Docker + Gemini 1.5 Flash."
+  },
+  {
+    "id": "Q446",
+    "question": "Build a physician notetaker: medical transcription NLP system with NER and SOAP notes (3+ candidate submissions)."
+  },
+  {
+    "id": "Q447",
+    "question": "Refactor a messy codebase into a modular, production-ready service (5+ candidate submissions for one company)."
+  },
+  {
+    "id": "Q448",
+    "question": "Build an AI-powered legal document analysis tool for contracts."
+  },
+  {
+    "id": "Q568",
+    "question": "Build a marksheet extraction API: parse complex table layouts and handwriting from academic marksheets into structured JSON."
+  },
+  {
+    "id": "Q569",
+    "question": "Build a physician notetaker: transform physician-patient conversations into structured clinical documentation.."
+  },
+  {
+    "id": "Q570",
+    "question": "Build a legal document analysis tool for contracts: extract key information, identify risks (auto-renewal traps, liability, IP ownership, non-competes), generate structured summaries."
+  },
+  {
+    "id": "Q571",
+    "question": "Build a CBT assistant combining RAG with safety mechanisms. Crisis detection mandatory. PII redaction and pseudonymization required. No secrets in logs. Educational only, not clinical advice."
+  },
+  {
+    "id": "Q572",
+    "question": "Take a blood test report as PDF, understand medical issues, generate suggestions by fetching content from online blog articles with source links."
+  },
+  {
+    "id": "Q573",
+    "question": "Build a question deduplication and clustering pipeline: exact dedup, semantic dedup, LLM-based cluster discovery, classification. Output evaluated with ARI, NMI, homogeneity, completeness metrics."
+  },
+  {
+    "id": "Q574",
+    "question": "Build a data pipeline that processes 1,000 messy products from 4 vendors, normalizes them into a unified schema, fetches supplementary data via rate-limited async API calls (vendor-specific token-bucket rate limits), enriches products through AI-powered duplicate detection. Must support both CLI and API access."
+  },
+  {
+    "id": "Q575",
+    "question": "Build a transaction-to-user matching system: identify users whose names appear in transaction descriptions, find similar transactions via text matching, propose improvements (semantic embeddings, database integration). Spring Boot + Java."
+  },
+  {
+    "id": "Q576",
+    "question": "Build real-time earnings call transcription and insight streaming: streaming audio-to-text via Whisper, real-time extraction of financial signals (revenue, guidance, risks, outlook), SSE output."
+  },
+  {
+    "id": "Q449",
+    "question": "Build real-time concall transcription and insight streaming for Indian accents."
+  },
+  {
+    "id": "Q450",
+    "question": "Build a Singapore public transport query agent with voice interface."
+  },
+  {
+    "id": "Q451",
+    "question": "Build a Telegram bot for investment coaching with safety filtering. 3 days / 6-8 hours."
+  },
+  {
+    "id": "Q452",
+    "question": "Build a live chat support agent with OpenAI, session persistence, and conversation history (2 candidate submissions)."
+  },
+  {
+    "id": "Q453",
+    "question": "Build conversational agents with game-based evaluation (2 submissions)."
+  },
+  {
+    "id": "Q454",
+    "question": "AI-First CRM: HCP Module: React/Redux frontend, FastAPI backend, LangGraph with 5+ tools (summarization, entity extraction). Models: gemma2-9b-it or llama-3.3-70b via Groq API. Deliverable: GitHub repo + 10-15 minute demo video. Expected time: ~60 hours."
+  },
+  {
+    "id": "Q455",
+    "question": "Login page with validations: Create a login page accepting email and password with basic validations. Estimated 2-3 hours within 2-3 day window."
+  },
+  {
+    "id": "Q456",
+    "question": "Build a production-ready mental health MVP with safety, privacy, PII redaction, and evaluation."
+  },
+  {
+    "id": "Q457",
+    "question": "Build a production-grade distributed LLM processing pipeline with smart routing for 100K+ daily requests."
+  },
+  {
+    "id": "Q458",
+    "question": "Build an intelligent NPC system for a job simulation platform."
+  },
+  {
+    "id": "Q459",
+    "question": "Build an LLM-based rating prediction system with prompt evaluation and dashboards."
+  },
+  {
+    "id": "Q460",
+    "question": "Build a markdown-to-slides generator with cost and time metrics tracking."
+  },
+  {
+    "id": "Q461",
+    "question": "Build a deduplication and clustering pipeline with ARI/NMI evaluation metrics."
+  },
+  {
+    "id": "Q462",
+    "question": "Build a transaction matching system."
+  },
+  {
+    "id": "Q463",
+    "question": "Build a D&D dungeon simulation with context engineering. Evaluation rubric: 30% functionality, 30% challenge completion, 25% context engineering, 15% code quality. ~4 hours."
+  },
+  {
+    "id": "Q464",
+    "question": "Build a memory and personality engine using open-source LLMs only."
+  },
+  {
+    "id": "Q577",
+    "question": "Build a Telegram bot for investment coaching with safety filtering. Educational content only - no personalized financial advice."
+  },
+  {
+    "id": "Q578",
+    "question": "Build a multi-agent D&D dungeon simulation: Game Master agent + Player agents. Must address at least 3 of 6 challenges (long campaigns, secrets, rulings, self-aware dungeon, living world, ambiguity). LangGraph required."
+  },
+  {
+    "id": "Q579",
+    "question": "Build a memory extraction and personality transformation system: extract structured long-term memory from chat history as JSON, transform responses based on personas (calm mentor, witty friend, therapist). Open-source LLMs only, no proprietary APIs."
+  },
+  {
+    "id": "Q580",
+    "question": "Build an AI judge for a Rock-Paper-Scissors variant: classify player inputs as VALID/INVALID/UNCLEAR, handle typos and edge cases, tool-based state management workflow (2 submissions)."
+  },
+  {
+    "id": "Q581",
+    "question": "Build a web app that converts markdown to slide deck presentations by splitting content into logical sections based on a target slide count. Document size limited to 150K tokens, single API call. Next.js + OpenAI."
+  },
+  {
+    "id": "Q582",
+    "question": "Build an LLM processing pipeline with intelligent routing, multi-level caching (exact + semantic), provider health monitoring with failover, and distributed tracing. Targets: 100+ req/s, p95 latency under 2s, >40% cache hit rate."
+  },
+  {
+    "id": "Q583",
+    "question": "Build an NPC system for a job simulation platform: three AI co-workers with distinct personalities, a \"Director Agent\" that detects conversation loops via semantic similarity (0.85 threshold), RAG-based knowledge retrieval. FastAPI + Claude API + FAISS."
+  },
+  {
+    "id": "Q584",
+    "question": "Build an LLM-based rating prediction and prompt evaluation system with user and admin dashboards. Node.js + MongoDB + Google Generative AI."
+  },
+  {
+    "id": "Q585",
+    "question": "Build an AI-first CRM module: React/Redux frontend, FastAPI backend, LangGraph with 5+ tools. Deliverable: GitHub repo + 10-15 minute demo video."
+  },
+  {
+    "id": "Q465",
+    "question": "Roboflow: build a project using their CV platform and present to CTO."
+  },
+  {
+    "id": "Q466",
+    "question": "Anthropic performance take-home: Code optimization for speed. 4-hour limit. Python workload simulating TPU-like operations. Tests low-level optimization skills. Now open-sourced for practice."
+  },
+  {
+    "id": "Q467",
+    "question": "48-hour technical project: Take-home assignment delivered day after recruiter call, 48-hour completion window. Practical coding, not puzzle-based."
+  },
+  {
+    "id": "Q468",
+    "question": "72-hour \"Round 1\" demanding full RAG + agents + UI."
+  },
+  {
+    "id": "Q469",
+    "question": "Build an LLM agent to ingest years of financial reports with stock price analysis and chart generation using only freemium APIs. Candidate withdrew, calling it \"an unpaid mini-consulting project.\""
+  },
+  {
+    "id": "Q470",
+    "question": "45 minutes for 3 complex tasks."
+  },
+  {
+    "id": "Q547",
+    "question": "Build a RAG chatbot that ingests PDFs/documents, creates embeddings in a vector DB, and answers questions with citations. Must respond \"I don't have that information\" when answer is unavailable. Answers must come strictly from retrieved context (10+ candidate submissions across 5+ companies)."
+  },
+  {
+    "id": "Q548",
+    "question": "Build a policy document RAG assistant with mandatory source citations for every answer. Return safe fallbacks for out-of-scope questions. Comes with a 7-question evaluation set across 3 categories (answerable, partially answerable, unanswerable)."
+  },
+  {
+    "id": "Q549",
+    "question": "Build a document Q&A system with citation tracking that handles multi-hop questions (questions requiring information from multiple documents or sections to answer)."
+  },
+  {
+    "id": "Q550",
+    "question": "Build a live chat agent grounded in FAQ knowledge base. Model must answer only from known FAQ data."
+  },
+  {
+    "id": "Q551",
+    "question": "Design a customer support chatbot using RAG with open-source models. Requirements: 100+ concurrent users, <2 second latency, grounded in company docs, analytics tracking."
+  },
+  {
+    "id": "Q552",
+    "question": "Build a CLI tool for summarizing long PDFs with configurable models and chunking strategies."
+  },
+  {
+    "id": "Q553",
+    "question": "Refactor an existing messy RAG application into a clean architecture. Preserve all external behaviors (exact API endpoints), eliminate global mutable state, ensure testability without requiring running services (5+ candidate submissions for one company)."
+  },
+  {
+    "id": "Q554",
+    "question": "Build an agentic RAG system for government documents. 100% open-source required (Ollama + CrewAI + pgvector). Must integrate with OpenWebUI. Evaluated using RAGAS metrics (faithfulness, answer relevancy, context precision, context recall)."
+  },
+  {
+    "id": "Q555",
+    "question": "Build an assistant agent handling database queries, document search, and bash commands. Bash commands require explicit user approval."
+  },
+  {
+    "id": "Q556",
+    "question": "Build an AI agent that transforms Monday.com project management data into conversational business insights using dual-LLM architecture."
+  },
+  {
+    "id": "Q557",
+    "question": "Build an AI agent demonstrating natural interaction, agentic behavior, and clear reasoning steps."
+  },
+  {
+    "id": "Q558",
+    "question": "Build a customer support agent."
+  },
+  {
+    "id": "Q559",
+    "question": "Build an autonomous agent using an open-source LLM with observability/eval layer."
+  },
+  {
+    "id": "Q560",
+    "question": "Build an agent that reads customer CSV data and generates personalized email campaigns with evaluation metrics."
+  },
+  {
+    "id": "Q561",
+    "question": "Build a code review agent that analyzes Python files and provides actionable feedback."
+  },
+  {
+    "id": "Q562",
+    "question": "Build a Singapore public transport query agent that fetches live data from 7 LTA APIs about buses, trains, traffic, and station conditions."
+  },
+  {
+    "id": "Q563",
+    "question": "Build a sales insights agent that answers questions about subscription/revenue data. Must detect and refuse PII requests (emails, phone numbers, credit card tokens). No raw rows passed to the LLM - aggregates only. Evaluated on 3 dimensions: accuracy, safety/refusal correctness, reasoning quality."
+  },
+  {
+    "id": "Q586",
+    "question": "Build a legal document AI workflow with a three-tier extraction cascade and an improvement-from-edits loop. The system must ingest, extract, ground, and iteratively improve based on operator corrections."
+  },
+  {
+    "id": "Q587",
+    "question": "Pearson Specter Litt: Take-home requiring ingestion of messy legal documents, grounded retrieval, cited draft generation, and learning from operator edits. Delivered as a scrum sprint plan."
+  },
+  {
+    "id": "Q588",
+    "question": "Quorium: Build a RAG Q&A chatbot for an AI Engineer Trainee role. Standard RAG pipeline with document ingestion and question answering."
+  },
+  {
+    "id": "Q589",
+    "question": "ITJ: RAG-based document QA system as a take-home challenge."
+  },
+  {
+    "id": "Q590",
+    "question": "NTT DATA: RAG system over sustainability reports."
+  },
+  {
+    "id": "Q591",
+    "question": "NeoStats: Chatbot assignment for an AI Engineer case study."
+  },
+  {
+    "id": "Q592",
+    "question": "Trinamix: Supply chain RAG chatbot over a 2,000-PO supplier register and governance policy. Built with Flowise, Pinecone, and GPT."
+  },
+  {
+    "id": "Q593",
+    "question": "GoTyme Bank: Full-stack document extraction system combining OCR and LLM, with a React frontend."
+  },
+  {
+    "id": "Q594",
+    "question": "Go Fig AI: Build an inbox-triage agent skill with a human-in-the-loop approval gate. 2-hour cap."
+  },
+  {
+    "id": "Q595",
+    "question": "Yuno: Multi-agent orchestration platform with Ollama, Streamlit, and Telegram."
+  },
+  {
+    "id": "Q596",
+    "question": "RefundPilot: Containerized internal support workspace that evaluates e-commerce refund requests, applies refund policy, resists prompt-injection attempts, and records structured decision logs."
+  },
+  {
+    "id": "Q597",
+    "question": "AgentCollect: Full-Stack AI Engineer (AI-Native) hiring challenge."
+  },
+  {
+    "id": "Q598",
+    "question": "Neon Health: AI Agent with OpenAI integration."
+  },
+  {
+    "id": "Q599",
+    "question": "Future Research: LangGraph multi-agent fitness coach with hub routing to sub-agents (coach, workout-generator, workout-logger) via Claude structured output."
+  },
+  {
+    "id": "Q600",
+    "question": "KarthikTools: Full-stack web app where a backend agent executes predefined tools with a clear execution trace."
+  },
+  {
+    "id": "Q601",
+    "question": "GenAI Labs: Production-ready LLM-driven SQL analytics pipeline with token counting, SQL validation, observability, and benchmarking. Multiple submissions."
+  },
+  {
+    "id": "Q602",
+    "question": "VantageScore: GenAI-powered credit risk scoring with ML ensemble, explainability, and LLM enrichment."
+  },
+  {
+    "id": "Q603",
+    "question": "AEGIS: AEO content scoring, LLM query fan-out, and embedding-based semantic gap analysis."
+  },
+  {
+    "id": "Q604",
+    "question": "SHL: GenAI assessment recommendation system."
+  },
+  {
+    "id": "Q605",
+    "question": "Camplight: LLM interview task."
+  },
+  {
+    "id": "Q606",
+    "question": "VijaySaravanaPandi: NL-to-app \"compiler\" — turns a natural-language app description into a working application via structured, validated intermediate representations (not just prompt to code)."
+  },
+  {
+    "id": "Q607",
+    "question": "Jpower3145: Local LLM pre-interview task."
+  },
+  {
+    "id": "Q608",
+    "question": "Cerebras: AI Engineer Model Quality and Performance hiring challenge (perf UI, eval pruning)."
+  },
+  {
+    "id": "Q609",
+    "question": "nickusevich: Novelty detection for football news using hybrid retrieval (pgvector + tsvector + RRF), LLM reranking, and LLM-based publish/skip/review decisions."
+  },
+  {
+    "id": "Q610",
+    "question": "EloquentAI: Build an embeddable AI agent chat widget."
+  },
+  {
+    "id": "Q611",
+    "question": "Fleetio: Hybrid deterministic + LLM weekly fleet digest."
+  },
+  {
+    "id": "Q612",
+    "question": "Zap: AI-powered client onboarding automation."
+  },
+  {
+    "id": "Q613",
+    "question": "Adobe (FDE): GenAI-powered creative automation pipeline for social ad campaigns."
+  },
+  {
+    "id": "Q614",
+    "question": "[ML6 (laine)](https://github.com/ml6team/laine-engineer-coding-challenge) - Coding challenge for evaluating AI Engineer candidates"
+  },
+  {
+    "id": "Q615",
+    "question": "[Jaseci Labs](https://github.com/jaseci-labs/take-home-ai-engineer) - Take-home for AI Software Engineer candidates"
+  },
+  {
+    "id": "Q616",
+    "question": "[Jitera](https://github.com/Jitera-Interviews/genai-takehome) - Take-home task for GenAI roles"
+  },
+  {
+    "id": "Q617",
+    "question": "[AuxoAI](https://github.com/AuxoAI-Hiring/ai-engineer-assignment) - AI Engineering Take-Home"
+  },
+  {
+    "id": "Q618",
+    "question": "[Coginis Research](https://github.com/CoginisResearch/ai-engineer-challenge) - AI Product Engineer Hiring Challenge"
+  },
+  {
+    "id": "Q619",
+    "question": "[Future Research](https://github.com/future-research/candidate-assessment) - AI Engineer take-home assessment + exercise dataset"
+  },
+  {
+    "id": "Q620",
+    "question": "[Go Fig AI](https://github.com/go-fig-ai/take-home-inbox-triage) - Inbox-triage agent with human-in-the-loop"
+  },
+  {
+    "id": "Q621",
+    "question": "[Cerebras](https://github.com/danielkim-cerebras/ai-model-quality-challenge) - Model Quality and Performance challenge"
+  },
+  {
+    "id": "Q622",
+    "question": "[AI:AT](https://github.com/AIAT-AIandBusinessgrowth/standort-agent-challenge-public) - Multi-criteria location evaluation agent"
+  },
+  {
+    "id": "Q623",
+    "question": "[Bloom (radialreview)](https://github.com/radialreview/bloom-coffee-ai) - Pre-built coffee ordering app candidates extend with an AI order taker"
+  }
+]

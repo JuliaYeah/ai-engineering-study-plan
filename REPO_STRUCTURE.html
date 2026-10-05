@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Repo Structure</title>
+<style>
+:root { --bg:#fafaf8; --fg:#1c1c1a; --muted:#6b6b66; --line:#e2e2dc; --code:#efefe9; --accent:#2f5d8a; }
+@media (prefers-color-scheme: dark) { :root { --bg:#16171a; --fg:#e6e6e2; --muted:#9a9a94; --line:#2e2f33; --code:#232428; --accent:#7fb0e0; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; }
+main { max-width:960px; margin:0 auto; padding:24px 16px 64px; }
+h1 { font-size:1.8rem; margin:0 0 .5rem; }
+h2 { font-size:1.25rem; margin:2rem 0 .5rem; }
+h3 { font-size:1rem; margin:1.2rem 0 .3rem; color:var(--muted); }
+code { background:var(--code); padding:.1em .35em; border-radius:4px; font:.88em ui-monospace,Consolas,monospace; }
+pre { background:var(--code); padding:12px 14px; border-radius:8px; overflow-x:auto; font:.85rem/1.5 ui-monospace,Consolas,monospace; }
+pre, code { word-break:normal; }
+#q { width:100%; padding:10px 12px; font:inherit; color:var(--fg); background:var(--bg); border:1px solid var(--line); border-radius:8px; position:sticky; top:8px; }
+details.sec { border-top:1px solid var(--line); margin-top:1rem; }
+details.sec > summary { cursor:pointer; list-style:none; display:flex; align-items:center; gap:10px; }
+details.sec > summary::-webkit-details-marker { display:none; }
+details.sec > summary h2 { margin:1rem 0 .5rem; }
+details.sec > summary::before { content:"▸"; color:var(--accent); }
+details.sec[open] > summary::before { content:"▾"; }
+.n { color:var(--muted); font-size:.8rem; }
+ul { list-style:none; padding:0; margin:0; }
+li.item { display:grid; grid-template-columns:minmax(0,5fr) minmax(0,6fr); gap:6px 16px; padding:6px 0; border-bottom:1px dashed var(--line); }
+.path { background:none; padding:0; color:var(--accent); overflow-wrap:anywhere; align-self:start; }
+li.item span { color:var(--fg); }
+ol { padding-left:1.4rem; }
+@media (max-width:640px) { li.item { grid-template-columns:1fr; } }
+.hide { display:none !important; }
+</style>
+</head>
+<body>
+<main>
+<input id="q" type="search" placeholder="搜索文件名或说明…" aria-label="搜索">
+<h1>Repo Structure</h1>
+<p><code>ai-engineering-field-guide</code> 是一个数据驱动的 AI Engineer 指南：基于 6,964 条招聘信息（Built In 抓取）、面试经验和从业者故事，回答 AI Engineer 做什么、怎么面试、怎么做作品集、怎么转行。</p>
+<p>repo 约有 23,874 个跟踪文件，其中约 99% 在 <code>job-market/</code> 下（原始 HTML、YAML 和抓取数据），所以这份文档对数据文件按目录和命名规则汇总，对脚本和文档逐个说明。</p>
+<p>语言与工具：内容主要是 Markdown，数据是 YAML 和 CSV，脚本是 Python 3.13（<code>uv</code> 管理）。抓取用 requests、BeautifulSoup、lxml 加代理，LLM 抽取用 Z.ai 的 GLM 模型（Anthropic 兼容 API），分析用 pandas、matplotlib、Jupyter。</p>
+<h2>目录树</h2>
+<pre>ai-engineering-field-guide/
+├── README.md, AGENTS.md, STYLING.md, awesome.md, serve_wiki.py
+├── .claude/commands/        1 个文件 (fetch-jobs.md)
+├── images/                  1 张图
+├── role/                    9 个 md - AI Engineer 角色分析
+├── interview/               82 个文件 - 面试流程、题目、证据数据
+│   ├── questions/  data/  _internal/
+├── learning-paths/          6 个 md - 从其他岗位转行
+├── portfolio/               28 个文件 - 作品集指南
+├── webinars/                19 个文件 - 5 场 webinar 和 slides
+├── wiki/                    23 个文件 - LLM 维护的知识 wiki
+└── job-market/              23,699 个文件 - 数据集和流水线
+    ├── data_raw/            8,051 个 YAML (9 个抓取日期)
+    ├── data_structured/     8,051 个 YAML (LLM 增强)
+    ├── images/              5 张图表
+    └── _internal/           脚本、中间数据、评估</pre>
+<details open class="sec"><summary><h2>根目录</h2><span class="n">8</span></summary>
+<ul>
+<li class="item"><code class="path">README.md</code><span>项目入口页，介绍指南的数据来源，并链接到 role、interview、learning-paths、portfolio、webinars 各部分。</span></li>
+<li class="item"><code class="path">AGENTS.md</code><span>给 AI 助手的项目说明：引入 <code>STYLING.md</code>，并指明 <code>wiki/</code> 是 LLM 维护的 wiki，需遵循 wiki 的 schema。</span></li>
+<li class="item"><code class="path">STYLING.md</code><span>写作规范：不用粗体、斜体和水平线，少用表格，文件名用反引号，百分比保留一位小数，研究结论用第一人称。</span></li>
+<li class="item"><code class="path">awesome.md</code><span>精选的外部资源清单（面试经验、系统设计、博客、书、课程），是调研时的参考列表。</span></li>
+<li class="item"><code class="path">serve_wiki.py</code><span>只用标准库的本地 HTTP 服务，把 markdown 渲染成带样式的 HTML 来浏览 wiki，并提供图片等静态文件。</span></li>
+<li class="item"><code class="path">.gitignore</code><span>忽略 Python 缓存、虚拟环境、<code>.env</code>、IDE 文件、<code>uv.lock</code>、<code>jobs/</code> 下的原始抓取文件、<code>.pkl</code> 和 <code>.parquet</code>，以及 <code>/_work-in-progress/</code>。</span></li>
+<li class="item"><code class="path">.claude/commands/fetch-jobs.md</code><span>每月抓取招聘数据的斜杠命令，按顺序执行 5 步流水线。</span></li>
+<li class="item"><code class="path">images/event-series-tweet.jpg</code><span>活动系列的社交宣传图。</span></li>
+</ul>
+</details>
+<details open class="sec"><summary><h2>role/ - 角色分析</h2><span class="n">9</span></summary>
+<p>用招聘数据定义 AI Engineer 角色。</p>
+<ul>
+<li class="item"><code class="path">role/README.md</code><span>本部分导读，说明如何定义 AI Engineer 角色。</span></li>
+<li class="item"><code class="path">role/01-my-vision.md</code><span>我对 AI Engineer 角色的整体看法，以及与相邻岗位的区别。</span></li>
+<li class="item"><code class="path">role/02-skills.md</code><span>招聘信息中技能需求的统计分析。</span></li>
+<li class="item"><code class="path">role/03-responsibilities.md</code><span>招聘信息中工作职责的归类和统计。</span></li>
+<li class="item"><code class="path">role/04-use-cases.md</code><span>招聘信息里提到的 AI 应用场景及其主题聚类。</span></li>
+<li class="item"><code class="path">role/05-reality-vs-postings.md</code><span>从业者的真实工作与招聘信息描述之间的差距。</span></li>
+<li class="item"><code class="path">role/06-fde.md</code><span>Forward Deployed Engineer 岗位在数据里的表现。</span></li>
+<li class="item"><code class="path">role/07-trends.md</code><span>2026 年各月份 AI 岗位市场的趋势变化。</span></li>
+<li class="item"><code class="path">role/08-trends-appendix.md</code><span>趋势分析的补充数据和细节。</span></li>
+</ul>
+</details>
+<details open class="sec"><summary><h2>interview/ - 面试</h2><span class="n">22</span></summary>
+<p>面试流程、题目和证据数据。</p>
+<ul>
+<li class="item"><code class="path">interview/README.md</code><span>面试准备部分的导读。</span></li>
+<li class="item"><code class="path">interview/01-interview-process.md</code><span>AI 工程岗位面试流程的分析（轮次、形式）。</span></li>
+<li class="item"><code class="path">interview/02-questions.md</code><span>面试题目概览，链接到 <code>questions/</code> 下各类题型。</span></li>
+<li class="item"><code class="path">interview/03-get-hired.md</code><span>如何拿到 offer 的建议。</span></li>
+<li class="item"><code class="path">interview/04-after-the-interview.md</code><span>面试之后的跟进、谈判和复盘。</span></li>
+<li class="item"><code class="path">interview/05-trends.md</code><span>2026 年面试趋势。</span></li>
+</ul>
+<h3>questions/</h3>
+<ul>
+<li class="item"><code class="path">interview/questions/questions.md</code><span>AI 工程面试题总览。</span></li>
+<li class="item"><code class="path">interview/questions/01-theory.md</code><span>理论题（LLM、RAG、评估等）。</span></li>
+<li class="item"><code class="path">interview/questions/02-coding.md</code><span>编程题。</span></li>
+<li class="item"><code class="path">interview/questions/03-project-deep-dive.md</code><span>项目深挖面试怎么准备。</span></li>
+<li class="item"><code class="path">interview/questions/04-ai-system-design.md</code><span>AI 系统设计面试。</span></li>
+<li class="item"><code class="path">interview/questions/05-behavioral.md</code><span>行为面试题。</span></li>
+<li class="item"><code class="path">interview/questions/06-home-assignments.md</code><span>带回家完成的作业（take-home）类型和例子。</span></li>
+</ul>
+<h3>data/ - 证据库</h3>
+<ul>
+<li class="item"><code class="path">interview/data/README.md</code><span>说明每道题都能追溯到真实来源。</span></li>
+<li class="item"><code class="path">interview/data/job-descriptions/</code><span>51 个 <code>&lt;job_id&gt;.yaml</code>，每个记录公司、岗位、面试流程描述，并链接回招聘信息。</span></li>
+<li class="item"><code class="path">interview/data/research-exports/</code><span>5 份研究笔记：home-assignments、interview-experiences、recruitment-evolution、role-analysis、trends。</span></li>
+<li class="item"><code class="path">interview/data/sources/</code><span>6 份来源索引：all-links、articles、discussion-threads、github-repos、github-search-methodology、verification-methodology。</span></li>
+</ul>
+<h3>_internal/ - 调研工具</h3>
+<ul>
+<li class="item"><code class="path">interview/_internal/ai-vs-ml-scoping.md</code><span>界定什么算 AI engineering、什么算 ML engineering 的规则。</span></li>
+<li class="item"><code class="path">interview/_internal/fetch_reddit.py</code><span>通过 Arctic-Shift API 抓取 Reddit 帖子和评论。</span></li>
+<li class="item"><code class="path">interview/_internal/xai_search.py</code><span>调用 x.ai Grok API 的网页和 X 搜索做调研。</span></li>
+<li class="item"><code class="path">interview/_internal/main.py</code><span>hello-world 占位脚本。</span></li>
+<li class="item"><code class="path">interview/_internal/pyproject.toml</code><span>调研脚本的依赖。</span></li>
+</ul>
+</details>
+<details open class="sec"><summary><h2>learning-paths/ - 转行路径</h2><span class="n">6</span></summary>
+<ul>
+<li class="item"><code class="path">learning-paths/README.md</code><span>各岗位转 AI Engineer 的学习路径总览。</span></li>
+<li class="item"><code class="path">learning-paths/from-backend-engineer.md</code><span>后端工程师的转行路径。</span></li>
+<li class="item"><code class="path">learning-paths/from-data-engineer.md</code><span>数据工程师的转行路径。</span></li>
+<li class="item"><code class="path">learning-paths/from-data-scientist.md</code><span>数据科学家的转行路径。</span></li>
+<li class="item"><code class="path">learning-paths/from-frontend-engineer.md</code><span>前端工程师的转行路径。</span></li>
+<li class="item"><code class="path">learning-paths/from-ml-engineer.md</code><span>ML 工程师的转行路径。</span></li>
+</ul>
+</details>
+<details open class="sec"><summary><h2>portfolio/ - 作品集</h2><span class="n">15</span></summary>
+<ul>
+<li class="item"><code class="path">portfolio/README.md</code><span>作品集部分的导读。</span></li>
+<li class="item"><code class="path">portfolio/01-types-of-projects.md</code><span>作品集项目的类型。</span></li>
+<li class="item"><code class="path">portfolio/02-how-to-pick-a-project.md</code><span>如何选项目。</span></li>
+<li class="item"><code class="path">portfolio/03-start-a-project.md</code><span>如何开始一个项目。</span></li>
+<li class="item"><code class="path">portfolio/04-polishing.md</code><span>项目打磨。</span></li>
+<li class="item"><code class="path">portfolio/05-present-the-project.md</code><span>如何展示项目。</span></li>
+<li class="item"><code class="path">portfolio/06-common-mistakes.md</code><span>常见错误。</span></li>
+<li class="item"><code class="path">portfolio/07-project-ideas.md</code><span>项目点子清单。</span></li>
+</ul>
+<h3>_internal/</h3>
+<ul>
+<li class="item"><code class="path">portfolio/_internal/README.md</code><span>说明这里是原始调研笔记。</span></li>
+<li class="item"><code class="path">portfolio/_internal/all-links.md</code><span>所有收集到的链接。</span></li>
+<li class="item"><code class="path">portfolio/_internal/articles.md</code><span>文章来源索引。</span></li>
+<li class="item"><code class="path">portfolio/_internal/discussion-threads.md</code><span>讨论帖来源索引。</span></li>
+<li class="item"><code class="path">portfolio/_internal/local-corpus.md</code><span>本地语料说明。</span></li>
+<li class="item"><code class="path">portfolio/_internal/podcast-sources.md</code><span>播客来源索引。</span></li>
+<li class="item"><code class="path">portfolio/_internal/fetched/</code><span>抓取的原始内容：<code>grok-responses/</code> 和 <code>reddit-posts/</code>。</span></li>
+</ul>
+</details>
+<details open class="sec"><summary><h2>webinars/ - 网络研讨会</h2><span class="n">12</span></summary>
+<ul>
+<li class="item"><code class="path">webinars/README.md</code><span>webinar 系列导读。</span></li>
+<li class="item"><code class="path">webinars/01-a-day-of-ai-engineer.md</code><span>Webinar 1：AI Engineer 的一天。</span></li>
+<li class="item"><code class="path">webinars/02-defining-the-role.md</code><span>Webinar 2：定义 AI Engineer 角色。</span></li>
+<li class="item"><code class="path">webinars/03-the-interview-process.md</code><span>Webinar 3：面试流程。</span></li>
+<li class="item"><code class="path">webinars/04-take-home-assignments.md</code><span>Webinar 4：take-home 作业。</span></li>
+<li class="item"><code class="path">webinars/05-selecting-a-portfolio-project.md</code><span>Webinar 5：选择作品集项目。</span></li>
+<li class="item"><code class="path">webinars/images/</code><span>5 张截图：1400-jobs、800-jobs-dedup、builtin、raw-data、structured-data。</span></li>
+</ul>
+<h3>slides/</h3>
+<ul>
+<li class="item"><code class="path">webinars/slides/ai-engineer-role.html</code><span>角色 webinar 的 HTML 幻灯片（另有 PDF 版）。</span></li>
+<li class="item"><code class="path">webinars/slides/interview-process.html</code><span>面试流程 webinar 的 HTML 幻灯片（另有 PDF 版）。</span></li>
+<li class="item"><code class="path">webinars/slides/job-market-analysis.html</code><span>招聘市场分析幻灯片。</span></li>
+<li class="item"><code class="path">webinars/slides/job-market-trends-2026-08.html</code><span>2026 年 8 月趋势幻灯片（另有 PDF 版）。</span></li>
+<li class="item"><code class="path">webinars/slides/to_pdf.py</code><span>把 HTML 幻灯片转成 PDF 的脚本。</span></li>
+</ul>
+</details>
+<details open class="sec"><summary><h2>wiki/ - 知识 wiki</h2><span class="n">10</span></summary>
+<p>LLM 维护的知识库，采用 Karpathy 的 LLM Wiki 模式；<code>raw/</code> 只读，每个结论都要引用来源。</p>
+<ul>
+<li class="item"><code class="path">wiki/AGENTS.md</code><span>wiki 的 schema：目录布局、规则，以及 ingest、query、lint 三种操作。</span></li>
+<li class="item"><code class="path">wiki/README.md</code><span>wiki 导读。</span></li>
+<li class="item"><code class="path">wiki/index.md</code><span>所有 wiki 页面的目录。</span></li>
+<li class="item"><code class="path">wiki/log.md</code><span>每次 wiki 操作的时间线日志。</span></li>
+<li class="item"><code class="path">wiki/overview.md</code><span>整个 wiki 的概要。</span></li>
+<li class="item"><code class="path">wiki/summaries/</code><span>每个 repo 部分一页摘要：awesome、field-guide-readme、interview、job-market、learning-paths、portfolio、role、webinars，外加 Karpathy 的文章摘要。</span></li>
+<li class="item"><code class="path">wiki/concepts/</code><span>6 个概念页：ai-engineer-role、evaluation-differentiator、interview-process、llm-wiki-pattern、portfolio-projects、take-home-assignments。</span></li>
+<li class="item"><code class="path">wiki/entities/alexey-grigorev.md</code><span>作者 Alexey Grigorev 的实体页。</span></li>
+<li class="item"><code class="path">wiki/answers/repo-content-map.md</code><span>repo 内容的文件级映射。</span></li>
+<li class="item"><code class="path">wiki/raw/2026-04-karpathy-llm-wiki.md</code><span>Karpathy LLM Wiki 文章的原始文本。</span></li>
+</ul>
+</details>
+<details open class="sec"><summary><h2>job-market/ - 数据集和流水线</h2><span class="n">52</span></summary>
+<h3>顶层</h3>
+<ul>
+<li class="item"><code class="path">job-market/README.md</code><span>数据集说明：覆盖范围（LA、纽约、伦敦、阿姆斯特丹、柏林、印度）、数据格式和主要发现。</span></li>
+<li class="item"><code class="path">job-market/analysis.ipynb</code><span>探索性分析 notebook。</span></li>
+<li class="item"><code class="path">job-market/pyproject.toml</code><span>包 <code>ai-engineer-research</code> 的配置，要求 Python 3.13 以上，依赖 anthropic、playwright、pandas、pydantic 等。</span></li>
+<li class="item"><code class="path">job-market/.python-version</code><span>固定 Python 3.13。</span></li>
+<li class="item"><code class="path">job-market/images/</code><span>5 张图表：integrator-vs-trainer、role-archetypes、skill-momentum、skill-trajectories、use-case-themes。</span></li>
+</ul>
+<h3>数据目录</h3>
+<p>文件名规则都是 <code>{job_id}_{Company}_{Title}.yaml</code>，按抓取日期分文件夹：2026-02-04、02-27、03-27、04-22、05-29、06-25、07-22、08-25、09-23，每个日期约 900 到 1,100 个文件。</p>
+<ul>
+<li class="item"><code class="path">job-market/data_raw/&lt;date&gt;/</code><span>8,051 个 YAML，直接从 HTML 解析（无 LLM），包含标题、公司、地点、工作类型、级别、浅层技能列表和完整描述。</span></li>
+<li class="item"><code class="path">job-market/data_structured/&lt;date&gt;/</code><span>8,051 个 YAML，LLM 增强后的结构化数据：公司信息、AI-First 或 AI-Support 分类、职责、用例、按类别分的技能、是否面向客户和是否管理岗。</span></li>
+</ul>
+<h3>_internal/ 顶层脚本和文档</h3>
+<ul>
+<li class="item"><code class="path">job-market/_internal/PIPELINE.md</code><span>流水线完整文档：流程图、环境变量、目录结构和各步命令。</span></li>
+<li class="item"><code class="path">job-market/_internal/extract_process.md</code><span>最初的抽取目标：全面抽取技能，并区分 ai-first 与 ai-support。</span></li>
+<li class="item"><code class="path">job-market/_internal/extract_llm.py</code><span>第 5 步：用 GLM 模型和 pydantic schema 做 LLM 抽取，写入 <code>data_structured/</code>。</span></li>
+<li class="item"><code class="path">job-market/_internal/final_structure.py</code><span>LLM 输出的 pydantic 模型（<code>Skill</code>、<code>JobExtraction</code>）和技能类别。</span></li>
+<li class="item"><code class="path">job-market/_internal/classify_jobs.py</code><span>基于正则的标题分类（AI-First 与 AI-Support）。</span></li>
+<li class="item"><code class="path">job-market/_internal/backfill_location.py</code><span>从保存的 HTML 里补全早期运行丢失的多地点 <code>location</code> 字段。</span></li>
+<li class="item"><code class="path">job-market/_internal/fix_yaml.py</code><span>修复含未加引号冒号的 YAML。</span></li>
+<li class="item"><code class="path">job-market/_internal/pipeline_paths.py</code><span>共享的路径辅助函数和常量。</span></li>
+<li class="item"><code class="path">job-market/_internal/clean_dedup.ipynb</code><span>去重的探索 notebook。</span></li>
+<li class="item"><code class="path">job-market/_internal/all_responsibilities.txt</code><span>汇总的所有职责文本。</span></li>
+<li class="item"><code class="path">job-market/_internal/all_use_cases.txt</code><span>汇总的所有用例，共 24,502 条，来自 4,894 个职位。</span></li>
+</ul>
+<h3>scrapers/ - 抓取</h3>
+<ul>
+<li class="item"><code class="path">job-market/_internal/scrapers/scrape_builtin_requests.py</code><span>第 1 步：通过代理抓取 Built In 职位列表，输出 JSON 和 <code>all_jobs.csv</code>。</span></li>
+<li class="item"><code class="path">job-market/_internal/scrapers/clean_dedup.py</code><span>第 2 步：去掉垃圾公司和重复项，输出 <code>all_jobs_dedup.csv</code>。</span></li>
+<li class="item"><code class="path">job-market/_internal/scrapers/download_all_html.py</code><span>第 3 步：用 8 个线程下载职位页面 HTML。</span></li>
+<li class="item"><code class="path">job-market/_internal/scrapers/extract_from_html.py</code><span>第 4 步：把 HTML 解析成 <code>data_raw/</code> 的 YAML，不用 LLM。</span></li>
+<li class="item"><code class="path">job-market/_internal/scrapers/proxy_config.py</code><span>从环境变量或 <code>.env</code> 读取代理凭据。</span></li>
+<li class="item"><code class="path">job-market/_internal/scrapers/pagination/</code><span>旧的 Playwright 抓取脚本（5 个），requests 方式失败时作为备选。</span></li>
+</ul>
+<h3>analysis/ - 分析</h3>
+<p>读取 <code>data_structured/</code>，生成 <code>role/</code> 章节的数据和 <code>job-market/images/</code> 的图表。</p>
+<ul>
+<li class="item"><code class="path">job-market/_internal/analysis/common.py</code><span>技能分类体系和共享的数据加载函数。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/canonicalize_skills.py</code><span>技能名称规范化。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/analyze.py</code><span>主要统计分析。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/analyze_patterns.py</code><span>模式分析。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/skills_analysis.py</code><span>技能需求分析。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/support_roles.py</code><span>AI-Support 类岗位分析。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/support_skills_analysis.py</code><span>AI-Support 岗位的技能分析。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/title_analysis.py</code><span>职位标题分析。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/finetuning_analysis.py</code><span>微调（fine-tuning）需求分析。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/extract_responsibilities.py</code><span>生成 <code>all_responsibilities.txt</code>。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/extract_use_cases.py</code><span>生成 <code>all_use_cases.txt</code>。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/trends.py</code><span>按月份的趋势分析。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/deep_trends.py</code><span>更深入的趋势分析。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/deep_trends2.py</code><span>趋势分析的第二版。</span></li>
+<li class="item"><code class="path">job-market/_internal/analysis/charts.py</code><span>生成 <code>job-market/images/</code> 里的图表。</span></li>
+</ul>
+<h3>eval/ - 抽取质量评估</h3>
+<ul>
+<li class="item"><code class="path">job-market/_internal/eval/README.md</code><span>评估说明：2026 年 8 月模型从 glm-5.1 换到 glm-5.2，重新抽取后对 50 个抽样职位并排打分。</span></li>
+<li class="item"><code class="path">job-market/_internal/eval/build_eval.py</code><span>构建 A/B 抽样集。</span></li>
+<li class="item"><code class="path">job-market/_internal/eval/consistency.py</code><span>一致性检查。</span></li>
+<li class="item"><code class="path">job-market/_internal/eval/recall.py</code><span>召回率检查。</span></li>
+<li class="item"><code class="path">job-market/_internal/eval/fields.py</code><span>字段级检查。</span></li>
+<li class="item"><code class="path">job-market/_internal/eval/score.py</code><span>汇总打分。</span></li>
+<li class="item"><code class="path">job-market/_internal/eval/run_checks.sh</code><span>一次运行所有检查。</span></li>
+<li class="item"><code class="path">job-market/_internal/eval/grades.json</code><span>人工或模型的打分结果。</span></li>
+<li class="item"><code class="path">job-market/_internal/eval/manifest.json</code><span>抽样清单。</span></li>
+</ul>
+<h3>jobs/ 和 data/ - 中间数据</h3>
+<ul>
+<li class="item"><code class="path">job-market/_internal/jobs/builtin/</code><span>按地点和日期的列表 JSON（<code>{site}_{YYYYMMDD}.json</code>，site 有 amsterdam、berlin、india、la、london、newyork）；大部分被 gitignore。</span></li>
+<li class="item"><code class="path">job-market/_internal/jobs/raw/&lt;date&gt;/</code><span>下载的原始职位页面 HTML，共 7,476 个，被 gitignore。</span></li>
+<li class="item"><code class="path">job-market/_internal/data/all_jobs_dedup.csv</code><span>全局去重后的职位表。</span></li>
+<li class="item"><code class="path">job-market/_internal/data/scrapes/&lt;date&gt;/</code><span>每次抓取的 <code>all_jobs.csv</code> 和 <code>all_jobs_dedup.csv</code>。</span></li>
+</ul>
+</details>
+<h2>数据流水线</h2><ol><li><code>scrapers/scrape_builtin_requests.py</code> - 抓取职位列表</li><li><code>scrapers/clean_dedup.py</code> - 去重</li><li><code>scrapers/download_all_html.py</code> - 下载 HTML</li><li><code>scrapers/extract_from_html.py</code> - HTML 转 <code>data_raw/</code> YAML</li><li><code>extract_llm.py</code> - LLM 增强，写入 <code>data_structured/</code></li></ol>
+<p>以上都在 <code>job-market/_internal/</code> 下运行，也就是 <code>fetch-jobs</code> 命令。之后 <code>analysis/*</code> 读取 <code>data_structured/</code>，产出 <code>role/</code> 章节和图表；<code>eval/*</code> 验证抽取质量；<code>webinars/slides</code> 和 <code>wiki/</code> 基于已发布内容构建。</p>
+<h2>发现的不一致</h2><ul><li><code>README.md</code> 和 <code>job-market/README.md</code> 写的是 6,964 个职位、8 次抓取，但数据目录里已有第 9 次（2026-09-23）。</li><li><code>AGENTS.md</code> 引用 <code>wiki/CLAUDE.md</code>，但磁盘上只有 <code>wiki/AGENTS.md</code>。</li><li><code>PIPELINE.md</code> 写第 5 步模型是 GLM-4.7，但输出里是 glm-5.2，eval README 提到 glm-5.1 和 glm-5.2。</li></ul>
+</main>
+<script>
+const q = document.getElementById('q');
+q.addEventListener('input', () => {
+  const v = q.value.trim().toLowerCase();
+  document.querySelectorAll('li.item').forEach(li => li.classList.toggle('hide', v && !li.textContent.toLowerCase().includes(v)));
+  document.querySelectorAll('details.sec').forEach(d => {
+    const any = d.querySelector('li.item:not(.hide)');
+    d.classList.toggle('hide', v && !any);
+    if (v && any) d.open = true;
+  });
+});
+</script>
+</body>
+</html>

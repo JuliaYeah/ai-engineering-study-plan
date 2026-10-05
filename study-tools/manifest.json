@@ -1,0 +1,3160 @@
+{
+  "generated": "2026-10-04",
+  "records": [
+    {
+      "name": "Hash Maps",
+      "module": "Python",
+      "days": [
+        1,
+        6,
+        40
+      ],
+      "id": "hash-maps"
+    },
+    {
+      "name": "Arrays and Strings",
+      "module": "Python",
+      "days": [
+        3,
+        6
+      ],
+      "id": "arrays-and-strings"
+    },
+    {
+      "name": "Two Pointers",
+      "module": "Python",
+      "days": [
+        3,
+        6
+      ],
+      "id": "two-pointers"
+    },
+    {
+      "name": "Sorting",
+      "module": "Python",
+      "days": [
+        5,
+        41
+      ],
+      "id": "sorting"
+    },
+    {
+      "name": "Binary Search",
+      "module": "Python",
+      "days": [
+        5,
+        36,
+        41
+      ],
+      "id": "binary-search"
+    },
+    {
+      "name": "Complexity Analysis",
+      "module": "Python",
+      "days": [
+        5,
+        30
+      ],
+      "id": "complexity-analysis"
+    },
+    {
+      "name": "Sliding Window",
+      "module": "Python",
+      "days": [
+        8,
+        30,
+        45
+      ],
+      "id": "sliding-window"
+    },
+    {
+      "name": "Prefix Sums",
+      "module": "Python",
+      "days": [
+        8,
+        36
+      ],
+      "id": "prefix-sums"
+    },
+    {
+      "name": "Stacks",
+      "module": "Python",
+      "days": [
+        10,
+        20
+      ],
+      "id": "stacks"
+    },
+    {
+      "name": "Queues",
+      "module": "Python",
+      "days": [
+        10,
+        15,
+        43
+      ],
+      "id": "queues"
+    },
+    {
+      "name": "Heaps",
+      "module": "Python",
+      "days": [
+        11,
+        30,
+        45
+      ],
+      "id": "heaps"
+    },
+    {
+      "name": "Linked Lists",
+      "module": "Python",
+      "days": [
+        13,
+        41
+      ],
+      "id": "linked-lists"
+    },
+    {
+      "name": "LRU Cache",
+      "module": "Python",
+      "days": [
+        13,
+        25,
+        31,
+        40
+      ],
+      "id": "lru-cache"
+    },
+    {
+      "name": "BFS",
+      "module": "Python",
+      "days": [
+        15,
+        16,
+        30,
+        45
+      ],
+      "id": "bfs"
+    },
+    {
+      "name": "DFS",
+      "module": "Python",
+      "days": [
+        15,
+        30,
+        45
+      ],
+      "id": "dfs"
+    },
+    {
+      "name": "Trees",
+      "module": "Python",
+      "days": [
+        16,
+        30
+      ],
+      "id": "trees"
+    },
+    {
+      "name": "Recursion",
+      "module": "Python",
+      "days": [
+        16,
+        36
+      ],
+      "id": "recursion"
+    },
+    {
+      "name": "Key-Value Store",
+      "module": "Python",
+      "days": [
+        18,
+        31,
+        43
+      ],
+      "id": "key-value-store"
+    },
+    {
+      "name": "TTL",
+      "module": "Python",
+      "days": [
+        18,
+        31,
+        43
+      ],
+      "id": "ttl"
+    },
+    {
+      "name": "API Clients",
+      "module": "Python",
+      "days": [
+        21,
+        38
+      ],
+      "id": "api-clients"
+    },
+    {
+      "name": "Rate Limiter",
+      "module": "Python",
+      "days": [
+        25,
+        43
+      ],
+      "id": "rate-limiter"
+    },
+    {
+      "name": "Crawler",
+      "module": "Python",
+      "days": [
+        26,
+        43
+      ],
+      "id": "crawler"
+    },
+    {
+      "name": "Async",
+      "module": "Python",
+      "days": [
+        23,
+        26
+      ],
+      "id": "async"
+    },
+    {
+      "name": "Concurrency",
+      "module": "Python",
+      "days": [
+        23,
+        26
+      ],
+      "id": "concurrency"
+    },
+    {
+      "name": "Parallelism",
+      "module": "Python",
+      "days": [
+        23,
+        28
+      ],
+      "id": "parallelism"
+    },
+    {
+      "name": "GIL",
+      "module": "Python",
+      "days": [
+        23,
+        28
+      ],
+      "id": "gil"
+    },
+    {
+      "name": "Race Conditions",
+      "module": "Python",
+      "days": [
+        23,
+        38
+      ],
+      "id": "race-conditions"
+    },
+    {
+      "name": "Vectorization",
+      "module": "Python",
+      "days": [
+        28,
+        33,
+        35
+      ],
+      "id": "vectorization"
+    },
+    {
+      "name": "Profiling",
+      "module": "Python",
+      "days": [
+        28,
+        38
+      ],
+      "id": "profiling"
+    },
+    {
+      "name": "Debugging",
+      "module": "Python",
+      "days": [
+        20,
+        33,
+        38
+      ],
+      "id": "debugging"
+    },
+    {
+      "name": "Refactoring",
+      "module": "Python",
+      "days": [
+        20,
+        38
+      ],
+      "id": "refactoring"
+    },
+    {
+      "name": "Code Review",
+      "module": "Python",
+      "days": [
+        20,
+        38
+      ],
+      "id": "code-review"
+    },
+    {
+      "name": "NumPy Logistic Regression",
+      "module": "Python",
+      "days": [
+        35,
+        40
+      ],
+      "id": "numpy-logistic-regression"
+    },
+    {
+      "name": "SELECT",
+      "module": "SQL",
+      "days": [
+        2,
+        39
+      ],
+      "id": "select"
+    },
+    {
+      "name": "WHERE",
+      "module": "SQL",
+      "days": [
+        2,
+        39
+      ],
+      "id": "where"
+    },
+    {
+      "name": "ORDER BY",
+      "module": "SQL",
+      "days": [
+        2,
+        39
+      ],
+      "id": "order-by"
+    },
+    {
+      "name": "LIMIT",
+      "module": "SQL",
+      "days": [
+        2,
+        39
+      ],
+      "id": "limit"
+    },
+    {
+      "name": "NULL",
+      "module": "SQL",
+      "days": [
+        2,
+        39
+      ],
+      "id": "null"
+    },
+    {
+      "name": "GROUP BY",
+      "module": "SQL",
+      "days": [
+        4,
+        32,
+        39
+      ],
+      "id": "group-by"
+    },
+    {
+      "name": "HAVING",
+      "module": "SQL",
+      "days": [
+        4,
+        39,
+        42
+      ],
+      "id": "having"
+    },
+    {
+      "name": "CASE",
+      "module": "SQL",
+      "days": [
+        4,
+        39
+      ],
+      "id": "case"
+    },
+    {
+      "name": "JOINs",
+      "module": "SQL",
+      "days": [
+        7,
+        32,
+        39,
+        42
+      ],
+      "id": "joins"
+    },
+    {
+      "name": "Subqueries",
+      "module": "SQL",
+      "days": [
+        9,
+        39
+      ],
+      "id": "subqueries"
+    },
+    {
+      "name": "CTEs",
+      "module": "SQL",
+      "days": [
+        9,
+        39
+      ],
+      "id": "ctes"
+    },
+    {
+      "name": "EXISTS",
+      "module": "SQL",
+      "days": [
+        9,
+        39
+      ],
+      "id": "exists"
+    },
+    {
+      "name": "Window Functions",
+      "module": "SQL",
+      "days": [
+        12,
+        34,
+        37,
+        44
+      ],
+      "id": "window-functions"
+    },
+    {
+      "name": "ROW_NUMBER",
+      "module": "SQL",
+      "days": [
+        12,
+        34,
+        37,
+        44
+      ],
+      "id": "row-number"
+    },
+    {
+      "name": "RANK",
+      "module": "SQL",
+      "days": [
+        12,
+        34,
+        37,
+        44
+      ],
+      "id": "rank"
+    },
+    {
+      "name": "DENSE_RANK",
+      "module": "SQL",
+      "days": [
+        12,
+        34,
+        37,
+        44
+      ],
+      "id": "dense-rank"
+    },
+    {
+      "name": "LAG",
+      "module": "SQL",
+      "days": [
+        14,
+        29,
+        34,
+        37,
+        44
+      ],
+      "id": "lag"
+    },
+    {
+      "name": "LEAD",
+      "module": "SQL",
+      "days": [
+        14,
+        34,
+        37,
+        44
+      ],
+      "id": "lead"
+    },
+    {
+      "name": "Rolling Aggregations",
+      "module": "SQL",
+      "days": [
+        14,
+        34,
+        37,
+        44
+      ],
+      "id": "rolling-aggregations"
+    },
+    {
+      "name": "Date Queries",
+      "module": "SQL",
+      "days": [
+        17,
+        29,
+        39
+      ],
+      "id": "date-queries"
+    },
+    {
+      "name": "Transactions",
+      "module": "SQL",
+      "days": [
+        19,
+        39
+      ],
+      "id": "transactions"
+    },
+    {
+      "name": "Constraints",
+      "module": "SQL",
+      "days": [
+        19,
+        39
+      ],
+      "id": "constraints"
+    },
+    {
+      "name": "Parameterized Queries",
+      "module": "SQL",
+      "days": [
+        19,
+        39
+      ],
+      "id": "parameterized-queries"
+    },
+    {
+      "name": "PostgreSQL Schema Design",
+      "module": "SQL",
+      "days": [
+        22,
+        39
+      ],
+      "id": "postgresql-schema-design"
+    },
+    {
+      "name": "Primary and Foreign Keys",
+      "module": "SQL",
+      "days": [
+        22,
+        39
+      ],
+      "id": "primary-and-foreign-keys"
+    },
+    {
+      "name": "Indexes",
+      "module": "SQL",
+      "days": [
+        24,
+        39
+      ],
+      "id": "indexes"
+    },
+    {
+      "name": "EXPLAIN",
+      "module": "SQL",
+      "days": [
+        24,
+        39
+      ],
+      "id": "explain"
+    },
+    {
+      "name": "Query Optimization",
+      "module": "SQL",
+      "days": [
+        24,
+        39
+      ],
+      "id": "query-optimization"
+    },
+    {
+      "name": "Run Analytics",
+      "module": "SQL",
+      "days": [
+        27,
+        39
+      ],
+      "id": "run-analytics"
+    },
+    {
+      "name": "Percentiles",
+      "module": "SQL",
+      "days": [
+        27,
+        39
+      ],
+      "id": "percentiles"
+    },
+    {
+      "name": "Financial Analytics",
+      "module": "SQL",
+      "days": [
+        34,
+        39
+      ],
+      "id": "financial-analytics"
+    },
+    {
+      "name": "Train / Validation / Test Split",
+      "module": "ML",
+      "days": [
+        1,
+        40,
+        41
+      ],
+      "id": "train-validation-test-split",
+      "notebook": "01_train_validation_test_split.ipynb"
+    },
+    {
+      "name": "Supervised and Unsupervised Learning; Baselines",
+      "module": "ML",
+      "days": [
+        2,
+        39
+      ],
+      "id": "supervised-and-unsupervised-learning-baselines",
+      "notebook": "02_supervised_and_unsupervised_learning_baselines.ipynb"
+    },
+    {
+      "name": "Data Leakage; Scaling; scikit-learn Pipelines",
+      "module": "ML",
+      "days": [
+        3,
+        12
+      ],
+      "id": "data-leakage-scaling-scikit-learn-pipelines",
+      "notebook": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb"
+    },
+    {
+      "name": "MAE; RMSE",
+      "module": "ML",
+      "days": [
+        4,
+        13
+      ],
+      "id": "mae-rmse",
+      "notebook": "04_mae_rmse.ipynb"
+    },
+    {
+      "name": "Bias-Variance; Overfitting; Regularization; Linear Regression",
+      "module": "ML",
+      "days": [
+        5,
+        6,
+        14
+      ],
+      "id": "bias-variance-overfitting-regularization-linear-regression",
+      "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb"
+    },
+    {
+      "name": "Logistic Regression; Precision; Recall; F1; Class Imbalance",
+      "module": "ML",
+      "days": [
+        7,
+        8,
+        35
+      ],
+      "id": "logistic-regression-precision-recall-f1-class-imbalance",
+      "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb"
+    },
+    {
+      "name": "PR-AUC; ROC-AUC; Calibration",
+      "module": "ML",
+      "days": [
+        9,
+        10
+      ],
+      "id": "pr-auc-roc-auc-calibration",
+      "notebook": "07_pr_auc_roc_auc_calibration.ipynb"
+    },
+    {
+      "name": "Decision Trees; Random Forests; Gradient Boosting",
+      "module": "ML",
+      "days": [
+        11,
+        15,
+        16
+      ],
+      "id": "decision-trees-random-forests-gradient-boosting",
+      "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb"
+    },
+    {
+      "name": "Cross-Validation; Hyperparameter Tuning",
+      "module": "ML",
+      "days": [
+        17,
+        18
+      ],
+      "id": "cross-validation-hyperparameter-tuning",
+      "notebook": "09_cross_validation_hyperparameter_tuning.ipynb"
+    },
+    {
+      "name": "Feature Engineering; Interpretability; Feature Importance",
+      "module": "ML",
+      "days": [
+        19,
+        20
+      ],
+      "id": "feature-engineering-interpretability-feature-importance",
+      "notebook": "10_feature_engineering_interpretability_feature_importance.ipynb"
+    },
+    {
+      "name": "Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons",
+      "module": "ML",
+      "days": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "id": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb"
+    },
+    {
+      "name": "Volatility Forecasting; Out-of-Sample Evaluation",
+      "module": "ML",
+      "days": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "id": "volatility-forecasting-out-of-sample-evaluation",
+      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb"
+    },
+    {
+      "name": "Regime Changes; Statistical Uncertainty; Prediction Intervals",
+      "module": "ML",
+      "days": [
+        32,
+        33,
+        34
+      ],
+      "id": "regime-changes-statistical-uncertainty-prediction-intervals",
+      "notebook": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb"
+    },
+    {
+      "name": "Reproducibility; Model Versioning; Serving; Rollback",
+      "module": "ML",
+      "days": [
+        36,
+        37,
+        38
+      ],
+      "id": "reproducibility-model-versioning-serving-rollback",
+      "notebook": "14_reproducibility_model_versioning_serving_rollback.ipynb"
+    },
+    {
+      "name": "Drift; Retraining",
+      "module": "ML",
+      "days": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "id": "drift-retraining",
+      "notebook": "15_drift_retraining.ipynb"
+    },
+    {
+      "name": "Requirements and API Design",
+      "module": "General System Design",
+      "days": [
+        1,
+        2
+      ],
+      "id": "requirements-and-api-design",
+      "mode": "General"
+    },
+    {
+      "name": "Data Modeling and Indexes",
+      "module": "General System Design",
+      "days": [
+        3,
+        4
+      ],
+      "id": "data-modeling-and-indexes",
+      "mode": "General"
+    },
+    {
+      "name": "Cache and API Service",
+      "module": "General System Design",
+      "days": [
+        5,
+        6,
+        41
+      ],
+      "id": "cache-and-api-service",
+      "mode": "General"
+    },
+    {
+      "name": "Queues and Job Scheduler",
+      "module": "General System Design",
+      "days": [
+        7,
+        8,
+        42
+      ],
+      "id": "queues-and-job-scheduler",
+      "mode": "General"
+    },
+    {
+      "name": "Rate Limiting and Capacity",
+      "module": "General System Design",
+      "days": [
+        9,
+        10
+      ],
+      "id": "rate-limiting-and-capacity",
+      "mode": "General"
+    },
+    {
+      "name": "Retries, Idempotency and Consistency",
+      "module": "General System Design",
+      "days": [
+        11,
+        12
+      ],
+      "id": "retries-idempotency-and-consistency",
+      "mode": "General"
+    },
+    {
+      "name": "Latency and Observability",
+      "module": "General System Design",
+      "days": [
+        13,
+        14
+      ],
+      "id": "latency-and-observability",
+      "mode": "General"
+    },
+    {
+      "name": "CI/CD and AWS Deployment",
+      "module": "General System Design",
+      "days": [
+        15,
+        16
+      ],
+      "id": "ci-cd-and-aws-deployment",
+      "mode": "General"
+    },
+    {
+      "name": "Financial Research RAG",
+      "module": "AI System Design",
+      "days": [
+        17,
+        18
+      ],
+      "id": "financial-research-rag",
+      "mode": "AI"
+    },
+    {
+      "name": "RAG Evaluation and Retrieval Trade-offs",
+      "module": "AI System Design",
+      "days": [
+        19,
+        20
+      ],
+      "id": "rag-evaluation-and-retrieval-trade-offs",
+      "mode": "AI"
+    },
+    {
+      "name": "Financial Text-to-SQL",
+      "module": "AI System Design",
+      "days": [
+        21,
+        22
+      ],
+      "id": "financial-text-to-sql",
+      "mode": "AI"
+    },
+    {
+      "name": "Text-to-SQL Evaluation and Data Quality",
+      "module": "AI System Design",
+      "days": [
+        23,
+        24
+      ],
+      "id": "text-to-sql-evaluation-and-data-quality",
+      "mode": "AI"
+    },
+    {
+      "name": "Agents with Human Approval",
+      "module": "AI System Design",
+      "days": [
+        25,
+        26
+      ],
+      "id": "agents-with-human-approval",
+      "mode": "AI"
+    },
+    {
+      "name": "Agent Memory and Tool Contracts",
+      "module": "AI System Design",
+      "days": [
+        27,
+        28
+      ],
+      "id": "agent-memory-and-tool-contracts",
+      "mode": "AI"
+    },
+    {
+      "name": "AI-Assisted Experiment Platform",
+      "module": "AI System Design",
+      "days": [
+        29,
+        30
+      ],
+      "id": "ai-assisted-experiment-platform",
+      "mode": "AI"
+    },
+    {
+      "name": "Volatility Forecasting Service",
+      "module": "AI System Design",
+      "days": [
+        31,
+        32
+      ],
+      "id": "volatility-forecasting-service",
+      "mode": "AI"
+    },
+    {
+      "name": "Evaluation and Regression Pipeline",
+      "module": "AI System Design",
+      "days": [
+        33,
+        34
+      ],
+      "id": "evaluation-and-regression-pipeline",
+      "mode": "AI"
+    },
+    {
+      "name": "AI Latency and Cost Budget",
+      "module": "AI System Design",
+      "days": [
+        35,
+        36
+      ],
+      "id": "ai-latency-and-cost-budget",
+      "mode": "AI"
+    },
+    {
+      "name": "AI Security and Reliability",
+      "module": "AI System Design",
+      "days": [
+        37,
+        38
+      ],
+      "id": "ai-security-and-reliability",
+      "mode": "AI"
+    },
+    {
+      "name": "Transfer Mock: Contract Review Assistant",
+      "module": "AI System Design",
+      "days": [
+        39,
+        40,
+        43,
+        44,
+        45
+      ],
+      "id": "transfer-mock-contract-review-assistant",
+      "mode": "AI"
+    },
+    {
+      "name": "Tokenization",
+      "module": "AI Fundamentals",
+      "days": [
+        1
+      ],
+      "id": "tokenization"
+    },
+    {
+      "name": "Next-Token Prediction",
+      "module": "AI Fundamentals",
+      "days": [
+        1
+      ],
+      "id": "next-token-prediction"
+    },
+    {
+      "name": "Context Windows",
+      "module": "AI Fundamentals",
+      "days": [
+        1
+      ],
+      "id": "context-windows"
+    },
+    {
+      "name": "Temperature",
+      "module": "AI Fundamentals",
+      "days": [
+        1
+      ],
+      "id": "temperature"
+    },
+    {
+      "name": "Top-p",
+      "module": "AI Fundamentals",
+      "days": [
+        1
+      ],
+      "id": "top-p"
+    },
+    {
+      "name": "Transformer and Attention Fundamentals",
+      "module": "AI Fundamentals",
+      "days": [
+        1
+      ],
+      "id": "transformer-and-attention-fundamentals"
+    },
+    {
+      "name": "LLM Limitations",
+      "module": "AI Fundamentals",
+      "days": [
+        1
+      ],
+      "id": "llm-limitations"
+    },
+    {
+      "name": "Model Selection",
+      "module": "Project and AI Concepts",
+      "days": [
+        17
+      ],
+      "id": "model-selection"
+    },
+    {
+      "name": "Prompt Engineering",
+      "module": "AI Fundamentals",
+      "days": [
+        2
+      ],
+      "id": "prompt-engineering"
+    },
+    {
+      "name": "Few-Shot Examples",
+      "module": "AI Fundamentals",
+      "days": [
+        2
+      ],
+      "id": "few-shot-examples"
+    },
+    {
+      "name": "Prompt Versioning",
+      "module": "AI Fundamentals",
+      "days": [
+        2
+      ],
+      "id": "prompt-versioning"
+    },
+    {
+      "name": "Structured Outputs",
+      "module": "AI Fundamentals",
+      "days": [
+        3
+      ],
+      "id": "structured-outputs"
+    },
+    {
+      "name": "Pydantic",
+      "module": "AI Fundamentals",
+      "days": [
+        3
+      ],
+      "id": "pydantic"
+    },
+    {
+      "name": "JSON Recovery",
+      "module": "AI Fundamentals",
+      "days": [
+        3
+      ],
+      "id": "json-recovery"
+    },
+    {
+      "name": "Prompting vs. RAG vs. Fine-Tuning",
+      "module": "AI Fundamentals",
+      "days": [
+        4
+      ],
+      "id": "prompting-vs-rag-vs-fine-tuning"
+    },
+    {
+      "name": "LoRA",
+      "module": "AI Fundamentals",
+      "days": [
+        4
+      ],
+      "id": "lora"
+    },
+    {
+      "name": "Quantization",
+      "module": "AI Fundamentals",
+      "days": [
+        4
+      ],
+      "id": "quantization"
+    },
+    {
+      "name": "Embeddings",
+      "module": "Project and AI Concepts",
+      "days": [
+        5
+      ],
+      "id": "embeddings"
+    },
+    {
+      "name": "Vector Similarity",
+      "module": "Project and AI Concepts",
+      "days": [
+        5
+      ],
+      "id": "vector-similarity"
+    },
+    {
+      "name": "Chunking",
+      "module": "Project and AI Concepts",
+      "days": [
+        6
+      ],
+      "id": "chunking"
+    },
+    {
+      "name": "Metadata",
+      "module": "Project and AI Concepts",
+      "days": [
+        6
+      ],
+      "id": "metadata"
+    },
+    {
+      "name": "Context Budgets",
+      "module": "Project and AI Concepts",
+      "days": [
+        6
+      ],
+      "id": "context-budgets"
+    },
+    {
+      "name": "Keyword / Vector / Hybrid Search",
+      "module": "Project and AI Concepts",
+      "days": [
+        7
+      ],
+      "id": "keyword-vector-hybrid-search"
+    },
+    {
+      "name": "MMR",
+      "module": "Project and AI Concepts",
+      "days": [
+        8
+      ],
+      "id": "mmr"
+    },
+    {
+      "name": "Reranking",
+      "module": "Project and AI Concepts",
+      "days": [
+        8
+      ],
+      "id": "reranking"
+    },
+    {
+      "name": "Query Reformulation",
+      "module": "Project and AI Concepts",
+      "days": [
+        8
+      ],
+      "id": "query-reformulation"
+    },
+    {
+      "name": "Citations",
+      "module": "Project and AI Concepts",
+      "days": [
+        11
+      ],
+      "id": "citations"
+    },
+    {
+      "name": "Golden Datasets",
+      "module": "AI Fundamentals",
+      "days": [
+        4
+      ],
+      "id": "golden-datasets"
+    },
+    {
+      "name": "Hard Negatives",
+      "module": "AI Fundamentals",
+      "days": [
+        4
+      ],
+      "id": "hard-negatives"
+    },
+    {
+      "name": "Held-Out Evaluation",
+      "module": "Project and AI Concepts",
+      "days": [
+        8
+      ],
+      "id": "held-out-evaluation"
+    },
+    {
+      "name": "Recall@k",
+      "module": "Project and AI Concepts",
+      "days": [
+        5
+      ],
+      "id": "recall-k"
+    },
+    {
+      "name": "Precision@k",
+      "module": "Project and AI Concepts",
+      "days": [
+        5
+      ],
+      "id": "precision-k"
+    },
+    {
+      "name": "MRR",
+      "module": "Project and AI Concepts",
+      "days": [
+        5
+      ],
+      "id": "mrr"
+    },
+    {
+      "name": "nDCG",
+      "module": "Project and AI Concepts",
+      "days": [
+        5
+      ],
+      "id": "ndcg"
+    },
+    {
+      "name": "Redundancy",
+      "module": "Project and AI Concepts",
+      "days": [
+        8
+      ],
+      "id": "redundancy"
+    },
+    {
+      "name": "Groundedness",
+      "module": "Project and AI Concepts",
+      "days": [
+        11
+      ],
+      "id": "groundedness"
+    },
+    {
+      "name": "Hallucination",
+      "module": "Project and AI Concepts",
+      "days": [
+        11
+      ],
+      "id": "hallucination"
+    },
+    {
+      "name": "LLM-as-Judge",
+      "module": "Project and AI Concepts",
+      "days": [
+        11
+      ],
+      "id": "llm-as-judge"
+    },
+    {
+      "name": "Human Calibration",
+      "module": "Project and AI Concepts",
+      "days": [
+        11
+      ],
+      "id": "human-calibration"
+    },
+    {
+      "name": "Judge Bias",
+      "module": "Project and AI Concepts",
+      "days": [
+        11
+      ],
+      "id": "judge-bias"
+    },
+    {
+      "name": "Offline / Regression Evals",
+      "module": "Project and AI Concepts",
+      "days": [
+        15
+      ],
+      "id": "offline-regression-evals"
+    },
+    {
+      "name": "Online Feedback",
+      "module": "Project and AI Concepts",
+      "days": [
+        34
+      ],
+      "id": "online-feedback"
+    },
+    {
+      "name": "Agents vs. Workflows",
+      "module": "Project and AI Concepts",
+      "days": [
+        9
+      ],
+      "id": "agents-vs-workflows"
+    },
+    {
+      "name": "Function Calling",
+      "module": "Project and AI Concepts",
+      "days": [
+        9
+      ],
+      "id": "function-calling"
+    },
+    {
+      "name": "Tool Schemas",
+      "module": "Project and AI Concepts",
+      "days": [
+        9
+      ],
+      "id": "tool-schemas"
+    },
+    {
+      "name": "Tool Selection Evaluation",
+      "module": "Project and AI Concepts",
+      "days": [
+        37
+      ],
+      "id": "tool-selection-evaluation"
+    },
+    {
+      "name": "Agent State",
+      "module": "Project and AI Concepts",
+      "days": [
+        10
+      ],
+      "id": "agent-state"
+    },
+    {
+      "name": "Memory",
+      "module": "Project and AI Concepts",
+      "days": [
+        27
+      ],
+      "id": "memory"
+    },
+    {
+      "name": "LangGraph",
+      "module": "Project and AI Concepts",
+      "days": [
+        10
+      ],
+      "id": "langgraph"
+    },
+    {
+      "name": "Termination Conditions",
+      "module": "Project and AI Concepts",
+      "days": [
+        9
+      ],
+      "id": "termination-conditions"
+    },
+    {
+      "name": "MCP Fundamentals",
+      "module": "Project and AI Concepts",
+      "days": [
+        28
+      ],
+      "id": "mcp-fundamentals"
+    },
+    {
+      "name": "REST APIs",
+      "module": "Project and AI Concepts",
+      "days": [
+        12
+      ],
+      "id": "rest-apis"
+    },
+    {
+      "name": "FastAPI",
+      "module": "Project and AI Concepts",
+      "days": [
+        12
+      ],
+      "id": "fastapi"
+    },
+    {
+      "name": "API Tests",
+      "module": "Project and AI Concepts",
+      "days": [
+        12
+      ],
+      "id": "api-tests"
+    },
+    {
+      "name": "Workers",
+      "module": "Project and AI Concepts",
+      "days": [
+        34
+      ],
+      "id": "workers"
+    },
+    {
+      "name": "Idempotency",
+      "module": "Project and AI Concepts",
+      "days": [
+        11
+      ],
+      "id": "idempotency"
+    },
+    {
+      "name": "Timeouts",
+      "module": "Project and AI Concepts",
+      "days": [
+        9
+      ],
+      "id": "timeouts"
+    },
+    {
+      "name": "Backoff",
+      "module": "Project and AI Concepts",
+      "days": [
+        9
+      ],
+      "id": "backoff"
+    },
+    {
+      "name": "Rate Limiting",
+      "module": "Project and AI Concepts",
+      "days": [
+        9
+      ],
+      "id": "rate-limiting"
+    },
+    {
+      "name": "Backpressure",
+      "module": "Project and AI Concepts",
+      "days": [
+        34
+      ],
+      "id": "backpressure"
+    },
+    {
+      "name": "Docker",
+      "module": "Project and AI Concepts",
+      "days": [
+        16
+      ],
+      "id": "docker"
+    },
+    {
+      "name": "CI/CD",
+      "module": "Project and AI Concepts",
+      "days": [
+        15
+      ],
+      "id": "ci-cd"
+    },
+    {
+      "name": "Cloud Fundamentals",
+      "module": "Project and AI Concepts",
+      "days": [
+        17
+      ],
+      "id": "cloud-fundamentals"
+    },
+    {
+      "name": "IAM",
+      "module": "Project and AI Concepts",
+      "days": [
+        17
+      ],
+      "id": "iam"
+    },
+    {
+      "name": "Networking",
+      "module": "Project and AI Concepts",
+      "days": [
+        17
+      ],
+      "id": "networking"
+    },
+    {
+      "name": "Capacity Planning",
+      "module": "Project and AI Concepts",
+      "days": [
+        9
+      ],
+      "id": "capacity-planning"
+    },
+    {
+      "name": "Load Testing",
+      "module": "Project and AI Concepts",
+      "days": [
+        13
+      ],
+      "id": "load-testing"
+    },
+    {
+      "name": "Logs",
+      "module": "Project and AI Concepts",
+      "days": [
+        13
+      ],
+      "id": "logs"
+    },
+    {
+      "name": "Traces",
+      "module": "Project and AI Concepts",
+      "days": [
+        13
+      ],
+      "id": "traces"
+    },
+    {
+      "name": "p50 / p95",
+      "module": "Project and AI Concepts",
+      "days": [
+        13
+      ],
+      "id": "p50-p95"
+    },
+    {
+      "name": "TTFT",
+      "module": "Project and AI Concepts",
+      "days": [
+        13
+      ],
+      "id": "ttft"
+    },
+    {
+      "name": "Streaming",
+      "module": "Project and AI Concepts",
+      "days": [
+        35
+      ],
+      "id": "streaming"
+    },
+    {
+      "name": "Token Usage",
+      "module": "Project and AI Concepts",
+      "days": [
+        35
+      ],
+      "id": "token-usage"
+    },
+    {
+      "name": "Caching",
+      "module": "Project and AI Concepts",
+      "days": [
+        5
+      ],
+      "id": "caching"
+    },
+    {
+      "name": "Semantic Caching",
+      "module": "Project and AI Concepts",
+      "days": [
+        35
+      ],
+      "id": "semantic-caching"
+    },
+    {
+      "name": "Freshness",
+      "module": "Project and AI Concepts",
+      "days": [
+        5
+      ],
+      "id": "freshness"
+    },
+    {
+      "name": "Model Routing",
+      "module": "Project and AI Concepts",
+      "days": [
+        35
+      ],
+      "id": "model-routing"
+    },
+    {
+      "name": "Cost-Quality Trade-offs",
+      "module": "Project and AI Concepts",
+      "days": [
+        35
+      ],
+      "id": "cost-quality-trade-offs"
+    },
+    {
+      "name": "Human-in-the-Loop",
+      "module": "Project and AI Concepts",
+      "days": [
+        10
+      ],
+      "id": "human-in-the-loop"
+    },
+    {
+      "name": "Approval Audit Trail",
+      "module": "Project and AI Concepts",
+      "days": [
+        10
+      ],
+      "id": "approval-audit-trail"
+    },
+    {
+      "name": "Prompt Injection",
+      "module": "Project and AI Concepts",
+      "days": [
+        37
+      ],
+      "id": "prompt-injection"
+    },
+    {
+      "name": "Tool Sandboxing",
+      "module": "Project and AI Concepts",
+      "days": [
+        37
+      ],
+      "id": "tool-sandboxing"
+    },
+    {
+      "name": "PII",
+      "module": "Project and AI Concepts",
+      "days": [
+        37
+      ],
+      "id": "pii"
+    },
+    {
+      "name": "Access Control",
+      "module": "Project and AI Concepts",
+      "days": [
+        21
+      ],
+      "id": "access-control"
+    },
+    {
+      "name": "Tenant Isolation",
+      "module": "Project and AI Concepts",
+      "days": [
+        37
+      ],
+      "id": "tenant-isolation"
+    },
+    {
+      "name": "Secrets",
+      "module": "Project and AI Concepts",
+      "days": [
+        17
+      ],
+      "id": "secrets"
+    },
+    {
+      "name": "Fail-Open vs. Fail-Closed",
+      "module": "Project and AI Concepts",
+      "days": [
+        9
+      ],
+      "id": "fail-open-vs-fail-closed"
+    },
+    {
+      "name": "Graceful Degradation",
+      "module": "Project and AI Concepts",
+      "days": [
+        35
+      ],
+      "id": "graceful-degradation"
+    },
+    {
+      "name": "Snowflake",
+      "module": "Project and AI Concepts",
+      "days": [
+        21
+      ],
+      "id": "snowflake"
+    },
+    {
+      "name": "Text-to-SQL Evaluation",
+      "module": "Project and AI Concepts",
+      "days": [
+        28
+      ],
+      "id": "text-to-sql-evaluation"
+    },
+    {
+      "name": "SEC Financial Data",
+      "module": "Project and AI Concepts",
+      "days": [
+        22
+      ],
+      "id": "sec-financial-data"
+    },
+    {
+      "name": "Data Quality",
+      "module": "Project and AI Concepts",
+      "days": [
+        23
+      ],
+      "id": "data-quality"
+    },
+    {
+      "name": "Point-in-Time Data",
+      "module": "Project and AI Concepts",
+      "days": [
+        24
+      ],
+      "id": "point-in-time-data"
+    },
+    {
+      "name": "Experiment Tracking",
+      "module": "Project and AI Concepts",
+      "days": [
+        31
+      ],
+      "id": "experiment-tracking"
+    },
+    {
+      "name": "Failure Recovery",
+      "module": "Project and AI Concepts",
+      "days": [
+        35
+      ],
+      "id": "failure-recovery"
+    },
+    {
+      "name": "Latency Benchmarking",
+      "module": "Project and AI Concepts",
+      "days": [
+        13
+      ],
+      "id": "latency-benchmarking"
+    },
+    {
+      "name": "AWS ECS Fargate",
+      "module": "Project and AI Concepts",
+      "days": [
+        17
+      ],
+      "id": "aws-ecs-fargate"
+    },
+    {
+      "name": "ECR",
+      "module": "Project and AI Concepts",
+      "days": [
+        17
+      ],
+      "id": "ecr"
+    },
+    {
+      "name": "CloudWatch",
+      "module": "Project and AI Concepts",
+      "days": [
+        17
+      ],
+      "id": "cloudwatch"
+    },
+    {
+      "name": "GitHub Actions",
+      "module": "Project and AI Concepts",
+      "days": [
+        15
+      ],
+      "id": "github-actions"
+    },
+    {
+      "name": "OIDC",
+      "module": "Project and AI Concepts",
+      "days": [
+        19
+      ],
+      "id": "oidc"
+    },
+    {
+      "name": "Clean-Environment Reproduction",
+      "module": "Project and AI Concepts",
+      "days": [
+        20
+      ],
+      "id": "clean-environment-reproduction"
+    },
+    {
+      "name": "README",
+      "module": "Project and AI Concepts",
+      "days": [
+        20
+      ],
+      "id": "readme"
+    },
+    {
+      "name": "Demo",
+      "module": "Project and AI Concepts",
+      "days": [
+        20
+      ],
+      "id": "demo"
+    },
+    {
+      "name": "Ownership",
+      "module": "Project and AI Concepts",
+      "days": [
+        39
+      ],
+      "id": "ownership"
+    },
+    {
+      "name": "AI-Assisted Code Review",
+      "module": "Project and AI Concepts",
+      "days": [
+        20
+      ],
+      "id": "ai-assisted-code-review"
+    },
+    {
+      "name": "Design Trade-offs",
+      "module": "Project and AI Concepts",
+      "days": [
+        39
+      ],
+      "id": "design-trade-offs"
+    },
+    {
+      "name": "Risk Copilot",
+      "module": "AI Fundamentals",
+      "days": [
+        1
+      ],
+      "id": "risk-copilot"
+    },
+    {
+      "name": "Financial Statement Analytics Assistant",
+      "module": "Project and AI Concepts",
+      "days": [
+        21
+      ],
+      "id": "financial-statement-analytics-assistant"
+    },
+    {
+      "name": "Investment Research Workbench",
+      "module": "Project and AI Concepts",
+      "days": [
+        31
+      ],
+      "id": "investment-research-workbench"
+    },
+    {
+      "name": "SQL",
+      "module": "AI Fundamentals",
+      "days": [
+        2
+      ],
+      "id": "sql"
+    },
+    {
+      "name": "Queues and Workers",
+      "module": "Project and AI Concepts",
+      "days": [
+        34
+      ],
+      "id": "queues-and-workers"
+    },
+    {
+      "name": "Retries",
+      "module": "Project and AI Concepts",
+      "days": [
+        9
+      ],
+      "id": "retries"
+    },
+    {
+      "name": "Rollback",
+      "module": "Project and AI Concepts",
+      "days": [
+        19
+      ],
+      "id": "rollback"
+    },
+    {
+      "name": "Prediction Intervals",
+      "module": "Project and AI Concepts",
+      "days": [
+        33
+      ],
+      "id": "prediction-intervals"
+    },
+    {
+      "name": "Reproducibility",
+      "module": "Project and AI Concepts",
+      "days": [
+        36
+      ],
+      "id": "reproducibility"
+    },
+    {
+      "name": "Model Versioning",
+      "module": "Project and AI Concepts",
+      "days": [
+        36
+      ],
+      "id": "model-versioning"
+    },
+    {
+      "name": "Supervised and Unsupervised Learning",
+      "module": "ML",
+      "days": [
+        2,
+        39
+      ],
+      "id": "supervised-and-unsupervised-learning",
+      "parent": "supervised-and-unsupervised-learning-baselines",
+      "notebook": "02_supervised_and_unsupervised_learning_baselines.ipynb"
+    },
+    {
+      "name": "Data Leakage",
+      "module": "ML",
+      "days": [
+        3,
+        12
+      ],
+      "id": "data-leakage",
+      "parent": "data-leakage-scaling-scikit-learn-pipelines",
+      "notebook": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb"
+    },
+    {
+      "name": "Bias-Variance",
+      "module": "ML",
+      "days": [
+        5,
+        6,
+        14
+      ],
+      "id": "bias-variance",
+      "parent": "bias-variance-overfitting-regularization-linear-regression",
+      "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb"
+    },
+    {
+      "name": "Overfitting",
+      "module": "ML",
+      "days": [
+        5,
+        6,
+        14
+      ],
+      "id": "overfitting",
+      "parent": "bias-variance-overfitting-regularization-linear-regression",
+      "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb"
+    },
+    {
+      "name": "Regularization",
+      "module": "ML",
+      "days": [
+        5,
+        6,
+        14
+      ],
+      "id": "regularization",
+      "parent": "bias-variance-overfitting-regularization-linear-regression",
+      "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb"
+    },
+    {
+      "name": "Scaling",
+      "module": "ML",
+      "days": [
+        3,
+        12
+      ],
+      "id": "scaling",
+      "parent": "data-leakage-scaling-scikit-learn-pipelines",
+      "notebook": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb"
+    },
+    {
+      "name": "Linear Regression",
+      "module": "ML",
+      "days": [
+        5,
+        6,
+        14
+      ],
+      "id": "linear-regression",
+      "parent": "bias-variance-overfitting-regularization-linear-regression",
+      "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb"
+    },
+    {
+      "name": "Logistic Regression",
+      "module": "ML",
+      "days": [
+        7,
+        8,
+        35
+      ],
+      "id": "logistic-regression",
+      "parent": "logistic-regression-precision-recall-f1-class-imbalance",
+      "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb"
+    },
+    {
+      "name": "Decision Trees",
+      "module": "ML",
+      "days": [
+        11,
+        15,
+        16
+      ],
+      "id": "decision-trees",
+      "parent": "decision-trees-random-forests-gradient-boosting",
+      "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb"
+    },
+    {
+      "name": "Random Forests",
+      "module": "ML",
+      "days": [
+        11,
+        15,
+        16
+      ],
+      "id": "random-forests",
+      "parent": "decision-trees-random-forests-gradient-boosting",
+      "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb"
+    },
+    {
+      "name": "Gradient Boosting",
+      "module": "ML",
+      "days": [
+        11,
+        15,
+        16
+      ],
+      "id": "gradient-boosting",
+      "parent": "decision-trees-random-forests-gradient-boosting",
+      "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb"
+    },
+    {
+      "name": "scikit-learn Pipelines",
+      "module": "ML",
+      "days": [
+        3,
+        12
+      ],
+      "id": "scikit-learn-pipelines",
+      "parent": "data-leakage-scaling-scikit-learn-pipelines",
+      "notebook": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb"
+    },
+    {
+      "name": "Cross-Validation",
+      "module": "ML",
+      "days": [
+        17,
+        18
+      ],
+      "id": "cross-validation",
+      "parent": "cross-validation-hyperparameter-tuning",
+      "notebook": "09_cross_validation_hyperparameter_tuning.ipynb"
+    },
+    {
+      "name": "Hyperparameter Tuning",
+      "module": "ML",
+      "days": [
+        17,
+        18
+      ],
+      "id": "hyperparameter-tuning",
+      "parent": "cross-validation-hyperparameter-tuning",
+      "notebook": "09_cross_validation_hyperparameter_tuning.ipynb"
+    },
+    {
+      "name": "Feature Engineering",
+      "module": "ML",
+      "days": [
+        19,
+        20
+      ],
+      "id": "feature-engineering",
+      "parent": "feature-engineering-interpretability-feature-importance",
+      "notebook": "10_feature_engineering_interpretability_feature_importance.ipynb"
+    },
+    {
+      "name": "Class Imbalance",
+      "module": "ML",
+      "days": [
+        7,
+        8,
+        35
+      ],
+      "id": "class-imbalance",
+      "parent": "logistic-regression-precision-recall-f1-class-imbalance",
+      "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb"
+    },
+    {
+      "name": "MAE",
+      "module": "ML",
+      "days": [
+        4,
+        13
+      ],
+      "id": "mae",
+      "parent": "mae-rmse",
+      "notebook": "04_mae_rmse.ipynb"
+    },
+    {
+      "name": "RMSE",
+      "module": "ML",
+      "days": [
+        4,
+        13
+      ],
+      "id": "rmse",
+      "parent": "mae-rmse",
+      "notebook": "04_mae_rmse.ipynb"
+    },
+    {
+      "name": "Precision",
+      "module": "ML",
+      "days": [
+        7,
+        8,
+        35
+      ],
+      "id": "precision",
+      "parent": "logistic-regression-precision-recall-f1-class-imbalance",
+      "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb"
+    },
+    {
+      "name": "Recall",
+      "module": "ML",
+      "days": [
+        7,
+        8,
+        35
+      ],
+      "id": "recall",
+      "parent": "logistic-regression-precision-recall-f1-class-imbalance",
+      "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb"
+    },
+    {
+      "name": "F1",
+      "module": "ML",
+      "days": [
+        7,
+        8,
+        35
+      ],
+      "id": "f1",
+      "parent": "logistic-regression-precision-recall-f1-class-imbalance",
+      "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb"
+    },
+    {
+      "name": "PR-AUC",
+      "module": "ML",
+      "days": [
+        9,
+        10
+      ],
+      "id": "pr-auc",
+      "parent": "pr-auc-roc-auc-calibration",
+      "notebook": "07_pr_auc_roc_auc_calibration.ipynb"
+    },
+    {
+      "name": "ROC-AUC",
+      "module": "ML",
+      "days": [
+        9,
+        10
+      ],
+      "id": "roc-auc",
+      "parent": "pr-auc-roc-auc-calibration",
+      "notebook": "07_pr_auc_roc_auc_calibration.ipynb"
+    },
+    {
+      "name": "Calibration",
+      "module": "ML",
+      "days": [
+        9,
+        10
+      ],
+      "id": "calibration",
+      "parent": "pr-auc-roc-auc-calibration",
+      "notebook": "07_pr_auc_roc_auc_calibration.ipynb"
+    },
+    {
+      "name": "Interpretability",
+      "module": "ML",
+      "days": [
+        19,
+        20
+      ],
+      "id": "interpretability",
+      "parent": "feature-engineering-interpretability-feature-importance",
+      "notebook": "10_feature_engineering_interpretability_feature_importance.ipynb"
+    },
+    {
+      "name": "Feature Importance",
+      "module": "ML",
+      "days": [
+        19,
+        20
+      ],
+      "id": "feature-importance",
+      "parent": "feature-engineering-interpretability-feature-importance",
+      "notebook": "10_feature_engineering_interpretability_feature_importance.ipynb"
+    },
+    {
+      "name": "Time-Series Splits",
+      "module": "ML",
+      "days": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "id": "time-series-splits",
+      "parent": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb"
+    },
+    {
+      "name": "Walk-Forward Validation",
+      "module": "ML",
+      "days": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "id": "walk-forward-validation",
+      "parent": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb"
+    },
+    {
+      "name": "Temporal Leakage",
+      "module": "ML",
+      "days": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "id": "temporal-leakage",
+      "parent": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb"
+    },
+    {
+      "name": "Forecast Horizons",
+      "module": "ML",
+      "days": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "id": "forecast-horizons",
+      "parent": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb"
+    },
+    {
+      "name": "Regime Changes",
+      "module": "ML",
+      "days": [
+        32,
+        33,
+        34
+      ],
+      "id": "regime-changes",
+      "parent": "regime-changes-statistical-uncertainty-prediction-intervals",
+      "notebook": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb"
+    },
+    {
+      "name": "Volatility Forecasting",
+      "module": "ML",
+      "days": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "id": "volatility-forecasting",
+      "parent": "volatility-forecasting-out-of-sample-evaluation",
+      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb"
+    },
+    {
+      "name": "Out-of-Sample Evaluation",
+      "module": "ML",
+      "days": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "id": "out-of-sample-evaluation",
+      "parent": "volatility-forecasting-out-of-sample-evaluation",
+      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb"
+    },
+    {
+      "name": "Statistical Uncertainty",
+      "module": "ML",
+      "days": [
+        32,
+        33,
+        34
+      ],
+      "id": "statistical-uncertainty",
+      "parent": "regime-changes-statistical-uncertainty-prediction-intervals",
+      "notebook": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb"
+    },
+    {
+      "name": "Drift",
+      "module": "ML",
+      "days": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "id": "drift",
+      "parent": "drift-retraining",
+      "notebook": "15_drift_retraining.ipynb"
+    },
+    {
+      "name": "Retraining",
+      "module": "ML",
+      "days": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "id": "retraining",
+      "parent": "drift-retraining",
+      "notebook": "15_drift_retraining.ipynb"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "周一 10/5",
+      "coding": [
+        "hash-maps"
+      ],
+      "ml": "train-validation-test-split",
+      "notebook": "01_train_validation_test_split.ipynb",
+      "design": "requirements-and-api-design",
+      "designModule": "General",
+      "concepts": [
+        "tokenization",
+        "next-token-prediction",
+        "context-windows",
+        "temperature",
+        "top-p",
+        "transformer-and-attention-fundamentals",
+        "llm-limitations",
+        "risk-copilot"
+      ]
+    },
+    {
+      "day": 2,
+      "date": "周二 10/6",
+      "coding": [
+        "select",
+        "where",
+        "order-by",
+        "limit",
+        "null"
+      ],
+      "ml": "supervised-and-unsupervised-learning-baselines",
+      "notebook": "02_supervised_and_unsupervised_learning_baselines.ipynb",
+      "design": "requirements-and-api-design",
+      "designModule": "General",
+      "concepts": [
+        "prompt-engineering",
+        "few-shot-examples",
+        "prompt-versioning",
+        "sql"
+      ]
+    },
+    {
+      "day": 3,
+      "date": "周三 10/7",
+      "coding": [
+        "arrays-and-strings",
+        "two-pointers"
+      ],
+      "ml": "data-leakage-scaling-scikit-learn-pipelines",
+      "notebook": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb",
+      "design": "data-modeling-and-indexes",
+      "designModule": "General",
+      "concepts": [
+        "structured-outputs",
+        "pydantic",
+        "json-recovery"
+      ]
+    },
+    {
+      "day": 4,
+      "date": "周四 10/8",
+      "coding": [
+        "group-by",
+        "having",
+        "case"
+      ],
+      "ml": "mae-rmse",
+      "notebook": "04_mae_rmse.ipynb",
+      "design": "data-modeling-and-indexes",
+      "designModule": "General",
+      "concepts": [
+        "prompting-vs-rag-vs-fine-tuning",
+        "lora",
+        "quantization",
+        "golden-datasets",
+        "hard-negatives"
+      ]
+    },
+    {
+      "day": 5,
+      "date": "周五 10/9",
+      "coding": [
+        "sorting",
+        "binary-search",
+        "complexity-analysis"
+      ],
+      "ml": "bias-variance-overfitting-regularization-linear-regression",
+      "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb",
+      "design": "cache-and-api-service",
+      "designModule": "General",
+      "concepts": [
+        "embeddings",
+        "vector-similarity",
+        "recall-k",
+        "precision-k",
+        "mrr",
+        "ndcg",
+        "caching",
+        "freshness"
+      ]
+    },
+    {
+      "day": 6,
+      "date": "周一 10/12",
+      "coding": [
+        "hash-maps",
+        "arrays-and-strings",
+        "two-pointers"
+      ],
+      "ml": "bias-variance-overfitting-regularization-linear-regression",
+      "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb",
+      "design": "cache-and-api-service",
+      "designModule": "General",
+      "concepts": [
+        "chunking",
+        "metadata",
+        "context-budgets"
+      ]
+    },
+    {
+      "day": 7,
+      "date": "周二 10/13",
+      "coding": [
+        "joins"
+      ],
+      "ml": "logistic-regression-precision-recall-f1-class-imbalance",
+      "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb",
+      "design": "queues-and-job-scheduler",
+      "designModule": "General",
+      "concepts": [
+        "keyword-vector-hybrid-search"
+      ]
+    },
+    {
+      "day": 8,
+      "date": "周三 10/14",
+      "coding": [
+        "sliding-window",
+        "prefix-sums"
+      ],
+      "ml": "logistic-regression-precision-recall-f1-class-imbalance",
+      "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb",
+      "design": "queues-and-job-scheduler",
+      "designModule": "General",
+      "concepts": [
+        "mmr",
+        "reranking",
+        "query-reformulation",
+        "held-out-evaluation",
+        "redundancy"
+      ]
+    },
+    {
+      "day": 9,
+      "date": "周四 10/15",
+      "coding": [
+        "subqueries",
+        "ctes",
+        "exists"
+      ],
+      "ml": "pr-auc-roc-auc-calibration",
+      "notebook": "07_pr_auc_roc_auc_calibration.ipynb",
+      "design": "rate-limiting-and-capacity",
+      "designModule": "General",
+      "concepts": [
+        "agents-vs-workflows",
+        "function-calling",
+        "tool-schemas",
+        "termination-conditions",
+        "timeouts",
+        "backoff",
+        "rate-limiting",
+        "capacity-planning",
+        "fail-open-vs-fail-closed",
+        "retries"
+      ]
+    },
+    {
+      "day": 10,
+      "date": "周五 10/16",
+      "coding": [
+        "stacks",
+        "queues"
+      ],
+      "ml": "pr-auc-roc-auc-calibration",
+      "notebook": "07_pr_auc_roc_auc_calibration.ipynb",
+      "design": "rate-limiting-and-capacity",
+      "designModule": "General",
+      "concepts": [
+        "agent-state",
+        "langgraph",
+        "human-in-the-loop",
+        "approval-audit-trail"
+      ]
+    },
+    {
+      "day": 11,
+      "date": "周一 10/19",
+      "coding": [
+        "heaps"
+      ],
+      "ml": "decision-trees-random-forests-gradient-boosting",
+      "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb",
+      "design": "retries-idempotency-and-consistency",
+      "designModule": "General",
+      "concepts": [
+        "citations",
+        "groundedness",
+        "hallucination",
+        "llm-as-judge",
+        "human-calibration",
+        "judge-bias",
+        "idempotency"
+      ]
+    },
+    {
+      "day": 12,
+      "date": "周二 10/20",
+      "coding": [
+        "window-functions",
+        "row-number",
+        "rank",
+        "dense-rank"
+      ],
+      "ml": "data-leakage-scaling-scikit-learn-pipelines",
+      "notebook": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb",
+      "design": "retries-idempotency-and-consistency",
+      "designModule": "General",
+      "concepts": [
+        "rest-apis",
+        "fastapi",
+        "api-tests"
+      ]
+    },
+    {
+      "day": 13,
+      "date": "周三 10/21",
+      "coding": [
+        "linked-lists",
+        "lru-cache"
+      ],
+      "ml": "mae-rmse",
+      "notebook": "04_mae_rmse.ipynb",
+      "design": "latency-and-observability",
+      "designModule": "General",
+      "concepts": [
+        "load-testing",
+        "logs",
+        "traces",
+        "p50-p95",
+        "ttft",
+        "latency-benchmarking"
+      ]
+    },
+    {
+      "day": 14,
+      "date": "周四 10/22",
+      "coding": [
+        "lag",
+        "lead",
+        "rolling-aggregations"
+      ],
+      "ml": "bias-variance-overfitting-regularization-linear-regression",
+      "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb",
+      "design": "latency-and-observability",
+      "designModule": "General",
+      "concepts": []
+    },
+    {
+      "day": 15,
+      "date": "周五 10/23",
+      "coding": [
+        "queues",
+        "bfs",
+        "dfs"
+      ],
+      "ml": "decision-trees-random-forests-gradient-boosting",
+      "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb",
+      "design": "ci-cd-and-aws-deployment",
+      "designModule": "General",
+      "concepts": [
+        "offline-regression-evals",
+        "ci-cd",
+        "github-actions"
+      ]
+    },
+    {
+      "day": 16,
+      "date": "周一 10/26",
+      "coding": [
+        "bfs",
+        "trees",
+        "recursion"
+      ],
+      "ml": "decision-trees-random-forests-gradient-boosting",
+      "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb",
+      "design": "ci-cd-and-aws-deployment",
+      "designModule": "General",
+      "concepts": [
+        "docker"
+      ]
+    },
+    {
+      "day": 17,
+      "date": "周二 10/27",
+      "coding": [
+        "date-queries"
+      ],
+      "ml": "cross-validation-hyperparameter-tuning",
+      "notebook": "09_cross_validation_hyperparameter_tuning.ipynb",
+      "design": "financial-research-rag",
+      "designModule": "AI",
+      "concepts": [
+        "model-selection",
+        "cloud-fundamentals",
+        "iam",
+        "networking",
+        "secrets",
+        "aws-ecs-fargate",
+        "ecr",
+        "cloudwatch"
+      ]
+    },
+    {
+      "day": 18,
+      "date": "周三 10/28",
+      "coding": [
+        "key-value-store",
+        "ttl"
+      ],
+      "ml": "cross-validation-hyperparameter-tuning",
+      "notebook": "09_cross_validation_hyperparameter_tuning.ipynb",
+      "design": "financial-research-rag",
+      "designModule": "AI",
+      "concepts": []
+    },
+    {
+      "day": 19,
+      "date": "周四 10/29",
+      "coding": [
+        "transactions",
+        "constraints",
+        "parameterized-queries"
+      ],
+      "ml": "feature-engineering-interpretability-feature-importance",
+      "notebook": "10_feature_engineering_interpretability_feature_importance.ipynb",
+      "design": "rag-evaluation-and-retrieval-trade-offs",
+      "designModule": "AI",
+      "concepts": [
+        "oidc",
+        "rollback"
+      ]
+    },
+    {
+      "day": 20,
+      "date": "周五 10/30",
+      "coding": [
+        "stacks",
+        "debugging",
+        "refactoring",
+        "code-review"
+      ],
+      "ml": "feature-engineering-interpretability-feature-importance",
+      "notebook": "10_feature_engineering_interpretability_feature_importance.ipynb",
+      "design": "rag-evaluation-and-retrieval-trade-offs",
+      "designModule": "AI",
+      "concepts": [
+        "clean-environment-reproduction",
+        "readme",
+        "demo",
+        "ai-assisted-code-review"
+      ]
+    },
+    {
+      "day": 21,
+      "date": "周一 11/2",
+      "coding": [
+        "api-clients"
+      ],
+      "ml": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb",
+      "design": "financial-text-to-sql",
+      "designModule": "AI",
+      "concepts": [
+        "access-control",
+        "snowflake",
+        "financial-statement-analytics-assistant"
+      ]
+    },
+    {
+      "day": 22,
+      "date": "周二 11/3",
+      "coding": [
+        "postgresql-schema-design",
+        "primary-and-foreign-keys"
+      ],
+      "ml": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb",
+      "design": "financial-text-to-sql",
+      "designModule": "AI",
+      "concepts": [
+        "sec-financial-data"
+      ]
+    },
+    {
+      "day": 23,
+      "date": "周三 11/4",
+      "coding": [
+        "async",
+        "concurrency",
+        "parallelism",
+        "gil",
+        "race-conditions"
+      ],
+      "ml": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb",
+      "design": "text-to-sql-evaluation-and-data-quality",
+      "designModule": "AI",
+      "concepts": [
+        "data-quality"
+      ]
+    },
+    {
+      "day": 24,
+      "date": "周四 11/5",
+      "coding": [
+        "indexes",
+        "explain",
+        "query-optimization"
+      ],
+      "ml": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
+      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb",
+      "design": "text-to-sql-evaluation-and-data-quality",
+      "designModule": "AI",
+      "concepts": [
+        "point-in-time-data"
+      ]
+    },
+    {
+      "day": 25,
+      "date": "周五 11/6",
+      "coding": [
+        "lru-cache",
+        "rate-limiter"
+      ],
+      "ml": "volatility-forecasting-out-of-sample-evaluation",
+      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
+      "design": "agents-with-human-approval",
+      "designModule": "AI",
+      "concepts": []
+    },
+    {
+      "day": 26,
+      "date": "周一 11/9",
+      "coding": [
+        "crawler",
+        "async",
+        "concurrency"
+      ],
+      "ml": "volatility-forecasting-out-of-sample-evaluation",
+      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
+      "design": "agents-with-human-approval",
+      "designModule": "AI",
+      "concepts": []
+    },
+    {
+      "day": 27,
+      "date": "周二 11/10",
+      "coding": [
+        "run-analytics",
+        "percentiles"
+      ],
+      "ml": "volatility-forecasting-out-of-sample-evaluation",
+      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
+      "design": "agent-memory-and-tool-contracts",
+      "designModule": "AI",
+      "concepts": [
+        "memory"
+      ]
+    },
+    {
+      "day": 28,
+      "date": "周三 11/11",
+      "coding": [
+        "parallelism",
+        "gil",
+        "vectorization",
+        "profiling"
+      ],
+      "ml": "volatility-forecasting-out-of-sample-evaluation",
+      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
+      "design": "agent-memory-and-tool-contracts",
+      "designModule": "AI",
+      "concepts": [
+        "mcp-fundamentals",
+        "text-to-sql-evaluation"
+      ]
+    },
+    {
+      "day": 29,
+      "date": "周四 11/12",
+      "coding": [
+        "lag",
+        "date-queries"
+      ],
+      "ml": "volatility-forecasting-out-of-sample-evaluation",
+      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
+      "design": "ai-assisted-experiment-platform",
+      "designModule": "AI",
+      "concepts": []
+    },
+    {
+      "day": 30,
+      "date": "周五 11/13",
+      "coding": [
+        "complexity-analysis",
+        "sliding-window",
+        "heaps",
+        "bfs",
+        "dfs",
+        "trees"
+      ],
+      "ml": "volatility-forecasting-out-of-sample-evaluation",
+      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
+      "design": "ai-assisted-experiment-platform",
+      "designModule": "AI",
+      "concepts": []
+    },
+    {
+      "day": 31,
+      "date": "周一 11/16",
+      "coding": [
+        "lru-cache",
+        "key-value-store",
+        "ttl"
+      ],
+      "ml": "volatility-forecasting-out-of-sample-evaluation",
+      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
+      "design": "volatility-forecasting-service",
+      "designModule": "AI",
+      "concepts": [
+        "experiment-tracking",
+        "investment-research-workbench"
+      ]
+    },
+    {
+      "day": 32,
+      "date": "周二 11/17",
+      "coding": [
+        "joins",
+        "group-by"
+      ],
+      "ml": "regime-changes-statistical-uncertainty-prediction-intervals",
+      "notebook": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb",
+      "design": "volatility-forecasting-service",
+      "designModule": "AI",
+      "concepts": []
+    },
+    {
+      "day": 33,
+      "date": "周三 11/18",
+      "coding": [
+        "debugging",
+        "vectorization"
+      ],
+      "ml": "regime-changes-statistical-uncertainty-prediction-intervals",
+      "notebook": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb",
+      "design": "evaluation-and-regression-pipeline",
+      "designModule": "AI",
+      "concepts": [
+        "prediction-intervals"
+      ]
+    },
+    {
+      "day": 34,
+      "date": "周四 11/19",
+      "coding": [
+        "window-functions",
+        "row-number",
+        "rank",
+        "dense-rank",
+        "lag",
+        "lead",
+        "rolling-aggregations",
+        "financial-analytics"
+      ],
+      "ml": "regime-changes-statistical-uncertainty-prediction-intervals",
+      "notebook": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb",
+      "design": "evaluation-and-regression-pipeline",
+      "designModule": "AI",
+      "concepts": [
+        "online-feedback",
+        "workers",
+        "backpressure",
+        "queues-and-workers"
+      ]
+    },
+    {
+      "day": 35,
+      "date": "周五 11/20",
+      "coding": [
+        "vectorization",
+        "numpy-logistic-regression"
+      ],
+      "ml": "logistic-regression-precision-recall-f1-class-imbalance",
+      "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb",
+      "design": "ai-latency-and-cost-budget",
+      "designModule": "AI",
+      "concepts": [
+        "streaming",
+        "token-usage",
+        "semantic-caching",
+        "model-routing",
+        "cost-quality-trade-offs",
+        "graceful-degradation",
+        "failure-recovery"
+      ]
+    },
+    {
+      "day": 36,
+      "date": "周一 11/23",
+      "coding": [
+        "binary-search",
+        "prefix-sums",
+        "recursion"
+      ],
+      "ml": "reproducibility-model-versioning-serving-rollback",
+      "notebook": "14_reproducibility_model_versioning_serving_rollback.ipynb",
+      "design": "ai-latency-and-cost-budget",
+      "designModule": "AI",
+      "concepts": [
+        "reproducibility",
+        "model-versioning"
+      ]
+    },
+    {
+      "day": 37,
+      "date": "周二 11/24",
+      "coding": [
+        "window-functions",
+        "row-number",
+        "rank",
+        "dense-rank",
+        "lag",
+        "lead",
+        "rolling-aggregations"
+      ],
+      "ml": "reproducibility-model-versioning-serving-rollback",
+      "notebook": "14_reproducibility_model_versioning_serving_rollback.ipynb",
+      "design": "ai-security-and-reliability",
+      "designModule": "AI",
+      "concepts": [
+        "tool-selection-evaluation",
+        "prompt-injection",
+        "tool-sandboxing",
+        "pii",
+        "tenant-isolation"
+      ]
+    },
+    {
+      "day": 38,
+      "date": "周三 11/25",
+      "coding": [
+        "api-clients",
+        "race-conditions",
+        "profiling",
+        "debugging",
+        "refactoring",
+        "code-review"
+      ],
+      "ml": "reproducibility-model-versioning-serving-rollback",
+      "notebook": "14_reproducibility_model_versioning_serving_rollback.ipynb",
+      "design": "ai-security-and-reliability",
+      "designModule": "AI",
+      "concepts": []
+    },
+    {
+      "day": 39,
+      "date": "周四 11/26",
+      "coding": [
+        "select",
+        "where",
+        "order-by",
+        "limit",
+        "null",
+        "group-by",
+        "having",
+        "case",
+        "subqueries",
+        "ctes",
+        "exists",
+        "date-queries",
+        "transactions",
+        "constraints",
+        "parameterized-queries",
+        "postgresql-schema-design",
+        "primary-and-foreign-keys",
+        "indexes",
+        "explain",
+        "query-optimization",
+        "run-analytics",
+        "percentiles",
+        "financial-analytics",
+        "joins"
+      ],
+      "ml": "supervised-and-unsupervised-learning-baselines",
+      "notebook": "02_supervised_and_unsupervised_learning_baselines.ipynb",
+      "design": "transfer-mock-contract-review-assistant",
+      "designModule": "AI",
+      "concepts": [
+        "ownership",
+        "design-trade-offs"
+      ]
+    },
+    {
+      "day": 40,
+      "date": "周五 11/27",
+      "coding": [
+        "hash-maps",
+        "lru-cache",
+        "numpy-logistic-regression"
+      ],
+      "ml": "train-validation-test-split",
+      "notebook": "01_train_validation_test_split.ipynb",
+      "design": "transfer-mock-contract-review-assistant",
+      "designModule": "AI",
+      "concepts": []
+    },
+    {
+      "day": 41,
+      "date": "周一 11/30",
+      "coding": [
+        "sorting",
+        "binary-search",
+        "linked-lists"
+      ],
+      "ml": "train-validation-test-split",
+      "notebook": "01_train_validation_test_split.ipynb",
+      "design": "cache-and-api-service",
+      "designModule": "General",
+      "concepts": []
+    },
+    {
+      "day": 42,
+      "date": "周二 12/1",
+      "coding": [
+        "joins",
+        "having"
+      ],
+      "ml": "drift-retraining",
+      "notebook": "15_drift_retraining.ipynb",
+      "design": "queues-and-job-scheduler",
+      "designModule": "General",
+      "concepts": []
+    },
+    {
+      "day": 43,
+      "date": "周三 12/2",
+      "coding": [
+        "queues",
+        "key-value-store",
+        "ttl",
+        "rate-limiter",
+        "crawler"
+      ],
+      "ml": "drift-retraining",
+      "notebook": "15_drift_retraining.ipynb",
+      "design": "transfer-mock-contract-review-assistant",
+      "designModule": "AI",
+      "concepts": []
+    },
+    {
+      "day": 44,
+      "date": "周四 12/3",
+      "coding": [
+        "window-functions",
+        "row-number",
+        "rank",
+        "dense-rank",
+        "lag",
+        "lead",
+        "rolling-aggregations"
+      ],
+      "ml": "drift-retraining",
+      "notebook": "15_drift_retraining.ipynb",
+      "design": "transfer-mock-contract-review-assistant",
+      "designModule": "AI",
+      "concepts": []
+    },
+    {
+      "day": 45,
+      "date": "周五 12/4",
+      "coding": [
+        "sliding-window",
+        "heaps",
+        "bfs",
+        "dfs"
+      ],
+      "ml": "drift-retraining",
+      "notebook": "15_drift_retraining.ipynb",
+      "design": "transfer-mock-contract-review-assistant",
+      "designModule": "AI",
+      "concepts": []
+    }
+  ]
+}
