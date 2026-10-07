@@ -52,3 +52,4 @@ jobs/raw
 .tmp/
 
 .study-venv/
+.claude/*.tmp.*
