@@ -1,0 +1,2460 @@
+{
+ "start": "2026-11-09",
+ "source": "https://leetcode.com/studyplan/top-interview-150/",
+ "read": "2026-11-04",
+ "note": "Day 1 = start (Monday). Minutes: Easy 15, Medium 20, Hard 30, engineering problems 30, review 10. Hard problems are scheduled last.",
+ "schedule": [
+  {
+   "day": 1,
+   "kind": "python",
+   "topic": "Hash Maps: Counting, Frequency, Duplicate Detection",
+   "material": "资料：[Hash Maps](../Study%20topics/hash-maps.html)",
+   "own": [
+    1,
+    217,
+    242
+   ],
+   "review": [],
+   "top": [
+    49,
+    128,
+    202,
+    205
+   ],
+   "minutes": 0,
+   "spare_min": 5
+  },
+  {
+   "day": 2,
+   "kind": "sql",
+   "topic": "SQL: SELECT, WHERE, ORDER BY, LIMIT, NULL",
+   "material": "资料：[SELECT](../Study%20topics/select.html); [WHERE](../Study%20topics/where.html); [ORDER BY](../Study%20topics/order-by.html); [LIMIT](../Study%20topics/limit.html); [NULL](../Study%20topics/null.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    219,
+    290,
+    383
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     1757,
+     "Recyclable and Low Fat Products",
+     "recyclable-and-low-fat-products"
+    ],
+    [
+     584,
+     "Find Customer Referee",
+     "find-customer-referee"
+    ],
+    [
+     595,
+     "Big Countries",
+     "big-countries"
+    ]
+   ],
+   "spare_min": 15
+  },
+  {
+   "day": 3,
+   "kind": "python",
+   "topic": "Arrays and Strings: Two Pointers",
+   "material": "资料：[Arrays and Strings](../Study%20topics/arrays-and-strings.html); [Two Pointers](../Study%20topics/two-pointers.html)",
+   "own": [
+    125,
+    167,
+    283
+   ],
+   "review": [],
+   "top": [
+    11,
+    15,
+    392
+   ],
+   "minutes": 0,
+   "spare_min": 15
+  },
+  {
+   "day": 4,
+   "kind": "sql",
+   "topic": "SQL: GROUP BY, HAVING, CASE, Aggregations",
+   "material": "资料：[GROUP BY](../Study%20topics/group-by.html); [HAVING](../Study%20topics/having.html); [CASE](../Study%20topics/case.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    6,
+    12,
+    13
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     182,
+     "Duplicate Emails",
+     "duplicate-emails"
+    ],
+    [
+     596,
+     "Classes With at Least 5 Students",
+     "classes-with-at-least-5-students"
+    ],
+    [
+     620,
+     "Not Boring Movies",
+     "not-boring-movies"
+    ]
+   ],
+   "spare_min": 5
+  },
+  {
+   "day": 5,
+   "kind": "python",
+   "topic": "Sorting; Binary Search; Complexity Analysis",
+   "material": "资料：[Sorting](../Study%20topics/sorting.html); [Binary Search](../Study%20topics/binary-search.html); [Complexity Analysis](../Study%20topics/complexity-analysis.html)",
+   "own": [
+    704,
+    35,
+    33
+   ],
+   "review": [],
+   "top": [
+    34,
+    74,
+    153
+   ],
+   "minutes": 0,
+   "spare_min": 10
+  },
+  {
+   "day": 6,
+   "kind": "python",
+   "topic": "Hash Maps and Two Pointers: Review",
+   "material": "资料：[Hash Maps](../Study%20topics/hash-maps.html); [Arrays and Strings](../Study%20topics/arrays-and-strings.html); [Two Pointers](../Study%20topics/two-pointers.html)",
+   "own": [],
+   "review": [
+    1,
+    49,
+    128
+   ],
+   "top": [
+    162,
+    56,
+    57,
+    228
+   ],
+   "minutes": 0,
+   "spare_min": 15
+  },
+  {
+   "day": 7,
+   "kind": "sql",
+   "topic": "SQL: INNER JOIN, LEFT JOIN, Duplicate Rows",
+   "material": "资料：[JOINs](../Study%20topics/joins.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    452,
+    14,
+    26
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     175,
+     "Combine Two Tables",
+     "combine-two-tables"
+    ],
+    [
+     577,
+     "Employee Bonus",
+     "employee-bonus"
+    ],
+    [
+     1581,
+     "Customer Who Visited but Did Not Make Any Transactions",
+     "customer-who-visited-but-did-not-make-any-transactions"
+    ]
+   ],
+   "spare_min": 10
+  },
+  {
+   "day": 8,
+   "kind": "python",
+   "topic": "Sliding Window; Prefix Sums",
+   "material": "资料：[Sliding Window](../Study%20topics/sliding-window.html); [Prefix Sums](../Study%20topics/prefix-sums.html)",
+   "own": [
+    3,
+    209,
+    560
+   ],
+   "review": [],
+   "top": [
+    27,
+    28,
+    45
+   ],
+   "minutes": 0,
+   "spare_min": 10
+  },
+  {
+   "day": 9,
+   "kind": "sql",
+   "topic": "SQL: Subqueries, CTEs, EXISTS",
+   "material": "资料：[Subqueries](../Study%20topics/subqueries.html); [CTEs](../Study%20topics/ctes.html); [EXISTS](../Study%20topics/exists.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    55,
+    58,
+    80
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     197,
+     "Rising Temperature",
+     "rising-temperature"
+    ],
+    [
+     1661,
+     "Average Time of Process per Machine",
+     "average-time-of-process-per-machine"
+    ],
+    [
+     1148,
+     "Article Views I",
+     "article-views-i"
+    ]
+   ],
+   "spare_min": 5
+  },
+  {
+   "day": 10,
+   "kind": "python",
+   "topic": "Stacks; Queues; String Parsing",
+   "material": "资料：[Stacks](../Study%20topics/stacks.html); [Queues](../Study%20topics/queues.html)",
+   "own": [
+    20,
+    155,
+    232
+   ],
+   "review": [],
+   "top": [
+    71,
+    150,
+    88,
+    121
+   ],
+   "minutes": 0,
+   "spare_min": 0
+  },
+  {
+   "day": 11,
+   "kind": "python",
+   "topic": "Heaps; Top-k; Priority Queues",
+   "material": "资料：[Heaps](../Study%20topics/heaps.html)",
+   "own": [
+    215,
+    347,
+    703
+   ],
+   "review": [],
+   "top": [
+    373,
+    122,
+    134
+   ],
+   "minutes": 0,
+   "spare_min": 5
+  },
+  {
+   "day": 12,
+   "kind": "sql",
+   "topic": "SQL: ROW_NUMBER, RANK, DENSE_RANK",
+   "material": "资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    151,
+    169,
+    189
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     178,
+     "Rank Scores",
+     "rank-scores"
+    ],
+    [
+     176,
+     "Second Highest Salary",
+     "second-highest-salary"
+    ],
+    [
+     177,
+     "Nth Highest Salary",
+     "nth-highest-salary"
+    ]
+   ],
+   "spare_min": 5
+  },
+  {
+   "day": 13,
+   "kind": "python",
+   "topic": "Linked Lists; LRU Cache",
+   "material": "资料：[Linked Lists](../Study%20topics/linked-lists.html); [LRU Cache](../Study%20topics/lru-cache.html)",
+   "own": [
+    206,
+    21,
+    146
+   ],
+   "review": [],
+   "top": [
+    2,
+    19,
+    61
+   ],
+   "minutes": 0,
+   "spare_min": 10
+  },
+  {
+   "day": 14,
+   "kind": "sql",
+   "topic": "SQL: LAG, LEAD, Rolling Aggregations",
+   "material": "资料：[LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    82,
+    86,
+    92
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     180,
+     "Consecutive Numbers",
+     "consecutive-numbers"
+    ],
+    [
+     550,
+     "Game Play Analysis IV",
+     "game-play-analysis-iv"
+    ],
+    [
+     1321,
+     "Restaurant Growth",
+     "restaurant-growth"
+    ]
+   ],
+   "spare_min": 0
+  },
+  {
+   "day": 15,
+   "kind": "python",
+   "topic": "BFS; DFS; Graph Traversal",
+   "material": "资料：[Queues](../Study%20topics/queues.html); [BFS](../Study%20topics/bfs.html); [DFS](../Study%20topics/dfs.html)",
+   "own": [
+    200,
+    133,
+    994
+   ],
+   "review": [],
+   "top": [
+    130,
+    207,
+    210
+   ],
+   "minutes": 0,
+   "spare_min": 0
+  },
+  {
+   "day": 16,
+   "kind": "python",
+   "topic": "Trees; Recursion",
+   "material": "资料：[BFS](../Study%20topics/bfs.html); [Trees](../Study%20topics/trees.html); [Recursion](../Study%20topics/recursion.html)",
+   "own": [
+    104,
+    102,
+    226
+   ],
+   "review": [],
+   "top": [
+    100,
+    101,
+    105,
+    106
+   ],
+   "minutes": 0,
+   "spare_min": 0
+  },
+  {
+   "day": 17,
+   "kind": "sql",
+   "topic": "SQL: Window Functions; Date Queries",
+   "material": "资料：[Date Queries](../Study%20topics/date-queries.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    138,
+    141,
+    399
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     1204,
+     "Last Person to Fit in the Bus",
+     "last-person-to-fit-in-the-bus"
+    ],
+    [
+     1164,
+     "Product Price at a Given Date",
+     "product-price-at-a-given-date"
+    ],
+    [
+     1070,
+     "Product Sales Analysis III",
+     "product-sales-analysis-iii"
+    ]
+   ],
+   "spare_min": 5
+  },
+  {
+   "day": 18,
+   "kind": "python",
+   "topic": "Practical Coding: Key-Value Store; TTL",
+   "material": "资料：[Key-Value Store](../Study%20topics/key-value-store.html); [TTL](../Study%20topics/ttl.html)",
+   "own": [
+    706,
+    981
+   ],
+   "review": [],
+   "top": [
+    208,
+    211,
+    238
+   ],
+   "minutes": 0,
+   "spare_min": 0
+  },
+  {
+   "day": 19,
+   "kind": "sql",
+   "topic": "SQL: Transactions; Constraints; Parameterized Queries",
+   "material": "资料：[Transactions](../Study%20topics/transactions.html); [Constraints](../Study%20topics/constraints.html); [Parameterized Queries](../Study%20topics/parameterized-queries.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    433,
+    909,
+    112
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     196,
+     "Delete Duplicate Emails",
+     "delete-duplicate-emails"
+    ],
+    [
+     602,
+     "Friend Requests II: Who Has the Most Friends",
+     "friend-requests-ii-who-has-the-most-friends"
+    ],
+    [
+     1341,
+     "Movie Rating",
+     "movie-rating"
+    ]
+   ],
+   "spare_min": 5
+  },
+  {
+   "day": 20,
+   "kind": "python",
+   "topic": "Debugging; Code Reading; Refactoring",
+   "material": "资料：[Stacks](../Study%20topics/stacks.html); [Debugging](../Study%20topics/debugging.html); [Refactoring](../Study%20topics/refactoring.html); [Code Review](../Study%20topics/code-review.html)",
+   "own": [
+    394
+   ],
+   "review": [
+    71,
+    88
+   ],
+   "top": [
+    274,
+    380,
+    114
+   ],
+   "minutes": 0,
+   "spare_min": 10
+  },
+  {
+   "day": 21,
+   "kind": "python",
+   "topic": "Practical Coding: API Clients; Input Validation",
+   "material": "资料：[API Clients](../Study%20topics/api-clients.html)",
+   "own": [
+    165,
+    468
+   ],
+   "review": [],
+   "top": [
+    36,
+    48,
+    54
+   ],
+   "minutes": 0,
+   "spare_min": 0
+  },
+  {
+   "day": 22,
+   "kind": "sql",
+   "topic": "SQL: PostgreSQL Schema Design; Primary and Foreign Keys",
+   "material": "资料：[PostgreSQL Schema Design](../Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](../Study%20topics/primary-and-foreign-keys.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    117,
+    129,
+    173
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     1934,
+     "Confirmation Rate",
+     "confirmation-rate"
+    ],
+    [
+     1251,
+     "Average Selling Price",
+     "average-selling-price"
+    ],
+    [
+     1633,
+     "Percentage of Users Attended a Contest",
+     "percentage-of-users-attended-a-contest"
+    ]
+   ],
+   "spare_min": 0
+  },
+  {
+   "day": 23,
+   "kind": "python",
+   "topic": "Python: Async; Concurrency; Parallelism; GIL; Race Conditions",
+   "material": "资料：[Async](../Study%20topics/async.html); [Concurrency](../Study%20topics/concurrency.html); [Parallelism](../Study%20topics/parallelism.html); [GIL](../Study%20topics/gil.html); [Race Conditions](../Study%20topics/race-conditions.html)",
+   "own": [
+    1114,
+    1115
+   ],
+   "review": [],
+   "top": [
+    17,
+    22,
+    39
+   ],
+   "minutes": 0,
+   "spare_min": 0
+  },
+  {
+   "day": 24,
+   "kind": "sql",
+   "topic": "SQL: Indexes; EXPLAIN; Query Optimization",
+   "material": "资料：[Indexes](../Study%20topics/indexes.html); [EXPLAIN](../Study%20topics/explain.html); [Query Optimization](../Study%20topics/query-optimization.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    222,
+    236,
+    103
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     1193,
+     "Monthly Transactions I",
+     "monthly-transactions-i"
+    ],
+    [
+     1211,
+     "Queries Quality and Percentage",
+     "queries-quality-and-percentage"
+    ],
+    [
+     185,
+     "Department Top Three Salaries",
+     "department-top-three-salaries"
+    ]
+   ],
+   "spare_min": 0
+  },
+  {
+   "day": 25,
+   "kind": "python",
+   "topic": "Practical Coding: Rate Limiter; Cache",
+   "material": "资料：[LRU Cache](../Study%20topics/lru-cache.html); [Rate Limiter](../Study%20topics/rate-limiter.html)",
+   "own": [
+    622,
+    359
+   ],
+   "review": [
+    146
+   ],
+   "top": [
+    46,
+    77
+   ],
+   "minutes": 0,
+   "spare_min": 10
+  },
+  {
+   "day": 26,
+   "kind": "python",
+   "topic": "Practical Coding: Crawler; Bounded Concurrency",
+   "material": "资料：[Crawler](../Study%20topics/crawler.html); [Async](../Study%20topics/async.html); [Concurrency](../Study%20topics/concurrency.html)",
+   "own": [
+    1236
+   ],
+   "review": [
+    200
+   ],
+   "top": [
+    199,
+    637,
+    98,
+    230
+   ],
+   "minutes": 0,
+   "spare_min": 5
+  },
+  {
+   "day": 27,
+   "kind": "sql",
+   "topic": "SQL: Run Analytics; Percentiles; Cost Aggregation",
+   "material": "资料：[Run Analytics](../Study%20topics/run-analytics.html); [Percentiles](../Study%20topics/percentiles.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    530,
+    73,
+    289
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     1321,
+     "Restaurant Growth",
+     "restaurant-growth"
+    ],
+    [
+     1174,
+     "Immediate Food Delivery II",
+     "immediate-food-delivery-ii"
+    ],
+    [
+     1907,
+     "Count Salary Categories",
+     "count-salary-categories"
+    ]
+   ],
+   "spare_min": 5
+  },
+  {
+   "day": 28,
+   "kind": "python",
+   "topic": "Python: Vectorization; Profiling; Performance",
+   "material": "资料：[Parallelism](../Study%20topics/parallelism.html); [GIL](../Study%20topics/gil.html); [Vectorization](../Study%20topics/vectorization.html); [Profiling](../Study%20topics/profiling.html)",
+   "own": [
+    53
+   ],
+   "review": [
+    238
+   ],
+   "top": [
+    79,
+    70,
+    139,
+    198
+   ],
+   "minutes": 0,
+   "spare_min": 15
+  },
+  {
+   "day": 29,
+   "kind": "sql",
+   "topic": "SQL: Time-Series Joins; Missing Dates",
+   "material": "资料：[LAG](../Study%20topics/lag.html); [Date Queries](../Study%20topics/date-queries.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    300,
+    322,
+    918
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     1148,
+     "Article Views I",
+     "article-views-i"
+    ],
+    [
+     197,
+     "Rising Temperature",
+     "rising-temperature"
+    ],
+    [
+     550,
+     "Game Play Analysis IV",
+     "game-play-analysis-iv"
+    ]
+   ],
+   "spare_min": 0
+  },
+  {
+   "day": 30,
+   "kind": "python",
+   "topic": "Coding Review: Mixed Python Patterns",
+   "material": "资料：[Complexity Analysis](../Study%20topics/complexity-analysis.html); [Sliding Window](../Study%20topics/sliding-window.html); [Heaps](../Study%20topics/heaps.html); [BFS](../Study%20topics/bfs.html); [DFS](../Study%20topics/dfs.html); [Trees](../Study%20topics/trees.html)",
+   "own": [],
+   "review": [
+    3,
+    215,
+    200
+   ],
+   "top": [
+    9,
+    50,
+    66,
+    69,
+    172
+   ],
+   "minutes": 0,
+   "spare_min": 5
+  },
+  {
+   "day": 31,
+   "kind": "python",
+   "topic": "Python: Progressive Implementation Problems",
+   "material": "资料：[LRU Cache](../Study%20topics/lru-cache.html); [Key-Value Store](../Study%20topics/key-value-store.html); [TTL](../Study%20topics/ttl.html)",
+   "own": [
+    2408
+   ],
+   "review": [
+    981,
+    146
+   ],
+   "top": [
+    67,
+    136,
+    137,
+    190
+   ],
+   "minutes": 0,
+   "spare_min": 5
+  },
+  {
+   "day": 32,
+   "kind": "sql",
+   "topic": "SQL: Integrated Query Practice",
+   "material": "资料：[JOINs](../Study%20topics/joins.html); [GROUP BY](../Study%20topics/group-by.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    191,
+    201,
+    108
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     1075,
+     "Project Employees I",
+     "project-employees-i"
+    ],
+    [
+     1280,
+     "Students and Examinations",
+     "students-and-examinations"
+    ],
+    [
+     1193,
+     "Monthly Transactions I",
+     "monthly-transactions-i"
+    ]
+   ],
+   "spare_min": 10
+  },
+  {
+   "day": 33,
+   "kind": "python",
+   "topic": "Python: Embedding Debugging; Cosine Similarity",
+   "material": "资料：[Debugging](../Study%20topics/debugging.html); [Vectorization](../Study%20topics/vectorization.html)",
+   "own": [
+    973
+   ],
+   "review": [
+    347
+   ],
+   "top": [
+    148,
+    427,
+    5,
+    63
+   ],
+   "minutes": 0,
+   "spare_min": 10
+  },
+  {
+   "day": 34,
+   "kind": "sql",
+   "topic": "SQL: Financial Analytics; Window Functions Review",
+   "material": "资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html); [LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html); [Financial Analytics](../Study%20topics/financial-analytics.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    64,
+    72,
+    97
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     185,
+     "Department Top Three Salaries",
+     "department-top-three-salaries"
+    ],
+    [
+     1321,
+     "Restaurant Growth",
+     "restaurant-growth"
+    ],
+    [
+     1341,
+     "Movie Rating",
+     "movie-rating"
+    ]
+   ],
+   "spare_min": 0
+  },
+  {
+   "day": 35,
+   "kind": "python",
+   "topic": "Python: Logistic Regression with NumPy; Shape Checks",
+   "material": "资料：[Vectorization](../Study%20topics/vectorization.html); [NumPy Logistic Regression](../Study%20topics/numpy-logistic-regression.html)",
+   "own": [],
+   "review": [
+    1,
+    20
+   ],
+   "top": [
+    120,
+    221,
+    42,
+    68
+   ],
+   "minutes": 0,
+   "spare_min": 0
+  },
+  {
+   "day": 36,
+   "kind": "python",
+   "topic": "Python: Timed Coding Mock",
+   "material": "资料：[Binary Search](../Study%20topics/binary-search.html); [Prefix Sums](../Study%20topics/prefix-sums.html); [Recursion](../Study%20topics/recursion.html)",
+   "own": [],
+   "review": [
+    33,
+    560,
+    200
+   ],
+   "top": [
+    135,
+    30,
+    76
+   ],
+   "minutes": 0,
+   "spare_min": 0
+  },
+  {
+   "day": 37,
+   "kind": "sql",
+   "topic": "SQL: Timed Query Mock",
+   "material": "资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html); [LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    224,
+    25
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     178,
+     "Rank Scores",
+     "rank-scores"
+    ],
+    [
+     550,
+     "Game Play Analysis IV",
+     "game-play-analysis-iv"
+    ],
+    [
+     1321,
+     "Restaurant Growth",
+     "restaurant-growth"
+    ]
+   ],
+   "spare_min": 0
+  },
+  {
+   "day": 38,
+   "kind": "python",
+   "topic": "Python: Debugging and Code Review Mock",
+   "material": "资料：[API Clients](../Study%20topics/api-clients.html); [Race Conditions](../Study%20topics/race-conditions.html); [Profiling](../Study%20topics/profiling.html); [Debugging](../Study%20topics/debugging.html); [Refactoring](../Study%20topics/refactoring.html); [Code Review](../Study%20topics/code-review.html)",
+   "own": [],
+   "review": [
+    71,
+    394,
+    981
+   ],
+   "top": [
+    124,
+    127,
+    212
+   ],
+   "minutes": 0,
+   "spare_min": 0
+  },
+  {
+   "day": 39,
+   "kind": "sql",
+   "topic": "SQL: Weak-Topic Review",
+   "material": "资料：[SELECT](../Study%20topics/select.html); [WHERE](../Study%20topics/where.html); [ORDER BY](../Study%20topics/order-by.html); [LIMIT](../Study%20topics/limit.html); [NULL](../Study%20topics/null.html); [GROUP BY](../Study%20topics/group-by.html); [HAVING](../Study%20topics/having.html); [CASE](../Study%20topics/case.html); [Subqueries](../Study%20topics/subqueries.html); [CTEs](../Study%20topics/ctes.html); [EXISTS](../Study%20topics/exists.html); [Date Queries](../Study%20topics/date-queries.html); [Transactions](../Study%20topics/transactions.html); [Constraints](../Study%20topics/constraints.html); [Parameterized Queries](../Study%20topics/parameterized-queries.html); [PostgreSQL Schema Design](../Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](../Study%20topics/primary-and-foreign-keys.html); [Indexes](../Study%20topics/indexes.html); [EXPLAIN](../Study%20topics/explain.html); [Query Optimization](../Study%20topics/query-optimization.html); [Run Analytics](../Study%20topics/run-analytics.html); [Percentiles](../Study%20topics/percentiles.html); [Financial Analytics](../Study%20topics/financial-analytics.html); [JOINs](../Study%20topics/joins.html)",
+   "own": [],
+   "review": [],
+   "top": [
+    52,
+    23
+   ],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     1661,
+     "Average Time of Process per Machine",
+     "average-time-of-process-per-machine"
+    ],
+    [
+     1934,
+     "Confirmation Rate",
+     "confirmation-rate"
+    ],
+    [
+     1204,
+     "Last Person to Fit in the Bus",
+     "last-person-to-fit-in-the-bus"
+    ]
+   ],
+   "spare_min": 0
+  },
+  {
+   "day": 40,
+   "kind": "python",
+   "topic": "Python: Weak-Topic Review",
+   "material": "资料：[Hash Maps](../Study%20topics/hash-maps.html); [LRU Cache](../Study%20topics/lru-cache.html); [NumPy Logistic Regression](../Study%20topics/numpy-logistic-regression.html)",
+   "own": [],
+   "review": [
+    49,
+    146,
+    994
+   ],
+   "top": [
+    4,
+    295,
+    502
+   ],
+   "minutes": 0,
+   "spare_min": 0
+  },
+  {
+   "day": 41,
+   "kind": "python",
+   "topic": "Python: Coding Mock Remediation",
+   "material": "资料：[Sorting](../Study%20topics/sorting.html); [Binary Search](../Study%20topics/binary-search.html); [Linked Lists](../Study%20topics/linked-lists.html)",
+   "own": [],
+   "review": [
+    217,
+    704,
+    206
+   ],
+   "top": [
+    149,
+    123,
+    188
+   ],
+   "minutes": 0,
+   "spare_min": 0
+  },
+  {
+   "day": 42,
+   "kind": "sql",
+   "topic": "SQL: Query Mock Remediation",
+   "material": "资料：[JOINs](../Study%20topics/joins.html); [HAVING](../Study%20topics/having.html)",
+   "own": [],
+   "review": [],
+   "top": [],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     175,
+     "Combine Two Tables",
+     "combine-two-tables"
+    ],
+    [
+     596,
+     "Classes With at Least 5 Students",
+     "classes-with-at-least-5-students"
+    ],
+    [
+     180,
+     "Consecutive Numbers",
+     "consecutive-numbers"
+    ]
+   ],
+   "spare_min": 60
+  },
+  {
+   "day": 43,
+   "kind": "python",
+   "topic": "Python: Practical Implementation Mock",
+   "material": "资料：[Queues](../Study%20topics/queues.html); [Key-Value Store](../Study%20topics/key-value-store.html); [TTL](../Study%20topics/ttl.html); [Rate Limiter](../Study%20topics/rate-limiter.html); [Crawler](../Study%20topics/crawler.html)",
+   "own": [],
+   "review": [
+    706,
+    981,
+    622
+   ],
+   "top": [],
+   "minutes": 0,
+   "spare_min": 90
+  },
+  {
+   "day": 44,
+   "kind": "sql",
+   "topic": "SQL: Comprehensive Review",
+   "material": "资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html); [LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html)",
+   "own": [],
+   "review": [],
+   "top": [],
+   "minutes": 0,
+   "sql_probs": [
+    [
+     185,
+     "Department Top Three Salaries",
+     "department-top-three-salaries"
+    ],
+    [
+     550,
+     "Game Play Analysis IV",
+     "game-play-analysis-iv"
+    ],
+    [
+     1321,
+     "Restaurant Growth",
+     "restaurant-growth"
+    ]
+   ],
+   "spare_min": 60
+  },
+  {
+   "day": 45,
+   "kind": "python",
+   "topic": "Python: Final Mixed Review",
+   "material": "资料：[Sliding Window](../Study%20topics/sliding-window.html); [Heaps](../Study%20topics/heaps.html); [BFS](../Study%20topics/bfs.html); [DFS](../Study%20topics/dfs.html)",
+   "own": [],
+   "review": [
+    3,
+    215,
+    200
+   ],
+   "top": [],
+   "minutes": 0,
+   "spare_min": 90
+  }
+ ],
+ "P": {
+  "88": {
+   "n": 88,
+   "title": "Merge Sorted Array",
+   "slug": "merge-sorted-array",
+   "diff": "Easy",
+   "section": "Array / String",
+   "top150": true
+  },
+  "27": {
+   "n": 27,
+   "title": "Remove Element",
+   "slug": "remove-element",
+   "diff": "Easy",
+   "section": "Array / String",
+   "top150": true
+  },
+  "26": {
+   "n": 26,
+   "title": "Remove Duplicates from Sorted Array",
+   "slug": "remove-duplicates-from-sorted-array",
+   "diff": "Easy",
+   "section": "Array / String",
+   "top150": true
+  },
+  "80": {
+   "n": 80,
+   "title": "Remove Duplicates from Sorted Array II",
+   "slug": "remove-duplicates-from-sorted-array-ii",
+   "diff": "Medium",
+   "section": "Array / String",
+   "top150": true
+  },
+  "169": {
+   "n": 169,
+   "title": "Majority Element",
+   "slug": "majority-element",
+   "diff": "Easy",
+   "section": "Array / String",
+   "top150": true
+  },
+  "189": {
+   "n": 189,
+   "title": "Rotate Array",
+   "slug": "rotate-array",
+   "diff": "Medium",
+   "section": "Array / String",
+   "top150": true
+  },
+  "121": {
+   "n": 121,
+   "title": "Best Time to Buy and Sell Stock",
+   "slug": "best-time-to-buy-and-sell-stock",
+   "diff": "Easy",
+   "section": "Array / String",
+   "top150": true
+  },
+  "122": {
+   "n": 122,
+   "title": "Best Time to Buy and Sell Stock II",
+   "slug": "best-time-to-buy-and-sell-stock-ii",
+   "diff": "Medium",
+   "section": "Array / String",
+   "top150": true
+  },
+  "55": {
+   "n": 55,
+   "title": "Jump Game",
+   "slug": "jump-game",
+   "diff": "Medium",
+   "section": "Array / String",
+   "top150": true
+  },
+  "45": {
+   "n": 45,
+   "title": "Jump Game II",
+   "slug": "jump-game-ii",
+   "diff": "Medium",
+   "section": "Array / String",
+   "top150": true
+  },
+  "274": {
+   "n": 274,
+   "title": "H-Index",
+   "slug": "h-index",
+   "diff": "Medium",
+   "section": "Array / String",
+   "top150": true
+  },
+  "380": {
+   "n": 380,
+   "title": "Insert Delete GetRandom O(1)",
+   "slug": "insert-delete-getrandom-o1",
+   "diff": "Medium",
+   "section": "Array / String",
+   "top150": true
+  },
+  "238": {
+   "n": 238,
+   "title": "Product of Array Except Self",
+   "slug": "product-of-array-except-self",
+   "diff": "Medium",
+   "section": "Array / String",
+   "top150": true
+  },
+  "134": {
+   "n": 134,
+   "title": "Gas Station",
+   "slug": "gas-station",
+   "diff": "Medium",
+   "section": "Array / String",
+   "top150": true
+  },
+  "135": {
+   "n": 135,
+   "title": "Candy",
+   "slug": "candy",
+   "diff": "Hard",
+   "section": "Array / String",
+   "top150": true
+  },
+  "42": {
+   "n": 42,
+   "title": "Trapping Rain Water",
+   "slug": "trapping-rain-water",
+   "diff": "Hard",
+   "section": "Array / String",
+   "top150": true
+  },
+  "13": {
+   "n": 13,
+   "title": "Roman to Integer",
+   "slug": "roman-to-integer",
+   "diff": "Easy",
+   "section": "Array / String",
+   "top150": true
+  },
+  "12": {
+   "n": 12,
+   "title": "Integer to Roman",
+   "slug": "integer-to-roman",
+   "diff": "Medium",
+   "section": "Array / String",
+   "top150": true
+  },
+  "58": {
+   "n": 58,
+   "title": "Length of Last Word",
+   "slug": "length-of-last-word",
+   "diff": "Easy",
+   "section": "Array / String",
+   "top150": true
+  },
+  "14": {
+   "n": 14,
+   "title": "Longest Common Prefix",
+   "slug": "longest-common-prefix",
+   "diff": "Easy",
+   "section": "Array / String",
+   "top150": true
+  },
+  "151": {
+   "n": 151,
+   "title": "Reverse Words in a String",
+   "slug": "reverse-words-in-a-string",
+   "diff": "Medium",
+   "section": "Array / String",
+   "top150": true
+  },
+  "6": {
+   "n": 6,
+   "title": "Zigzag Conversion",
+   "slug": "zigzag-conversion",
+   "diff": "Medium",
+   "section": "Array / String",
+   "top150": true
+  },
+  "28": {
+   "n": 28,
+   "title": "Find the Index of the First Occurrence in a String",
+   "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+   "diff": "Easy",
+   "section": "Array / String",
+   "top150": true
+  },
+  "68": {
+   "n": 68,
+   "title": "Text Justification",
+   "slug": "text-justification",
+   "diff": "Hard",
+   "section": "Array / String",
+   "top150": true
+  },
+  "125": {
+   "n": 125,
+   "title": "Valid Palindrome",
+   "slug": "valid-palindrome",
+   "diff": "Easy",
+   "section": "Two Pointers",
+   "top150": true
+  },
+  "392": {
+   "n": 392,
+   "title": "Is Subsequence",
+   "slug": "is-subsequence",
+   "diff": "Easy",
+   "section": "Two Pointers",
+   "top150": true
+  },
+  "167": {
+   "n": 167,
+   "title": "Two Sum II - Input Array Is Sorted",
+   "slug": "two-sum-ii-input-array-is-sorted",
+   "diff": "Medium",
+   "section": "Two Pointers",
+   "top150": true
+  },
+  "11": {
+   "n": 11,
+   "title": "Container With Most Water",
+   "slug": "container-with-most-water",
+   "diff": "Medium",
+   "section": "Two Pointers",
+   "top150": true
+  },
+  "15": {
+   "n": 15,
+   "title": "3Sum",
+   "slug": "3sum",
+   "diff": "Medium",
+   "section": "Two Pointers",
+   "top150": true
+  },
+  "209": {
+   "n": 209,
+   "title": "Minimum Size Subarray Sum",
+   "slug": "minimum-size-subarray-sum",
+   "diff": "Medium",
+   "section": "Sliding Window",
+   "top150": true
+  },
+  "3": {
+   "n": 3,
+   "title": "Longest Substring Without Repeating Characters",
+   "slug": "longest-substring-without-repeating-characters",
+   "diff": "Medium",
+   "section": "Sliding Window",
+   "top150": true
+  },
+  "30": {
+   "n": 30,
+   "title": "Substring with Concatenation of All Words",
+   "slug": "substring-with-concatenation-of-all-words",
+   "diff": "Hard",
+   "section": "Sliding Window",
+   "top150": true
+  },
+  "76": {
+   "n": 76,
+   "title": "Minimum Window Substring",
+   "slug": "minimum-window-substring",
+   "diff": "Hard",
+   "section": "Sliding Window",
+   "top150": true
+  },
+  "36": {
+   "n": 36,
+   "title": "Valid Sudoku",
+   "slug": "valid-sudoku",
+   "diff": "Medium",
+   "section": "Matrix",
+   "top150": true
+  },
+  "54": {
+   "n": 54,
+   "title": "Spiral Matrix",
+   "slug": "spiral-matrix",
+   "diff": "Medium",
+   "section": "Matrix",
+   "top150": true
+  },
+  "48": {
+   "n": 48,
+   "title": "Rotate Image",
+   "slug": "rotate-image",
+   "diff": "Medium",
+   "section": "Matrix",
+   "top150": true
+  },
+  "73": {
+   "n": 73,
+   "title": "Set Matrix Zeroes",
+   "slug": "set-matrix-zeroes",
+   "diff": "Medium",
+   "section": "Matrix",
+   "top150": true
+  },
+  "289": {
+   "n": 289,
+   "title": "Game of Life",
+   "slug": "game-of-life",
+   "diff": "Medium",
+   "section": "Matrix",
+   "top150": true
+  },
+  "383": {
+   "n": 383,
+   "title": "Ransom Note",
+   "slug": "ransom-note",
+   "diff": "Easy",
+   "section": "Hashmap",
+   "top150": true
+  },
+  "205": {
+   "n": 205,
+   "title": "Isomorphic Strings",
+   "slug": "isomorphic-strings",
+   "diff": "Easy",
+   "section": "Hashmap",
+   "top150": true
+  },
+  "290": {
+   "n": 290,
+   "title": "Word Pattern",
+   "slug": "word-pattern",
+   "diff": "Easy",
+   "section": "Hashmap",
+   "top150": true
+  },
+  "242": {
+   "n": 242,
+   "title": "Valid Anagram",
+   "slug": "valid-anagram",
+   "diff": "Easy",
+   "section": "Hashmap",
+   "top150": true
+  },
+  "49": {
+   "n": 49,
+   "title": "Group Anagrams",
+   "slug": "group-anagrams",
+   "diff": "Medium",
+   "section": "Hashmap",
+   "top150": true
+  },
+  "1": {
+   "n": 1,
+   "title": "Two Sum",
+   "slug": "two-sum",
+   "diff": "Easy",
+   "section": "Hashmap",
+   "top150": true
+  },
+  "202": {
+   "n": 202,
+   "title": "Happy Number",
+   "slug": "happy-number",
+   "diff": "Easy",
+   "section": "Hashmap",
+   "top150": true
+  },
+  "219": {
+   "n": 219,
+   "title": "Contains Duplicate II",
+   "slug": "contains-duplicate-ii",
+   "diff": "Easy",
+   "section": "Hashmap",
+   "top150": true
+  },
+  "128": {
+   "n": 128,
+   "title": "Longest Consecutive Sequence",
+   "slug": "longest-consecutive-sequence",
+   "diff": "Medium",
+   "section": "Hashmap",
+   "top150": true
+  },
+  "228": {
+   "n": 228,
+   "title": "Summary Ranges",
+   "slug": "summary-ranges",
+   "diff": "Easy",
+   "section": "Intervals",
+   "top150": true
+  },
+  "56": {
+   "n": 56,
+   "title": "Merge Intervals",
+   "slug": "merge-intervals",
+   "diff": "Medium",
+   "section": "Intervals",
+   "top150": true
+  },
+  "57": {
+   "n": 57,
+   "title": "Insert Interval",
+   "slug": "insert-interval",
+   "diff": "Medium",
+   "section": "Intervals",
+   "top150": true
+  },
+  "452": {
+   "n": 452,
+   "title": "Minimum Number of Arrows to Burst Balloons",
+   "slug": "minimum-number-of-arrows-to-burst-balloons",
+   "diff": "Medium",
+   "section": "Intervals",
+   "top150": true
+  },
+  "20": {
+   "n": 20,
+   "title": "Valid Parentheses",
+   "slug": "valid-parentheses",
+   "diff": "Easy",
+   "section": "Stack",
+   "top150": true
+  },
+  "71": {
+   "n": 71,
+   "title": "Simplify Path",
+   "slug": "simplify-path",
+   "diff": "Medium",
+   "section": "Stack",
+   "top150": true
+  },
+  "155": {
+   "n": 155,
+   "title": "Min Stack",
+   "slug": "min-stack",
+   "diff": "Medium",
+   "section": "Stack",
+   "top150": true
+  },
+  "150": {
+   "n": 150,
+   "title": "Evaluate Reverse Polish Notation",
+   "slug": "evaluate-reverse-polish-notation",
+   "diff": "Medium",
+   "section": "Stack",
+   "top150": true
+  },
+  "224": {
+   "n": 224,
+   "title": "Basic Calculator",
+   "slug": "basic-calculator",
+   "diff": "Hard",
+   "section": "Stack",
+   "top150": true
+  },
+  "141": {
+   "n": 141,
+   "title": "Linked List Cycle",
+   "slug": "linked-list-cycle",
+   "diff": "Easy",
+   "section": "Linked List",
+   "top150": true
+  },
+  "2": {
+   "n": 2,
+   "title": "Add Two Numbers",
+   "slug": "add-two-numbers",
+   "diff": "Medium",
+   "section": "Linked List",
+   "top150": true
+  },
+  "21": {
+   "n": 21,
+   "title": "Merge Two Sorted Lists",
+   "slug": "merge-two-sorted-lists",
+   "diff": "Easy",
+   "section": "Linked List",
+   "top150": true
+  },
+  "138": {
+   "n": 138,
+   "title": "Copy List with Random Pointer",
+   "slug": "copy-list-with-random-pointer",
+   "diff": "Medium",
+   "section": "Linked List",
+   "top150": true
+  },
+  "92": {
+   "n": 92,
+   "title": "Reverse Linked List II",
+   "slug": "reverse-linked-list-ii",
+   "diff": "Medium",
+   "section": "Linked List",
+   "top150": true
+  },
+  "25": {
+   "n": 25,
+   "title": "Reverse Nodes in k-Group",
+   "slug": "reverse-nodes-in-k-group",
+   "diff": "Hard",
+   "section": "Linked List",
+   "top150": true
+  },
+  "19": {
+   "n": 19,
+   "title": "Remove Nth Node From End of List",
+   "slug": "remove-nth-node-from-end-of-list",
+   "diff": "Medium",
+   "section": "Linked List",
+   "top150": true
+  },
+  "82": {
+   "n": 82,
+   "title": "Remove Duplicates from Sorted List II",
+   "slug": "remove-duplicates-from-sorted-list-ii",
+   "diff": "Medium",
+   "section": "Linked List",
+   "top150": true
+  },
+  "61": {
+   "n": 61,
+   "title": "Rotate List",
+   "slug": "rotate-list",
+   "diff": "Medium",
+   "section": "Linked List",
+   "top150": true
+  },
+  "86": {
+   "n": 86,
+   "title": "Partition List",
+   "slug": "partition-list",
+   "diff": "Medium",
+   "section": "Linked List",
+   "top150": true
+  },
+  "146": {
+   "n": 146,
+   "title": "LRU Cache",
+   "slug": "lru-cache",
+   "diff": "Medium",
+   "section": "Linked List",
+   "top150": true
+  },
+  "104": {
+   "n": 104,
+   "title": "Maximum Depth of Binary Tree",
+   "slug": "maximum-depth-of-binary-tree",
+   "diff": "Easy",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "100": {
+   "n": 100,
+   "title": "Same Tree",
+   "slug": "same-tree",
+   "diff": "Easy",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "226": {
+   "n": 226,
+   "title": "Invert Binary Tree",
+   "slug": "invert-binary-tree",
+   "diff": "Easy",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "101": {
+   "n": 101,
+   "title": "Symmetric Tree",
+   "slug": "symmetric-tree",
+   "diff": "Easy",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "105": {
+   "n": 105,
+   "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+   "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+   "diff": "Medium",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "106": {
+   "n": 106,
+   "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+   "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+   "diff": "Medium",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "117": {
+   "n": 117,
+   "title": "Populating Next Right Pointers in Each Node II",
+   "slug": "populating-next-right-pointers-in-each-node-ii",
+   "diff": "Medium",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "114": {
+   "n": 114,
+   "title": "Flatten Binary Tree to Linked List",
+   "slug": "flatten-binary-tree-to-linked-list",
+   "diff": "Medium",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "112": {
+   "n": 112,
+   "title": "Path Sum",
+   "slug": "path-sum",
+   "diff": "Easy",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "129": {
+   "n": 129,
+   "title": "Sum Root to Leaf Numbers",
+   "slug": "sum-root-to-leaf-numbers",
+   "diff": "Medium",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "124": {
+   "n": 124,
+   "title": "Binary Tree Maximum Path Sum",
+   "slug": "binary-tree-maximum-path-sum",
+   "diff": "Hard",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "173": {
+   "n": 173,
+   "title": "Binary Search Tree Iterator",
+   "slug": "binary-search-tree-iterator",
+   "diff": "Medium",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "222": {
+   "n": 222,
+   "title": "Count Complete Tree Nodes",
+   "slug": "count-complete-tree-nodes",
+   "diff": "Medium",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "236": {
+   "n": 236,
+   "title": "Lowest Common Ancestor of a Binary Tree",
+   "slug": "lowest-common-ancestor-of-a-binary-tree",
+   "diff": "Medium",
+   "section": "Binary Tree General",
+   "top150": true
+  },
+  "199": {
+   "n": 199,
+   "title": "Binary Tree Right Side View",
+   "slug": "binary-tree-right-side-view",
+   "diff": "Medium",
+   "section": "Binary Tree BFS",
+   "top150": true
+  },
+  "637": {
+   "n": 637,
+   "title": "Average of Levels in Binary Tree",
+   "slug": "average-of-levels-in-binary-tree",
+   "diff": "Easy",
+   "section": "Binary Tree BFS",
+   "top150": true
+  },
+  "102": {
+   "n": 102,
+   "title": "Binary Tree Level Order Traversal",
+   "slug": "binary-tree-level-order-traversal",
+   "diff": "Medium",
+   "section": "Binary Tree BFS",
+   "top150": true
+  },
+  "103": {
+   "n": 103,
+   "title": "Binary Tree Zigzag Level Order Traversal",
+   "slug": "binary-tree-zigzag-level-order-traversal",
+   "diff": "Medium",
+   "section": "Binary Tree BFS",
+   "top150": true
+  },
+  "530": {
+   "n": 530,
+   "title": "Minimum Absolute Difference in BST",
+   "slug": "minimum-absolute-difference-in-bst",
+   "diff": "Easy",
+   "section": "Binary Search Tree",
+   "top150": true
+  },
+  "230": {
+   "n": 230,
+   "title": "Kth Smallest Element in a BST",
+   "slug": "kth-smallest-element-in-a-bst",
+   "diff": "Medium",
+   "section": "Binary Search Tree",
+   "top150": true
+  },
+  "98": {
+   "n": 98,
+   "title": "Validate Binary Search Tree",
+   "slug": "validate-binary-search-tree",
+   "diff": "Medium",
+   "section": "Binary Search Tree",
+   "top150": true
+  },
+  "200": {
+   "n": 200,
+   "title": "Number of Islands",
+   "slug": "number-of-islands",
+   "diff": "Medium",
+   "section": "Graph General",
+   "top150": true
+  },
+  "130": {
+   "n": 130,
+   "title": "Surrounded Regions",
+   "slug": "surrounded-regions",
+   "diff": "Medium",
+   "section": "Graph General",
+   "top150": true
+  },
+  "133": {
+   "n": 133,
+   "title": "Clone Graph",
+   "slug": "clone-graph",
+   "diff": "Medium",
+   "section": "Graph General",
+   "top150": true
+  },
+  "399": {
+   "n": 399,
+   "title": "Evaluate Division",
+   "slug": "evaluate-division",
+   "diff": "Medium",
+   "section": "Graph General",
+   "top150": true
+  },
+  "207": {
+   "n": 207,
+   "title": "Course Schedule",
+   "slug": "course-schedule",
+   "diff": "Medium",
+   "section": "Graph General",
+   "top150": true
+  },
+  "210": {
+   "n": 210,
+   "title": "Course Schedule II",
+   "slug": "course-schedule-ii",
+   "diff": "Medium",
+   "section": "Graph General",
+   "top150": true
+  },
+  "909": {
+   "n": 909,
+   "title": "Snakes and Ladders",
+   "slug": "snakes-and-ladders",
+   "diff": "Medium",
+   "section": "Graph BFS",
+   "top150": true
+  },
+  "433": {
+   "n": 433,
+   "title": "Minimum Genetic Mutation",
+   "slug": "minimum-genetic-mutation",
+   "diff": "Medium",
+   "section": "Graph BFS",
+   "top150": true
+  },
+  "127": {
+   "n": 127,
+   "title": "Word Ladder",
+   "slug": "word-ladder",
+   "diff": "Hard",
+   "section": "Graph BFS",
+   "top150": true
+  },
+  "208": {
+   "n": 208,
+   "title": "Implement Trie (Prefix Tree)",
+   "slug": "implement-trie-prefix-tree",
+   "diff": "Medium",
+   "section": "Trie",
+   "top150": true
+  },
+  "211": {
+   "n": 211,
+   "title": "Design Add and Search Words Data Structure",
+   "slug": "design-add-and-search-words-data-structure",
+   "diff": "Medium",
+   "section": "Trie",
+   "top150": true
+  },
+  "212": {
+   "n": 212,
+   "title": "Word Search II",
+   "slug": "word-search-ii",
+   "diff": "Hard",
+   "section": "Trie",
+   "top150": true
+  },
+  "17": {
+   "n": 17,
+   "title": "Letter Combinations of a Phone Number",
+   "slug": "letter-combinations-of-a-phone-number",
+   "diff": "Medium",
+   "section": "Backtracking",
+   "top150": true
+  },
+  "77": {
+   "n": 77,
+   "title": "Combinations",
+   "slug": "combinations",
+   "diff": "Medium",
+   "section": "Backtracking",
+   "top150": true
+  },
+  "46": {
+   "n": 46,
+   "title": "Permutations",
+   "slug": "permutations",
+   "diff": "Medium",
+   "section": "Backtracking",
+   "top150": true
+  },
+  "39": {
+   "n": 39,
+   "title": "Combination Sum",
+   "slug": "combination-sum",
+   "diff": "Medium",
+   "section": "Backtracking",
+   "top150": true
+  },
+  "52": {
+   "n": 52,
+   "title": "N-Queens II",
+   "slug": "n-queens-ii",
+   "diff": "Hard",
+   "section": "Backtracking",
+   "top150": true
+  },
+  "22": {
+   "n": 22,
+   "title": "Generate Parentheses",
+   "slug": "generate-parentheses",
+   "diff": "Medium",
+   "section": "Backtracking",
+   "top150": true
+  },
+  "79": {
+   "n": 79,
+   "title": "Word Search",
+   "slug": "word-search",
+   "diff": "Medium",
+   "section": "Backtracking",
+   "top150": true
+  },
+  "108": {
+   "n": 108,
+   "title": "Convert Sorted Array to Binary Search Tree",
+   "slug": "convert-sorted-array-to-binary-search-tree",
+   "diff": "Easy",
+   "section": "Divide & Conquer",
+   "top150": true
+  },
+  "148": {
+   "n": 148,
+   "title": "Sort List",
+   "slug": "sort-list",
+   "diff": "Medium",
+   "section": "Divide & Conquer",
+   "top150": true
+  },
+  "427": {
+   "n": 427,
+   "title": "Construct Quad Tree",
+   "slug": "construct-quad-tree",
+   "diff": "Medium",
+   "section": "Divide & Conquer",
+   "top150": true
+  },
+  "23": {
+   "n": 23,
+   "title": "Merge k Sorted Lists",
+   "slug": "merge-k-sorted-lists",
+   "diff": "Hard",
+   "section": "Divide & Conquer",
+   "top150": true
+  },
+  "53": {
+   "n": 53,
+   "title": "Maximum Subarray",
+   "slug": "maximum-subarray",
+   "diff": "Medium",
+   "section": "Kadane's Algorithm",
+   "top150": true
+  },
+  "918": {
+   "n": 918,
+   "title": "Maximum Sum Circular Subarray",
+   "slug": "maximum-sum-circular-subarray",
+   "diff": "Medium",
+   "section": "Kadane's Algorithm",
+   "top150": true
+  },
+  "35": {
+   "n": 35,
+   "title": "Search Insert Position",
+   "slug": "search-insert-position",
+   "diff": "Easy",
+   "section": "Binary Search",
+   "top150": true
+  },
+  "74": {
+   "n": 74,
+   "title": "Search a 2D Matrix",
+   "slug": "search-a-2d-matrix",
+   "diff": "Medium",
+   "section": "Binary Search",
+   "top150": true
+  },
+  "162": {
+   "n": 162,
+   "title": "Find Peak Element",
+   "slug": "find-peak-element",
+   "diff": "Medium",
+   "section": "Binary Search",
+   "top150": true
+  },
+  "33": {
+   "n": 33,
+   "title": "Search in Rotated Sorted Array",
+   "slug": "search-in-rotated-sorted-array",
+   "diff": "Medium",
+   "section": "Binary Search",
+   "top150": true
+  },
+  "34": {
+   "n": 34,
+   "title": "Find First and Last Position of Element in Sorted Array",
+   "slug": "find-first-and-last-position-of-element-in-sorted-array",
+   "diff": "Medium",
+   "section": "Binary Search",
+   "top150": true
+  },
+  "153": {
+   "n": 153,
+   "title": "Find Minimum in Rotated Sorted Array",
+   "slug": "find-minimum-in-rotated-sorted-array",
+   "diff": "Medium",
+   "section": "Binary Search",
+   "top150": true
+  },
+  "4": {
+   "n": 4,
+   "title": "Median of Two Sorted Arrays",
+   "slug": "median-of-two-sorted-arrays",
+   "diff": "Hard",
+   "section": "Binary Search",
+   "top150": true
+  },
+  "215": {
+   "n": 215,
+   "title": "Kth Largest Element in an Array",
+   "slug": "kth-largest-element-in-an-array",
+   "diff": "Medium",
+   "section": "Heap",
+   "top150": true
+  },
+  "502": {
+   "n": 502,
+   "title": "IPO",
+   "slug": "ipo",
+   "diff": "Hard",
+   "section": "Heap",
+   "top150": true
+  },
+  "373": {
+   "n": 373,
+   "title": "Find K Pairs with Smallest Sums",
+   "slug": "find-k-pairs-with-smallest-sums",
+   "diff": "Medium",
+   "section": "Heap",
+   "top150": true
+  },
+  "295": {
+   "n": 295,
+   "title": "Find Median from Data Stream",
+   "slug": "find-median-from-data-stream",
+   "diff": "Hard",
+   "section": "Heap",
+   "top150": true
+  },
+  "67": {
+   "n": 67,
+   "title": "Add Binary",
+   "slug": "add-binary",
+   "diff": "Easy",
+   "section": "Bit Manipulation",
+   "top150": true
+  },
+  "190": {
+   "n": 190,
+   "title": "Reverse Bits",
+   "slug": "reverse-bits",
+   "diff": "Easy",
+   "section": "Bit Manipulation",
+   "top150": true
+  },
+  "191": {
+   "n": 191,
+   "title": "Number of 1 Bits",
+   "slug": "number-of-1-bits",
+   "diff": "Easy",
+   "section": "Bit Manipulation",
+   "top150": true
+  },
+  "136": {
+   "n": 136,
+   "title": "Single Number",
+   "slug": "single-number",
+   "diff": "Easy",
+   "section": "Bit Manipulation",
+   "top150": true
+  },
+  "137": {
+   "n": 137,
+   "title": "Single Number II",
+   "slug": "single-number-ii",
+   "diff": "Medium",
+   "section": "Bit Manipulation",
+   "top150": true
+  },
+  "201": {
+   "n": 201,
+   "title": "Bitwise AND of Numbers Range",
+   "slug": "bitwise-and-of-numbers-range",
+   "diff": "Medium",
+   "section": "Bit Manipulation",
+   "top150": true
+  },
+  "9": {
+   "n": 9,
+   "title": "Palindrome Number",
+   "slug": "palindrome-number",
+   "diff": "Easy",
+   "section": "Math",
+   "top150": true
+  },
+  "66": {
+   "n": 66,
+   "title": "Plus One",
+   "slug": "plus-one",
+   "diff": "Easy",
+   "section": "Math",
+   "top150": true
+  },
+  "172": {
+   "n": 172,
+   "title": "Factorial Trailing Zeroes",
+   "slug": "factorial-trailing-zeroes",
+   "diff": "Medium",
+   "section": "Math",
+   "top150": true
+  },
+  "69": {
+   "n": 69,
+   "title": "Sqrt(x)",
+   "slug": "sqrtx",
+   "diff": "Easy",
+   "section": "Math",
+   "top150": true
+  },
+  "50": {
+   "n": 50,
+   "title": "Pow(x, n)",
+   "slug": "powx-n",
+   "diff": "Medium",
+   "section": "Math",
+   "top150": true
+  },
+  "149": {
+   "n": 149,
+   "title": "Max Points on a Line",
+   "slug": "max-points-on-a-line",
+   "diff": "Hard",
+   "section": "Math",
+   "top150": true
+  },
+  "70": {
+   "n": 70,
+   "title": "Climbing Stairs",
+   "slug": "climbing-stairs",
+   "diff": "Easy",
+   "section": "1D DP",
+   "top150": true
+  },
+  "198": {
+   "n": 198,
+   "title": "House Robber",
+   "slug": "house-robber",
+   "diff": "Medium",
+   "section": "1D DP",
+   "top150": true
+  },
+  "139": {
+   "n": 139,
+   "title": "Word Break",
+   "slug": "word-break",
+   "diff": "Medium",
+   "section": "1D DP",
+   "top150": true
+  },
+  "322": {
+   "n": 322,
+   "title": "Coin Change",
+   "slug": "coin-change",
+   "diff": "Medium",
+   "section": "1D DP",
+   "top150": true
+  },
+  "300": {
+   "n": 300,
+   "title": "Longest Increasing Subsequence",
+   "slug": "longest-increasing-subsequence",
+   "diff": "Medium",
+   "section": "1D DP",
+   "top150": true
+  },
+  "120": {
+   "n": 120,
+   "title": "Triangle",
+   "slug": "triangle",
+   "diff": "Medium",
+   "section": "Multidimensional DP",
+   "top150": true
+  },
+  "64": {
+   "n": 64,
+   "title": "Minimum Path Sum",
+   "slug": "minimum-path-sum",
+   "diff": "Medium",
+   "section": "Multidimensional DP",
+   "top150": true
+  },
+  "63": {
+   "n": 63,
+   "title": "Unique Paths II",
+   "slug": "unique-paths-ii",
+   "diff": "Medium",
+   "section": "Multidimensional DP",
+   "top150": true
+  },
+  "5": {
+   "n": 5,
+   "title": "Longest Palindromic Substring",
+   "slug": "longest-palindromic-substring",
+   "diff": "Medium",
+   "section": "Multidimensional DP",
+   "top150": true
+  },
+  "97": {
+   "n": 97,
+   "title": "Interleaving String",
+   "slug": "interleaving-string",
+   "diff": "Medium",
+   "section": "Multidimensional DP",
+   "top150": true
+  },
+  "72": {
+   "n": 72,
+   "title": "Edit Distance",
+   "slug": "edit-distance",
+   "diff": "Medium",
+   "section": "Multidimensional DP",
+   "top150": true
+  },
+  "123": {
+   "n": 123,
+   "title": "Best Time to Buy and Sell Stock III",
+   "slug": "best-time-to-buy-and-sell-stock-iii",
+   "diff": "Hard",
+   "section": "Multidimensional DP",
+   "top150": true
+  },
+  "188": {
+   "n": 188,
+   "title": "Best Time to Buy and Sell Stock IV",
+   "slug": "best-time-to-buy-and-sell-stock-iv",
+   "diff": "Hard",
+   "section": "Multidimensional DP",
+   "top150": true
+  },
+  "221": {
+   "n": 221,
+   "title": "Maximal Square",
+   "slug": "maximal-square",
+   "diff": "Medium",
+   "section": "Multidimensional DP",
+   "top150": true
+  }
+ },
+ "OTHER": {
+  "217": {
+   "n": 217,
+   "title": "Contains Duplicate",
+   "slug": "contains-duplicate",
+   "diff": "Easy",
+   "section": "Plan",
+   "top150": false
+  },
+  "283": {
+   "n": 283,
+   "title": "Move Zeroes",
+   "slug": "move-zeroes",
+   "diff": "Easy",
+   "section": "Plan",
+   "top150": false
+  },
+  "704": {
+   "n": 704,
+   "title": "Binary Search",
+   "slug": "binary-search",
+   "diff": "Easy",
+   "section": "Plan",
+   "top150": false
+  },
+  "560": {
+   "n": 560,
+   "title": "Subarray Sum Equals K",
+   "slug": "subarray-sum-equals-k",
+   "diff": "Medium",
+   "section": "Plan",
+   "top150": false
+  },
+  "232": {
+   "n": 232,
+   "title": "Implement Queue using Stacks",
+   "slug": "implement-queue-using-stacks",
+   "diff": "Easy",
+   "section": "Plan",
+   "top150": false
+  },
+  "347": {
+   "n": 347,
+   "title": "Top K Frequent Elements",
+   "slug": "top-k-frequent-elements",
+   "diff": "Medium",
+   "section": "Plan",
+   "top150": false
+  },
+  "703": {
+   "n": 703,
+   "title": "Kth Largest Element in a Stream",
+   "slug": "kth-largest-element-in-a-stream",
+   "diff": "Easy",
+   "section": "Plan",
+   "top150": false
+  },
+  "206": {
+   "n": 206,
+   "title": "Reverse Linked List",
+   "slug": "reverse-linked-list",
+   "diff": "Easy",
+   "section": "Plan",
+   "top150": false
+  },
+  "994": {
+   "n": 994,
+   "title": "Rotting Oranges",
+   "slug": "rotting-oranges",
+   "diff": "Medium",
+   "section": "Plan",
+   "top150": false
+  },
+  "706": {
+   "n": 706,
+   "title": "Design HashMap",
+   "slug": "design-hashmap",
+   "diff": "Easy",
+   "section": "Plan",
+   "top150": false
+  },
+  "981": {
+   "n": 981,
+   "title": "Time Based Key-Value Store",
+   "slug": "time-based-key-value-store",
+   "diff": "Medium",
+   "section": "Plan",
+   "top150": false
+  },
+  "394": {
+   "n": 394,
+   "title": "Decode String",
+   "slug": "decode-string",
+   "diff": "Medium",
+   "section": "Plan",
+   "top150": false
+  },
+  "165": {
+   "n": 165,
+   "title": "Compare Version Numbers",
+   "slug": "compare-version-numbers",
+   "diff": "Medium",
+   "section": "Plan",
+   "top150": false
+  },
+  "468": {
+   "n": 468,
+   "title": "Validate IP Address",
+   "slug": "validate-ip-address",
+   "diff": "Medium",
+   "section": "Plan",
+   "top150": false
+  },
+  "1114": {
+   "n": 1114,
+   "title": "Print in Order",
+   "slug": "print-in-order",
+   "diff": "Easy",
+   "section": "Plan",
+   "top150": false
+  },
+  "1115": {
+   "n": 1115,
+   "title": "Print FooBar Alternately",
+   "slug": "print-foobar-alternately",
+   "diff": "Medium",
+   "section": "Plan",
+   "top150": false
+  },
+  "622": {
+   "n": 622,
+   "title": "Design Circular Queue",
+   "slug": "design-circular-queue",
+   "diff": "Medium",
+   "section": "Plan",
+   "top150": false
+  },
+  "359": {
+   "n": 359,
+   "title": "Logger Rate Limiter",
+   "slug": "logger-rate-limiter",
+   "diff": "Easy",
+   "section": "Plan",
+   "top150": false
+  },
+  "1236": {
+   "n": 1236,
+   "title": "Web Crawler",
+   "slug": "web-crawler",
+   "diff": "Medium",
+   "section": "Plan",
+   "top150": false
+  },
+  "2408": {
+   "n": 2408,
+   "title": "Design SQL",
+   "slug": "design-sql",
+   "diff": "Medium",
+   "section": "Plan",
+   "top150": false
+  },
+  "973": {
+   "n": 973,
+   "title": "K Closest Points to Origin",
+   "slug": "k-closest-points-to-origin",
+   "diff": "Medium",
+   "section": "Plan",
+   "top150": false
+  }
+ }
+}

@@ -1,4 +1,4 @@
-# 金融转 Applied AI：工作日八小时学习计划
+# 金融转 Applied AI：工作日八个半小时学习计划
 
 <!-- quantvault-intro -->
 
@@ -17,9 +17,9 @@
 
 623题均已附英文 Interview Answer、Explanation 和 Follow-up。答案位于当天原题下方；HTML先展开口述稿，再按需展开详解、追问与参考代码。未确认的个人经历与指标仍需按真实情况补充；条件不完整的原题保留说明，不虚构题目。每日学习时长不变。
 
-2026 年 10 月 5 日至 11 月 27 日为八周主计划；11 月 30 日至 12 月 4 日为工作日缓冲期。时区：America/New_York。
+2026 年 11 月 9 日至 2027 年 1 月 1 日为八周主计划；2027 年 1 月 4 日至 1 月 8 日为工作日缓冲期。感恩节 11/26–11/27、圣诞节 12/25 和元旦 1/1 都按工作日安排，需要休息时把当天内容顺延。时区：America/New_York。
 
-周一至周五每天学习 8 小时，午休不计入；周六、周日休息，不安排网课或其他学习。主计划 40 天、320 小时；使用完整缓冲期则共 45 天、360 小时。不加入找岗位、投递或简历修改任务。
+周一至周五每天学习 8.5 小时，午休不计入；周六、周日休息，不安排网课或其他学习。主计划 40 天、340 小时；使用完整缓冲期则共 45 天、382.5 小时。不加入找岗位、投递或简历修改任务。
 
 ## 项目计划更新
 
@@ -29,11 +29,11 @@
 
 ## 每日学习方法
 
-配套 [学习执行指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md) / [HTML版](AI_ENGINEER_DAILY_LEARNING_GUIDE.html) 展开每天的ML、System Design、Project练习与结果。
+配套 [学习执行指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md) / [HTML版](../AI_ENGINEER_DAILY_LEARNING_GUIDE.html) 展开每天的ML、System Design、Project练习与结果。
 
 ## Topic 资料与日期索引
 
-[打开可搜索的 Topic Library](Study%20topics/index.html)。每页列出首次学习日和明确复习日；同一天的资料是对应时段的候选入口，不要求另外逐页阅读。
+[打开可搜索的 Topic Library](../Study%20topics/index.html)。每页列出首次学习日和明确复习日；同一天的资料是对应时段的候选入口，不要求另外逐页阅读。
 
 ## Topic 总览
 
@@ -41,54 +41,54 @@
 
 ### Python 与编码
 
-[Hash Maps](Study%20topics/hash-maps.html)（[Day 01](#day-01)）; [Arrays and Strings](Study%20topics/arrays-and-strings.html)（[Day 03](#day-03)）; [Two Pointers](Study%20topics/two-pointers.html)（[Day 03](#day-03)）; [Sorting](Study%20topics/sorting.html)（[Day 05](#day-05)）; [Binary Search](Study%20topics/binary-search.html)（[Day 05](#day-05)）; [Sliding Window](Study%20topics/sliding-window.html)（[Day 08](#day-08)）; [Prefix Sums](Study%20topics/prefix-sums.html)（[Day 08](#day-08)）; [Stacks](Study%20topics/stacks.html)（[Day 10](#day-10)）; [Queues](Study%20topics/queues.html)（[Day 10](#day-10)）; [Heaps](Study%20topics/heaps.html)（[Day 11](#day-11)）; [Linked Lists](Study%20topics/linked-lists.html)（[Day 13](#day-13)）; [LRU Cache](Study%20topics/lru-cache.html)（[Day 13](#day-13)）; [Trees](Study%20topics/trees.html)（[Day 16](#day-16)）; [Recursion](Study%20topics/recursion.html)（[Day 16](#day-16)）; [BFS](Study%20topics/bfs.html)（[Day 15](#day-15)）; [DFS](Study%20topics/dfs.html)（[Day 15](#day-15)）; [Complexity Analysis](Study%20topics/complexity-analysis.html)（[Day 05](#day-05)）; [Key-Value Store](Study%20topics/key-value-store.html)（[Day 18](#day-18)）; [TTL](Study%20topics/ttl.html)（[Day 18](#day-18)）; [API Clients](Study%20topics/api-clients.html)（[Day 21](#day-21)）; [Rate Limiter](Study%20topics/rate-limiter.html)（[Day 25](#day-25)）; [Crawler](Study%20topics/crawler.html)（[Day 26](#day-26)）; [Async](Study%20topics/async.html)（[Day 23](#day-23)）; [Concurrency](Study%20topics/concurrency.html)（[Day 23](#day-23)）; [Parallelism](Study%20topics/parallelism.html)（[Day 23](#day-23)）; [GIL](Study%20topics/gil.html)（[Day 23](#day-23)）; [Race Conditions](Study%20topics/race-conditions.html)（[Day 23](#day-23)）; [Vectorization](Study%20topics/vectorization.html)（[Day 28](#day-28)）; [Profiling](Study%20topics/profiling.html)（[Day 28](#day-28)）; [Debugging](Study%20topics/debugging.html)（[Day 20](#day-20)）; [Refactoring](Study%20topics/refactoring.html)（[Day 20](#day-20)）; [Code Review](Study%20topics/code-review.html)（[Day 20](#day-20)）; [NumPy Logistic Regression](Study%20topics/numpy-logistic-regression.html)（[Day 35](#day-35)）.
+[Hash Maps](../Study%20topics/hash-maps.html)（[Day 01](#day-01)）; [Arrays and Strings](../Study%20topics/arrays-and-strings.html)（[Day 03](#day-03)）; [Two Pointers](../Study%20topics/two-pointers.html)（[Day 03](#day-03)）; [Sorting](../Study%20topics/sorting.html)（[Day 05](#day-05)）; [Binary Search](../Study%20topics/binary-search.html)（[Day 05](#day-05)）; [Sliding Window](../Study%20topics/sliding-window.html)（[Day 08](#day-08)）; [Prefix Sums](../Study%20topics/prefix-sums.html)（[Day 08](#day-08)）; [Stacks](../Study%20topics/stacks.html)（[Day 10](#day-10)）; [Queues](../Study%20topics/queues.html)（[Day 10](#day-10)）; [Heaps](../Study%20topics/heaps.html)（[Day 11](#day-11)）; [Linked Lists](../Study%20topics/linked-lists.html)（[Day 13](#day-13)）; [LRU Cache](../Study%20topics/lru-cache.html)（[Day 13](#day-13)）; [Trees](../Study%20topics/trees.html)（[Day 16](#day-16)）; [Recursion](../Study%20topics/recursion.html)（[Day 16](#day-16)）; [BFS](../Study%20topics/bfs.html)（[Day 15](#day-15)）; [DFS](../Study%20topics/dfs.html)（[Day 15](#day-15)）; [Complexity Analysis](../Study%20topics/complexity-analysis.html)（[Day 05](#day-05)）; [Key-Value Store](../Study%20topics/key-value-store.html)（[Day 18](#day-18)）; [TTL](../Study%20topics/ttl.html)（[Day 18](#day-18)）; [API Clients](../Study%20topics/api-clients.html)（[Day 21](#day-21)）; [Rate Limiter](../Study%20topics/rate-limiter.html)（[Day 25](#day-25)）; [Crawler](../Study%20topics/crawler.html)（[Day 26](#day-26)）; [Async](../Study%20topics/async.html)（[Day 23](#day-23)）; [Concurrency](../Study%20topics/concurrency.html)（[Day 23](#day-23)）; [Parallelism](../Study%20topics/parallelism.html)（[Day 23](#day-23)）; [GIL](../Study%20topics/gil.html)（[Day 23](#day-23)）; [Race Conditions](../Study%20topics/race-conditions.html)（[Day 23](#day-23)）; [Vectorization](../Study%20topics/vectorization.html)（[Day 28](#day-28)）; [Profiling](../Study%20topics/profiling.html)（[Day 28](#day-28)）; [Debugging](../Study%20topics/debugging.html)（[Day 20](#day-20)）; [Refactoring](../Study%20topics/refactoring.html)（[Day 20](#day-20)）; [Code Review](../Study%20topics/code-review.html)（[Day 20](#day-20)）; [NumPy Logistic Regression](../Study%20topics/numpy-logistic-regression.html)（[Day 35](#day-35)）.
 
 ### SQL 与数据库
 
-[SELECT](Study%20topics/select.html)（[Day 02](#day-02)）; [WHERE](Study%20topics/where.html)（[Day 02](#day-02)）; [ORDER BY](Study%20topics/order-by.html)（[Day 02](#day-02)）; [LIMIT](Study%20topics/limit.html)（[Day 02](#day-02)）; [NULL](Study%20topics/null.html)（[Day 02](#day-02)）; [GROUP BY](Study%20topics/group-by.html)（[Day 04](#day-04)）; [HAVING](Study%20topics/having.html)（[Day 04](#day-04)）; [CASE](Study%20topics/case.html)（[Day 04](#day-04)）; [JOINs](Study%20topics/joins.html)（[Day 07](#day-07)）; [Subqueries](Study%20topics/subqueries.html)（[Day 09](#day-09)）; [CTEs](Study%20topics/ctes.html)（[Day 09](#day-09)）; [EXISTS](Study%20topics/exists.html)（[Day 09](#day-09)）; [Window Functions](Study%20topics/window-functions.html)（[Day 12](#day-12)）; [ROW_NUMBER](Study%20topics/row-number.html)（[Day 12](#day-12)）; [RANK](Study%20topics/rank.html)（[Day 12](#day-12)）; [DENSE_RANK](Study%20topics/dense-rank.html)（[Day 12](#day-12)）; [LAG](Study%20topics/lag.html)（[Day 14](#day-14)）; [LEAD](Study%20topics/lead.html)（[Day 14](#day-14)）; [Rolling Aggregations](Study%20topics/rolling-aggregations.html)（[Day 14](#day-14)）; [Date Queries](Study%20topics/date-queries.html)（[Day 17](#day-17)）; [Transactions](Study%20topics/transactions.html)（[Day 19](#day-19)）; [Constraints](Study%20topics/constraints.html)（[Day 19](#day-19)）; [Parameterized Queries](Study%20topics/parameterized-queries.html)（[Day 19](#day-19)）; [PostgreSQL Schema Design](Study%20topics/postgresql-schema-design.html)（[Day 22](#day-22)）; [Primary and Foreign Keys](Study%20topics/primary-and-foreign-keys.html)（[Day 22](#day-22)）; [Indexes](Study%20topics/indexes.html)（[Day 24](#day-24)）; [EXPLAIN](Study%20topics/explain.html)（[Day 24](#day-24)）; [Query Optimization](Study%20topics/query-optimization.html)（[Day 24](#day-24)）; [Run Analytics](Study%20topics/run-analytics.html)（[Day 27](#day-27)）; [Percentiles](Study%20topics/percentiles.html)（[Day 27](#day-27)）; [Financial Analytics](Study%20topics/financial-analytics.html)（[Day 34](#day-34)）.
+[SELECT](../Study%20topics/select.html)（[Day 02](#day-02)）; [WHERE](../Study%20topics/where.html)（[Day 02](#day-02)）; [ORDER BY](../Study%20topics/order-by.html)（[Day 02](#day-02)）; [LIMIT](../Study%20topics/limit.html)（[Day 02](#day-02)）; [NULL](../Study%20topics/null.html)（[Day 02](#day-02)）; [GROUP BY](../Study%20topics/group-by.html)（[Day 04](#day-04)）; [HAVING](../Study%20topics/having.html)（[Day 04](#day-04)）; [CASE](../Study%20topics/case.html)（[Day 04](#day-04)）; [JOINs](../Study%20topics/joins.html)（[Day 07](#day-07)）; [Subqueries](../Study%20topics/subqueries.html)（[Day 09](#day-09)）; [CTEs](../Study%20topics/ctes.html)（[Day 09](#day-09)）; [EXISTS](../Study%20topics/exists.html)（[Day 09](#day-09)）; [Window Functions](../Study%20topics/window-functions.html)（[Day 12](#day-12)）; [ROW_NUMBER](../Study%20topics/row-number.html)（[Day 12](#day-12)）; [RANK](../Study%20topics/rank.html)（[Day 12](#day-12)）; [DENSE_RANK](../Study%20topics/dense-rank.html)（[Day 12](#day-12)）; [LAG](../Study%20topics/lag.html)（[Day 14](#day-14)）; [LEAD](../Study%20topics/lead.html)（[Day 14](#day-14)）; [Rolling Aggregations](../Study%20topics/rolling-aggregations.html)（[Day 14](#day-14)）; [Date Queries](../Study%20topics/date-queries.html)（[Day 17](#day-17)）; [Transactions](../Study%20topics/transactions.html)（[Day 19](#day-19)）; [Constraints](../Study%20topics/constraints.html)（[Day 19](#day-19)）; [Parameterized Queries](../Study%20topics/parameterized-queries.html)（[Day 19](#day-19)）; [PostgreSQL Schema Design](../Study%20topics/postgresql-schema-design.html)（[Day 22](#day-22)）; [Primary and Foreign Keys](../Study%20topics/primary-and-foreign-keys.html)（[Day 22](#day-22)）; [Indexes](../Study%20topics/indexes.html)（[Day 24](#day-24)）; [EXPLAIN](../Study%20topics/explain.html)（[Day 24](#day-24)）; [Query Optimization](../Study%20topics/query-optimization.html)（[Day 24](#day-24)）; [Run Analytics](../Study%20topics/run-analytics.html)（[Day 27](#day-27)）; [Percentiles](../Study%20topics/percentiles.html)（[Day 27](#day-27)）; [Financial Analytics](../Study%20topics/financial-analytics.html)（[Day 34](#day-34)）.
 
 ### ML 与金融验证
 
-[Supervised and Unsupervised Learning](Study%20topics/supervised-and-unsupervised-learning.html)（[Day 02](#day-02)）; [Train / Validation / Test Split](Study%20topics/train-validation-test-split.html)（[Day 01](#day-01)）; [Data Leakage](Study%20topics/data-leakage.html)（[Day 03](#day-03)）; [Bias-Variance](Study%20topics/bias-variance.html)（[Day 05](#day-05)）; [Overfitting](Study%20topics/overfitting.html)（[Day 05](#day-05)）; [Regularization](Study%20topics/regularization.html)（[Day 05](#day-05)）; [Scaling](Study%20topics/scaling.html)（[Day 03](#day-03)）; [Linear Regression](Study%20topics/linear-regression.html)（[Day 05](#day-05)）; [Logistic Regression](Study%20topics/logistic-regression.html)（[Day 07](#day-07)）; [Decision Trees](Study%20topics/decision-trees.html)（[Day 11](#day-11)）; [Random Forests](Study%20topics/random-forests.html)（[Day 11](#day-11)）; [Gradient Boosting](Study%20topics/gradient-boosting.html)（[Day 11](#day-11)）; [scikit-learn Pipelines](Study%20topics/scikit-learn-pipelines.html)（[Day 03](#day-03)）; [Cross-Validation](Study%20topics/cross-validation.html)（[Day 17](#day-17)）; [Hyperparameter Tuning](Study%20topics/hyperparameter-tuning.html)（[Day 17](#day-17)）; [Feature Engineering](Study%20topics/feature-engineering.html)（[Day 19](#day-19)）; [Class Imbalance](Study%20topics/class-imbalance.html)（[Day 07](#day-07)）; [MAE](Study%20topics/mae.html)（[Day 04](#day-04)）; [RMSE](Study%20topics/rmse.html)（[Day 04](#day-04)）; [Precision](Study%20topics/precision.html)（[Day 07](#day-07)）; [Recall](Study%20topics/recall.html)（[Day 07](#day-07)）; [F1](Study%20topics/f1.html)（[Day 07](#day-07)）; [PR-AUC](Study%20topics/pr-auc.html)（[Day 09](#day-09)）; [ROC-AUC](Study%20topics/roc-auc.html)（[Day 09](#day-09)）; [Calibration](Study%20topics/calibration.html)（[Day 09](#day-09)）; [Interpretability](Study%20topics/interpretability.html)（[Day 19](#day-19)）; [Feature Importance](Study%20topics/feature-importance.html)（[Day 19](#day-19)）; [Time-Series Splits](Study%20topics/time-series-splits.html)（[Day 21](#day-21)）; [Walk-Forward Validation](Study%20topics/walk-forward-validation.html)（[Day 21](#day-21)）; [Temporal Leakage](Study%20topics/temporal-leakage.html)（[Day 21](#day-21)）; [Forecast Horizons](Study%20topics/forecast-horizons.html)（[Day 21](#day-21)）; [Regime Changes](Study%20topics/regime-changes.html)（[Day 32](#day-32)）; [Volatility Forecasting](Study%20topics/volatility-forecasting.html)（[Day 25](#day-25)）; [Out-of-Sample Evaluation](Study%20topics/out-of-sample-evaluation.html)（[Day 25](#day-25)）; [Reproducibility](Study%20topics/reproducibility.html)（[Day 36](#day-36)）; [Statistical Uncertainty](Study%20topics/statistical-uncertainty.html)（[Day 32](#day-32)）; [Prediction Intervals](Study%20topics/prediction-intervals.html)（[Day 33](#day-33)）; [Drift](Study%20topics/drift.html)（[Day 42](#day-42)）; [Retraining](Study%20topics/retraining.html)（[Day 42](#day-42)）; [Model Versioning](Study%20topics/model-versioning.html)（[Day 36](#day-36)）; [Rollback](Study%20topics/rollback.html)（[Day 19](#day-19)）.
+[Supervised and Unsupervised Learning](../Study%20topics/supervised-and-unsupervised-learning.html)（[Day 02](#day-02)）; [Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html)（[Day 01](#day-01)）; [Data Leakage](../Study%20topics/data-leakage.html)（[Day 03](#day-03)）; [Bias-Variance](../Study%20topics/bias-variance.html)（[Day 05](#day-05)）; [Overfitting](../Study%20topics/overfitting.html)（[Day 05](#day-05)）; [Regularization](../Study%20topics/regularization.html)（[Day 05](#day-05)）; [Scaling](../Study%20topics/scaling.html)（[Day 03](#day-03)）; [Linear Regression](../Study%20topics/linear-regression.html)（[Day 05](#day-05)）; [Logistic Regression](../Study%20topics/logistic-regression.html)（[Day 07](#day-07)）; [Decision Trees](../Study%20topics/decision-trees.html)（[Day 11](#day-11)）; [Random Forests](../Study%20topics/random-forests.html)（[Day 11](#day-11)）; [Gradient Boosting](../Study%20topics/gradient-boosting.html)（[Day 11](#day-11)）; [scikit-learn Pipelines](../Study%20topics/scikit-learn-pipelines.html)（[Day 03](#day-03)）; [Cross-Validation](../Study%20topics/cross-validation.html)（[Day 17](#day-17)）; [Hyperparameter Tuning](../Study%20topics/hyperparameter-tuning.html)（[Day 17](#day-17)）; [Feature Engineering](../Study%20topics/feature-engineering.html)（[Day 19](#day-19)）; [Class Imbalance](../Study%20topics/class-imbalance.html)（[Day 07](#day-07)）; [MAE](../Study%20topics/mae.html)（[Day 04](#day-04)）; [RMSE](../Study%20topics/rmse.html)（[Day 04](#day-04)）; [Precision](../Study%20topics/precision.html)（[Day 07](#day-07)）; [Recall](../Study%20topics/recall.html)（[Day 07](#day-07)）; [F1](../Study%20topics/f1.html)（[Day 07](#day-07)）; [PR-AUC](../Study%20topics/pr-auc.html)（[Day 09](#day-09)）; [ROC-AUC](../Study%20topics/roc-auc.html)（[Day 09](#day-09)）; [Calibration](../Study%20topics/calibration.html)（[Day 09](#day-09)）; [Interpretability](../Study%20topics/interpretability.html)（[Day 19](#day-19)）; [Feature Importance](../Study%20topics/feature-importance.html)（[Day 19](#day-19)）; [Time-Series Splits](../Study%20topics/time-series-splits.html)（[Day 21](#day-21)）; [Walk-Forward Validation](../Study%20topics/walk-forward-validation.html)（[Day 21](#day-21)）; [Temporal Leakage](../Study%20topics/temporal-leakage.html)（[Day 21](#day-21)）; [Forecast Horizons](../Study%20topics/forecast-horizons.html)（[Day 21](#day-21)）; [Regime Changes](../Study%20topics/regime-changes.html)（[Day 32](#day-32)）; [Volatility Forecasting](../Study%20topics/volatility-forecasting.html)（[Day 25](#day-25)）; [Out-of-Sample Evaluation](../Study%20topics/out-of-sample-evaluation.html)（[Day 25](#day-25)）; [Reproducibility](../Study%20topics/reproducibility.html)（[Day 36](#day-36)）; [Statistical Uncertainty](../Study%20topics/statistical-uncertainty.html)（[Day 32](#day-32)）; [Prediction Intervals](../Study%20topics/prediction-intervals.html)（[Day 33](#day-33)）; [Drift](../Study%20topics/drift.html)（[Day 42](#day-42)）; [Retraining](../Study%20topics/retraining.html)（[Day 42](#day-42)）; [Model Versioning](../Study%20topics/model-versioning.html)（[Day 36](#day-36)）; [Rollback](../Study%20topics/rollback.html)（[Day 19](#day-19)）.
 
 ### LLM 基础与方案取舍
 
-[Tokenization](Study%20topics/tokenization.html)（[Day 01](#day-01)）; [Next-Token Prediction](Study%20topics/next-token-prediction.html)（[Day 01](#day-01)）; [Context Windows](Study%20topics/context-windows.html)（[Day 01](#day-01)）; [Temperature](Study%20topics/temperature.html)（[Day 01](#day-01)）; [Top-p](Study%20topics/top-p.html)（[Day 01](#day-01)）; [Transformer and Attention Fundamentals](Study%20topics/transformer-and-attention-fundamentals.html)（[Day 01](#day-01)）; [LLM Limitations](Study%20topics/llm-limitations.html)（[Day 01](#day-01)）; [Model Selection](Study%20topics/model-selection.html)（[Day 17](#day-17)）; [Prompt Engineering](Study%20topics/prompt-engineering.html)（[Day 02](#day-02)）; [Few-Shot Examples](Study%20topics/few-shot-examples.html)（[Day 02](#day-02)）; [Prompt Versioning](Study%20topics/prompt-versioning.html)（[Day 02](#day-02)）; [Structured Outputs](Study%20topics/structured-outputs.html)（[Day 03](#day-03)）; [Pydantic](Study%20topics/pydantic.html)（[Day 03](#day-03)）; [JSON Recovery](Study%20topics/json-recovery.html)（[Day 03](#day-03)）; [Prompting vs. RAG vs. Fine-Tuning](Study%20topics/prompting-vs-rag-vs-fine-tuning.html)（[Day 04](#day-04)）; [LoRA](Study%20topics/lora.html)（[Day 04](#day-04)）; [Quantization](Study%20topics/quantization.html)（[Day 04](#day-04)）.
+[Tokenization](../Study%20topics/tokenization.html)（[Day 01](#day-01)）; [Next-Token Prediction](../Study%20topics/next-token-prediction.html)（[Day 01](#day-01)）; [Context Windows](../Study%20topics/context-windows.html)（[Day 01](#day-01)）; [Temperature](../Study%20topics/temperature.html)（[Day 01](#day-01)）; [Top-p](../Study%20topics/top-p.html)（[Day 01](#day-01)）; [Transformer and Attention Fundamentals](../Study%20topics/transformer-and-attention-fundamentals.html)（[Day 01](#day-01)）; [LLM Limitations](../Study%20topics/llm-limitations.html)（[Day 01](#day-01)）; [Model Selection](../Study%20topics/model-selection.html)（[Day 17](#day-17)）; [Prompt Engineering](../Study%20topics/prompt-engineering.html)（[Day 02](#day-02)）; [Few-Shot Examples](../Study%20topics/few-shot-examples.html)（[Day 02](#day-02)）; [Prompt Versioning](../Study%20topics/prompt-versioning.html)（[Day 02](#day-02)）; [Structured Outputs](../Study%20topics/structured-outputs.html)（[Day 03](#day-03)）; [Pydantic](../Study%20topics/pydantic.html)（[Day 03](#day-03)）; [JSON Recovery](../Study%20topics/json-recovery.html)（[Day 03](#day-03)）; [Prompting vs. RAG vs. Fine-Tuning](../Study%20topics/prompting-vs-rag-vs-fine-tuning.html)（[Day 04](#day-04)）; [LoRA](../Study%20topics/lora.html)（[Day 04](#day-04)）; [Quantization](../Study%20topics/quantization.html)（[Day 04](#day-04)）.
 
 ### RAG、Agents 与评估
 
-[Embeddings](Study%20topics/embeddings.html)（[Day 05](#day-05)）; [Vector Similarity](Study%20topics/vector-similarity.html)（[Day 05](#day-05)）; [Chunking](Study%20topics/chunking.html)（[Day 06](#day-06)）; [Metadata](Study%20topics/metadata.html)（[Day 06](#day-06)）; [Context Budgets](Study%20topics/context-budgets.html)（[Day 06](#day-06)）; [Keyword / Vector / Hybrid Search](Study%20topics/keyword-vector-hybrid-search.html)（[Day 07](#day-07)）; [MMR](Study%20topics/mmr.html)（[Day 08](#day-08)）; [Reranking](Study%20topics/reranking.html)（[Day 08](#day-08)）; [Query Reformulation](Study%20topics/query-reformulation.html)（[Day 08](#day-08)）; [Citations](Study%20topics/citations.html)（[Day 11](#day-11)）; [Golden Datasets](Study%20topics/golden-datasets.html)（[Day 04](#day-04)）; [Hard Negatives](Study%20topics/hard-negatives.html)（[Day 04](#day-04)）; [Held-Out Evaluation](Study%20topics/held-out-evaluation.html)（[Day 08](#day-08)）; [Recall@k](Study%20topics/recall-k.html)（[Day 05](#day-05)）; [Precision@k](Study%20topics/precision-k.html)（[Day 05](#day-05)）; [MRR](Study%20topics/mrr.html)（[Day 05](#day-05)）; [nDCG](Study%20topics/ndcg.html)（[Day 05](#day-05)）; [Redundancy](Study%20topics/redundancy.html)（[Day 08](#day-08)）; [Groundedness](Study%20topics/groundedness.html)（[Day 11](#day-11)）; [Hallucination](Study%20topics/hallucination.html)（[Day 11](#day-11)）; [LLM-as-Judge](Study%20topics/llm-as-judge.html)（[Day 11](#day-11)）; [Human Calibration](Study%20topics/human-calibration.html)（[Day 11](#day-11)）; [Judge Bias](Study%20topics/judge-bias.html)（[Day 11](#day-11)）; [Offline / Regression Evals](Study%20topics/offline-regression-evals.html)（[Day 15](#day-15)）; [Online Feedback](Study%20topics/online-feedback.html)（[Day 34](#day-34)）; [Agents vs. Workflows](Study%20topics/agents-vs-workflows.html)（[Day 09](#day-09)）; [Function Calling](Study%20topics/function-calling.html)（[Day 09](#day-09)）; [Tool Schemas](Study%20topics/tool-schemas.html)（[Day 09](#day-09)）; [Tool Selection Evaluation](Study%20topics/tool-selection-evaluation.html)（[Day 37](#day-37)）; [Agent State](Study%20topics/agent-state.html)（[Day 10](#day-10)）; [Memory](Study%20topics/memory.html)（[Day 27](#day-27)）; [LangGraph](Study%20topics/langgraph.html)（[Day 10](#day-10)）; [Termination Conditions](Study%20topics/termination-conditions.html)（[Day 09](#day-09)）; [MCP Fundamentals](Study%20topics/mcp-fundamentals.html)（[Day 28](#day-28)）.
+[Embeddings](../Study%20topics/embeddings.html)（[Day 05](#day-05)）; [Vector Similarity](../Study%20topics/vector-similarity.html)（[Day 05](#day-05)）; [Chunking](../Study%20topics/chunking.html)（[Day 06](#day-06)）; [Metadata](../Study%20topics/metadata.html)（[Day 06](#day-06)）; [Context Budgets](../Study%20topics/context-budgets.html)（[Day 06](#day-06)）; [Keyword / Vector / Hybrid Search](../Study%20topics/keyword-vector-hybrid-search.html)（[Day 07](#day-07)）; [MMR](../Study%20topics/mmr.html)（[Day 08](#day-08)）; [Reranking](../Study%20topics/reranking.html)（[Day 08](#day-08)）; [Query Reformulation](../Study%20topics/query-reformulation.html)（[Day 08](#day-08)）; [Citations](../Study%20topics/citations.html)（[Day 11](#day-11)）; [Golden Datasets](../Study%20topics/golden-datasets.html)（[Day 04](#day-04)）; [Hard Negatives](../Study%20topics/hard-negatives.html)（[Day 04](#day-04)）; [Held-Out Evaluation](../Study%20topics/held-out-evaluation.html)（[Day 08](#day-08)）; [Recall@k](../Study%20topics/recall-k.html)（[Day 05](#day-05)）; [Precision@k](../Study%20topics/precision-k.html)（[Day 05](#day-05)）; [MRR](../Study%20topics/mrr.html)（[Day 05](#day-05)）; [nDCG](../Study%20topics/ndcg.html)（[Day 05](#day-05)）; [Redundancy](../Study%20topics/redundancy.html)（[Day 08](#day-08)）; [Groundedness](../Study%20topics/groundedness.html)（[Day 11](#day-11)）; [Hallucination](../Study%20topics/hallucination.html)（[Day 11](#day-11)）; [LLM-as-Judge](../Study%20topics/llm-as-judge.html)（[Day 11](#day-11)）; [Human Calibration](../Study%20topics/human-calibration.html)（[Day 11](#day-11)）; [Judge Bias](../Study%20topics/judge-bias.html)（[Day 11](#day-11)）; [Offline / Regression Evals](../Study%20topics/offline-regression-evals.html)（[Day 15](#day-15)）; [Online Feedback](../Study%20topics/online-feedback.html)（[Day 34](#day-34)）; [Agents vs. Workflows](../Study%20topics/agents-vs-workflows.html)（[Day 09](#day-09)）; [Function Calling](../Study%20topics/function-calling.html)（[Day 09](#day-09)）; [Tool Schemas](../Study%20topics/tool-schemas.html)（[Day 09](#day-09)）; [Tool Selection Evaluation](../Study%20topics/tool-selection-evaluation.html)（[Day 37](#day-37)）; [Agent State](../Study%20topics/agent-state.html)（[Day 10](#day-10)）; [Memory](../Study%20topics/memory.html)（[Day 27](#day-27)）; [LangGraph](../Study%20topics/langgraph.html)（[Day 10](#day-10)）; [Termination Conditions](../Study%20topics/termination-conditions.html)（[Day 09](#day-09)）; [MCP Fundamentals](../Study%20topics/mcp-fundamentals.html)（[Day 28](#day-28)）.
 
 ### 服务工程、成本与安全
 
-[REST APIs](Study%20topics/rest-apis.html)（[Day 12](#day-12)）; [FastAPI](Study%20topics/fastapi.html)（[Day 12](#day-12)）; [API Tests](Study%20topics/api-tests.html)（[Day 12](#day-12)）; [Queues](Study%20topics/queues.html)（[Day 10](#day-10)）; [Workers](Study%20topics/workers.html)（[Day 34](#day-34)）; [Idempotency](Study%20topics/idempotency.html)（[Day 11](#day-11)）; [Timeouts](Study%20topics/timeouts.html)（[Day 09](#day-09)）; [Backoff](Study%20topics/backoff.html)（[Day 09](#day-09)）; [Rate Limiting](Study%20topics/rate-limiting.html)（[Day 09](#day-09)）; [Backpressure](Study%20topics/backpressure.html)（[Day 34](#day-34)）; [Docker](Study%20topics/docker.html)（[Day 16](#day-16)）; [CI/CD](Study%20topics/ci-cd.html)（[Day 15](#day-15)）; [Cloud Fundamentals](Study%20topics/cloud-fundamentals.html)（[Day 17](#day-17)）; [IAM](Study%20topics/iam.html)（[Day 17](#day-17)）; [Networking](Study%20topics/networking.html)（[Day 17](#day-17)）; [Capacity Planning](Study%20topics/capacity-planning.html)（[Day 09](#day-09)）; [Load Testing](Study%20topics/load-testing.html)（[Day 13](#day-13)）; [Logs](Study%20topics/logs.html)（[Day 13](#day-13)）; [Traces](Study%20topics/traces.html)（[Day 13](#day-13)）; [p50 / p95](Study%20topics/p50-p95.html)（[Day 13](#day-13)）; [TTFT](Study%20topics/ttft.html)（[Day 13](#day-13)）; [Streaming](Study%20topics/streaming.html)（[Day 35](#day-35)）; [Token Usage](Study%20topics/token-usage.html)（[Day 35](#day-35)）; [Caching](Study%20topics/caching.html)（[Day 05](#day-05)）; [Semantic Caching](Study%20topics/semantic-caching.html)（[Day 35](#day-35)）; [Freshness](Study%20topics/freshness.html)（[Day 05](#day-05)）; [Model Routing](Study%20topics/model-routing.html)（[Day 35](#day-35)）; [Cost-Quality Trade-offs](Study%20topics/cost-quality-trade-offs.html)（[Day 35](#day-35)）; [Human-in-the-Loop](Study%20topics/human-in-the-loop.html)（[Day 10](#day-10)）; [Approval Audit Trail](Study%20topics/approval-audit-trail.html)（[Day 10](#day-10)）; [Prompt Injection](Study%20topics/prompt-injection.html)（[Day 37](#day-37)）; [Tool Sandboxing](Study%20topics/tool-sandboxing.html)（[Day 37](#day-37)）; [PII](Study%20topics/pii.html)（[Day 37](#day-37)）; [Access Control](Study%20topics/access-control.html)（[Day 21](#day-21)）; [Tenant Isolation](Study%20topics/tenant-isolation.html)（[Day 37](#day-37)）; [Secrets](Study%20topics/secrets.html)（[Day 17](#day-17)）; [Fail-Open vs. Fail-Closed](Study%20topics/fail-open-vs-fail-closed.html)（[Day 09](#day-09)）; [Graceful Degradation](Study%20topics/graceful-degradation.html)（[Day 35](#day-35)）.
+[REST APIs](../Study%20topics/rest-apis.html)（[Day 12](#day-12)）; [FastAPI](../Study%20topics/fastapi.html)（[Day 12](#day-12)）; [API Tests](../Study%20topics/api-tests.html)（[Day 12](#day-12)）; [Queues](../Study%20topics/queues.html)（[Day 10](#day-10)）; [Workers](../Study%20topics/workers.html)（[Day 34](#day-34)）; [Idempotency](../Study%20topics/idempotency.html)（[Day 11](#day-11)）; [Timeouts](../Study%20topics/timeouts.html)（[Day 09](#day-09)）; [Backoff](../Study%20topics/backoff.html)（[Day 09](#day-09)）; [Rate Limiting](../Study%20topics/rate-limiting.html)（[Day 09](#day-09)）; [Backpressure](../Study%20topics/backpressure.html)（[Day 34](#day-34)）; [Docker](../Study%20topics/docker.html)（[Day 16](#day-16)）; [CI/CD](../Study%20topics/ci-cd.html)（[Day 15](#day-15)）; [Cloud Fundamentals](../Study%20topics/cloud-fundamentals.html)（[Day 17](#day-17)）; [IAM](../Study%20topics/iam.html)（[Day 17](#day-17)）; [Networking](../Study%20topics/networking.html)（[Day 17](#day-17)）; [Capacity Planning](../Study%20topics/capacity-planning.html)（[Day 09](#day-09)）; [Load Testing](../Study%20topics/load-testing.html)（[Day 13](#day-13)）; [Logs](../Study%20topics/logs.html)（[Day 13](#day-13)）; [Traces](../Study%20topics/traces.html)（[Day 13](#day-13)）; [p50 / p95](../Study%20topics/p50-p95.html)（[Day 13](#day-13)）; [TTFT](../Study%20topics/ttft.html)（[Day 13](#day-13)）; [Streaming](../Study%20topics/streaming.html)（[Day 35](#day-35)）; [Token Usage](../Study%20topics/token-usage.html)（[Day 35](#day-35)）; [Caching](../Study%20topics/caching.html)（[Day 05](#day-05)）; [Semantic Caching](../Study%20topics/semantic-caching.html)（[Day 35](#day-35)）; [Freshness](../Study%20topics/freshness.html)（[Day 05](#day-05)）; [Model Routing](../Study%20topics/model-routing.html)（[Day 35](#day-35)）; [Cost-Quality Trade-offs](../Study%20topics/cost-quality-trade-offs.html)（[Day 35](#day-35)）; [Human-in-the-Loop](../Study%20topics/human-in-the-loop.html)（[Day 10](#day-10)）; [Approval Audit Trail](../Study%20topics/approval-audit-trail.html)（[Day 10](#day-10)）; [Prompt Injection](../Study%20topics/prompt-injection.html)（[Day 37](#day-37)）; [Tool Sandboxing](../Study%20topics/tool-sandboxing.html)（[Day 37](#day-37)）; [PII](../Study%20topics/pii.html)（[Day 37](#day-37)）; [Access Control](../Study%20topics/access-control.html)（[Day 21](#day-21)）; [Tenant Isolation](../Study%20topics/tenant-isolation.html)（[Day 37](#day-37)）; [Secrets](../Study%20topics/secrets.html)（[Day 17](#day-17)）; [Fail-Open vs. Fail-Closed](../Study%20topics/fail-open-vs-fail-closed.html)（[Day 09](#day-09)）; [Graceful Degradation](../Study%20topics/graceful-degradation.html)（[Day 35](#day-35)）.
 
 ### 项目与面试表达
 
-[Risk Copilot](Study%20topics/risk-copilot.html)（[Day 01](#day-01)）; [Financial Statement Analytics Assistant](Study%20topics/financial-statement-analytics-assistant.html)（[Day 21](#day-21)）; [Investment Research Workbench](Study%20topics/investment-research-workbench.html)（[Day 31](#day-31)）; [Snowflake](Study%20topics/snowflake.html)（[Day 21](#day-21)）; [SQL](Study%20topics/sql.html)（[Day 02](#day-02)）; [Text-to-SQL Evaluation](Study%20topics/text-to-sql-evaluation.html)（[Day 28](#day-28)）; [SEC Financial Data](Study%20topics/sec-financial-data.html)（[Day 22](#day-22)）; [Data Quality](Study%20topics/data-quality.html)（[Day 23](#day-23)）; [Point-in-Time Data](Study%20topics/point-in-time-data.html)（[Day 24](#day-24)）; [Experiment Tracking](Study%20topics/experiment-tracking.html)（[Day 31](#day-31)）; [Queues and Workers](Study%20topics/queues-and-workers.html)（[Day 34](#day-34)）; [Idempotency](Study%20topics/idempotency.html)（[Day 11](#day-11)）; [Retries](Study%20topics/retries.html)（[Day 09](#day-09)）; [Failure Recovery](Study%20topics/failure-recovery.html)（[Day 35](#day-35)）; [Latency Benchmarking](Study%20topics/latency-benchmarking.html)（[Day 13](#day-13)）; [AWS ECS Fargate](Study%20topics/aws-ecs-fargate.html)（[Day 17](#day-17)）; [ECR](Study%20topics/ecr.html)（[Day 17](#day-17)）; [CloudWatch](Study%20topics/cloudwatch.html)（[Day 17](#day-17)）; [IAM](Study%20topics/iam.html)（[Day 17](#day-17)）; [GitHub Actions](Study%20topics/github-actions.html)（[Day 15](#day-15)）; [CI/CD](Study%20topics/ci-cd.html)（[Day 15](#day-15)）; [OIDC](Study%20topics/oidc.html)（[Day 19](#day-19)）; [Rollback](Study%20topics/rollback.html)（[Day 19](#day-19)）; [Clean-Environment Reproduction](Study%20topics/clean-environment-reproduction.html)（[Day 20](#day-20)）; [README](Study%20topics/readme.html)（[Day 20](#day-20)）; [Demo](Study%20topics/demo.html)（[Day 20](#day-20)）; [Ownership](Study%20topics/ownership.html)（[Day 39](#day-39)）; [AI-Assisted Code Review](Study%20topics/ai-assisted-code-review.html)（[Day 20](#day-20)）; [Design Trade-offs](Study%20topics/design-trade-offs.html)（[Day 39](#day-39)）.
+[Risk Copilot](../Study%20topics/risk-copilot.html)（[Day 01](#day-01)）; [Financial Statement Analytics Assistant](../Study%20topics/financial-statement-analytics-assistant.html)（[Day 21](#day-21)）; [Investment Research Workbench](../Study%20topics/investment-research-workbench.html)（[Day 31](#day-31)）; [Snowflake](../Study%20topics/snowflake.html)（[Day 21](#day-21)）; [SQL](../Study%20topics/sql.html)（[Day 02](#day-02)）; [Text-to-SQL Evaluation](../Study%20topics/text-to-sql-evaluation.html)（[Day 28](#day-28)）; [SEC Financial Data](../Study%20topics/sec-financial-data.html)（[Day 22](#day-22)）; [Data Quality](../Study%20topics/data-quality.html)（[Day 23](#day-23)）; [Point-in-Time Data](../Study%20topics/point-in-time-data.html)（[Day 24](#day-24)）; [Experiment Tracking](../Study%20topics/experiment-tracking.html)（[Day 31](#day-31)）; [Queues and Workers](../Study%20topics/queues-and-workers.html)（[Day 34](#day-34)）; [Idempotency](../Study%20topics/idempotency.html)（[Day 11](#day-11)）; [Retries](../Study%20topics/retries.html)（[Day 09](#day-09)）; [Failure Recovery](../Study%20topics/failure-recovery.html)（[Day 35](#day-35)）; [Latency Benchmarking](../Study%20topics/latency-benchmarking.html)（[Day 13](#day-13)）; [AWS ECS Fargate](../Study%20topics/aws-ecs-fargate.html)（[Day 17](#day-17)）; [ECR](../Study%20topics/ecr.html)（[Day 17](#day-17)）; [CloudWatch](../Study%20topics/cloudwatch.html)（[Day 17](#day-17)）; [IAM](../Study%20topics/iam.html)（[Day 17](#day-17)）; [GitHub Actions](../Study%20topics/github-actions.html)（[Day 15](#day-15)）; [CI/CD](../Study%20topics/ci-cd.html)（[Day 15](#day-15)）; [OIDC](../Study%20topics/oidc.html)（[Day 19](#day-19)）; [Rollback](../Study%20topics/rollback.html)（[Day 19](#day-19)）; [Clean-Environment Reproduction](../Study%20topics/clean-environment-reproduction.html)（[Day 20](#day-20)）; [README](../Study%20topics/readme.html)（[Day 20](#day-20)）; [Demo](../Study%20topics/demo.html)（[Day 20](#day-20)）; [Ownership](../Study%20topics/ownership.html)（[Day 39](#day-39)）; [AI-Assisted Code Review](../Study%20topics/ai-assisted-code-review.html)（[Day 20](#day-20)）; [Design Trade-offs](../Study%20topics/design-trade-offs.html)（[Day 39](#day-39)）.
 
 ### General & AI System Design
 
-- [Requirements and API Design](Study%20topics/requirements-and-api-design.html) · [Day 01](#day-01)
-- [Data Modeling and Indexes](Study%20topics/data-modeling-and-indexes.html) · [Day 03](#day-03)
-- [Cache and API Service](Study%20topics/cache-and-api-service.html) · [Day 05](#day-05)
-- [Queues and Job Scheduler](Study%20topics/queues-and-job-scheduler.html) · [Day 07](#day-07)
-- [Rate Limiting and Capacity](Study%20topics/rate-limiting-and-capacity.html) · [Day 09](#day-09)
-- [Retries, Idempotency and Consistency](Study%20topics/retries-idempotency-and-consistency.html) · [Day 11](#day-11)
-- [Latency and Observability](Study%20topics/latency-and-observability.html) · [Day 13](#day-13)
-- [CI/CD and AWS Deployment](Study%20topics/ci-cd-and-aws-deployment.html) · [Day 15](#day-15)
-- [Financial Research RAG](Study%20topics/financial-research-rag.html) · [Day 17](#day-17)
-- [RAG Evaluation and Retrieval Trade-offs](Study%20topics/rag-evaluation-and-retrieval-trade-offs.html) · [Day 19](#day-19)
-- [Financial Text-to-SQL](Study%20topics/financial-text-to-sql.html) · [Day 21](#day-21)
-- [Text-to-SQL Evaluation and Data Quality](Study%20topics/text-to-sql-evaluation-and-data-quality.html) · [Day 23](#day-23)
-- [Agents with Human Approval](Study%20topics/agents-with-human-approval.html) · [Day 25](#day-25)
-- [Agent Memory and Tool Contracts](Study%20topics/agent-memory-and-tool-contracts.html) · [Day 27](#day-27)
-- [AI-Assisted Experiment Platform](Study%20topics/ai-assisted-experiment-platform.html) · [Day 29](#day-29)
-- [Volatility Forecasting Service](Study%20topics/volatility-forecasting-service.html) · [Day 31](#day-31)
-- [Evaluation and Regression Pipeline](Study%20topics/evaluation-and-regression-pipeline.html) · [Day 33](#day-33)
-- [AI Latency and Cost Budget](Study%20topics/ai-latency-and-cost-budget.html) · [Day 35](#day-35)
-- [AI Security and Reliability](Study%20topics/ai-security-and-reliability.html) · [Day 37](#day-37)
-- [Transfer Mock: Contract Review Assistant](Study%20topics/transfer-mock-contract-review-assistant.html) · [Day 39](#day-39)
+- [Requirements and API Design](../Study%20topics/requirements-and-api-design.html) · [Day 01](#day-01)
+- [Data Modeling and Indexes](../Study%20topics/data-modeling-and-indexes.html) · [Day 03](#day-03)
+- [Cache and API Service](../Study%20topics/cache-and-api-service.html) · [Day 05](#day-05)
+- [Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html) · [Day 07](#day-07)
+- [Rate Limiting and Capacity](../Study%20topics/rate-limiting-and-capacity.html) · [Day 09](#day-09)
+- [Retries, Idempotency and Consistency](../Study%20topics/retries-idempotency-and-consistency.html) · [Day 11](#day-11)
+- [Latency and Observability](../Study%20topics/latency-and-observability.html) · [Day 13](#day-13)
+- [CI/CD and AWS Deployment](../Study%20topics/ci-cd-and-aws-deployment.html) · [Day 15](#day-15)
+- [Financial Research RAG](../Study%20topics/financial-research-rag.html) · [Day 17](#day-17)
+- [RAG Evaluation and Retrieval Trade-offs](../Study%20topics/rag-evaluation-and-retrieval-trade-offs.html) · [Day 19](#day-19)
+- [Financial Text-to-SQL](../Study%20topics/financial-text-to-sql.html) · [Day 21](#day-21)
+- [Text-to-SQL Evaluation and Data Quality](../Study%20topics/text-to-sql-evaluation-and-data-quality.html) · [Day 23](#day-23)
+- [Agents with Human Approval](../Study%20topics/agents-with-human-approval.html) · [Day 25](#day-25)
+- [Agent Memory and Tool Contracts](../Study%20topics/agent-memory-and-tool-contracts.html) · [Day 27](#day-27)
+- [AI-Assisted Experiment Platform](../Study%20topics/ai-assisted-experiment-platform.html) · [Day 29](#day-29)
+- [Volatility Forecasting Service](../Study%20topics/volatility-forecasting-service.html) · [Day 31](#day-31)
+- [Evaluation and Regression Pipeline](../Study%20topics/evaluation-and-regression-pipeline.html) · [Day 33](#day-33)
+- [AI Latency and Cost Budget](../Study%20topics/ai-latency-and-cost-budget.html) · [Day 35](#day-35)
+- [AI Security and Reliability](../Study%20topics/ai-security-and-reliability.html) · [Day 37](#day-37)
+- [Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html) · [Day 39](#day-39)
 
 ### 每日 Interview Questions
 
@@ -98,13 +98,13 @@ LLM Theory; RAG; Agents; Evaluation; Safety; Monitoring; Cost and Latency; Pytho
 
 这份计划结合仓库的岗位技能分析、面试问题、招聘观察和你的转岗背景。它不是仓库给出的原版课表。岗位需求频率不等于候选人缺失率；也没有足够证据把它称为“HR 最缺技能排行榜”。
 
-- 岗位技能：[role/02-skills.md](role/02-skills.md) 基于 6,964 条岗位记录，强调 Python、RAG、Agents，以及 AI 之外的工程能力。这里优先选金融 Applied AI 所需的应用工程方向，不照搬全部技能清单。
-- 招聘与技术面试关注：[interview/03-get-hired.md](interview/03-get-hired.md) 汇总评估、成本、延迟、取舍、可靠性、Python 深度和实际交付。招聘筛选关注相关经历与成果表述；技术面试进一步验证实现能力和设计判断，二者不能混为一谈。
-- 理论题：[interview/questions/01-theory.md](interview/questions/01-theory.md) 对应 LLM Fundamentals、RAG、Agents、Evals、Monitoring、Safety 和基础 ML。本次补齐上一版没有明确列出的 Structured Outputs、Tool Calling、LLM Sampling 和 Context Management。
-- 编码题：[interview/questions/02-coding.md](interview/questions/02-coding.md) 对应 DSA 和 Progressive Implementation。这里既安排算法题，也安排 KV Store、Crawler、Rate Limiter、Debugging 等实际实现题。
-- 系统设计：[interview/questions/04-ai-system-design.md](interview/questions/04-ai-system-design.md) 对应需求、架构、评估、规模、成本、权限和失败路径；使用金融场景贯穿练习。
-- 项目与行为面试：[interview/questions/03-project-deep-dive.md](interview/questions/03-project-deep-dive.md)、[interview/questions/05-behavioral.md](interview/questions/05-behavioral.md) 对应 Ownership、Trade-offs、Failure 和 Communication。这是面试学习，不是找岗位任务。
-- 作品集：[portfolio/04-polishing.md](portfolio/04-polishing.md) 对应 Tests、Evals、Logs、README、Demo 和 Reproducibility。
+- 岗位技能：[role/02-skills.md](../role/02-skills.md) 基于 6,964 条岗位记录，强调 Python、RAG、Agents，以及 AI 之外的工程能力。这里优先选金融 Applied AI 所需的应用工程方向，不照搬全部技能清单。
+- 招聘与技术面试关注：[interview/03-get-hired.md](../interview/03-get-hired.md) 汇总评估、成本、延迟、取舍、可靠性、Python 深度和实际交付。招聘筛选关注相关经历与成果表述；技术面试进一步验证实现能力和设计判断，二者不能混为一谈。
+- 理论题：[interview/questions/01-theory.md](../interview/questions/01-theory.md) 对应 LLM Fundamentals、RAG、Agents、Evals、Monitoring、Safety 和基础 ML。本次补齐上一版没有明确列出的 Structured Outputs、Tool Calling、LLM Sampling 和 Context Management。
+- 编码题：[interview/questions/02-coding.md](../interview/questions/02-coding.md) 对应 DSA 和 Progressive Implementation。这里既安排算法题，也安排 KV Store、Crawler、Rate Limiter、Debugging 等实际实现题。
+- 系统设计：[interview/questions/04-ai-system-design.md](../interview/questions/04-ai-system-design.md) 对应需求、架构、评估、规模、成本、权限和失败路径；使用金融场景贯穿练习。
+- 项目与行为面试：[interview/questions/03-project-deep-dive.md](../interview/questions/03-project-deep-dive.md)、[interview/questions/05-behavioral.md](../interview/questions/05-behavioral.md) 对应 Ownership、Trade-offs、Failure 和 Communication。这是面试学习，不是找岗位任务。
+- 作品集：[portfolio/04-polishing.md](../portfolio/04-polishing.md) 对应 Tests、Evals、Logs、README、Demo 和 Reproducibility。
 - 个性化安排：你已有金融建模、Python Library 和性能优化经验，增加 SQL、ML Basics、Time-Series Validation、API、Testing、Deployment 的时间。Risk Copilot 的已知缺口用于项目选题；没有假设你已经具备 Data Scientist 的 ML 经验。
 
 ## 覆盖深度与暂不覆盖
@@ -116,14 +116,14 @@ LLM Theory; RAG; Agents; Evaluation; Safety; Monitoring; Cost and Latency; Pytho
 
 ## 固定安排与网课
 
-刷题默认周一、周三、周五为 Python，周二、周四为 SQL，同一天不安排两种。Python 刷题包含 Practical Implementation 和 Code Review；ML 时段允许使用 Python 完成 ML 实验，不额外安排 Python 刷题。
+刷题默认周一、周三、周五为 Python，周二、周四为 SQL，同一天不安排两种。刷题时段 08:30–10:30 共 2 小时：Python 日把计划原题和 LeetCode Top Interview 150 混合刷，SQL 日前 1 小时做 SQL、后 1 小时刷 Top 150。Top 150 共 150 题，Hard 排在 Day 35 之后。Python 刷题包含 Practical Implementation 和 Code Review；ML 时段允许使用 Python 完成 ML 实验，不额外安排 Python 刷题。
 
 每天网课 2 小时：先完成剩余 Core，再学 Production，按实际进度推进，不预设具体 lecture 或完成日期。两门课完成后，该时段用于 Course Exercise Review。Agentic 已学完，只按需复习。
 
 - [AI Engineer Core Track](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/)
 - [AI Engineer Production Track](https://www.udemy.com/course/generative-and-agentic-ai-in-production/)
 
-课程包含跟做；不拆分观看和练习分钟数。下方学习时段列 topic，刷题附 LeetCode 题号和链接；面试时段列当天仓库原题。不设置答题步骤或每日验收要求。碎片时间可替代适合口述的学习时段，不额外累加。项目按进度顺延，在每周五的复盘里重排，周末不补课。每天新增 1 小时 Interview Questions，项目时段相应缩短为 1.5 小时；每天仍为 8 小时。独立的题目复习时段用于口述回答和追问，与 System Design 专项时段分别安排。
+课程包含跟做；不拆分观看和练习分钟数。下方学习时段列 topic，刷题附 LeetCode 题号和链接；面试时段列当天仓库原题。不设置答题步骤或每日验收要求。碎片时间可替代适合口述的学习时段，不额外累加。项目按进度顺延，在每周五的复盘里重排，周末不补课。每天新增 1 小时 Interview Questions，项目时段相应缩短为 1.5 小时；刷题时段从 1.5 小时延长为 2 小时（08:30 开始），每天为 8.5 小时。独立的题目复习时段用于口述回答和追问，与 System Design 专项时段分别安排。
 
 ## 题库覆盖范围与核对方式
 
@@ -135,7 +135,7 @@ LLM Theory; RAG; Agents; Evaluation; Safety; Monitoring; Cost and Latency; Pytho
 
 每日条目使用 Q 编号、英文原文和来源文件／行号。完全重复的条目列出全部来源，便于逐项核对。每日题数根据题型粗略加权分配，实际难度不同，需要在复盘中标记未理解的题目。
 
-LeetCode 题号、标题、slug 和 Premium 状态于 2026 年 10 月 4 日通过 [官方题目目录](https://leetcode.com/api/problems/all/) 核对。SQL 日使用 SQL 作答。列出的题是练习候选，不要求当天全部完成；重复题用于复习。工程主题没有直接对应题时，另作中文说明，不把相关算法题冒充完整工程练习。
+LeetCode 题号、标题、slug 和 Premium 状态于 2026 年 10 月 4 日通过 [官方题目目录](https://leetcode.com/api/problems/all/) 核对。SQL 日使用 SQL 作答。列出的题是练习候选，不要求当天全部完成；重复题用于复习。Top 150 题单来自 LeetCode 官方学习计划（2026 年 11 月 4 日读取，共 150 题，无付费题），完整分配见[Top 150 排期](AI_ENGINEER_TOP150_SCHEDULE.md)。工程主题没有直接对应题时，另作中文说明，不把相关算法题冒充完整工程练习。
 
 分配统计：623 条唯一条目、727 处原文引用；主计划每天 9–20 条。
 
@@ -143,18 +143,18 @@ LeetCode 题号、标题、slug 和 Premium 状态于 2026 年 10 月 4 日通�
 
 <a id="day-01"></a>
 
-### 周一 10/5
+### 周一 11/9
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Hash Maps: Counting, Frequency, Duplicate Detection<br>LeetCode: [1. Two Sum](https://leetcode.com/problems/two-sum/); [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/); [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)<br>资料：[Hash Maps](Study%20topics/hash-maps.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Hash Maps: Counting, Frequency, Duplicate Detection + LeetCode Top 150<br>计划原题（3 题）: [1. Two Sum](https://leetcode.com/problems/two-sum/) · Easy; [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) · Easy; [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) · Easy<br>Top 150（4 题）: [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) · Hashmap · Medium; [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) · Hashmap · Medium; [202. Happy Number](https://leetcode.com/problems/happy-number/) · Hashmap · Easy; [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) · Hashmap · Easy<br>资料：[Hash Maps](../Study%20topics/hash-maps.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Train / Validation / Test Split](Study%20topics/train-validation-test-split.html) · [Notebook](notebook/01_train_validation_test_split.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Requirements and API Design](Study%20topics/requirements-and-api-design.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html) · [Notebook](../notebook/01_train_validation_test_split.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Requirements and API Design](../Study%20topics/requirements-and-api-design.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Baseline and Issue Audit<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-01) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / LLM Fundamentals — 20 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Tokenization](Study%20topics/tokenization.html); [Next-Token Prediction](Study%20topics/next-token-prediction.html); [Context Windows](Study%20topics/context-windows.html); [Temperature](Study%20topics/temperature.html); [Top-p](Study%20topics/top-p.html); [Transformer and Attention Fundamentals](Study%20topics/transformer-and-attention-fundamentals.html); [LLM Limitations](Study%20topics/llm-limitations.html); [Risk Copilot](Study%20topics/risk-copilot.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Tokenization](../Study%20topics/tokenization.html); [Next-Token Prediction](../Study%20topics/next-token-prediction.html); [Context Windows](../Study%20topics/context-windows.html); [Temperature](../Study%20topics/temperature.html); [Top-p](../Study%20topics/top-p.html); [Transformer and Attention Fundamentals](../Study%20topics/transformer-and-attention-fundamentals.html); [LLM Limitations](../Study%20topics/llm-limitations.html); [Risk Copilot](../Study%20topics/risk-copilot.html) |
 
 
 <!-- quantvault-day 01 -->
@@ -175,7 +175,7 @@ LeetCode 题号、标题、slug 和 Premium 状态于 2026 年 10 月 4 日通�
 
 #### 当天 Interview Questions
 
-- Q001 — How do LLMs work?（来源：[questions.md:9](interview/questions/questions.md)；[01-theory.md:22](interview/questions/01-theory.md)）
+- Q001 — How do LLMs work?（来源：[questions.md:9](../interview/questions/questions.md)；[01-theory.md:22](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q001 -->
 <details>
@@ -201,7 +201,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q002 — How do transformers work?（来源：[questions.md:10](interview/questions/questions.md)；[01-theory.md:136](interview/questions/01-theory.md)）
+- Q002 — How do transformers work?（来源：[questions.md:10](../interview/questions/questions.md)；[01-theory.md:136](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q002 -->
 <details>
@@ -227,7 +227,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q003 — What is tokenization and how does it affect LLM performance?（来源：[questions.md:11](interview/questions/questions.md)）
+- Q003 — What is tokenization and how does it affect LLM performance?（来源：[questions.md:11](../interview/questions/questions.md)）
 
 <!-- interview-answer Q003 -->
 <details>
@@ -253,7 +253,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q004 — What is the difference between pre-training and fine-tuning?（来源：[questions.md:12](interview/questions/questions.md)）
+- Q004 — What is the difference between pre-training and fine-tuning?（来源：[questions.md:12](../interview/questions/questions.md)）
 
 <!-- interview-answer Q004 -->
 <details>
@@ -279,7 +279,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q005 — Explain context windows and their limitations.（来源：[questions.md:13](interview/questions/questions.md)）
+- Q005 — Explain context windows and their limitations.（来源：[questions.md:13](../interview/questions/questions.md)）
 
 <!-- interview-answer Q005 -->
 <details>
@@ -305,7 +305,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q006 — What are scaling laws and why do they matter?（来源：[questions.md:14](interview/questions/questions.md)）
+- Q006 — What are scaling laws and why do they matter?（来源：[questions.md:14](../interview/questions/questions.md)）
 
 <!-- interview-answer Q006 -->
 <details>
@@ -331,7 +331,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q007 — What is temperature and top-p sampling? How do they affect outputs?（来源：[questions.md:15](interview/questions/questions.md)；[01-theory.md:23](interview/questions/01-theory.md)）
+- Q007 — What is temperature and top-p sampling? How do they affect outputs?（来源：[questions.md:15](../interview/questions/questions.md)；[01-theory.md:23](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q007 -->
 <details>
@@ -357,7 +357,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q008 — Explain few-shot learning and chain-of-thought prompting.（来源：[questions.md:16](interview/questions/questions.md)）
+- Q008 — Explain few-shot learning and chain-of-thought prompting.（来源：[questions.md:16](../interview/questions/questions.md)）
 
 <!-- interview-answer Q008 -->
 <details>
@@ -383,7 +383,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q009 — What is KV cache? How does it help in LLM inference?（来源：[questions.md:17](interview/questions/questions.md)；[01-theory.md:139](interview/questions/01-theory.md)）
+- Q009 — What is KV cache? How does it help in LLM inference?（来源：[questions.md:17](../interview/questions/questions.md)；[01-theory.md:139](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q009 -->
 <details>
@@ -409,7 +409,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q010 — Can you describe the difference between GenAI and traditional programming in the context of solving a real-world problem?（来源：[questions.md:18](interview/questions/questions.md)）
+- Q010 — Can you describe the difference between GenAI and traditional programming in the context of solving a real-world problem?（来源：[questions.md:18](../interview/questions/questions.md)）
 
 <!-- interview-answer Q010 -->
 <details>
@@ -435,7 +435,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q011 — How do you ensure the outputs from large language models are consistent and accurate, especially when dealing with complex multi-step workflows?（来源：[questions.md:19](interview/questions/questions.md)）
+- Q011 — How do you ensure the outputs from large language models are consistent and accurate, especially when dealing with complex multi-step workflows?（来源：[questions.md:19](../interview/questions/questions.md)）
 
 <!-- interview-answer Q011 -->
 <details>
@@ -461,7 +461,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q012 — What's an RAG model? Explain the complete process.（来源：[questions.md:20](interview/questions/questions.md)）
+- Q012 — What's an RAG model? Explain the complete process.（来源：[questions.md:20](../interview/questions/questions.md)）
 
 <!-- interview-answer Q012 -->
 <details>
@@ -487,7 +487,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q013 — What are embeddings?（来源：[questions.md:21](interview/questions/questions.md)）
+- Q013 — What are embeddings?（来源：[questions.md:21](../interview/questions/questions.md)）
 
 <!-- interview-answer Q013 -->
 <details>
@@ -513,7 +513,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q014 — How does chunking happen?（来源：[questions.md:22](interview/questions/questions.md)）
+- Q014 — How does chunking happen?（来源：[questions.md:22](../interview/questions/questions.md)）
 
 <!-- interview-answer Q014 -->
 <details>
@@ -539,7 +539,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q015 — What is the difference between discriminative and generative models?（来源：[questions.md:23](interview/questions/questions.md)）
+- Q015 — What is the difference between discriminative and generative models?（来源：[questions.md:23](../interview/questions/questions.md)）
 
 <!-- interview-answer Q015 -->
 <details>
@@ -565,7 +565,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q016 — What is graph RAG? How does it differ from standard RAG?（来源：[questions.md:24](interview/questions/questions.md)）
+- Q016 — What is graph RAG? How does it differ from standard RAG?（来源：[questions.md:24](../interview/questions/questions.md)）
 
 <!-- interview-answer Q016 -->
 <details>
@@ -591,7 +591,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q017 — What is reflection in the context of LLM agents?（来源：[questions.md:25](interview/questions/questions.md)）
+- Q017 — What is reflection in the context of LLM agents?（来源：[questions.md:25](../interview/questions/questions.md)）
 
 <!-- interview-answer Q017 -->
 <details>
@@ -617,7 +617,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q018 — Explain KL divergence.（来源：[questions.md:26](interview/questions/questions.md)）
+- Q018 — Explain KL divergence.（来源：[questions.md:26](../interview/questions/questions.md)）
 
 <!-- interview-answer Q018 -->
 <details>
@@ -643,7 +643,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q019 — What is the difference between symbolic and connectionist AI?（来源：[questions.md:27](interview/questions/questions.md)）
+- Q019 — What is the difference between symbolic and connectionist AI?（来源：[questions.md:27](../interview/questions/questions.md)）
 
 <!-- interview-answer Q019 -->
 <details>
@@ -669,7 +669,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q020 — Describe the types of text summarization techniques and when you'd use each.（来源：[questions.md:28](interview/questions/questions.md)）
+- Q020 — Describe the types of text summarization techniques and when you'd use each.（来源：[questions.md:28](../interview/questions/questions.md)）
 
 <!-- interview-answer Q020 -->
 <details>
@@ -698,18 +698,18 @@ Follow-up
 
 <a id="day-02"></a>
 
-### 周二 10/6
+### 周二 11/10
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: SELECT, WHERE, ORDER BY, LIMIT, NULL<br>LeetCode: [1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/); [584. Find Customer Referee](https://leetcode.com/problems/find-customer-referee/); [595. Big Countries](https://leetcode.com/problems/big-countries/)<br>资料：[SELECT](Study%20topics/select.html); [WHERE](Study%20topics/where.html); [ORDER BY](Study%20topics/order-by.html); [LIMIT](Study%20topics/limit.html); [NULL](Study%20topics/null.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: SELECT, WHERE, ORDER BY, LIMIT, NULL + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/); [584. Find Customer Referee](https://leetcode.com/problems/find-customer-referee/); [595. Big Countries](https://leetcode.com/problems/big-countries/)<br>Top 150（1 小时，3 题）: [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) · Hashmap · Easy; [290. Word Pattern](https://leetcode.com/problems/word-pattern/) · Hashmap · Easy; [383. Ransom Note](https://leetcode.com/problems/ransom-note/) · Hashmap · Easy<br>资料：[SELECT](../Study%20topics/select.html); [WHERE](../Study%20topics/where.html); [ORDER BY](../Study%20topics/order-by.html); [LIMIT](../Study%20topics/limit.html); [NULL](../Study%20topics/null.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Supervised and Unsupervised Learning; Baselines](Study%20topics/supervised-and-unsupervised-learning-baselines.html) · [Notebook](notebook/02_supervised_and_unsupervised_learning_baselines.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Requirements and API Design](Study%20topics/requirements-and-api-design.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Supervised and Unsupervised Learning; Baselines](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) · [Notebook](../notebook/02_supervised_and_unsupervised_learning_baselines.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Requirements and API Design](../Study%20topics/requirements-and-api-design.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Risk Numerical Correctness: Missing Data and Factors<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-02) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / LLM Fundamentals; Technical Questions / RAG Systems — 19 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Prompt Engineering](Study%20topics/prompt-engineering.html); [Few-Shot Examples](Study%20topics/few-shot-examples.html); [Prompt Versioning](Study%20topics/prompt-versioning.html); [SQL](Study%20topics/sql.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Prompt Engineering](../Study%20topics/prompt-engineering.html); [Few-Shot Examples](../Study%20topics/few-shot-examples.html); [Prompt Versioning](../Study%20topics/prompt-versioning.html); [SQL](../Study%20topics/sql.html) |
 
 
 <!-- quantvault-day 02 -->
@@ -731,7 +731,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q021 — How do you do memory management and context management with LLMs?（来源：[questions.md:29](interview/questions/questions.md)；[01-theory.md:25](interview/questions/01-theory.md)）
+- Q021 — How do you do memory management and context management with LLMs?（来源：[questions.md:29](../interview/questions/questions.md)；[01-theory.md:25](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q021 -->
 <details>
@@ -757,7 +757,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q022 — What is the self-attention mechanism? How does it differ from multi-head attention?（来源：[questions.md:30](interview/questions/questions.md)）
+- Q022 — What is the self-attention mechanism? How does it differ from multi-head attention?（来源：[questions.md:30](../interview/questions/questions.md)）
 
 <!-- interview-answer Q022 -->
 <details>
@@ -783,7 +783,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q023 — What is grouped query attention and how does it differ from standard multi-head attention?（来源：[questions.md:31](interview/questions/questions.md)）
+- Q023 — What is grouped query attention and how does it differ from standard multi-head attention?（来源：[questions.md:31](../interview/questions/questions.md)）
 
 <!-- interview-answer Q023 -->
 <details>
@@ -813,7 +813,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q024 — What are the differences between BPE, WordPiece, and character-level tokenization? What are the trade-offs?（来源：[questions.md:32](interview/questions/questions.md)；[01-theory.md:141](interview/questions/01-theory.md)）
+- Q024 — What are the differences between BPE, WordPiece, and character-level tokenization? What are the trade-offs?（来源：[questions.md:32](../interview/questions/questions.md)；[01-theory.md:141](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q024 -->
 <details>
@@ -839,7 +839,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q025 — Explain the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures. When would you use each?（来源：[questions.md:33](interview/questions/questions.md)；[01-theory.md:138](interview/questions/01-theory.md)）
+- Q025 — Explain the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures. When would you use each?（来源：[questions.md:33](../interview/questions/questions.md)；[01-theory.md:138](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q025 -->
 <details>
@@ -865,7 +865,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q026 — Why are decoder-only models dominant even for non-generation tasks?（来源：[questions.md:34](interview/questions/questions.md)）
+- Q026 — Why are decoder-only models dominant even for non-generation tasks?（来源：[questions.md:34](../interview/questions/questions.md)）
 
 <!-- interview-answer Q026 -->
 <details>
@@ -891,7 +891,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q027 — What is positional encoding and why is it needed in Transformers?（来源：[questions.md:35](interview/questions/questions.md)）
+- Q027 — What is positional encoding and why is it needed in Transformers?（来源：[questions.md:35](../interview/questions/questions.md)）
 
 <!-- interview-answer Q027 -->
 <details>
@@ -917,7 +917,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q028 — What are the key MMLU, BigBench, and HumanEval benchmarks? What does each measure and what are its limitations?（来源：[questions.md:36](interview/questions/questions.md)）
+- Q028 — What are the key MMLU, BigBench, and HumanEval benchmarks? What does each measure and what are its limitations?（来源：[questions.md:36](../interview/questions/questions.md)）
 
 <!-- interview-answer Q028 -->
 <details>
@@ -943,7 +943,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q029 — What is the difference between RLHF and DPO? When would you prefer one over the other?（来源：[questions.md:37](interview/questions/questions.md)）
+- Q029 — What is the difference between RLHF and DPO? When would you prefer one over the other?（来源：[questions.md:37](../interview/questions/questions.md)）
 
 <!-- interview-answer Q029 -->
 <details>
@@ -973,7 +973,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q030 — What is Mixture of Experts (MoE)? How does it improve efficiency?（来源：[questions.md:38](interview/questions/questions.md)；[01-theory.md:140](interview/questions/01-theory.md)）
+- Q030 — What is Mixture of Experts (MoE)? How does it improve efficiency?（来源：[questions.md:38](../interview/questions/questions.md)；[01-theory.md:140](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q030 -->
 <details>
@@ -999,7 +999,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q031 — How do LLMs actually generate text? Explain the autoregressive decoding process.（来源：[questions.md:39](interview/questions/questions.md)）
+- Q031 — How do LLMs actually generate text? Explain the autoregressive decoding process.（来源：[questions.md:39](../interview/questions/questions.md)）
 
 <!-- interview-answer Q031 -->
 <details>
@@ -1025,7 +1025,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q032 — What are decoding strategies like beam search, top-k, and top-p? When do you use each?（来源：[questions.md:40](interview/questions/questions.md)）
+- Q032 — What are decoding strategies like beam search, top-k, and top-p? When do you use each?（来源：[questions.md:40](../interview/questions/questions.md)）
 
 <!-- interview-answer Q032 -->
 <details>
@@ -1051,7 +1051,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q033 — What is FlashAttention and how does it work?（来源：[questions.md:41](interview/questions/questions.md)）
+- Q033 — What is FlashAttention and how does it work?（来源：[questions.md:41](../interview/questions/questions.md)）
 
 <!-- interview-answer Q033 -->
 <details>
@@ -1081,7 +1081,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q034 — Why is LLM inference memory-bounded?（来源：[questions.md:42](interview/questions/questions.md)）
+- Q034 — Why is LLM inference memory-bounded?（来源：[questions.md:42](../interview/questions/questions.md)）
 
 <!-- interview-answer Q034 -->
 <details>
@@ -1107,7 +1107,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q035 — How do stop sequences work in LLMs?（来源：[questions.md:43](interview/questions/questions.md)）
+- Q035 — How do stop sequences work in LLMs?（来源：[questions.md:43](../interview/questions/questions.md)）
 
 <!-- interview-answer Q035 -->
 <details>
@@ -1133,7 +1133,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q036 — What is the context window and what happens when you exceed it? How do you handle long documents?（来源：[questions.md:44](interview/questions/questions.md)；[01-theory.md:24](interview/questions/01-theory.md)）
+- Q036 — What is the context window and what happens when you exceed it? How do you handle long documents?（来源：[questions.md:44](../interview/questions/questions.md)；[01-theory.md:24](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q036 -->
 <details>
@@ -1159,7 +1159,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q037 — What risks arise from applying a general-purpose tokenizer to specialized domains like legal or medical text?（来源：[questions.md:45](interview/questions/questions.md)）
+- Q037 — What risks arise from applying a general-purpose tokenizer to specialized domains like legal or medical text?（来源：[questions.md:45](../interview/questions/questions.md)）
 
 <!-- interview-answer Q037 -->
 <details>
@@ -1185,7 +1185,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q492 — What is the self-attention mechanism?（来源：[01-theory.md:137](interview/questions/01-theory.md)）
+- Q492 — What is the self-attention mechanism?（来源：[01-theory.md:137](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q492 -->
 <details>
@@ -1211,7 +1211,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q038 — Design a RAG system for a customer support chatbot. How do you evaluate it? (reported across multiple companies)（来源：[questions.md:49](interview/questions/questions.md)）
+- Q038 — Design a RAG system for a customer support chatbot. How do you evaluate it? (reported across multiple companies)（来源：[questions.md:49](../interview/questions/questions.md)）
 
 <!-- interview-answer Q038 -->
 <details>
@@ -1240,18 +1240,18 @@ Follow-up
 
 <a id="day-03"></a>
 
-### 周三 10/7
+### 周三 11/11
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Arrays and Strings: Two Pointers<br>LeetCode: [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/); [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/); [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)<br>资料：[Arrays and Strings](Study%20topics/arrays-and-strings.html); [Two Pointers](Study%20topics/two-pointers.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Arrays and Strings: Two Pointers + LeetCode Top 150<br>计划原题（3 题）: [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) · Easy; [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) · Medium; [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) · Easy<br>Top 150（3 题）: [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · Two Pointers · Medium; [15. 3Sum](https://leetcode.com/problems/3sum/) · Two Pointers · Medium; [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) · Two Pointers · Easy<br>资料：[Arrays and Strings](../Study%20topics/arrays-and-strings.html); [Two Pointers](../Study%20topics/two-pointers.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Data Leakage; Scaling; scikit-learn Pipelines](Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · [Notebook](notebook/03_data_leakage_scaling_scikit_learn_pipelines.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Data Modeling and Indexes](Study%20topics/data-modeling-and-indexes.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Data Leakage; Scaling; scikit-learn Pipelines](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · [Notebook](../notebook/03_data_leakage_scaling_scikit_learn_pipelines.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Data Modeling and Indexes](../Study%20topics/data-modeling-and-indexes.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Risk Numerical Correctness: Zero Exposure and Units<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-03) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / RAG Systems — 20 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Structured Outputs](Study%20topics/structured-outputs.html); [Pydantic](Study%20topics/pydantic.html); [JSON Recovery](Study%20topics/json-recovery.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Structured Outputs](../Study%20topics/structured-outputs.html); [Pydantic](../Study%20topics/pydantic.html); [JSON Recovery](../Study%20topics/json-recovery.html) |
 
 
 <!-- quantvault-day 03 -->
@@ -1272,7 +1272,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q039 — How would you design an LLM-powered enterprise search system?（来源：[questions.md:50](interview/questions/questions.md)）
+- Q039 — How would you design an LLM-powered enterprise search system?（来源：[questions.md:50](../interview/questions/questions.md)）
 
 <!-- interview-answer Q039 -->
 <details>
@@ -1298,7 +1298,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q040 — Design a generative AI document-processing pipeline for unstructured data (emails, PDFs, images) to automate workflows like claims processing.（来源：[questions.md:51](interview/questions/questions.md)）
+- Q040 — Design a generative AI document-processing pipeline for unstructured data (emails, PDFs, images) to automate workflows like claims processing.（来源：[questions.md:51](../interview/questions/questions.md)）
 
 <!-- interview-answer Q040 -->
 <details>
@@ -1324,7 +1324,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q041 — How would you use GPT-4 to generate accurate answers based on proprietary documents?（来源：[questions.md:52](interview/questions/questions.md)）
+- Q041 — How would you use GPT-4 to generate accurate answers based on proprietary documents?（来源：[questions.md:52](../interview/questions/questions.md)）
 
 <!-- interview-answer Q041 -->
 <details>
@@ -1350,7 +1350,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q042 — Design a generative QA assistant for your company's knowledge base.（来源：[questions.md:53](interview/questions/questions.md)）
+- Q042 — Design a generative QA assistant for your company's knowledge base.（来源：[questions.md:53](../interview/questions/questions.md)）
 
 <!-- interview-answer Q042 -->
 <details>
@@ -1376,7 +1376,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q043 — You're making a system that processes huge PDF reports. How would you handle the problem of not keeping an entire report's context when splitting a document for a chatbot?（来源：[questions.md:54](interview/questions/questions.md)）
+- Q043 — You're making a system that processes huge PDF reports. How would you handle the problem of not keeping an entire report's context when splitting a document for a chatbot?（来源：[questions.md:54](../interview/questions/questions.md)）
 
 <!-- interview-answer Q043 -->
 <details>
@@ -1402,7 +1402,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q044 — How would you efficiently generate and store embeddings for products and queries in a chatbot application?（来源：[questions.md:55](interview/questions/questions.md)）
+- Q044 — How would you efficiently generate and store embeddings for products and queries in a chatbot application?（来源：[questions.md:55](../interview/questions/questions.md)）
 
 <!-- interview-answer Q044 -->
 <details>
@@ -1428,7 +1428,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q045 — How would you handle the problem of a model hallucinating when no information is found in the given context?（来源：[questions.md:56](interview/questions/questions.md)；[01-theory.md:34](interview/questions/01-theory.md)）
+- Q045 — How would you handle the problem of a model hallucinating when no information is found in the given context?（来源：[questions.md:56](../interview/questions/questions.md)；[01-theory.md:34](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q045 -->
 <details>
@@ -1454,7 +1454,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q046 — What retrieval-augmented generation (RAG) projects have you worked on?（来源：[questions.md:57](interview/questions/questions.md)）
+- Q046 — What retrieval-augmented generation (RAG) projects have you worked on?（来源：[questions.md:57](../interview/questions/questions.md)）
 
 <!-- interview-answer Q046 -->
 <details>
@@ -1480,7 +1480,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q047 — Design a question-answering system over internal documentation.（来源：[questions.md:58](interview/questions/questions.md)）
+- Q047 — Design a question-answering system over internal documentation.（来源：[questions.md:58](../interview/questions/questions.md)）
 
 <!-- interview-answer Q047 -->
 <details>
@@ -1506,7 +1506,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q048 — How do you ensure the quality of data that an LLM interacts with?（来源：[questions.md:59](interview/questions/questions.md)）
+- Q048 — How do you ensure the quality of data that an LLM interacts with?（来源：[questions.md:59](../interview/questions/questions.md)）
 
 <!-- interview-answer Q048 -->
 <details>
@@ -1532,7 +1532,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q049 — Compare sparse vs. dense retrieval. When would you use each?（来源：[questions.md:60](interview/questions/questions.md)）
+- Q049 — Compare sparse vs. dense retrieval. When would you use each?（来源：[questions.md:60](../interview/questions/questions.md)）
 
 <!-- interview-answer Q049 -->
 <details>
@@ -1558,7 +1558,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q050 — What are common RAG failure points and how do you debug them?（来源：[questions.md:61](interview/questions/questions.md)；[01-theory.md:35](interview/questions/01-theory.md)）
+- Q050 — What are common RAG failure points and how do you debug them?（来源：[questions.md:61](../interview/questions/questions.md)；[01-theory.md:35](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q050 -->
 <details>
@@ -1584,7 +1584,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q051 — How do you protect sensitive/confidential data in a RAG pipeline?（来源：[questions.md:62](interview/questions/questions.md)）
+- Q051 — How do you protect sensitive/confidential data in a RAG pipeline?（来源：[questions.md:62](../interview/questions/questions.md)）
 
 <!-- interview-answer Q051 -->
 <details>
@@ -1610,7 +1610,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q052 — What vector databases have you used? Which ones and why?（来源：[questions.md:63](interview/questions/questions.md)）
+- Q052 — What vector databases have you used? Which ones and why?（来源：[questions.md:63](../interview/questions/questions.md)）
 
 <!-- interview-answer Q052 -->
 <details>
@@ -1636,7 +1636,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q053 — You have a financial report where page 1 says "all amounts in thousands." How do you handle document-wide context when chunking page by page?（来源：[questions.md:64](interview/questions/questions.md)）
+- Q053 — You have a financial report where page 1 says "all amounts in thousands." How do you handle document-wide context when chunking page by page?（来源：[questions.md:64](../interview/questions/questions.md)）
 
 <!-- interview-answer Q053 -->
 <details>
@@ -1662,7 +1662,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q054 — What is hybrid search? When would you combine vector search with keyword search (BM25)?（来源：[questions.md:65](interview/questions/questions.md)）
+- Q054 — What is hybrid search? When would you combine vector search with keyword search (BM25)?（来源：[questions.md:65](../interview/questions/questions.md)）
 
 <!-- interview-answer Q054 -->
 <details>
@@ -1688,7 +1688,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q055 — What is re-ranking and why is it needed on top of vector retrieval? Explain cross-encoder vs. bi-encoder.（来源：[questions.md:66](interview/questions/questions.md)）
+- Q055 — What is re-ranking and why is it needed on top of vector retrieval? Explain cross-encoder vs. bi-encoder.（来源：[questions.md:66](../interview/questions/questions.md)）
 
 <!-- interview-answer Q055 -->
 <details>
@@ -1714,7 +1714,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q056 — How do you scale a RAG system to 10M+ articles? Discuss sharding, caching, and retrieval optimization.（来源：[questions.md:67](interview/questions/questions.md)）
+- Q056 — How do you scale a RAG system to 10M+ articles? Discuss sharding, caching, and retrieval optimization.（来源：[questions.md:67](../interview/questions/questions.md)）
 
 <!-- interview-answer Q056 -->
 <details>
@@ -1740,7 +1740,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q057 — Your RAG system returns relevant documents but users still can't find the answer. How do you transform it from a search engine into an answer engine?（来源：[questions.md:68](interview/questions/questions.md)）
+- Q057 — Your RAG system returns relevant documents but users still can't find the answer. How do you transform it from a search engine into an answer engine?（来源：[questions.md:68](../interview/questions/questions.md)）
 
 <!-- interview-answer Q057 -->
 <details>
@@ -1766,7 +1766,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q058 — How do you evaluate a RAG pipeline? What metrics would you use? (NDCG, MRR, precision@k, recall)（来源：[questions.md:69](interview/questions/questions.md)）
+- Q058 — How do you evaluate a RAG pipeline? What metrics would you use? (NDCG, MRR, precision@k, recall)（来源：[questions.md:69](../interview/questions/questions.md)）
 
 <!-- interview-answer Q058 -->
 <details>
@@ -1795,18 +1795,18 @@ Follow-up
 
 <a id="day-04"></a>
 
-### 周四 10/8
+### 周四 11/12
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: GROUP BY, HAVING, CASE, Aggregations<br>LeetCode: [182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/); [596. Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/); [620. Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)<br>资料：[GROUP BY](Study%20topics/group-by.html); [HAVING](Study%20topics/having.html); [CASE](Study%20topics/case.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: GROUP BY, HAVING, CASE, Aggregations + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/); [596. Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/); [620. Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)<br>Top 150（1 小时，3 题）: [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) · Array / String · Medium; [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) · Array / String · Medium; [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) · Array / String · Easy<br>资料：[GROUP BY](../Study%20topics/group-by.html); [HAVING](../Study%20topics/having.html); [CASE](../Study%20topics/case.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [MAE; RMSE](Study%20topics/mae-rmse.html) · [Notebook](notebook/04_mae_rmse.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Data Modeling and Indexes](Study%20topics/data-modeling-and-indexes.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [MAE; RMSE](../Study%20topics/mae-rmse.html) · [Notebook](../notebook/04_mae_rmse.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Data Modeling and Indexes](../Study%20topics/data-modeling-and-indexes.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Retrieval Dataset and Label Review<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-04) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / RAG Systems; Technical Questions / Agents and Tool Use — 19 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Prompting vs. RAG vs. Fine-Tuning](Study%20topics/prompting-vs-rag-vs-fine-tuning.html); [LoRA](Study%20topics/lora.html); [Quantization](Study%20topics/quantization.html); [Golden Datasets](Study%20topics/golden-datasets.html); [Hard Negatives](Study%20topics/hard-negatives.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Prompting vs. RAG vs. Fine-Tuning](../Study%20topics/prompting-vs-rag-vs-fine-tuning.html); [LoRA](../Study%20topics/lora.html); [Quantization](../Study%20topics/quantization.html); [Golden Datasets](../Study%20topics/golden-datasets.html); [Hard Negatives](../Study%20topics/hard-negatives.html) |
 
 
 <!-- quantvault-day 04 -->
@@ -1827,7 +1827,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q059 — How do you handle citations and source attribution in a RAG system?（来源：[questions.md:70](interview/questions/questions.md)；[01-theory.md:36](interview/questions/01-theory.md)）
+- Q059 — How do you handle citations and source attribution in a RAG system?（来源：[questions.md:70](../interview/questions/questions.md)；[01-theory.md:36](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q059 -->
 <details>
@@ -1853,7 +1853,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q060 — How does Approximate Nearest Neighbor (ANN) search work? Explain HNSW indexing.（来源：[questions.md:71](interview/questions/questions.md)）
+- Q060 — How does Approximate Nearest Neighbor (ANN) search work? Explain HNSW indexing.（来源：[questions.md:71](../interview/questions/questions.md)）
 
 <!-- interview-answer Q060 -->
 <details>
@@ -1879,7 +1879,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q061 — Where do embeddings fail? Discuss negation, temporal reasoning, and precision requirements.（来源：[questions.md:72](interview/questions/questions.md)）
+- Q061 — Where do embeddings fail? Discuss negation, temporal reasoning, and precision requirements.（来源：[questions.md:72](../interview/questions/questions.md)）
 
 <!-- interview-answer Q061 -->
 <details>
@@ -1905,7 +1905,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q062 — What is semantic caching and how can it reduce cost and latency in a RAG system?（来源：[questions.md:73](interview/questions/questions.md)）
+- Q062 — What is semantic caching and how can it reduce cost and latency in a RAG system?（来源：[questions.md:73](../interview/questions/questions.md)）
 
 <!-- interview-answer Q062 -->
 <details>
@@ -1931,7 +1931,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q063 — Design a RAG system that maintains context across multi-turn conversations.（来源：[questions.md:74](interview/questions/questions.md)）
+- Q063 — Design a RAG system that maintains context across multi-turn conversations.（来源：[questions.md:74](../interview/questions/questions.md)）
 
 <!-- interview-answer Q063 -->
 <details>
@@ -1957,7 +1957,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q064 — What are the key tradeoffs when designing a RAG system (latency vs accuracy, chunk size vs context, cost vs quality)?（来源：[questions.md:75](interview/questions/questions.md)）
+- Q064 — What are the key tradeoffs when designing a RAG system (latency vs accuracy, chunk size vs context, cost vs quality)?（来源：[questions.md:75](../interview/questions/questions.md)）
 
 <!-- interview-answer Q064 -->
 <details>
@@ -1983,7 +1983,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q065 — How do you optimize RAG latency in production?（来源：[questions.md:76](interview/questions/questions.md)）
+- Q065 — How do you optimize RAG latency in production?（来源：[questions.md:76](../interview/questions/questions.md)）
 
 <!-- interview-answer Q065 -->
 <details>
@@ -2009,7 +2009,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q471 — What's RAG? Explain the complete process.（来源：[01-theory.md:31](interview/questions/01-theory.md)）
+- Q471 — What's RAG? Explain the complete process.（来源：[01-theory.md:31](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q471 -->
 <details>
@@ -2035,7 +2035,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q472 — Text vs Vector search. When would you use each?（来源：[01-theory.md:32](interview/questions/01-theory.md)）
+- Q472 — Text vs Vector search. When would you use each?（来源：[01-theory.md:32](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q472 -->
 <details>
@@ -2061,7 +2061,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q473 — You're making a system for huge PDF reports. How would you process them?（来源：[01-theory.md:33](interview/questions/01-theory.md)）
+- Q473 — You're making a system for huge PDF reports. How would you process them?（来源：[01-theory.md:33](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q473 -->
 <details>
@@ -2087,7 +2087,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q474 — What is semantic caching?（来源：[01-theory.md:37](interview/questions/01-theory.md)）
+- Q474 — What is semantic caching?（来源：[01-theory.md:37](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q474 -->
 <details>
@@ -2113,7 +2113,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q475 — How do you scale a RAG system to 10M+ articles?（来源：[01-theory.md:38](interview/questions/01-theory.md)）
+- Q475 — How do you scale a RAG system to 10M+ articles?（来源：[01-theory.md:38](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q475 -->
 <details>
@@ -2139,7 +2139,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q476 — What are the key tradeoffs when designing a RAG system?（来源：[01-theory.md:39](interview/questions/01-theory.md)）
+- Q476 — What are the key tradeoffs when designing a RAG system?（来源：[01-theory.md:39](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q476 -->
 <details>
@@ -2165,7 +2165,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q066 — What is an AI agent and what is its role in a broader system?（来源：[questions.md:80](interview/questions/questions.md)）
+- Q066 — What is an AI agent and what is its role in a broader system?（来源：[questions.md:80](../interview/questions/questions.md)）
 
 <!-- interview-answer Q066 -->
 <details>
@@ -2191,7 +2191,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q067 — What's the difference between an agent and a simple LLM chain? (reported across multiple companies)（来源：[questions.md:81](interview/questions/questions.md)）
+- Q067 — What's the difference between an agent and a simple LLM chain? (reported across multiple companies)（来源：[questions.md:81](../interview/questions/questions.md)）
 
 <!-- interview-answer Q067 -->
 <details>
@@ -2217,7 +2217,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q068 — What makes an AI system truly agentic and what does not qualify?（来源：[questions.md:82](interview/questions/questions.md)）
+- Q068 — What makes an AI system truly agentic and what does not qualify?（来源：[questions.md:82](../interview/questions/questions.md)）
 
 <!-- interview-answer Q068 -->
 <details>
@@ -2243,7 +2243,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q069 — When is an agentic architecture the wrong solution?（来源：[questions.md:83](interview/questions/questions.md)）
+- Q069 — When is an agentic architecture the wrong solution?（来源：[questions.md:83](../interview/questions/questions.md)）
 
 <!-- interview-answer Q069 -->
 <details>
@@ -2269,7 +2269,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q070 — How do you define and enforce agent autonomy boundaries?（来源：[questions.md:84](interview/questions/questions.md)）
+- Q070 — How do you define and enforce agent autonomy boundaries?（来源：[questions.md:84](../interview/questions/questions.md)）
 
 <!-- interview-answer Q070 -->
 <details>
@@ -2295,7 +2295,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q071 — What are the essential components of an agent beyond an LLM?（来源：[questions.md:85](interview/questions/questions.md)；[01-theory.md:47](interview/questions/01-theory.md)）
+- Q071 — What are the essential components of an agent beyond an LLM?（来源：[questions.md:85](../interview/questions/questions.md)；[01-theory.md:47](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q071 -->
 <details>
@@ -2324,18 +2324,18 @@ Follow-up
 
 <a id="day-05"></a>
 
-### 周五 10/9
+### 周五 11/13
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Sorting; Binary Search; Complexity Analysis<br>LeetCode: [704. Binary Search](https://leetcode.com/problems/binary-search/); [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/); [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)<br>资料：[Sorting](Study%20topics/sorting.html); [Binary Search](Study%20topics/binary-search.html); [Complexity Analysis](Study%20topics/complexity-analysis.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Sorting; Binary Search; Complexity Analysis + LeetCode Top 150<br>计划原题（3 题）: [704. Binary Search](https://leetcode.com/problems/binary-search/) · Easy; [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) · Easy; [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) · Medium<br>Top 150（3 题）: [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) · Binary Search · Medium; [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) · Binary Search · Medium; [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · Binary Search · Medium<br>资料：[Sorting](../Study%20topics/sorting.html); [Binary Search](../Study%20topics/binary-search.html); [Complexity Analysis](../Study%20topics/complexity-analysis.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Bias-Variance; Overfitting; Regularization; Linear Regression](Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [Notebook](notebook/05_bias_variance_overfitting_regularization_linear_regression.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Cache and API Service](Study%20topics/cache-and-api-service.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Bias-Variance; Overfitting; Regularization; Linear Regression](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [Notebook](../notebook/05_bias_variance_overfitting_regularization_linear_regression.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Cache and API Service](../Study%20topics/cache-and-api-service.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Metric Audit and Retrieval Baseline<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-05) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Agents and Tool Use — 20 items |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities<br>当日概念索引（按需）：[Embeddings](Study%20topics/embeddings.html); [Vector Similarity](Study%20topics/vector-similarity.html); [Recall@k](Study%20topics/recall-k.html); [Precision@k](Study%20topics/precision-k.html); [MRR](Study%20topics/mrr.html); [nDCG](Study%20topics/ndcg.html); [Caching](Study%20topics/caching.html); [Freshness](Study%20topics/freshness.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities<br>当日概念索引（按需）：[Embeddings](../Study%20topics/embeddings.html); [Vector Similarity](../Study%20topics/vector-similarity.html); [Recall@k](../Study%20topics/recall-k.html); [Precision@k](../Study%20topics/precision-k.html); [MRR](../Study%20topics/mrr.html); [nDCG](../Study%20topics/ndcg.html); [Caching](../Study%20topics/caching.html); [Freshness](../Study%20topics/freshness.html) |
 
 <!-- quantvault-day 05 -->
 
@@ -2356,7 +2356,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q072 — How do you prevent agents from over-reasoning or over-planning?（来源：[questions.md:86](interview/questions/questions.md)）
+- Q072 — How do you prevent agents from over-reasoning or over-planning?（来源：[questions.md:86](../interview/questions/questions.md)）
 
 <!-- interview-answer Q072 -->
 <details>
@@ -2382,7 +2382,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q073 — Walk through a production-ready agent architecture.（来源：[questions.md:87](interview/questions/questions.md)）
+- Q073 — Walk through a production-ready agent architecture.（来源：[questions.md:87](../interview/questions/questions.md)）
 
 <!-- interview-answer Q073 -->
 <details>
@@ -2408,7 +2408,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q074 — What logic belongs in the orchestrator vs the LLM?（来源：[questions.md:88](interview/questions/questions.md)）
+- Q074 — What logic belongs in the orchestrator vs the LLM?（来源：[questions.md:88](../interview/questions/questions.md)）
 
 <!-- interview-answer Q074 -->
 <details>
@@ -2434,7 +2434,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q075 — How do you design a safe and debuggable agent loop?（来源：[questions.md:89](interview/questions/questions.md)）
+- Q075 — How do you design a safe and debuggable agent loop?（来源：[questions.md:89](../interview/questions/questions.md)）
 
 <!-- interview-answer Q075 -->
 <details>
@@ -2460,7 +2460,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q076 — How do you implement termination conditions in long-running agents?（来源：[questions.md:90](interview/questions/questions.md)；[01-theory.md:52](interview/questions/01-theory.md)）
+- Q076 — How do you implement termination conditions in long-running agents?（来源：[questions.md:90](../interview/questions/questions.md)；[01-theory.md:52](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q076 -->
 <details>
@@ -2486,7 +2486,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q077 — How do agents decompose high-level goals into executable steps?（来源：[questions.md:91](interview/questions/questions.md)）
+- Q077 — How do agents decompose high-level goals into executable steps?（来源：[questions.md:91](../interview/questions/questions.md)）
 
 <!-- interview-answer Q077 -->
 <details>
@@ -2512,7 +2512,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q078 — Chain-of-thought vs tree-of-thought vs graph planning - when would you use each?（来源：[questions.md:92](interview/questions/questions.md)）
+- Q078 — Chain-of-thought vs tree-of-thought vs graph planning - when would you use each?（来源：[questions.md:92](../interview/questions/questions.md)）
 
 <!-- interview-answer Q078 -->
 <details>
@@ -2538,7 +2538,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q079 — How do you detect and stop infinite planning loops?（来源：[questions.md:93](interview/questions/questions.md)；[01-theory.md:51](interview/questions/01-theory.md)）
+- Q079 — How do you detect and stop infinite planning loops?（来源：[questions.md:93](../interview/questions/questions.md)；[01-theory.md:51](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q079 -->
 <details>
@@ -2564,7 +2564,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q080 — How do you handle partial observability or missing information?（来源：[questions.md:94](interview/questions/questions.md)）
+- Q080 — How do you handle partial observability or missing information?（来源：[questions.md:94](../interview/questions/questions.md)）
 
 <!-- interview-answer Q080 -->
 <details>
@@ -2590,7 +2590,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q081 — How do agents decide a task is "done"?（来源：[questions.md:95](interview/questions/questions.md)）
+- Q081 — How do agents decide a task is "done"?（来源：[questions.md:95](../interview/questions/questions.md)）
 
 <!-- interview-answer Q081 -->
 <details>
@@ -2616,7 +2616,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q082 — What planning failures are hardest to detect in production?（来源：[questions.md:96](interview/questions/questions.md)）
+- Q082 — What planning failures are hardest to detect in production?（来源：[questions.md:96](../interview/questions/questions.md)）
 
 <!-- interview-answer Q082 -->
 <details>
@@ -2642,7 +2642,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q083 — How do agents decide which tool to use?（来源：[questions.md:97](interview/questions/questions.md)；[01-theory.md:48](interview/questions/01-theory.md)）
+- Q083 — How do agents decide which tool to use?（来源：[questions.md:97](../interview/questions/questions.md)；[01-theory.md:48](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q083 -->
 <details>
@@ -2668,7 +2668,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q084 — How do you design tool schemas that reduce hallucinated actions?（来源：[questions.md:98](interview/questions/questions.md)）
+- Q084 — How do you design tool schemas that reduce hallucinated actions?（来源：[questions.md:98](../interview/questions/questions.md)）
 
 <!-- interview-answer Q084 -->
 <details>
@@ -2694,7 +2694,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q085 — How do you sandbox tool execution safely?（来源：[questions.md:99](interview/questions/questions.md)；[01-theory.md:53](interview/questions/01-theory.md)）
+- Q085 — How do you sandbox tool execution safely?（来源：[questions.md:99](../interview/questions/questions.md)；[01-theory.md:53](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q085 -->
 <details>
@@ -2720,7 +2720,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q086 — How do you handle tool failures, retries, and idempotency?（来源：[questions.md:100](interview/questions/questions.md)；[01-theory.md:54](interview/questions/01-theory.md)）
+- Q086 — How do you handle tool failures, retries, and idempotency?（来源：[questions.md:100](../interview/questions/questions.md)；[01-theory.md:54](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q086 -->
 <details>
@@ -2750,7 +2750,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q087 — What are the biggest security risks with tool-using agents?（来源：[questions.md:101](interview/questions/questions.md)；[01-theory.md:55](interview/questions/01-theory.md)）
+- Q087 — What are the biggest security risks with tool-using agents?（来源：[questions.md:101](../interview/questions/questions.md)；[01-theory.md:55](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q087 -->
 <details>
@@ -2776,7 +2776,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q088 — How do you control cost explosions from tool calls?（来源：[questions.md:102](interview/questions/questions.md)）
+- Q088 — How do you control cost explosions from tool calls?（来源：[questions.md:102](../interview/questions/questions.md)）
 
 <!-- interview-answer Q088 -->
 <details>
@@ -2802,7 +2802,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q089 — Stateless vs stateful agents - tradeoffs and use cases?（来源：[questions.md:103](interview/questions/questions.md)）
+- Q089 — Stateless vs stateful agents - tradeoffs and use cases?（来源：[questions.md:103](../interview/questions/questions.md)）
 
 <!-- interview-answer Q089 -->
 <details>
@@ -2828,7 +2828,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q090 — How do you version and roll back agent behavior?（来源：[questions.md:104](interview/questions/questions.md)）
+- Q090 — How do you version and roll back agent behavior?（来源：[questions.md:104](../interview/questions/questions.md)）
 
 <!-- interview-answer Q090 -->
 <details>
@@ -2854,7 +2854,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q091 — Describe how you would architect an AI agent system, including the agent loop, tool interfaces, memory design, orchestration technologies, and safety considerations.（来源：[questions.md:105](interview/questions/questions.md)）
+- Q091 — Describe how you would architect an AI agent system, including the agent loop, tool interfaces, memory design, orchestration technologies, and safety considerations.（来源：[questions.md:105](../interview/questions/questions.md)）
 
 <!-- interview-answer Q091 -->
 <details>
@@ -2888,18 +2888,18 @@ Follow-up
 
 <a id="day-06"></a>
 
-### 周一 10/12
+### 周一 11/16
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Hash Maps and Two Pointers: Review<br>LeetCode: [1. Two Sum](https://leetcode.com/problems/two-sum/); [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/); [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)<br>资料：[Hash Maps](Study%20topics/hash-maps.html); [Arrays and Strings](Study%20topics/arrays-and-strings.html); [Two Pointers](Study%20topics/two-pointers.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Hash Maps and Two Pointers: Review + LeetCode Top 150<br>Top 150（4 题）: [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) · Binary Search · Medium; [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) · Intervals · Medium; [57. Insert Interval](https://leetcode.com/problems/insert-interval/) · Intervals · Medium; [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) · Intervals · Easy<br>复习（每题约 10 分钟，做过的题限时重做）: [1. Two Sum](https://leetcode.com/problems/two-sum/); [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/); [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)<br>资料：[Hash Maps](../Study%20topics/hash-maps.html); [Arrays and Strings](../Study%20topics/arrays-and-strings.html); [Two Pointers](../Study%20topics/two-pointers.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Bias-Variance; Overfitting; Regularization; Linear Regression](Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [Notebook](notebook/05_bias_variance_overfitting_regularization_linear_regression.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Cache and API Service](Study%20topics/cache-and-api-service.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Bias-Variance; Overfitting; Regularization; Linear Regression](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [Notebook](../notebook/05_bias_variance_overfitting_regularization_linear_regression.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Cache and API Service](../Study%20topics/cache-and-api-service.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Chunking Experiment<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-06) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Agents and Tool Use; Technical Questions / Fine-tuning and Training — 19 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Chunking](Study%20topics/chunking.html); [Metadata](Study%20topics/metadata.html); [Context Budgets](Study%20topics/context-budgets.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Chunking](../Study%20topics/chunking.html); [Metadata](../Study%20topics/metadata.html); [Context Budgets](../Study%20topics/context-budgets.html) |
 
 
 <!-- quantvault-day 06 -->
@@ -2921,7 +2921,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q092 — Design an agent analyzing customer support tickets, drafting responses, and escalating complex issues.（来源：[questions.md:106](interview/questions/questions.md)）
+- Q092 — Design an agent analyzing customer support tickets, drafting responses, and escalating complex issues.（来源：[questions.md:106](../interview/questions/questions.md)）
 
 <!-- interview-answer Q092 -->
 <details>
@@ -2947,7 +2947,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q093 — Create a system where agents collaborate on research reports with citations.（来源：[questions.md:107](interview/questions/questions.md)）
+- Q093 — Create a system where agents collaborate on research reports with citations.（来源：[questions.md:107](../interview/questions/questions.md)）
 
 <!-- interview-answer Q093 -->
 <details>
@@ -2973,7 +2973,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q094 — Build an agent reviewing code and suggesting improvements.（来源：[questions.md:108](interview/questions/questions.md)；[01-theory.md:57](interview/questions/01-theory.md)）
+- Q094 — Build an agent reviewing code and suggesting improvements.（来源：[questions.md:108](../interview/questions/questions.md)；[01-theory.md:57](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q094 -->
 <details>
@@ -2999,7 +2999,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q095 — How do you explain agentic systems to non-technical stakeholders?（来源：[questions.md:109](interview/questions/questions.md)；[01-theory.md:50](interview/questions/01-theory.md)）
+- Q095 — How do you explain agentic systems to non-technical stakeholders?（来源：[questions.md:109](../interview/questions/questions.md)；[01-theory.md:50](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q095 -->
 <details>
@@ -3025,7 +3025,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q096 — What types of memory do agentic systems need? Describe working, episodic, semantic, and procedural memory.（来源：[questions.md:110](interview/questions/questions.md)）
+- Q096 — What types of memory do agentic systems need? Describe working, episodic, semantic, and procedural memory.（来源：[questions.md:110](../interview/questions/questions.md)）
 
 <!-- interview-answer Q096 -->
 <details>
@@ -3051,7 +3051,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q097 — How do you design long-term memory without polluting it?（来源：[questions.md:111](interview/questions/questions.md)）
+- Q097 — How do you design long-term memory without polluting it?（来源：[questions.md:111](../interview/questions/questions.md)）
 
 <!-- interview-answer Q097 -->
 <details>
@@ -3077,7 +3077,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q098 — How do you implement human-in-the-loop (HIL) patterns and decide when to trigger human review?（来源：[questions.md:112](interview/questions/questions.md)）
+- Q098 — How do you implement human-in-the-loop (HIL) patterns and decide when to trigger human review?（来源：[questions.md:112](../interview/questions/questions.md)）
 
 <!-- interview-answer Q098 -->
 <details>
@@ -3103,7 +3103,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q099 — How do you monitor and observe autonomous agent behavior in production?（来源：[questions.md:113](interview/questions/questions.md)；[01-theory.md:83](interview/questions/01-theory.md)）
+- Q099 — How do you monitor and observe autonomous agent behavior in production?（来源：[questions.md:113](../interview/questions/questions.md)；[01-theory.md:83](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q099 -->
 <details>
@@ -3129,7 +3129,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q100 — How do you architect agents for regulated or compliance-heavy domains (e.g., financial, healthcare)?（来源：[questions.md:114](interview/questions/questions.md)）
+- Q100 — How do you architect agents for regulated or compliance-heavy domains (e.g., financial, healthcare)?（来源：[questions.md:114](../interview/questions/questions.md)）
 
 <!-- interview-answer Q100 -->
 <details>
@@ -3155,7 +3155,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q101 — When do you use orchestration vs choreography patterns for multi-agent systems?（来源：[questions.md:115](interview/questions/questions.md)）
+- Q101 — When do you use orchestration vs choreography patterns for multi-agent systems?（来源：[questions.md:115](../interview/questions/questions.md)）
 
 <!-- interview-answer Q101 -->
 <details>
@@ -3181,7 +3181,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q102 — How do you filter PII in agent pipelines before data reaches the LLM?（来源：[questions.md:116](interview/questions/questions.md)）
+- Q102 — How do you filter PII in agent pipelines before data reaches the LLM?（来源：[questions.md:116](../interview/questions/questions.md)）
 
 <!-- interview-answer Q102 -->
 <details>
@@ -3207,7 +3207,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q103 — How do you evaluate agent performance? What metrics matter (tool selection quality, action advancement, context adherence)?（来源：[questions.md:117](interview/questions/questions.md)；[01-theory.md:72](interview/questions/01-theory.md)）
+- Q103 — How do you evaluate agent performance? What metrics matter (tool selection quality, action advancement, context adherence)?（来源：[questions.md:117](../interview/questions/questions.md)；[01-theory.md:72](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q103 -->
 <details>
@@ -3233,7 +3233,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q477 — What makes an AI system agentic?（来源：[01-theory.md:46](interview/questions/01-theory.md)）
+- Q477 — What makes an AI system agentic?（来源：[01-theory.md:46](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q477 -->
 <details>
@@ -3259,7 +3259,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q478 — When agent is the wrong solution?（来源：[01-theory.md:49](interview/questions/01-theory.md)）
+- Q478 — When agent is the wrong solution?（来源：[01-theory.md:49](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q478 -->
 <details>
@@ -3285,7 +3285,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q479 — How do you create an agent for analyzing customer support tickets, drafting responses, and escalating complex issues.（来源：[01-theory.md:56](interview/questions/01-theory.md)）
+- Q479 — How do you create an agent for analyzing customer support tickets, drafting responses, and escalating complex issues.（来源：[01-theory.md:56](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q479 -->
 <details>
@@ -3311,7 +3311,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q104 — When would you fine-tune vs use prompt engineering? (reported across multiple companies)（来源：[questions.md:121](interview/questions/questions.md)）
+- Q104 — When would you fine-tune vs use prompt engineering? (reported across multiple companies)（来源：[questions.md:121](../interview/questions/questions.md)）
 
 <!-- interview-answer Q104 -->
 <details>
@@ -3337,7 +3337,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q105 — What is PEFT/LoRA and when would you use it?（来源：[questions.md:122](interview/questions/questions.md)；[01-theory.md:127](interview/questions/01-theory.md)）
+- Q105 — What is PEFT/LoRA and when would you use it?（来源：[questions.md:122](../interview/questions/questions.md)；[01-theory.md:127](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q105 -->
 <details>
@@ -3367,7 +3367,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q106 — What is QLoRA and how does it differ from LoRA? When would you choose one over the other?（来源：[questions.md:123](interview/questions/questions.md)）
+- Q106 — What is QLoRA and how does it differ from LoRA? When would you choose one over the other?（来源：[questions.md:123](../interview/questions/questions.md)）
 
 <!-- interview-answer Q106 -->
 <details>
@@ -3397,7 +3397,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q107 — What is RLHF and why is it important?（来源：[questions.md:124](interview/questions/questions.md)）
+- Q107 — What is RLHF and why is it important?（来源：[questions.md:124](../interview/questions/questions.md)）
 
 <!-- interview-answer Q107 -->
 <details>
@@ -3426,18 +3426,18 @@ Follow-up
 
 <a id="day-07"></a>
 
-### 周二 10/13
+### 周二 11/17
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: INNER JOIN, LEFT JOIN, Duplicate Rows<br>LeetCode: [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/); [577. Employee Bonus](https://leetcode.com/problems/employee-bonus/); [1581. Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)<br>资料：[JOINs](Study%20topics/joins.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: INNER JOIN, LEFT JOIN, Duplicate Rows + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/); [577. Employee Bonus](https://leetcode.com/problems/employee-bonus/); [1581. Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)<br>Top 150（1 小时，3 题）: [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) · Intervals · Medium; [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) · Array / String · Easy; [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) · Array / String · Easy<br>资料：[JOINs](../Study%20topics/joins.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Logistic Regression; Precision; Recall; F1; Class Imbalance](Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [Notebook](notebook/06_logistic_regression_precision_recall_f1_class_imbalance.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Queues and Job Scheduler](Study%20topics/queues-and-job-scheduler.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Logistic Regression; Precision; Recall; F1; Class Imbalance](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [Notebook](../notebook/06_logistic_regression_precision_recall_f1_class_imbalance.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Embedding Model Experiment<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-07) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Fine-tuning and Training; Technical Questions / Evaluation and Metrics — 19 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Keyword / Vector / Hybrid Search](Study%20topics/keyword-vector-hybrid-search.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Keyword / Vector / Hybrid Search](../Study%20topics/keyword-vector-hybrid-search.html) |
 
 
 <!-- quantvault-day 07 -->
@@ -3458,7 +3458,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q108 — Fine-tune or use prompt-engineered RAG?（来源：[questions.md:125](interview/questions/questions.md)）
+- Q108 — Fine-tune or use prompt-engineered RAG?（来源：[questions.md:125](../interview/questions/questions.md)）
 
 <!-- interview-answer Q108 -->
 <details>
@@ -3484,7 +3484,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q109 — How would you design a model that can solve math problems? Walk through data collection, supervised fine-tuning, post-training, and evaluation.（来源：[questions.md:126](interview/questions/questions.md)；[01-theory.md:131](interview/questions/01-theory.md)）
+- Q109 — How would you design a model that can solve math problems? Walk through data collection, supervised fine-tuning, post-training, and evaluation.（来源：[questions.md:126](../interview/questions/questions.md)；[01-theory.md:131](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q109 -->
 <details>
@@ -3510,7 +3510,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q110 — How would you design a scalable and efficient system for training a large language model, considering both computational and data constraints?（来源：[questions.md:127](interview/questions/questions.md)）
+- Q110 — How would you design a scalable and efficient system for training a large language model, considering both computational and data constraints?（来源：[questions.md:127](../interview/questions/questions.md)）
 
 <!-- interview-answer Q110 -->
 <details>
@@ -3536,7 +3536,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q111 — Explain the RLHF pipeline: supervised fine-tuning, reward model training, and PPO. How does DPO simplify this?（来源：[questions.md:128](interview/questions/questions.md)；[01-theory.md:128](interview/questions/01-theory.md)）
+- Q111 — Explain the RLHF pipeline: supervised fine-tuning, reward model training, and PPO. How does DPO simplify this?（来源：[questions.md:128](../interview/questions/questions.md)；[01-theory.md:128](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q111 -->
 <details>
@@ -3566,7 +3566,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q112 — What is instruction tuning and how does it differ from pre-training?（来源：[questions.md:129](interview/questions/questions.md)；[01-theory.md:126](interview/questions/01-theory.md)）
+- Q112 — What is instruction tuning and how does it differ from pre-training?（来源：[questions.md:129](../interview/questions/questions.md)；[01-theory.md:126](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q112 -->
 <details>
@@ -3592,7 +3592,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q113 — What is speculative decoding and how does it speed up inference?（来源：[questions.md:130](interview/questions/questions.md)）
+- Q113 — What is speculative decoding and how does it speed up inference?（来源：[questions.md:130](../interview/questions/questions.md)）
 
 <!-- interview-answer Q113 -->
 <details>
@@ -3622,7 +3622,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q114 — How do you convert implicit user behavior (edits, acceptance, rejection) into training signals for model improvement?（来源：[questions.md:131](interview/questions/questions.md)；[01-theory.md:130](interview/questions/01-theory.md)）
+- Q114 — How do you convert implicit user behavior (edits, acceptance, rejection) into training signals for model improvement?（来源：[questions.md:131](../interview/questions/questions.md)；[01-theory.md:130](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q114 -->
 <details>
@@ -3648,7 +3648,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q115 — Explain quantization. What are the trade-offs between model size, speed, and accuracy?（来源：[questions.md:132](interview/questions/questions.md)；[01-theory.md:129](interview/questions/01-theory.md)）
+- Q115 — Explain quantization. What are the trade-offs between model size, speed, and accuracy?（来源：[questions.md:132](../interview/questions/questions.md)；[01-theory.md:129](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q115 -->
 <details>
@@ -3674,7 +3674,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q491 — When would you fine-tune vs use prompt engineering vs RAG?（来源：[01-theory.md:125](interview/questions/01-theory.md)）
+- Q491 — When would you fine-tune vs use prompt engineering vs RAG?（来源：[01-theory.md:125](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q491 -->
 <details>
@@ -3700,7 +3700,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q116 — What metrics do you consider when benchmarking and evaluating LLM performance?（来源：[questions.md:136](interview/questions/questions.md)）
+- Q116 — What metrics do you consider when benchmarking and evaluating LLM performance?（来源：[questions.md:136](../interview/questions/questions.md)）
 
 <!-- interview-answer Q116 -->
 <details>
@@ -3726,7 +3726,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q117 — How do you evaluate a chatbot? (candidates wish they prepared for this)（来源：[questions.md:137](interview/questions/questions.md)）
+- Q117 — How do you evaluate a chatbot? (candidates wish they prepared for this)（来源：[questions.md:137](../interview/questions/questions.md)）
 
 <!-- interview-answer Q117 -->
 <details>
@@ -3752,7 +3752,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q118 — How do you detect and mitigate hallucinations in production? (reported across multiple companies)（来源：[questions.md:138](interview/questions/questions.md)）
+- Q118 — How do you detect and mitigate hallucinations in production? (reported across multiple companies)（来源：[questions.md:138](../interview/questions/questions.md)）
 
 <!-- interview-answer Q118 -->
 <details>
@@ -3778,7 +3778,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q119 — How would you prevent factual errors in a summarization system?（来源：[questions.md:139](interview/questions/questions.md)；[01-theory.md:69](interview/questions/01-theory.md)）
+- Q119 — How would you prevent factual errors in a summarization system?（来源：[questions.md:139](../interview/questions/questions.md)；[01-theory.md:69](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q119 -->
 <details>
@@ -3804,7 +3804,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q120 — How would you reduce hallucinations in a medical chatbot?（来源：[questions.md:140](interview/questions/questions.md)）
+- Q120 — How would you reduce hallucinations in a medical chatbot?（来源：[questions.md:140](../interview/questions/questions.md)）
 
 <!-- interview-answer Q120 -->
 <details>
@@ -3830,7 +3830,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q121 — What happens when the LLM is confidently wrong? How do you debug a RAG chatbot giving confident but wrong answers? (candidates wish they prepared for this)（来源：[questions.md:141](interview/questions/questions.md)）
+- Q121 — What happens when the LLM is confidently wrong? How do you debug a RAG chatbot giving confident but wrong answers? (candidates wish they prepared for this)（来源：[questions.md:141](../interview/questions/questions.md)）
 
 <!-- interview-answer Q121 -->
 <details>
@@ -3856,7 +3856,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q122 — Explain SHAP, LIME, and model interpretability.（来源：[questions.md:142](interview/questions/questions.md)）
+- Q122 — Explain SHAP, LIME, and model interpretability.（来源：[questions.md:142](../interview/questions/questions.md)）
 
 <!-- interview-answer Q122 -->
 <details>
@@ -3882,7 +3882,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q123 — How do you detect and mitigate hallucinations?（来源：[questions.md:143](interview/questions/questions.md)；[01-theory.md:68](interview/questions/01-theory.md)）
+- Q123 — How do you detect and mitigate hallucinations?（来源：[questions.md:143](../interview/questions/questions.md)；[01-theory.md:68](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q123 -->
 <details>
@@ -3908,7 +3908,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q124 — Explain evaluation metrics: perplexity, ROUGE, BLEU. What are the pitfalls of n-gram-based metrics?（来源：[questions.md:144](interview/questions/questions.md)）
+- Q124 — Explain evaluation metrics: perplexity, ROUGE, BLEU. What are the pitfalls of n-gram-based metrics?（来源：[questions.md:144](../interview/questions/questions.md)）
 
 <!-- interview-answer Q124 -->
 <details>
@@ -3934,7 +3934,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q125 — What are your testing strategies for non-deterministic outputs?（来源：[questions.md:145](interview/questions/questions.md)）
+- Q125 — What are your testing strategies for non-deterministic outputs?（来源：[questions.md:145](../interview/questions/questions.md)）
 
 <!-- interview-answer Q125 -->
 <details>
@@ -3963,18 +3963,18 @@ Follow-up
 
 <a id="day-08"></a>
 
-### 周三 10/14
+### 周三 11/18
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Sliding Window; Prefix Sums<br>LeetCode: [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/); [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/); [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)<br>资料：[Sliding Window](Study%20topics/sliding-window.html); [Prefix Sums](Study%20topics/prefix-sums.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Sliding Window; Prefix Sums + LeetCode Top 150<br>计划原题（3 题）: [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · Medium; [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) · Medium; [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) · Medium<br>Top 150（3 题）: [27. Remove Element](https://leetcode.com/problems/remove-element/) · Array / String · Easy; [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) · Array / String · Easy; [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) · Array / String · Medium<br>资料：[Sliding Window](../Study%20topics/sliding-window.html); [Prefix Sums](../Study%20topics/prefix-sums.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Logistic Regression; Precision; Recall; F1; Class Imbalance](Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [Notebook](notebook/06_logistic_regression_precision_recall_f1_class_imbalance.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Queues and Job Scheduler](Study%20topics/queues-and-job-scheduler.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Logistic Regression; Precision; Recall; F1; Class Imbalance](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [Notebook](../notebook/06_logistic_regression_precision_recall_f1_class_imbalance.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: MMR Experiment and Held-Out Check<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-08) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Evaluation and Metrics — 20 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[MMR](Study%20topics/mmr.html); [Reranking](Study%20topics/reranking.html); [Query Reformulation](Study%20topics/query-reformulation.html); [Held-Out Evaluation](Study%20topics/held-out-evaluation.html); [Redundancy](Study%20topics/redundancy.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[MMR](../Study%20topics/mmr.html); [Reranking](../Study%20topics/reranking.html); [Query Reformulation](../Study%20topics/query-reformulation.html); [Held-Out Evaluation](../Study%20topics/held-out-evaluation.html); [Redundancy](../Study%20topics/redundancy.html) |
 
 
 <!-- quantvault-day 08 -->
@@ -3995,7 +3995,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q126 — How do you measure accuracy in generative systems where traditional metrics don't apply?（来源：[questions.md:146](interview/questions/questions.md)）
+- Q126 — How do you measure accuracy in generative systems where traditional metrics don't apply?（来源：[questions.md:146](../interview/questions/questions.md)）
 
 <!-- interview-answer Q126 -->
 <details>
@@ -4021,7 +4021,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q127 — What operational/business metrics matter for AI systems beyond accuracy? (win rate, deflection rate, p95 latency)（来源：[questions.md:147](interview/questions/questions.md)）
+- Q127 — What operational/business metrics matter for AI systems beyond accuracy? (win rate, deflection rate, p95 latency)（来源：[questions.md:147](../interview/questions/questions.md)）
 
 <!-- interview-answer Q127 -->
 <details>
@@ -4047,7 +4047,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q128 — How would you evaluate and monitor a model in production, not just offline?（来源：[questions.md:148](interview/questions/questions.md)；[01-theory.md:80](interview/questions/01-theory.md)）
+- Q128 — How would you evaluate and monitor a model in production, not just offline?（来源：[questions.md:148](../interview/questions/questions.md)；[01-theory.md:80](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q128 -->
 <details>
@@ -4073,7 +4073,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q129 — How have you addressed bias/fairness in your models? Can you provide an example of a trade-off you've faced?（来源：[questions.md:149](interview/questions/questions.md)）
+- Q129 — How have you addressed bias/fairness in your models? Can you provide an example of a trade-off you've faced?（来源：[questions.md:149](../interview/questions/questions.md)）
 
 <!-- interview-answer Q129 -->
 <details>
@@ -4099,7 +4099,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q130 — What is time to first token and why does it matter for user experience?（来源：[questions.md:150](interview/questions/questions.md)；[01-theory.md:91](interview/questions/01-theory.md)）
+- Q130 — What is time to first token and why does it matter for user experience?（来源：[questions.md:150](../interview/questions/questions.md)；[01-theory.md:91](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q130 -->
 <details>
@@ -4125,7 +4125,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q131 — How do you measure hallucination rate in production?（来源：[questions.md:151](interview/questions/questions.md)；[01-theory.md:82](interview/questions/01-theory.md)）
+- Q131 — How do you measure hallucination rate in production?（来源：[questions.md:151](../interview/questions/questions.md)；[01-theory.md:82](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q131 -->
 <details>
@@ -4151,7 +4151,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q132 — What is "vibes-based" evaluation vs. a formal eval framework? How do you build proper evals?（来源：[questions.md:152](interview/questions/questions.md)）
+- Q132 — What is "vibes-based" evaluation vs. a formal eval framework? How do you build proper evals?（来源：[questions.md:152](../interview/questions/questions.md)）
 
 <!-- interview-answer Q132 -->
 <details>
@@ -4177,7 +4177,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q133 — How do you build a golden dataset for evaluation? How do you use it for regression testing?（来源：[questions.md:153](interview/questions/questions.md)）
+- Q133 — How do you build a golden dataset for evaluation? How do you use it for regression testing?（来源：[questions.md:153](../interview/questions/questions.md)）
 
 <!-- interview-answer Q133 -->
 <details>
@@ -4203,7 +4203,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q134 — How does the system get better over time? Describe feedback and reinforcement loops.（来源：[questions.md:154](interview/questions/questions.md)）
+- Q134 — How does the system get better over time? Describe feedback and reinforcement loops.（来源：[questions.md:154](../interview/questions/questions.md)）
 
 <!-- interview-answer Q134 -->
 <details>
@@ -4229,7 +4229,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q135 — How do you decide success metrics for an ML model?（来源：[questions.md:155](interview/questions/questions.md)）
+- Q135 — How do you decide success metrics for an ML model?（来源：[questions.md:155](../interview/questions/questions.md)）
 
 <!-- interview-answer Q135 -->
 <details>
@@ -4255,7 +4255,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q136 — How would you implement A/B testing for different prompt variations?（来源：[questions.md:156](interview/questions/questions.md)）
+- Q136 — How would you implement A/B testing for different prompt variations?（来源：[questions.md:156](../interview/questions/questions.md)）
 
 <!-- interview-answer Q136 -->
 <details>
@@ -4281,7 +4281,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q137 — How would you test a new model before full deployment? Describe A/B testing, canary, interleaved, and shadow testing strategies.（来源：[questions.md:157](interview/questions/questions.md)）
+- Q137 — How would you test a new model before full deployment? Describe A/B testing, canary, interleaved, and shadow testing strategies.（来源：[questions.md:157](../interview/questions/questions.md)）
 
 <!-- interview-answer Q137 -->
 <details>
@@ -4307,7 +4307,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q138 — Two models have identical accuracy but different confidence levels. Which do you choose? Explain model calibration.（来源：[questions.md:158](interview/questions/questions.md)）
+- Q138 — Two models have identical accuracy but different confidence levels. Which do you choose? Explain model calibration.（来源：[questions.md:158](../interview/questions/questions.md)）
 
 <!-- interview-answer Q138 -->
 <details>
@@ -4337,7 +4337,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q139 — A production chatbot's accuracy dropped from 95% to 80% in six weeks. How do you diagnose the root cause before retraining?（来源：[questions.md:159](interview/questions/questions.md)）
+- Q139 — A production chatbot's accuracy dropped from 95% to 80% in six weeks. How do you diagnose the root cause before retraining?（来源：[questions.md:159](../interview/questions/questions.md)）
 
 <!-- interview-answer Q139 -->
 <details>
@@ -4363,7 +4363,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q480 — How do you ensure the output from LLMs is consistent and accurate?（来源：[01-theory.md:64](interview/questions/01-theory.md)）
+- Q480 — How do you ensure the output from LLMs is consistent and accurate?（来源：[01-theory.md:64](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q480 -->
 <details>
@@ -4389,7 +4389,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q481 — How do you evaluate a chatbot?（来源：[01-theory.md:65](interview/questions/01-theory.md)）
+- Q481 — How do you evaluate a chatbot?（来源：[01-theory.md:65](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q481 -->
 <details>
@@ -4415,7 +4415,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q482 — What metrics do you consider when evaluating LLM performance?（来源：[01-theory.md:66](interview/questions/01-theory.md)）
+- Q482 — What metrics do you consider when evaluating LLM performance?（来源：[01-theory.md:66](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q482 -->
 <details>
@@ -4441,7 +4441,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q483 — How do you build a golden dataset for evaluation?（来源：[01-theory.md:67](interview/questions/01-theory.md)）
+- Q483 — How do you build a golden dataset for evaluation?（来源：[01-theory.md:67](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q483 -->
 <details>
@@ -4467,7 +4467,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q484 — How do you debug a RAG chatbot giving confident but wrong answers?（来源：[01-theory.md:70](interview/questions/01-theory.md)）
+- Q484 — How do you debug a RAG chatbot giving confident but wrong answers?（来源：[01-theory.md:70](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q484 -->
 <details>
@@ -4493,7 +4493,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q485 — How do you evaluate a RAG pipeline?（来源：[01-theory.md:71](interview/questions/01-theory.md)）
+- Q485 — How do you evaluate a RAG pipeline?（来源：[01-theory.md:71](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q485 -->
 <details>
@@ -4522,18 +4522,18 @@ Follow-up
 
 <a id="day-09"></a>
 
-### 周四 10/15
+### 周四 11/19
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: Subqueries, CTEs, EXISTS<br>LeetCode: [197. Rising Temperature](https://leetcode.com/problems/rising-temperature/); [1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/); [1148. Article Views I](https://leetcode.com/problems/article-views-i/)<br>资料：[Subqueries](Study%20topics/subqueries.html); [CTEs](Study%20topics/ctes.html); [EXISTS](Study%20topics/exists.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Subqueries, CTEs, EXISTS + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [197. Rising Temperature](https://leetcode.com/problems/rising-temperature/); [1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/); [1148. Article Views I](https://leetcode.com/problems/article-views-i/)<br>Top 150（1 小时，3 题）: [55. Jump Game](https://leetcode.com/problems/jump-game/) · Array / String · Medium; [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) · Array / String · Easy; [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) · Array / String · Medium<br>资料：[Subqueries](../Study%20topics/subqueries.html); [CTEs](../Study%20topics/ctes.html); [EXISTS](../Study%20topics/exists.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [PR-AUC; ROC-AUC; Calibration](Study%20topics/pr-auc-roc-auc-calibration.html) · [Notebook](notebook/07_pr_auc_roc_auc_calibration.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Rate Limiting and Capacity](Study%20topics/rate-limiting-and-capacity.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [PR-AUC; ROC-AUC; Calibration](../Study%20topics/pr-auc-roc-auc-calibration.html) · [Notebook](../notebook/07_pr_auc_roc_auc_calibration.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Rate Limiting and Capacity](../Study%20topics/rate-limiting-and-capacity.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Evaluator Failures and Bounded Retries<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-09) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / ML Fundamentals; Technical Questions / Python and Software Engineering — 19 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Agents vs. Workflows](Study%20topics/agents-vs-workflows.html); [Function Calling](Study%20topics/function-calling.html); [Tool Schemas](Study%20topics/tool-schemas.html); [Termination Conditions](Study%20topics/termination-conditions.html); [Timeouts](Study%20topics/timeouts.html); [Backoff](Study%20topics/backoff.html); [Rate Limiting](Study%20topics/rate-limiting.html); [Capacity Planning](Study%20topics/capacity-planning.html); [Fail-Open vs. Fail-Closed](Study%20topics/fail-open-vs-fail-closed.html); [Retries](Study%20topics/retries.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Agents vs. Workflows](../Study%20topics/agents-vs-workflows.html); [Function Calling](../Study%20topics/function-calling.html); [Tool Schemas](../Study%20topics/tool-schemas.html); [Termination Conditions](../Study%20topics/termination-conditions.html); [Timeouts](../Study%20topics/timeouts.html); [Backoff](../Study%20topics/backoff.html); [Rate Limiting](../Study%20topics/rate-limiting.html); [Capacity Planning](../Study%20topics/capacity-planning.html); [Fail-Open vs. Fail-Closed](../Study%20topics/fail-open-vs-fail-closed.html); [Retries](../Study%20topics/retries.html) |
 
 
 <!-- quantvault-day 09 -->
@@ -4554,7 +4554,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q140 — How do you approach data pre-processing and feature engineering?（来源：[questions.md:163](interview/questions/questions.md)）
+- Q140 — How do you approach data pre-processing and feature engineering?（来源：[questions.md:163](../interview/questions/questions.md)）
 
 <!-- interview-answer Q140 -->
 <details>
@@ -4584,7 +4584,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q141 — Explain SQL versus NoSQL databases for AI workloads.（来源：[questions.md:164](interview/questions/questions.md)）
+- Q141 — Explain SQL versus NoSQL databases for AI workloads.（来源：[questions.md:164](../interview/questions/questions.md)）
 
 <!-- interview-answer Q141 -->
 <details>
@@ -4610,7 +4610,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q142 — What steps would you take to diagnose performance bugs in a model?（来源：[questions.md:165](interview/questions/questions.md)）
+- Q142 — What steps would you take to diagnose performance bugs in a model?（来源：[questions.md:165](../interview/questions/questions.md)）
 
 <!-- interview-answer Q142 -->
 <details>
@@ -4636,7 +4636,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q143 — Should you optimize for latency or throughput? (for a personal assistant with one request)（来源：[questions.md:166](interview/questions/questions.md)）
+- Q143 — Should you optimize for latency or throughput? (for a personal assistant with one request)（来源：[questions.md:166](../interview/questions/questions.md)）
 
 <!-- interview-answer Q143 -->
 <details>
@@ -4662,7 +4662,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q144 — Should you use data parallelism for a single-request personal assistant? Why or why not?（来源：[questions.md:167](interview/questions/questions.md)）
+- Q144 — Should you use data parallelism for a single-request personal assistant? Why or why not?（来源：[questions.md:167](../interview/questions/questions.md)）
 
 <!-- interview-answer Q144 -->
 <details>
@@ -4688,7 +4688,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q145 — Explain how Transformers work. Why are they foundational? (reported across multiple companies)（来源：[questions.md:168](interview/questions/questions.md)）
+- Q145 — Explain how Transformers work. Why are they foundational? (reported across multiple companies)（来源：[questions.md:168](../interview/questions/questions.md)）
 
 <!-- interview-answer Q145 -->
 <details>
@@ -4714,7 +4714,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q146 — How would you handle real-time versus batch processing for data updates? When is one preferred over the other?（来源：[questions.md:169](interview/questions/questions.md)；[questions.md:302](interview/questions/questions.md)；[questions.md:460](interview/questions/questions.md)；[04-ai-system-design.md:65](interview/questions/04-ai-system-design.md)）
+- Q146 — How would you handle real-time versus batch processing for data updates? When is one preferred over the other?（来源：[questions.md:169](../interview/questions/questions.md)；[questions.md:302](../interview/questions/questions.md)；[questions.md:460](../interview/questions/questions.md)；[04-ai-system-design.md:65](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q146 -->
 <details>
@@ -4740,7 +4740,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q147 — How do you ingest and process different types of data (structured, unstructured, event data)?（来源：[questions.md:170](interview/questions/questions.md)；[questions.md:303](interview/questions/questions.md)；[04-ai-system-design.md:66](interview/questions/04-ai-system-design.md)）
+- Q147 — How do you ingest and process different types of data (structured, unstructured, event data)?（来源：[questions.md:170](../interview/questions/questions.md)；[questions.md:303](../interview/questions/questions.md)；[04-ai-system-design.md:66](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q147 -->
 <details>
@@ -4766,7 +4766,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q148 — Explain the bias-variance tradeoff in simple terms.（来源：[questions.md:171](interview/questions/questions.md)）
+- Q148 — Explain the bias-variance tradeoff in simple terms.（来源：[questions.md:171](../interview/questions/questions.md)）
 
 <!-- interview-answer Q148 -->
 <details>
@@ -4792,7 +4792,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q149 — Why are neural networks usually not the first choice for tabular data?（来源：[questions.md:172](interview/questions/questions.md)）
+- Q149 — Why are neural networks usually not the first choice for tabular data?（来源：[questions.md:172](../interview/questions/questions.md)）
 
 <!-- interview-answer Q149 -->
 <details>
@@ -4818,7 +4818,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q150 — How do you handle imbalanced datasets in real projects?（来源：[questions.md:173](interview/questions/questions.md)）
+- Q150 — How do you handle imbalanced datasets in real projects?（来源：[questions.md:173](../interview/questions/questions.md)）
 
 <!-- interview-answer Q150 -->
 <details>
@@ -4844,7 +4844,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q151 — Explain the difference between RNN and LSTM.（来源：[questions.md:174](interview/questions/questions.md)）
+- Q151 — Explain the difference between RNN and LSTM.（来源：[questions.md:174](../interview/questions/questions.md)）
 
 <!-- interview-answer Q151 -->
 <details>
@@ -4870,7 +4870,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q152 — Debug a model that runs but doesn't learn. Identify broadcasting errors and dimension mismatches.（来源：[questions.md:175](interview/questions/questions.md)）
+- Q152 — Debug a model that runs but doesn't learn. Identify broadcasting errors and dimension mismatches.（来源：[questions.md:175](../interview/questions/questions.md)）
 
 <!-- interview-answer Q152 -->
 <details>
@@ -4896,7 +4896,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q153 — Statistics questions: probability, distributions, regression, Bayesian analysis, hypothesis testing.（来源：[questions.md:176](interview/questions/questions.md)）
+- Q153 — Statistics questions: probability, distributions, regression, Bayesian analysis, hypothesis testing.（来源：[questions.md:176](../interview/questions/questions.md)）
 
 <!-- interview-answer Q153 -->
 <details>
@@ -4922,7 +4922,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q154 — Explain supervised vs. unsupervised learning. When would you use each?（来源：[questions.md:177](interview/questions/questions.md)）
+- Q154 — Explain supervised vs. unsupervised learning. When would you use each?（来源：[questions.md:177](../interview/questions/questions.md)）
 
 <!-- interview-answer Q154 -->
 <details>
@@ -4948,7 +4948,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q155 — What is regularization? Compare L1, L2, and dropout.（来源：[questions.md:178](interview/questions/questions.md)）
+- Q155 — What is regularization? Compare L1, L2, and dropout.（来源：[questions.md:178](../interview/questions/questions.md)）
 
 <!-- interview-answer Q155 -->
 <details>
@@ -4974,7 +4974,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q156 — What is feature scaling and when is it necessary? Compare normalization vs standardization.（来源：[questions.md:179](interview/questions/questions.md)）
+- Q156 — What is feature scaling and when is it necessary? Compare normalization vs standardization.（来源：[questions.md:179](../interview/questions/questions.md)）
 
 <!-- interview-answer Q156 -->
 <details>
@@ -5000,7 +5000,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q157 — Implement cosine similarity in NumPy.（来源：[questions.md:180](interview/questions/questions.md)）
+- Q157 — Implement cosine similarity in NumPy.（来源：[questions.md:180](../interview/questions/questions.md)）
 
 <!-- interview-answer Q157 -->
 <details>
@@ -5046,7 +5046,7 @@ def cosine_similarity(a, b):
 </details>
 <!-- /interview-answer -->
 
-- Q158 — How do you handle race conditions in your code?（来源：[questions.md:184](interview/questions/questions.md)）
+- Q158 — How do you handle race conditions in your code?（来源：[questions.md:184](../interview/questions/questions.md)）
 
 <!-- interview-answer Q158 -->
 <details>
@@ -5075,18 +5075,18 @@ Follow-up
 
 <a id="day-10"></a>
 
-### 周五 10/16
+### 周五 11/20
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Stacks; Queues; String Parsing<br>LeetCode: [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/); [155. Min Stack](https://leetcode.com/problems/min-stack/); [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)<br>资料：[Stacks](Study%20topics/stacks.html); [Queues](Study%20topics/queues.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Stacks; Queues; String Parsing + LeetCode Top 150<br>计划原题（3 题）: [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) · Easy; [155. Min Stack](https://leetcode.com/problems/min-stack/) · Medium; [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) · Easy<br>Top 150（4 题）: [71. Simplify Path](https://leetcode.com/problems/simplify-path/) · Stack · Medium; [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) · Stack · Medium; [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) · Array / String · Easy; [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) · Array / String · Easy<br>资料：[Stacks](../Study%20topics/stacks.html); [Queues](../Study%20topics/queues.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [PR-AUC; ROC-AUC; Calibration](Study%20topics/pr-auc-roc-auc-calibration.html) · [Notebook](notebook/07_pr_auc_roc_auc_calibration.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Rate Limiting and Capacity](Study%20topics/rate-limiting-and-capacity.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [PR-AUC; ROC-AUC; Calibration](../Study%20topics/pr-auc-roc-auc-calibration.html) · [Notebook](../notebook/07_pr_auc_roc_auc_calibration.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Rate Limiting and Capacity](../Study%20topics/rate-limiting-and-capacity.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Human Approval and State Transitions<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-10) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Python and Software Engineering; Technical Questions / Infrastructure and MLOps — 20 items |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities<br>当日概念索引（按需）：[Agent State](Study%20topics/agent-state.html); [LangGraph](Study%20topics/langgraph.html); [Human-in-the-Loop](Study%20topics/human-in-the-loop.html); [Approval Audit Trail](Study%20topics/approval-audit-trail.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities<br>当日概念索引（按需）：[Agent State](../Study%20topics/agent-state.html); [LangGraph](../Study%20topics/langgraph.html); [Human-in-the-Loop](../Study%20topics/human-in-the-loop.html); [Approval Audit Trail](../Study%20topics/approval-audit-trail.html) |
 
 <!-- quantvault-day 10 -->
 
@@ -5106,7 +5106,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q159 — What is the Global Interpreter Lock (GIL) in Python?（来源：[questions.md:185](interview/questions/questions.md)）
+- Q159 — What is the Global Interpreter Lock (GIL) in Python?（来源：[questions.md:185](../interview/questions/questions.md)）
 
 <!-- interview-answer Q159 -->
 <details>
@@ -5136,7 +5136,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q160 — What is something unique about Python when it comes to concurrency?（来源：[questions.md:186](interview/questions/questions.md)）
+- Q160 — What is something unique about Python when it comes to concurrency?（来源：[questions.md:186](../interview/questions/questions.md)）
 
 <!-- interview-answer Q160 -->
 <details>
@@ -5166,7 +5166,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q161 — What are some problems you can run into when using asynchronous programming in Python?（来源：[questions.md:187](interview/questions/questions.md)）
+- Q161 — What are some problems you can run into when using asynchronous programming in Python?（来源：[questions.md:187](../interview/questions/questions.md)）
 
 <!-- interview-answer Q161 -->
 <details>
@@ -5196,7 +5196,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q162 — What is Docker?（来源：[questions.md:188](interview/questions/questions.md)）
+- Q162 — What is Docker?（来源：[questions.md:188](../interview/questions/questions.md)）
 
 <!-- interview-answer Q162 -->
 <details>
@@ -5222,7 +5222,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q163 — Why do we use Selenium?（来源：[questions.md:189](interview/questions/questions.md)）
+- Q163 — Why do we use Selenium?（来源：[questions.md:189](../interview/questions/questions.md)）
 
 <!-- interview-answer Q163 -->
 <details>
@@ -5248,7 +5248,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q164 — Have you heard about Redis?（来源：[questions.md:190](interview/questions/questions.md)）
+- Q164 — Have you heard about Redis?（来源：[questions.md:190](../interview/questions/questions.md)）
 
 <!-- interview-answer Q164 -->
 <details>
@@ -5274,7 +5274,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q165 — Explain the JavaScript event loop.（来源：[questions.md:191](interview/questions/questions.md)）
+- Q165 — Explain the JavaScript event loop.（来源：[questions.md:191](../interview/questions/questions.md)）
 
 <!-- interview-answer Q165 -->
 <details>
@@ -5300,7 +5300,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q166 — How do you call models via API/SDK? How do you handle retries, timeouts, and logging?（来源：[questions.md:192](interview/questions/questions.md)）
+- Q166 — How do you call models via API/SDK? How do you handle retries, timeouts, and logging?（来源：[questions.md:192](../interview/questions/questions.md)）
 
 <!-- interview-answer Q166 -->
 <details>
@@ -5326,7 +5326,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q167 — Which AI development platforms or tools do you regularly use, and why?（来源：[questions.md:193](interview/questions/questions.md)）
+- Q167 — Which AI development platforms or tools do you regularly use, and why?（来源：[questions.md:193](../interview/questions/questions.md)）
 
 <!-- interview-answer Q167 -->
 <details>
@@ -5352,7 +5352,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q168 — Explain memory leaks and garbage collection in Python.（来源：[questions.md:194](interview/questions/questions.md)）
+- Q168 — Explain memory leaks and garbage collection in Python.（来源：[questions.md:194](../interview/questions/questions.md)）
 
 <!-- interview-answer Q168 -->
 <details>
@@ -5378,7 +5378,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q169 — What is the difference between class methods and static methods?（来源：[questions.md:195](interview/questions/questions.md)）
+- Q169 — What is the difference between class methods and static methods?（来源：[questions.md:195](../interview/questions/questions.md)）
 
 <!-- interview-answer Q169 -->
 <details>
@@ -5404,7 +5404,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q170 — Explain super() and Method Resolution Order in multiple inheritance.（来源：[questions.md:196](interview/questions/questions.md)）
+- Q170 — Explain super() and Method Resolution Order in multiple inheritance.（来源：[questions.md:196](../interview/questions/questions.md)）
 
 <!-- interview-answer Q170 -->
 <details>
@@ -5430,7 +5430,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q171 — How do you debug Python code in production? "In production, there will be no VS Code."（来源：[questions.md:197](interview/questions/questions.md)）
+- Q171 — How do you debug Python code in production? "In production, there will be no VS Code."（来源：[questions.md:197](../interview/questions/questions.md)）
 
 <!-- interview-answer Q171 -->
 <details>
@@ -5456,7 +5456,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q172 — How do you use asyncio for concurrent I/O in Python? When would you use threading vs. multiprocessing instead?（来源：[questions.md:198](interview/questions/questions.md)）
+- Q172 — How do you use asyncio for concurrent I/O in Python? When would you use threading vs. multiprocessing instead?（来源：[questions.md:198](../interview/questions/questions.md)）
 
 <!-- interview-answer Q172 -->
 <details>
@@ -5486,7 +5486,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q173 — How do you optimize SQL queries? Explain the order of execution in SQL.（来源：[questions.md:199](interview/questions/questions.md)）
+- Q173 — How do you optimize SQL queries? Explain the order of execution in SQL.（来源：[questions.md:199](../interview/questions/questions.md)）
 
 <!-- interview-answer Q173 -->
 <details>
@@ -5512,7 +5512,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q174 — What are Git branching strategies for deployment? How do you perform a rebase? How do you handle merge conflicts?（来源：[questions.md:200](interview/questions/questions.md)）
+- Q174 — What are Git branching strategies for deployment? How do you perform a rebase? How do you handle merge conflicts?（来源：[questions.md:200](../interview/questions/questions.md)）
 
 <!-- interview-answer Q174 -->
 <details>
@@ -5538,7 +5538,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q175 — Have you worked with real-time communication technologies like WebRTC?（来源：[questions.md:201](interview/questions/questions.md)）
+- Q175 — Have you worked with real-time communication technologies like WebRTC?（来源：[questions.md:201](../interview/questions/questions.md)）
 
 <!-- interview-answer Q175 -->
 <details>
@@ -5564,7 +5564,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q176 — How would you design a large-scale AI model deployment system?（来源：[questions.md:205](interview/questions/questions.md)）
+- Q176 — How would you design a large-scale AI model deployment system?（来源：[questions.md:205](../interview/questions/questions.md)）
 
 <!-- interview-answer Q176 -->
 <details>
@@ -5590,7 +5590,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q177 — How would you design a distributed training system for deep learning?（来源：[questions.md:206](interview/questions/questions.md)）
+- Q177 — How would you design a distributed training system for deep learning?（来源：[questions.md:206](../interview/questions/questions.md)）
 
 <!-- interview-answer Q177 -->
 <details>
@@ -5616,7 +5616,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q178 — How would you design a scalable data pipeline for ML applications?（来源：[questions.md:207](interview/questions/questions.md)）
+- Q178 — How would you design a scalable data pipeline for ML applications?（来源：[questions.md:207](../interview/questions/questions.md)）
 
 <!-- interview-answer Q178 -->
 <details>
@@ -5650,18 +5650,18 @@ Follow-up
 
 <a id="day-11"></a>
 
-### 周一 10/19
+### 周一 11/23
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Heaps; Top-k; Priority Queues<br>LeetCode: [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/); [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/); [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)<br>资料：[Heaps](Study%20topics/heaps.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Heaps; Top-k; Priority Queues + LeetCode Top 150<br>计划原题（3 题）: [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) · Medium; [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) · Medium; [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) · Easy<br>Top 150（3 题）: [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) · Heap · Medium; [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) · Array / String · Medium; [134. Gas Station](https://leetcode.com/problems/gas-station/) · Array / String · Medium<br>资料：[Heaps](../Study%20topics/heaps.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Decision Trees; Random Forests; Gradient Boosting](Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [Notebook](notebook/08_decision_trees_random_forests_gradient_boosting.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Retries, Idempotency and Consistency](Study%20topics/retries-idempotency-and-consistency.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Decision Trees; Random Forests; Gradient Boosting](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [Notebook](../notebook/08_decision_trees_random_forests_gradient_boosting.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Retries, Idempotency and Consistency](../Study%20topics/retries-idempotency-and-consistency.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Scenario and Report Evaluation<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-11) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Infrastructure and MLOps; Technical Questions / Cost and Latency Optimization — 19 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Citations](Study%20topics/citations.html); [Groundedness](Study%20topics/groundedness.html); [Hallucination](Study%20topics/hallucination.html); [LLM-as-Judge](Study%20topics/llm-as-judge.html); [Human Calibration](Study%20topics/human-calibration.html); [Judge Bias](Study%20topics/judge-bias.html); [Idempotency](Study%20topics/idempotency.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Citations](../Study%20topics/citations.html); [Groundedness](../Study%20topics/groundedness.html); [Hallucination](../Study%20topics/hallucination.html); [LLM-as-Judge](../Study%20topics/llm-as-judge.html); [Human Calibration](../Study%20topics/human-calibration.html); [Judge Bias](../Study%20topics/judge-bias.html); [Idempotency](../Study%20topics/idempotency.html) |
 
 
 <!-- quantvault-day 11 -->
@@ -5682,7 +5682,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q179 — How would you design a GenAI system to handle traffic spikes without overwhelming the model provider?（来源：[questions.md:208](interview/questions/questions.md)）
+- Q179 — How would you design a GenAI system to handle traffic spikes without overwhelming the model provider?（来源：[questions.md:208](../interview/questions/questions.md)）
 
 <!-- interview-answer Q179 -->
 <details>
@@ -5708,7 +5708,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q180 — How would you monitor production AI systems?（来源：[questions.md:209](interview/questions/questions.md)）
+- Q180 — How would you monitor production AI systems?（来源：[questions.md:209](../interview/questions/questions.md)）
 
 <!-- interview-answer Q180 -->
 <details>
@@ -5734,7 +5734,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q181 — What are major scaling challenges for LLM-powered applications?（来源：[questions.md:210](interview/questions/questions.md)）
+- Q181 — What are major scaling challenges for LLM-powered applications?（来源：[questions.md:210](../interview/questions/questions.md)）
 
 <!-- interview-answer Q181 -->
 <details>
@@ -5760,7 +5760,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q486 — What operational/business metrics matter for AI systems?（来源：[01-theory.md:79](interview/questions/01-theory.md)）
+- Q486 — What operational/business metrics matter for AI systems?（来源：[01-theory.md:79](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q486 -->
 <details>
@@ -5786,7 +5786,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q487 — How would you test a new model before full deployment?（来源：[01-theory.md:81](interview/questions/01-theory.md)）
+- Q487 — How would you test a new model before full deployment?（来源：[01-theory.md:81](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q487 -->
 <details>
@@ -5812,7 +5812,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q182 — Your app gets 1M queries/day - how do you optimize cost? (reported across multiple companies)（来源：[questions.md:214](interview/questions/questions.md)）
+- Q182 — Your app gets 1M queries/day - how do you optimize cost? (reported across multiple companies)（来源：[questions.md:214](../interview/questions/questions.md)）
 
 <!-- interview-answer Q182 -->
 <details>
@@ -5838,7 +5838,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q183 — How do you reduce token costs at scale? (candidates wish they prepared for this)（来源：[questions.md:215](interview/questions/questions.md)）
+- Q183 — How do you reduce token costs at scale? (candidates wish they prepared for this)（来源：[questions.md:215](../interview/questions/questions.md)）
 
 <!-- interview-answer Q183 -->
 <details>
@@ -5864,7 +5864,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q184 — How would you think about cost and capacity planning for an LLM-powered application at scale?（来源：[questions.md:216](interview/questions/questions.md)）
+- Q184 — How would you think about cost and capacity planning for an LLM-powered application at scale?（来源：[questions.md:216](../interview/questions/questions.md)）
 
 <!-- interview-answer Q184 -->
 <details>
@@ -5890,7 +5890,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q185 — How would you make GPT-based API calls cost-efficient under heavy load?（来源：[questions.md:217](interview/questions/questions.md)）
+- Q185 — How would you make GPT-based API calls cost-efficient under heavy load?（来源：[questions.md:217](../interview/questions/questions.md)）
 
 <!-- interview-answer Q185 -->
 <details>
@@ -5916,7 +5916,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q186 — How would you reduce token costs?（来源：[questions.md:218](interview/questions/questions.md)）
+- Q186 — How would you reduce token costs?（来源：[questions.md:218](../interview/questions/questions.md)）
 
 <!-- interview-answer Q186 -->
 <details>
@@ -5942,7 +5942,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q187 — Explain quantization and model distillation for inference optimization.（来源：[questions.md:219](interview/questions/questions.md)）
+- Q187 — Explain quantization and model distillation for inference optimization.（来源：[questions.md:219](../interview/questions/questions.md)）
 
 <!-- interview-answer Q187 -->
 <details>
@@ -5968,7 +5968,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q188 — Describe the latency/cost/relevancy tradeoff triangle in GenAI systems. How do you manage all three?（来源：[questions.md:220](interview/questions/questions.md)）
+- Q188 — Describe the latency/cost/relevancy tradeoff triangle in GenAI systems. How do you manage all three?（来源：[questions.md:220](../interview/questions/questions.md)）
 
 <!-- interview-answer Q188 -->
 <details>
@@ -5994,7 +5994,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q189 — How do you reduce latency in GenAI applications?（来源：[questions.md:221](interview/questions/questions.md)；[01-theory.md:90](interview/questions/01-theory.md)）
+- Q189 — How do you reduce latency in GenAI applications?（来源：[questions.md:221](../interview/questions/questions.md)；[01-theory.md:90](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q189 -->
 <details>
@@ -6020,7 +6020,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q190 — Cost vs. quality trade-offs: when is a small open-source model "good enough" vs. GPT-4-class?（来源：[questions.md:222](interview/questions/questions.md)）
+- Q190 — Cost vs. quality trade-offs: when is a small open-source model "good enough" vs. GPT-4-class?（来源：[questions.md:222](../interview/questions/questions.md)）
 
 <!-- interview-answer Q190 -->
 <details>
@@ -6046,7 +6046,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q191 — By trimming prompts and caching embeddings, how would you reduce API spend? Walk through a before-and-after cost breakdown.（来源：[questions.md:223](interview/questions/questions.md)）
+- Q191 — By trimming prompts and caching embeddings, how would you reduce API spend? Walk through a before-and-after cost breakdown.（来源：[questions.md:223](../interview/questions/questions.md)）
 
 <!-- interview-answer Q191 -->
 <details>
@@ -6072,7 +6072,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q192 — Explain multi-layer caching strategies: retrieval cache, prompt cache, and response cache.（来源：[questions.md:224](interview/questions/questions.md)）
+- Q192 — Explain multi-layer caching strategies: retrieval cache, prompt cache, and response cache.（来源：[questions.md:224](../interview/questions/questions.md)）
 
 <!-- interview-answer Q192 -->
 <details>
@@ -6098,7 +6098,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q193 — What is model tiering? When do you route to a small distilled model vs. a large LLM?（来源：[questions.md:225](interview/questions/questions.md)；[01-theory.md:95](interview/questions/01-theory.md)）
+- Q193 — What is model tiering? When do you route to a small distilled model vs. a large LLM?（来源：[questions.md:225](../interview/questions/questions.md)；[01-theory.md:95](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q193 -->
 <details>
@@ -6124,7 +6124,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q194 — What is prompt compression and how does it reduce cost?（来源：[questions.md:226](interview/questions/questions.md)）
+- Q194 — What is prompt compression and how does it reduce cost?（来源：[questions.md:226](../interview/questions/questions.md)）
 
 <!-- interview-answer Q194 -->
 <details>
@@ -6150,7 +6150,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q195 — Latency vs. throughput optimization for LLM serving - what are the trade-offs?（来源：[questions.md:227](interview/questions/questions.md)）
+- Q195 — Latency vs. throughput optimization for LLM serving - what are the trade-offs?（来源：[questions.md:227](../interview/questions/questions.md)）
 
 <!-- interview-answer Q195 -->
 <details>
@@ -6179,18 +6179,18 @@ Follow-up
 
 <a id="day-12"></a>
 
-### 周二 10/20
+### 周二 11/24
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: ROW_NUMBER, RANK, DENSE_RANK<br>LeetCode: [178. Rank Scores](https://leetcode.com/problems/rank-scores/); [176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary/); [177. Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)<br>资料：[Window Functions](Study%20topics/window-functions.html); [ROW_NUMBER](Study%20topics/row-number.html); [RANK](Study%20topics/rank.html); [DENSE_RANK](Study%20topics/dense-rank.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: ROW_NUMBER, RANK, DENSE_RANK + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [178. Rank Scores](https://leetcode.com/problems/rank-scores/); [176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary/); [177. Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)<br>Top 150（1 小时，3 题）: [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) · Array / String · Medium; [169. Majority Element](https://leetcode.com/problems/majority-element/) · Array / String · Easy; [189. Rotate Array](https://leetcode.com/problems/rotate-array/) · Array / String · Medium<br>资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Data Leakage; Scaling; scikit-learn Pipelines](Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · [Notebook](notebook/03_data_leakage_scaling_scikit_learn_pipelines.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Retries, Idempotency and Consistency](Study%20topics/retries-idempotency-and-consistency.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Data Leakage; Scaling; scikit-learn Pipelines](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · [Notebook](../notebook/03_data_leakage_scaling_scikit_learn_pipelines.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Retries, Idempotency and Consistency](../Study%20topics/retries-idempotency-and-consistency.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Analysis API and Error Contracts<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-12) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Cost and Latency Optimization; Technical Questions / Safety and Guardrails; Coding Problems / LeetCode / Algorithm Style — 20 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[REST APIs](Study%20topics/rest-apis.html); [FastAPI](Study%20topics/fastapi.html); [API Tests](Study%20topics/api-tests.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[REST APIs](../Study%20topics/rest-apis.html); [FastAPI](../Study%20topics/fastapi.html); [API Tests](../Study%20topics/api-tests.html) |
 
 
 <!-- quantvault-day 12 -->
@@ -6211,7 +6211,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q196 — How would you benchmark each LLM call in a multi-step pipeline to identify latency bottlenecks?（来源：[questions.md:228](interview/questions/questions.md)；[01-theory.md:92](interview/questions/01-theory.md)）
+- Q196 — How would you benchmark each LLM call in a multi-step pipeline to identify latency bottlenecks?（来源：[questions.md:228](../interview/questions/questions.md)；[01-theory.md:92](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q196 -->
 <details>
@@ -6237,7 +6237,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q197 — Estimate the budget for a RAG pipeline at enterprise scale (e.g., 300,000 legal contracts).（来源：[questions.md:229](interview/questions/questions.md)；[01-theory.md:97](interview/questions/01-theory.md)）
+- Q197 — Estimate the budget for a RAG pipeline at enterprise scale (e.g., 300,000 legal contracts).（来源：[questions.md:229](../interview/questions/questions.md)；[01-theory.md:97](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q197 -->
 <details>
@@ -6263,7 +6263,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q198 — What's the real bottleneck in LLM serving throughput? How does PagedAttention address it?（来源：[questions.md:230](interview/questions/questions.md)）
+- Q198 — What's the real bottleneck in LLM serving throughput? How does PagedAttention address it?（来源：[questions.md:230](../interview/questions/questions.md)）
 
 <!-- interview-answer Q198 -->
 <details>
@@ -6293,7 +6293,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q488 — How do you reduce token costs?（来源：[01-theory.md:93](interview/questions/01-theory.md)）
+- Q488 — How do you reduce token costs?（来源：[01-theory.md:93](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q488 -->
 <details>
@@ -6319,7 +6319,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q489 — Cost vs. quality trade-offs: when is a small open-source model "good enough"?（来源：[01-theory.md:94](interview/questions/01-theory.md)）
+- Q489 — Cost vs. quality trade-offs: when is a small open-source model "good enough"?（来源：[01-theory.md:94](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q489 -->
 <details>
@@ -6345,7 +6345,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q490 — Your app gets 1M queries/day - how do you optimize cost?（来源：[01-theory.md:96](interview/questions/01-theory.md)；[04-ai-system-design.md:40](interview/questions/04-ai-system-design.md)）
+- Q490 — Your app gets 1M queries/day - how do you optimize cost?（来源：[01-theory.md:96](../interview/questions/01-theory.md)；[04-ai-system-design.md:40](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q490 -->
 <details>
@@ -6371,7 +6371,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q199 — When and how would you implement LLM guardrails?（来源：[questions.md:234](interview/questions/questions.md)；[01-theory.md:103](interview/questions/01-theory.md)）
+- Q199 — When and how would you implement LLM guardrails?（来源：[questions.md:234](../interview/questions/questions.md)；[01-theory.md:103](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q199 -->
 <details>
@@ -6397,7 +6397,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q200 — How would you design a language model that minimizes harmful outputs while still being useful and expressive?（来源：[questions.md:235](interview/questions/questions.md)）
+- Q200 — How would you design a language model that minimizes harmful outputs while still being useful and expressive?（来源：[questions.md:235](../interview/questions/questions.md)）
 
 <!-- interview-answer Q200 -->
 <details>
@@ -6423,7 +6423,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q201 — How would you build a system that detects whether content violates policy or contains offensive material?（来源：[questions.md:236](interview/questions/questions.md)；[01-theory.md:106](interview/questions/01-theory.md)）
+- Q201 — How would you build a system that detects whether content violates policy or contains offensive material?（来源：[questions.md:236](../interview/questions/questions.md)；[01-theory.md:106](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q201 -->
 <details>
@@ -6449,7 +6449,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q202 — How do you protect against prompt injection and jailbreaking?（来源：[questions.md:237](interview/questions/questions.md)；[01-theory.md:105](interview/questions/01-theory.md)）
+- Q202 — How do you protect against prompt injection and jailbreaking?（来源：[questions.md:237](../interview/questions/questions.md)；[01-theory.md:105](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q202 -->
 <details>
@@ -6475,7 +6475,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q203 — What steps would you take to handle exceptions in a GenAI application?（来源：[questions.md:238](interview/questions/questions.md)）
+- Q203 — What steps would you take to handle exceptions in a GenAI application?（来源：[questions.md:238](../interview/questions/questions.md)）
 
 <!-- interview-answer Q203 -->
 <details>
@@ -6501,7 +6501,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q204 — Explain Constitutional AI and alignment considerations.（来源：[questions.md:239](interview/questions/questions.md)）
+- Q204 — Explain Constitutional AI and alignment considerations.（来源：[questions.md:239](../interview/questions/questions.md)）
 
 <!-- interview-answer Q204 -->
 <details>
@@ -6531,7 +6531,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q205 — How do you handle data privacy and PII in prompts and logs?（来源：[questions.md:240](interview/questions/questions.md)；[01-theory.md:104](interview/questions/01-theory.md)）
+- Q205 — How do you handle data privacy and PII in prompts and logs?（来源：[questions.md:240](../interview/questions/questions.md)；[01-theory.md:104](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q205 -->
 <details>
@@ -6557,7 +6557,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q206 — How do you address bias in training data and generated content?（来源：[questions.md:241](interview/questions/questions.md)）
+- Q206 — How do you address bias in training data and generated content?（来源：[questions.md:241](../interview/questions/questions.md)）
 
 <!-- interview-answer Q206 -->
 <details>
@@ -6583,7 +6583,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q207 — How do you red-team an LLM system?（来源：[questions.md:242](interview/questions/questions.md)）
+- Q207 — How do you red-team an LLM system?（来源：[questions.md:242](../interview/questions/questions.md)）
 
 <!-- interview-answer Q207 -->
 <details>
@@ -6609,7 +6609,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q208 — Your application generates code that gets executed. How do you prevent malicious code generation and execution?（来源：[questions.md:243](interview/questions/questions.md)；[01-theory.md:107](interview/questions/01-theory.md)）
+- Q208 — Your application generates code that gets executed. How do you prevent malicious code generation and execution?（来源：[questions.md:243](../interview/questions/questions.md)；[01-theory.md:107](../interview/questions/01-theory.md)）
 
 <!-- interview-answer Q208 -->
 <details>
@@ -6635,7 +6635,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q288 — Word Search on Grid using Trie + DFS (LeetCode Medium).（来源：[questions.md:343](interview/questions/questions.md)）
+- Q288 — Word Search on Grid using Trie + DFS (LeetCode Medium).（来源：[questions.md:343](../interview/questions/questions.md)）
 
 <!-- interview-answer Q288 -->
 <details>
@@ -6700,7 +6700,7 @@ def find_words(board, words):
 </details>
 <!-- /interview-answer -->
 
-- Q289 — LRU Cache with O(1) time complexity using HashMap + Doubly Linked List.（来源：[questions.md:344](interview/questions/questions.md)）
+- Q289 — LRU Cache with O(1) time complexity using HashMap + Doubly Linked List.（来源：[questions.md:344](../interview/questions/questions.md)）
 
 <!-- interview-answer Q289 -->
 <details>
@@ -6755,7 +6755,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q290 — Prime numbers between 0 and 100.（来源：[questions.md:345](interview/questions/questions.md)；[02-coding.md:43](interview/questions/02-coding.md)）
+- Q290 — Prime numbers between 0 and 100.（来源：[questions.md:345](../interview/questions/questions.md)；[02-coding.md:43](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q290 -->
 <details>
@@ -6799,7 +6799,7 @@ def primes_through(n):
 </details>
 <!-- /interview-answer -->
 
-- Q291 — Check whether two strings are anagrams of each other.（来源：[questions.md:346](interview/questions/questions.md)）
+- Q291 — Check whether two strings are anagrams of each other.（来源：[questions.md:346](../interview/questions/questions.md)）
 
 <!-- interview-answer Q291 -->
 <details>
@@ -6839,18 +6839,18 @@ def is_anagram(left, right):
 
 <a id="day-13"></a>
 
-### 周三 10/21
+### 周三 11/25
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Linked Lists; LRU Cache<br>LeetCode: [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/); [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/); [146. LRU Cache](https://leetcode.com/problems/lru-cache/)<br>资料：[Linked Lists](Study%20topics/linked-lists.html); [LRU Cache](Study%20topics/lru-cache.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Linked Lists; LRU Cache + LeetCode Top 150<br>计划原题（3 题）: [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) · Easy; [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) · Easy; [146. LRU Cache](https://leetcode.com/problems/lru-cache/) · Medium<br>Top 150（3 题）: [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) · Linked List · Medium; [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) · Linked List · Medium; [61. Rotate List](https://leetcode.com/problems/rotate-list/) · Linked List · Medium<br>资料：[Linked Lists](../Study%20topics/linked-lists.html); [LRU Cache](../Study%20topics/lru-cache.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [MAE; RMSE](Study%20topics/mae-rmse.html) · [Notebook](notebook/04_mae_rmse.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Latency and Observability](Study%20topics/latency-and-observability.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [MAE; RMSE](../Study%20topics/mae-rmse.html) · [Notebook](../notebook/04_mae_rmse.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Latency and Observability](../Study%20topics/latency-and-observability.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Tracing and Latency Baseline<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-13) |
 | 16:30–17:30 | Interview Questions，1 小时 | Coding Problems / LeetCode / Algorithm Style; Coding Problems / OpenAI-Specific Coding; Coding Problems / Anthropic-Specific Coding; Coding Problems / ML / AI Coding — 19 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Load Testing](Study%20topics/load-testing.html); [Logs](Study%20topics/logs.html); [Traces](Study%20topics/traces.html); [p50 / p95](Study%20topics/p50-p95.html); [TTFT](Study%20topics/ttft.html); [Latency Benchmarking](Study%20topics/latency-benchmarking.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Load Testing](../Study%20topics/load-testing.html); [Logs](../Study%20topics/logs.html); [Traces](../Study%20topics/traces.html); [p50 / p95](../Study%20topics/p50-p95.html); [TTFT](../Study%20topics/ttft.html); [Latency Benchmarking](../Study%20topics/latency-benchmarking.html) |
 
 
 <!-- quantvault-day 13 -->
@@ -6871,7 +6871,7 @@ def is_anagram(left, right):
 
 #### 当天 Interview Questions
 
-- Q292 — Serialize Binary Tree (space-optimized, discussion-based with compression techniques and backward compatibility).（来源：[questions.md:347](interview/questions/questions.md)）
+- Q292 — Serialize Binary Tree (space-optimized, discussion-based with compression techniques and backward compatibility).（来源：[questions.md:347](../interview/questions/questions.md)）
 
 <!-- interview-answer Q292 -->
 <details>
@@ -6949,7 +6949,7 @@ def deserialize_tree(payload):
 </details>
 <!-- /interview-answer -->
 
-- Q293 — LeetCode 2408: Design SQL.（来源：[questions.md:348](interview/questions/questions.md)；[02-coding.md:23](interview/questions/02-coding.md)）
+- Q293 — LeetCode 2408: Design SQL.（来源：[questions.md:348](../interview/questions/questions.md)；[02-coding.md:23](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q293 -->
 <details>
@@ -7005,7 +7005,7 @@ class SQL:
 </details>
 <!-- /interview-answer -->
 
-- Q294 — LeetCode 981: Time Based Key-Value Store.（来源：[questions.md:349](interview/questions/questions.md)）
+- Q294 — LeetCode 981: Time Based Key-Value Store.（来源：[questions.md:349](../interview/questions/questions.md)）
 
 <!-- interview-answer Q294 -->
 <details>
@@ -7057,7 +7057,7 @@ class TimeMap:
 </details>
 <!-- /interview-answer -->
 
-- Q295 — Unix cd command with symbolic link resolution.（来源：[questions.md:350](interview/questions/questions.md)；[02-coding.md:24](interview/questions/02-coding.md)）
+- Q295 — Unix cd command with symbolic link resolution.（来源：[questions.md:350](../interview/questions/questions.md)；[02-coding.md:24](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q295 -->
 <details>
@@ -7118,7 +7118,7 @@ def resolve_virtual_path(path, cwd="/", symlinks=None, max_links=40):
 </details>
 <!-- /interview-answer -->
 
-- Q296 — Reverse a linked list with constraints (AI-assisted coding round - candidate must prompt LLM effectively).（来源：[questions.md:351](interview/questions/questions.md)；[02-coding.md:45](interview/questions/02-coding.md)）
+- Q296 — Reverse a linked list with constraints (AI-assisted coding round - candidate must prompt LLM effectively).（来源：[questions.md:351](../interview/questions/questions.md)；[02-coding.md:45](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q296 -->
 <details>
@@ -7166,7 +7166,7 @@ def reverse_list(head):
 </details>
 <!-- /interview-answer -->
 
-- Q297 — Find the Excel column name from its column number (e.g., column 702 = "AAA").（来源：[questions.md:352](interview/questions/questions.md)；[02-coding.md:46](interview/questions/02-coding.md)）
+- Q297 — Find the Excel column name from its column number (e.g., column 702 = "AAA").（来源：[questions.md:352](../interview/questions/questions.md)；[02-coding.md:46](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q297 -->
 <details>
@@ -7205,7 +7205,7 @@ def excel_column(number):
 </details>
 <!-- /interview-answer -->
 
-- Q298 — Construct a tree from a list where index = node value and value = parent node (LC Medium).（来源：[questions.md:353](interview/questions/questions.md)）
+- Q298 — Construct a tree from a list where index = node value and value = parent node (LC Medium).（来源：[questions.md:353](../interview/questions/questions.md)）
 
 <!-- interview-answer Q298 -->
 <details>
@@ -7261,7 +7261,7 @@ def parent_tree(parents):
 </details>
 <!-- /interview-answer -->
 
-- Q299 — CodeSignal GCA: 4 questions in 70 min - two medium-hard, one graph, one greedy with bit ops.（来源：[questions.md:354](interview/questions/questions.md)）
+- Q299 — CodeSignal GCA: 4 questions in 70 min - two medium-hard, one graph, one greedy with bit ops.（来源：[questions.md:354](../interview/questions/questions.md)）
 
 <!-- interview-answer Q299 -->
 <details>
@@ -7287,7 +7287,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q300 — Union Find problem + AI question (use DistilBERT to categorize CSV text with sentiments, must pass 5 test cases checking embeddings length, output structure).（来源：[questions.md:355](interview/questions/questions.md)）
+- Q300 — Union Find problem + AI question (use DistilBERT to categorize CSV text with sentiments, must pass 5 test cases checking embeddings length, output structure).（来源：[questions.md:355](../interview/questions/questions.md)）
 
 <!-- interview-answer Q300 -->
 <details>
@@ -7340,7 +7340,7 @@ class UnionFind:
 </details>
 <!-- /interview-answer -->
 
-- Q301 — Write code for a banking application using HashMap/TreeMap. Design a task executor - store and pause tasks.（来源：[questions.md:356](interview/questions/questions.md)）
+- Q301 — Write code for a banking application using HashMap/TreeMap. Design a task executor - store and pause tasks.（来源：[questions.md:356](../interview/questions/questions.md)）
 
 <!-- interview-answer Q301 -->
 <details>
@@ -7366,7 +7366,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q302 — A gRPC service is timing out. Add an async boundary, handle failure modes (retries, dead letter queues, idempotency), scale with multi-threading or message queues.（来源：[questions.md:357](interview/questions/questions.md)）
+- Q302 — A gRPC service is timing out. Add an async boundary, handle failure modes (retries, dead letter queues, idempotency), scale with multi-threading or message queues.（来源：[questions.md:357](../interview/questions/questions.md)）
 
 <!-- interview-answer Q302 -->
 <details>
@@ -7392,7 +7392,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q303 — Discuss serialization approaches, compression techniques, streaming formats, backward compatibility, and corruption recovery - no code written, pure discussion. (Microsoft senior)（来源：[questions.md:358](interview/questions/questions.md)）
+- Q303 — Discuss serialization approaches, compression techniques, streaming formats, backward compatibility, and corruption recovery - no code written, pure discussion. (Microsoft senior)（来源：[questions.md:358](../interview/questions/questions.md)）
 
 <!-- interview-answer Q303 -->
 <details>
@@ -7418,7 +7418,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q304 — KV Store Serialize/Deserialize.（来源：[questions.md:362](interview/questions/questions.md)）
+- Q304 — KV Store Serialize/Deserialize.（来源：[questions.md:362](../interview/questions/questions.md)）
 
 <!-- interview-answer Q304 -->
 <details>
@@ -7493,7 +7493,7 @@ class KeyValueStore:
 </details>
 <!-- /interview-answer -->
 
-- Q305 — In-Memory Database: Implement SQL-Like Operations.（来源：[questions.md:363](interview/questions/questions.md)；[02-coding.md:25](interview/questions/02-coding.md)）
+- Q305 — In-Memory Database: Implement SQL-Like Operations.（来源：[questions.md:363](../interview/questions/questions.md)；[02-coding.md:25](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q305 -->
 <details>
@@ -7519,7 +7519,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q306 — Versioned key-value store implementation (Time Travel Hash variant).（来源：[questions.md:364](interview/questions/questions.md)）
+- Q306 — Versioned key-value store implementation (Time Travel Hash variant).（来源：[questions.md:364](../interview/questions/questions.md)）
 
 <!-- interview-answer Q306 -->
 <details>
@@ -7571,7 +7571,7 @@ class TimeMap:
 </details>
 <!-- /interview-answer -->
 
-- Q307 — Credits management system - track credit state across issued and used credits with different expiration rules and usage requirements, with increasing complexity.（来源：[questions.md:365](interview/questions/questions.md)；[02-coding.md:26](interview/questions/02-coding.md)）
+- Q307 — Credits management system - track credit state across issued and used credits with different expiration rules and usage requirements, with increasing complexity.（来源：[questions.md:365](../interview/questions/questions.md)；[02-coding.md:26](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q307 -->
 <details>
@@ -7597,7 +7597,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q308 — Refactoring round: 100-120 lines of intentionally convoluted, deeply nested code. Refactor for long-term maintainability while keeping existing tests green and extending to new ones.（来源：[questions.md:366](interview/questions/questions.md)）
+- Q308 — Refactoring round: 100-120 lines of intentionally convoluted, deeply nested code. Refactor for long-term maintainability while keeping existing tests green and extending to new ones.（来源：[questions.md:366](../interview/questions/questions.md)）
 
 <!-- interview-answer Q308 -->
 <details>
@@ -7623,7 +7623,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q309 — 4-level progressive coding assessment: Level 1 (SET/GET/DELETE), Level 2 (SCAN/SCAN_BY_PREFIX), Level 3 (timestamped operations + TTL), Level 4 (file compression/decompression with storage management).（来源：[questions.md:370](interview/questions/questions.md)）
+- Q309 — 4-level progressive coding assessment: Level 1 (SET/GET/DELETE), Level 2 (SCAN/SCAN_BY_PREFIX), Level 3 (timestamped operations + TTL), Level 4 (file compression/decompression with storage management).（来源：[questions.md:370](../interview/questions/questions.md)）
 
 <!-- interview-answer Q309 -->
 <details>
@@ -7688,7 +7688,7 @@ class TTLStore:
 </details>
 <!-- /interview-answer -->
 
-- Q310 — 1-NN (simplest KNN case) and feedforward neural network implementation.（来源：[questions.md:374](interview/questions/questions.md)）
+- Q310 — 1-NN (simplest KNN case) and feedforward neural network implementation.（来源：[questions.md:374](../interview/questions/questions.md)）
 
 <!-- interview-answer Q310 -->
 <details>
@@ -7737,15 +7737,15 @@ def feed_forward(x, w1, b1, w2, b2):
 
 <a id="day-14"></a>
 
-### 周四 10/22
+### 周四 11/26
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: LAG, LEAD, Rolling Aggregations<br>LeetCode: [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/); [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/); [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)<br>资料：[LAG](Study%20topics/lag.html); [LEAD](Study%20topics/lead.html); [Rolling Aggregations](Study%20topics/rolling-aggregations.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: LAG, LEAD, Rolling Aggregations + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/); [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/); [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)<br>Top 150（1 小时，3 题）: [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) · Linked List · Medium; [86. Partition List](https://leetcode.com/problems/partition-list/) · Linked List · Medium; [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) · Linked List · Medium<br>资料：[LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Bias-Variance; Overfitting; Regularization; Linear Regression](Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [Notebook](notebook/05_bias_variance_overfitting_regularization_linear_regression.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Latency and Observability](Study%20topics/latency-and-observability.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Bias-Variance; Overfitting; Regularization; Linear Regression](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [Notebook](../notebook/05_bias_variance_overfitting_regularization_linear_regression.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Latency and Observability](../Study%20topics/latency-and-observability.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Measured Performance Improvement<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-14) |
 | 16:30–17:30 | Interview Questions，1 小时 | Coding Problems / ML / AI Coding; Coding Problems / Practical / Data Processing; Coding Problems / Supplemental Implementation — 19 items |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review |
@@ -7770,7 +7770,7 @@ def feed_forward(x, w1, b1, w2, b2):
 
 #### 当天 Interview Questions
 
-- Q311 — Transformer bug-fixing exercise with position embedding and KV cache issues.（来源：[questions.md:375](interview/questions/questions.md)）
+- Q311 — Transformer bug-fixing exercise with position embedding and KV cache issues.（来源：[questions.md:375](../interview/questions/questions.md)）
 
 <!-- interview-answer Q311 -->
 <details>
@@ -7796,7 +7796,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q312 — PyTorch code completion with complexity analysis.（来源：[questions.md:376](interview/questions/questions.md)）
+- Q312 — PyTorch code completion with complexity analysis.（来源：[questions.md:376](../interview/questions/questions.md)）
 
 <!-- interview-answer Q312 -->
 <details>
@@ -7822,7 +7822,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q313 — Implement Multi-Head Attention from memory.（来源：[questions.md:377](interview/questions/questions.md)）
+- Q313 — Implement Multi-Head Attention from memory.（来源：[questions.md:377](../interview/questions/questions.md)）
 
 <!-- interview-answer Q313 -->
 <details>
@@ -7899,7 +7899,7 @@ def grouped_cached_attention(q, k_new, v_new, cache=None):
 </details>
 <!-- /interview-answer -->
 
-- Q314 — Implement a full Transformer layer from memory.（来源：[questions.md:378](interview/questions/questions.md)）
+- Q314 — Implement a full Transformer layer from memory.（来源：[questions.md:378](../interview/questions/questions.md)）
 
 <!-- interview-answer Q314 -->
 <details>
@@ -7976,7 +7976,7 @@ def grouped_cached_attention(q, k_new, v_new, cache=None):
 </details>
 <!-- /interview-answer -->
 
-- Q315 — Implement LoRA adapter from scratch.（来源：[questions.md:379](interview/questions/questions.md)）
+- Q315 — Implement LoRA adapter from scratch.（来源：[questions.md:379](../interview/questions/questions.md)）
 
 <!-- interview-answer Q315 -->
 <details>
@@ -8019,7 +8019,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q316 — Implement efficient LLM API batch processing.（来源：[questions.md:380](interview/questions/questions.md)）
+- Q316 — Implement efficient LLM API batch processing.（来源：[questions.md:380](../interview/questions/questions.md)）
 
 <!-- interview-answer Q316 -->
 <details>
@@ -8089,7 +8089,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q317 — Debug code handling embeddings.（来源：[questions.md:381](interview/questions/questions.md)；[02-coding.md:31](interview/questions/02-coding.md)）
+- Q317 — Debug code handling embeddings.（来源：[questions.md:381](../interview/questions/questions.md)；[02-coding.md:31](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q317 -->
 <details>
@@ -8135,7 +8135,7 @@ def cosine_similarity(a, b):
 </details>
 <!-- /interview-answer -->
 
-- Q318 — Write scripts preparing text for fine-tuning.（来源：[questions.md:382](interview/questions/questions.md)）
+- Q318 — Write scripts preparing text for fine-tuning.（来源：[questions.md:382](../interview/questions/questions.md)）
 
 <!-- interview-answer Q318 -->
 <details>
@@ -8188,7 +8188,7 @@ def training_jsonl(records):
 </details>
 <!-- /interview-answer -->
 
-- Q319 — Build a gRPC service for financial report generation (async conversion, thread management, error handling, batch processing).（来源：[questions.md:383](interview/questions/questions.md)）
+- Q319 — Build a gRPC service for financial report generation (async conversion, thread management, error handling, batch processing).（来源：[questions.md:383](../interview/questions/questions.md)）
 
 <!-- interview-answer Q319 -->
 <details>
@@ -8214,7 +8214,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q320 — Implement neural networks, LSTMs, and RNNs from scratch using NumPy or PyTorch.（来源：[questions.md:384](interview/questions/questions.md)）
+- Q320 — Implement neural networks, LSTMs, and RNNs from scratch using NumPy or PyTorch.（来源：[questions.md:384](../interview/questions/questions.md)）
 
 <!-- interview-answer Q320 -->
 <details>
@@ -8269,7 +8269,7 @@ def lstm_forward(sequence, h0, c0, weights, bias):
 </details>
 <!-- /interview-answer -->
 
-- Q321 — Implement cached attention and grouped query attention variants.（来源：[questions.md:385](interview/questions/questions.md)）
+- Q321 — Implement cached attention and grouped query attention variants.（来源：[questions.md:385](../interview/questions/questions.md)）
 
 <!-- interview-answer Q321 -->
 <details>
@@ -8346,7 +8346,7 @@ def grouped_cached_attention(q, k_new, v_new, cache=None):
 </details>
 <!-- /interview-answer -->
 
-- Q322 — Implement beam search, top-k, and top-p decoding strategies from scratch.（来源：[questions.md:386](interview/questions/questions.md)）
+- Q322 — Implement beam search, top-k, and top-p decoding strategies from scratch.（来源：[questions.md:386](../interview/questions/questions.md)）
 
 <!-- interview-answer Q322 -->
 <details>
@@ -8436,7 +8436,7 @@ def beam_search(next_logits, prompt, eos, width=2, max_new=10):
 </details>
 <!-- /interview-answer -->
 
-- Q323 — Implement autoregressive generation with top-p sampling.（来源：[questions.md:387](interview/questions/questions.md)）
+- Q323 — Implement autoregressive generation with top-p sampling.（来源：[questions.md:387](../interview/questions/questions.md)）
 
 <!-- interview-answer Q323 -->
 <details>
@@ -8526,7 +8526,7 @@ def beam_search(next_logits, prompt, eos, width=2, max_new=10):
 </details>
 <!-- /interview-answer -->
 
-- Q324 — Implement logistic regression with SGD, L2 regularization, and early stopping in NumPy.（来源：[questions.md:388](interview/questions/questions.md)；[02-coding.md:32](interview/questions/02-coding.md)）
+- Q324 — Implement logistic regression with SGD, L2 regularization, and early stopping in NumPy.（来源：[questions.md:388](../interview/questions/questions.md)；[02-coding.md:32](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q324 -->
 <details>
@@ -8606,7 +8606,7 @@ def fit_logistic(x, y, xv, yv, lr=0.1, l2=0.01, epochs=200, batch_size=16, patie
 </details>
 <!-- /interview-answer -->
 
-- Q325 — Implement stratified K-fold splitting.（来源：[questions.md:389](interview/questions/questions.md)）
+- Q325 — Implement stratified K-fold splitting.（来源：[questions.md:389](../interview/questions/questions.md)）
 
 <!-- interview-answer Q325 -->
 <details>
@@ -8663,7 +8663,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q326 — Speed coding: given a complicated JSON file, extract a specific part following some pattern, then feed that to an AI model and get the summary. 30-minute time limit, browser/ChatGPT allowed.（来源：[questions.md:393](interview/questions/questions.md)）
+- Q326 — Speed coding: given a complicated JSON file, extract a specific part following some pattern, then feed that to an AI model and get the summary. 30-minute time limit, browser/ChatGPT allowed.（来源：[questions.md:393](../interview/questions/questions.md)）
 
 <!-- interview-answer Q326 -->
 <details>
@@ -8689,7 +8689,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q327 — Design a concurrent web crawler handling robots.txt, rate limiting, and circular references while maintaining data integrity and freshness.（来源：[questions.md:394](interview/questions/questions.md)）
+- Q327 — Design a concurrent web crawler handling robots.txt, rate limiting, and circular references while maintaining data integrity and freshness.（来源：[questions.md:394](../interview/questions/questions.md)）
 
 <!-- interview-answer Q327 -->
 <details>
@@ -8746,7 +8746,7 @@ def crawl_frontier(start, fetch_links, max_pages=100):
 </details>
 <!-- /interview-answer -->
 
-- Q493 — Implement a website crawler (my personal experience)（来源：[02-coding.md:20](interview/questions/02-coding.md)）
+- Q493 — Implement a website crawler (my personal experience)（来源：[02-coding.md:20](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q493 -->
 <details>
@@ -8803,7 +8803,7 @@ def crawl_frontier(start, fetch_links, max_pages=100):
 </details>
 <!-- /interview-answer -->
 
-- Q494 — Refactor 100-120 lines of convoluted, deeply nested code.（来源：[02-coding.md:21](interview/questions/02-coding.md)）
+- Q494 — Refactor 100-120 lines of convoluted, deeply nested code.（来源：[02-coding.md:21](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q494 -->
 <details>
@@ -8832,18 +8832,18 @@ Follow-up
 
 <a id="day-15"></a>
 
-### 周五 10/23
+### 周五 11/27
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | BFS; DFS; Graph Traversal<br>LeetCode: [200. Number of Islands](https://leetcode.com/problems/number-of-islands/); [133. Clone Graph](https://leetcode.com/problems/clone-graph/); [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)<br>资料：[Queues](Study%20topics/queues.html); [BFS](Study%20topics/bfs.html); [DFS](Study%20topics/dfs.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | BFS; DFS; Graph Traversal + LeetCode Top 150<br>计划原题（3 题）: [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) · Medium; [133. Clone Graph](https://leetcode.com/problems/clone-graph/) · Medium; [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) · Medium<br>Top 150（3 题）: [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) · Graph General · Medium; [207. Course Schedule](https://leetcode.com/problems/course-schedule/) · Graph General · Medium; [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) · Graph General · Medium<br>资料：[Queues](../Study%20topics/queues.html); [BFS](../Study%20topics/bfs.html); [DFS](../Study%20topics/dfs.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Decision Trees; Random Forests; Gradient Boosting](Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [Notebook](notebook/08_decision_trees_random_forests_gradient_boosting.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [CI/CD and AWS Deployment](Study%20topics/ci-cd-and-aws-deployment.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Decision Trees; Random Forests; Gradient Boosting](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [Notebook](../notebook/08_decision_trees_random_forests_gradient_boosting.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [CI/CD and AWS Deployment](../Study%20topics/ci-cd-and-aws-deployment.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: CI and Evaluation Gates<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-15) |
 | 16:30–17:30 | Interview Questions，1 小时 | Coding Problems / Supplemental Implementation; System Design Questions / AI System Design — 12 items |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities<br>当日概念索引（按需）：[Offline / Regression Evals](Study%20topics/offline-regression-evals.html); [CI/CD](Study%20topics/ci-cd.html); [GitHub Actions](Study%20topics/github-actions.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities<br>当日概念索引（按需）：[Offline / Regression Evals](../Study%20topics/offline-regression-evals.html); [CI/CD](../Study%20topics/ci-cd.html); [GitHub Actions](../Study%20topics/github-actions.html) |
 
 <!-- quantvault-day 15 -->
 
@@ -8863,7 +8863,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q495 — Build a key-value database starting with basic operations (SET/GET/DELETE).（来源：[02-coding.md:22](interview/questions/02-coding.md)）
+- Q495 — Build a key-value database starting with basic operations (SET/GET/DELETE).（来源：[02-coding.md:22](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q495 -->
 <details>
@@ -8938,7 +8938,7 @@ class KeyValueStore:
 </details>
 <!-- /interview-answer -->
 
-- Q496 — RLE encoding (my personal experience).（来源：[02-coding.md:42](interview/questions/02-coding.md)）
+- Q496 — RLE encoding (my personal experience).（来源：[02-coding.md:42](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q496 -->
 <details>
@@ -8983,7 +8983,7 @@ def rle_decode(runs):
 </details>
 <!-- /interview-answer -->
 
-- Q497 — LRU Cache with O(1) time complexity.（来源：[02-coding.md:44](interview/questions/02-coding.md)）
+- Q497 — LRU Cache with O(1) time complexity.（来源：[02-coding.md:44](../interview/questions/02-coding.md)）
 
 <!-- interview-answer Q497 -->
 <details>
@@ -9038,7 +9038,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q209 — Design ChatGPT.（来源：[questions.md:250](interview/questions/questions.md)）
+- Q209 — Design ChatGPT.（来源：[questions.md:250](../interview/questions/questions.md)）
 
 <!-- interview-answer Q209 -->
 <details>
@@ -9064,7 +9064,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q210 — Design our Claude chat service.（来源：[questions.md:251](interview/questions/questions.md)）
+- Q210 — Design our Claude chat service.（来源：[questions.md:251](../interview/questions/questions.md)）
 
 <!-- interview-answer Q210 -->
 <details>
@@ -9090,7 +9090,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q211 — Design a small language learning model that could run on a phone while making sure it's polite.（来源：[questions.md:252](interview/questions/questions.md)）
+- Q211 — Design a small language learning model that could run on a phone while making sure it's polite.（来源：[questions.md:252](../interview/questions/questions.md)）
 
 <!-- interview-answer Q211 -->
 <details>
@@ -9116,7 +9116,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q212 — Here's a junior developer's design for an inference batching system. Can you review it and explain what you'd change or improve?（来源：[questions.md:253](interview/questions/questions.md)）
+- Q212 — Here's a junior developer's design for an inference batching system. Can you review it and explain what you'd change or improve?（来源：[questions.md:253](../interview/questions/questions.md)）
 
 <!-- interview-answer Q212 -->
 <details>
@@ -9142,7 +9142,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q213 — Design the OpenAI Playground - specifically the feature that lets developers simulate full conversations and threads.（来源：[questions.md:254](interview/questions/questions.md)）
+- Q213 — Design the OpenAI Playground - specifically the feature that lets developers simulate full conversations and threads.（来源：[questions.md:254](../interview/questions/questions.md)）
 
 <!-- interview-answer Q213 -->
 <details>
@@ -9168,7 +9168,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q214 — Design a real-time chatbot API (low-latency handling, session management, concurrency, safety filters).（来源：[questions.md:255](interview/questions/questions.md)）
+- Q214 — Design a real-time chatbot API (low-latency handling, session management, concurrency, safety filters).（来源：[questions.md:255](../interview/questions/questions.md)）
 
 <!-- interview-answer Q214 -->
 <details>
@@ -9194,7 +9194,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q215 — Design a Document Q&A Assistant.（来源：[questions.md:256](interview/questions/questions.md)）
+- Q215 — Design a Document Q&A Assistant.（来源：[questions.md:256](../interview/questions/questions.md)）
 
 <!-- interview-answer Q215 -->
 <details>
@@ -9220,7 +9220,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q216 — Design a Hallucination-Free Banking Chatbot.（来源：[questions.md:257](interview/questions/questions.md)）
+- Q216 — Design a Hallucination-Free Banking Chatbot.（来源：[questions.md:257](../interview/questions/questions.md)）
 
 <!-- interview-answer Q216 -->
 <details>
@@ -9246,7 +9246,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q217 — Design a Hospital Voice Assistant (handle noise, privacy, latency, domain vocabulary).（来源：[questions.md:258](interview/questions/questions.md)；[04-ai-system-design.md:50](interview/questions/04-ai-system-design.md)）
+- Q217 — Design a Hospital Voice Assistant (handle noise, privacy, latency, domain vocabulary).（来源：[questions.md:258](../interview/questions/questions.md)；[04-ai-system-design.md:50](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q217 -->
 <details>
@@ -9280,18 +9280,18 @@ Follow-up
 
 <a id="day-16"></a>
 
-### 周一 10/26
+### 周一 11/30
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Trees; Recursion<br>LeetCode: [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/); [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/); [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)<br>资料：[BFS](Study%20topics/bfs.html); [Trees](Study%20topics/trees.html); [Recursion](Study%20topics/recursion.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Trees; Recursion + LeetCode Top 150<br>计划原题（3 题）: [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · Easy; [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) · Medium; [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) · Easy<br>Top 150（4 题）: [100. Same Tree](https://leetcode.com/problems/same-tree/) · Binary Tree General · Easy; [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) · Binary Tree General · Easy; [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) · Binary Tree General · Medium; [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) · Binary Tree General · Medium<br>资料：[BFS](../Study%20topics/bfs.html); [Trees](../Study%20topics/trees.html); [Recursion](../Study%20topics/recursion.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Decision Trees; Random Forests; Gradient Boosting](Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [Notebook](notebook/08_decision_trees_random_forests_gradient_boosting.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [CI/CD and AWS Deployment](Study%20topics/ci-cd-and-aws-deployment.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Decision Trees; Random Forests; Gradient Boosting](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [Notebook](../notebook/08_decision_trees_random_forests_gradient_boosting.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [CI/CD and AWS Deployment](../Study%20topics/ci-cd-and-aws-deployment.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Docker and Local Release<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-16) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design — 9 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Docker](Study%20topics/docker.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Docker](../Study%20topics/docker.html) |
 
 
 <!-- quantvault-day 16 -->
@@ -9312,7 +9312,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q218 — Design a Feedback Loop for Writing Tools.（来源：[questions.md:259](interview/questions/questions.md)）
+- Q218 — Design a Feedback Loop for Writing Tools.（来源：[questions.md:259](../interview/questions/questions.md)）
 
 <!-- interview-answer Q218 -->
 <details>
@@ -9338,7 +9338,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q219 — Design a Legal Contract Generation system with compliance requirements.（来源：[questions.md:260](interview/questions/questions.md)；[04-ai-system-design.md:51](interview/questions/04-ai-system-design.md)）
+- Q219 — Design a Legal Contract Generation system with compliance requirements.（来源：[questions.md:260](../interview/questions/questions.md)；[04-ai-system-design.md:51](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q219 -->
 <details>
@@ -9364,7 +9364,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q220 — Design an AI Search system scaling to 10M+ articles.（来源：[questions.md:261](interview/questions/questions.md)）
+- Q220 — Design an AI Search system scaling to 10M+ articles.（来源：[questions.md:261](../interview/questions/questions.md)）
 
 <!-- interview-answer Q220 -->
 <details>
@@ -9390,7 +9390,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q221 — Design a Resume Classifier for Team Routing.（来源：[questions.md:262](interview/questions/questions.md)）
+- Q221 — Design a Resume Classifier for Team Routing.（来源：[questions.md:262](../interview/questions/questions.md)）
 
 <!-- interview-answer Q221 -->
 <details>
@@ -9416,7 +9416,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q222 — Design an AI-powered Candidate Sourcing System with 750M profiles, semantic search, and <500ms latency.（来源：[questions.md:263](interview/questions/questions.md)）
+- Q222 — Design an AI-powered Candidate Sourcing System with 750M profiles, semantic search, and <500ms latency.（来源：[questions.md:263](../interview/questions/questions.md)）
 
 <!-- interview-answer Q222 -->
 <details>
@@ -9442,7 +9442,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q223 — Scale an AI chat feature to 1M daily users - discuss trade-offs. (reported across multiple companies)（来源：[questions.md:264](interview/questions/questions.md)）
+- Q223 — Scale an AI chat feature to 1M daily users - discuss trade-offs. (reported across multiple companies)（来源：[questions.md:264](../interview/questions/questions.md)）
 
 <!-- interview-answer Q223 -->
 <details>
@@ -9468,7 +9468,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q224 — Design for 1M users (scale beyond prototype). (candidates wish they prepared for this)（来源：[questions.md:265](interview/questions/questions.md)）
+- Q224 — Design for 1M users (scale beyond prototype). (candidates wish they prepared for this)（来源：[questions.md:265](../interview/questions/questions.md)）
 
 <!-- interview-answer Q224 -->
 <details>
@@ -9494,7 +9494,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q225 — Design a system to process 10k user uploads per month (bank payslips, IDs, references). How would you extract data, detect inconsistencies, reject invalid files, and handle LLM provider downtime?（来源：[questions.md:266](interview/questions/questions.md)）
+- Q225 — Design a system to process 10k user uploads per month (bank payslips, IDs, references). How would you extract data, detect inconsistencies, reject invalid files, and handle LLM provider downtime?（来源：[questions.md:266](../interview/questions/questions.md)）
 
 <!-- interview-answer Q225 -->
 <details>
@@ -9520,7 +9520,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q226 — Design a system that lets doctors automatically send billing info to insurers based on patient notes.（来源：[questions.md:267](interview/questions/questions.md)；[04-ai-system-design.md:54](interview/questions/04-ai-system-design.md)）
+- Q226 — Design a system that lets doctors automatically send billing info to insurers based on patient notes.（来源：[questions.md:267](../interview/questions/questions.md)；[04-ai-system-design.md:54](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q226 -->
 <details>
@@ -9549,18 +9549,18 @@ Follow-up
 
 <a id="day-17"></a>
 
-### 周二 10/27
+### 周二 12/1
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: Window Functions; Date Queries<br>LeetCode: [1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/); [1164. Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/); [1070. Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/)<br>资料：[Date Queries](Study%20topics/date-queries.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Window Functions; Date Queries + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/); [1164. Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/); [1070. Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/)<br>Top 150（1 小时，3 题）: [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) · Linked List · Medium; [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) · Linked List · Easy; [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) · Graph General · Medium<br>资料：[Date Queries](../Study%20topics/date-queries.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Cross-Validation; Hyperparameter Tuning](Study%20topics/cross-validation-hyperparameter-tuning.html) · [Notebook](notebook/09_cross_validation_hyperparameter_tuning.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Financial Research RAG](Study%20topics/financial-research-rag.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Cross-Validation; Hyperparameter Tuning](../Study%20topics/cross-validation-hyperparameter-tuning.html) · [Notebook](../notebook/09_cross_validation_hyperparameter_tuning.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Financial Research RAG](../Study%20topics/financial-research-rag.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: AWS Deployment Configuration<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-17) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design — 10 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Model Selection](Study%20topics/model-selection.html); [Cloud Fundamentals](Study%20topics/cloud-fundamentals.html); [IAM](Study%20topics/iam.html); [Networking](Study%20topics/networking.html); [Secrets](Study%20topics/secrets.html); [AWS ECS Fargate](Study%20topics/aws-ecs-fargate.html); [ECR](Study%20topics/ecr.html); [CloudWatch](Study%20topics/cloudwatch.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Model Selection](../Study%20topics/model-selection.html); [Cloud Fundamentals](../Study%20topics/cloud-fundamentals.html); [IAM](../Study%20topics/iam.html); [Networking](../Study%20topics/networking.html); [Secrets](../Study%20topics/secrets.html); [AWS ECS Fargate](../Study%20topics/aws-ecs-fargate.html); [ECR](../Study%20topics/ecr.html); [CloudWatch](../Study%20topics/cloudwatch.html) |
 
 
 <!-- quantvault-day 17 -->
@@ -9581,7 +9581,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q227 — Design a conversational recommender system that suggests products based on user preferences, combining chat, retrieval, and database layers.（来源：[questions.md:268](interview/questions/questions.md)）
+- Q227 — Design a conversational recommender system that suggests products based on user preferences, combining chat, retrieval, and database layers.（来源：[questions.md:268](../interview/questions/questions.md)）
 
 <!-- interview-answer Q227 -->
 <details>
@@ -9607,7 +9607,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q228 — Design a fast autocomplete system using LLMs.（来源：[questions.md:269](interview/questions/questions.md)）
+- Q228 — Design a fast autocomplete system using LLMs.（来源：[questions.md:269](../interview/questions/questions.md)）
 
 <!-- interview-answer Q228 -->
 <details>
@@ -9633,7 +9633,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q229 — Design an AI-powered legal assistant.（来源：[questions.md:270](interview/questions/questions.md)）
+- Q229 — Design an AI-powered legal assistant.（来源：[questions.md:270](../interview/questions/questions.md)）
 
 <!-- interview-answer Q229 -->
 <details>
@@ -9659,7 +9659,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q230 — Build a generative resume builder with memory.（来源：[questions.md:271](interview/questions/questions.md)）
+- Q230 — Build a generative resume builder with memory.（来源：[questions.md:271](../interview/questions/questions.md)）
 
 <!-- interview-answer Q230 -->
 <details>
@@ -9685,7 +9685,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q231 — Create an internal Slack bot answering HR questions.（来源：[questions.md:272](interview/questions/questions.md)）
+- Q231 — Create an internal Slack bot answering HR questions.（来源：[questions.md:272](../interview/questions/questions.md)）
 
 <!-- interview-answer Q231 -->
 <details>
@@ -9711,7 +9711,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q232 — Design a GitHub Copilot-style JavaScript development tool.（来源：[questions.md:273](interview/questions/questions.md)）
+- Q232 — Design a GitHub Copilot-style JavaScript development tool.（来源：[questions.md:273](../interview/questions/questions.md)）
 
 <!-- interview-answer Q232 -->
 <details>
@@ -9737,7 +9737,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q233 — Design an AI co-pilot like GitHub Copilot (real-time streaming completions).（来源：[questions.md:274](interview/questions/questions.md)）
+- Q233 — Design an AI co-pilot like GitHub Copilot (real-time streaming completions).（来源：[questions.md:274](../interview/questions/questions.md)）
 
 <!-- interview-answer Q233 -->
 <details>
@@ -9763,7 +9763,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q234 — Design a Midjourney/Stable Diffusion image generation service (queueing, GPU scheduling).（来源：[questions.md:275](interview/questions/questions.md)）
+- Q234 — Design a Midjourney/Stable Diffusion image generation service (queueing, GPU scheduling).（来源：[questions.md:275](../interview/questions/questions.md)）
 
 <!-- interview-answer Q234 -->
 <details>
@@ -9789,7 +9789,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q235 — Design a Perplexity.ai / real-time LLM-powered search engine.（来源：[questions.md:276](interview/questions/questions.md)；[04-ai-system-design.md:60](interview/questions/04-ai-system-design.md)）
+- Q235 — Design a Perplexity.ai / real-time LLM-powered search engine.（来源：[questions.md:276](../interview/questions/questions.md)；[04-ai-system-design.md:60](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q235 -->
 <details>
@@ -9815,7 +9815,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q236 — Design a Ghibli Image Generator (text prompt ingestion, model selection, GPU inference, cost throttling, safety filters).（来源：[questions.md:277](interview/questions/questions.md)）
+- Q236 — Design a Ghibli Image Generator (text prompt ingestion, model selection, GPU inference, cost throttling, safety filters).（来源：[questions.md:277](../interview/questions/questions.md)）
 
 <!-- interview-answer Q236 -->
 <details>
@@ -9844,15 +9844,15 @@ Follow-up
 
 <a id="day-18"></a>
 
-### 周三 10/28
+### 周三 12/2
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Practical Coding: Key-Value Store; TTL<br>LeetCode: [706. Design HashMap](https://leetcode.com/problems/design-hashmap/); [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)<br>资料：[Key-Value Store](Study%20topics/key-value-store.html); [TTL](Study%20topics/ttl.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Practical Coding: Key-Value Store; TTL + LeetCode Top 150<br>计划原题（2 题）: [706. Design HashMap](https://leetcode.com/problems/design-hashmap/) · Easy; [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) · Medium<br>Top 150（3 题）: [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) · Trie · Medium; [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) · Trie · Medium; [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) · Array / String · Medium<br>资料：[Key-Value Store](../Study%20topics/key-value-store.html); [TTL](../Study%20topics/ttl.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Cross-Validation; Hyperparameter Tuning](Study%20topics/cross-validation-hyperparameter-tuning.html) · [Notebook](notebook/09_cross_validation_hyperparameter_tuning.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Financial Research RAG](Study%20topics/financial-research-rag.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Cross-Validation; Hyperparameter Tuning](../Study%20topics/cross-validation-hyperparameter-tuning.html) · [Notebook](../notebook/09_cross_validation_hyperparameter_tuning.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Financial Research RAG](../Study%20topics/financial-research-rag.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: AWS Deployment and Smoke Tests<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-18) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design — 10 items |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review |
@@ -9879,7 +9879,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q237 — Design a Dynamic Questionnaire Engine for an Insurance Platform (JSON-driven, frontend decision tree without backend calls).（来源：[questions.md:278](interview/questions/questions.md)）
+- Q237 — Design a Dynamic Questionnaire Engine for an Insurance Platform (JSON-driven, frontend decision tree without backend calls).（来源：[questions.md:278](../interview/questions/questions.md)）
 
 <!-- interview-answer Q237 -->
 <details>
@@ -9905,7 +9905,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q238 — Design a user profile system addressing storage, multi-device tracking, and preference flexibility. Optimize for 100 million users with batch migration.（来源：[questions.md:279](interview/questions/questions.md)）
+- Q238 — Design a user profile system addressing storage, multi-device tracking, and preference flexibility. Optimize for 100 million users with batch migration.（来源：[questions.md:279](../interview/questions/questions.md)）
 
 <!-- interview-answer Q238 -->
 <details>
@@ -9931,7 +9931,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q239 — Design a distributed search system capable of handling a billion documents and a million QPS, while also managing LLM inference for over 10,000 requests per second.（来源：[questions.md:280](interview/questions/questions.md)）
+- Q239 — Design a distributed search system capable of handling a billion documents and a million QPS, while also managing LLM inference for over 10,000 requests per second.（来源：[questions.md:280](../interview/questions/questions.md)）
 
 <!-- interview-answer Q239 -->
 <details>
@@ -9957,7 +9957,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q240 — Design hybrid search combining traditional text retrieval with semantic similarity - top-k similar documents from a corpus of over 10M documents with a response time under 50ms.（来源：[questions.md:281](interview/questions/questions.md)）
+- Q240 — Design hybrid search combining traditional text retrieval with semantic similarity - top-k similar documents from a corpus of over 10M documents with a response time under 50ms.（来源：[questions.md:281](../interview/questions/questions.md)）
 
 <!-- interview-answer Q240 -->
 <details>
@@ -9983,7 +9983,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q241 — Design a workflow to remove all dead links for hundreds of client websites assuming you have API access to overwrite their HTML.（来源：[questions.md:282](interview/questions/questions.md)）
+- Q241 — Design a workflow to remove all dead links for hundreds of client websites assuming you have API access to overwrite their HTML.（来源：[questions.md:282](../interview/questions/questions.md)）
 
 <!-- interview-answer Q241 -->
 <details>
@@ -10009,7 +10009,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q242 — How would you design the UX for an AI assistant that is often slow?（来源：[questions.md:283](interview/questions/questions.md)）
+- Q242 — How would you design the UX for an AI assistant that is often slow?（来源：[questions.md:283](../interview/questions/questions.md)）
 
 <!-- interview-answer Q242 -->
 <details>
@@ -10035,7 +10035,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q243 — How would you surface model limitations or errors to users without breaking trust?（来源：[questions.md:284](interview/questions/questions.md)）
+- Q243 — How would you surface model limitations or errors to users without breaking trust?（来源：[questions.md:284](../interview/questions/questions.md)）
 
 <!-- interview-answer Q243 -->
 <details>
@@ -10061,7 +10061,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q244 — Design a scalable image-generation pipeline for millions of users.（来源：[questions.md:285](interview/questions/questions.md)；[04-ai-system-design.md:67](interview/questions/04-ai-system-design.md)）
+- Q244 — Design a scalable image-generation pipeline for millions of users.（来源：[questions.md:285](../interview/questions/questions.md)；[04-ai-system-design.md:67](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q244 -->
 <details>
@@ -10087,7 +10087,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q245 — How would you scale a generative content platform for millions of users?（来源：[questions.md:286](interview/questions/questions.md)）
+- Q245 — How would you scale a generative content platform for millions of users?（来源：[questions.md:286](../interview/questions/questions.md)）
 
 <!-- interview-answer Q245 -->
 <details>
@@ -10113,7 +10113,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q246 — Design an In-Memory Database with SET, GET, BEGIN, ROLLBACK, COMMIT, and nested transaction support.（来源：[questions.md:287](interview/questions/questions.md)）
+- Q246 — Design an In-Memory Database with SET, GET, BEGIN, ROLLBACK, COMMIT, and nested transaction support.（来源：[questions.md:287](../interview/questions/questions.md)）
 
 <!-- interview-answer Q246 -->
 <details>
@@ -10142,18 +10142,18 @@ Follow-up
 
 <a id="day-19"></a>
 
-### 周四 10/29
+### 周四 12/3
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: Transactions; Constraints; Parameterized Queries<br>LeetCode: [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/); [602. Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/); [1341. Movie Rating](https://leetcode.com/problems/movie-rating/)<br>资料：[Transactions](Study%20topics/transactions.html); [Constraints](Study%20topics/constraints.html); [Parameterized Queries](Study%20topics/parameterized-queries.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Transactions; Constraints; Parameterized Queries + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/); [602. Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/); [1341. Movie Rating](https://leetcode.com/problems/movie-rating/)<br>Top 150（1 小时，3 题）: [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) · Graph BFS · Medium; [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) · Graph BFS · Medium; [112. Path Sum](https://leetcode.com/problems/path-sum/) · Binary Tree General · Easy<br>资料：[Transactions](../Study%20topics/transactions.html); [Constraints](../Study%20topics/constraints.html); [Parameterized Queries](../Study%20topics/parameterized-queries.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Feature Engineering; Interpretability; Feature Importance](Study%20topics/feature-engineering-interpretability-feature-importance.html) · [Notebook](notebook/10_feature_engineering_interpretability_feature_importance.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [RAG Evaluation and Retrieval Trade-offs](Study%20topics/rag-evaluation-and-retrieval-trade-offs.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Feature Engineering; Interpretability; Feature Importance](../Study%20topics/feature-engineering-interpretability-feature-importance.html) · [Notebook](../notebook/10_feature_engineering_interpretability_feature_importance.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [RAG Evaluation and Retrieval Trade-offs](../Study%20topics/rag-evaluation-and-retrieval-trade-offs.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Controlled CD and Rollback<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-19) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design — 10 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[OIDC](Study%20topics/oidc.html); [Rollback](Study%20topics/rollback.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[OIDC](../Study%20topics/oidc.html); [Rollback](../Study%20topics/rollback.html) |
 
 
 刷题对应说明：LeetCode 对应本日查询练习；Transactions、Constraints 和 Parameterized Queries 在 PostgreSQL 中练习。
@@ -10177,7 +10177,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q247 — Design an AI recommendation system.（来源：[questions.md:288](interview/questions/questions.md)）
+- Q247 — Design an AI recommendation system.（来源：[questions.md:288](../interview/questions/questions.md)）
 
 <!-- interview-answer Q247 -->
 <details>
@@ -10203,7 +10203,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q248 — Design a fraud detection system.（来源：[questions.md:289](interview/questions/questions.md)；[04-ai-system-design.md:55](interview/questions/04-ai-system-design.md)；[04-ai-system-design.md:105](interview/questions/04-ai-system-design.md)）
+- Q248 — Design a fraud detection system.（来源：[questions.md:289](../interview/questions/questions.md)；[04-ai-system-design.md:55](../interview/questions/04-ai-system-design.md)；[04-ai-system-design.md:105](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q248 -->
 <details>
@@ -10229,7 +10229,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q249 — Design a chatbot architecture end-to-end (LLM + backend + data flow).（来源：[questions.md:290](interview/questions/questions.md)）
+- Q249 — Design a chatbot architecture end-to-end (LLM + backend + data flow).（来源：[questions.md:290](../interview/questions/questions.md)）
 
 <!-- interview-answer Q249 -->
 <details>
@@ -10255,7 +10255,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q250 — Design a distributed job queue for 100k+ GPU training jobs with preemption and checkpointing.（来源：[questions.md:291](interview/questions/questions.md)；[04-ai-system-design.md:68](interview/questions/04-ai-system-design.md)）
+- Q250 — Design a distributed job queue for 100k+ GPU training jobs with preemption and checkpointing.（来源：[questions.md:291](../interview/questions/questions.md)；[04-ai-system-design.md:68](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q250 -->
 <details>
@@ -10281,7 +10281,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q251 — Design a temperature prediction system handling inconsistent global datasets (hybrid ML-LLM).（来源：[questions.md:292](interview/questions/questions.md)）
+- Q251 — Design a temperature prediction system handling inconsistent global datasets (hybrid ML-LLM).（来源：[questions.md:292](../interview/questions/questions.md)）
 
 <!-- interview-answer Q251 -->
 <details>
@@ -10307,7 +10307,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q252 — Design an end-to-end RAG service: data ingestion, indexing, retrieval, generation, evals, tracing, guardrails.（来源：[questions.md:293](interview/questions/questions.md)）
+- Q252 — Design an end-to-end RAG service: data ingestion, indexing, retrieval, generation, evals, tracing, guardrails.（来源：[questions.md:293](../interview/questions/questions.md)）
 
 <!-- interview-answer Q252 -->
 <details>
@@ -10333,7 +10333,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q253 — Design a rate-limiter and code the core part.（来源：[questions.md:294](interview/questions/questions.md)）
+- Q253 — Design a rate-limiter and code the core part.（来源：[questions.md:294](../interview/questions/questions.md)）
 
 <!-- interview-answer Q253 -->
 <details>
@@ -10390,7 +10390,7 @@ class TokenBucket:
 </details>
 <!-- /interview-answer -->
 
-- Q254 — Scaling AI systems to millions of users: latency and cost trade-offs, batching, caching, streaming, failure modes.（来源：[questions.md:295](interview/questions/questions.md)）
+- Q254 — Scaling AI systems to millions of users: latency and cost trade-offs, batching, caching, streaming, failure modes.（来源：[questions.md:295](../interview/questions/questions.md)）
 
 <!-- interview-answer Q254 -->
 <details>
@@ -10416,7 +10416,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q255 — Design ChatGPT's cross-conversation memory feature.（来源：[questions.md:296](interview/questions/questions.md)；[04-ai-system-design.md:56](interview/questions/04-ai-system-design.md)）
+- Q255 — Design ChatGPT's cross-conversation memory feature.（来源：[questions.md:296](../interview/questions/questions.md)；[04-ai-system-design.md:56](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q255 -->
 <details>
@@ -10442,7 +10442,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q256 — Design a multi-step agentic workflow (meeting scheduling, code review, email campaigns).（来源：[questions.md:297](interview/questions/questions.md)；[04-ai-system-design.md:57](interview/questions/04-ai-system-design.md)）
+- Q256 — Design a multi-step agentic workflow (meeting scheduling, code review, email campaigns).（来源：[questions.md:297](../interview/questions/questions.md)；[04-ai-system-design.md:57](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q256 -->
 <details>
@@ -10471,18 +10471,18 @@ Follow-up
 
 <a id="day-20"></a>
 
-### 周五 10/30
+### 周五 12/4
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Debugging; Code Reading; Refactoring<br>LeetCode: [394. Decode String](https://leetcode.com/problems/decode-string/); [71. Simplify Path](https://leetcode.com/problems/simplify-path/); [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)<br>资料：[Stacks](Study%20topics/stacks.html); [Debugging](Study%20topics/debugging.html); [Refactoring](Study%20topics/refactoring.html); [Code Review](Study%20topics/code-review.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Debugging; Code Reading; Refactoring + LeetCode Top 150<br>计划原题（1 题）: [394. Decode String](https://leetcode.com/problems/decode-string/) · Medium<br>Top 150（3 题）: [274. H-Index](https://leetcode.com/problems/h-index/) · Array / String · Medium; [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) · Array / String · Medium; [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) · Binary Tree General · Medium<br>复习（每题约 10 分钟，做过的题限时重做）: [71. Simplify Path](https://leetcode.com/problems/simplify-path/); [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)<br>资料：[Stacks](../Study%20topics/stacks.html); [Debugging](../Study%20topics/debugging.html); [Refactoring](../Study%20topics/refactoring.html); [Code Review](../Study%20topics/code-review.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Feature Engineering; Interpretability; Feature Importance](Study%20topics/feature-engineering-interpretability-feature-importance.html) · [Notebook](notebook/10_feature_engineering_interpretability_feature_importance.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [RAG Evaluation and Retrieval Trade-offs](Study%20topics/rag-evaluation-and-retrieval-trade-offs.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Feature Engineering; Interpretability; Feature Importance](../Study%20topics/feature-engineering-interpretability-feature-importance.html) · [Notebook](../notebook/10_feature_engineering_interpretability_feature_importance.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [RAG Evaluation and Retrieval Trade-offs](../Study%20topics/rag-evaluation-and-retrieval-trade-offs.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Reproduction and Project Deep Dive<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-20) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design; System Design Questions / Traditional System Design — 9 items |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities<br>当日概念索引（按需）：[Clean-Environment Reproduction](Study%20topics/clean-environment-reproduction.html); [README](Study%20topics/readme.html); [Demo](Study%20topics/demo.html); [AI-Assisted Code Review](Study%20topics/ai-assisted-code-review.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities<br>当日概念索引（按需）：[Clean-Environment Reproduction](../Study%20topics/clean-environment-reproduction.html); [README](../Study%20topics/readme.html); [Demo](../Study%20topics/demo.html); [AI-Assisted Code Review](../Study%20topics/ai-assisted-code-review.html) |
 
 刷题对应说明：LeetCode 对应解析与数据处理；Debugging、Code Reading 和 Refactoring 使用项目代码。
 
@@ -10504,7 +10504,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q257 — Design a content/policy violation detection system.（来源：[questions.md:298](interview/questions/questions.md)；[04-ai-system-design.md:58](interview/questions/04-ai-system-design.md)）
+- Q257 — Design a content/policy violation detection system.（来源：[questions.md:298](../interview/questions/questions.md)；[04-ai-system-design.md:58](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q257 -->
 <details>
@@ -10530,7 +10530,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q258 — Design a unified query engine across dispersed data sources like email, calendar, documents, and chat.（来源：[questions.md:299](interview/questions/questions.md)；[04-ai-system-design.md:59](interview/questions/04-ai-system-design.md)）
+- Q258 — Design a unified query engine across dispersed data sources like email, calendar, documents, and chat.（来源：[questions.md:299](../interview/questions/questions.md)；[04-ai-system-design.md:59](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q258 -->
 <details>
@@ -10556,7 +10556,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q259 — How would you implement an AI application from start to finish, from kickoff meeting through deployment? (IBM)（来源：[questions.md:300](interview/questions/questions.md)）
+- Q259 — How would you implement an AI application from start to finish, from kickoff meeting through deployment? (IBM)（来源：[questions.md:300](../interview/questions/questions.md)）
 
 <!-- interview-answer Q259 -->
 <details>
@@ -10582,7 +10582,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q260 — How would you design a scalable and reliable automation workflow? What considerations for error handling, monitoring, and debugging?（来源：[questions.md:301](interview/questions/questions.md)）
+- Q260 — How would you design a scalable and reliable automation workflow? What considerations for error handling, monitoring, and debugging?（来源：[questions.md:301](../interview/questions/questions.md)）
 
 <!-- interview-answer Q260 -->
 <details>
@@ -10608,7 +10608,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q261 — Design GitHub Actions.（来源：[questions.md:307](interview/questions/questions.md)；[04-ai-system-design.md:118](interview/questions/04-ai-system-design.md)）
+- Q261 — Design GitHub Actions.（来源：[questions.md:307](../interview/questions/questions.md)；[04-ai-system-design.md:118](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q261 -->
 <details>
@@ -10634,7 +10634,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q262 — Design Slack.（来源：[questions.md:308](interview/questions/questions.md)）
+- Q262 — Design Slack.（来源：[questions.md:308](../interview/questions/questions.md)）
 
 <!-- interview-answer Q262 -->
 <details>
@@ -10660,7 +10660,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q263 — Design Online Chess.（来源：[questions.md:309](interview/questions/questions.md)；[04-ai-system-design.md:119](interview/questions/04-ai-system-design.md)）
+- Q263 — Design Online Chess.（来源：[questions.md:309](../interview/questions/questions.md)；[04-ai-system-design.md:119](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q263 -->
 <details>
@@ -10686,7 +10686,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q264 — Design a Payment System.（来源：[questions.md:310](interview/questions/questions.md)）
+- Q264 — Design a Payment System.（来源：[questions.md:310](../interview/questions/questions.md)）
 
 <!-- interview-answer Q264 -->
 <details>
@@ -10712,7 +10712,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q265 — Design a Webhook Callback System.（来源：[questions.md:311](interview/questions/questions.md)）
+- Q265 — Design a Webhook Callback System.（来源：[questions.md:311](../interview/questions/questions.md)）
 
 <!-- interview-answer Q265 -->
 <details>
@@ -10746,18 +10746,18 @@ Follow-up
 
 <a id="day-21"></a>
 
-### 周一 11/2
+### 周一 12/7
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Practical Coding: API Clients; Input Validation<br>LeetCode: [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/); [468. Validate IP Address](https://leetcode.com/problems/validate-ip-address/)<br>资料：[API Clients](Study%20topics/api-clients.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Practical Coding: API Clients; Input Validation + LeetCode Top 150<br>计划原题（2 题）: [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) · Medium; [468. Validate IP Address](https://leetcode.com/problems/validate-ip-address/) · Medium<br>Top 150（3 题）: [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) · Matrix · Medium; [48. Rotate Image](https://leetcode.com/problems/rotate-image/) · Matrix · Medium; [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) · Matrix · Medium<br>资料：[API Clients](../Study%20topics/api-clients.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [Notebook](notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Financial Text-to-SQL](Study%20topics/financial-text-to-sql.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [Notebook](../notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Financial Text-to-SQL](../Study%20topics/financial-text-to-sql.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Snowflake Setup and Sample SQL<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-21) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / Traditional System Design — 10 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Access Control](Study%20topics/access-control.html); [Snowflake](Study%20topics/snowflake.html); [Financial Statement Analytics Assistant](Study%20topics/financial-statement-analytics-assistant.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Access Control](../Study%20topics/access-control.html); [Snowflake](../Study%20topics/snowflake.html); [Financial Statement Analytics Assistant](../Study%20topics/financial-statement-analytics-assistant.html) |
 
 
 刷题对应说明：LeetCode 对应 Validation 与 Parsing；API Clients 使用自定义工程练习。
@@ -10780,7 +10780,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q266 — Design TinyURL (Bitly).（来源：[questions.md:312](interview/questions/questions.md)）
+- Q266 — Design TinyURL (Bitly).（来源：[questions.md:312](../interview/questions/questions.md)）
 
 <!-- interview-answer Q266 -->
 <details>
@@ -10806,7 +10806,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q267 — Design Instagram / TikTok feed.（来源：[questions.md:313](interview/questions/questions.md)）
+- Q267 — Design Instagram / TikTok feed.（来源：[questions.md:313](../interview/questions/questions.md)）
 
 <!-- interview-answer Q267 -->
 <details>
@@ -10832,7 +10832,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q268 — Design Twitter / X (timeline, posting, followers, trending topics).（来源：[questions.md:314](interview/questions/questions.md)）
+- Q268 — Design Twitter / X (timeline, posting, followers, trending topics).（来源：[questions.md:314](../interview/questions/questions.md)）
 
 <!-- interview-answer Q268 -->
 <details>
@@ -10858,7 +10858,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q269 — Design YouTube / Netflix video streaming platform.（来源：[questions.md:315](interview/questions/questions.md)；[04-ai-system-design.md:121](interview/questions/04-ai-system-design.md)）
+- Q269 — Design YouTube / Netflix video streaming platform.（来源：[questions.md:315](../interview/questions/questions.md)；[04-ai-system-design.md:121](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q269 -->
 <details>
@@ -10884,7 +10884,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q270 — Design Uber (ride-sharing backend: matching, ETA, pricing surges).（来源：[questions.md:316](interview/questions/questions.md)；[04-ai-system-design.md:122](interview/questions/04-ai-system-design.md)）
+- Q270 — Design Uber (ride-sharing backend: matching, ETA, pricing surges).（来源：[questions.md:316](../interview/questions/questions.md)；[04-ai-system-design.md:122](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q270 -->
 <details>
@@ -10910,7 +10910,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q271 — Design WhatsApp / Messenger (1:1 + group chat at global scale).（来源：[questions.md:317](interview/questions/questions.md)；[04-ai-system-design.md:123](interview/questions/04-ai-system-design.md)）
+- Q271 — Design WhatsApp / Messenger (1:1 + group chat at global scale).（来源：[questions.md:317](../interview/questions/questions.md)；[04-ai-system-design.md:123](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q271 -->
 <details>
@@ -10936,7 +10936,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q272 — Design a distributed key-value store (like DynamoDB / Cassandra).（来源：[questions.md:318](interview/questions/questions.md)；[04-ai-system-design.md:116](interview/questions/04-ai-system-design.md)）
+- Q272 — Design a distributed key-value store (like DynamoDB / Cassandra).（来源：[questions.md:318](../interview/questions/questions.md)；[04-ai-system-design.md:116](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q272 -->
 <details>
@@ -10962,7 +10962,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q273 — Design Google Docs collaborative editing (real-time, eventually consistent).（来源：[questions.md:319](interview/questions/questions.md)；[04-ai-system-design.md:124](interview/questions/04-ai-system-design.md)）
+- Q273 — Design Google Docs collaborative editing (real-time, eventually consistent).（来源：[questions.md:319](../interview/questions/questions.md)；[04-ai-system-design.md:124](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q273 -->
 <details>
@@ -10988,7 +10988,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q274 — Design Yelp / Google Maps nearby search.（来源：[questions.md:320](interview/questions/questions.md)）
+- Q274 — Design Yelp / Google Maps nearby search.（来源：[questions.md:320](../interview/questions/questions.md)）
 
 <!-- interview-answer Q274 -->
 <details>
@@ -11014,7 +11014,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q275 — Design a rate limiter (global, per-user, distributed).（来源：[questions.md:321](interview/questions/questions.md)；[04-ai-system-design.md:117](interview/questions/04-ai-system-design.md)）
+- Q275 — Design a rate limiter (global, per-user, distributed).（来源：[questions.md:321](../interview/questions/questions.md)；[04-ai-system-design.md:117](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q275 -->
 <details>
@@ -11043,18 +11043,18 @@ Follow-up
 
 <a id="day-22"></a>
 
-### 周二 11/3
+### 周二 12/8
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: PostgreSQL Schema Design; Primary and Foreign Keys<br>LeetCode: [1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/); [1251. Average Selling Price](https://leetcode.com/problems/average-selling-price/); [1633. Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/)<br>资料：[PostgreSQL Schema Design](Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](Study%20topics/primary-and-foreign-keys.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: PostgreSQL Schema Design; Primary and Foreign Keys + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/); [1251. Average Selling Price](https://leetcode.com/problems/average-selling-price/); [1633. Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/)<br>Top 150（1 小时，3 题）: [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) · Binary Tree General · Medium; [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) · Binary Tree General · Medium; [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) · Binary Tree General · Medium<br>资料：[PostgreSQL Schema Design](../Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](../Study%20topics/primary-and-foreign-keys.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [Notebook](notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Financial Text-to-SQL](Study%20topics/financial-text-to-sql.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [Notebook](../notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Financial Text-to-SQL](../Study%20topics/financial-text-to-sql.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: SEC Ingestion and Raw Snapshots<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-22) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / Traditional System Design; System Design Questions / System Troubleshooting — 10 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[SEC Financial Data](Study%20topics/sec-financial-data.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[SEC Financial Data](../Study%20topics/sec-financial-data.html) |
 
 
 刷题对应说明：LeetCode 对应查询练习；Schema Design 与主外键使用 PostgreSQL。
@@ -11078,7 +11078,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q276 — Design Discord (voice + text chat, millions concurrent in voice channels).（来源：[questions.md:322](interview/questions/questions.md)）
+- Q276 — Design Discord (voice + text chat, millions concurrent in voice channels).（来源：[questions.md:322](../interview/questions/questions.md)）
 
 <!-- interview-answer Q276 -->
 <details>
@@ -11104,7 +11104,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q277 — Design Stripe payment processing system (high consistency, PCI compliance).（来源：[questions.md:323](interview/questions/questions.md)）
+- Q277 — Design Stripe payment processing system (high consistency, PCI compliance).（来源：[questions.md:323](../interview/questions/questions.md)）
 
 <!-- interview-answer Q277 -->
 <details>
@@ -11130,7 +11130,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q278 — Design a distributed job scheduler (like AWS Batch at planetary scale).（来源：[questions.md:324](interview/questions/questions.md)）
+- Q278 — Design a distributed job scheduler (like AWS Batch at planetary scale).（来源：[questions.md:324](../interview/questions/questions.md)）
 
 <!-- interview-answer Q278 -->
 <details>
@@ -11156,7 +11156,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q279 — Design a notification system that can send 1B notifications/day with <1% loss.（来源：[questions.md:325](interview/questions/questions.md)）
+- Q279 — Design a notification system that can send 1B notifications/day with <1% loss.（来源：[questions.md:325](../interview/questions/questions.md)）
 
 <!-- interview-answer Q279 -->
 <details>
@@ -11182,7 +11182,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q280 — Design a strongly-consistent distributed database (Spanner / CockroachDB-like).（来源：[questions.md:326](interview/questions/questions.md)）
+- Q280 — Design a strongly-consistent distributed database (Spanner / CockroachDB-like).（来源：[questions.md:326](../interview/questions/questions.md)）
 
 <!-- interview-answer Q280 -->
 <details>
@@ -11208,7 +11208,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q281 — Design a high-frequency trading exchange matching engine.（来源：[questions.md:327](interview/questions/questions.md)）
+- Q281 — Design a high-frequency trading exchange matching engine.（来源：[questions.md:327](../interview/questions/questions.md)）
 
 <!-- interview-answer Q281 -->
 <details>
@@ -11234,7 +11234,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q282 — Our p99 latency went from 50ms to 2s overnight - how would you debug and fix?（来源：[questions.md:328](interview/questions/questions.md)）
+- Q282 — Our p99 latency went from 50ms to 2s overnight - how would you debug and fix?（来源：[questions.md:328](../interview/questions/questions.md)）
 
 <!-- interview-answer Q282 -->
 <details>
@@ -11260,7 +11260,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q283 — Design a global WebSocket service (10M+ concurrent connections).（来源：[questions.md:329](interview/questions/questions.md)）
+- Q283 — Design a global WebSocket service (10M+ concurrent connections).（来源：[questions.md:329](../interview/questions/questions.md)）
 
 <!-- interview-answer Q283 -->
 <details>
@@ -11286,7 +11286,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q284 — Design a global feature flag / config service (multi-region, zero-downtime rollouts).（来源：[questions.md:330](interview/questions/questions.md)）
+- Q284 — Design a global feature flag / config service (multi-region, zero-downtime rollouts).（来源：[questions.md:330](../interview/questions/questions.md)）
 
 <!-- interview-answer Q284 -->
 <details>
@@ -11312,7 +11312,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q285 — A system's 95th percentile latency spiked from 100ms to 2000ms. Identify bottlenecks rapidly.（来源：[questions.md:334](interview/questions/questions.md)）
+- Q285 — A system's 95th percentile latency spiked from 100ms to 2000ms. Identify bottlenecks rapidly.（来源：[questions.md:334](../interview/questions/questions.md)）
 
 <!-- interview-answer Q285 -->
 <details>
@@ -11341,18 +11341,18 @@ Follow-up
 
 <a id="day-23"></a>
 
-### 周三 11/4
+### 周三 12/9
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Python: Async; Concurrency; Parallelism; GIL; Race Conditions<br>LeetCode: [1114. Print in Order](https://leetcode.com/problems/print-in-order/); [1115. Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/)<br>资料：[Async](Study%20topics/async.html); [Concurrency](Study%20topics/concurrency.html); [Parallelism](Study%20topics/parallelism.html); [GIL](Study%20topics/gil.html); [Race Conditions](Study%20topics/race-conditions.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Async; Concurrency; Parallelism; GIL; Race Conditions + LeetCode Top 150<br>计划原题（2 题）: [1114. Print in Order](https://leetcode.com/problems/print-in-order/) · Easy; [1115. Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/) · Medium<br>Top 150（3 题）: [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) · Backtracking · Medium; [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) · Backtracking · Medium; [39. Combination Sum](https://leetcode.com/problems/combination-sum/) · Backtracking · Medium<br>资料：[Async](../Study%20topics/async.html); [Concurrency](../Study%20topics/concurrency.html); [Parallelism](../Study%20topics/parallelism.html); [GIL](../Study%20topics/gil.html); [Race Conditions](../Study%20topics/race-conditions.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [Notebook](notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Text-to-SQL Evaluation and Data Quality](Study%20topics/text-to-sql-evaluation-and-data-quality.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [Notebook](../notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Text-to-SQL Evaluation and Data Quality](../Study%20topics/text-to-sql-evaluation-and-data-quality.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Financial Data Model and Quality Checks<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-23) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / System Troubleshooting; System Design Questions / Supplemental Designs — 9 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Data Quality](Study%20topics/data-quality.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Data Quality](../Study%20topics/data-quality.html) |
 
 
 刷题对应说明：LeetCode 1114 / 1115 对应同步问题；Async、GIL、Race Conditions 另用自定义 Python 练习。
@@ -11375,7 +11375,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q286 — How would you handle a 10x traffic spike during a product launch?（来源：[questions.md:335](interview/questions/questions.md)）
+- Q286 — How would you handle a 10x traffic spike during a product launch?（来源：[questions.md:335](../interview/questions/questions.md)）
 
 <!-- interview-answer Q286 -->
 <details>
@@ -11401,7 +11401,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q287 — What happens if your primary data center goes offline for six hours?（来源：[questions.md:336](interview/questions/questions.md)）
+- Q287 — What happens if your primary data center goes offline for six hours?（来源：[questions.md:336](../interview/questions/questions.md)）
 
 <!-- interview-answer Q287 -->
 <details>
@@ -11427,7 +11427,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q513 — Scale an AI chat feature to 1M daily users - discuss trade-offs（来源：[04-ai-system-design.md:39](interview/questions/04-ai-system-design.md)）
+- Q513 — Scale an AI chat feature to 1M daily users - discuss trade-offs（来源：[04-ai-system-design.md:39](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q513 -->
 <details>
@@ -11453,7 +11453,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q514 — Design an AI chatbot (ChatGPT, Claude chat service).（来源：[04-ai-system-design.md:47](interview/questions/04-ai-system-design.md)）
+- Q514 — Design an AI chatbot (ChatGPT, Claude chat service).（来源：[04-ai-system-design.md:47](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q514 -->
 <details>
@@ -11479,7 +11479,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q515 — Design a Document Q&A Assistant / RAG system.（来源：[04-ai-system-design.md:48](interview/questions/04-ai-system-design.md)）
+- Q515 — Design a Document Q&A Assistant / RAG system.（来源：[04-ai-system-design.md:48](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q515 -->
 <details>
@@ -11505,7 +11505,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q516 — Design an AI co-pilot like GitHub Copilot（来源：[04-ai-system-design.md:49](interview/questions/04-ai-system-design.md)）
+- Q516 — Design an AI co-pilot like GitHub Copilot（来源：[04-ai-system-design.md:49](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q516 -->
 <details>
@@ -11531,7 +11531,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q517 — Design an AI-powered Candidate Sourcing System.（来源：[04-ai-system-design.md:52](interview/questions/04-ai-system-design.md)）
+- Q517 — Design an AI-powered Candidate Sourcing System.（来源：[04-ai-system-design.md:52](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q517 -->
 <details>
@@ -11557,7 +11557,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q518 — Design a system to process 10K user uploads/month (bank payslips, IDs, references).（来源：[04-ai-system-design.md:53](interview/questions/04-ai-system-design.md)）
+- Q518 — Design a system to process 10K user uploads/month (bank payslips, IDs, references).（来源：[04-ai-system-design.md:53](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q518 -->
 <details>
@@ -11583,7 +11583,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q519 — Design a large-scale AI model deployment system - model serving, GPU scaling, model versioning, result caching. (OpenAI)（来源：[04-ai-system-design.md:69](interview/questions/04-ai-system-design.md)）
+- Q519 — Design a large-scale AI model deployment system - model serving, GPU scaling, model versioning, result caching. (OpenAI)（来源：[04-ai-system-design.md:69](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q519 -->
 <details>
@@ -11612,18 +11612,18 @@ Follow-up
 
 <a id="day-24"></a>
 
-### 周四 11/5
+### 周四 12/10
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: Indexes; EXPLAIN; Query Optimization<br>LeetCode: [1193. Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/); [1211. Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/); [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)<br>资料：[Indexes](Study%20topics/indexes.html); [EXPLAIN](Study%20topics/explain.html); [Query Optimization](Study%20topics/query-optimization.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Indexes; EXPLAIN; Query Optimization + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [1193. Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/); [1211. Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/); [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)<br>Top 150（1 小时，3 题）: [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) · Binary Tree General · Medium; [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) · Binary Tree General · Medium; [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) · Binary Tree BFS · Medium<br>资料：[Indexes](../Study%20topics/indexes.html); [EXPLAIN](../Study%20topics/explain.html); [Query Optimization](../Study%20topics/query-optimization.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [Notebook](notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Text-to-SQL Evaluation and Data Quality](Study%20topics/text-to-sql-evaluation-and-data-quality.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [Notebook](../notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Text-to-SQL Evaluation and Data Quality](../Study%20topics/text-to-sql-evaluation-and-data-quality.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Reference SQL and Financial Analytics<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-24) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / Supplemental Designs; Project Deep Dive / Opening Questions; Project Deep Dive / Follow-up Probes — 15 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Point-in-Time Data](Study%20topics/point-in-time-data.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Point-in-Time Data](../Study%20topics/point-in-time-data.html) |
 
 
 刷题对应说明：LeetCode 对应 SQL 查询；Indexes、EXPLAIN 和 Query Optimization 在 PostgreSQL 中练习。
@@ -11646,7 +11646,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q520 — Design a recommendation system（来源：[04-ai-system-design.md:104](interview/questions/04-ai-system-design.md)）
+- Q520 — Design a recommendation system（来源：[04-ai-system-design.md:104](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q520 -->
 <details>
@@ -11672,7 +11672,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q521 — Design a spam classifier（来源：[04-ai-system-design.md:106](interview/questions/04-ai-system-design.md)）
+- Q521 — Design a spam classifier（来源：[04-ai-system-design.md:106](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q521 -->
 <details>
@@ -11698,7 +11698,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q522 — Design a search ranking system（来源：[04-ai-system-design.md:107](interview/questions/04-ai-system-design.md)）
+- Q522 — Design a search ranking system（来源：[04-ai-system-design.md:107](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q522 -->
 <details>
@@ -11724,7 +11724,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q523 — Design an ad click prediction system（来源：[04-ai-system-design.md:108](interview/questions/04-ai-system-design.md)）
+- Q523 — Design an ad click prediction system（来源：[04-ai-system-design.md:108](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q523 -->
 <details>
@@ -11750,7 +11750,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q524 — Design Instagram / TikTok / X (timeline, posting, followers).（来源：[04-ai-system-design.md:120](interview/questions/04-ai-system-design.md)）
+- Q524 — Design Instagram / TikTok / X (timeline, posting, followers).（来源：[04-ai-system-design.md:120](../interview/questions/04-ai-system-design.md)）
 
 <!-- interview-answer Q524 -->
 <details>
@@ -11776,7 +11776,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q407 — Walk me through your most technically challenging project. (OpenAI - 45-min presentation to a peer engineer)（来源：[questions.md:512](interview/questions/questions.md)）
+- Q407 — Walk me through your most technically challenging project. (OpenAI - 45-min presentation to a peer engineer)（来源：[questions.md:512](../interview/questions/questions.md)）
 
 <!-- interview-answer Q407 -->
 <details>
@@ -11802,7 +11802,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q408 — Walk me through a project you owned end-to-end. What were the key technical decisions? (Anthropic - 25-min presentation + 15-20 min discussion)（来源：[questions.md:513](interview/questions/questions.md)）
+- Q408 — Walk me through a project you owned end-to-end. What were the key technical decisions? (Anthropic - 25-min presentation + 15-20 min discussion)（来源：[questions.md:513](../interview/questions/questions.md)）
 
 <!-- interview-answer Q408 -->
 <details>
@@ -11828,7 +11828,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q409 — Tell me about a project you're most proud of, and what role you played. (OpenAI)（来源：[questions.md:514](interview/questions/questions.md)）
+- Q409 — Tell me about a project you're most proud of, and what role you played. (OpenAI)（来源：[questions.md:514](../interview/questions/questions.md)）
 
 <!-- interview-answer Q409 -->
 <details>
@@ -11854,7 +11854,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q410 — Why did you choose that particular storage/model/architecture over alternatives?（来源：[questions.md:521](interview/questions/questions.md)）
+- Q410 — Why did you choose that particular storage/model/architecture over alternatives?（来源：[questions.md:521](../interview/questions/questions.md)）
 
 <!-- interview-answer Q410 -->
 <details>
@@ -11880,7 +11880,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q411 — Is there an actual eval framework here, or is it vibes-based? (OpenAI)（来源：[questions.md:522](interview/questions/questions.md)）
+- Q411 — Is there an actual eval framework here, or is it vibes-based? (OpenAI)（来源：[questions.md:522](../interview/questions/questions.md)）
 
 <!-- interview-answer Q411 -->
 <details>
@@ -11906,7 +11906,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q412 — What alternative approaches did you consider, and why did you reject them?（来源：[questions.md:523](interview/questions/questions.md)）
+- Q412 — What alternative approaches did you consider, and why did you reject them?（来源：[questions.md:523](../interview/questions/questions.md)）
 
 <!-- interview-answer Q412 -->
 <details>
@@ -11932,7 +11932,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q413 — How would you handle different requirements or scale constraints?（来源：[questions.md:524](interview/questions/questions.md)；[03-project-deep-dive.md:48](interview/questions/03-project-deep-dive.md)）
+- Q413 — How would you handle different requirements or scale constraints?（来源：[questions.md:524](../interview/questions/questions.md)；[03-project-deep-dive.md:48](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q413 -->
 <details>
@@ -11958,7 +11958,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q414 — What would you do differently if you started this project over?（来源：[questions.md:525](interview/questions/questions.md)；[03-project-deep-dive.md:69](interview/questions/03-project-deep-dive.md)）
+- Q414 — What would you do differently if you started this project over?（来源：[questions.md:525](../interview/questions/questions.md)；[03-project-deep-dive.md:69](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q414 -->
 <details>
@@ -11984,7 +11984,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q415 — What was the most challenging technical decision and how did you make it?（来源：[questions.md:526](interview/questions/questions.md)；[03-project-deep-dive.md:54](interview/questions/03-project-deep-dive.md)）
+- Q415 — What was the most challenging technical decision and how did you make it?（来源：[questions.md:526](../interview/questions/questions.md)；[03-project-deep-dive.md:54](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q415 -->
 <details>
@@ -12010,7 +12010,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q416 — Did the solution actually work? How do you know? What metrics did you track?（来源：[questions.md:527](interview/questions/questions.md)；[03-project-deep-dive.md:61](interview/questions/03-project-deep-dive.md)）
+- Q416 — Did the solution actually work? How do you know? What metrics did you track?（来源：[questions.md:527](../interview/questions/questions.md)；[03-project-deep-dive.md:61](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q416 -->
 <details>
@@ -12039,15 +12039,15 @@ Follow-up
 
 <a id="day-25"></a>
 
-### 周五 11/6
+### 周五 12/11
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Practical Coding: Rate Limiter; Cache<br>LeetCode: [146. LRU Cache](https://leetcode.com/problems/lru-cache/); [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/); [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)（Premium，可选）<br>资料：[LRU Cache](Study%20topics/lru-cache.html); [Rate Limiter](Study%20topics/rate-limiter.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Practical Coding: Rate Limiter; Cache + LeetCode Top 150<br>计划原题（2 题）: [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) · Medium; [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) · Easy<br>Top 150（2 题）: [46. Permutations](https://leetcode.com/problems/permutations/) · Backtracking · Medium; [77. Combinations](https://leetcode.com/problems/combinations/) · Backtracking · Medium<br>复习（每题约 10 分钟，做过的题限时重做）: [146. LRU Cache](https://leetcode.com/problems/lru-cache/)<br>资料：[LRU Cache](../Study%20topics/lru-cache.html); [Rate Limiter](../Study%20topics/rate-limiter.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Agents with Human Approval](Study%20topics/agents-with-human-approval.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Agents with Human Approval](../Study%20topics/agents-with-human-approval.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Question Dataset and SQL Ground Truth<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-25) |
 | 16:30–17:30 | Interview Questions，1 小时 | Project Deep Dive / Follow-up Probes; Project Deep Dive / Supplemental Probes — 19 items |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities |
@@ -12072,7 +12072,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q417 — What were the trade-offs you made, and are you still comfortable with them?（来源：[questions.md:528](interview/questions/questions.md)；[03-project-deep-dive.md:47](interview/questions/03-project-deep-dive.md)）
+- Q417 — What were the trade-offs you made, and are you still comfortable with them?（来源：[questions.md:528](../interview/questions/questions.md)；[03-project-deep-dive.md:47](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q417 -->
 <details>
@@ -12098,7 +12098,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q418 — How did you communicate technical decisions to stakeholders?（来源：[questions.md:529](interview/questions/questions.md)；[03-project-deep-dive.md:42](interview/questions/03-project-deep-dive.md)）
+- Q418 — How did you communicate technical decisions to stakeholders?（来源：[questions.md:529](../interview/questions/questions.md)；[03-project-deep-dive.md:42](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q418 -->
 <details>
@@ -12124,7 +12124,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q419 — What would you explore next if you had more time?（来源：[questions.md:530](interview/questions/questions.md)；[03-project-deep-dive.md:70](interview/questions/03-project-deep-dive.md)）
+- Q419 — What would you explore next if you had more time?（来源：[questions.md:530](../interview/questions/questions.md)；[03-project-deep-dive.md:70](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q419 -->
 <details>
@@ -12150,7 +12150,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q420 — How do you monitor the model post-deployment for drift or degradation?（来源：[questions.md:531](interview/questions/questions.md)；[03-project-deep-dive.md:63](interview/questions/03-project-deep-dive.md)）
+- Q420 — How do you monitor the model post-deployment for drift or degradation?（来源：[questions.md:531](../interview/questions/questions.md)；[03-project-deep-dive.md:63](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q420 -->
 <details>
@@ -12176,7 +12176,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q421 — What trade-offs did you make between retrieval speed vs. context length, fine-tuning vs. prompt engineering, GPU cost vs. latency?（来源：[questions.md:532](interview/questions/questions.md)）
+- Q421 — What trade-offs did you make between retrieval speed vs. context length, fine-tuning vs. prompt engineering, GPU cost vs. latency?（来源：[questions.md:532](../interview/questions/questions.md)）
 
 <!-- interview-answer Q421 -->
 <details>
@@ -12202,7 +12202,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q498 — Walk me through an AI project you built end-to-end.（来源：[03-project-deep-dive.md:22](interview/questions/03-project-deep-dive.md)）
+- Q498 — Walk me through an AI project you built end-to-end.（来源：[03-project-deep-dive.md:22](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q498 -->
 <details>
@@ -12228,7 +12228,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q499 — Walk through a recent technical project.（来源：[03-project-deep-dive.md:23](interview/questions/03-project-deep-dive.md)）
+- Q499 — Walk through a recent technical project.（来源：[03-project-deep-dive.md:23](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q499 -->
 <details>
@@ -12254,7 +12254,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q500 — Walk me through your most technically challenging project.（来源：[03-project-deep-dive.md:24](interview/questions/03-project-deep-dive.md)）
+- Q500 — Walk me through your most technically challenging project.（来源：[03-project-deep-dive.md:24](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q500 -->
 <details>
@@ -12280,7 +12280,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q501 — Tell me about a recent/favorite project and some of the difficulties you had.（来源：[03-project-deep-dive.md:25](interview/questions/03-project-deep-dive.md)）
+- Q501 — Tell me about a recent/favorite project and some of the difficulties you had.（来源：[03-project-deep-dive.md:25](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q501 -->
 <details>
@@ -12306,7 +12306,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q502 — Tell me about the greatest accomplishment of your career.（来源：[03-project-deep-dive.md:29](interview/questions/03-project-deep-dive.md)）
+- Q502 — Tell me about the greatest accomplishment of your career.（来源：[03-project-deep-dive.md:29](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q502 -->
 <details>
@@ -12332,7 +12332,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q503 — What business problem were you solving? Why was it a priority?（来源：[03-project-deep-dive.md:39](interview/questions/03-project-deep-dive.md)）
+- Q503 — What business problem were you solving? Why was it a priority?（来源：[03-project-deep-dive.md:39](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q503 -->
 <details>
@@ -12358,7 +12358,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q504 — Who was the customer? Who benefited from this work?（来源：[03-project-deep-dive.md:40](interview/questions/03-project-deep-dive.md)）
+- Q504 — Who was the customer? Who benefited from this work?（来源：[03-project-deep-dive.md:40](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q504 -->
 <details>
@@ -12384,7 +12384,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q505 — What was your actual role in building this?（来源：[03-project-deep-dive.md:41](interview/questions/03-project-deep-dive.md)）
+- Q505 — What was your actual role in building this?（来源：[03-project-deep-dive.md:41](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q505 -->
 <details>
@@ -12410,7 +12410,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q506 — Why did you choose that particular approach over alternatives?（来源：[03-project-deep-dive.md:46](interview/questions/03-project-deep-dive.md)）
+- Q506 — Why did you choose that particular approach over alternatives?（来源：[03-project-deep-dive.md:46](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q506 -->
 <details>
@@ -12436,7 +12436,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q507 — Why did you pick that particular tech stack for data processing?（来源：[03-project-deep-dive.md:49](interview/questions/03-project-deep-dive.md)）
+- Q507 — Why did you pick that particular tech stack for data processing?（来源：[03-project-deep-dive.md:49](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q507 -->
 <details>
@@ -12462,7 +12462,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q508 — What went wrong? What was harder than expected?（来源：[03-project-deep-dive.md:55](interview/questions/03-project-deep-dive.md)）
+- Q508 — What went wrong? What was harder than expected?（来源：[03-project-deep-dive.md:55](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q508 -->
 <details>
@@ -12488,7 +12488,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q509 — How did you debug production issues?（来源：[03-project-deep-dive.md:56](interview/questions/03-project-deep-dive.md)）
+- Q509 — How did you debug production issues?（来源：[03-project-deep-dive.md:56](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q509 -->
 <details>
@@ -12514,7 +12514,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q510 — Is there an actual eval framework here, or is it vibes-based?（来源：[03-project-deep-dive.md:60](interview/questions/03-project-deep-dive.md)）
+- Q510 — Is there an actual eval framework here, or is it vibes-based?（来源：[03-project-deep-dive.md:60](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q510 -->
 <details>
@@ -12540,7 +12540,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q511 — What was the outcome? How did stakeholders react?（来源：[03-project-deep-dive.md:62](interview/questions/03-project-deep-dive.md)）
+- Q511 — What was the outcome? How did stakeholders react?（来源：[03-project-deep-dive.md:62](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q511 -->
 <details>
@@ -12574,15 +12574,15 @@ Follow-up
 
 <a id="day-26"></a>
 
-### 周一 11/9
+### 周一 12/14
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Practical Coding: Crawler; Bounded Concurrency<br>LeetCode: [1236. Web Crawler](https://leetcode.com/problems/web-crawler/)（Premium，可选）; [127. Word Ladder](https://leetcode.com/problems/word-ladder/); [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)<br>资料：[Crawler](Study%20topics/crawler.html); [Async](Study%20topics/async.html); [Concurrency](Study%20topics/concurrency.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Practical Coding: Crawler; Bounded Concurrency + LeetCode Top 150<br>计划原题（1 题）: [1236. Web Crawler](https://leetcode.com/problems/web-crawler/) · Medium<br>Top 150（4 题）: [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) · Binary Tree BFS · Medium; [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) · Binary Tree BFS · Easy; [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) · Binary Search Tree · Medium; [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) · Binary Search Tree · Medium<br>复习（每题约 10 分钟，做过的题限时重做）: [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)<br>资料：[Crawler](../Study%20topics/crawler.html); [Async](../Study%20topics/async.html); [Concurrency](../Study%20topics/concurrency.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Agents with Human Approval](Study%20topics/agents-with-human-approval.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Agents with Human Approval](../Study%20topics/agents-with-human-approval.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Text-to-SQL and Semantic Context<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-26) |
 | 16:30–17:30 | Interview Questions，1 小时 | Project Deep Dive / Supplemental Probes; Behavioral Questions / Project Deep Dives; Behavioral Questions / Conflict and Collaboration — 20 items |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review |
@@ -12608,7 +12608,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q512 — How did you handle data quality and preprocessing challenges?（来源：[03-project-deep-dive.md:64](interview/questions/03-project-deep-dive.md)）
+- Q512 — How did you handle data quality and preprocessing challenges?（来源：[03-project-deep-dive.md:64](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q512 -->
 <details>
@@ -12634,7 +12634,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q328 — Walk me through an AI project you built end-to-end. (very common in 2026)（来源：[questions.md:401](interview/questions/questions.md)）
+- Q328 — Walk me through an AI project you built end-to-end. (very common in 2026)（来源：[questions.md:401](../interview/questions/questions.md)）
 
 <!-- interview-answer Q328 -->
 <details>
@@ -12660,7 +12660,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q329 — Tell me about a project you're most proud of, and what role you played?（来源：[questions.md:402](interview/questions/questions.md)；[03-project-deep-dive.md:30](interview/questions/03-project-deep-dive.md)）
+- Q329 — Tell me about a project you're most proud of, and what role you played?（来源：[questions.md:402](../interview/questions/questions.md)；[03-project-deep-dive.md:30](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q329 -->
 <details>
@@ -12686,7 +12686,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q330 — What is your most challenging work in GenAI?（来源：[questions.md:403](interview/questions/questions.md)）
+- Q330 — What is your most challenging work in GenAI?（来源：[questions.md:403](../interview/questions/questions.md)）
 
 <!-- interview-answer Q330 -->
 <details>
@@ -12712,7 +12712,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q331 — Describe a time you reduced hallucinations/cost in production. (very common in 2026)（来源：[questions.md:404](interview/questions/questions.md)）
+- Q331 — Describe a time you reduced hallucinations/cost in production. (very common in 2026)（来源：[questions.md:404](../interview/questions/questions.md)）
 
 <!-- interview-answer Q331 -->
 <details>
@@ -12738,7 +12738,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q332 — Describe a time you had to optimize an existing process or workflow for efficiency or scalability.（来源：[questions.md:405](interview/questions/questions.md)；[03-project-deep-dive.md:26](interview/questions/03-project-deep-dive.md)）
+- Q332 — Describe a time you had to optimize an existing process or workflow for efficiency or scalability.（来源：[questions.md:405](../interview/questions/questions.md)；[03-project-deep-dive.md:26](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q332 -->
 <details>
@@ -12764,7 +12764,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q333 — Describe a challenging prompt engineering problem that you solved.（来源：[questions.md:406](interview/questions/questions.md)；[03-project-deep-dive.md:27](interview/questions/03-project-deep-dive.md)）
+- Q333 — Describe a challenging prompt engineering problem that you solved.（来源：[questions.md:406](../interview/questions/questions.md)；[03-project-deep-dive.md:27](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q333 -->
 <details>
@@ -12790,7 +12790,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q334 — Is there an actual eval framework, or is it vibes-based?（来源：[questions.md:407](interview/questions/questions.md)）
+- Q334 — Is there an actual eval framework, or is it vibes-based?（来源：[questions.md:407](../interview/questions/questions.md)）
 
 <!-- interview-answer Q334 -->
 <details>
@@ -12816,7 +12816,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q335 — Present a "proud" project to a panel: design decisions, trade-offs, what broke, and what you'd change.（来源：[questions.md:408](interview/questions/questions.md)）
+- Q335 — Present a "proud" project to a panel: design decisions, trade-offs, what broke, and what you'd change.（来源：[questions.md:408](../interview/questions/questions.md)）
 
 <!-- interview-answer Q335 -->
 <details>
@@ -12842,7 +12842,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q336 — Tell me about your past projects. (Apple, Discord, Anduril)（来源：[questions.md:409](interview/questions/questions.md)）
+- Q336 — Tell me about your past projects. (Apple, Discord, Anduril)（来源：[questions.md:409](../interview/questions/questions.md)）
 
 <!-- interview-answer Q336 -->
 <details>
@@ -12868,7 +12868,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q337 — Tell me about a recent/favorite project and some of the difficulties you had. (Meta)（来源：[questions.md:410](interview/questions/questions.md)；[questions.md:515](interview/questions/questions.md)）
+- Q337 — Tell me about a recent/favorite project and some of the difficulties you had. (Meta)（来源：[questions.md:410](../interview/questions/questions.md)；[questions.md:515](../interview/questions/questions.md)）
 
 <!-- interview-answer Q337 -->
 <details>
@@ -12894,7 +12894,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q338 — Tell me about a technical challenge that you have overcome.（来源：[questions.md:411](interview/questions/questions.md)；[03-project-deep-dive.md:28](interview/questions/03-project-deep-dive.md)）
+- Q338 — Tell me about a technical challenge that you have overcome.（来源：[questions.md:411](../interview/questions/questions.md)；[03-project-deep-dive.md:28](../interview/questions/03-project-deep-dive.md)）
 
 <!-- interview-answer Q338 -->
 <details>
@@ -12920,7 +12920,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q339 — Tell me about the greatest accomplishment of your career. (Meta)（来源：[questions.md:412](interview/questions/questions.md)）
+- Q339 — Tell me about the greatest accomplishment of your career. (Meta)（来源：[questions.md:412](../interview/questions/questions.md)）
 
 <!-- interview-answer Q339 -->
 <details>
@@ -12946,7 +12946,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q340 — What level of prompts have you written? What kind of projects did you work on?（来源：[questions.md:413](interview/questions/questions.md)）
+- Q340 — What level of prompts have you written? What kind of projects did you work on?（来源：[questions.md:413](../interview/questions/questions.md)）
 
 <!-- interview-answer Q340 -->
 <details>
@@ -12972,7 +12972,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q341 — Give a specific example of conflict with another person, how resolution took form, and the rationale behind the choices you made.（来源：[questions.md:417](interview/questions/questions.md)）
+- Q341 — Give a specific example of conflict with another person, how resolution took form, and the rationale behind the choices you made.（来源：[questions.md:417](../interview/questions/questions.md)）
 
 <!-- interview-answer Q341 -->
 <details>
@@ -12998,7 +12998,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q342 — How do you collaborate with non-technical stakeholders?（来源：[questions.md:418](interview/questions/questions.md)）
+- Q342 — How do you collaborate with non-technical stakeholders?（来源：[questions.md:418](../interview/questions/questions.md)）
 
 <!-- interview-answer Q342 -->
 <details>
@@ -13024,7 +13024,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q343 — How do you manage workload in a distributed team?（来源：[questions.md:419](interview/questions/questions.md)）
+- Q343 — How do you manage workload in a distributed team?（来源：[questions.md:419](../interview/questions/questions.md)）
 
 <!-- interview-answer Q343 -->
 <details>
@@ -13050,7 +13050,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q344 — Conflict handling.（来源：[questions.md:420](interview/questions/questions.md)）
+- Q344 — Conflict handling.（来源：[questions.md:420](../interview/questions/questions.md)）
 
 <!-- interview-answer Q344 -->
 <details>
@@ -13076,7 +13076,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q345 — Describe a time you disagreed with a team member about how to approach a problem. How did you handle it?（来源：[questions.md:421](interview/questions/questions.md)）
+- Q345 — Describe a time you disagreed with a team member about how to approach a problem. How did you handle it?（来源：[questions.md:421](../interview/questions/questions.md)）
 
 <!-- interview-answer Q345 -->
 <details>
@@ -13102,7 +13102,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q346 — Tell me about a time you struggled to work with one of your colleagues. (Meta)（来源：[questions.md:422](interview/questions/questions.md)）
+- Q346 — Tell me about a time you struggled to work with one of your colleagues. (Meta)（来源：[questions.md:422](../interview/questions/questions.md)）
 
 <!-- interview-answer Q346 -->
 <details>
@@ -13131,18 +13131,18 @@ Follow-up
 
 <a id="day-27"></a>
 
-### 周二 11/10
+### 周二 12/15
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: Run Analytics; Percentiles; Cost Aggregation<br>LeetCode: [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/); [1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/); [1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/)<br>资料：[Run Analytics](Study%20topics/run-analytics.html); [Percentiles](Study%20topics/percentiles.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Run Analytics; Percentiles; Cost Aggregation + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/); [1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/); [1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/)<br>Top 150（1 小时，3 题）: [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) · Binary Search Tree · Easy; [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) · Matrix · Medium; [289. Game of Life](https://leetcode.com/problems/game-of-life/) · Matrix · Medium<br>资料：[Run Analytics](../Study%20topics/run-analytics.html); [Percentiles](../Study%20topics/percentiles.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Agent Memory and Tool Contracts](Study%20topics/agent-memory-and-tool-contracts.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Agent Memory and Tool Contracts](../Study%20topics/agent-memory-and-tool-contracts.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Query Controls and Clarification<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-27) |
 | 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / Conflict and Collaboration; Behavioral Questions / Leadership and Ownership — 19 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Memory](Study%20topics/memory.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Memory](../Study%20topics/memory.html) |
 
 
 <!-- quantvault-day 27 -->
@@ -13163,7 +13163,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q347 — Tell me about a time you handled a difficult stakeholder.（来源：[questions.md:423](interview/questions/questions.md)；[05-behavioral.md:32](interview/questions/05-behavioral.md)）
+- Q347 — Tell me about a time you handled a difficult stakeholder.（来源：[questions.md:423](../interview/questions/questions.md)；[05-behavioral.md:32](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q347 -->
 <details>
@@ -13189,7 +13189,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q348 — Tell me about a time you had to explain a complex technical concept to someone without a technical background.（来源：[questions.md:424](interview/questions/questions.md)）
+- Q348 — Tell me about a time you had to explain a complex technical concept to someone without a technical background.（来源：[questions.md:424](../interview/questions/questions.md)）
 
 <!-- interview-answer Q348 -->
 <details>
@@ -13215,7 +13215,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q349 — Tell me about a time you convinced someone to change their mind.（来源：[questions.md:425](interview/questions/questions.md)；[05-behavioral.md:34](interview/questions/05-behavioral.md)）
+- Q349 — Tell me about a time you convinced someone to change their mind.（来源：[questions.md:425](../interview/questions/questions.md)；[05-behavioral.md:34](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q349 -->
 <details>
@@ -13241,7 +13241,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q350 — What types of team members do you find difficult to work with? (Visa)（来源：[questions.md:426](interview/questions/questions.md)）
+- Q350 — What types of team members do you find difficult to work with? (Visa)（来源：[questions.md:426](../interview/questions/questions.md)）
 
 <!-- interview-answer Q350 -->
 <details>
@@ -13267,7 +13267,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q351 — Describe communication to resolve ambiguity. (Anthropic)（来源：[questions.md:427](interview/questions/questions.md)）
+- Q351 — Describe communication to resolve ambiguity. (Anthropic)（来源：[questions.md:427](../interview/questions/questions.md)）
 
 <!-- interview-answer Q351 -->
 <details>
@@ -13293,7 +13293,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q352 — Describe a time you had trouble communicating with stakeholders and how you overcame it. (OpenAI)（来源：[questions.md:428](interview/questions/questions.md)）
+- Q352 — Describe a time you had trouble communicating with stakeholders and how you overcame it. (OpenAI)（来源：[questions.md:428](../interview/questions/questions.md)）
 
 <!-- interview-answer Q352 -->
 <details>
@@ -13319,7 +13319,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q353 — Have you mentored teammates remotely?（来源：[questions.md:432](interview/questions/questions.md)）
+- Q353 — Have you mentored teammates remotely?（来源：[questions.md:432](../interview/questions/questions.md)）
 
 <!-- interview-answer Q353 -->
 <details>
@@ -13345,7 +13345,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q354 — Describe a time you drove technical decisions at scale and guided teams through complex challenges.（来源：[questions.md:433](interview/questions/questions.md)）
+- Q354 — Describe a time you drove technical decisions at scale and guided teams through complex challenges.（来源：[questions.md:433](../interview/questions/questions.md)）
 
 <!-- interview-answer Q354 -->
 <details>
@@ -13371,7 +13371,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q355 — Describe a time you mentored engineers who went on to senior roles.（来源：[questions.md:434](interview/questions/questions.md)）
+- Q355 — Describe a time you mentored engineers who went on to senior roles.（来源：[questions.md:434](../interview/questions/questions.md)）
 
 <!-- interview-answer Q355 -->
 <details>
@@ -13397,7 +13397,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q356 — Tell me about a time you showed leadership. (OpenAI EM)（来源：[questions.md:435](interview/questions/questions.md)）
+- Q356 — Tell me about a time you showed leadership. (OpenAI EM)（来源：[questions.md:435](../interview/questions/questions.md)）
 
 <!-- interview-answer Q356 -->
 <details>
@@ -13423,7 +13423,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q357 — Tell me about a time you led an initiative or took ownership of a challenging task.（来源：[questions.md:436](interview/questions/questions.md)；[05-behavioral.md:39](interview/questions/05-behavioral.md)）
+- Q357 — Tell me about a time you led an initiative or took ownership of a challenging task.（来源：[questions.md:436](../interview/questions/questions.md)；[05-behavioral.md:39](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q357 -->
 <details>
@@ -13449,7 +13449,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q358 — Tell me about a time you took the initiative to solve a problem.（来源：[questions.md:437](interview/questions/questions.md)）
+- Q358 — Tell me about a time you took the initiative to solve a problem.（来源：[questions.md:437](../interview/questions/questions.md)）
 
 <!-- interview-answer Q358 -->
 <details>
@@ -13475,7 +13475,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q359 — Tell me about a time when you made short-term sacrifices for long-term gains.（来源：[questions.md:438](interview/questions/questions.md)）
+- Q359 — Tell me about a time when you made short-term sacrifices for long-term gains.（来源：[questions.md:438](../interview/questions/questions.md)）
 
 <!-- interview-answer Q359 -->
 <details>
@@ -13501,7 +13501,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q360 — How do you prioritize tasks?（来源：[questions.md:439](interview/questions/questions.md)；[05-behavioral.md:41](interview/questions/05-behavioral.md)）
+- Q360 — How do you prioritize tasks?（来源：[questions.md:439](../interview/questions/questions.md)；[05-behavioral.md:41](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q360 -->
 <details>
@@ -13527,7 +13527,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q361 — How do you lead under risk and uncertainty? (Anthropic)（来源：[questions.md:440](interview/questions/questions.md)）
+- Q361 — How do you lead under risk and uncertainty? (Anthropic)（来源：[questions.md:440](../interview/questions/questions.md)）
 
 <!-- interview-answer Q361 -->
 <details>
@@ -13553,7 +13553,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q362 — As a manager, how do you handle trade-offs? (OpenAI EM)（来源：[questions.md:441](interview/questions/questions.md)）
+- Q362 — As a manager, how do you handle trade-offs? (OpenAI EM)（来源：[questions.md:441](../interview/questions/questions.md)）
 
 <!-- interview-answer Q362 -->
 <details>
@@ -13579,7 +13579,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q363 — How do you manage your team's career growth? (OpenAI EM)（来源：[questions.md:442](interview/questions/questions.md)）
+- Q363 — How do you manage your team's career growth? (OpenAI EM)（来源：[questions.md:442](../interview/questions/questions.md)）
 
 <!-- interview-answer Q363 -->
 <details>
@@ -13605,7 +13605,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q364 — Tell me about a time when you worked on a project with a tight deadline.（来源：[questions.md:443](interview/questions/questions.md)；[05-behavioral.md:45](interview/questions/05-behavioral.md)）
+- Q364 — Tell me about a time when you worked on a project with a tight deadline.（来源：[questions.md:443](../interview/questions/questions.md)；[05-behavioral.md:45](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q364 -->
 <details>
@@ -13631,7 +13631,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q365 — Explain management style, execution strategy, and culture choices. (Anthropic)（来源：[questions.md:444](interview/questions/questions.md)）
+- Q365 — Explain management style, execution strategy, and culture choices. (Anthropic)（来源：[questions.md:444](../interview/questions/questions.md)）
 
 <!-- interview-answer Q365 -->
 <details>
@@ -13660,18 +13660,18 @@ Follow-up
 
 <a id="day-28"></a>
 
-### 周三 11/11
+### 周三 12/16
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Python: Vectorization; Profiling; Performance<br>LeetCode: [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/); [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)<br>资料：[Parallelism](Study%20topics/parallelism.html); [GIL](Study%20topics/gil.html); [Vectorization](Study%20topics/vectorization.html); [Profiling](Study%20topics/profiling.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Vectorization; Profiling; Performance + LeetCode Top 150<br>计划原题（1 题）: [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) · Medium<br>Top 150（4 题）: [79. Word Search](https://leetcode.com/problems/word-search/) · Backtracking · Medium; [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) · 1D DP · Easy; [139. Word Break](https://leetcode.com/problems/word-break/) · 1D DP · Medium; [198. House Robber](https://leetcode.com/problems/house-robber/) · 1D DP · Medium<br>复习（每题约 10 分钟，做过的题限时重做）: [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)<br>资料：[Parallelism](../Study%20topics/parallelism.html); [GIL](../Study%20topics/gil.html); [Vectorization](../Study%20topics/vectorization.html); [Profiling](../Study%20topics/profiling.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Agent Memory and Tool Contracts](Study%20topics/agent-memory-and-tool-contracts.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Agent Memory and Tool Contracts](../Study%20topics/agent-memory-and-tool-contracts.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Text-to-SQL Evaluation<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-28) |
 | 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / Technical Decision-Making; Behavioral Questions / Failure and Learning — 19 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[MCP Fundamentals](Study%20topics/mcp-fundamentals.html); [Text-to-SQL Evaluation](Study%20topics/text-to-sql-evaluation.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[MCP Fundamentals](../Study%20topics/mcp-fundamentals.html); [Text-to-SQL Evaluation](../Study%20topics/text-to-sql-evaluation.html) |
 
 
 刷题对应说明：LeetCode 对应数组与算法复习；Vectorization 和 Profiling 使用自定义实验。
@@ -13694,7 +13694,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q366 — Which model provider do you prefer for creative writing tasks?（来源：[questions.md:448](interview/questions/questions.md)）
+- Q366 — Which model provider do you prefer for creative writing tasks?（来源：[questions.md:448](../interview/questions/questions.md)）
 
 <!-- interview-answer Q366 -->
 <details>
@@ -13720,7 +13720,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q367 — How do you compare AI coding assistants like Cursor, Windsurf, or Claude Code?（来源：[questions.md:449](interview/questions/questions.md)）
+- Q367 — How do you compare AI coding assistants like Cursor, Windsurf, or Claude Code?（来源：[questions.md:449](../interview/questions/questions.md)）
 
 <!-- interview-answer Q367 -->
 <details>
@@ -13746,7 +13746,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q368 — What recent AI paper or development caught your attention?（来源：[questions.md:450](interview/questions/questions.md)；[05-behavioral.md:25](interview/questions/05-behavioral.md)）
+- Q368 — What recent AI paper or development caught your attention?（来源：[questions.md:450](../interview/questions/questions.md)；[05-behavioral.md:25](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q368 -->
 <details>
@@ -13772,7 +13772,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q369 — What side projects have you built with AI?（来源：[questions.md:451](interview/questions/questions.md)）
+- Q369 — What side projects have you built with AI?（来源：[questions.md:451](../interview/questions/questions.md)）
 
 <!-- interview-answer Q369 -->
 <details>
@@ -13798,7 +13798,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q370 — Why a particular storage solution over alternatives?（来源：[questions.md:452](interview/questions/questions.md)）
+- Q370 — Why a particular storage solution over alternatives?（来源：[questions.md:452](../interview/questions/questions.md)）
 
 <!-- interview-answer Q370 -->
 <details>
@@ -13824,7 +13824,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q371 — How did you decide which model to use for inference?（来源：[questions.md:453](interview/questions/questions.md)）
+- Q371 — How did you decide which model to use for inference?（来源：[questions.md:453](../interview/questions/questions.md)）
 
 <!-- interview-answer Q371 -->
 <details>
@@ -13850,7 +13850,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q372 — What frameworks are you familiar with? What have you built before?（来源：[questions.md:454](interview/questions/questions.md)）
+- Q372 — What frameworks are you familiar with? What have you built before?（来源：[questions.md:454](../interview/questions/questions.md)）
 
 <!-- interview-answer Q372 -->
 <details>
@@ -13876,7 +13876,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q373 — Which models have you worked with? Which cloud providers are you familiar with?（来源：[questions.md:455](interview/questions/questions.md)）
+- Q373 — Which models have you worked with? Which cloud providers are you familiar with?（来源：[questions.md:455](../interview/questions/questions.md)）
 
 <!-- interview-answer Q373 -->
 <details>
@@ -13902,7 +13902,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q374 — Tell me about a time when you solved a complex problem and how you went about it.（来源：[questions.md:456](interview/questions/questions.md)；[05-behavioral.md:49](interview/questions/05-behavioral.md)）
+- Q374 — Tell me about a time when you solved a complex problem and how you went about it.（来源：[questions.md:456](../interview/questions/questions.md)；[05-behavioral.md:49](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q374 -->
 <details>
@@ -13928,7 +13928,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q375 — Tell me about a time when a technical misjudgment led to a project delay. What did you learn? (Anthropic)（来源：[questions.md:457](interview/questions/questions.md)）
+- Q375 — Tell me about a time when a technical misjudgment led to a project delay. What did you learn? (Anthropic)（来源：[questions.md:457](../interview/questions/questions.md)）
 
 <!-- interview-answer Q375 -->
 <details>
@@ -13954,7 +13954,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q376 — What would you do if, midway through a project, you realized it was actually unfeasible? (Anthropic)（来源：[questions.md:458](interview/questions/questions.md)）
+- Q376 — What would you do if, midway through a project, you realized it was actually unfeasible? (Anthropic)（来源：[questions.md:458](../interview/questions/questions.md)）
 
 <!-- interview-answer Q376 -->
 <details>
@@ -13980,7 +13980,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q377 — Describe a time you had to quickly learn a new technology or methodology to complete a project.（来源：[questions.md:459](interview/questions/questions.md)）
+- Q377 — Describe a time you had to quickly learn a new technology or methodology to complete a project.（来源：[questions.md:459](../interview/questions/questions.md)）
 
 <!-- interview-answer Q377 -->
 <details>
@@ -14006,7 +14006,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q378 — Most challenging project.（来源：[questions.md:464](interview/questions/questions.md)）
+- Q378 — Most challenging project.（来源：[questions.md:464](../interview/questions/questions.md)）
 
 <!-- interview-answer Q378 -->
 <details>
@@ -14032,7 +14032,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q379 — What would you do differently?（来源：[questions.md:465](interview/questions/questions.md)）
+- Q379 — What would you do differently?（来源：[questions.md:465](../interview/questions/questions.md)）
 
 <!-- interview-answer Q379 -->
 <details>
@@ -14058,7 +14058,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q380 — Tell me about a time when you received negative feedback and how you handled it.（来源：[questions.md:466](interview/questions/questions.md)）
+- Q380 — Tell me about a time when you received negative feedback and how you handled it.（来源：[questions.md:466](../interview/questions/questions.md)）
 
 <!-- interview-answer Q380 -->
 <details>
@@ -14084,7 +14084,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q381 — What's a mistake you made, and what did you learn from it?（来源：[questions.md:467](interview/questions/questions.md)；[05-behavioral.md:56](interview/questions/05-behavioral.md)）
+- Q381 — What's a mistake you made, and what did you learn from it?（来源：[questions.md:467](../interview/questions/questions.md)；[05-behavioral.md:56](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q381 -->
 <details>
@@ -14110,7 +14110,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q382 — Describe a project that didn't go as planned. What did you learn? (Anthropic)（来源：[questions.md:468](interview/questions/questions.md)）
+- Q382 — Describe a project that didn't go as planned. What did you learn? (Anthropic)（来源：[questions.md:468](../interview/questions/questions.md)）
 
 <!-- interview-answer Q382 -->
 <details>
@@ -14136,7 +14136,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q383 — Describe a project where your AI solution failed and how you addressed it. (Google DeepMind)（来源：[questions.md:469](interview/questions/questions.md)）
+- Q383 — Describe a project where your AI solution failed and how you addressed it. (Google DeepMind)（来源：[questions.md:469](../interview/questions/questions.md)）
 
 <!-- interview-answer Q383 -->
 <details>
@@ -14162,7 +14162,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q384 — Why do you think we should NOT hire you? (Google, Visa)（来源：[questions.md:470](interview/questions/questions.md)）
+- Q384 — Why do you think we should NOT hire you? (Google, Visa)（来源：[questions.md:470](../interview/questions/questions.md)）
 
 <!-- interview-answer Q384 -->
 <details>
@@ -14191,15 +14191,15 @@ Follow-up
 
 <a id="day-29"></a>
 
-### 周四 11/12
+### 周四 12/17
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: Time-Series Joins; Missing Dates<br>LeetCode: [1148. Article Views I](https://leetcode.com/problems/article-views-i/); [197. Rising Temperature](https://leetcode.com/problems/rising-temperature/); [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)<br>资料：[LAG](Study%20topics/lag.html); [Date Queries](Study%20topics/date-queries.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Time-Series Joins; Missing Dates + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [1148. Article Views I](https://leetcode.com/problems/article-views-i/); [197. Rising Temperature](https://leetcode.com/problems/rising-temperature/); [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)<br>Top 150（1 小时，3 题）: [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) · 1D DP · Medium; [322. Coin Change](https://leetcode.com/problems/coin-change/) · 1D DP · Medium; [918. Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) · Kadane's Algorithm · Medium<br>资料：[LAG](../Study%20topics/lag.html); [Date Queries](../Study%20topics/date-queries.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [AI-Assisted Experiment Platform](Study%20topics/ai-assisted-experiment-platform.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [AI-Assisted Experiment Platform](../Study%20topics/ai-assisted-experiment-platform.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Snowflake Query Performance<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-29) |
 | 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / Failure and Learning; Behavioral Questions / AI-Specific Behavioral; Behavioral Questions / Culture and Motivation; Behavioral Questions / AI-Conducted Interview Follow-ups — 20 items |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review |
@@ -14223,7 +14223,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q385 — Tell me about a time when you had to think outside the box to complete a task.（来源：[questions.md:471](interview/questions/questions.md)；[05-behavioral.md:59](interview/questions/05-behavioral.md)）
+- Q385 — Tell me about a time when you had to think outside the box to complete a task.（来源：[questions.md:471](../interview/questions/questions.md)；[05-behavioral.md:59](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q385 -->
 <details>
@@ -14249,7 +14249,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q386 — How do you stay updated with fast-changing AI tech? (very common in 2026)（来源：[questions.md:475](interview/questions/questions.md)）
+- Q386 — How do you stay updated with fast-changing AI tech? (very common in 2026)（来源：[questions.md:475](../interview/questions/questions.md)）
 
 <!-- interview-answer Q386 -->
 <details>
@@ -14275,7 +14275,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q387 — How do you collaborate with non-technical stakeholders on AI features? (very common in 2026)（来源：[questions.md:476](interview/questions/questions.md)）
+- Q387 — How do you collaborate with non-technical stakeholders on AI features? (very common in 2026)（来源：[questions.md:476](../interview/questions/questions.md)）
 
 <!-- interview-answer Q387 -->
 <details>
@@ -14301,7 +14301,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q388 — Can you give an example of a time when you addressed ethical concerns in an ML project?（来源：[questions.md:477](interview/questions/questions.md)）
+- Q388 — Can you give an example of a time when you addressed ethical concerns in an ML project?（来源：[questions.md:477](../interview/questions/questions.md)）
 
 <!-- interview-answer Q388 -->
 <details>
@@ -14327,7 +14327,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q389 — Tell me about a time you made a safety-first decision in a project. (Anthropic)（来源：[questions.md:478](interview/questions/questions.md)）
+- Q389 — Tell me about a time you made a safety-first decision in a project. (Anthropic)（来源：[questions.md:478](../interview/questions/questions.md)）
 
 <!-- interview-answer Q389 -->
 <details>
@@ -14353,7 +14353,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q390 — Tell me about a time you identified a major risk in an AI system — what did you do? (Mistral)（来源：[questions.md:479](interview/questions/questions.md)）
+- Q390 — Tell me about a time you identified a major risk in an AI system — what did you do? (Mistral)（来源：[questions.md:479](../interview/questions/questions.md)）
 
 <!-- interview-answer Q390 -->
 <details>
@@ -14379,7 +14379,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q391 — Describe a time you reduced cost or latency in a production AI system.（来源：[questions.md:480](interview/questions/questions.md)）
+- Q391 — Describe a time you reduced cost or latency in a production AI system.（来源：[questions.md:480](../interview/questions/questions.md)）
 
 <!-- interview-answer Q391 -->
 <details>
@@ -14405,7 +14405,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q392 — How do you manage ambiguity in ML projects where requirements and data evolve over time?（来源：[questions.md:481](interview/questions/questions.md)）
+- Q392 — How do you manage ambiguity in ML projects where requirements and data evolve over time?（来源：[questions.md:481](../interview/questions/questions.md)）
 
 <!-- interview-answer Q392 -->
 <details>
@@ -14431,7 +14431,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q393 — How do you use AI coding agents in your work?（来源：[questions.md:482](interview/questions/questions.md)）
+- Q393 — How do you use AI coding agents in your work?（来源：[questions.md:482](../interview/questions/questions.md)）
 
 <!-- interview-answer Q393 -->
 <details>
@@ -14457,7 +14457,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q394 — Did you apply GenAI techniques to solve a problem not usually solved with GenAI?（来源：[questions.md:483](interview/questions/questions.md)）
+- Q394 — Did you apply GenAI techniques to solve a problem not usually solved with GenAI?（来源：[questions.md:483](../interview/questions/questions.md)）
 
 <!-- interview-answer Q394 -->
 <details>
@@ -14483,7 +14483,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q395 — Do you fact-check AI outputs or just trust them? How do you validate AI-generated content?（来源：[questions.md:484](interview/questions/questions.md)）
+- Q395 — Do you fact-check AI outputs or just trust them? How do you validate AI-generated content?（来源：[questions.md:484](../interview/questions/questions.md)）
 
 <!-- interview-answer Q395 -->
 <details>
@@ -14509,7 +14509,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q396 — Why OpenAI? / Why Microsoft? / Why this company?（来源：[questions.md:488](interview/questions/questions.md)）
+- Q396 — Why OpenAI? / Why Microsoft? / Why this company?（来源：[questions.md:488](../interview/questions/questions.md)）
 
 <!-- interview-answer Q396 -->
 <details>
@@ -14535,7 +14535,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q397 — Why change now?（来源：[questions.md:489](interview/questions/questions.md)；[05-behavioral.md:72](interview/questions/05-behavioral.md)）
+- Q397 — Why change now?（来源：[questions.md:489](../interview/questions/questions.md)；[05-behavioral.md:72](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q397 -->
 <details>
@@ -14561,7 +14561,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q398 — Tell me about yourself.（来源：[questions.md:490](interview/questions/questions.md)；[05-behavioral.md:63](interview/questions/05-behavioral.md)）
+- Q398 — Tell me about yourself.（来源：[questions.md:490](../interview/questions/questions.md)；[05-behavioral.md:63](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q398 -->
 <details>
@@ -14587,7 +14587,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q399 — Walk me through your resume. (OpenAI)（来源：[questions.md:491](interview/questions/questions.md)）
+- Q399 — Walk me through your resume. (OpenAI)（来源：[questions.md:491](../interview/questions/questions.md)）
 
 <!-- interview-answer Q399 -->
 <details>
@@ -14613,7 +14613,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q400 — Describe career decisions and culture fit. (Anthropic)（来源：[questions.md:492](interview/questions/questions.md)）
+- Q400 — Describe career decisions and culture fit. (Anthropic)（来源：[questions.md:492](../interview/questions/questions.md)）
 
 <!-- interview-answer Q400 -->
 <details>
@@ -14639,7 +14639,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q401 — How do you handle AI-safety conflicts with project goals? (Anthropic)（来源：[questions.md:493](interview/questions/questions.md)）
+- Q401 — How do you handle AI-safety conflicts with project goals? (Anthropic)（来源：[questions.md:493](../interview/questions/questions.md)）
 
 <!-- interview-answer Q401 -->
 <details>
@@ -14665,7 +14665,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q402 — Why do you want to pursue research? (for research roles)（来源：[questions.md:494](interview/questions/questions.md)；[05-behavioral.md:75](interview/questions/05-behavioral.md)）
+- Q402 — Why do you want to pursue research? (for research roles)（来源：[questions.md:494](../interview/questions/questions.md)；[05-behavioral.md:75](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q402 -->
 <details>
@@ -14691,7 +14691,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q403 — How would you handle edge cases?（来源：[questions.md:500](interview/questions/questions.md)）
+- Q403 — How would you handle edge cases?（来源：[questions.md:500](../interview/questions/questions.md)）
 
 <!-- interview-answer Q403 -->
 <details>
@@ -14717,7 +14717,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q404 — What alternative approaches did you consider?（来源：[questions.md:501](interview/questions/questions.md)）
+- Q404 — What alternative approaches did you consider?（来源：[questions.md:501](../interview/questions/questions.md)）
 
 <!-- interview-answer Q404 -->
 <details>
@@ -14746,15 +14746,15 @@ Follow-up
 
 <a id="day-30"></a>
 
-### 周五 11/13
+### 周五 12/18
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Coding Review: Mixed Python Patterns<br>LeetCode: [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/); [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/); [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)<br>资料：[Complexity Analysis](Study%20topics/complexity-analysis.html); [Sliding Window](Study%20topics/sliding-window.html); [Heaps](Study%20topics/heaps.html); [BFS](Study%20topics/bfs.html); [DFS](Study%20topics/dfs.html); [Trees](Study%20topics/trees.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Coding Review: Mixed Python Patterns + LeetCode Top 150<br>Top 150（5 题）: [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) · Math · Easy; [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) · Math · Medium; [66. Plus One](https://leetcode.com/problems/plus-one/) · Math · Easy; [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) · Math · Easy; [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) · Math · Medium<br>复习（每题约 10 分钟，做过的题限时重做）: [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/); [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/); [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)<br>资料：[Complexity Analysis](../Study%20topics/complexity-analysis.html); [Sliding Window](../Study%20topics/sliding-window.html); [Heaps](../Study%20topics/heaps.html); [BFS](../Study%20topics/bfs.html); [DFS](../Study%20topics/dfs.html); [Trees](../Study%20topics/trees.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [AI-Assisted Experiment Platform](Study%20topics/ai-assisted-experiment-platform.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [AI-Assisted Experiment Platform](../Study%20topics/ai-assisted-experiment-platform.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: CI and Reproducible Demo<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-30) |
 | 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / AI-Conducted Interview Follow-ups; Behavioral Questions / Supplemental Behavioral — 19 items |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities |
@@ -14777,7 +14777,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q405 — Time and space complexity analysis.（来源：[questions.md:502](interview/questions/questions.md)）
+- Q405 — Time and space complexity analysis.（来源：[questions.md:502](../interview/questions/questions.md)）
 
 <!-- interview-answer Q405 -->
 <details>
@@ -14803,7 +14803,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q406 — Why did you choose this specific data structure?（来源：[questions.md:503](interview/questions/questions.md)）
+- Q406 — Why did you choose this specific data structure?（来源：[questions.md:503](../interview/questions/questions.md)）
 
 <!-- interview-answer Q406 -->
 <details>
@@ -14829,7 +14829,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q525 — How do you stay up-to-date with the latest developments in AI?（来源：[05-behavioral.md:23](interview/questions/05-behavioral.md)）
+- Q525 — How do you stay up-to-date with the latest developments in AI?（来源：[05-behavioral.md:23](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q525 -->
 <details>
@@ -14855,7 +14855,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q526 — What side projects have you built with AI? What frameworks and models have you worked with?（来源：[05-behavioral.md:24](interview/questions/05-behavioral.md)）
+- Q526 — What side projects have you built with AI? What frameworks and models have you worked with?（来源：[05-behavioral.md:24](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q526 -->
 <details>
@@ -14881,7 +14881,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q527 — Describe a project that didn't go as planned or where your AI solution failed（来源：[05-behavioral.md:26](interview/questions/05-behavioral.md)）
+- Q527 — Describe a project that didn't go as planned or where your AI solution failed（来源：[05-behavioral.md:26](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q527 -->
 <details>
@@ -14907,7 +14907,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q528 — Tell me about a specific conflict with another person（来源：[05-behavioral.md:31](interview/questions/05-behavioral.md)）
+- Q528 — Tell me about a specific conflict with another person（来源：[05-behavioral.md:31](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q528 -->
 <details>
@@ -14933,7 +14933,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q529 — Tell me about a time when you had to explain a complex technical concept to someone without a technical background（来源：[05-behavioral.md:33](interview/questions/05-behavioral.md)）
+- Q529 — Tell me about a time when you had to explain a complex technical concept to someone without a technical background（来源：[05-behavioral.md:33](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q529 -->
 <details>
@@ -14959,7 +14959,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q530 — How do you collaborate with non-technical stakeholders on AI features?（来源：[05-behavioral.md:35](interview/questions/05-behavioral.md)）
+- Q530 — How do you collaborate with non-technical stakeholders on AI features?（来源：[05-behavioral.md:35](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q530 -->
 <details>
@@ -14985,7 +14985,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q531 — Tell me about a time when you made short-term sacrifices for long-term（来源：[05-behavioral.md:40](interview/questions/05-behavioral.md)）
+- Q531 — Tell me about a time when you made short-term sacrifices for long-term（来源：[05-behavioral.md:40](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q531 -->
 <details>
@@ -15011,7 +15011,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q532 — Describe a time you drove an architectural decision that affected multiple teams（来源：[05-behavioral.md:42](interview/questions/05-behavioral.md)）
+- Q532 — Describe a time you drove an architectural decision that affected multiple teams（来源：[05-behavioral.md:42](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q532 -->
 <details>
@@ -15037,7 +15037,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q533 — Tell me about a time you mentored an engineer who went on to a senior role（来源：[05-behavioral.md:43](interview/questions/05-behavioral.md)）
+- Q533 — Tell me about a time you mentored an engineer who went on to a senior role（来源：[05-behavioral.md:43](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q533 -->
 <details>
@@ -15063,7 +15063,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q534 — How do you lead under risk and uncertainty?（来源：[05-behavioral.md:44](interview/questions/05-behavioral.md)）
+- Q534 — How do you lead under risk and uncertainty?（来源：[05-behavioral.md:44](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q534 -->
 <details>
@@ -15089,7 +15089,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q535 — Tell me about a time when a technical misjudgment led to a project delay. What did you learn?（来源：[05-behavioral.md:50](interview/questions/05-behavioral.md)）
+- Q535 — Tell me about a time when a technical misjudgment led to a project delay. What did you learn?（来源：[05-behavioral.md:50](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q535 -->
 <details>
@@ -15115,7 +15115,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q536 — What would you do if, midway through a project, you realized it was unfeasible?（来源：[05-behavioral.md:51](interview/questions/05-behavioral.md)）
+- Q536 — What would you do if, midway through a project, you realized it was unfeasible?（来源：[05-behavioral.md:51](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q536 -->
 <details>
@@ -15141,7 +15141,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q537 — Describe a time you had to quickly learn a new technology or methodology（来源：[05-behavioral.md:52](interview/questions/05-behavioral.md)）
+- Q537 — Describe a time you had to quickly learn a new technology or methodology（来源：[05-behavioral.md:52](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q537 -->
 <details>
@@ -15167,7 +15167,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q538 — Describe failure impact and resolve cross-functional conflict（来源：[05-behavioral.md:57](interview/questions/05-behavioral.md)）
+- Q538 — Describe failure impact and resolve cross-functional conflict（来源：[05-behavioral.md:57](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q538 -->
 <details>
@@ -15193,7 +15193,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q539 — Why do you think we should NOT hire you?（来源：[05-behavioral.md:58](interview/questions/05-behavioral.md)）
+- Q539 — Why do you think we should NOT hire you?（来源：[05-behavioral.md:58](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q539 -->
 <details>
@@ -15219,7 +15219,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q540 — Discuss culture, collaboration, and mission alignment（来源：[05-behavioral.md:64](interview/questions/05-behavioral.md)）
+- Q540 — Discuss culture, collaboration, and mission alignment（来源：[05-behavioral.md:64](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q540 -->
 <details>
@@ -15245,7 +15245,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q541 — Describe career decisions and cultural alignment（来源：[05-behavioral.md:65](interview/questions/05-behavioral.md)）
+- Q541 — Describe career decisions and cultural alignment（来源：[05-behavioral.md:65](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q541 -->
 <details>
@@ -15279,18 +15279,18 @@ Follow-up
 
 <a id="day-31"></a>
 
-### 周一 11/16
+### 周一 12/21
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Python: Progressive Implementation Problems<br>LeetCode: [2408. Design SQL](https://leetcode.com/problems/design-sql/); [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/); [146. LRU Cache](https://leetcode.com/problems/lru-cache/)<br>资料：[LRU Cache](Study%20topics/lru-cache.html); [Key-Value Store](Study%20topics/key-value-store.html); [TTL](Study%20topics/ttl.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Progressive Implementation Problems + LeetCode Top 150<br>计划原题（1 题）: [2408. Design SQL](https://leetcode.com/problems/design-sql/) · Medium<br>Top 150（4 题）: [67. Add Binary](https://leetcode.com/problems/add-binary/) · Bit Manipulation · Easy; [136. Single Number](https://leetcode.com/problems/single-number/) · Bit Manipulation · Easy; [137. Single Number II](https://leetcode.com/problems/single-number-ii/) · Bit Manipulation · Medium; [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) · Bit Manipulation · Easy<br>复习（每题约 10 分钟，做过的题限时重做）: [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/); [146. LRU Cache](https://leetcode.com/problems/lru-cache/)<br>资料：[LRU Cache](../Study%20topics/lru-cache.html); [Key-Value Store](../Study%20topics/key-value-store.html); [TTL](../Study%20topics/ttl.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Volatility Forecasting Service](Study%20topics/volatility-forecasting-service.html) · Learning |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Research Contract and Market Data<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-31)<br>ML integration: [Volatility Forecasting prerequisite](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 13:30–14:15 | ML，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Volatility Forecasting Service](../Study%20topics/volatility-forecasting-service.html) · Learning |
+| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Research Contract and Market Data<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-31)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
 | 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / Supplemental Behavioral; Take-Home Assignments / RAG / Chatbot Systems; Take-Home Assignments / Agent Systems — 15 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Experiment Tracking](Study%20topics/experiment-tracking.html); [Investment Research Workbench](Study%20topics/investment-research-workbench.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Experiment Tracking](../Study%20topics/experiment-tracking.html); [Investment Research Workbench](../Study%20topics/investment-research-workbench.html) |
 
 
 <!-- quantvault-day 31 -->
@@ -15311,7 +15311,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q542 — Open-ended behavioral at senior level: conflicts with managers, deadline pressure, design disagreements, mistakes（来源：[05-behavioral.md:66](interview/questions/05-behavioral.md)）
+- Q542 — Open-ended behavioral at senior level: conflicts with managers, deadline pressure, design disagreements, mistakes（来源：[05-behavioral.md:66](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q542 -->
 <details>
@@ -15337,7 +15337,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q543 — Why [company]?（来源：[05-behavioral.md:70](interview/questions/05-behavioral.md)）
+- Q543 — Why [company]?（来源：[05-behavioral.md:70](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q543 -->
 <details>
@@ -15363,7 +15363,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q544 — Why do you want to work here?（来源：[05-behavioral.md:71](interview/questions/05-behavioral.md)）
+- Q544 — Why do you want to work here?（来源：[05-behavioral.md:71](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q544 -->
 <details>
@@ -15389,7 +15389,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q545 — Why [this startup]? with evidence of due diligence（来源：[05-behavioral.md:73](interview/questions/05-behavioral.md)）
+- Q545 — Why [this startup]? with evidence of due diligence（来源：[05-behavioral.md:73](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q545 -->
 <details>
@@ -15415,7 +15415,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q546 — Discuss career decisions and culture fit（来源：[05-behavioral.md:74](interview/questions/05-behavioral.md)）
+- Q546 — Discuss career decisions and culture fit（来源：[05-behavioral.md:74](../interview/questions/05-behavioral.md)）
 
 <!-- interview-answer Q546 -->
 <details>
@@ -15441,7 +15441,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q422 — Blood test report AI: Create a project that takes a blood test report in PDF format, understands medical issues, and provides suggestions by fetching them from online blog articles. Submit in a few hours.（来源：[questions.md:541](interview/questions/questions.md)）
+- Q422 — Blood test report AI: Create a project that takes a blood test report in PDF format, understands medical issues, and provides suggestions by fetching them from online blog articles. Submit in a few hours.（来源：[questions.md:541](../interview/questions/questions.md)）
 
 <!-- interview-answer Q422 -->
 <details>
@@ -15467,7 +15467,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q423 — Customer support RAG chatbot: Design a production-ready chatbot using open-source tools. Requirements: 100+ concurrent users, <2 second latency, grounded in company docs, cost-effective, analytics tracking. Score: 9/10.（来源：[questions.md:542](interview/questions/questions.md)）
+- Q423 — Customer support RAG chatbot: Design a production-ready chatbot using open-source tools. Requirements: 100+ concurrent users, <2 second latency, grounded in company docs, cost-effective, analytics tracking. Score: 9/10.（来源：[questions.md:542](../interview/questions/questions.md)）
 
 <!-- interview-answer Q423 -->
 <details>
@@ -15493,7 +15493,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q424 — Document Q&A system: Build a document Q&A system with citation tracking for multi-hop questions.（来源：[questions.md:543](interview/questions/questions.md)）
+- Q424 — Document Q&A system: Build a document Q&A system with citation tracking for multi-hop questions.（来源：[questions.md:543](../interview/questions/questions.md)）
 
 <!-- interview-answer Q424 -->
 <details>
@@ -15519,7 +15519,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q425 — Build a RAG chatbot that ingests PDFs/documents, creates embeddings in a vector DB, and answers questions with citations (10+ candidate submissions across 5+ companies).（来源：[questions.md:544](interview/questions/questions.md)）
+- Q425 — Build a RAG chatbot that ingests PDFs/documents, creates embeddings in a vector DB, and answers questions with citations (10+ candidate submissions across 5+ companies).（来源：[questions.md:544](../interview/questions/questions.md)）
 
 <!-- interview-answer Q425 -->
 <details>
@@ -15545,7 +15545,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q426 — Refactor a messy RAG codebase into a modular, production-ready service with FastAPI and LangGraph (5+ candidate submissions for one company).（来源：[questions.md:545](interview/questions/questions.md)）
+- Q426 — Refactor a messy RAG codebase into a modular, production-ready service with FastAPI and LangGraph (5+ candidate submissions for one company).（来源：[questions.md:545](../interview/questions/questions.md)）
 
 <!-- interview-answer Q426 -->
 <details>
@@ -15571,7 +15571,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q427 — Build a policy document RAG assistant with mandatory source citations for every answer. Includes a 7-question evaluation set.（来源：[questions.md:546](interview/questions/questions.md)）
+- Q427 — Build a policy document RAG assistant with mandatory source citations for every answer. Includes a 7-question evaluation set.（来源：[questions.md:546](../interview/questions/questions.md)）
 
 <!-- interview-answer Q427 -->
 <details>
@@ -15597,7 +15597,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q428 — Build an AI agent demonstrating natural interaction, agentic behavior, clear reasoning steps, and strong technical decision-making. 3-day window. Company: Eightfold.ai.（来源：[questions.md:550](interview/questions/questions.md)）
+- Q428 — Build an AI agent demonstrating natural interaction, agentic behavior, clear reasoning steps, and strong technical decision-making. 3-day window. Company: Eightfold.ai.（来源：[questions.md:550](../interview/questions/questions.md)）
 
 <!-- interview-answer Q428 -->
 <details>
@@ -15623,7 +15623,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q429 — Customer email campaign agent: Build an agent reading customer CSV data and generating personalized email campaigns with evaluation metrics.（来源：[questions.md:551](interview/questions/questions.md)）
+- Q429 — Customer email campaign agent: Build an agent reading customer CSV data and generating personalized email campaigns with evaluation metrics.（来源：[questions.md:551](../interview/questions/questions.md)）
 
 <!-- interview-answer Q429 -->
 <details>
@@ -15649,7 +15649,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q430 — Code review agent: Implement a code review agent for Python files with actionable feedback.（来源：[questions.md:552](interview/questions/questions.md)）
+- Q430 — Code review agent: Implement a code review agent for Python files with actionable feedback.（来源：[questions.md:552](../interview/questions/questions.md)）
 
 <!-- interview-answer Q430 -->
 <details>
@@ -15675,7 +15675,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q431 — Conversational Calendar Booking Agent: LangGraph/LangChain orchestration, Streamlit chat interface, FastAPI backend, Google Calendar integration via Service Accounts, function calling for booking logic.（来源：[questions.md:553](interview/questions/questions.md)）
+- Q431 — Conversational Calendar Booking Agent: LangGraph/LangChain orchestration, Streamlit chat interface, FastAPI backend, Google Calendar integration via Service Accounts, function calling for booking logic.（来源：[questions.md:553](../interview/questions/questions.md)）
 
 <!-- interview-answer Q431 -->
 <details>
@@ -15704,16 +15704,16 @@ Follow-up
 
 <a id="day-32"></a>
 
-### 周二 11/17
+### 周二 12/22
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: Integrated Query Practice<br>LeetCode: [1075. Project Employees I](https://leetcode.com/problems/project-employees-i/); [1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations/); [1193. Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/)<br>资料：[JOINs](Study%20topics/joins.html); [GROUP BY](Study%20topics/group-by.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Integrated Query Practice + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [1075. Project Employees I](https://leetcode.com/problems/project-employees-i/); [1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations/); [1193. Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/)<br>Top 150（1 小时，3 题）: [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) · Bit Manipulation · Easy; [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) · Bit Manipulation · Medium; [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) · Divide & Conquer · Easy<br>资料：[JOINs](../Study%20topics/joins.html); [GROUP BY](../Study%20topics/group-by.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Regime Changes; Statistical Uncertainty; Prediction Intervals](Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [Notebook](notebook/13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Volatility Forecasting Service](Study%20topics/volatility-forecasting-service.html) · Practice / Review |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Deterministic Research Tools<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-32)<br>ML integration: [Volatility Forecasting prerequisite](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 13:30–14:15 | ML，45 分钟 | [Regime Changes; Statistical Uncertainty; Prediction Intervals](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [Notebook](../notebook/13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Volatility Forecasting Service](../Study%20topics/volatility-forecasting-service.html) · Practice / Review |
+| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Deterministic Research Tools<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-32)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Agent Systems; Take-Home Assignments / Multi-Agent Systems — 13 items |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review |
 
@@ -15736,7 +15736,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q432 — Create a customer support agent relevant to the company's product within 1.5 hours. Red flag if candidate doesn't start with evals.（来源：[questions.md:554](interview/questions/questions.md)）
+- Q432 — Create a customer support agent relevant to the company's product within 1.5 hours. Red flag if candidate doesn't start with evals.（来源：[questions.md:554](../interview/questions/questions.md)）
 
 <!-- interview-answer Q432 -->
 <details>
@@ -15762,7 +15762,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q433 — Build a simple autonomous agent using an open-source LLM with a task-specific goal and an observability/eval layer.（来源：[questions.md:555](interview/questions/questions.md)）
+- Q433 — Build a simple autonomous agent using an open-source LLM with a task-specific goal and an observability/eval layer.（来源：[questions.md:555](../interview/questions/questions.md)）
 
 <!-- interview-answer Q433 -->
 <details>
@@ -15788,7 +15788,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q434 — Build an assistant agent handling database queries, document search, and bash commands. Explicit evaluation criteria: tool selection accuracy, response grounding, error handling.（来源：[questions.md:556](interview/questions/questions.md)）
+- Q434 — Build an assistant agent handling database queries, document search, and bash commands. Explicit evaluation criteria: tool selection accuracy, response grounding, error handling.（来源：[questions.md:556](../interview/questions/questions.md)）
 
 <!-- interview-answer Q434 -->
 <details>
@@ -15814,7 +15814,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q435 — Build a production-ready AI agent that transforms project management data into conversational business insights using dual-LLM architecture (primary + fallback).（来源：[questions.md:557](interview/questions/questions.md)）
+- Q435 — Build a production-ready AI agent that transforms project management data into conversational business insights using dual-LLM architecture (primary + fallback).（来源：[questions.md:557](../interview/questions/questions.md)）
 
 <!-- interview-answer Q435 -->
 <details>
@@ -15840,7 +15840,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q436 — Build an agentic RAG system evaluated using RAGAS metrics (faithfulness, answer relevancy, context precision).（来源：[questions.md:558](interview/questions/questions.md)）
+- Q436 — Build an agentic RAG system evaluated using RAGAS metrics (faithfulness, answer relevancy, context precision).（来源：[questions.md:558](../interview/questions/questions.md)）
 
 <!-- interview-answer Q436 -->
 <details>
@@ -15866,7 +15866,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q437 — Build a chatbot-driven TikTok Ad Campaign Creation Agent.（来源：[questions.md:559](interview/questions/questions.md)）
+- Q437 — Build a chatbot-driven TikTok Ad Campaign Creation Agent.（来源：[questions.md:559](../interview/questions/questions.md)）
 
 <!-- interview-answer Q437 -->
 <details>
@@ -15892,7 +15892,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q438 — Build a multi-agent content generation system: 5 core agents (research, writing, editing, SEO, publishing) orchestrated through a pipeline.（来源：[questions.md:563](interview/questions/questions.md)）
+- Q438 — Build a multi-agent content generation system: 5 core agents (research, writing, editing, SEO, publishing) orchestrated through a pipeline.（来源：[questions.md:563](../interview/questions/questions.md)）
 
 <!-- interview-answer Q438 -->
 <details>
@@ -15918,7 +15918,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q439 — Implement a minimal workflow engine with graph-based nodes, state management, branching/looping, and tool-based logic. Max 50 steps. Unit tests mandatory (6+ candidate submissions).（来源：[questions.md:564](interview/questions/questions.md)）
+- Q439 — Implement a minimal workflow engine with graph-based nodes, state management, branching/looping, and tool-based logic. Max 50 steps. Unit tests mandatory (6+ candidate submissions).（来源：[questions.md:564](../interview/questions/questions.md)）
 
 <!-- interview-answer Q439 -->
 <details>
@@ -15944,7 +15944,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q440 — Build a 5-agent CBT therapy system with crisis detection, safety filtering, and PII redaction.（来源：[questions.md:565](interview/questions/questions.md)）
+- Q440 — Build a 5-agent CBT therapy system with crisis detection, safety filtering, and PII redaction.（来源：[questions.md:565](../interview/questions/questions.md)）
 
 <!-- interview-answer Q440 -->
 <details>
@@ -15970,7 +15970,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q564 — Build a multi-agent content generation system: 5 core agents (research, writing, editing, SEO, publishing). Takes product JSON input, generates FAQ document, product page, and comparison page. All outputs must follow strict JSON formats. LangChain + Groq.（来源：[06-home-assignments.md:63](interview/questions/06-home-assignments.md)）
+- Q564 — Build a multi-agent content generation system: 5 core agents (research, writing, editing, SEO, publishing). Takes product JSON input, generates FAQ document, product page, and comparison page. All outputs must follow strict JSON formats. LangChain + Groq.（来源：[06-home-assignments.md:63](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q564 -->
 <details>
@@ -15996,7 +15996,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q565 — Implement a minimal workflow engine with graph-based nodes, state management, branching/looping, and tool-based logic. Max 50 steps. Built-in infinite-cycle protection required. Unit tests mandatory (6+ candidate submissions).（来源：[06-home-assignments.md:64](interview/questions/06-home-assignments.md)）
+- Q565 — Implement a minimal workflow engine with graph-based nodes, state management, branching/looping, and tool-based logic. Max 50 steps. Built-in infinite-cycle protection required. Unit tests mandatory (6+ candidate submissions).（来源：[06-home-assignments.md:64](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q565 -->
 <details>
@@ -16022,7 +16022,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q566 — Build a 5-agent CBT therapy system: agents autonomously design, critique, and refine therapy exercises. Human-in-the-loop approval required before finalization.（来源：[06-home-assignments.md:65](interview/questions/06-home-assignments.md)）
+- Q566 — Build a 5-agent CBT therapy system: agents autonomously design, critique, and refine therapy exercises. Human-in-the-loop approval required before finalization.（来源：[06-home-assignments.md:65](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q566 -->
 <details>
@@ -16048,7 +16048,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q567 — Build a 4-stage bedtime story pipeline: Spec Builder, Storyteller, LLM Judge, Rewriter. Must use gpt-3.5-turbo. Up to 2 revision cycles. LLM judge evaluates stories against the spec.（来源：[06-home-assignments.md:66](interview/questions/06-home-assignments.md)）
+- Q567 — Build a 4-stage bedtime story pipeline: Spec Builder, Storyteller, LLM Judge, Rewriter. Must use gpt-3.5-turbo. Up to 2 revision cycles. LLM judge evaluates stories against the spec.（来源：[06-home-assignments.md:66](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q567 -->
 <details>
@@ -16077,18 +16077,18 @@ Follow-up
 
 <a id="day-33"></a>
 
-### 周三 11/18
+### 周三 12/23
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Python: Embedding Debugging; Cosine Similarity<br>LeetCode: [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/); [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)<br>资料：[Debugging](Study%20topics/debugging.html); [Vectorization](Study%20topics/vectorization.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Embedding Debugging; Cosine Similarity + LeetCode Top 150<br>计划原题（1 题）: [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) · Medium<br>Top 150（4 题）: [148. Sort List](https://leetcode.com/problems/sort-list/) · Divide & Conquer · Medium; [427. Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/) · Divide & Conquer · Medium; [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) · Multidimensional DP · Medium; [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) · Multidimensional DP · Medium<br>复习（每题约 10 分钟，做过的题限时重做）: [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)<br>资料：[Debugging](../Study%20topics/debugging.html); [Vectorization](../Study%20topics/vectorization.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Regime Changes; Statistical Uncertainty; Prediction Intervals](Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [Notebook](notebook/13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Evaluation and Regression Pipeline](Study%20topics/evaluation-and-regression-pipeline.html) · Learning |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Experiment API and Persistent Runs<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-33)<br>ML integration: [Volatility Forecasting prerequisite](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 13:30–14:15 | ML，45 分钟 | [Regime Changes; Statistical Uncertainty; Prediction Intervals](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [Notebook](../notebook/13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Evaluation and Regression Pipeline](../Study%20topics/evaluation-and-regression-pipeline.html) · Learning |
+| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Experiment API and Persistent Runs<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-33)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / LLM-as-Judge / Evaluation; Take-Home Assignments / Document Extraction and Processing — 13 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Prediction Intervals](Study%20topics/prediction-intervals.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Prediction Intervals](../Study%20topics/prediction-intervals.html) |
 
 
 刷题对应说明：973 / 347 对应向量距离和 Top-k 的相关算法；Embedding Debugging、Cosine Similarity 使用 NumPy 练习。
@@ -16111,7 +16111,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q441 — Build an evaluation tool for LLM hallucination detection.（来源：[questions.md:569](interview/questions/questions.md)；[06-home-assignments.md:58](interview/questions/06-home-assignments.md)）
+- Q441 — Build an evaluation tool for LLM hallucination detection.（来源：[questions.md:569](../interview/questions/questions.md)；[06-home-assignments.md:58](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q441 -->
 <details>
@@ -16137,7 +16137,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q442 — Build a 4-stage bedtime story pipeline: Spec Builder, Storyteller, LLM Judge, Rewriter. Must use gpt-3.5-turbo. Up to 2 revision cycles (4+ candidate submissions).（来源：[questions.md:570](interview/questions/questions.md)）
+- Q442 — Build a 4-stage bedtime story pipeline: Spec Builder, Storyteller, LLM Judge, Rewriter. Must use gpt-3.5-turbo. Up to 2 revision cycles (4+ candidate submissions).（来源：[questions.md:570](../interview/questions/questions.md)）
 
 <!-- interview-answer Q442 -->
 <details>
@@ -16163,7 +16163,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q443 — Build a sales insights agent with PII safety: 3-dimension evaluation (accuracy, safety, reasoning).（来源：[questions.md:571](interview/questions/questions.md)）
+- Q443 — Build a sales insights agent with PII safety: 3-dimension evaluation (accuracy, safety, reasoning).（来源：[questions.md:571](../interview/questions/questions.md)）
 
 <!-- interview-answer Q443 -->
 <details>
@@ -16189,7 +16189,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q444 — Build a live chat agent grounded in FAQ knowledge base (2 candidate submissions with different tech stacks).（来源：[questions.md:572](interview/questions/questions.md)）
+- Q444 — Build a live chat agent grounded in FAQ knowledge base (2 candidate submissions with different tech stacks).（来源：[questions.md:572](../interview/questions/questions.md)）
 
 <!-- interview-answer Q444 -->
 <details>
@@ -16215,7 +16215,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q445 — Build a marksheet extraction API: parse complex table layouts and handwriting. Confidence scoring required. FastAPI + Docker + Gemini 1.5 Flash.（来源：[questions.md:576](interview/questions/questions.md)）
+- Q445 — Build a marksheet extraction API: parse complex table layouts and handwriting. Confidence scoring required. FastAPI + Docker + Gemini 1.5 Flash.（来源：[questions.md:576](../interview/questions/questions.md)）
 
 <!-- interview-answer Q445 -->
 <details>
@@ -16241,7 +16241,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q446 — Build a physician notetaker: medical transcription NLP system with NER and SOAP notes (3+ candidate submissions).（来源：[questions.md:577](interview/questions/questions.md)）
+- Q446 — Build a physician notetaker: medical transcription NLP system with NER and SOAP notes (3+ candidate submissions).（来源：[questions.md:577](../interview/questions/questions.md)）
 
 <!-- interview-answer Q446 -->
 <details>
@@ -16267,7 +16267,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q447 — Refactor a messy codebase into a modular, production-ready service (5+ candidate submissions for one company).（来源：[questions.md:578](interview/questions/questions.md)）
+- Q447 — Refactor a messy codebase into a modular, production-ready service (5+ candidate submissions for one company).（来源：[questions.md:578](../interview/questions/questions.md)）
 
 <!-- interview-answer Q447 -->
 <details>
@@ -16293,7 +16293,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q448 — Build an AI-powered legal document analysis tool for contracts.（来源：[questions.md:579](interview/questions/questions.md)）
+- Q448 — Build an AI-powered legal document analysis tool for contracts.（来源：[questions.md:579](../interview/questions/questions.md)）
 
 <!-- interview-answer Q448 -->
 <details>
@@ -16319,7 +16319,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q568 — Build a marksheet extraction API: parse complex table layouts and handwriting from academic marksheets into structured JSON.（来源：[06-home-assignments.md:71](interview/questions/06-home-assignments.md)）
+- Q568 — Build a marksheet extraction API: parse complex table layouts and handwriting from academic marksheets into structured JSON.（来源：[06-home-assignments.md:71](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q568 -->
 <details>
@@ -16345,7 +16345,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q569 — Build a physician notetaker: transform physician-patient conversations into structured clinical documentation..（来源：[06-home-assignments.md:72](interview/questions/06-home-assignments.md)）
+- Q569 — Build a physician notetaker: transform physician-patient conversations into structured clinical documentation..（来源：[06-home-assignments.md:72](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q569 -->
 <details>
@@ -16371,7 +16371,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q570 — Build a legal document analysis tool for contracts: extract key information, identify risks (auto-renewal traps, liability, IP ownership, non-competes), generate structured summaries.（来源：[06-home-assignments.md:73](interview/questions/06-home-assignments.md)）
+- Q570 — Build a legal document analysis tool for contracts: extract key information, identify risks (auto-renewal traps, liability, IP ownership, non-competes), generate structured summaries.（来源：[06-home-assignments.md:73](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q570 -->
 <details>
@@ -16397,7 +16397,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q571 — Build a CBT assistant combining RAG with safety mechanisms. Crisis detection mandatory. PII redaction and pseudonymization required. No secrets in logs. Educational only, not clinical advice.（来源：[06-home-assignments.md:74](interview/questions/06-home-assignments.md)）
+- Q571 — Build a CBT assistant combining RAG with safety mechanisms. Crisis detection mandatory. PII redaction and pseudonymization required. No secrets in logs. Educational only, not clinical advice.（来源：[06-home-assignments.md:74](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q571 -->
 <details>
@@ -16423,7 +16423,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q572 — Take a blood test report as PDF, understand medical issues, generate suggestions by fetching content from online blog articles with source links.（来源：[06-home-assignments.md:75](interview/questions/06-home-assignments.md)）
+- Q572 — Take a blood test report as PDF, understand medical issues, generate suggestions by fetching content from online blog articles with source links.（来源：[06-home-assignments.md:75](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q572 -->
 <details>
@@ -16452,18 +16452,18 @@ Follow-up
 
 <a id="day-34"></a>
 
-### 周四 11/19
+### 周四 12/24
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: Financial Analytics; Window Functions Review<br>LeetCode: [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/); [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/); [1341. Movie Rating](https://leetcode.com/problems/movie-rating/)<br>资料：[Window Functions](Study%20topics/window-functions.html); [ROW_NUMBER](Study%20topics/row-number.html); [RANK](Study%20topics/rank.html); [DENSE_RANK](Study%20topics/dense-rank.html); [LAG](Study%20topics/lag.html); [LEAD](Study%20topics/lead.html); [Rolling Aggregations](Study%20topics/rolling-aggregations.html); [Financial Analytics](Study%20topics/financial-analytics.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Financial Analytics; Window Functions Review + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/); [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/); [1341. Movie Rating](https://leetcode.com/problems/movie-rating/)<br>Top 150（1 小时，3 题）: [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) · Multidimensional DP · Medium; [72. Edit Distance](https://leetcode.com/problems/edit-distance/) · Multidimensional DP · Medium; [97. Interleaving String](https://leetcode.com/problems/interleaving-string/) · Multidimensional DP · Medium<br>资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html); [LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html); [Financial Analytics](../Study%20topics/financial-analytics.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Regime Changes; Statistical Uncertainty; Prediction Intervals](Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [Notebook](notebook/13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Evaluation and Regression Pipeline](Study%20topics/evaluation-and-regression-pipeline.html) · Practice / Review |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Queue and Worker Execution<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-34)<br>ML integration: [Volatility Forecasting prerequisite](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 13:30–14:15 | ML，45 分钟 | [Regime Changes; Statistical Uncertainty; Prediction Intervals](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [Notebook](../notebook/13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Evaluation and Regression Pipeline](../Study%20topics/evaluation-and-regression-pipeline.html) · Practice / Review |
+| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Queue and Worker Execution<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-34)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Document Extraction and Processing; Take-Home Assignments / Voice AI and Conversational Systems; Take-Home Assignments / Full-Stack AI Applications — 13 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Online Feedback](Study%20topics/online-feedback.html); [Workers](Study%20topics/workers.html); [Backpressure](Study%20topics/backpressure.html); [Queues and Workers](Study%20topics/queues-and-workers.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Online Feedback](../Study%20topics/online-feedback.html); [Workers](../Study%20topics/workers.html); [Backpressure](../Study%20topics/backpressure.html); [Queues and Workers](../Study%20topics/queues-and-workers.html) |
 
 
 <!-- quantvault-day 34 -->
@@ -16484,7 +16484,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q573 — Build a question deduplication and clustering pipeline: exact dedup, semantic dedup, LLM-based cluster discovery, classification. Output evaluated with ARI, NMI, homogeneity, completeness metrics.（来源：[06-home-assignments.md:76](interview/questions/06-home-assignments.md)）
+- Q573 — Build a question deduplication and clustering pipeline: exact dedup, semantic dedup, LLM-based cluster discovery, classification. Output evaluated with ARI, NMI, homogeneity, completeness metrics.（来源：[06-home-assignments.md:76](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q573 -->
 <details>
@@ -16510,7 +16510,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q574 — Build a data pipeline that processes 1,000 messy products from 4 vendors, normalizes them into a unified schema, fetches supplementary data via rate-limited async API calls (vendor-specific token-bucket rate limits), enriches products through AI-powered duplicate detection. Must support both CLI and API access.（来源：[06-home-assignments.md:77](interview/questions/06-home-assignments.md)）
+- Q574 — Build a data pipeline that processes 1,000 messy products from 4 vendors, normalizes them into a unified schema, fetches supplementary data via rate-limited async API calls (vendor-specific token-bucket rate limits), enriches products through AI-powered duplicate detection. Must support both CLI and API access.（来源：[06-home-assignments.md:77](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q574 -->
 <details>
@@ -16536,7 +16536,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q575 — Build a transaction-to-user matching system: identify users whose names appear in transaction descriptions, find similar transactions via text matching, propose improvements (semantic embeddings, database integration). Spring Boot + Java.（来源：[06-home-assignments.md:78](interview/questions/06-home-assignments.md)）
+- Q575 — Build a transaction-to-user matching system: identify users whose names appear in transaction descriptions, find similar transactions via text matching, propose improvements (semantic embeddings, database integration). Spring Boot + Java.（来源：[06-home-assignments.md:78](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q575 -->
 <details>
@@ -16562,7 +16562,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q576 — Build real-time earnings call transcription and insight streaming: streaming audio-to-text via Whisper, real-time extraction of financial signals (revenue, guidance, risks, outlook), SSE output.（来源：[06-home-assignments.md:79](interview/questions/06-home-assignments.md)）
+- Q576 — Build real-time earnings call transcription and insight streaming: streaming audio-to-text via Whisper, real-time extraction of financial signals (revenue, guidance, risks, outlook), SSE output.（来源：[06-home-assignments.md:79](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q576 -->
 <details>
@@ -16588,7 +16588,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q449 — Build real-time concall transcription and insight streaming for Indian accents.（来源：[questions.md:583](interview/questions/questions.md)）
+- Q449 — Build real-time concall transcription and insight streaming for Indian accents.（来源：[questions.md:583](../interview/questions/questions.md)）
 
 <!-- interview-answer Q449 -->
 <details>
@@ -16614,7 +16614,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q450 — Build a Singapore public transport query agent with voice interface.（来源：[questions.md:584](interview/questions/questions.md)）
+- Q450 — Build a Singapore public transport query agent with voice interface.（来源：[questions.md:584](../interview/questions/questions.md)）
 
 <!-- interview-answer Q450 -->
 <details>
@@ -16640,7 +16640,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q451 — Build a Telegram bot for investment coaching with safety filtering. 3 days / 6-8 hours.（来源：[questions.md:585](interview/questions/questions.md)）
+- Q451 — Build a Telegram bot for investment coaching with safety filtering. 3 days / 6-8 hours.（来源：[questions.md:585](../interview/questions/questions.md)）
 
 <!-- interview-answer Q451 -->
 <details>
@@ -16666,7 +16666,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q452 — Build a live chat support agent with OpenAI, session persistence, and conversation history (2 candidate submissions).（来源：[questions.md:586](interview/questions/questions.md)）
+- Q452 — Build a live chat support agent with OpenAI, session persistence, and conversation history (2 candidate submissions).（来源：[questions.md:586](../interview/questions/questions.md)）
 
 <!-- interview-answer Q452 -->
 <details>
@@ -16692,7 +16692,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q453 — Build conversational agents with game-based evaluation (2 submissions).（来源：[questions.md:587](interview/questions/questions.md)）
+- Q453 — Build conversational agents with game-based evaluation (2 submissions).（来源：[questions.md:587](../interview/questions/questions.md)）
 
 <!-- interview-answer Q453 -->
 <details>
@@ -16718,7 +16718,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q454 — AI-First CRM: HCP Module: React/Redux frontend, FastAPI backend, LangGraph with 5+ tools (summarization, entity extraction). Models: gemma2-9b-it or llama-3.3-70b via Groq API. Deliverable: GitHub repo + 10-15 minute demo video. Expected time: ~60 hours.（来源：[questions.md:591](interview/questions/questions.md)）
+- Q454 — AI-First CRM: HCP Module: React/Redux frontend, FastAPI backend, LangGraph with 5+ tools (summarization, entity extraction). Models: gemma2-9b-it or llama-3.3-70b via Groq API. Deliverable: GitHub repo + 10-15 minute demo video. Expected time: ~60 hours.（来源：[questions.md:591](../interview/questions/questions.md)）
 
 <!-- interview-answer Q454 -->
 <details>
@@ -16744,7 +16744,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q455 — Login page with validations: Create a login page accepting email and password with basic validations. Estimated 2-3 hours within 2-3 day window.（来源：[questions.md:592](interview/questions/questions.md)）
+- Q455 — Login page with validations: Create a login page accepting email and password with basic validations. Estimated 2-3 hours within 2-3 day window.（来源：[questions.md:592](../interview/questions/questions.md)）
 
 <!-- interview-answer Q455 -->
 <details>
@@ -16770,7 +16770,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q456 — Build a production-ready mental health MVP with safety, privacy, PII redaction, and evaluation.（来源：[questions.md:593](interview/questions/questions.md)）
+- Q456 — Build a production-ready mental health MVP with safety, privacy, PII redaction, and evaluation.（来源：[questions.md:593](../interview/questions/questions.md)）
 
 <!-- interview-answer Q456 -->
 <details>
@@ -16796,7 +16796,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q457 — Build a production-grade distributed LLM processing pipeline with smart routing for 100K+ daily requests.（来源：[questions.md:594](interview/questions/questions.md)）
+- Q457 — Build a production-grade distributed LLM processing pipeline with smart routing for 100K+ daily requests.（来源：[questions.md:594](../interview/questions/questions.md)）
 
 <!-- interview-answer Q457 -->
 <details>
@@ -16825,18 +16825,18 @@ Follow-up
 
 <a id="day-35"></a>
 
-### 周五 11/20
+### 周五 12/25
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Python: Logistic Regression with NumPy; Shape Checks<br>LeetCode: [1. Two Sum](https://leetcode.com/problems/two-sum/); [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)<br>资料：[Vectorization](Study%20topics/vectorization.html); [NumPy Logistic Regression](Study%20topics/numpy-logistic-regression.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Logistic Regression with NumPy; Shape Checks + LeetCode Top 150<br>Top 150（4 题）: [120. Triangle](https://leetcode.com/problems/triangle/) · Multidimensional DP · Medium; [221. Maximal Square](https://leetcode.com/problems/maximal-square/) · Multidimensional DP · Medium; [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) · Array / String · Hard; [68. Text Justification](https://leetcode.com/problems/text-justification/) · Array / String · Hard<br>复习（每题约 10 分钟，做过的题限时重做）: [1. Two Sum](https://leetcode.com/problems/two-sum/); [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)<br>资料：[Vectorization](../Study%20topics/vectorization.html); [NumPy Logistic Regression](../Study%20topics/numpy-logistic-regression.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Logistic Regression; Precision; Recall; F1; Class Imbalance](Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [Notebook](notebook/06_logistic_regression_precision_recall_f1_class_imbalance.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [AI Latency and Cost Budget](Study%20topics/ai-latency-and-cost-budget.html) · Learning |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Retries, Timeouts and Worker Failure<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-35)<br>ML integration: [Volatility Forecasting prerequisite](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 13:30–14:15 | ML，45 分钟 | [Logistic Regression; Precision; Recall; F1; Class Imbalance](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [Notebook](../notebook/06_logistic_regression_precision_recall_f1_class_imbalance.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [AI Latency and Cost Budget](../Study%20topics/ai-latency-and-cost-budget.html) · Learning |
+| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Retries, Timeouts and Worker Failure<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-35)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Full-Stack AI Applications — 13 items |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities<br>当日概念索引（按需）：[Streaming](Study%20topics/streaming.html); [Token Usage](Study%20topics/token-usage.html); [Semantic Caching](Study%20topics/semantic-caching.html); [Model Routing](Study%20topics/model-routing.html); [Cost-Quality Trade-offs](Study%20topics/cost-quality-trade-offs.html); [Graceful Degradation](Study%20topics/graceful-degradation.html); [Failure Recovery](Study%20topics/failure-recovery.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities<br>当日概念索引（按需）：[Streaming](../Study%20topics/streaming.html); [Token Usage](../Study%20topics/token-usage.html); [Semantic Caching](../Study%20topics/semantic-caching.html); [Model Routing](../Study%20topics/model-routing.html); [Cost-Quality Trade-offs](../Study%20topics/cost-quality-trade-offs.html); [Graceful Degradation](../Study%20topics/graceful-degradation.html); [Failure Recovery](../Study%20topics/failure-recovery.html) |
 
 刷题对应说明：Logistic Regression、Shape Checks 和 Early Stopping 无直接 LeetCode 对应，使用 NumPy 自定义练习；1 / 20 为可选算法复习。
 
@@ -16858,7 +16858,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q458 — Build an intelligent NPC system for a job simulation platform.（来源：[questions.md:595](interview/questions/questions.md)）
+- Q458 — Build an intelligent NPC system for a job simulation platform.（来源：[questions.md:595](../interview/questions/questions.md)）
 
 <!-- interview-answer Q458 -->
 <details>
@@ -16884,7 +16884,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q459 — Build an LLM-based rating prediction system with prompt evaluation and dashboards.（来源：[questions.md:596](interview/questions/questions.md)）
+- Q459 — Build an LLM-based rating prediction system with prompt evaluation and dashboards.（来源：[questions.md:596](../interview/questions/questions.md)）
 
 <!-- interview-answer Q459 -->
 <details>
@@ -16910,7 +16910,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q460 — Build a markdown-to-slides generator with cost and time metrics tracking.（来源：[questions.md:597](interview/questions/questions.md)）
+- Q460 — Build a markdown-to-slides generator with cost and time metrics tracking.（来源：[questions.md:597](../interview/questions/questions.md)）
 
 <!-- interview-answer Q460 -->
 <details>
@@ -16936,7 +16936,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q461 — Build a deduplication and clustering pipeline with ARI/NMI evaluation metrics.（来源：[questions.md:598](interview/questions/questions.md)）
+- Q461 — Build a deduplication and clustering pipeline with ARI/NMI evaluation metrics.（来源：[questions.md:598](../interview/questions/questions.md)）
 
 <!-- interview-answer Q461 -->
 <details>
@@ -16962,7 +16962,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q462 — Build a transaction matching system.（来源：[questions.md:599](interview/questions/questions.md)）
+- Q462 — Build a transaction matching system.（来源：[questions.md:599](../interview/questions/questions.md)）
 
 <!-- interview-answer Q462 -->
 <details>
@@ -16988,7 +16988,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q463 — Build a D&D dungeon simulation with context engineering. Evaluation rubric: 30% functionality, 30% challenge completion, 25% context engineering, 15% code quality. ~4 hours.（来源：[questions.md:600](interview/questions/questions.md)）
+- Q463 — Build a D&D dungeon simulation with context engineering. Evaluation rubric: 30% functionality, 30% challenge completion, 25% context engineering, 15% code quality. ~4 hours.（来源：[questions.md:600](../interview/questions/questions.md)）
 
 <!-- interview-answer Q463 -->
 <details>
@@ -17014,7 +17014,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q464 — Build a memory and personality engine using open-source LLMs only.（来源：[questions.md:601](interview/questions/questions.md)）
+- Q464 — Build a memory and personality engine using open-source LLMs only.（来源：[questions.md:601](../interview/questions/questions.md)）
 
 <!-- interview-answer Q464 -->
 <details>
@@ -17040,7 +17040,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q577 — Build a Telegram bot for investment coaching with safety filtering. Educational content only - no personalized financial advice.（来源：[06-home-assignments.md:84](interview/questions/06-home-assignments.md)）
+- Q577 — Build a Telegram bot for investment coaching with safety filtering. Educational content only - no personalized financial advice.（来源：[06-home-assignments.md:84](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q577 -->
 <details>
@@ -17066,7 +17066,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q578 — Build a multi-agent D&D dungeon simulation: Game Master agent + Player agents. Must address at least 3 of 6 challenges (long campaigns, secrets, rulings, self-aware dungeon, living world, ambiguity). LangGraph required.（来源：[06-home-assignments.md:85](interview/questions/06-home-assignments.md)）
+- Q578 — Build a multi-agent D&D dungeon simulation: Game Master agent + Player agents. Must address at least 3 of 6 challenges (long campaigns, secrets, rulings, self-aware dungeon, living world, ambiguity). LangGraph required.（来源：[06-home-assignments.md:85](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q578 -->
 <details>
@@ -17092,7 +17092,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q579 — Build a memory extraction and personality transformation system: extract structured long-term memory from chat history as JSON, transform responses based on personas (calm mentor, witty friend, therapist). Open-source LLMs only, no proprietary APIs.（来源：[06-home-assignments.md:86](interview/questions/06-home-assignments.md)）
+- Q579 — Build a memory extraction and personality transformation system: extract structured long-term memory from chat history as JSON, transform responses based on personas (calm mentor, witty friend, therapist). Open-source LLMs only, no proprietary APIs.（来源：[06-home-assignments.md:86](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q579 -->
 <details>
@@ -17118,7 +17118,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q580 — Build an AI judge for a Rock-Paper-Scissors variant: classify player inputs as VALID/INVALID/UNCLEAR, handle typos and edge cases, tool-based state management workflow (2 submissions).（来源：[06-home-assignments.md:87](interview/questions/06-home-assignments.md)）
+- Q580 — Build an AI judge for a Rock-Paper-Scissors variant: classify player inputs as VALID/INVALID/UNCLEAR, handle typos and edge cases, tool-based state management workflow (2 submissions).（来源：[06-home-assignments.md:87](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q580 -->
 <details>
@@ -17144,7 +17144,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q581 — Build a web app that converts markdown to slide deck presentations by splitting content into logical sections based on a target slide count. Document size limited to 150K tokens, single API call. Next.js + OpenAI.（来源：[06-home-assignments.md:88](interview/questions/06-home-assignments.md)）
+- Q581 — Build a web app that converts markdown to slide deck presentations by splitting content into logical sections based on a target slide count. Document size limited to 150K tokens, single API call. Next.js + OpenAI.（来源：[06-home-assignments.md:88](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q581 -->
 <details>
@@ -17170,7 +17170,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q582 — Build an LLM processing pipeline with intelligent routing, multi-level caching (exact + semantic), provider health monitoring with failover, and distributed tracing. Targets: 100+ req/s, p95 latency under 2s, >40% cache hit rate.（来源：[06-home-assignments.md:89](interview/questions/06-home-assignments.md)）
+- Q582 — Build an LLM processing pipeline with intelligent routing, multi-level caching (exact + semantic), provider health monitoring with failover, and distributed tracing. Targets: 100+ req/s, p95 latency under 2s, >40% cache hit rate.（来源：[06-home-assignments.md:89](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q582 -->
 <details>
@@ -17204,18 +17204,18 @@ Follow-up
 
 <a id="day-36"></a>
 
-### 周一 11/23
+### 周一 12/28
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Python: Timed Coding Mock<br>LeetCode: [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/); [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/); [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)<br>资料：[Binary Search](Study%20topics/binary-search.html); [Prefix Sums](Study%20topics/prefix-sums.html); [Recursion](Study%20topics/recursion.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Timed Coding Mock + LeetCode Top 150<br>Top 150（3 题）: [135. Candy](https://leetcode.com/problems/candy/) · Array / String · Hard; [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) · Sliding Window · Hard; [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) · Sliding Window · Hard<br>复习（每题约 10 分钟，做过的题限时重做）: [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/); [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/); [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)<br>资料：[Binary Search](../Study%20topics/binary-search.html); [Prefix Sums](../Study%20topics/prefix-sums.html); [Recursion](../Study%20topics/recursion.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Reproducibility; Model Versioning; Serving; Rollback](Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [Notebook](notebook/14_reproducibility_model_versioning_serving_rollback.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [AI Latency and Cost Budget](Study%20topics/ai-latency-and-cost-budget.html) · Practice / Review |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: AI Experiment Planning and Tool Calling<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-36)<br>ML integration: [Volatility Forecasting prerequisite](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 13:30–14:15 | ML，45 分钟 | [Reproducibility; Model Versioning; Serving; Rollback](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [Notebook](../notebook/14_reproducibility_model_versioning_serving_rollback.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [AI Latency and Cost Budget](../Study%20topics/ai-latency-and-cost-budget.html) · Practice / Review |
+| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: AI Experiment Planning and Tool Calling<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-36)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Full-Stack AI Applications; Take-Home Assignments / Company Product Integration; Take-Home Assignments / Performance / Optimization; Take-Home Assignments / OpenAI-Specific; Take-Home Assignments / Red Flags (Unreasonable Assignments); Take-Home Assignments / RAG and Document Q&A — 13 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Reproducibility](Study%20topics/reproducibility.html); [Model Versioning](Study%20topics/model-versioning.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Reproducibility](../Study%20topics/reproducibility.html); [Model Versioning](../Study%20topics/model-versioning.html) |
 
 
 <!-- quantvault-day 36 -->
@@ -17236,7 +17236,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q583 — Build an NPC system for a job simulation platform: three AI co-workers with distinct personalities, a "Director Agent" that detects conversation loops via semantic similarity (0.85 threshold), RAG-based knowledge retrieval. FastAPI + Claude API + FAISS.（来源：[06-home-assignments.md:90](interview/questions/06-home-assignments.md)）
+- Q583 — Build an NPC system for a job simulation platform: three AI co-workers with distinct personalities, a "Director Agent" that detects conversation loops via semantic similarity (0.85 threshold), RAG-based knowledge retrieval. FastAPI + Claude API + FAISS.（来源：[06-home-assignments.md:90](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q583 -->
 <details>
@@ -17262,7 +17262,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q584 — Build an LLM-based rating prediction and prompt evaluation system with user and admin dashboards. Node.js + MongoDB + Google Generative AI.（来源：[06-home-assignments.md:91](interview/questions/06-home-assignments.md)）
+- Q584 — Build an LLM-based rating prediction and prompt evaluation system with user and admin dashboards. Node.js + MongoDB + Google Generative AI.（来源：[06-home-assignments.md:91](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q584 -->
 <details>
@@ -17288,7 +17288,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q585 — Build an AI-first CRM module: React/Redux frontend, FastAPI backend, LangGraph with 5+ tools. Deliverable: GitHub repo + 10-15 minute demo video.（来源：[06-home-assignments.md:92](interview/questions/06-home-assignments.md)）
+- Q585 — Build an AI-first CRM module: React/Redux frontend, FastAPI backend, LangGraph with 5+ tools. Deliverable: GitHub repo + 10-15 minute demo video.（来源：[06-home-assignments.md:92](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q585 -->
 <details>
@@ -17314,7 +17314,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q465 — Roboflow: build a project using their CV platform and present to CTO.（来源：[questions.md:605](interview/questions/questions.md)）
+- Q465 — Roboflow: build a project using their CV platform and present to CTO.（来源：[questions.md:605](../interview/questions/questions.md)）
 
 <!-- interview-answer Q465 -->
 <details>
@@ -17340,7 +17340,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q466 — Anthropic performance take-home: Code optimization for speed. 4-hour limit. Python workload simulating TPU-like operations. Tests low-level optimization skills. Now open-sourced for practice.（来源：[questions.md:609](interview/questions/questions.md)）
+- Q466 — Anthropic performance take-home: Code optimization for speed. 4-hour limit. Python workload simulating TPU-like operations. Tests low-level optimization skills. Now open-sourced for practice.（来源：[questions.md:609](../interview/questions/questions.md)）
 
 <!-- interview-answer Q466 -->
 <details>
@@ -17366,7 +17366,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q467 — 48-hour technical project: Take-home assignment delivered day after recruiter call, 48-hour completion window. Practical coding, not puzzle-based.（来源：[questions.md:613](interview/questions/questions.md)）
+- Q467 — 48-hour technical project: Take-home assignment delivered day after recruiter call, 48-hour completion window. Practical coding, not puzzle-based.（来源：[questions.md:613](../interview/questions/questions.md)）
 
 <!-- interview-answer Q467 -->
 <details>
@@ -17392,7 +17392,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q468 — 72-hour "Round 1" demanding full RAG + agents + UI.（来源：[questions.md:618](interview/questions/questions.md)）
+- Q468 — 72-hour "Round 1" demanding full RAG + agents + UI.（来源：[questions.md:618](../interview/questions/questions.md)）
 
 <!-- interview-answer Q468 -->
 <details>
@@ -17418,7 +17418,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q469 — Build an LLM agent to ingest years of financial reports with stock price analysis and chart generation using only freemium APIs. Candidate withdrew, calling it "an unpaid mini-consulting project."（来源：[questions.md:619](interview/questions/questions.md)）
+- Q469 — Build an LLM agent to ingest years of financial reports with stock price analysis and chart generation using only freemium APIs. Candidate withdrew, calling it "an unpaid mini-consulting project."（来源：[questions.md:619](../interview/questions/questions.md)）
 
 <!-- interview-answer Q469 -->
 <details>
@@ -17444,7 +17444,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q470 — 45 minutes for 3 complex tasks.（来源：[questions.md:620](interview/questions/questions.md)）
+- Q470 — 45 minutes for 3 complex tasks.（来源：[questions.md:620](../interview/questions/questions.md)）
 
 <!-- interview-answer Q470 -->
 <details>
@@ -17470,7 +17470,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q547 — Build a RAG chatbot that ingests PDFs/documents, creates embeddings in a vector DB, and answers questions with citations. Must respond "I don't have that information" when answer is unavailable. Answers must come strictly from retrieved context (10+ candidate submissions across 5+ companies).（来源：[06-home-assignments.md:35](interview/questions/06-home-assignments.md)）
+- Q547 — Build a RAG chatbot that ingests PDFs/documents, creates embeddings in a vector DB, and answers questions with citations. Must respond "I don't have that information" when answer is unavailable. Answers must come strictly from retrieved context (10+ candidate submissions across 5+ companies).（来源：[06-home-assignments.md:35](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q547 -->
 <details>
@@ -17496,7 +17496,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q548 — Build a policy document RAG assistant with mandatory source citations for every answer. Return safe fallbacks for out-of-scope questions. Comes with a 7-question evaluation set across 3 categories (answerable, partially answerable, unanswerable).（来源：[06-home-assignments.md:36](interview/questions/06-home-assignments.md)）
+- Q548 — Build a policy document RAG assistant with mandatory source citations for every answer. Return safe fallbacks for out-of-scope questions. Comes with a 7-question evaluation set across 3 categories (answerable, partially answerable, unanswerable).（来源：[06-home-assignments.md:36](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q548 -->
 <details>
@@ -17522,7 +17522,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q549 — Build a document Q&A system with citation tracking that handles multi-hop questions (questions requiring information from multiple documents or sections to answer).（来源：[06-home-assignments.md:37](interview/questions/06-home-assignments.md)）
+- Q549 — Build a document Q&A system with citation tracking that handles multi-hop questions (questions requiring information from multiple documents or sections to answer).（来源：[06-home-assignments.md:37](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q549 -->
 <details>
@@ -17548,7 +17548,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q550 — Build a live chat agent grounded in FAQ knowledge base. Model must answer only from known FAQ data.（来源：[06-home-assignments.md:38](interview/questions/06-home-assignments.md)）
+- Q550 — Build a live chat agent grounded in FAQ knowledge base. Model must answer only from known FAQ data.（来源：[06-home-assignments.md:38](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q550 -->
 <details>
@@ -17577,18 +17577,18 @@ Follow-up
 
 <a id="day-37"></a>
 
-### 周二 11/24
+### 周二 12/29
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: Timed Query Mock<br>LeetCode: [178. Rank Scores](https://leetcode.com/problems/rank-scores/); [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/); [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)<br>资料：[Window Functions](Study%20topics/window-functions.html); [ROW_NUMBER](Study%20topics/row-number.html); [RANK](Study%20topics/rank.html); [DENSE_RANK](Study%20topics/dense-rank.html); [LAG](Study%20topics/lag.html); [LEAD](Study%20topics/lead.html); [Rolling Aggregations](Study%20topics/rolling-aggregations.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Timed Query Mock + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [178. Rank Scores](https://leetcode.com/problems/rank-scores/); [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/); [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)<br>Top 150（1 小时，2 题）: [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) · Stack · Hard; [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) · Linked List · Hard<br>资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html); [LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Reproducibility; Model Versioning; Serving; Rollback](Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [Notebook](notebook/14_reproducibility_model_versioning_serving_rollback.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [AI Security and Reliability](Study%20topics/ai-security-and-reliability.html) · Learning |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Workflow Evaluation and Observability<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-37)<br>ML integration: [Volatility Forecasting prerequisite](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 13:30–14:15 | ML，45 分钟 | [Reproducibility; Model Versioning; Serving; Rollback](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [Notebook](../notebook/14_reproducibility_model_versioning_serving_rollback.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [AI Security and Reliability](../Study%20topics/ai-security-and-reliability.html) · Learning |
+| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Workflow Evaluation and Observability<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-37)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / RAG and Document Q&A; Take-Home Assignments / Agents and Tool-Calling — 13 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Tool Selection Evaluation](Study%20topics/tool-selection-evaluation.html); [Prompt Injection](Study%20topics/prompt-injection.html); [Tool Sandboxing](Study%20topics/tool-sandboxing.html); [PII](Study%20topics/pii.html); [Tenant Isolation](Study%20topics/tenant-isolation.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Tool Selection Evaluation](../Study%20topics/tool-selection-evaluation.html); [Prompt Injection](../Study%20topics/prompt-injection.html); [Tool Sandboxing](../Study%20topics/tool-sandboxing.html); [PII](../Study%20topics/pii.html); [Tenant Isolation](../Study%20topics/tenant-isolation.html) |
 
 
 <!-- quantvault-day 37 -->
@@ -17609,7 +17609,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q551 — Design a customer support chatbot using RAG with open-source models. Requirements: 100+ concurrent users, <2 second latency, grounded in company docs, analytics tracking.（来源：[06-home-assignments.md:39](interview/questions/06-home-assignments.md)）
+- Q551 — Design a customer support chatbot using RAG with open-source models. Requirements: 100+ concurrent users, <2 second latency, grounded in company docs, analytics tracking.（来源：[06-home-assignments.md:39](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q551 -->
 <details>
@@ -17635,7 +17635,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q552 — Build a CLI tool for summarizing long PDFs with configurable models and chunking strategies.（来源：[06-home-assignments.md:40](interview/questions/06-home-assignments.md)）
+- Q552 — Build a CLI tool for summarizing long PDFs with configurable models and chunking strategies.（来源：[06-home-assignments.md:40](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q552 -->
 <details>
@@ -17661,7 +17661,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q553 — Refactor an existing messy RAG application into a clean architecture. Preserve all external behaviors (exact API endpoints), eliminate global mutable state, ensure testability without requiring running services (5+ candidate submissions for one company).（来源：[06-home-assignments.md:41](interview/questions/06-home-assignments.md)）
+- Q553 — Refactor an existing messy RAG application into a clean architecture. Preserve all external behaviors (exact API endpoints), eliminate global mutable state, ensure testability without requiring running services (5+ candidate submissions for one company).（来源：[06-home-assignments.md:41](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q553 -->
 <details>
@@ -17687,7 +17687,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q554 — Build an agentic RAG system for government documents. 100% open-source required (Ollama + CrewAI + pgvector). Must integrate with OpenWebUI. Evaluated using RAGAS metrics (faithfulness, answer relevancy, context precision, context recall).（来源：[06-home-assignments.md:42](interview/questions/06-home-assignments.md)）
+- Q554 — Build an agentic RAG system for government documents. 100% open-source required (Ollama + CrewAI + pgvector). Must integrate with OpenWebUI. Evaluated using RAGAS metrics (faithfulness, answer relevancy, context precision, context recall).（来源：[06-home-assignments.md:42](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q554 -->
 <details>
@@ -17713,7 +17713,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q555 — Build an assistant agent handling database queries, document search, and bash commands. Bash commands require explicit user approval.（来源：[06-home-assignments.md:49](interview/questions/06-home-assignments.md)）
+- Q555 — Build an assistant agent handling database queries, document search, and bash commands. Bash commands require explicit user approval.（来源：[06-home-assignments.md:49](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q555 -->
 <details>
@@ -17739,7 +17739,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q556 — Build an AI agent that transforms Monday.com project management data into conversational business insights using dual-LLM architecture.（来源：[06-home-assignments.md:50](interview/questions/06-home-assignments.md)）
+- Q556 — Build an AI agent that transforms Monday.com project management data into conversational business insights using dual-LLM architecture.（来源：[06-home-assignments.md:50](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q556 -->
 <details>
@@ -17765,7 +17765,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q557 — Build an AI agent demonstrating natural interaction, agentic behavior, and clear reasoning steps.（来源：[06-home-assignments.md:51](interview/questions/06-home-assignments.md)）
+- Q557 — Build an AI agent demonstrating natural interaction, agentic behavior, and clear reasoning steps.（来源：[06-home-assignments.md:51](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q557 -->
 <details>
@@ -17791,7 +17791,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q558 — Build a customer support agent.（来源：[06-home-assignments.md:52](interview/questions/06-home-assignments.md)）
+- Q558 — Build a customer support agent.（来源：[06-home-assignments.md:52](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q558 -->
 <details>
@@ -17817,7 +17817,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q559 — Build an autonomous agent using an open-source LLM with observability/eval layer.（来源：[06-home-assignments.md:53](interview/questions/06-home-assignments.md)）
+- Q559 — Build an autonomous agent using an open-source LLM with observability/eval layer.（来源：[06-home-assignments.md:53](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q559 -->
 <details>
@@ -17843,7 +17843,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q560 — Build an agent that reads customer CSV data and generates personalized email campaigns with evaluation metrics.（来源：[06-home-assignments.md:54](interview/questions/06-home-assignments.md)）
+- Q560 — Build an agent that reads customer CSV data and generates personalized email campaigns with evaluation metrics.（来源：[06-home-assignments.md:54](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q560 -->
 <details>
@@ -17869,7 +17869,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q561 — Build a code review agent that analyzes Python files and provides actionable feedback.（来源：[06-home-assignments.md:55](interview/questions/06-home-assignments.md)）
+- Q561 — Build a code review agent that analyzes Python files and provides actionable feedback.（来源：[06-home-assignments.md:55](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q561 -->
 <details>
@@ -17895,7 +17895,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q562 — Build a Singapore public transport query agent that fetches live data from 7 LTA APIs about buses, trains, traffic, and station conditions.（来源：[06-home-assignments.md:56](interview/questions/06-home-assignments.md)）
+- Q562 — Build a Singapore public transport query agent that fetches live data from 7 LTA APIs about buses, trains, traffic, and station conditions.（来源：[06-home-assignments.md:56](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q562 -->
 <details>
@@ -17921,7 +17921,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q563 — Build a sales insights agent that answers questions about subscription/revenue data. Must detect and refuse PII requests (emails, phone numbers, credit card tokens). No raw rows passed to the LLM - aggregates only. Evaluated on 3 dimensions: accuracy, safety/refusal correctness, reasoning quality.（来源：[06-home-assignments.md:57](interview/questions/06-home-assignments.md)）
+- Q563 — Build a sales insights agent that answers questions about subscription/revenue data. Must detect and refuse PII requests (emails, phone numbers, credit card tokens). No raw rows passed to the LLM - aggregates only. Evaluated on 3 dimensions: accuracy, safety/refusal correctness, reasoning quality.（来源：[06-home-assignments.md:57](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q563 -->
 <details>
@@ -17950,16 +17950,16 @@ Follow-up
 
 <a id="day-38"></a>
 
-### 周三 11/25
+### 周三 12/30
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Python: Debugging and Code Review Mock<br>LeetCode: [71. Simplify Path](https://leetcode.com/problems/simplify-path/); [394. Decode String](https://leetcode.com/problems/decode-string/); [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)<br>资料：[API Clients](Study%20topics/api-clients.html); [Race Conditions](Study%20topics/race-conditions.html); [Profiling](Study%20topics/profiling.html); [Debugging](Study%20topics/debugging.html); [Refactoring](Study%20topics/refactoring.html); [Code Review](Study%20topics/code-review.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Debugging and Code Review Mock + LeetCode Top 150<br>Top 150（3 题）: [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) · Binary Tree General · Hard; [127. Word Ladder](https://leetcode.com/problems/word-ladder/) · Graph BFS · Hard; [212. Word Search II](https://leetcode.com/problems/word-search-ii/) · Trie · Hard<br>复习（每题约 10 分钟，做过的题限时重做）: [71. Simplify Path](https://leetcode.com/problems/simplify-path/); [394. Decode String](https://leetcode.com/problems/decode-string/); [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)<br>资料：[API Clients](../Study%20topics/api-clients.html); [Race Conditions](../Study%20topics/race-conditions.html); [Profiling](../Study%20topics/profiling.html); [Debugging](../Study%20topics/debugging.html); [Refactoring](../Study%20topics/refactoring.html); [Code Review](../Study%20topics/code-review.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Reproducibility; Model Versioning; Serving; Rollback](Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [Notebook](notebook/14_reproducibility_model_versioning_serving_rollback.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [AI Security and Reliability](Study%20topics/ai-security-and-reliability.html) · Practice / Review |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: CI, Container Release and Demo<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-38)<br>ML integration: [Volatility Forecasting prerequisite](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 13:30–14:15 | ML，45 分钟 | [Reproducibility; Model Versioning; Serving; Rollback](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [Notebook](../notebook/14_reproducibility_model_versioning_serving_rollback.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [AI Security and Reliability](../Study%20topics/ai-security-and-reliability.html) · Practice / Review |
+| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: CI, Container Release and Demo<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-38)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Legal Document AI; Take-Home Assignments / RAG and Document Q&A (New Companies); Take-Home Assignments / Agents and Multi-Agent Systems (New) — 13 items |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review |
 
@@ -17982,7 +17982,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q586 — Build a legal document AI workflow with a three-tier extraction cascade and an improvement-from-edits loop. The system must ingest, extract, ground, and iteratively improve based on operator corrections.（来源：[06-home-assignments.md:143](interview/questions/06-home-assignments.md)）
+- Q586 — Build a legal document AI workflow with a three-tier extraction cascade and an improvement-from-edits loop. The system must ingest, extract, ground, and iteratively improve based on operator corrections.（来源：[06-home-assignments.md:143](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q586 -->
 <details>
@@ -18008,7 +18008,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q587 — Pearson Specter Litt: Take-home requiring ingestion of messy legal documents, grounded retrieval, cited draft generation, and learning from operator edits. Delivered as a scrum sprint plan.（来源：[06-home-assignments.md:144](interview/questions/06-home-assignments.md)）
+- Q587 — Pearson Specter Litt: Take-home requiring ingestion of messy legal documents, grounded retrieval, cited draft generation, and learning from operator edits. Delivered as a scrum sprint plan.（来源：[06-home-assignments.md:144](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q587 -->
 <details>
@@ -18034,7 +18034,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q588 — Quorium: Build a RAG Q&A chatbot for an AI Engineer Trainee role. Standard RAG pipeline with document ingestion and question answering.（来源：[06-home-assignments.md:149](interview/questions/06-home-assignments.md)）
+- Q588 — Quorium: Build a RAG Q&A chatbot for an AI Engineer Trainee role. Standard RAG pipeline with document ingestion and question answering.（来源：[06-home-assignments.md:149](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q588 -->
 <details>
@@ -18060,7 +18060,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q589 — ITJ: RAG-based document QA system as a take-home challenge.（来源：[06-home-assignments.md:150](interview/questions/06-home-assignments.md)）
+- Q589 — ITJ: RAG-based document QA system as a take-home challenge.（来源：[06-home-assignments.md:150](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q589 -->
 <details>
@@ -18086,7 +18086,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q590 — NTT DATA: RAG system over sustainability reports.（来源：[06-home-assignments.md:151](interview/questions/06-home-assignments.md)）
+- Q590 — NTT DATA: RAG system over sustainability reports.（来源：[06-home-assignments.md:151](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q590 -->
 <details>
@@ -18112,7 +18112,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q591 — NeoStats: Chatbot assignment for an AI Engineer case study.（来源：[06-home-assignments.md:152](interview/questions/06-home-assignments.md)）
+- Q591 — NeoStats: Chatbot assignment for an AI Engineer case study.（来源：[06-home-assignments.md:152](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q591 -->
 <details>
@@ -18138,7 +18138,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q592 — Trinamix: Supply chain RAG chatbot over a 2,000-PO supplier register and governance policy. Built with Flowise, Pinecone, and GPT.（来源：[06-home-assignments.md:153](interview/questions/06-home-assignments.md)）
+- Q592 — Trinamix: Supply chain RAG chatbot over a 2,000-PO supplier register and governance policy. Built with Flowise, Pinecone, and GPT.（来源：[06-home-assignments.md:153](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q592 -->
 <details>
@@ -18164,7 +18164,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q593 — GoTyme Bank: Full-stack document extraction system combining OCR and LLM, with a React frontend.（来源：[06-home-assignments.md:154](interview/questions/06-home-assignments.md)）
+- Q593 — GoTyme Bank: Full-stack document extraction system combining OCR and LLM, with a React frontend.（来源：[06-home-assignments.md:154](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q593 -->
 <details>
@@ -18190,7 +18190,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q594 — Go Fig AI: Build an inbox-triage agent skill with a human-in-the-loop approval gate. 2-hour cap.（来源：[06-home-assignments.md:159](interview/questions/06-home-assignments.md)）
+- Q594 — Go Fig AI: Build an inbox-triage agent skill with a human-in-the-loop approval gate. 2-hour cap.（来源：[06-home-assignments.md:159](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q594 -->
 <details>
@@ -18216,7 +18216,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q595 — Yuno: Multi-agent orchestration platform with Ollama, Streamlit, and Telegram.（来源：[06-home-assignments.md:160](interview/questions/06-home-assignments.md)）
+- Q595 — Yuno: Multi-agent orchestration platform with Ollama, Streamlit, and Telegram.（来源：[06-home-assignments.md:160](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q595 -->
 <details>
@@ -18242,7 +18242,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q596 — RefundPilot: Containerized internal support workspace that evaluates e-commerce refund requests, applies refund policy, resists prompt-injection attempts, and records structured decision logs.（来源：[06-home-assignments.md:161](interview/questions/06-home-assignments.md)）
+- Q596 — RefundPilot: Containerized internal support workspace that evaluates e-commerce refund requests, applies refund policy, resists prompt-injection attempts, and records structured decision logs.（来源：[06-home-assignments.md:161](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q596 -->
 <details>
@@ -18268,7 +18268,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q597 — AgentCollect: Full-Stack AI Engineer (AI-Native) hiring challenge.（来源：[06-home-assignments.md:162](interview/questions/06-home-assignments.md)）
+- Q597 — AgentCollect: Full-Stack AI Engineer (AI-Native) hiring challenge.（来源：[06-home-assignments.md:162](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q597 -->
 <details>
@@ -18294,7 +18294,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q598 — Neon Health: AI Agent with OpenAI integration.（来源：[06-home-assignments.md:163](interview/questions/06-home-assignments.md)）
+- Q598 — Neon Health: AI Agent with OpenAI integration.（来源：[06-home-assignments.md:163](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q598 -->
 <details>
@@ -18323,18 +18323,18 @@ Follow-up
 
 <a id="day-39"></a>
 
-### 周四 11/26
+### 周四 12/31
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: Weak-Topic Review<br>LeetCode: [1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/); [1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/); [1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)<br>资料：[SELECT](Study%20topics/select.html); [WHERE](Study%20topics/where.html); [ORDER BY](Study%20topics/order-by.html); [LIMIT](Study%20topics/limit.html); [NULL](Study%20topics/null.html); [GROUP BY](Study%20topics/group-by.html); [HAVING](Study%20topics/having.html); [CASE](Study%20topics/case.html); [Subqueries](Study%20topics/subqueries.html); [CTEs](Study%20topics/ctes.html); [EXISTS](Study%20topics/exists.html); [Date Queries](Study%20topics/date-queries.html); [Transactions](Study%20topics/transactions.html); [Constraints](Study%20topics/constraints.html); [Parameterized Queries](Study%20topics/parameterized-queries.html); [PostgreSQL Schema Design](Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](Study%20topics/primary-and-foreign-keys.html); [Indexes](Study%20topics/indexes.html); [EXPLAIN](Study%20topics/explain.html); [Query Optimization](Study%20topics/query-optimization.html); [Run Analytics](Study%20topics/run-analytics.html); [Percentiles](Study%20topics/percentiles.html); [Financial Analytics](Study%20topics/financial-analytics.html); [JOINs](Study%20topics/joins.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Weak-Topic Review + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/); [1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/); [1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)<br>Top 150（1 小时，2 题）: [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) · Backtracking · Hard; [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) · Divide & Conquer · Hard<br>资料：[SELECT](../Study%20topics/select.html); [WHERE](../Study%20topics/where.html); [ORDER BY](../Study%20topics/order-by.html); [LIMIT](../Study%20topics/limit.html); [NULL](../Study%20topics/null.html); [GROUP BY](../Study%20topics/group-by.html); [HAVING](../Study%20topics/having.html); [CASE](../Study%20topics/case.html); [Subqueries](../Study%20topics/subqueries.html); [CTEs](../Study%20topics/ctes.html); [EXISTS](../Study%20topics/exists.html); [Date Queries](../Study%20topics/date-queries.html); [Transactions](../Study%20topics/transactions.html); [Constraints](../Study%20topics/constraints.html); [Parameterized Queries](../Study%20topics/parameterized-queries.html); [PostgreSQL Schema Design](../Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](../Study%20topics/primary-and-foreign-keys.html); [Indexes](../Study%20topics/indexes.html); [EXPLAIN](../Study%20topics/explain.html); [Query Optimization](../Study%20topics/query-optimization.html); [Run Analytics](../Study%20topics/run-analytics.html); [Percentiles](../Study%20topics/percentiles.html); [Financial Analytics](../Study%20topics/financial-analytics.html); [JOINs](../Study%20topics/joins.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Supervised and Unsupervised Learning; Baselines](Study%20topics/supervised-and-unsupervised-learning-baselines.html) · [Notebook](notebook/02_supervised_and_unsupervised_learning_baselines.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](Study%20topics/transfer-mock-contract-review-assistant.html) · Learning |
+| 13:30–14:15 | ML，45 分钟 | [Supervised and Unsupervised Learning; Baselines](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) · [Notebook](../notebook/02_supervised_and_unsupervised_learning_baselines.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html) · Learning |
 | 15:00–16:30 | 项目，1.5 小时 | Portfolio Review: Evidence Audit and Cross-Project Reproduction<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-39) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Agents and Multi-Agent Systems (New); Take-Home Assignments / LLM Applications and Infrastructure; Take-Home Assignments / Embeddable and Conversational AI — 13 items |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Ownership](Study%20topics/ownership.html); [Design Trade-offs](Study%20topics/design-trade-offs.html) |
+| 17:30–18:00 | 复盘，30 分钟 | Daily Review<br>当日概念索引（按需）：[Ownership](../Study%20topics/ownership.html); [Design Trade-offs](../Study%20topics/design-trade-offs.html) |
 
 
 <!-- quantvault-day 39 -->
@@ -18355,7 +18355,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q599 — Future Research: LangGraph multi-agent fitness coach with hub routing to sub-agents (coach, workout-generator, workout-logger) via Claude structured output.（来源：[06-home-assignments.md:164](interview/questions/06-home-assignments.md)）
+- Q599 — Future Research: LangGraph multi-agent fitness coach with hub routing to sub-agents (coach, workout-generator, workout-logger) via Claude structured output.（来源：[06-home-assignments.md:164](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q599 -->
 <details>
@@ -18381,7 +18381,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q600 — KarthikTools: Full-stack web app where a backend agent executes predefined tools with a clear execution trace.（来源：[06-home-assignments.md:165](interview/questions/06-home-assignments.md)）
+- Q600 — KarthikTools: Full-stack web app where a backend agent executes predefined tools with a clear execution trace.（来源：[06-home-assignments.md:165](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q600 -->
 <details>
@@ -18407,7 +18407,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q601 — GenAI Labs: Production-ready LLM-driven SQL analytics pipeline with token counting, SQL validation, observability, and benchmarking. Multiple submissions.（来源：[06-home-assignments.md:170](interview/questions/06-home-assignments.md)）
+- Q601 — GenAI Labs: Production-ready LLM-driven SQL analytics pipeline with token counting, SQL validation, observability, and benchmarking. Multiple submissions.（来源：[06-home-assignments.md:170](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q601 -->
 <details>
@@ -18433,7 +18433,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q602 — VantageScore: GenAI-powered credit risk scoring with ML ensemble, explainability, and LLM enrichment.（来源：[06-home-assignments.md:171](interview/questions/06-home-assignments.md)）
+- Q602 — VantageScore: GenAI-powered credit risk scoring with ML ensemble, explainability, and LLM enrichment.（来源：[06-home-assignments.md:171](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q602 -->
 <details>
@@ -18459,7 +18459,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q603 — AEGIS: AEO content scoring, LLM query fan-out, and embedding-based semantic gap analysis.（来源：[06-home-assignments.md:172](interview/questions/06-home-assignments.md)）
+- Q603 — AEGIS: AEO content scoring, LLM query fan-out, and embedding-based semantic gap analysis.（来源：[06-home-assignments.md:172](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q603 -->
 <details>
@@ -18485,7 +18485,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q604 — SHL: GenAI assessment recommendation system.（来源：[06-home-assignments.md:173](interview/questions/06-home-assignments.md)）
+- Q604 — SHL: GenAI assessment recommendation system.（来源：[06-home-assignments.md:173](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q604 -->
 <details>
@@ -18511,7 +18511,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q605 — Camplight: LLM interview task.（来源：[06-home-assignments.md:174](interview/questions/06-home-assignments.md)）
+- Q605 — Camplight: LLM interview task.（来源：[06-home-assignments.md:174](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q605 -->
 <details>
@@ -18537,7 +18537,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q606 — VijaySaravanaPandi: NL-to-app "compiler" — turns a natural-language app description into a working application via structured, validated intermediate representations (not just prompt to code).（来源：[06-home-assignments.md:175](interview/questions/06-home-assignments.md)）
+- Q606 — VijaySaravanaPandi: NL-to-app "compiler" — turns a natural-language app description into a working application via structured, validated intermediate representations (not just prompt to code).（来源：[06-home-assignments.md:175](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q606 -->
 <details>
@@ -18563,7 +18563,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q607 — Jpower3145: Local LLM pre-interview task.（来源：[06-home-assignments.md:176](interview/questions/06-home-assignments.md)）
+- Q607 — Jpower3145: Local LLM pre-interview task.（来源：[06-home-assignments.md:176](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q607 -->
 <details>
@@ -18589,7 +18589,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q608 — Cerebras: AI Engineer Model Quality and Performance hiring challenge (perf UI, eval pruning).（来源：[06-home-assignments.md:177](interview/questions/06-home-assignments.md)）
+- Q608 — Cerebras: AI Engineer Model Quality and Performance hiring challenge (perf UI, eval pruning).（来源：[06-home-assignments.md:177](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q608 -->
 <details>
@@ -18615,7 +18615,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q609 — nickusevich: Novelty detection for football news using hybrid retrieval (pgvector + tsvector + RRF), LLM reranking, and LLM-based publish/skip/review decisions.（来源：[06-home-assignments.md:178](interview/questions/06-home-assignments.md)）
+- Q609 — nickusevich: Novelty detection for football news using hybrid retrieval (pgvector + tsvector + RRF), LLM reranking, and LLM-based publish/skip/review decisions.（来源：[06-home-assignments.md:178](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q609 -->
 <details>
@@ -18641,7 +18641,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q610 — EloquentAI: Build an embeddable AI agent chat widget.（来源：[06-home-assignments.md:183](interview/questions/06-home-assignments.md)）
+- Q610 — EloquentAI: Build an embeddable AI agent chat widget.（来源：[06-home-assignments.md:183](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q610 -->
 <details>
@@ -18667,7 +18667,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q611 — Fleetio: Hybrid deterministic + LLM weekly fleet digest.（来源：[06-home-assignments.md:184](interview/questions/06-home-assignments.md)）
+- Q611 — Fleetio: Hybrid deterministic + LLM weekly fleet digest.（来源：[06-home-assignments.md:184](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q611 -->
 <details>
@@ -18696,15 +18696,15 @@ Follow-up
 
 <a id="day-40"></a>
 
-### 周五 11/27
+### 周五 1/1
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Python: Weak-Topic Review<br>LeetCode: [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/); [146. LRU Cache](https://leetcode.com/problems/lru-cache/); [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)<br>资料：[Hash Maps](Study%20topics/hash-maps.html); [LRU Cache](Study%20topics/lru-cache.html); [NumPy Logistic Regression](Study%20topics/numpy-logistic-regression.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Weak-Topic Review + LeetCode Top 150<br>Top 150（3 题）: [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) · Binary Search · Hard; [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) · Heap · Hard; [502. IPO](https://leetcode.com/problems/ipo/) · Heap · Hard<br>复习（每题约 10 分钟，做过的题限时重做）: [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/); [146. LRU Cache](https://leetcode.com/problems/lru-cache/); [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)<br>资料：[Hash Maps](../Study%20topics/hash-maps.html); [LRU Cache](../Study%20topics/lru-cache.html); [NumPy Logistic Regression](../Study%20topics/numpy-logistic-regression.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Train / Validation / Test Split](Study%20topics/train-validation-test-split.html) · [Notebook](notebook/01_train_validation_test_split.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](Study%20topics/transfer-mock-contract-review-assistant.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html) · [Notebook](../notebook/01_train_validation_test_split.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Portfolio Review: Feature Freeze and Interview Deep Dive<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-40) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Embeddable and Conversational AI; Take-Home Assignments / Official Company Challenges — 12 items |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities |
@@ -18728,7 +18728,7 @@ Follow-up
 
 #### 当天 Interview Questions
 
-- Q612 — Zap: AI-powered client onboarding automation.（来源：[06-home-assignments.md:185](interview/questions/06-home-assignments.md)）
+- Q612 — Zap: AI-powered client onboarding automation.（来源：[06-home-assignments.md:185](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q612 -->
 <details>
@@ -18754,7 +18754,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q613 — Adobe (FDE): GenAI-powered creative automation pipeline for social ad campaigns.（来源：[06-home-assignments.md:186](interview/questions/06-home-assignments.md)）
+- Q613 — Adobe (FDE): GenAI-powered creative automation pipeline for social ad campaigns.（来源：[06-home-assignments.md:186](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q613 -->
 <details>
@@ -18780,7 +18780,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q614 — [ML6 (laine)](https://github.com/ml6team/laine-engineer-coding-challenge) - Coding challenge for evaluating AI Engineer candidates（来源：[06-home-assignments.md:193](interview/questions/06-home-assignments.md)）
+- Q614 — [ML6 (laine)](https://github.com/ml6team/laine-engineer-coding-challenge) - Coding challenge for evaluating AI Engineer candidates（来源：[06-home-assignments.md:193](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q614 -->
 <details>
@@ -18806,7 +18806,7 @@ Follow-up
 </details>
 <!-- /interview-answer -->
 
-- Q615 — [Jaseci Labs](https://github.com/jaseci-labs/take-home-ai-engineer) - Take-home for AI Software Engineer candidates（来源：[06-home-assignments.md:194](interview/questions/06-home-assignments.md)）
+- Q615 — [Jaseci Labs](https://github.com/jaseci-labs/take-home-ai-engineer) - Take-home for AI Software Engineer candidates（来源：[06-home-assignments.md:194](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q615 -->
 <details>
@@ -18836,7 +18836,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q616 — [Jitera](https://github.com/Jitera-Interviews/genai-takehome) - Take-home task for GenAI roles（来源：[06-home-assignments.md:195](interview/questions/06-home-assignments.md)）
+- Q616 — [Jitera](https://github.com/Jitera-Interviews/genai-takehome) - Take-home task for GenAI roles（来源：[06-home-assignments.md:195](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q616 -->
 <details>
@@ -18866,7 +18866,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q617 — [AuxoAI](https://github.com/AuxoAI-Hiring/ai-engineer-assignment) - AI Engineering Take-Home（来源：[06-home-assignments.md:196](interview/questions/06-home-assignments.md)）
+- Q617 — [AuxoAI](https://github.com/AuxoAI-Hiring/ai-engineer-assignment) - AI Engineering Take-Home（来源：[06-home-assignments.md:196](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q617 -->
 <details>
@@ -18896,7 +18896,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q618 — [Coginis Research](https://github.com/CoginisResearch/ai-engineer-challenge) - AI Product Engineer Hiring Challenge（来源：[06-home-assignments.md:197](interview/questions/06-home-assignments.md)）
+- Q618 — [Coginis Research](https://github.com/CoginisResearch/ai-engineer-challenge) - AI Product Engineer Hiring Challenge（来源：[06-home-assignments.md:197](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q618 -->
 <details>
@@ -18926,7 +18926,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q619 — [Future Research](https://github.com/future-research/candidate-assessment) - AI Engineer take-home assessment + exercise dataset（来源：[06-home-assignments.md:198](interview/questions/06-home-assignments.md)）
+- Q619 — [Future Research](https://github.com/future-research/candidate-assessment) - AI Engineer take-home assessment + exercise dataset（来源：[06-home-assignments.md:198](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q619 -->
 <details>
@@ -18956,7 +18956,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q620 — [Go Fig AI](https://github.com/go-fig-ai/take-home-inbox-triage) - Inbox-triage agent with human-in-the-loop（来源：[06-home-assignments.md:199](interview/questions/06-home-assignments.md)）
+- Q620 — [Go Fig AI](https://github.com/go-fig-ai/take-home-inbox-triage) - Inbox-triage agent with human-in-the-loop（来源：[06-home-assignments.md:199](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q620 -->
 <details>
@@ -18986,7 +18986,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q621 — [Cerebras](https://github.com/danielkim-cerebras/ai-model-quality-challenge) - Model Quality and Performance challenge（来源：[06-home-assignments.md:200](interview/questions/06-home-assignments.md)）
+- Q621 — [Cerebras](https://github.com/danielkim-cerebras/ai-model-quality-challenge) - Model Quality and Performance challenge（来源：[06-home-assignments.md:200](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q621 -->
 <details>
@@ -19016,7 +19016,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q622 — [AI:AT](https://github.com/AIAT-AIandBusinessgrowth/standort-agent-challenge-public) - Multi-criteria location evaluation agent（来源：[06-home-assignments.md:201](interview/questions/06-home-assignments.md)）
+- Q622 — [AI:AT](https://github.com/AIAT-AIandBusinessgrowth/standort-agent-challenge-public) - Multi-criteria location evaluation agent（来源：[06-home-assignments.md:201](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q622 -->
 <details>
@@ -19046,7 +19046,7 @@ Technical Sources
 </details>
 <!-- /interview-answer -->
 
-- Q623 — [Bloom (radialreview)](https://github.com/radialreview/bloom-coffee-ai) - Pre-built coffee ordering app candidates extend with an AI order taker（来源：[06-home-assignments.md:202](interview/questions/06-home-assignments.md)）
+- Q623 — [Bloom (radialreview)](https://github.com/radialreview/bloom-coffee-ai) - Pre-built coffee ordering app candidates extend with an AI order taker（来源：[06-home-assignments.md:202](../interview/questions/06-home-assignments.md)）
 
 <!-- interview-answer Q623 -->
 <details>
@@ -19084,15 +19084,15 @@ Technical Sources
 
 <a id="day-41"></a>
 
-### 周一 11/30
+### 周一 1/4
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Python: Coding Mock Remediation<br>LeetCode: [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/); [704. Binary Search](https://leetcode.com/problems/binary-search/); [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)<br>资料：[Sorting](Study%20topics/sorting.html); [Binary Search](Study%20topics/binary-search.html); [Linked Lists](Study%20topics/linked-lists.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Coding Mock Remediation + LeetCode Top 150<br>Top 150（3 题）: [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) · Math · Hard; [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) · Multidimensional DP · Hard; [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) · Multidimensional DP · Hard<br>复习（每题约 10 分钟，做过的题限时重做）: [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/); [704. Binary Search](https://leetcode.com/problems/binary-search/); [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)<br>资料：[Sorting](../Study%20topics/sorting.html); [Binary Search](../Study%20topics/binary-search.html); [Linked Lists](../Study%20topics/linked-lists.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Train / Validation / Test Split](Study%20topics/train-validation-test-split.html) · [Notebook](notebook/01_train_validation_test_split.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Cache and API Service](Study%20topics/cache-and-api-service.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html) · [Notebook](../notebook/01_train_validation_test_split.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Cache and API Service](../Study%20topics/cache-and-api-service.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Buffer: Risk Copilot: Correctness Remediation<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-41) |
 | 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review |
@@ -19121,15 +19121,15 @@ Technical Sources
 
 <a id="day-42"></a>
 
-### 周二 12/1
+### 周二 1/5
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: Query Mock Remediation<br>LeetCode: [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/); [596. Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/); [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)<br>资料：[JOINs](Study%20topics/joins.html); [HAVING](Study%20topics/having.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Query Mock Remediation + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/); [596. Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/); [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)<br>Top 150 薄弱题重做（约 60 分钟）: 回到前面卡住或做错的题，限时重做，不新增题目<br>资料：[JOINs](../Study%20topics/joins.html); [HAVING](../Study%20topics/having.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Drift; Retraining](Study%20topics/drift-retraining.html) · [Notebook](notebook/15_drift_retraining.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Queues and Job Scheduler](Study%20topics/queues-and-job-scheduler.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Drift; Retraining](../Study%20topics/drift-retraining.html) · [Notebook](../notebook/15_drift_retraining.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Buffer: AWS and CD: Completion or Recovery Drill<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-42) |
 | 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review |
@@ -19157,15 +19157,15 @@ Technical Sources
 
 <a id="day-43"></a>
 
-### 周三 12/2
+### 周三 1/6
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Python: Practical Implementation Mock<br>LeetCode: [706. Design HashMap](https://leetcode.com/problems/design-hashmap/); [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/); [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)<br>资料：[Queues](Study%20topics/queues.html); [Key-Value Store](Study%20topics/key-value-store.html); [TTL](Study%20topics/ttl.html); [Rate Limiter](Study%20topics/rate-limiter.html); [Crawler](Study%20topics/crawler.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Practical Implementation Mock + LeetCode Top 150<br>复习（每题约 10 分钟，做过的题限时重做）: [706. Design HashMap](https://leetcode.com/problems/design-hashmap/); [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/); [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)<br>Top 150 薄弱题重做（约 90 分钟）: 回到前面卡住或做错的题，限时重做，不新增题目<br>资料：[Queues](../Study%20topics/queues.html); [Key-Value Store](../Study%20topics/key-value-store.html); [TTL](../Study%20topics/ttl.html); [Rate Limiter](../Study%20topics/rate-limiter.html); [Crawler](../Study%20topics/crawler.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Drift; Retraining](Study%20topics/drift-retraining.html) · [Notebook](notebook/15_drift_retraining.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](Study%20topics/transfer-mock-contract-review-assistant.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Drift; Retraining](../Study%20topics/drift-retraining.html) · [Notebook](../notebook/15_drift_retraining.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Buffer: Snowflake: Data and SQL Remediation<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-43) |
 | 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review |
@@ -19193,15 +19193,15 @@ Technical Sources
 
 <a id="day-44"></a>
 
-### 周四 12/3
+### 周四 1/7
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | SQL 刷题，1.5 小时 | SQL: Comprehensive Review<br>LeetCode: [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/); [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/); [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)<br>资料：[Window Functions](Study%20topics/window-functions.html); [ROW_NUMBER](Study%20topics/row-number.html); [RANK](Study%20topics/rank.html); [DENSE_RANK](Study%20topics/dense-rank.html); [LAG](Study%20topics/lag.html); [LEAD](Study%20topics/lead.html); [Rolling Aggregations](Study%20topics/rolling-aggregations.html) |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Comprehensive Review + LeetCode Top 150<br>SQL（1 小时，三题候选先做前两题）: [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/); [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/); [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)<br>Top 150 薄弱题重做（约 60 分钟）: 回到前面卡住或做错的题，限时重做，不新增题目<br>资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html); [LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Drift; Retraining](Study%20topics/drift-retraining.html) · [Notebook](notebook/15_drift_retraining.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](Study%20topics/transfer-mock-contract-review-assistant.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Drift; Retraining](../Study%20topics/drift-retraining.html) · [Notebook](../notebook/15_drift_retraining.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Buffer: Research Workbench: Failure Recovery<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-44) |
 | 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review |
@@ -19229,15 +19229,15 @@ Technical Sources
 
 <a id="day-45"></a>
 
-### 周五 12/4
+### 周五 1/8
 
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 09:00–10:30 | Python 刷题，1.5 小时 | Python: Final Mixed Review<br>LeetCode: [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/); [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/); [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)<br>资料：[Sliding Window](Study%20topics/sliding-window.html); [Heaps](Study%20topics/heaps.html); [BFS](Study%20topics/bfs.html); [DFS](Study%20topics/dfs.html) |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Final Mixed Review + LeetCode Top 150<br>复习（每题约 10 分钟，做过的题限时重做）: [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/); [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/); [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)<br>Top 150 薄弱题重做（约 90 分钟）: 回到前面卡住或做错的题，限时重做，不新增题目<br>资料：[Sliding Window](../Study%20topics/sliding-window.html); [Heaps](../Study%20topics/heaps.html); [BFS](../Study%20topics/bfs.html); [DFS](../Study%20topics/dfs.html) |
 | 10:30–12:30 | 网课，2 小时 | AI Engineer Core Track → AI Engineer Production Track |
 | 12:30–13:30 | 午休 | — |
-| 13:30–14:15 | ML，45 分钟 | [Drift; Retraining](Study%20topics/drift-retraining.html) · [Notebook](notebook/15_drift_retraining.ipynb) |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](Study%20topics/transfer-mock-contract-review-assistant.html) · Practice / Review |
+| 13:30–14:15 | ML，45 分钟 | [Drift; Retraining](../Study%20topics/drift-retraining.html) · [Notebook](../notebook/15_drift_retraining.ipynb) |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html) · Practice / Review |
 | 15:00–16:30 | 项目，1.5 小时 | Buffer: Portfolio: Final Reproduction and Remaining Gaps<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-45) |
 | 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities |

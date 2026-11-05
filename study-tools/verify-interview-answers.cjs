@@ -1,10 +1,11 @@
 const fs=require('fs'),path=require('path'),assert=require('assert');
+require('./layout.cjs'); // keep reports in Reports/ (moved to the root only while this script runs)
 const {pathToFileURL}=require('url');
 const {answers}=require('./interview-answers.cjs');
 const {chromium}=require('C:/Users/yejun/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 process.chdir(path.resolve(__dirname,'..'));
 const md=fs.readFileSync('AI_ENGINEER_TRANSITION_PLAN.md','utf8');
-const original=fs.readFileSync('study-tools/original-plan.md','utf8');
+const original=require('./reschedule.cjs').plan(fs.readFileSync('study-tools/original-plan.md','utf8'));
 function allocations(text){return [...text.matchAll(/<a id="day-(\d+)"><\/a>([\s\S]*?)(?=<a id="day-|$)/g)].map(m=>({day:m[1],ids:[...m[2].matchAll(/^- (Q\d{3})\b/gm)].map(x=>x[1])}));}
 assert.deepStrictEqual(allocations(md),allocations(original));
 assert.equal((md.match(/<!-- interview-answer Q\d{3} -->/g)||[]).length,623);

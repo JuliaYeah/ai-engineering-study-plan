@@ -6,11 +6,11 @@
 
 <a id="qv-day-01"></a>
 
-## Day 01 · 周一 10/5
+## Day 01 · 周一 11/9
 
 13:30–14:15 · ML / Regression：讲义20分钟，Notebook15分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/train-validation-test-split.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-01)
+[当天讲义](../Study%20topics/train-validation-test-split.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-01)
 
 - [#1962 · Explaining Machine Learning to a Non-Technical Audience](https://quantvault.org/problems.html?id=1962) · Machine Learning · Easy
 
@@ -22,11 +22,11 @@ Conceptual：用自己的金融工作解释Feature、Target、Training和Predict
 
 <a id="qv-day-02"></a>
 
-## Day 02 · 周二 10/6
+## Day 02 · 周二 11/10
 
 13:30–14:15 · ML / Regression：讲义20分钟，Notebook15分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/supervised-and-unsupervised-learning-baselines.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-02)
+[当天讲义](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-02)
 
 - [#1432 · Linear Regression: Model, Estimation, and When to Use It](https://quantvault.org/problems.html?id=1432) · Regression · Medium
 - [#1966 · Framework for Open-Ended Modeling Strategy](https://quantvault.org/problems.html?id=1966) · Machine Learning · Easy
@@ -39,11 +39,11 @@ Conceptual：先解释线性函数的输入、系数和数值输出，再用目�
 
 <a id="qv-day-03"></a>
 
-## Day 03 · 周三 10/7
+## Day 03 · 周三 11/11
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-03)
+[当天讲义](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-03)
 
 - [#1953 · End-to-End Prediction Modeling Pipeline](https://quantvault.org/problems.html?id=1953) · Machine Learning · Medium
 
@@ -55,11 +55,11 @@ Case outline：只画Data → Split → Preprocessing → Fit → Evaluate，标
 
 <a id="qv-day-04"></a>
 
-## Day 04 · 周四 10/8
+## Day 04 · 周四 11/12
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/mae-rmse.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-04)
+[当天讲义](../Study%20topics/mae-rmse.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-04)
 
 - [#1613 · Loss Function Minimizers and Regression Variants](https://quantvault.org/problems.html?id=1613) · Regression · Medium
 
@@ -71,11 +71,11 @@ Conceptual：只比较Squared Loss与Absolute Loss，以及均值/中位数对�
 
 <a id="qv-day-05"></a>
 
-## Day 05 · 周五 10/9
+## Day 05 · 周五 11/13
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-05)
+[当天讲义](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-05)
 
 - [#1261 · Diagnosing Overfitting and Cross-Validation](https://quantvault.org/problems.html?id=1261) · Machine Learning · Easy
 - [#1118 · Definition and Range of R-Squared](https://quantvault.org/problems.html?id=1118) · Regression · Easy
@@ -88,11 +88,11 @@ Conceptual：先识别训练好、验证差的过拟合，再解释R-Squared衡�
 
 <a id="qv-day-06"></a>
 
-## Day 06 · 周一 10/12
+## Day 06 · 周一 11/16
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-06)
+[当天讲义](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-06)
 
 - [#1861 · Linear Regression, Ridge, and Lasso](https://quantvault.org/problems.html?id=1861) · Regression · Medium
 - [#1078 · Advantages of Lasso Over Other Linear Feature Selection Methods](https://quantvault.org/problems.html?id=1078) · Machine Learning · Medium
@@ -105,11 +105,11 @@ Comparison：先比较OLS、Ridge与Lasso，再回答Lasso的特征选择优势�
 
 <a id="qv-day-07"></a>
 
-## Day 07 · 周二 10/13
+## Day 07 · 周二 11/17
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-07)
+[当天讲义](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-07)
 
 - [#2606 · Interpreting Logistic Regression Coefficients](https://quantvault.org/problems.html?id=2606) · Machine Learning · Medium
 
@@ -121,11 +121,11 @@ Conceptual：解释线性score→sigmoid→概率；系数影响log-odds，不�
 
 <a id="qv-day-08"></a>
 
-## Day 08 · 周三 10/14
+## Day 08 · 周三 11/18
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-08)
+[当天讲义](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-08)
 
 - [#1473 · Precision and Recall in Classification](https://quantvault.org/problems.html?id=1473) · Machine Learning · Medium
 
@@ -137,11 +137,11 @@ Worked example：手算一组TP、FP、FN的Precision与Recall；改变阈值，
 
 <a id="qv-day-09"></a>
 
-## Day 09 · 周四 10/15
+## Day 09 · 周四 11/19
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/pr-auc-roc-auc-calibration.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-09)
+[当天讲义](../Study%20topics/pr-auc-roc-auc-calibration.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-09)
 
 - [#1666 · Profit-Aware Classification Threshold](https://quantvault.org/problems.html?id=1666) · Machine Learning · Hard
 
@@ -153,11 +153,11 @@ Advanced: scoped calculation：只完成二分类阈值的收益/损失判断。
 
 <a id="qv-day-10"></a>
 
-## Day 10 · 周五 10/16
+## Day 10 · 周五 11/20
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/pr-auc-roc-auc-calibration.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-10)
+[当天讲义](../Study%20topics/pr-auc-roc-auc-calibration.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-10)
 
 - [#3699 · MSE or Cross Entropy: Picking a Loss for a Probabilistic Classifier](https://quantvault.org/problems.html?id=3699) · Machine Learning · Medium
 
@@ -169,11 +169,11 @@ Conceptual：比较数值回归损失与概率分类损失；先读Calibration�
 
 <a id="qv-day-11"></a>
 
-## Day 11 · 周一 10/19
+## Day 11 · 周一 11/23
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-11)
+[当天讲义](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-11)
 
 - [#1836 · Controlling Overfitting in Decision Trees and XGBoost](https://quantvault.org/problems.html?id=1836) · Machine Learning · Medium
 
@@ -185,11 +185,11 @@ Conceptual：先讨论树深、叶子样本数与过拟合，只做Decision Tree
 
 <a id="qv-day-12"></a>
 
-## Day 12 · 周二 10/20
+## Day 12 · 周二 11/24
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-12)
+[当天讲义](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-12)
 
 - [#2017 · Missing Data Imputation and Regression Pipeline](https://quantvault.org/problems.html?id=2017) · Machine Learning · Medium
 
@@ -201,11 +201,11 @@ Implementation sketch：只写缺失值处理与Scaler放入Pipeline的最小片
 
 <a id="qv-day-13"></a>
 
-## Day 13 · 周三 10/21
+## Day 13 · 周三 11/25
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/mae-rmse.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-13)
+[当天讲义](../Study%20topics/mae-rmse.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-13)
 
 - [#1625 · Median Regression vs. OLS](https://quantvault.org/problems.html?id=1625) · Regression · Medium
 
@@ -217,11 +217,11 @@ Comparison：比较MAE/Absolute Loss与MSE/Squared Loss，说明异常值为何�
 
 <a id="qv-day-14"></a>
 
-## Day 14 · 周四 10/22
+## Day 14 · 周四 11/26
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-14)
+[当天讲义](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-14)
 
 - [#1431 · Lasso, Ridge, and Elastic Net Comparison](https://quantvault.org/problems.html?id=1431) · Regression · Medium
 - [#1447 · Multicollinearity Consequences in OLS](https://quantvault.org/problems.html?id=1447) · Regression · Easy
@@ -234,11 +234,11 @@ Comparison：比较Lasso、Ridge与Elastic Net，结合相关特征解释系数�
 
 <a id="qv-day-15"></a>
 
-## Day 15 · 周五 10/23
+## Day 15 · 周五 11/27
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-15)
+[当天讲义](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-15)
 
 - [#1670 · Random Forests, Bagging, and Variance Reduction](https://quantvault.org/problems.html?id=1670) · Machine Learning · Medium
 
@@ -250,11 +250,11 @@ Conceptual：解释Bagging、随机特征与树平均怎样降低方差，并指
 
 <a id="qv-day-16"></a>
 
-## Day 16 · 周一 10/26
+## Day 16 · 周一 11/30
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-16)
+[当天讲义](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-16)
 
 - [#1743 · Gradient Boosting vs. Random Forests, Batch Normalization, and SGD Momentum](https://quantvault.org/problems.html?id=1743) · Machine Learning · Easy
 
@@ -266,11 +266,11 @@ Comparison：只比较Random Forest与Gradient Boosting，并复习Day 11的XGBo
 
 <a id="qv-day-17"></a>
 
-## Day 17 · 周二 10/27
+## Day 17 · 周二 12/1
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/cross-validation-hyperparameter-tuning.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-17)
+[当天讲义](../Study%20topics/cross-validation-hyperparameter-tuning.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-17)
 
 - [#1746 · Hyperparameter Selection in Machine Learning](https://quantvault.org/problems.html?id=1746) · Machine Learning · Easy
 
@@ -282,11 +282,11 @@ Conceptual：区分模型学到的Parameter与人为选择的Hyperparameter，�
 
 <a id="qv-day-18"></a>
 
-## Day 18 · 周三 10/28
+## Day 18 · 周三 12/2
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/cross-validation-hyperparameter-tuning.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-18)
+[当天讲义](../Study%20topics/cross-validation-hyperparameter-tuning.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-18)
 
 - [#1587 · Hyperparameter Tuning and Diagnosing Flat Out-of-Sample Performance](https://quantvault.org/problems.html?id=1587) · Machine Learning · Medium
 - [#1676 · Ridge Regression Hyperparameter Diagnostics](https://quantvault.org/problems.html?id=1676) · Machine Learning · Medium
@@ -299,11 +299,11 @@ Diagnosis：面对样本外表现平坦，先判断数据、基线、alpha、样
 
 <a id="qv-day-19"></a>
 
-## Day 19 · 周四 10/29
+## Day 19 · 周四 12/3
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/feature-engineering-interpretability-feature-importance.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-19)
+[当天讲义](../Study%20topics/feature-engineering-interpretability-feature-importance.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-19)
 
 - [#1757 · Limitations of One-Hot Encoding](https://quantvault.org/problems.html?id=1757) · Machine Learning · Easy
 - [#1964 · Feature Selection for Return Prediction](https://quantvault.org/problems.html?id=1964) · Machine Learning · Medium
@@ -316,11 +316,11 @@ Feature strategy：说明One-Hot Encoding的维度与未知类别问题；特征
 
 <a id="qv-day-20"></a>
 
-## Day 20 · 周五 10/30
+## Day 20 · 周五 12/4
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/feature-engineering-interpretability-feature-importance.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-20)
+[当天讲义](../Study%20topics/feature-engineering-interpretability-feature-importance.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-20)
 
 - [#3080 · Feature Importance in Tree Models and What a SHAP Value Measures](https://quantvault.org/problems.html?id=3080) · Machine Learning · Medium
 
@@ -332,11 +332,11 @@ Conceptual：区分树内Importance、Permutation Importance与SHAP，说明相�
 
 <a id="qv-day-21"></a>
 
-## Day 21 · 周一 11/2
+## Day 21 · 周一 12/7
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-21)
+[当天讲义](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-21)
 
 - [#1939 · Cross-Validation Leakage in Financial Time Series](https://quantvault.org/problems.html?id=1939) · Machine Learning · Medium
 
@@ -348,11 +348,11 @@ Case outline：画时间轴，指出随机切分、提前标准化和重叠目�
 
 <a id="qv-day-22"></a>
 
-## Day 22 · 周二 11/3
+## Day 22 · 周二 12/8
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-22)
+[当天讲义](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-22)
 
 - [#2001 · Lookahead Bias From Universe Membership Leakage](https://quantvault.org/problems.html?id=2001) · Machine Learning · Medium
 - [#1980 · Handling Delayed Features in a Regression Model](https://quantvault.org/problems.html?id=1980) · Regression · Medium
@@ -365,11 +365,11 @@ Point-in-time audit：分别检查股票池成员和延迟发布特征；列出O
 
 <a id="qv-day-23"></a>
 
-## Day 23 · 周三 11/4
+## Day 23 · 周三 12/9
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-23)
+[当天讲义](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-23)
 
 - [#2168 · Purged Walk-Forward Cross-Validation](https://quantvault.org/problems.html?id=2168) · Machine Learning · Hard
 
@@ -381,11 +381,11 @@ Advanced: diagram only：用时间轴解释训练标签与验证区间重叠时�
 
 <a id="qv-day-24"></a>
 
-## Day 24 · 周四 11/5
+## Day 24 · 周四 12/10
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-24)
+[当天讲义](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-24)
 
 - [#2150 · Leak-Free Feature Standardization in Walk-Forward Validation](https://quantvault.org/problems.html?id=2150) · Machine Learning · Medium
 
@@ -397,11 +397,11 @@ Implementation sketch：在每个时间fold内fit预处理，只transform后续�
 
 <a id="qv-day-25"></a>
 
-## Day 25 · 周五 11/6
+## Day 25 · 周五 12/11
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-25)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-25)
 
 - [#1978 · HAR-RV Model for Realized Variance Forecasting](https://quantvault.org/problems.html?id=1978) · Regression · Medium
 
@@ -413,11 +413,11 @@ Financial baseline outline：只解释HAR-RV使用不同历史尺度的已实现
 
 <a id="qv-day-26"></a>
 
-## Day 26 · 周一 11/9
+## Day 26 · 周一 12/14
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-26)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-26)
 
 - [#3103 · Combining Features With Different Update Frequencies](https://quantvault.org/problems.html?id=3103) · Machine Learning · Hard
 
@@ -429,11 +429,11 @@ Advanced: feature contract：列出日/周/月数据的发布时间、前向填�
 
 <a id="qv-day-27"></a>
 
-## Day 27 · 周二 11/10
+## Day 27 · 周二 12/15
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-27)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-27)
 
 - [#1996 · LASSO for Return Prediction with Time-Series Validation](https://quantvault.org/problems.html?id=1996) · Regression · Hard
 
@@ -445,11 +445,11 @@ Advanced: validation outline：只设计Lasso时间序列development folds和特
 
 <a id="qv-day-28"></a>
 
-## Day 28 · 周三 11/11
+## Day 28 · 周三 12/16
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-28)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-28)
 
 - [#1677 · Ridge Regression Regularization in Time Series](https://quantvault.org/problems.html?id=1677) · Regression · Medium
 
@@ -461,11 +461,11 @@ Model selection：解释alpha、训练窗口、预测期限与Ridge稳定性，�
 
 <a id="qv-day-29"></a>
 
-## Day 29 · 周四 11/12
+## Day 29 · 周四 12/17
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-29)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-29)
 
 - [#2126 · Comparing Forecasting Models for Daily Asset Returns](https://quantvault.org/problems.html?id=2126) · Machine Learning · Medium
 
@@ -477,11 +477,11 @@ Evaluation protocol：比较两个预测模型前先冻结数据、日期、指�
 
 <a id="qv-day-30"></a>
 
-## Day 30 · 周五 11/13
+## Day 30 · 周五 12/18
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-30)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-30)
 
 - [#1937 · Cross-Sectional Factor Model Estimation and Diagnostics](https://quantvault.org/problems.html?id=1937) · Regression · Medium
 
@@ -493,11 +493,11 @@ Case outline：只讨论资产切片、数据口径与回归残差诊断；完�
 
 <a id="qv-day-31"></a>
 
-## Day 31 · 周一 11/16
+## Day 31 · 周一 12/21
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-31)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-31)
 
 - [#1953 · End-to-End Prediction Modeling Pipeline](https://quantvault.org/problems.html?id=1953) · Machine Learning · Medium
 
@@ -509,11 +509,11 @@ Case outline: second pass：补齐数据契约、实验追踪、模型产物、�
 
 <a id="qv-day-32"></a>
 
-## Day 32 · 周二 11/17
+## Day 32 · 周二 12/22
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-32)
+[当天讲义](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-32)
 
 - [#1465 · Out-of-Distribution Prediction: Dog Weight Regression](https://quantvault.org/problems.html?id=1465) · Machine Learning · Easy
 
@@ -525,11 +525,11 @@ Conceptual：解释Distribution Shift与Extrapolation，训练范围外的输入
 
 <a id="qv-day-33"></a>
 
-## Day 33 · 周三 11/18
+## Day 33 · 周三 12/23
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-33)
+[当天讲义](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-33)
 
 - [#1867 · OLS Coefficient Confidence Intervals](https://quantvault.org/problems.html?id=1867) · Regression · Medium
 
@@ -541,11 +541,11 @@ Uncertainty comparison：区分系数Confidence Interval与单次未来结果Pre
 
 <a id="qv-day-34"></a>
 
-## Day 34 · 周四 11/19
+## Day 34 · 周四 12/24
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-34)
+[当天讲义](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-34)
 
 - [#1638 · OLS with Correlated Errors](https://quantvault.org/problems.html?id=1638) · Regression · Medium
 
@@ -557,11 +557,11 @@ Conceptual：说明残差相关时独立样本标准误为何不可靠，连接�
 
 <a id="qv-day-35"></a>
 
-## Day 35 · 周五 11/20
+## Day 35 · 周五 12/25
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-35)
+[当天讲义](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-35)
 
 - [#2000 · Logistic Regression: Log-Likelihood, Gradient, and Threshold Selection](https://quantvault.org/problems.html?id=2000) · Regression · Medium
 
@@ -573,11 +573,11 @@ Derivation sketch：用已学sigmoid和交叉熵写梯度关键步骤，再说�
 
 <a id="qv-day-36"></a>
 
-## Day 36 · 周一 11/23
+## Day 36 · 周一 12/28
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-36)
+[当天讲义](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-36)
 
 - [#1736 · End-to-End EDA and Linear Regression Pipeline](https://quantvault.org/problems.html?id=1736) · Machine Learning · Medium
 
@@ -589,11 +589,11 @@ Case outline：只形成EDA→缺失处理→切分→Pipeline→指标→版本
 
 <a id="qv-day-37"></a>
 
-## Day 37 · 周二 11/24
+## Day 37 · 周二 12/29
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-37)
+[当天讲义](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-37)
 
 - [#2152 · ML Model Failures in Production](https://quantvault.org/problems.html?id=2152) · Machine Learning · Medium
 
@@ -605,11 +605,11 @@ Production diagnosis：检查输入schema、预处理、版本、真实标签延
 
 <a id="qv-day-38"></a>
 
-## Day 38 · 周三 11/25
+## Day 38 · 周三 12/30
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-38)
+[当天讲义](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-38)
 
 - [#3102 · Debugging a Model That Underperforms Live](https://quantvault.org/problems.html?id=3102) · Machine Learning · Hard
 
@@ -621,11 +621,11 @@ Advanced: incident outline：给出定位、可安全回滚、证据保留和复
 
 <a id="qv-day-39"></a>
 
-## Day 39 · 周四 11/26
+## Day 39 · 周四 12/31
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/supervised-and-unsupervised-learning-baselines.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-39)
+[当天讲义](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-39)
 
 - [#1866 · OLS Assumptions, Violations, and Diagnostics](https://quantvault.org/problems.html?id=1866) · Regression · Medium
 
@@ -637,11 +637,11 @@ Mock: regression foundations：口述模型、假设、残差与常见失效；�
 
 <a id="qv-day-40"></a>
 
-## Day 40 · 周五 11/27
+## Day 40 · 周五 1/1
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/train-validation-test-split.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-40)
+[当天讲义](../Study%20topics/train-validation-test-split.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-40)
 
 - [#1261 · Diagnosing Overfitting and Cross-Validation](https://quantvault.org/problems.html?id=1261) · Machine Learning · Easy
 - [#1078 · Advantages of Lasso Over Other Linear Feature Selection Methods](https://quantvault.org/problems.html?id=1078) · Machine Learning · Medium
@@ -654,11 +654,11 @@ Mock: evaluation and regularization：不看答案各用2分钟回答，再回�
 
 <a id="qv-day-41"></a>
 
-## Day 41 · 周一 11/30
+## Day 41 · 周一 1/4
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/train-validation-test-split.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-41)
+[当天讲义](../Study%20topics/train-validation-test-split.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-41)
 
 - [#1118 · Definition and Range of R-Squared](https://quantvault.org/problems.html?id=1118) · Regression · Easy
 - [#1447 · Multicollinearity Consequences in OLS](https://quantvault.org/problems.html?id=1447) · Regression · Easy
@@ -671,11 +671,11 @@ Buffer: remediation：重做R-Squared和Multicollinearity；若已熟悉，用�
 
 <a id="qv-day-42"></a>
 
-## Day 42 · 周二 12/1
+## Day 42 · 周二 1/5
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/drift-retraining.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-42)
+[当天讲义](../Study%20topics/drift-retraining.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-42)
 
 - [#3100 · Handling Simultaneous Feature and Target Distribution Shift](https://quantvault.org/problems.html?id=3100) · Machine Learning · Hard
 
@@ -687,11 +687,11 @@ Advanced: monitoring outline：分别讨论Feature Distribution与Target Distrib
 
 <a id="qv-day-43"></a>
 
-## Day 43 · 周三 12/2
+## Day 43 · 周三 1/6
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/drift-retraining.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-43)
+[当天讲义](../Study%20topics/drift-retraining.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-43)
 
 - [#3102 · Debugging a Model That Underperforms Live](https://quantvault.org/problems.html?id=3102) · Machine Learning · Hard
 
@@ -703,11 +703,11 @@ Buffer: incident replay：重新解释真实标签延迟、预处理故障与数
 
 <a id="qv-day-44"></a>
 
-## Day 44 · 周四 12/3
+## Day 44 · 周四 1/7
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/drift-retraining.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-44)
+[当天讲义](../Study%20topics/drift-retraining.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-44)
 
 - [#3322 · Preventing Overfitting and Ensuring Model Robustness](https://quantvault.org/problems.html?id=3322) · Machine Learning · Medium
 
@@ -719,11 +719,11 @@ Retraining decision：说明重训练触发条件、候选验证、基线比较�
 
 <a id="qv-day-45"></a>
 
-## Day 45 · 周五 12/4
+## Day 45 · 周五 1/8
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](Study%20topics/drift-retraining.html) · [学习指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-45)
+[当天讲义](../Study%20topics/drift-retraining.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-45)
 
 - [#1966 · Framework for Open-Ended Modeling Strategy](https://quantvault.org/problems.html?id=1966) · Machine Learning · Easy
 

@@ -1,4 +1,5 @@
 const fs=require('fs');
+require('./layout.cjs'); // keep reports in Reports/ (moved to the root only while this script runs)
 const coding=require('./coding.cjs'),sql=require('./sql.cjs'),ml=require('./ml.cjs'),design=require('./design.cjs'),concepts=require('./concepts.cjs');
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const notes=new Map();

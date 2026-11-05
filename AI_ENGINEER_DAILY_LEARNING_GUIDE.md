@@ -10,14 +10,14 @@
 
 讲义与先修、Notebook及QuantVault共享13:30–14:15的45分钟：入门日20+15+10，初学日15+20+10，复习日10+15+20。网站Coding类型的ML题只练指定的ML片段或方案，不另加算法刷题。
 
-[全部日期与具体题目](AI_ENGINEER_QUANTVAULT_PLAN.md) · [HTML日期索引](AI_ENGINEER_QUANTVAULT_PLAN.html)。
+[全部日期与具体题目](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md) · [HTML日期索引](Reports/AI_ENGINEER_QUANTVAULT_PLAN.html)。
 
 <!-- /quantvault-intro -->
 
 
-[每日时间表与623条原题](AI_ENGINEER_TRANSITION_PLAN.md) · [Topic Library](Study%20topics/index.html) · [项目路线](AI_ENGINEER_PROJECT_ROADMAP.md)
+[每日时间表与623条原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md) · [Topic Library](Study%20topics/index.html) · [项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md)
 
-每个工作日8小时，周末休息。学习内容英文，安排与导航中文。网课每天2小时，先Core再Production，完成后用于课程练习复习。所有入口都在既定时段内使用，不追加任务。
+每个工作日8.5小时（刷题时段2小时），周末休息。学习内容英文，安排与导航中文。网课每天2小时，先Core再Production，完成后用于课程练习复习。所有入口都在既定时段内使用，不追加任务。
 
 ## 使用方法
 
@@ -33,13 +33,13 @@
 
 <a id="guide-day-01"></a>
 
-## Day 01 · 周一 10/5
+## Day 01 · 周一 11/9
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-01)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-01)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Hash Maps](Study%20topics/hash-maps.html)。LeetCode题号与候选链接见当天总表。
+[Hash Maps](Study%20topics/hash-maps.html)。今天2小时：计划原题3题、Top 150 4题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -63,7 +63,7 @@ Focus：Split roles and three datasets
 
 本次范围：Conceptual。用自己的金融工作解释Feature、Target、Training和Prediction；先不背模型名。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-01)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-01)。
 
 <!-- /quantvault-day -->
 
@@ -79,17 +79,17 @@ Focus：Split roles and three datasets
 
 如何验证：用离线 fixture 重现失败，保留完整 traceback；历史文档不能直接当当前事实。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-01)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-01)
 
 <a id="guide-day-02"></a>
 
-## Day 02 · 周二 10/6
+## Day 02 · 周二 11/10
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-02)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-02)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[SELECT](Study%20topics/select.html); [WHERE](Study%20topics/where.html); [ORDER BY](Study%20topics/order-by.html); [LIMIT](Study%20topics/limit.html); [NULL](Study%20topics/null.html)。LeetCode题号与候选链接见当天总表。
+[SELECT](Study%20topics/select.html); [WHERE](Study%20topics/where.html); [ORDER BY](Study%20topics/order-by.html); [LIMIT](Study%20topics/limit.html); [NULL](Study%20topics/null.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -114,7 +114,7 @@ Focus：Supervised targets and mean baseline
 
 本次范围：Conceptual。先解释线性函数的输入、系数和数值输出，再用目标→数据→基线→验证组织建模思路。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-02)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-02)。
 
 <!-- /quantvault-day -->
 
@@ -130,17 +130,17 @@ Focus：Supervised targets and mean baseline
 
 如何验证：手算 tiny portfolio 参考值；测缺失值、因子缺失与单位，不把缺失默认为零。关键数值问题未解决则缩小演示范围。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-02)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-02)
 
 <a id="guide-day-03"></a>
 
-## Day 03 · 周三 10/7
+## Day 03 · 周三 11/11
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-03)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-03)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Arrays and Strings](Study%20topics/arrays-and-strings.html); [Two Pointers](Study%20topics/two-pointers.html)。LeetCode题号与候选链接见当天总表。
+[Arrays and Strings](Study%20topics/arrays-and-strings.html); [Two Pointers](Study%20topics/two-pointers.html)。今天2小时：计划原题3题、Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -164,7 +164,7 @@ Focus：Train-only scaling and leakage
 
 本次范围：Case outline。只画Data → Split → Preprocessing → Fit → Evaluate，标出哪些步骤只能看训练集。整题的完整建模方案留到Day 31。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-03)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-03)。
 
 <!-- /quantvault-day -->
 
@@ -180,17 +180,17 @@ Focus：Train-only scaling and leakage
 
 如何验证：区分 zero 与 missing，验证 shock 单位和数值符号；重跑相关用例，记录仍失败的基线测试。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-03)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-03)
 
 <a id="guide-day-04"></a>
 
-## Day 04 · 周四 10/8
+## Day 04 · 周四 11/12
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-04)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-04)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[GROUP BY](Study%20topics/group-by.html); [HAVING](Study%20topics/having.html); [CASE](Study%20topics/case.html)。LeetCode题号与候选链接见当天总表。
+[GROUP BY](Study%20topics/group-by.html); [HAVING](Study%20topics/having.html); [CASE](Study%20topics/case.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -214,7 +214,7 @@ Focus：MAE versus RMSE
 
 本次范围：Conceptual。只比较Squared Loss与Absolute Loss，以及均值/中位数对应关系；不要求完成所有回归变体推导。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-04)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-04)。
 
 <!-- /quantvault-day -->
 
@@ -230,17 +230,17 @@ Focus：MAE versus RMSE
 
 如何验证：每题标 relevant section IDs、分级和理由；检查来源确实存在。held-out 不用于调参；审核未完成先不比较模型。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-04)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-04)
 
 <a id="guide-day-05"></a>
 
-## Day 05 · 周五 10/9
+## Day 05 · 周五 11/13
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-05)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-05)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Sorting](Study%20topics/sorting.html); [Binary Search](Study%20topics/binary-search.html); [Complexity Analysis](Study%20topics/complexity-analysis.html)。LeetCode题号与候选链接见当天总表。
+[Sorting](Study%20topics/sorting.html); [Binary Search](Study%20topics/binary-search.html); [Complexity Analysis](Study%20topics/complexity-analysis.html)。今天2小时：计划原题3题、Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -265,7 +265,7 @@ Focus：Underfitting and overfitting
 
 本次范围：Conceptual。先识别训练好、验证差的过拟合，再解释R-Squared衡量相对均值基线的拟合；Cross-Validation细节留到Day 17。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-05)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-05)。
 
 <!-- /quantvault-day -->
 
@@ -281,17 +281,17 @@ Focus：Underfitting and overfitting
 
 如何验证：手算重复 section 的 toy ranking 并核对实现；保存配置、模型、索引、数据版本、tokens 和耗时。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-05)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-05)
 
 <a id="guide-day-06"></a>
 
-## Day 06 · 周一 10/12
+## Day 06 · 周一 11/16
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-06)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-06)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Hash Maps](Study%20topics/hash-maps.html); [Arrays and Strings](Study%20topics/arrays-and-strings.html); [Two Pointers](Study%20topics/two-pointers.html)。LeetCode题号与候选链接见当天总表。
+[Hash Maps](Study%20topics/hash-maps.html); [Arrays and Strings](Study%20topics/arrays-and-strings.html); [Two Pointers](Study%20topics/two-pointers.html)。今天2小时：计划原题0题、Top 150 4题、复习3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -316,7 +316,7 @@ Focus：Ridge regularization
 
 本次范围：Comparison。先比较OLS、Ridge与Lasso，再回答Lasso的特征选择优势及相关特征下不稳定的限制。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-06)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-06)。
 
 <!-- /quantvault-day -->
 
@@ -332,17 +332,17 @@ Focus：Ridge regularization
 
 如何验证：development 同一 query 集比较 recall、nDCG、重复来源、context tokens；不追求所有指标同时上升。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-06)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-06)
 
 <a id="guide-day-07"></a>
 
-## Day 07 · 周二 10/13
+## Day 07 · 周二 11/17
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-07)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-07)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[JOINs](Study%20topics/joins.html)。LeetCode题号与候选链接见当天总表。
+[JOINs](Study%20topics/joins.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -366,7 +366,7 @@ Focus：Logistic probabilities
 
 本次范围：Conceptual。解释线性score→sigmoid→概率；系数影响log-odds，不能直接说概率增加相同数值。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-07)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-07)。
 
 <!-- /quantvault-day -->
 
@@ -382,17 +382,17 @@ Focus：Logistic probabilities
 
 如何验证：确认 query/document embedding 配套、不能复用旧向量；比较相同样本的质量、构建成本与查询耗时。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-07)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-07)
 
 <a id="guide-day-08"></a>
 
-## Day 08 · 周三 10/14
+## Day 08 · 周三 11/18
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-08)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-08)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Sliding Window](Study%20topics/sliding-window.html); [Prefix Sums](Study%20topics/prefix-sums.html)。LeetCode题号与候选链接见当天总表。
+[Sliding Window](Study%20topics/sliding-window.html); [Prefix Sums](Study%20topics/prefix-sums.html)。今天2小时：计划原题3题、Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -416,7 +416,7 @@ Focus：Thresholds and imbalance
 
 本次范围：Worked example。手算一组TP、FP、FN的Precision与Recall；改变阈值，解释误报和漏报。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-08)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-08)。
 
 <!-- /quantvault-day -->
 
@@ -432,17 +432,17 @@ Focus：Thresholds and imbalance
 
 如何验证：MMR 不保证不同来源；根据质量、成本和冗余作取舍。保存失败案例，即使没有提升也如实报告。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-08)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-08)
 
 <a id="guide-day-09"></a>
 
-## Day 09 · 周四 10/15
+## Day 09 · 周四 11/19
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-09)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-09)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Subqueries](Study%20topics/subqueries.html); [CTEs](Study%20topics/ctes.html); [EXISTS](Study%20topics/exists.html)。LeetCode题号与候选链接见当天总表。
+[Subqueries](Study%20topics/subqueries.html); [CTEs](Study%20topics/ctes.html); [EXISTS](Study%20topics/exists.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -466,7 +466,7 @@ Focus：ROC and precision-recall
 
 本次范围：Advanced: scoped calculation。只完成二分类阈值的收益/损失判断。先画PR/ROC曲线的含义，再说明排序指标不能替代决策成本。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-09)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-09)。
 
 <!-- /quantvault-day -->
 
@@ -482,17 +482,17 @@ Focus：ROC and precision-recall
 
 如何验证：mock 成功、拒绝、解析失败、超时、预算耗尽；确认没有无限循环和静默通过。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-09)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-09)
 
 <a id="guide-day-10"></a>
 
-## Day 10 · 周五 10/16
+## Day 10 · 周五 11/20
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-10)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-10)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Stacks](Study%20topics/stacks.html); [Queues](Study%20topics/queues.html)。LeetCode题号与候选链接见当天总表。
+[Stacks](Study%20topics/stacks.html); [Queues](Study%20topics/queues.html)。今天2小时：计划原题3题、Top 150 4题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -516,7 +516,7 @@ Focus：Calibration
 
 本次范围：Conceptual。比较数值回归损失与概率分类损失；先读Calibration，说明校准、排序和训练目标是不同问题。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-10)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-10)。
 
 <!-- /quantvault-day -->
 
@@ -532,17 +532,17 @@ Focus：Calibration
 
 如何验证：未批准不能执行风险计算；拒绝终止；重复恢复不能重复副作用。多用户身份系统留待扩展，不声称已实现。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-10)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-10)
 
 <a id="guide-day-11"></a>
 
-## Day 11 · 周一 10/19
+## Day 11 · 周一 11/23
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-11)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-11)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Heaps](Study%20topics/heaps.html)。LeetCode题号与候选链接见当天总表。
+[Heaps](Study%20topics/heaps.html)。今天2小时：计划原题3题、Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -566,7 +566,7 @@ Focus：Tree depth
 
 本次范围：Conceptual。先讨论树深、叶子样本数与过拟合，只做Decision Tree部分；XGBoost部分留到Day 16对照。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-11)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-11)。
 
 <!-- /quantvault-day -->
 
@@ -582,17 +582,17 @@ Focus：Tree depth
 
 如何验证：报告数字、单位、方向与 engine 一致；场景约束区分硬规则和需复核假设，不把市场方向经验当普适定律。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-11)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-11)
 
 <a id="guide-day-12"></a>
 
-## Day 12 · 周二 10/20
+## Day 12 · 周二 11/24
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-12)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-12)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Window Functions](Study%20topics/window-functions.html); [ROW_NUMBER](Study%20topics/row-number.html); [RANK](Study%20topics/rank.html); [DENSE_RANK](Study%20topics/dense-rank.html)。LeetCode题号与候选链接见当天总表。
+[Window Functions](Study%20topics/window-functions.html); [ROW_NUMBER](Study%20topics/row-number.html); [RANK](Study%20topics/rank.html); [DENSE_RANK](Study%20topics/dense-rank.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -616,7 +616,7 @@ Focus：Pipeline leakage review
 
 本次范围：Implementation sketch。只写缺失值处理与Scaler放入Pipeline的最小片段；验证预处理没有读取验证集。完整题不要求当日实现。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-12)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-12)。
 
 <!-- /quantvault-day -->
 
@@ -632,17 +632,17 @@ Focus：Pipeline leakage review
 
 如何验证：用 TestClient/fakes 测输入错误、成功、等待审批、拒绝和依赖失败；服务超时可见。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-12)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-12)
 
 <a id="guide-day-13"></a>
 
-## Day 13 · 周三 10/21
+## Day 13 · 周三 11/25
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-13)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-13)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Linked Lists](Study%20topics/linked-lists.html); [LRU Cache](Study%20topics/lru-cache.html)。LeetCode题号与候选链接见当天总表。
+[Linked Lists](Study%20topics/linked-lists.html); [LRU Cache](Study%20topics/lru-cache.html)。今天2小时：计划原题3题、Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -666,7 +666,7 @@ Focus：Metric sensitivity review
 
 本次范围：Comparison。比较MAE/Absolute Loss与MSE/Squared Loss，说明异常值为何影响不同；不要求完整Quantile Regression证明。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-13)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-13)。
 
 <!-- /quantvault-day -->
 
@@ -682,17 +682,17 @@ Focus：Metric sensitivity review
 
 如何验证：先做 30 次离线服务实验，再按预算跑少量真实请求；两组分开报告样本数、p50/p95、错误率。小样本尾延迟只作描述。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-13)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-13)
 
 <a id="guide-day-14"></a>
 
-## Day 14 · 周四 10/22
+## Day 14 · 周四 11/26
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-14)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-14)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[LAG](Study%20topics/lag.html); [LEAD](Study%20topics/lead.html); [Rolling Aggregations](Study%20topics/rolling-aggregations.html)。LeetCode题号与候选链接见当天总表。
+[LAG](Study%20topics/lag.html); [LEAD](Study%20topics/lead.html); [Rolling Aggregations](Study%20topics/rolling-aggregations.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -717,7 +717,7 @@ Focus：Bias-variance review
 
 本次范围：Comparison。比较Lasso、Ridge与Elastic Net，结合相关特征解释系数稳定性和特征选择。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-14)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-14)。
 
 <!-- /quantvault-day -->
 
@@ -733,17 +733,17 @@ Focus：Bias-variance review
 
 如何验证：相同请求、环境、并发下对比延迟/成本/质量/失败率；标结果缓存命中与未命中。Streaming 只在已实现时测 TTFT。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-14)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-14)
 
 <a id="guide-day-15"></a>
 
-## Day 15 · 周五 10/23
+## Day 15 · 周五 11/27
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-15)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-15)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Queues](Study%20topics/queues.html); [BFS](Study%20topics/bfs.html); [DFS](Study%20topics/dfs.html)。LeetCode题号与候选链接见当天总表。
+[Queues](Study%20topics/queues.html); [BFS](Study%20topics/bfs.html); [DFS](Study%20topics/dfs.html)。今天2小时：计划原题3题、Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -767,7 +767,7 @@ Focus：Random forests
 
 本次范围：Conceptual。解释Bagging、随机特征与树平均怎样降低方差，并指出不是所有树都独立。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-15)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-15)。
 
 <!-- /quantvault-day -->
 
@@ -783,17 +783,17 @@ Focus：Random forests
 
 如何验证：故意引入一个临时失败验证 gate，再撤销；CI 不依赖个人 .env。记录 workflow 实际运行结果。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-15)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-15)
 
 <a id="guide-day-16"></a>
 
-## Day 16 · 周一 10/26
+## Day 16 · 周一 11/30
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-16)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-16)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[BFS](Study%20topics/bfs.html); [Trees](Study%20topics/trees.html); [Recursion](Study%20topics/recursion.html)。LeetCode题号与候选链接见当天总表。
+[BFS](Study%20topics/bfs.html); [Trees](Study%20topics/trees.html); [Recursion](Study%20topics/recursion.html)。今天2小时：计划原题3题、Top 150 4题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -817,7 +817,7 @@ Focus：Gradient boosting
 
 本次范围：Comparison。只比较Random Forest与Gradient Boosting，并复习Day 11的XGBoost限制；Batch Norm和SGD Momentum作为扩展。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-16)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-16)。
 
 <!-- /quantvault-day -->
 
@@ -833,17 +833,17 @@ Focus：Gradient boosting
 
 如何验证：新环境启动镜像、health/smoke test；写明索引来源、模型配置、审批状态是否持久化。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-16)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-16)
 
 <a id="guide-day-17"></a>
 
-## Day 17 · 周二 10/27
+## Day 17 · 周二 12/1
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-17)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-17)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Date Queries](Study%20topics/date-queries.html)。LeetCode题号与候选链接见当天总表。
+[Date Queries](Study%20topics/date-queries.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -867,7 +867,7 @@ Focus：Cross-validation
 
 本次范围：Conceptual。区分模型学到的Parameter与人为选择的Hyperparameter，说明Cross-Validation和最终测试的分工。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-17)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-17)。
 
 <!-- /quantvault-day -->
 
@@ -883,17 +883,17 @@ Focus：Cross-validation
 
 如何验证：核对容器端口、health、secret注入、权限和预计计费资源；今日先完成配置。无账号/预算则用本地演练保留待部署状态。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-17)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-17)
 
 <a id="guide-day-18"></a>
 
-## Day 18 · 周三 10/28
+## Day 18 · 周三 12/2
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-18)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-18)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Key-Value Store](Study%20topics/key-value-store.html); [TTL](Study%20topics/ttl.html)。LeetCode题号与候选链接见当天总表。
+[Key-Value Store](Study%20topics/key-value-store.html); [TTL](Study%20topics/ttl.html)。今天2小时：计划原题2题、Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -918,7 +918,7 @@ Focus：Hyperparameter selection
 
 本次范围：Diagnosis。面对样本外表现平坦，先判断数据、基线、alpha、样本量与验证方差，再决定是否继续调参。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-18)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-18)。
 
 <!-- /quantvault-day -->
 
@@ -934,17 +934,17 @@ Focus：Hyperparameter selection
 
 如何验证：验证实际请求、故障日志和服务重启；本地审批状态若会丢失必须明确标限制，不能声称生产持久化/高可用。记录资源与关闭步骤。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-18)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-18)
 
 <a id="guide-day-19"></a>
 
-## Day 19 · 周四 10/29
+## Day 19 · 周四 12/3
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-19)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-19)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Transactions](Study%20topics/transactions.html); [Constraints](Study%20topics/constraints.html); [Parameterized Queries](Study%20topics/parameterized-queries.html)。LeetCode题号与候选链接见当天总表。
+[Transactions](Study%20topics/transactions.html); [Constraints](Study%20topics/constraints.html); [Parameterized Queries](Study%20topics/parameterized-queries.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -969,7 +969,7 @@ Focus：Feature engineering
 
 本次范围：Feature strategy。说明One-Hot Encoding的维度与未知类别问题；特征选择也必须在训练/验证流程内完成。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-19)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-19)。
 
 <!-- /quantvault-day -->
 
@@ -985,17 +985,17 @@ Focus：Feature engineering
 
 如何验证：演练回退至前版并重新 smoke；不只截图流水线成功。OIDC/IAM 未通先手动验证发布，CD 标未完成并进缓冲期。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-19)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-19)
 
 <a id="guide-day-20"></a>
 
-## Day 20 · 周五 10/30
+## Day 20 · 周五 12/4
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-20)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-20)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Stacks](Study%20topics/stacks.html); [Debugging](Study%20topics/debugging.html); [Refactoring](Study%20topics/refactoring.html); [Code Review](Study%20topics/code-review.html)。LeetCode题号与候选链接见当天总表。
+[Stacks](Study%20topics/stacks.html); [Debugging](Study%20topics/debugging.html); [Refactoring](Study%20topics/refactoring.html); [Code Review](Study%20topics/code-review.html)。今天2小时：计划原题1题、Top 150 3题、复习2题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1019,7 +1019,7 @@ Focus：Permutation importance
 
 本次范围：Conceptual。区分树内Importance、Permutation Importance与SHAP，说明相关特征及因果解释的限制。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-20)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-20)。
 
 <!-- /quantvault-day -->
 
@@ -1035,17 +1035,17 @@ Focus：Permutation importance
 
 如何验证：数字指向原始结果；标本人设计验证/AI协助实现/现成组件；删除过期“已完成”描述。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-20)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-20)
 
 <a id="guide-day-21"></a>
 
-## Day 21 · 周一 11/2
+## Day 21 · 周一 12/7
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-21)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-21)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[API Clients](Study%20topics/api-clients.html)。LeetCode题号与候选链接见当天总表。
+[API Clients](Study%20topics/api-clients.html)。今天2小时：计划原题2题、Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1069,7 +1069,7 @@ Focus：Chronological splits
 
 本次范围：Case outline。画时间轴，指出随机切分、提前标准化和重叠目标怎样造成泄漏。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-21)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-21)。
 
 <!-- /quantvault-day -->
 
@@ -1085,17 +1085,17 @@ Focus：Chronological splits
 
 如何验证：能自己解释一条多表查询及其结果粒度；记录执行环境和资源设置，不复制未知生产权限。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-21)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-21)
 
 <a id="guide-day-22"></a>
 
-## Day 22 · 周二 11/3
+## Day 22 · 周二 12/8
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-22)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-22)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[PostgreSQL Schema Design](Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](Study%20topics/primary-and-foreign-keys.html)。LeetCode题号与候选链接见当天总表。
+[PostgreSQL Schema Design](Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](Study%20topics/primary-and-foreign-keys.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1120,7 +1120,7 @@ Focus：Label availability
 
 本次范围：Point-in-time audit。分别检查股票池成员和延迟发布特征；列出Observation Date、Publication Date、Prediction Date。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-22)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-22)。
 
 <!-- /quantvault-day -->
 
@@ -1136,17 +1136,17 @@ Focus：Label availability
 
 如何验证：按SEC访问要求限速并标识客户端；tiny fixture验证解析、重复下载可重复执行，原始数据不被清洗覆盖。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-22)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-22)
 
 <a id="guide-day-23"></a>
 
-## Day 23 · 周三 11/4
+## Day 23 · 周三 12/9
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-23)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-23)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Async](Study%20topics/async.html); [Concurrency](Study%20topics/concurrency.html); [Parallelism](Study%20topics/parallelism.html); [GIL](Study%20topics/gil.html); [Race Conditions](Study%20topics/race-conditions.html)。LeetCode题号与候选链接见当天总表。
+[Async](Study%20topics/async.html); [Concurrency](Study%20topics/concurrency.html); [Parallelism](Study%20topics/parallelism.html); [GIL](Study%20topics/gil.html); [Race Conditions](Study%20topics/race-conditions.html)。今天2小时：计划原题2题、Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1170,7 +1170,7 @@ Focus：Purged walk-forward
 
 本次范围：Advanced: diagram only。用时间轴解释训练标签与验证区间重叠时需要purging；只画窗口和gap，不要求完整实现。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-23)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-23)。
 
 <!-- /quantvault-day -->
 
@@ -1186,17 +1186,17 @@ Focus：Purged walk-forward
 
 如何验证：唯一键/单位/期间检查用查询测试，不依赖未强制执行的声明约束；duration与instant指标分开处理。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-23)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-23)
 
 <a id="guide-day-24"></a>
 
-## Day 24 · 周四 11/5
+## Day 24 · 周四 12/10
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-24)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-24)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Indexes](Study%20topics/indexes.html); [EXPLAIN](Study%20topics/explain.html); [Query Optimization](Study%20topics/query-optimization.html)。LeetCode题号与候选链接见当天总表。
+[Indexes](Study%20topics/indexes.html); [EXPLAIN](Study%20topics/explain.html); [Query Optimization](Study%20topics/query-optimization.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1220,7 +1220,7 @@ Focus：Expanding versus rolling windows
 
 本次范围：Implementation sketch。在每个时间fold内fit预处理，只transform后续窗口；检查扩展窗口与滚动窗口差别。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-24)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-24)。
 
 <!-- /quantvault-day -->
 
@@ -1236,17 +1236,17 @@ Focus：Expanding versus rolling windows
 
 如何验证：手工核对小样本，防止JOIN膨胀；NULL不当零，零分母有显式行为；本项目不冒充point-in-time回测数据。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-24)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-24)
 
 <a id="guide-day-25"></a>
 
-## Day 25 · 周五 11/6
+## Day 25 · 周五 12/11
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-25)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-25)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[LRU Cache](Study%20topics/lru-cache.html); [Rate Limiter](Study%20topics/rate-limiter.html)。LeetCode题号与候选链接见当天总表。
+[LRU Cache](Study%20topics/lru-cache.html); [Rate Limiter](Study%20topics/rate-limiter.html)。今天2小时：计划原题2题、Top 150 2题、复习1题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1270,7 +1270,7 @@ Focus：Target and baseline formula
 
 本次范围：Financial baseline outline。只解释HAR-RV使用不同历史尺度的已实现方差作输入，并定义未来目标、单位和简单基线。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-25)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-25)。
 
 <!-- /quantvault-day -->
 
@@ -1286,17 +1286,17 @@ Focus：Target and baseline formula
 
 如何验证：拆分相近问法防泄漏；预期结果带排序/数值容差/空结果规则；held-out答案不放prompt。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-25)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-25)
 
 <a id="guide-day-26"></a>
 
-## Day 26 · 周一 11/9
+## Day 26 · 周一 12/14
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-26)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-26)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Crawler](Study%20topics/crawler.html); [Async](Study%20topics/async.html); [Concurrency](Study%20topics/concurrency.html)。LeetCode题号与候选链接见当天总表。
+[Crawler](Study%20topics/crawler.html); [Async](Study%20topics/async.html); [Concurrency](Study%20topics/concurrency.html)。今天2小时：计划原题1题、Top 150 4题、复习1题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1320,7 +1320,7 @@ Focus：Lagged feature contract
 
 本次范围：Advanced: feature contract。列出日/周/月数据的发布时间、前向填充规则和缺失状态；不使用预测时不可获得的新值。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-26)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-26)。
 
 <!-- /quantvault-day -->
 
@@ -1336,17 +1336,17 @@ Focus：Lagged feature contract
 
 如何验证：能完成一条问句→SQL→表格链路；Cortex Analyst只作后续对照，避免同时维护两个生成方案。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-26)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-26)
 
 <a id="guide-day-27"></a>
 
-## Day 27 · 周二 11/10
+## Day 27 · 周二 12/15
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-27)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-27)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Run Analytics](Study%20topics/run-analytics.html); [Percentiles](Study%20topics/percentiles.html)。LeetCode题号与候选链接见当天总表。
+[Run Analytics](Study%20topics/run-analytics.html); [Percentiles](Study%20topics/percentiles.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1370,7 +1370,7 @@ Focus：Ridge development folds
 
 本次范围：Advanced: validation outline。只设计Lasso时间序列development folds和特征缩放，不执行整套投资回测。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-27)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-27)。
 
 <!-- /quantvault-day -->
 
@@ -1386,17 +1386,17 @@ Focus：Ridge development folds
 
 如何验证：尝试写操作、非允许表、多语句和高成本请求；权限由DB执行，SQL文本检查不是唯一防线。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-27)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-27)
 
 <a id="guide-day-28"></a>
 
-## Day 28 · 周三 11/11
+## Day 28 · 周三 12/16
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-28)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-28)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Parallelism](Study%20topics/parallelism.html); [GIL](Study%20topics/gil.html); [Vectorization](Study%20topics/vectorization.html); [Profiling](Study%20topics/profiling.html)。LeetCode题号与候选链接见当天总表。
+[Parallelism](Study%20topics/parallelism.html); [GIL](Study%20topics/gil.html); [Vectorization](Study%20topics/vectorization.html); [Profiling](Study%20topics/profiling.html)。今天2小时：计划原题1题、Top 150 4题、复习1题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1420,7 +1420,7 @@ Focus：Select alpha on development only
 
 本次范围：Model selection。解释alpha、训练窗口、预测期限与Ridge稳定性，所有配置在development数据上选择。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-28)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-28)。
 
 <!-- /quantvault-day -->
 
@@ -1436,17 +1436,17 @@ Focus：Select alpha on development only
 
 如何验证：检查result accuracy、clarification/refusal、无数据；评估不赢baseline也报告。8题仅是小型验证，不宣称市场级准确率。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-28)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-28)
 
 <a id="guide-day-29"></a>
 
-## Day 29 · 周四 11/12
+## Day 29 · 周四 12/17
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-29)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-29)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[LAG](Study%20topics/lag.html); [Date Queries](Study%20topics/date-queries.html)。LeetCode题号与候选链接见当天总表。
+[LAG](Study%20topics/lag.html); [Date Queries](Study%20topics/date-queries.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1470,7 +1470,7 @@ Focus：Freeze configuration and final test
 
 本次范围：Evaluation protocol。比较两个预测模型前先冻结数据、日期、指标与基线；最终测试不用于反复调整。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-29)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-29)。
 
 <!-- /quantvault-day -->
 
@@ -1486,17 +1486,17 @@ Focus：Freeze configuration and final test
 
 如何验证：结果保持一致；多次重复并区分result cache，不直接把缓存加速归因SQL优化；练实际query profiling。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-29)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-29)
 
 <a id="guide-day-30"></a>
 
-## Day 30 · 周五 11/13
+## Day 30 · 周五 12/18
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-30)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-30)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Complexity Analysis](Study%20topics/complexity-analysis.html); [Sliding Window](Study%20topics/sliding-window.html); [Heaps](Study%20topics/heaps.html); [BFS](Study%20topics/bfs.html); [DFS](Study%20topics/dfs.html); [Trees](Study%20topics/trees.html)。LeetCode题号与候选链接见当天总表。
+[Complexity Analysis](Study%20topics/complexity-analysis.html); [Sliding Window](Study%20topics/sliding-window.html); [Heaps](Study%20topics/heaps.html); [BFS](Study%20topics/bfs.html); [DFS](Study%20topics/dfs.html); [Trees](Study%20topics/trees.html)。今天2小时：计划原题0题、Top 150 5题、复习3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1520,7 +1520,7 @@ Focus：Asset slices and baseline comparison
 
 本次范围：Case outline。只讨论资产切片、数据口径与回归残差诊断；完整横截面因子模型作为扩展。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-30)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-30)。
 
 <!-- /quantvault-day -->
 
@@ -1536,17 +1536,17 @@ Focus：Asset slices and baseline comparison
 
 如何验证：从快照重建数据，演示正确查询、澄清和拒绝三条路径；保存录屏与Snowflake query证据。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-30)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-30)
 
 <a id="guide-day-31"></a>
 
-## Day 31 · 周一 11/16
+## Day 31 · 周一 12/21
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-31)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-31)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[LRU Cache](Study%20topics/lru-cache.html); [Key-Value Store](Study%20topics/key-value-store.html); [TTL](Study%20topics/ttl.html)。LeetCode题号与候选链接见当天总表。
+[LRU Cache](Study%20topics/lru-cache.html); [Key-Value Store](Study%20topics/key-value-store.html); [TTL](Study%20topics/ttl.html)。今天2小时：计划原题1题、Top 150 4题、复习2题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1570,7 +1570,7 @@ Focus：Notebook-to-tool contract
 
 本次范围：Case outline: second pass。补齐数据契约、实验追踪、模型产物、推理一致性、监控与回滚，复用Day 03的流程。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-31)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-31)。
 
 <!-- /quantvault-day -->
 
@@ -1586,17 +1586,17 @@ Focus：Notebook-to-tool contract
 
 如何验证：核对许可/缺失/重复/时区；signal只用当时可得信息。保存fixture与data hash，声明小样本不代表投资价值。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-31)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-31)
 
 <a id="guide-day-32"></a>
 
-## Day 32 · 周二 11/17
+## Day 32 · 周二 12/22
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-32)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-32)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[JOINs](Study%20topics/joins.html); [GROUP BY](Study%20topics/group-by.html)。LeetCode题号与候选链接见当天总表。
+[JOINs](Study%20topics/joins.html); [GROUP BY](Study%20topics/group-by.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1620,7 +1620,7 @@ Focus：Regime changes
 
 本次范围：Conceptual。解释Distribution Shift与Extrapolation，训练范围外的输入为何可能失效，连接金融Regime Change。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-32)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-32)。
 
 <!-- /quantvault-day -->
 
@@ -1636,17 +1636,17 @@ Focus：Regime changes
 
 如何验证：用手算tiny series测零信号、常价格、成本、错位；明确close-to-close执行简化，不宣称真实可成交。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-32)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-32)
 
 <a id="guide-day-33"></a>
 
-## Day 33 · 周三 11/18
+## Day 33 · 周三 12/23
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-33)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-33)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Debugging](Study%20topics/debugging.html); [Vectorization](Study%20topics/vectorization.html)。LeetCode题号与候选链接见当天总表。
+[Debugging](Study%20topics/debugging.html); [Vectorization](Study%20topics/vectorization.html)。今天2小时：计划原题1题、Top 150 4题、复习1题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1670,7 +1670,7 @@ Focus：Prediction interval coverage
 
 本次范围：Uncertainty comparison。区分系数Confidence Interval与单次未来结果Prediction Interval；只说明假设与不同对象，不完成整题证明。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-33)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-33)。
 
 <!-- /quantvault-day -->
 
@@ -1686,17 +1686,17 @@ Focus：Prediction interval coverage
 
 如何验证：重复提交复用run；API重启后状态仍在；run与待投递任务同事务，先用本地数据库和fake queue。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-33)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-33)
 
 <a id="guide-day-34"></a>
 
-## Day 34 · 周四 11/19
+## Day 34 · 周四 12/24
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-34)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-34)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Window Functions](Study%20topics/window-functions.html); [ROW_NUMBER](Study%20topics/row-number.html); [RANK](Study%20topics/rank.html); [DENSE_RANK](Study%20topics/dense-rank.html); [LAG](Study%20topics/lag.html); [LEAD](Study%20topics/lead.html); [Rolling Aggregations](Study%20topics/rolling-aggregations.html); [Financial Analytics](Study%20topics/financial-analytics.html)。LeetCode题号与候选链接见当天总表。
+[Window Functions](Study%20topics/window-functions.html); [ROW_NUMBER](Study%20topics/row-number.html); [RANK](Study%20topics/rank.html); [DENSE_RANK](Study%20topics/dense-rank.html); [LAG](Study%20topics/lag.html); [LEAD](Study%20topics/lead.html); [Rolling Aggregations](Study%20topics/rolling-aggregations.html); [Financial Analytics](Study%20topics/financial-analytics.html)。今天2小时：SQL 1小时，Top 150 3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1720,7 +1720,7 @@ Focus：Paired block uncertainty
 
 本次范围：Conceptual。说明残差相关时独立样本标准误为何不可靠，连接区块估计与配对比较。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-34)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-34)。
 
 <!-- /quantvault-day -->
 
@@ -1736,17 +1736,17 @@ Focus：Paired block uncertainty
 
 如何验证：HTTP先返回run ID，Worker写result后更新终态；可重复投递但结果幂等。LLM仍未加入，先验证执行链路。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-34)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-34)
 
 <a id="guide-day-35"></a>
 
-## Day 35 · 周五 11/20
+## Day 35 · 周五 12/25
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-35)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-35)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Vectorization](Study%20topics/vectorization.html); [NumPy Logistic Regression](Study%20topics/numpy-logistic-regression.html)。LeetCode题号与候选链接见当天总表。
+[Vectorization](Study%20topics/vectorization.html); [NumPy Logistic Regression](Study%20topics/numpy-logistic-regression.html)。今天2小时：计划原题0题、Top 150 4题、复习2题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1770,7 +1770,7 @@ Focus：Logistic gradient review
 
 本次范围：Derivation sketch。用已学sigmoid和交叉熵写梯度关键步骤，再说明概率与阈值的分工；不要求完整Hessian。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-35)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-35)。
 
 <!-- /quantvault-day -->
 
@@ -1786,17 +1786,17 @@ Focus：Logistic gradient review
 
 如何验证：确认已提交结果不会重复生效、超时有终态、lease过期可恢复；单Worker是故障实验，不声称验证大规模吞吐。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-35)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-35)
 
 <a id="guide-day-36"></a>
 
-## Day 36 · 周一 11/23
+## Day 36 · 周一 12/28
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-36)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-36)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Binary Search](Study%20topics/binary-search.html); [Prefix Sums](Study%20topics/prefix-sums.html); [Recursion](Study%20topics/recursion.html)。LeetCode题号与候选链接见当天总表。
+[Binary Search](Study%20topics/binary-search.html); [Prefix Sums](Study%20topics/prefix-sums.html); [Recursion](Study%20topics/recursion.html)。今天2小时：计划原题0题、Top 150 3题、复习3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1820,7 +1820,7 @@ Focus：Artifact and schema
 
 本次范围：Case outline。只形成EDA→缺失处理→切分→Pipeline→指标→版本化产物的方案，明确训练与服务使用同一变换。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-36)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-36)。
 
 <!-- /quantvault-day -->
 
@@ -1836,17 +1836,17 @@ Focus：Artifact and schema
 
 如何验证：非法资产/未来日期/未知策略被拒绝或澄清；摘要数值来自结果文件；记录实际调用链。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-36)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-36)
 
 <a id="guide-day-37"></a>
 
-## Day 37 · 周二 11/24
+## Day 37 · 周二 12/29
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-37)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-37)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Window Functions](Study%20topics/window-functions.html); [ROW_NUMBER](Study%20topics/row-number.html); [RANK](Study%20topics/rank.html); [DENSE_RANK](Study%20topics/dense-rank.html); [LAG](Study%20topics/lag.html); [LEAD](Study%20topics/lead.html); [Rolling Aggregations](Study%20topics/rolling-aggregations.html)。LeetCode题号与候选链接见当天总表。
+[Window Functions](Study%20topics/window-functions.html); [ROW_NUMBER](Study%20topics/row-number.html); [RANK](Study%20topics/rank.html); [DENSE_RANK](Study%20topics/dense-rank.html); [LAG](Study%20topics/lag.html); [LEAD](Study%20topics/lead.html); [Rolling Aggregations](Study%20topics/rolling-aggregations.html)。今天2小时：SQL 1小时，Top 150 2题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1870,7 +1870,7 @@ Focus：Prediction parity
 
 本次范围：Production diagnosis。检查输入schema、预处理、版本、真实标签延迟和服务指标；比较离线与线上预测一致性。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-37)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-37)。
 
 <!-- /quantvault-day -->
 
@@ -1886,17 +1886,17 @@ Focus：Prediction parity
 
 如何验证：同config/data版本结果可重现；比较无LLM直接配置基线。故意给失败任务，摘要不可捏造成功。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-37)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-37)
 
 <a id="guide-day-38"></a>
 
-## Day 38 · 周三 11/25
+## Day 38 · 周三 12/30
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-38)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-38)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[API Clients](Study%20topics/api-clients.html); [Race Conditions](Study%20topics/race-conditions.html); [Profiling](Study%20topics/profiling.html); [Debugging](Study%20topics/debugging.html); [Refactoring](Study%20topics/refactoring.html); [Code Review](Study%20topics/code-review.html)。LeetCode题号与候选链接见当天总表。
+[API Clients](Study%20topics/api-clients.html); [Race Conditions](Study%20topics/race-conditions.html); [Profiling](Study%20topics/profiling.html); [Debugging](Study%20topics/debugging.html); [Refactoring](Study%20topics/refactoring.html); [Code Review](Study%20topics/code-review.html)。今天2小时：计划原题0题、Top 150 3题、复习3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1920,7 +1920,7 @@ Focus：Model rollback
 
 本次范围：Advanced: incident outline。给出定位、可安全回滚、证据保留和复验顺序；说明哪些证据支持数据变化，哪些支持实现故障。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-38)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-38)。
 
 <!-- /quantvault-day -->
 
@@ -1936,17 +1936,17 @@ Focus：Model rollback
 
 如何验证：干净环境运行一条命令重建；记录单机与生产分布式部署差距。AWS队列/多Worker作为可选扩展。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-38)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-38)
 
 <a id="guide-day-39"></a>
 
-## Day 39 · 周四 11/26
+## Day 39 · 周四 12/31
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-39)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-39)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[SELECT](Study%20topics/select.html); [WHERE](Study%20topics/where.html); [ORDER BY](Study%20topics/order-by.html); [LIMIT](Study%20topics/limit.html); [NULL](Study%20topics/null.html); [GROUP BY](Study%20topics/group-by.html); [HAVING](Study%20topics/having.html); [CASE](Study%20topics/case.html); [Subqueries](Study%20topics/subqueries.html); [CTEs](Study%20topics/ctes.html); [EXISTS](Study%20topics/exists.html); [Date Queries](Study%20topics/date-queries.html); [Transactions](Study%20topics/transactions.html); [Constraints](Study%20topics/constraints.html); [Parameterized Queries](Study%20topics/parameterized-queries.html); [PostgreSQL Schema Design](Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](Study%20topics/primary-and-foreign-keys.html); [Indexes](Study%20topics/indexes.html); [EXPLAIN](Study%20topics/explain.html); [Query Optimization](Study%20topics/query-optimization.html); [Run Analytics](Study%20topics/run-analytics.html); [Percentiles](Study%20topics/percentiles.html); [Financial Analytics](Study%20topics/financial-analytics.html); [JOINs](Study%20topics/joins.html)。LeetCode题号与候选链接见当天总表。
+[SELECT](Study%20topics/select.html); [WHERE](Study%20topics/where.html); [ORDER BY](Study%20topics/order-by.html); [LIMIT](Study%20topics/limit.html); [NULL](Study%20topics/null.html); [GROUP BY](Study%20topics/group-by.html); [HAVING](Study%20topics/having.html); [CASE](Study%20topics/case.html); [Subqueries](Study%20topics/subqueries.html); [CTEs](Study%20topics/ctes.html); [EXISTS](Study%20topics/exists.html); [Date Queries](Study%20topics/date-queries.html); [Transactions](Study%20topics/transactions.html); [Constraints](Study%20topics/constraints.html); [Parameterized Queries](Study%20topics/parameterized-queries.html); [PostgreSQL Schema Design](Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](Study%20topics/primary-and-foreign-keys.html); [Indexes](Study%20topics/indexes.html); [EXPLAIN](Study%20topics/explain.html); [Query Optimization](Study%20topics/query-optimization.html); [Run Analytics](Study%20topics/run-analytics.html); [Percentiles](Study%20topics/percentiles.html); [Financial Analytics](Study%20topics/financial-analytics.html); [JOINs](Study%20topics/joins.html)。今天2小时：SQL 1小时，Top 150 2题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -1970,7 +1970,7 @@ Focus：Baseline explanation mock
 
 本次范围：Mock: regression foundations。口述模型、假设、残差与常见失效；重点是预测有效性，不把因果或无偏推断当作自动结论。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-39)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-39)。
 
 <!-- /quantvault-day -->
 
@@ -1986,17 +1986,17 @@ Focus：Baseline explanation mock
 
 如何验证：项目陈述逐条能找到代码或实验；把缺少线上验证与未实现功能明确标注。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-39)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-39)
 
 <a id="guide-day-40"></a>
 
-## Day 40 · 周五 11/27
+## Day 40 · 周五 1/1
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-40)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-40)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Hash Maps](Study%20topics/hash-maps.html); [LRU Cache](Study%20topics/lru-cache.html); [NumPy Logistic Regression](Study%20topics/numpy-logistic-regression.html)。LeetCode题号与候选链接见当天总表。
+[Hash Maps](Study%20topics/hash-maps.html); [LRU Cache](Study%20topics/lru-cache.html); [NumPy Logistic Regression](Study%20topics/numpy-logistic-regression.html)。今天2小时：计划原题0题、Top 150 3题、复习3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -2021,7 +2021,7 @@ Focus：Split and evaluation mock
 
 本次范围：Mock: evaluation and regularization。不看答案各用2分钟回答，再回答一个追问；重点检查验证角色及Lasso限制。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-40)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-40)。
 
 <!-- /quantvault-day -->
 
@@ -2037,17 +2037,17 @@ Focus：Split and evaluation mock
 
 如何验证：抽问一段AI代码，自己解释并做反例；每个项目都有可运行入口和诚实的完成状态。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-40)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-40)
 
 <a id="guide-day-41"></a>
 
-## Day 41 · 周一 11/30
+## Day 41 · 周一 1/4
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-41)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-41)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Sorting](Study%20topics/sorting.html); [Binary Search](Study%20topics/binary-search.html); [Linked Lists](Study%20topics/linked-lists.html)。LeetCode题号与候选链接见当天总表。
+[Sorting](Study%20topics/sorting.html); [Binary Search](Study%20topics/binary-search.html); [Linked Lists](Study%20topics/linked-lists.html)。今天2小时：计划原题0题、Top 150 3题、复习3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -2072,7 +2072,7 @@ Focus：Split remediation
 
 本次范围：Buffer: remediation。重做R-Squared和Multicollinearity；若已熟悉，用最弱的Regression题替换，不增加新题。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-41)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-41)。
 
 <!-- /quantvault-day -->
 
@@ -2088,17 +2088,17 @@ Focus：Split remediation
 
 如何验证：重跑相关数值与失败路径回归。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-41)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-41)
 
 <a id="guide-day-42"></a>
 
-## Day 42 · 周二 12/1
+## Day 42 · 周二 1/5
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-42)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-42)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[JOINs](Study%20topics/joins.html); [HAVING](Study%20topics/having.html)。LeetCode题号与候选链接见当天总表。
+[JOINs](Study%20topics/joins.html); [HAVING](Study%20topics/having.html)。今天2小时：SQL 1小时，Top 150薄弱题重做1小时，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -2122,7 +2122,7 @@ Focus：Input drift
 
 本次范围：Advanced: monitoring outline。分别讨论Feature Distribution与Target Distribution变化，以及标签何时才能观测。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-42)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-42)。
 
 <!-- /quantvault-day -->
 
@@ -2138,17 +2138,17 @@ Focus：Input drift
 
 如何验证：保存真实运行证据；无账户则保留未部署标识。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-42)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-42)
 
 <a id="guide-day-43"></a>
 
-## Day 43 · 周三 12/2
+## Day 43 · 周三 1/6
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-43)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-43)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Queues](Study%20topics/queues.html); [Key-Value Store](Study%20topics/key-value-store.html); [TTL](Study%20topics/ttl.html); [Rate Limiter](Study%20topics/rate-limiter.html); [Crawler](Study%20topics/crawler.html)。LeetCode题号与候选链接见当天总表。
+[Queues](Study%20topics/queues.html); [Key-Value Store](Study%20topics/key-value-store.html); [TTL](Study%20topics/ttl.html); [Rate Limiter](Study%20topics/rate-limiter.html); [Crawler](Study%20topics/crawler.html)。今天2小时：计划原题0题、Top 150 0题、复习3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -2172,7 +2172,7 @@ Focus：Delayed-label monitoring
 
 本次范围：Buffer: incident replay。重新解释真实标签延迟、预处理故障与数据变化的排查；依据错题补漏。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-43)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-43)。
 
 <!-- /quantvault-day -->
 
@@ -2188,17 +2188,17 @@ Focus：Delayed-label monitoring
 
 如何验证：核对参考结果与权限，重跑integration。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-43)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-43)
 
 <a id="guide-day-44"></a>
 
-## Day 44 · 周四 12/3
+## Day 44 · 周四 1/7
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-44)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-44)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Window Functions](Study%20topics/window-functions.html); [ROW_NUMBER](Study%20topics/row-number.html); [RANK](Study%20topics/rank.html); [DENSE_RANK](Study%20topics/dense-rank.html); [LAG](Study%20topics/lag.html); [LEAD](Study%20topics/lead.html); [Rolling Aggregations](Study%20topics/rolling-aggregations.html)。LeetCode题号与候选链接见当天总表。
+[Window Functions](Study%20topics/window-functions.html); [ROW_NUMBER](Study%20topics/row-number.html); [RANK](Study%20topics/rank.html); [DENSE_RANK](Study%20topics/dense-rank.html); [LAG](Study%20topics/lag.html); [LEAD](Study%20topics/lead.html); [Rolling Aggregations](Study%20topics/rolling-aggregations.html)。今天2小时：SQL 1小时，Top 150薄弱题重做1小时，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -2222,7 +2222,7 @@ Focus：Retraining decision
 
 本次范围：Retraining decision。说明重训练触发条件、候选验证、基线比较和回滚；不把漂移告警等同于部署新模型。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-44)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-44)。
 
 <!-- /quantvault-day -->
 
@@ -2238,17 +2238,17 @@ Focus：Retraining decision
 
 如何验证：多次故障实验有可复查日志。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-44)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-44)
 
 <a id="guide-day-45"></a>
 
-## Day 45 · 周五 12/4
+## Day 45 · 周五 1/8
 
-[当天全部时间与原题](AI_ENGINEER_TRANSITION_PLAN.md#day-45)
+[当天全部时间与原题](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-45)
 
-### 09:00–10:30 · Coding
+### 08:30–10:30 · Coding
 
-[Sliding Window](Study%20topics/sliding-window.html); [Heaps](Study%20topics/heaps.html); [BFS](Study%20topics/bfs.html); [DFS](Study%20topics/dfs.html)。LeetCode题号与候选链接见当天总表。
+[Sliding Window](Study%20topics/sliding-window.html); [Heaps](Study%20topics/heaps.html); [BFS](Study%20topics/bfs.html); [DFS](Study%20topics/dfs.html)。今天2小时：计划原题0题、Top 150 0题、复习3题，题号与链接见当天总表。
 
 ### 13:30–14:15 · ML
 
@@ -2272,7 +2272,7 @@ Focus：Monitoring explanation mock
 
 本次范围：Final mock。用自己项目讲目标、数据、基线、切分、指标、失败与下一步；选最弱两题补问。
 
-两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-45)。
+两题日拆分做题时间。计时结束记录卡点，后续复习替换，不追加时长。[当天题目与复习记录](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md#qv-day-45)。
 
 <!-- /quantvault-day -->
 
@@ -2288,7 +2288,7 @@ Focus：Monitoring explanation mock
 
 如何验证：说明完成、仅设计、未验证各是什么；周末不补。
 
-[具体前置、成果与项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-45)
+[具体前置、成果与项目路线](Reports/AI_ENGINEER_PROJECT_ROADMAP.md#project-day-45)
 
 
 
@@ -2296,4 +2296,4 @@ Focus：Monitoring explanation mock
 
 先读[Machine Learning Foundations](Study%20topics/ml-foundations-start-here.html)。每页依次阅读学习背景、Question、Key Terms、直观例子、英文Short Answer及中文回答，再完成原有练习。入门阅读计入原有ML时段，不改变日期与课时。
 
-[全部双语讲义](AI_ENGINEER_BILINGUAL_LESSONS.md)。
+[全部双语讲义](Reports/AI_ENGINEER_BILINGUAL_LESSONS.md)。

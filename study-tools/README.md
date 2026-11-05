@@ -33,3 +33,10 @@ node study-tools/validate.cjs
 题型按仓库interview/questions整理，技术解释参考各页列出的官方资料与公开讲义，问答脚本与练习为原创整理。没有可验证的面试出现频率数据，因此页面使用“核心主题”而不声称“统计最高频”。课程章节未擅自指定，以用户实际网课进度为准。
 
 本次生成的是学习资料与未来项目任务。没有改Risk Copilot代码、部署AWS资源或运行付费LLM/Snowflake实验。
+
+## 日期、刷题排期与文件位置
+
+- `reschedule.cjs` - 在`original-plan.md`和`original-roadmap.md`的快照上应用当前排期：Day 1改为`top150-schedule.json`里的`start`（周一），刷题时段改为08:30–10:30共2小时，并把LeetCode Top Interview 150与计划原题混合排入（Hard在最后）。`build.cjs`、`validate.cjs`、`verify-interview-answers.cjs`都经过它读取快照
+- `top150-schedule.json` - 排期数据：每天的计划原题、Top 150题、复习题，以及150题的标题、难度和专题。改排期只改这个文件，再运行`node study-tools/build.cjs`
+- `layout.cjs` - 学习指南留在仓库根目录，其余报告（`AI_ENGINEER_TRANSITION_PLAN`、`PROJECT_ROADMAP`、`QUANTVAULT_PLAN`、`BILINGUAL_LESSONS`、`TOP150_SCHEDULE`）放在`Reports/`。生成脚本仍按“全部在根目录”工作，引入`layout.cjs`后，运行期间文件临时回到根目录，退出时自动放回`Reports/`并修好链接
+- 重新生成会清空notebook的运行输出，之后运行`verify_notebooks.py`重新执行

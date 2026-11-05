@@ -1,6 +1,6 @@
 # Bilingual Study Lessons
 学习顺序：背景 → Question → Key Terms → 例子 → Short Answer → 中文回答 → 实验。
-先读[Machine Learning Foundations](Study%20topics/ml-foundations-start-here.html)。
+先读[Machine Learning Foundations](../Study%20topics/ml-foundations-start-here.html)。
 
 ## Hash Maps
 
@@ -33,7 +33,7 @@ I use a dictionary when I need to remember previously seen values. For Two Sum, 
 
 哈希表把键映射到值，适合查找、计数和去重。平均查找和更新通常是 O(1)，但不能把平均复杂度当作最坏情况保证；键必须可哈希。
 
-[深入材料与练习](Study%20topics/hash-maps.html)
+[深入材料与练习](../Study%20topics/hash-maps.html)
 
 
 ## Arrays and Strings
@@ -67,7 +67,7 @@ I first check whether order matters and whether mutation is allowed. Repeated st
 
 数组按位置保存元素，字符串保存字符序列。先确认是否可以原地修改以及空输入行为；Python 字符串不可变，反复拼接可能产生额外复制。
 
-[深入材料与练习](Study%20topics/arrays-and-strings.html)
+[深入材料与练习](../Study%20topics/arrays-and-strings.html)
 
 
 ## Two Pointers
@@ -101,7 +101,7 @@ For sorted Two Sum, if the sum is too small I move the left pointer. Every other
 
 双指针用两个位置维护搜索范围或配对关系。只有排序、单调性或其他不变量允许安全排除候选时，才能移动指针；不能凭感觉跳过元素。
 
-[深入材料与练习](Study%20topics/two-pointers.html)
+[深入材料与练习](../Study%20topics/two-pointers.html)
 
 
 ## Sorting
@@ -135,7 +135,7 @@ I would use Python sorted for a new list and list.sort for in-place mutation. Th
 
 排序把元素按规则排列，便于后续查找、分组或双指针处理。说明排序键和并列规则，计算排序本身的 O(n log n) 成本，并确认是否修改原输入。
 
-[深入材料与练习](Study%20topics/sorting.html)
+[深入材料与练习](../Study%20topics/sorting.html)
 
 
 ## Binary Search
@@ -169,7 +169,7 @@ I use a half-open interval [lo, hi). For lower bound, everything before lo is sm
 
 二分查找要求搜索空间有序或判断条件单调。每次依据中点缩小范围，通常 O(log n)；先定义区间是否包含端点，再检查空输入和边界。
 
-[深入材料与练习](Study%20topics/binary-search.html)
+[深入材料与练习](../Study%20topics/binary-search.html)
 
 
 ## Complexity Analysis
@@ -203,7 +203,7 @@ I count how often each element is processed. A nested while loop can still be li
 
 复杂度描述输入规模增长时运行时间和内存如何增长。先找循环、递归和数据结构的主要操作；渐近复杂度不能代替真实工作负载的性能测量。
 
-[深入材料与练习](Study%20topics/complexity-analysis.html)
+[深入材料与练习](../Study%20topics/complexity-analysis.html)
 
 
 ## Sliding Window
@@ -237,7 +237,7 @@ For a substring without repeated characters, I store each character last positio
 
 滑动窗口维护连续区间及其状态，适合某些子串和子数组问题。进入和离开窗口时更新计数；只有满足相应单调条件时才能保证线性扫描。
 
-[深入材料与练习](Study%20topics/sliding-window.html)
+[深入材料与练习](../Study%20topics/sliding-window.html)
 
 
 ## Prefix Sums
@@ -271,7 +271,7 @@ For subarray sum k, I count prior prefix sums equal to current-k. I seed zero wi
 
 前缀和保存从起点累积到每个位置的总量，区间和由两个前缀相减得到。预处理 O(n)，区间查询 O(1)；检查端点和空区间。
 
-[深入材料与练习](Study%20topics/prefix-sums.html)
+[深入材料与练习](../Study%20topics/prefix-sums.html)
 
 
 ## Stacks
@@ -305,7 +305,7 @@ For bracket validation I push opening brackets and match each closing bracket wi
 
 栈遵循后进先出，适合括号匹配、表达式和某些单调栈问题。明确栈中每个元素代表的状态，以及何时入栈和出栈。
 
-[深入材料与练习](Study%20topics/stacks.html)
+[深入材料与练习](../Study%20topics/stacks.html)
 
 
 ## Queues
@@ -339,7 +339,7 @@ For breadth-first traversal I use deque.popleft rather than list.pop(0), which s
 
 队列遵循先进先出，适合待处理任务和 BFS。Python 可用 deque 实现高效两端操作；生产任务队列还需要持久化和重复处理策略。
 
-[深入材料与练习](Study%20topics/queues.html)
+[深入材料与练习](../Study%20topics/queues.html)
 
 
 ## Heaps
@@ -373,7 +373,7 @@ For the largest k elements I keep a min-heap of size k. The root is the weakest 
 
 堆支持快速取得最小值或最大值，适合 top-k 和调度。插入和弹出通常 O(log n)，查看堆顶 O(1)；堆并不意味着全部元素已排序。
 
-[深入材料与练习](Study%20topics/heaps.html)
+[深入材料与练习](../Study%20topics/heaps.html)
 
 
 ## Linked Lists
@@ -407,7 +407,7 @@ To reverse a list I save the next pointer before overwriting it, reverse the edg
 
 链表用节点引用连接元素。已知节点或前驱时可高效修改连接，但按位置查找要遍历；删除时检查头尾和空链表。
 
-[深入材料与练习](Study%20topics/linked-lists.html)
+[深入材料与练习](../Study%20topics/linked-lists.html)
 
 
 ## LRU Cache
@@ -441,7 +441,7 @@ I combine a hash map with a doubly linked list for O(1) lookup and recency updat
 
 LRU 淘汰最久未使用的条目，可用哈希表加双向链表实现平均 O(1) 访问与更新。读取命中也要更新顺序，明确容量为零和并发行为。
 
-[深入材料与练习](Study%20topics/lru-cache.html)
+[深入材料与练习](../Study%20topics/lru-cache.html)
 
 
 ## BFS
@@ -475,7 +475,7 @@ I mark a node visited when I enqueue it. That prevents duplicate enqueues and ma
 
 广度优先搜索逐层扩展节点，用队列管理待访问节点。无权图中可求最短边数；通常 O(V+E)，注意何时标记访问以免重复入队。
 
-[深入材料与练习](Study%20topics/bfs.html)
+[深入材料与练习](../Study%20topics/bfs.html)
 
 
 ## DFS
@@ -509,7 +509,7 @@ I use a visited set for graphs and an explicit stack when depth can exceed the r
 
 深度优先搜索沿路径深入，再回退。适合遍历、连通性和回溯；循环图需要访问状态，递归还受调用栈深度限制。
 
-[深入材料与练习](Study%20topics/dfs.html)
+[深入材料与练习](../Study%20topics/dfs.html)
 
 
 ## Trees
@@ -543,7 +543,7 @@ For maximum depth, an empty tree contributes zero and a nonempty tree contribute
 
 树是层级结构。遍历方式取决于任务；二叉搜索树有额外排序约束，普通二叉树没有。性能取决于高度，不能默认树总是平衡的。
 
-[深入材料与练习](Study%20topics/trees.html)
+[深入材料与练习](../Study%20topics/trees.html)
 
 
 ## Recursion
@@ -577,7 +577,7 @@ I define what the function returns before writing its recursive calls. For tree 
 
 递归把问题分解为较小的同类问题。必须有终止条件，并说明每次如何接近终止；分析调用次数、栈空间和重复计算。
 
-[深入材料与练习](Study%20topics/recursion.html)
+[深入材料与练习](../Study%20topics/recursion.html)
 
 
 ## Key-Value Store
@@ -611,7 +611,7 @@ I would start with a dictionary, define missing-key behavior, and add TTL only a
 
 键值存储提供按键读取、写入和删除。先实现明确接口，再按需求加入 TTL、历史版本或持久化；这些能力各有一致性与边界约定。
 
-[深入材料与练习](Study%20topics/key-value-store.html)
+[深入材料与练习](../Study%20topics/key-value-store.html)
 
 
 ## TTL
@@ -645,7 +645,7 @@ I inject a clock and treat now >= expires_at as expired. Reads lazily remove exp
 
 TTL 是条目的有效时长。定义到期边界和使用的时钟；过期后逻辑上不可读，不等于物理数据立即删除。
 
-[深入材料与练习](Study%20topics/ttl.html)
+[深入材料与练习](../Study%20topics/ttl.html)
 
 
 ## API Clients
@@ -679,7 +679,7 @@ I set explicit deadlines, classify failures, validate the response schema, and r
 
 API 客户端负责调用外部接口并处理认证、错误和响应校验。配置超时和有限重试，避免日志泄露凭证；有副作用的请求需要幂等设计。
 
-[深入材料与练习](Study%20topics/api-clients.html)
+[深入材料与练习](../Study%20topics/api-clients.html)
 
 
 ## Rate Limiter
@@ -713,7 +713,7 @@ A token bucket refills with elapsed time up to a capacity. Each admitted request
 
 限流器控制单位时间内的请求数量，常见算法包括令牌桶。区分速率限制与并发限制，明确突发容量、分布式计数和失败时行为。
 
-[深入材料与练习](Study%20topics/rate-limiter.html)
+[深入材料与练习](../Study%20topics/rate-limiter.html)
 
 
 ## Crawler
@@ -747,7 +747,7 @@ I keep a deduplicated frontier, normalize URLs, restrict allowed hosts, and boun
 
 爬虫遍历链接并获取网页。维护去重集合、范围限制、请求超时和有限并发，并遵守网站访问规则；失败与空页面不能混为一谈。
 
-[深入材料与练习](Study%20topics/crawler.html)
+[深入材料与练习](../Study%20topics/crawler.html)
 
 
 ## Async
@@ -781,7 +781,7 @@ Async is useful for many waiting network calls. A blocking function inside the e
 
 异步让等待 I/O 时可以调度其他任务。它不自动加速 CPU 计算；阻塞函数会阻塞事件循环，必须正确处理取消、超时和并发上限。
 
-[深入材料与练习](Study%20topics/async.html)
+[深入材料与练习](../Study%20topics/async.html)
 
 
 ## Concurrency
@@ -815,7 +815,7 @@ I choose concurrency for waiting workloads and protect shared invariants. Correc
 
 并发表示多个任务的生命周期重叠，不一定同时执行。适合隐藏 I/O 等待；共享状态仍需同步，并说明结果和异常如何汇总。
 
-[深入材料与练习](Study%20topics/concurrency.html)
+[深入材料与练习](../Study%20topics/concurrency.html)
 
 
 ## Parallelism
@@ -849,7 +849,7 @@ For CPU-heavy pure Python I consider processes, accounting for serialization, st
 
 并行表示多个任务同时执行。CPU 密集任务可考虑多进程，但序列化、进程启动和内存复制会抵消收益，应先测量。
 
-[深入材料与练习](Study%20topics/parallelism.html)
+[深入材料与练习](../Study%20topics/parallelism.html)
 
 
 ## GIL
@@ -883,7 +883,7 @@ Threads can overlap I/O and native libraries may release the GIL. CPU-bound Pyth
 
 传统 CPython 的 GIL 限制多个线程同时执行 Python 字节码，但 I/O 和部分原生数值库可释放它。可选的 free-threaded 构建改变前提，面试时要说明运行环境。
 
-[深入材料与练习](Study%20topics/gil.html)
+[深入材料与练习](../Study%20topics/gil.html)
 
 
 ## Race Conditions
@@ -917,7 +917,7 @@ I identify the shared invariant and guard the entire read-modify-write operation
 
 竞争条件指结果取决于并发执行顺序。检查共享读写和跨步骤不变量；用锁、事务或避免共享状态解决，不能假设 GIL 保证业务操作原子性。
 
-[深入材料与练习](Study%20topics/race-conditions.html)
+[深入材料与练习](../Study%20topics/race-conditions.html)
 
 
 ## Vectorization
@@ -951,7 +951,7 @@ I check shapes and broadcasting first, then compare a vectorized result with a s
 
 向量化把逐元素 Python 循环转为数组批量操作，通常减少解释器开销。检查广播、临时数组和数值一致性，实际收益依工作负载而定。
 
-[深入材料与练习](Study%20topics/vectorization.html)
+[深入材料与练习](../Study%20topics/vectorization.html)
 
 
 ## Profiling
@@ -985,7 +985,7 @@ I reproduce a representative workload, measure a baseline, profile the bottlenec
 
 性能分析先测量时间和内存分布以定位瓶颈，再做针对性优化。在同一数据与环境下比较前后结果，并同时验证正确性。
 
-[深入材料与练习](Study%20topics/profiling.html)
+[深入材料与练习](../Study%20topics/profiling.html)
 
 
 ## Debugging
@@ -1019,7 +1019,7 @@ I reduce the failing input, inspect the complete traceback and compare intermedi
 
 排错先复现问题，缩小输入，保留 traceback，再逐步检验原因。比较中间结果与可信基线；修复后用原失败案例和正常案例验证。
 
-[深入材料与练习](Study%20topics/debugging.html)
+[深入材料与练习](../Study%20topics/debugging.html)
 
 
 ## Refactoring
@@ -1053,7 +1053,7 @@ I first capture existing valid behavior with characterization tests, isolate par
 
 重构在保持外部行为的前提下改善代码结构。先用测试锁定行为，再拆分职责和依赖；不要把功能变更藏在结构调整里。
 
-[深入材料与练习](Study%20topics/refactoring.html)
+[深入材料与练习](../Study%20topics/refactoring.html)
 
 
 ## Code Review
@@ -1087,7 +1087,7 @@ For AI-generated code I trace inputs to outputs, inspect external side effects a
 
 代码审查检查正确性、边界、测试、安全和维护成本。对 AI 代码也应逐项核对需求，理解关键逻辑，并以实际执行证据支持结论。
 
-[深入材料与练习](Study%20topics/code-review.html)
+[深入材料与练习](../Study%20topics/code-review.html)
 
 
 ## NumPy Logistic Regression
@@ -1121,7 +1121,7 @@ For mean log loss the weight gradient is X.T @ (p-y)/n. I add regularization to 
 
 用 NumPy 实现逻辑回归时，先把线性分数经 sigmoid 转成二分类概率，再最小化对数损失。明确矩阵形状、梯度和正则项，测试数值稳定性。
 
-[深入材料与练习](Study%20topics/numpy-logistic-regression.html)
+[深入材料与练习](../Study%20topics/numpy-logistic-regression.html)
 
 
 ## SELECT
@@ -1155,7 +1155,7 @@ I name columns explicitly so schema changes do not silently change the contract.
 
 SELECT 指定结果列及表达式。先确定每行代表什么，明确列名；没有 ORDER BY 时不能依赖返回顺序。
 
-[深入材料与练习](Study%20topics/select.html)
+[深入材料与练习](../Study%20topics/select.html)
 
 
 ## WHERE
@@ -1189,7 +1189,7 @@ I put row conditions in WHERE and group conditions in HAVING. A predicate on the
 
 WHERE 在分组前过滤行。NULL 比较需要 IS NULL；在 WHERE 过滤 LEFT JOIN 右侧列，可能丢掉未匹配行。
 
-[深入材料与练习](Study%20topics/where.html)
+[深入材料与练习](../Study%20topics/where.html)
 
 
 ## ORDER BY
@@ -1223,7 +1223,7 @@ For a stable top result I order by the score and a unique key. Without ORDER BY 
 
 ORDER BY 定义结果顺序。需要唯一首行或分页时，加稳定的并列排序键，不能依赖数据库偶然返回顺序。
 
-[深入材料与练习](Study%20topics/order-by.html)
+[深入材料与练习](../Study%20topics/order-by.html)
 
 
 ## LIMIT
@@ -1257,7 +1257,7 @@ LIMIT controls result size but does not guarantee a cheap scan. I inspect the pl
 
 LIMIT 限制输出行数，但不保证扫描成本低。先确定排序，再检查执行计划；深分页可考虑基于键的分页。
 
-[深入材料与练习](Study%20topics/limit.html)
+[深入材料与练习](../Study%20topics/limit.html)
 
 
 ## NULL
@@ -1291,7 +1291,7 @@ I use IS NULL, not equality to NULL. COUNT(column) skips nulls while COUNT(*) co
 
 NULL 表示缺失或未知，普通比较可能返回未知。用 IS NULL 检查；COUNT(*) 与 COUNT(column) 对 NULL 的处理不同。
 
-[深入材料与练习](Study%20topics/null.html)
+[深入材料与练习](../Study%20topics/null.html)
 
 
 ## GROUP BY
@@ -1325,7 +1325,7 @@ I decide the desired result grain before grouping. Joining two fact tables first
 
 GROUP BY 按键聚合行。先定义分组粒度，再选择聚合函数；错误连接可能在聚合前把数值重复放大。
 
-[深入材料与练习](Study%20topics/group-by.html)
+[深入材料与练习](../Study%20topics/group-by.html)
 
 
 ## HAVING
@@ -1359,7 +1359,7 @@ WHERE filters individual rows and HAVING filters the computed group. To find cla
 
 HAVING 过滤分组后的结果，例如总金额超过阈值的组合。能在行层过滤的条件一般写在 WHERE。
 
-[深入材料与练习](Study%20topics/having.html)
+[深入材料与练习](../Study%20topics/having.html)
 
 
 ## CASE
@@ -1393,7 +1393,7 @@ I use CASE for explicit categories and conditional aggregation. I include an ELS
 
 CASE 根据条件返回不同值，可实现条件分类或条件聚合。分支按顺序判断，明确 ELSE 和 NULL 行为。
 
-[深入材料与练习](Study%20topics/case.html)
+[深入材料与练习](../Study%20topics/case.html)
 
 
 ## JOINs
@@ -1427,7 +1427,7 @@ I check whether the join keys are unique on each side. A LEFT JOIN retains unmat
 
 JOIN 按条件连接表。先检查两侧键是否唯一以及一对多关系；LEFT JOIN 保留左侧未匹配行，但后续过滤仍可能删除它们。
 
-[深入材料与练习](Study%20topics/joins.html)
+[深入材料与练习](../Study%20topics/joins.html)
 
 
 ## Subqueries
@@ -1461,7 +1461,7 @@ I verify whether the subquery can return multiple rows and whether it is correla
 
 子查询把一个查询结果用于另一个查询。区分标量、集合和相关子查询，检查返回多行、NULL 与性能行为。
 
-[深入材料与练习](Study%20topics/subqueries.html)
+[深入材料与练习](../Study%20topics/subqueries.html)
 
 
 ## CTEs
@@ -1495,7 +1495,7 @@ I use CTEs to separate filtering, aggregation and ranking. They improve readabil
 
 CTE 用 WITH 给中间查询命名，帮助组织复杂逻辑。可读性提高不等于执行更快，是否物化及优化行为要看数据库版本和计划。
 
-[深入材料与练习](Study%20topics/ctes.html)
+[深入材料与练习](../Study%20topics/ctes.html)
 
 
 ## EXISTS
@@ -1529,7 +1529,7 @@ For an anti-join I prefer NOT EXISTS when nulls are possible. NOT IN can become 
 
 EXISTS 判断是否存在匹配行，适合存在性过滤，避免为取右侧列而制造重复。NOT EXISTS 与带 NULL 的 NOT IN 行为不同。
 
-[深入材料与练习](Study%20topics/exists.html)
+[深入材料与练习](../Study%20topics/exists.html)
 
 
 ## Window Functions
@@ -1563,7 +1563,7 @@ I distinguish PARTITION BY from ORDER BY and specify the frame when rolling sema
 
 窗口函数在保留原行的同时计算分组或排序后的指标。明确 PARTITION、ORDER BY 和窗口范围；它不同于 GROUP BY 压缩行数。
 
-[深入材料与练习](Study%20topics/window-functions.html)
+[深入材料与练习](../Study%20topics/window-functions.html)
 
 
 ## ROW_NUMBER
@@ -1597,7 +1597,7 @@ I use ROW_NUMBER for one deterministic row per group and add a unique tie breake
 
 ROW_NUMBER 为窗口内每行编号。若必须选唯一一行，需要稳定的并列排序键，否则同分行顺序可能不确定。
 
-[深入材料与练习](Study%20topics/row-number.html)
+[深入材料与练习](../Study%20topics/row-number.html)
 
 
 ## RANK
@@ -1631,7 +1631,7 @@ For scores 100,100,90, RANK returns 1,1,3. I clarify whether the request means t
 
 RANK 对并列值给相同名次，后续名次留空，例如 1、1、3。适合允许并列排名的业务要求。
 
-[深入材料与练习](Study%20topics/rank.html)
+[深入材料与练习](../Study%20topics/rank.html)
 
 
 ## DENSE_RANK
@@ -1665,7 +1665,7 @@ For the top three distinct salaries I use DENSE_RANK per department and filter r
 
 DENSE_RANK 对并列值给相同名次但不跳号，例如 1、1、2。明确要求是第几个不同分值还是第几行。
 
-[深入材料与练习](Study%20topics/dense-rank.html)
+[深入材料与练习](../Study%20topics/dense-rank.html)
 
 
 ## LAG
@@ -1699,7 +1699,7 @@ LAG means the previous observed row, not necessarily yesterday. I check date gap
 
 LAG 读取有序窗口中的前一行或指定偏移行。它不是默认前一个自然日，缺日期时需先说明日历和数据粒度。
 
-[深入材料与练习](Study%20topics/lag.html)
+[深入材料与练习](../Study%20topics/lag.html)
 
 
 ## LEAD
@@ -1733,7 +1733,7 @@ LEAD can construct a future label for offline training, but that column must nev
 
 LEAD 读取窗口中的后一行。预测特征中使用未来行会造成泄漏，但构造未来标签时可以使用，须明确可用时间。
 
-[深入材料与练习](Study%20topics/lead.html)
+[深入材料与练习](../Study%20topics/lead.html)
 
 
 ## Rolling Aggregations
@@ -1767,7 +1767,7 @@ ROWS counts observed records; RANGE follows ordered values. I first aggregate to
 
 滚动聚合计算窗口内的和或均值。ROWS 按行数，RANGE 按排序值范围；缺日期和并列时间可能改变结果。
 
-[深入材料与练习](Study%20topics/rolling-aggregations.html)
+[深入材料与练习](../Study%20topics/rolling-aggregations.html)
 
 
 ## Date Queries
@@ -1801,7 +1801,7 @@ I use half-open intervals for timestamps so adjacent periods do not overlap. Tra
 
 日期查询要明确时区、边界与业务日期，常用半开区间。筛选交易日还是自然日必须与任务一致。
 
-[深入材料与练习](Study%20topics/date-queries.html)
+[深入材料与练习](../Study%20topics/date-queries.html)
 
 
 ## Transactions
@@ -1835,7 +1835,7 @@ For job submission I insert the run and its outbox event in one transaction. Iso
 
 事务把一组操作作为一致的逻辑单元提交或回滚。隔离级别影响并发读写；事务不能自动解决跨外部服务的副作用。
 
-[深入材料与练习](Study%20topics/transactions.html)
+[深入材料与练习](../Study%20topics/transactions.html)
 
 
 ## Constraints
@@ -1869,7 +1869,7 @@ I use uniqueness for idempotency keys, NOT NULL for required data and checks for
 
 约束把非空、唯一、引用和检查规则交给数据库执行。应用校验不能完全替代数据库约束，尤其在并发写入时。
 
-[深入材料与练习](Study%20topics/constraints.html)
+[深入材料与练习](../Study%20topics/constraints.html)
 
 
 ## Parameterized Queries
@@ -1903,7 +1903,7 @@ I bind values using the driver rather than formatting strings. Identifiers such 
 
 参数化查询把数据值与 SQL 结构分开，降低注入风险。表名、列名等标识符通常需单独白名单处理。
 
-[深入材料与练习](Study%20topics/parameterized-queries.html)
+[深入材料与练习](../Study%20topics/parameterized-queries.html)
 
 
 ## PostgreSQL Schema Design
@@ -1937,7 +1937,7 @@ I separate immutable experiment configuration from mutable execution state and a
 
 数据库设计先定义实体、行粒度和查询需求，再选择键、类型、约束和索引。常查字段应有清晰结构，不能把所有不变量藏进 JSON。
 
-[深入材料与练习](Study%20topics/postgresql-schema-design.html)
+[深入材料与练习](../Study%20topics/postgresql-schema-design.html)
 
 
 ## Primary and Foreign Keys
@@ -1971,7 +1971,7 @@ A foreign key prevents an orphan prediction but does not guarantee the predictio
 
 主键唯一标识行，外键保证引用有效。它们不自动定义所有业务唯一性，必要时另加唯一约束。
 
-[深入材料与练习](Study%20topics/primary-and-foreign-keys.html)
+[深入材料与练习](../Study%20topics/primary-and-foreign-keys.html)
 
 
 ## Indexes
@@ -2005,7 +2005,7 @@ I start from the query predicate and ordering. A composite index beginning with 
 
 索引可以加速部分查询，但占空间并增加写入成本。选择顺序需考虑过滤和排序条件，以实际查询计划验证。
 
-[深入材料与练习](Study%20topics/indexes.html)
+[深入材料与练习](../Study%20topics/indexes.html)
 
 
 ## EXPLAIN
@@ -2039,7 +2039,7 @@ I compare estimated and actual row counts, scans, joins and sorts. EXPLAIN ANALY
 
 EXPLAIN 显示查询计划，EXPLAIN ANALYZE 会实际执行。检查扫描、连接、估算与实际行数；修改型语句需特别谨慎。
 
-[深入材料与练习](Study%20topics/explain.html)
+[深入材料与练习](../Study%20topics/explain.html)
 
 
 ## Query Optimization
@@ -2073,7 +2073,7 @@ I inspect the plan, reduce unnecessary columns and rows, verify join grain, and 
 
 查询优化从真实慢查询和执行计划开始，检查连接粒度、统计信息、索引和扫描量。修改前后验证结果一致和延迟变化。
 
-[深入材料与练习](Study%20topics/query-optimization.html)
+[深入材料与练习](../Study%20topics/query-optimization.html)
 
 
 ## Run Analytics
@@ -2107,7 +2107,7 @@ I separate attempts from logical runs so retries do not inflate success counts. 
 
 运行分析按请求、运行或尝试的明确粒度统计成功率、重试和成本。失败尝试不能被覆盖，否则指标会过于乐观。
 
-[深入材料与练习](Study%20topics/run-analytics.html)
+[深入材料与练习](../Study%20topics/run-analytics.html)
 
 
 ## Percentiles
@@ -2141,7 +2141,7 @@ I report p95 with sample size and the measurement window. Averaging per-shard p9
 
 百分位表示分布中的位置，例如 p95 表示约 95% 观测不超过该值。说明样本、窗口和算法，不能平均不同组的 p95 来得到整体 p95。
 
-[深入材料与练习](Study%20topics/percentiles.html)
+[深入材料与练习](../Study%20topics/percentiles.html)
 
 
 ## Financial Analytics
@@ -2175,7 +2175,7 @@ Before comparing revenue I align fiscal periods and units and specify the filing
 
 金融查询先确认币种、单位、期间和版本，再聚合。相同财务项的不同披露版本不能随意相加，避免连接放大和未来信息泄漏。
 
-[深入材料与练习](Study%20topics/financial-analytics.html)
+[深入材料与练习](../Study%20topics/financial-analytics.html)
 
 
 ## Train / Validation / Test Split
@@ -2210,7 +2210,7 @@ I fit parameters on training data, choose configurations on validation data, and
 
 训练集用于学习参数，验证集用于选择模型和设置，测试集用于最终样本外评估。反复看测试结果再修改模型，会把测试集变成验证集。金融数据还需遵守时间和标签可用性。
 
-[深入材料与练习](Study%20topics/train-validation-test-split.html)
+[深入材料与练习](../Study%20topics/train-validation-test-split.html)
 
 
 ## Supervised and Unsupervised Learning; Baselines
@@ -2245,7 +2245,7 @@ Supervised learning uses a specified target; clustering groups features without 
 
 监督学习用输入和已知目标学习预测关系；非监督学习在没有目标标签时寻找结构。回归预测数值，分类预测类别；先定义业务目标再选方法。 基线是简单可比较的方案，例如预测历史均值或使用过去波动率。复杂模型必须在相同样本和指标下与基线比较；不能默认复杂就更好。
 
-[深入材料与练习](Study%20topics/supervised-and-unsupervised-learning-baselines.html)
+[深入材料与练习](../Study%20topics/supervised-and-unsupervised-learning-baselines.html)
 
 
 ## Data Leakage; Scaling; scikit-learn Pipelines
@@ -2280,7 +2280,7 @@ Leakage uses information unavailable at prediction time or allows held-out data 
 
 泄漏是训练或选择模型时用了预测时不应知道的信息。包括未来数据、测试标签或在全数据上拟合预处理。先划分，再只在训练数据上拟合变换。 缩放调整特征尺度，例如标准化减去训练均值并除以训练标准差。对 Ridge、Lasso 等尺度敏感方法很重要；测试数据使用训练得到的变换。 Pipeline 将预处理和模型串成统一对象，让交叉验证每个训练折分别拟合变换。它能减少预处理泄漏，但不能修复本身含未来信息的特征。
 
-[深入材料与练习](Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html)
+[深入材料与练习](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html)
 
 
 ## MAE; RMSE
@@ -2315,7 +2315,7 @@ MAE averages absolute error in target units. RMSE takes the square root of avera
 
 MAE 是预测误差绝对值的平均，单位与目标相同。可直观描述平均偏差，但不体现方向，需结合业务损失判断是否合适。 RMSE 是平方误差均值的平方根，单位与目标相同。它比 MAE 更强调大误差，但不是任何任务都应该优先选它。
 
-[深入材料与练习](Study%20topics/mae-rmse.html)
+[深入材料与练习](../Study%20topics/mae-rmse.html)
 
 
 ## Bias-Variance; Overfitting; Regularization; Linear Regression
@@ -2350,7 +2350,7 @@ An overly flexible model can fit noise; an overly restricted model misses struct
 
 偏差表示方法的系统性近似误差，方差表示模型对训练样本变化的敏感度。太简单可能欠拟合，太灵活可能过拟合，需用样本外验证比较。 过拟合是把训练数据的噪声也学进去，训练表现好但新数据差。可用合理验证、正则化和复杂度控制缓解，不只看训练误差。 正则化在拟合损失之外增加约束或惩罚，抑制过于灵活的模型。Ridge 使用 L2，Lasso 使用 L1 并可让部分系数为零；强度要在验证数据上选择。 线性回归用特征的加权和加截距预测连续数值，训练时学习这些权重。它是模型；train/validation/test 是评估流程，不是另一种模型。
 
-[深入材料与练习](Study%20topics/bias-variance-overfitting-regularization-linear-regression.html)
+[深入材料与练习](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html)
 
 
 ## Logistic Regression; Precision; Recall; F1; Class Imbalance
@@ -2385,7 +2385,7 @@ Precision asks how many predicted positives are truly positive; recall asks how 
 
 逻辑回归虽然名字含 regression，通常用于分类。它将线性分数经 sigmoid 转为二分类概率，用对数损失学习参数，再用阈值作类别决策。 Precision 是判为正类的样本中真正为正类的比例，TP/(TP+FP)。它反映误报情况，需说明正类、阈值和分母为零时约定。 分类 Recall 是所有真正正类中被找到的比例，TP/(TP+FN)。它反映漏报情况，与检索 Recall@k 的任务和分母定义不同。 F1 是 precision 和 recall 的调和平均，2PR/(P+R)。它忽略真负例，是否适合取决于业务代价，不能替代完整误差分析。 类别不平衡时准确率可能误导。检查 precision、recall 和 PR 指标，阈值或类别权重在开发数据上选择；重采样只能在训练数据中进行。
 
-[深入材料与练习](Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html)
+[深入材料与练习](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html)
 
 
 ## PR-AUC; ROC-AUC; Calibration
@@ -2420,7 +2420,7 @@ ROC-AUC summarizes positive-negative ranking. Precision-recall measures emphasiz
 
 精确率召回曲线比较不同阈值下的误报与覆盖取舍，受正类比例影响。Average Precision 和梯形积分 PR-AUC 不是必然相同的计算方式。 ROC-AUC 衡量正类相对负类的排序表现，基于 TPR 和 FPR。它不证明概率校准良好，严重类别不平衡时还要看 PR 和业务阈值。 校准检查预测概率是否与实际频率一致，例如预测 0.7 的样本是否约 70% 为正类。排序准确不等于校准良好，校准不能在最终测试集上拟合。
 
-[深入材料与练习](Study%20topics/pr-auc-roc-auc-calibration.html)
+[深入材料与练习](../Study%20topics/pr-auc-roc-auc-calibration.html)
 
 
 ## Decision Trees; Random Forests; Gradient Boosting
@@ -2455,7 +2455,7 @@ Trees partition feature space; depth controls flexibility. Random forests averag
 
 决策树按特征条件逐步切分空间，叶节点输出数值或类别。深度过大容易过拟合，要在验证数据上选择复杂度。 随机森林把多个经过样本和特征随机化的树进行平均或投票，主要减少方差。它不是保证优于其他模型，仍需样本外比较。 梯度提升依次加入模型以改进当前损失，常用浅树拟合负梯度信号。学习率和树数量控制拟合过程，过多迭代也可能过拟合。
 
-[深入材料与练习](Study%20topics/decision-trees-random-forests-gradient-boosting.html)
+[深入材料与练习](../Study%20topics/decision-trees-random-forests-gradient-boosting.html)
 
 
 ## Cross-Validation; Hyperparameter Tuning
@@ -2490,7 +2490,7 @@ Cross-validation estimates variation across appropriate held-out folds. Hyperpar
 
 交叉验证用多个合适的训练／验证折比较方法与波动。独立样本可考虑 K-fold；时间序列需保持时间顺序，最终测试与选择过程分开。 超参数是训练前指定的配置，如 Ridge 强度、树深度。使用开发验证或交叉验证搜索；不是直接从最终测试结果选最好的设置。
 
-[深入材料与练习](Study%20topics/cross-validation-hyperparameter-tuning.html)
+[深入材料与练习](../Study%20topics/cross-validation-hyperparameter-tuning.html)
 
 
 ## Feature Engineering; Interpretability; Feature Importance
@@ -2525,7 +2525,7 @@ Features encode information available at decision time. Permutation importance m
 
 特征工程把原始信息转为模型输入，如历史收益和过去波动率。必须明确预测时这些信息是否可知，拟合型变换只用训练数据。 可解释性帮助理解模型如何关联输入与输出。线性系数、局部解释和置换重要性各有条件，相关性和模型解释不自动证明因果。 特征重要性依赖模型、数据和指标。置换重要性看打乱某特征后样本外性能变化；相关特征可能互相替代，重要性不是固有因果排名。
 
-[深入材料与练习](Study%20topics/feature-engineering-interpretability-feature-importance.html)
+[深入材料与练习](../Study%20topics/feature-engineering-interpretability-feature-importance.html)
 
 
 ## Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons
@@ -2560,7 +2560,7 @@ A forecast made after close t may use returns through t. Its next-five-return la
 
 时间序列划分用较早数据训练，较晚数据验证或测试。所有训练标签必须在预测时已获得，不能只按输入日期排序而忽略标签结束时间。 滚动向前验证模拟多个历史预测时点，每次只用当时已可知的数据。可用扩展窗口或固定长度窗口，明确模型更新频率。 时间泄漏是使用预测时尚未知的未来信息，包括未公布报表、未来收益和未结束标签。记录事件日期和实际公布／可用日期。 预测期限定义目标覆盖哪段未来，如未来五日波动率。标签要等该期限结束才可用，重叠标签还会造成误差相关。
 
-[深入材料与练习](Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html)
+[深入材料与练习](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html)
 
 
 ## Volatility Forecasting; Out-of-Sample Evaluation
@@ -2595,7 +2595,7 @@ Use annualized root-mean-square daily returns: target(t)=sqrt(252*mean(r[t+1:t+6
 
 先定义波动率目标和时点，再与过去波动率基线比较。讲义的目标是未来五个日收益平方均值开根号后年化，不是自动等于任意波动率估计量。 样本外评估用未参与拟合的案例评价泛化；最终测试还不能参与模型选择。金融数据须保证可用时间，报告基线、各资产结果和不确定性。
 
-[深入材料与练习](Study%20topics/volatility-forecasting-out-of-sample-evaluation.html)
+[深入材料与练习](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html)
 
 
 ## Regime Changes; Statistical Uncertainty; Prediction Intervals
@@ -2630,7 +2630,7 @@ A mean metric can hide changing error regimes. Overlapping forecast labels creat
 
 市场状态变化可能改变特征和目标关系，平均误差会掩盖局部失效。分时期评估，检查样本量和标签可用性，不凭一次变化就自动重训。 有限样本指标有不确定性，金融序列和重叠标签往往相关。区块重采样等方法也依赖假设和区块长度，不能把折间标准差直接当置信区间。 预测区间描述未来观测可能范围，区别于参数或均值的置信区间。覆盖率与假设有关，市场分布改变可能使历史校准失效。
 
-[深入材料与练习](Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html)
+[深入材料与练习](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html)
 
 
 ## Reproducibility; Model Versioning; Serving; Rollback
@@ -2665,7 +2665,7 @@ A deployed model needs a versioned preprocessing contract, model artifact, data 
 
 可复现需要记录代码、数据、依赖、随机性和配置。固定种子有帮助，但不同硬件和数值执行仍可能不同；复现不等于实证有效。 模型版本需关联训练数据、预处理、特征顺序、配置和代码。单独保存权重不足以可靠重现预测，需验证完整输入契约。 模型服务把经过校验的输入转为预测结果。训练和推理须使用一致预处理、特征顺序与单位，并有版本、异常和监控记录。 回滚应同步恢复模型、预处理及兼容输入接口，明确触发条件和可恢复版本。只换模型文件可能造成特征不一致。
 
-[深入材料与练习](Study%20topics/reproducibility-model-versioning-serving-rollback.html)
+[深入材料与练习](../Study%20topics/reproducibility-model-versioning-serving-rollback.html)
 
 
 ## Drift; Retraining
@@ -2700,7 +2700,7 @@ Input drift is a distribution change; performance drift requires outcomes. A dri
 
 输入漂移是特征分布变化，性能漂移需真实结果才能确认。漂移警报应触发数据与误差调查，不自动证明模型变差。 重训练需有数据质量、标签可用性和性能证据，并按同一验证协议比较候选模型。未经验证直接替换可能使系统更差。
 
-[深入材料与练习](Study%20topics/drift-retraining.html)
+[深入材料与练习](../Study%20topics/drift-retraining.html)
 
 
 ## Requirements and API Design
@@ -2735,7 +2735,7 @@ Client → API validation → Run database → Worker → Result store → Statu
 
 先确认用户、负载和业务约束，再定义资源、状态与API契约。耗时研究任务返回任务ID，由用户查询状态；说明认证、错误和幂等规则。
 
-[深入材料与练习](Study%20topics/requirements-and-api-design.html)
+[深入材料与练习](../Study%20topics/requirements-and-api-design.html)
 
 
 ## Data Modeling and Indexes
@@ -2770,7 +2770,7 @@ API → Runs and Attempts → Predictions and Metrics → Query API Use foreign 
 
 先确定实体、每行粒度及常用查询，再设计主外键、约束和索引。用实际查询计划验证索引收益，同时考虑写入与存储成本。
 
-[深入材料与练习](Study%20topics/data-modeling-and-indexes.html)
+[深入材料与练习](../Study%20topics/data-modeling-and-indexes.html)
 
 
 ## Cache and API Service
@@ -2805,7 +2805,7 @@ Client → Auth API → Versioned Cache → Report Service → Source data Key b
 
 缓存键包含数据版本、查询参数与权限范围，定义过期和失效策略。冷缓存及依赖失败时需限制负载，避免缓存击穿。
 
-[深入材料与练习](Study%20topics/cache-and-api-service.html)
+[深入材料与练习](../Study%20topics/cache-and-api-service.html)
 
 
 ## Queues and Job Scheduler
@@ -2840,7 +2840,7 @@ API → Transactional Run and Outbox → Dispatcher → Queue → Worker → Res
 
 提交任务和outbox记录应在同一事务中写入，再异步派发。worker使用租约和幂等提交处理重复投递、进程崩溃与恢复。
 
-[深入材料与练习](Study%20topics/queues-and-job-scheduler.html)
+[深入材料与练习](../Study%20topics/queues-and-job-scheduler.html)
 
 
 ## Rate Limiting and Capacity
@@ -2875,7 +2875,7 @@ Client → Auth → Admission Limiter → Bounded Queue → Model Provider Use t
 
 分别限制到达速率和正在执行的请求数。平均并发约等于到达速率乘服务时间，还需峰值余量；限制队列长度和等待时间。
 
-[深入材料与练习](Study%20topics/rate-limiting-and-capacity.html)
+[深入材料与练习](../Study%20topics/rate-limiting-and-capacity.html)
 
 
 ## Retries, Idempotency and Consistency
@@ -2910,7 +2910,7 @@ Client → Idempotency Ledger → Transaction → Outbox → Worker → Result C
 
 幂等键绑定请求内容，重复提交返回原状态或结果。暂时失败采用有次数限制的退避重试；超时不能证明远端没有成功。
 
-[深入材料与练习](Study%20topics/retries-idempotency-and-consistency.html)
+[深入材料与练习](../Study%20topics/retries-idempotency-and-consistency.html)
 
 
 ## Latency and Observability
@@ -2945,7 +2945,7 @@ Client span → API span → Retrieval span → Tool span → Model span → Rep
 
 用请求关联ID、日志、指标和追踪定位各环节耗时，观察p50和p95。定义可采取行动的告警，并保护敏感数据。
 
-[深入材料与练习](Study%20topics/latency-and-observability.html)
+[深入材料与练习](../Study%20topics/latency-and-observability.html)
 
 
 ## CI/CD and AWS Deployment
@@ -2980,7 +2980,7 @@ GitHub Actions → OIDC role → ECR image → ECS Fargate → CloudWatch Separa
 
 自动验证代码后构建版本化镜像，使用最小权限部署并做健康检查。保留可回滚版本，验证环境配置与应用兼容性。
 
-[深入材料与练习](Study%20topics/ci-cd-and-aws-deployment.html)
+[深入材料与练习](../Study%20topics/ci-cd-and-aws-deployment.html)
 
 
 ## Financial Research RAG
@@ -3015,7 +3015,7 @@ Ingestion → Versioned Chunks → Hybrid Retrieval → Reranker → Grounded Ge
 
 按实体、期间和权限检索财务证据，保留原始位置与单位。生成答案前检查证据充足性，输出可核验引用并在不足时拒答。
 
-[深入材料与练习](Study%20topics/financial-research-rag.html)
+[深入材料与练习](../Study%20topics/financial-research-rag.html)
 
 
 ## RAG Evaluation and Retrieval Trade-offs
@@ -3050,7 +3050,7 @@ Labeled Queries → Retrieval Configs → Ranked Results → Retrieval Metrics �
 
 建立标注查询与相关证据集，分别测量召回、排序、重复及答案依据。分块、MMR和重排序的收益必须与延迟、成本和覆盖损失一起比较。
 
-[深入材料与练习](Study%20topics/rag-evaluation-and-retrieval-trade-offs.html)
+[深入材料与练习](../Study%20topics/rag-evaluation-and-retrieval-trade-offs.html)
 
 
 ## Financial Text-to-SQL
@@ -3085,7 +3085,7 @@ Question → Semantic Context → Structured SQL Proposal → Policy Validation 
 
 提供受控schema与业务口径，验证SQL后以只读、限时和限量权限执行。结果核对单位、日期与连接粒度，无法明确的问题先澄清。
 
-[深入材料与练习](Study%20topics/financial-text-to-sql.html)
+[深入材料与练习](../Study%20topics/financial-text-to-sql.html)
 
 
 ## Text-to-SQL Evaluation and Data Quality
@@ -3120,7 +3120,7 @@ SEC Snapshot → Curated Tables → Reference SQL → Assistant SQL → Result C
 
 以执行结果和业务语义评估SQL，同时测试权限、成本和拒答。空值、重复、单位与时点问题应有明确数据检查。
 
-[深入材料与练习](Study%20topics/text-to-sql-evaluation-and-data-quality.html)
+[深入材料与练习](../Study%20topics/text-to-sql-evaluation-and-data-quality.html)
 
 
 ## Agents with Human Approval
@@ -3155,7 +3155,7 @@ User → Planner → Tool Schema Validation → Approval Record → Authorized E
 
 模型提出操作后，服务端先检查契约与权限；高影响操作展示具体参数供人批准。批准与操作内容绑定，记录审计并避免重复执行。
 
-[深入材料与练习](Study%20topics/agents-with-human-approval.html)
+[深入材料与练习](../Study%20topics/agents-with-human-approval.html)
 
 
 ## Agent Memory and Tool Contracts
@@ -3190,7 +3190,7 @@ Conversation → Scoped State → Tool Router → Validated Tool → Result Stat
 
 定义工具参数、错误与副作用，区分可信状态和外部文本。记忆需要权限、版本和保留期，不能自动升级为可信指令。
 
-[深入材料与练习](Study%20topics/agent-memory-and-tool-contracts.html)
+[深入材料与练习](../Study%20topics/agent-memory-and-tool-contracts.html)
 
 
 ## AI-Assisted Experiment Platform
@@ -3225,7 +3225,7 @@ Intent → Validated Config → Runs and Outbox → Queue → Deterministic Work
 
 实验记录数据、代码、模型、参数与指标版本。任务运行应可恢复、可复现，并将AI建议与实际执行权限分开控制。
 
-[深入材料与练习](Study%20topics/ai-assisted-experiment-platform.html)
+[深入材料与练习](../Study%20topics/ai-assisted-experiment-platform.html)
 
 
 ## Volatility Forecasting Service
@@ -3260,7 +3260,7 @@ Point-in-Time Features → Purged Walk-Forward Training → Model Registry → P
 
 使用时点正确的特征和时间顺序验证，与合理金融基线比较。训练与服务保持预处理一致，监控预测误差、延迟和漂移并支持回滚。
 
-[深入材料与练习](Study%20topics/volatility-forecasting-service.html)
+[深入材料与练习](../Study%20topics/volatility-forecasting-service.html)
 
 
 ## Evaluation and Regression Pipeline
@@ -3295,7 +3295,7 @@ Versioned Dataset → Candidate Build → Offline Tests → Model Evals → Huma
 
 用固定案例检查每次提示、检索或模型变更，再用独立测试估计效果。设置质量门槛和失败分类，防止平均分掩盖严重错误。
 
-[深入材料与练习](Study%20topics/evaluation-and-regression-pipeline.html)
+[深入材料与练习](../Study%20topics/evaluation-and-regression-pipeline.html)
 
 
 ## AI Latency and Cost Budget
@@ -3330,7 +3330,7 @@ Request Classifier → Scoped Cache → Model Router → Parallel Safe Tools →
 
 分解检索、工具、模型及排队耗时，记录token和实际费用。缓存、路由和流式输出要在质量门槛下验证收益。
 
-[深入材料与练习](Study%20topics/ai-latency-and-cost-budget.html)
+[深入材料与练习](../Study%20topics/ai-latency-and-cost-budget.html)
 
 
 ## AI Security and Reliability
@@ -3365,7 +3365,7 @@ Untrusted Input → Authenticated Scope → Retrieval Filter → Tool Policy →
 
 对检索和工具落实权限、租户隔离和资源限制，外部文本只作数据。测试注入、敏感数据泄露和依赖失败，明确安全降级行为。
 
-[深入材料与练习](Study%20topics/ai-security-and-reliability.html)
+[深入材料与练习](../Study%20topics/ai-security-and-reliability.html)
 
 
 ## Transfer Mock: Contract Review Assistant
@@ -3400,7 +3400,7 @@ Upload → Authorized Parsing → Clause Retrieval → Structured Findings → H
 
 先明确合同审阅范围与风险类别，检索并引用条款，区分证据与建议。保护敏感合同，对重要决策保留人工复核及审计。
 
-[深入材料与练习](Study%20topics/transfer-mock-contract-review-assistant.html)
+[深入材料与练习](../Study%20topics/transfer-mock-contract-review-assistant.html)
 
 
 ## Tokenization
@@ -3434,7 +3434,7 @@ Text is converted into token IDs; tokens need not correspond to words. I measure
 
 文本被转换成token编号；token不等于单词。实际token数决定输入长度和计费，应使用所选模型的分词器计数。
 
-[深入材料与练习](Study%20topics/tokenization.html)
+[深入材料与练习](../Study%20topics/tokenization.html)
 
 
 ## Next-Token Prediction
@@ -3468,7 +3468,7 @@ An autoregressive language model predicts a distribution for the next token cond
 
 模型根据已有文本预测下一个token的概率。生成流畅不代表事实正确，也不能代替权限检查。
 
-[深入材料与练习](Study%20topics/next-token-prediction.html)
+[深入材料与练习](../Study%20topics/next-token-prediction.html)
 
 
 ## Context Windows
@@ -3502,7 +3502,7 @@ The context budget includes relevant input and generated output under the provid
 
 上下文窗口限制模型一次处理的内容。输入、检索证据和输出需共同规划；更长上下文不保证回答更好。
 
-[深入材料与练习](Study%20topics/context-windows.html)
+[深入材料与练习](../Study%20topics/context-windows.html)
 
 
 ## Temperature
@@ -3536,7 +3536,7 @@ Temperature rescales logits before sampling. Lower values usually concentrate pr
 
 温度调整采样概率分布，低温通常更集中。温度为零也不保证跨服务版本完全一致。
 
-[深入材料与练习](Study%20topics/temperature.html)
+[深入材料与练习](../Study%20topics/temperature.html)
 
 
 ## Top-p
@@ -3570,7 +3570,7 @@ Nucleus sampling retains a probability-mass prefix of candidate tokens. I usuall
 
 Top-p保留累计概率达到阈值的一组候选token。应一次调整一个采样参数并验证效果。
 
-[深入材料与练习](Study%20topics/top-p.html)
+[深入材料与练习](../Study%20topics/top-p.html)
 
 
 ## Transformer and Attention Fundamentals
@@ -3604,7 +3604,7 @@ Attention mixes token representations using compatibility scores between queries
 
 注意力通过query与key的匹配分数加权value表示。自回归模型用因果遮罩防止读取未来token。
 
-[深入材料与练习](Study%20topics/transformer-and-attention-fundamentals.html)
+[深入材料与练习](../Study%20topics/transformer-and-attention-fundamentals.html)
 
 
 ## LLM Limitations
@@ -3638,7 +3638,7 @@ A model can produce plausible unsupported details, mishandle numbers and follow 
 
 模型可能编造事实、算错数字或受到恶意文本影响。引用证据、确定性计算工具及失败测试共同降低风险。
 
-[深入材料与练习](Study%20topics/llm-limitations.html)
+[深入材料与练习](../Study%20topics/llm-limitations.html)
 
 
 ## Model Selection
@@ -3672,7 +3672,7 @@ I compare candidates on the actual task, latency, cost, context needs and data c
 
 在实际任务上比较质量、延迟、成本和数据约束。公开榜单不能直接证明金融任务表现。
 
-[深入材料与练习](Study%20topics/model-selection.html)
+[深入材料与练习](../Study%20topics/model-selection.html)
 
 
 ## Prompt Engineering
@@ -3706,7 +3706,7 @@ I specify the task, inputs, output schema and constraints, then test the prompt 
 
 提示应说明任务、输入、输出格式和限制，并用真实及对抗案例验证。提示不能替代缺失数据或服务端校验。
 
-[深入材料与练习](Study%20topics/prompt-engineering.html)
+[深入材料与练习](../Study%20topics/prompt-engineering.html)
 
 
 ## Few-Shot Examples
@@ -3740,7 +3740,7 @@ Examples demonstrate the intended mapping and edge cases. I include representati
 
 少量示例展示输入到输出的映射，包含模糊情况和拒答边界。示例须版本化，不能泄露测试答案。
 
-[深入材料与练习](Study%20topics/few-shot-examples.html)
+[深入材料与练习](../Study%20topics/few-shot-examples.html)
 
 
 ## Prompt Versioning
@@ -3774,7 +3774,7 @@ I record prompt text, examples, model configuration and tool schema as a version
 
 记录提示版本、模型、配置与评估结果，才能定位变更造成的退化并回滚。
 
-[深入材料与练习](Study%20topics/prompt-versioning.html)
+[深入材料与练习](../Study%20topics/prompt-versioning.html)
 
 
 ## Structured Outputs
@@ -3808,7 +3808,7 @@ A schema constrains the output shape, but valid JSON can still contain false or 
 
 结构化输出约束格式，但格式正确不等于内容正确。仍须检查字段、数值和业务约束。
 
-[深入材料与练习](Study%20topics/structured-outputs.html)
+[深入材料与练习](../Study%20topics/structured-outputs.html)
 
 
 ## Pydantic
@@ -3842,7 +3842,7 @@ Typed validation converts boundary data into a checked contract. I decide explic
 
 Pydantic验证数据类型及约束，适合定义API和工具输入输出。业务规则仍需显式实现。
 
-[深入材料与练习](Study%20topics/pydantic.html)
+[深入材料与练习](../Study%20topics/pydantic.html)
 
 
 ## JSON Recovery
@@ -3876,7 +3876,7 @@ On malformed output I prefer a bounded retry or explicit error over silently gue
 
 解析失败时可有次数受限的修复流程。不能静默改动金融数值，失败应保留诊断并明确返回。
 
-[深入材料与练习](Study%20topics/json-recovery.html)
+[深入材料与练习](../Study%20topics/json-recovery.html)
 
 
 ## Prompting vs. RAG vs. Fine-Tuning
@@ -3910,7 +3910,7 @@ I use prompting for instruction and format, retrieval for external changing evid
 
 提示定义任务，RAG提供可更新证据，微调改变模型行为。根据失败来源选择方案，先建立可测量的基线。
 
-[深入材料与练习](Study%20topics/prompting-vs-rag-vs-fine-tuning.html)
+[深入材料与练习](../Study%20topics/prompting-vs-rag-vs-fine-tuning.html)
 
 
 ## LoRA
@@ -3944,7 +3944,7 @@ Low-rank adaptation learns a small parameter update while keeping base weights l
 
 LoRA训练低秩适配参数以减少可训练参数。仍需要合格训练数据、评估和部署兼容性检查。
 
-[深入材料与练习](Study%20topics/lora.html)
+[深入材料与练习](../Study%20topics/lora.html)
 
 
 ## Quantization
@@ -3978,7 +3978,7 @@ Lower-precision weights can reduce memory and sometimes inference cost. Hardware
 
 量化降低权重或计算精度以节省内存和可能的成本。须验证实际硬件上的速度及质量变化。
 
-[深入材料与练习](Study%20topics/quantization.html)
+[深入材料与练习](../Study%20topics/quantization.html)
 
 
 ## Embeddings
@@ -4012,7 +4012,7 @@ Embeddings map inputs to vectors optimized for a training objective. Semantic pr
 
 嵌入把文本映射为向量以比较语义。索引与查询须使用兼容模型，并在业务查询上验证。
 
-[深入材料与练习](Study%20topics/embeddings.html)
+[深入材料与练习](../Study%20topics/embeddings.html)
 
 
 ## Vector Similarity
@@ -4046,7 +4046,7 @@ Cosine similarity compares vector direction and requires a defined zero-vector p
 
 向量相似度衡量表示的接近程度，不等于事实相关性。余弦与点积的含义取决于归一化方式。
 
-[深入材料与练习](Study%20topics/vector-similarity.html)
+[深入材料与练习](../Study%20topics/vector-similarity.html)
 
 
 ## Chunking
@@ -4080,7 +4080,7 @@ Chunk boundaries determine what evidence can be retrieved together. I vary size 
 
 分块平衡语义完整性与检索粒度。块大小、重叠和文档结构应作为实验变量，而非固定最佳值。
 
-[深入材料与练习](Study%20topics/chunking.html)
+[深入材料与练习](../Study%20topics/chunking.html)
 
 
 ## Metadata
@@ -4114,7 +4114,7 @@ Document ID, version, section, date and access scope let retrieval preserve prov
 
 元数据保存来源、页码、日期、版本及权限。它支持过滤、引用和审计，不能由模型随意补造。
 
-[深入材料与练习](Study%20topics/metadata.html)
+[深入材料与练习](../Study%20topics/metadata.html)
 
 
 ## Context Budgets
@@ -4148,7 +4148,7 @@ I allocate room for instructions, evidence, tool results and output. Section exp
 
 分配系统提示、历史、证据和输出的token预算。增加证据可能增加成本并稀释重点，应测量质量收益。
 
-[深入材料与练习](Study%20topics/context-budgets.html)
+[深入材料与练习](../Study%20topics/context-budgets.html)
 
 
 ## Keyword / Vector / Hybrid Search
@@ -4182,7 +4182,7 @@ Keyword search helps exact identifiers while vectors help semantic paraphrases. 
 
 关键词适合精确术语，向量适合语义表达，混合检索合并两类信号。组合权重需用标注查询验证。
 
-[深入材料与练习](Study%20topics/keyword-vector-hybrid-search.html)
+[深入材料与练习](../Study%20topics/keyword-vector-hybrid-search.html)
 
 
 ## MMR
@@ -4216,7 +4216,7 @@ Maximal marginal relevance balances query relevance with novelty relative to sel
 
 MMR平衡查询相关性与结果间多样性，可减少重复来源。它不保证一定覆盖多个来源，也不能保证召回所有相关证据。
 
-[深入材料与练习](Study%20topics/mmr.html)
+[深入材料与练习](../Study%20topics/mmr.html)
 
 
 ## Reranking
@@ -4250,7 +4250,7 @@ A reranker scores query-candidate pairs after initial retrieval. It improves ord
 
 重排序对候选结果做更精细的相关性判断。它只能调整已召回候选，无法补救完全遗漏的证据。
 
-[深入材料与练习](Study%20topics/reranking.html)
+[深入材料与练习](../Study%20topics/reranking.html)
 
 
 ## Query Reformulation
@@ -4284,7 +4284,7 @@ Rewriting a query can improve recall, but it can also change intent. I retain th
 
 查询改写可补充缩写或拆解复杂问题。保留原始意图并避免凭空加入实体或条件。
 
-[深入材料与练习](Study%20topics/query-reformulation.html)
+[深入材料与练习](../Study%20topics/query-reformulation.html)
 
 
 ## Citations
@@ -4318,7 +4318,7 @@ A citation should point to a source span that supports the associated claim. A v
 
 引用应映射到真实证据位置，并验证该证据支持具体主张。存在链接不代表主张得到支持。
 
-[深入材料与练习](Study%20topics/citations.html)
+[深入材料与练习](../Study%20topics/citations.html)
 
 
 ## Golden Datasets
@@ -4352,7 +4352,7 @@ A curated set contains representative questions, evidence labels or reference ou
 
 固定标注数据用于比较版本，包含常见、困难和拒答案例。保留独立测试集，防止围绕同一题库过拟合。
 
-[深入材料与练习](Study%20topics/golden-datasets.html)
+[深入材料与练习](../Study%20topics/golden-datasets.html)
 
 
 ## Hard Negatives
@@ -4386,7 +4386,7 @@ Hard negatives resemble relevant evidence but fail the actual query requirement,
 
 困难负例看似相关但不能回答问题，例如同公司不同年份。它们帮助检验检索和拒答能力。
 
-[深入材料与练习](Study%20topics/hard-negatives.html)
+[深入材料与练习](../Study%20topics/hard-negatives.html)
 
 
 ## Held-Out Evaluation
@@ -4420,7 +4420,7 @@ I freeze choices before scoring the held-out set and report its size and limitat
 
 保留数据不参与训练和调参，用于估计泛化能力。反复根据其结果修改系统会削弱独立性。
 
-[深入材料与练习](Study%20topics/held-out-evaluation.html)
+[深入材料与练习](../Study%20topics/held-out-evaluation.html)
 
 
 ## Recall@k
@@ -4454,7 +4454,7 @@ Recall at k is relevant items retrieved in the first k divided by all labeled re
 
 前k项召回率是找回的相关项占全部标注相关项的比例。它衡量覆盖，不能单独代表答案质量。
 
-[深入材料与练习](Study%20topics/recall-k.html)
+[深入材料与练习](../Study%20topics/recall-k.html)
 
 
 ## Precision@k
@@ -4488,7 +4488,7 @@ Precision at k is relevant retrieved items divided by k when k results are retur
 
 前k项精确率是其中相关项所占比例。它衡量结果纯度，应与召回率及成本一起看。
 
-[深入材料与练习](Study%20topics/precision-k.html)
+[深入材料与练习](../Study%20topics/precision-k.html)
 
 
 ## MRR
@@ -4522,7 +4522,7 @@ Mean reciprocal rank averages the inverse rank of the first relevant item across
 
 MRR平均第一条相关结果名次的倒数，适合关注首个正确结果的任务。它不衡量全部证据覆盖。
 
-[深入材料与练习](Study%20topics/mrr.html)
+[深入材料与练习](../Study%20topics/mrr.html)
 
 
 ## nDCG
@@ -4556,7 +4556,7 @@ Normalized discounted cumulative gain rewards relevant results near the top and 
 
 nDCG结合分级相关性和位置折扣，评估排序质量。需要可靠相关性标注及清楚的评价范围。
 
-[深入材料与练习](Study%20topics/ndcg.html)
+[深入材料与练习](../Study%20topics/ndcg.html)
 
 
 ## Redundancy
@@ -4590,7 +4590,7 @@ Repeated chunks consume context without necessarily adding evidence. I measure d
 
 重复结果占用上下文而不一定增加信息。测量重复程度并验证去重后是否损失重要证据。
 
-[深入材料与练习](Study%20topics/redundancy.html)
+[深入材料与练习](../Study%20topics/redundancy.html)
 
 
 ## Groundedness
@@ -4624,7 +4624,7 @@ A grounded claim is supported by supplied evidence. Groundedness differs from fa
 
 有依据指回答主张得到提供证据支持。它不同于完整性，也不保证来源本身正确。
 
-[深入材料与练习](Study%20topics/groundedness.html)
+[深入材料与练习](../Study%20topics/groundedness.html)
 
 
 ## Hallucination
@@ -4658,7 +4658,7 @@ I treat unsupported generated claims as an observable failure category. Retrieva
 
 幻觉是生成不受证据支持或错误的内容。用证据约束、拒答及逐项校验减少，而不能宣称彻底消除。
 
-[深入材料与练习](Study%20topics/hallucination.html)
+[深入材料与练习](../Study%20topics/hallucination.html)
 
 
 ## LLM-as-Judge
@@ -4692,7 +4692,7 @@ A model judge can scale rubric-based review, but its errors require human calibr
 
 用模型按评分标准评估输出，适合扩大评估规模。须用人工标注校准并监控偏差。
 
-[深入材料与练习](Study%20topics/llm-as-judge.html)
+[深入材料与练习](../Study%20topics/llm-as-judge.html)
 
 
 ## Human Calibration
@@ -4726,7 +4726,7 @@ I compare automated judgments with a small independently reviewed sample and dis
 
 人工复核建立评分标准并检查自动评估的一致性。关注分歧案例，不能只看总体平均分。
 
-[深入材料与练习](Study%20topics/human-calibration.html)
+[深入材料与练习](../Study%20topics/human-calibration.html)
 
 
 ## Judge Bias
@@ -4760,7 +4760,7 @@ Judges may favor verbosity, familiar model style or the first answer. I use expl
 
 评审模型可能偏好长度、表达风格或自己的输出。随机化展示顺序、隐藏模型身份并做人工抽查。
 
-[深入材料与练习](Study%20topics/judge-bias.html)
+[深入材料与练习](../Study%20topics/judge-bias.html)
 
 
 ## Offline / Regression Evals
@@ -4794,7 +4794,7 @@ Offline evaluation uses a fixed dataset; regression evaluation compares a change
 
 离线评估比较固定案例上的版本表现，回归测试发现旧能力退化。不能替代上线后的真实监控。
 
-[深入材料与练习](Study%20topics/offline-regression-evals.html)
+[深入材料与练习](../Study%20topics/offline-regression-evals.html)
 
 
 ## Online Feedback
@@ -4828,7 +4828,7 @@ User signals can reveal real failures but are selective and noisy. I separate ra
 
 线上反馈反映真实用户行为，但受选择偏差影响。结合错误样本与离线指标判断。
 
-[深入材料与练习](Study%20topics/online-feedback.html)
+[深入材料与练习](../Study%20topics/online-feedback.html)
 
 
 ## Agents vs. Workflows
@@ -4862,7 +4862,7 @@ A workflow follows explicit control flow; an agent delegates some next-step choi
 
 工作流步骤相对固定，agent动态选择下一步。只有任务确实需要动态决策时才增加agent复杂度。
 
-[深入材料与练习](Study%20topics/agents-vs-workflows.html)
+[深入材料与练习](../Study%20topics/agents-vs-workflows.html)
 
 
 ## Function Calling
@@ -4896,7 +4896,7 @@ The model proposes a function name and arguments; application code validates and
 
 模型提出工具名和参数，应用负责校验权限并执行。模型输出不是执行授权。
 
-[深入材料与练习](Study%20topics/function-calling.html)
+[深入材料与练习](../Study%20topics/function-calling.html)
 
 
 ## Tool Schemas
@@ -4930,7 +4930,7 @@ A schema describes legal arguments and outputs, including units and bounds. I en
 
 工具契约描述字段、类型、约束及错误。输入校验和权限控制应在服务端执行。
 
-[深入材料与练习](Study%20topics/tool-schemas.html)
+[深入材料与练习](../Study%20topics/tool-schemas.html)
 
 
 ## Tool Selection Evaluation
@@ -4964,7 +4964,7 @@ I score whether the right tool was selected with valid arguments and whether an 
 
 评估工具是否选对、参数是否正确以及该拒绝时是否拒绝。单纯任务成功率会掩盖危险调用。
 
-[深入材料与练习](Study%20topics/tool-selection-evaluation.html)
+[深入材料与练习](../Study%20topics/tool-selection-evaluation.html)
 
 
 ## Agent State
@@ -4998,7 +4998,7 @@ State records the workflow position and required artifacts. Persisted state must
 
 状态记录任务进度、工具结果及待批准操作。持久化与恢复应防止重复副作用。
 
-[深入材料与练习](Study%20topics/agent-state.html)
+[深入材料与练习](../Study%20topics/agent-state.html)
 
 
 ## Memory
@@ -5032,7 +5032,7 @@ Conversation memory is a convenience context, not an authoritative database. I s
 
 记忆保存跨步骤或会话信息，需限制用途、权限和生命周期。过时或不可信记忆不能直接当作事实。
 
-[深入材料与练习](Study%20topics/memory.html)
+[深入材料与练习](../Study%20topics/memory.html)
 
 
 ## LangGraph
@@ -5066,7 +5066,7 @@ A state graph makes transitions, checkpoints and interruptions explicit. Side ef
 
 LangGraph用状态和图结构组织流程、分支与恢复。工具权限和业务正确性仍由应用负责。
 
-[深入材料与练习](Study%20topics/langgraph.html)
+[深入材料与练习](../Study%20topics/langgraph.html)
 
 
 ## Termination Conditions
@@ -5100,7 +5100,7 @@ I bound iterations, time, spend and retries and define success, failure and wait
 
 停止条件包括成功、步数、时间、成本和重复失败上限。达到限制应返回可解释状态。
 
-[深入材料与练习](Study%20topics/termination-conditions.html)
+[深入材料与练习](../Study%20topics/termination-conditions.html)
 
 
 ## MCP Fundamentals
@@ -5134,7 +5134,7 @@ MCP standardizes interaction with exposed tools and resources. It does not autom
 
 MCP标准化工具与资源的连接方式。协议连通不代表服务器可信或调用已获授权。
 
-[深入材料与练习](Study%20topics/mcp-fundamentals.html)
+[深入材料与练习](../Study%20topics/mcp-fundamentals.html)
 
 
 ## REST APIs
@@ -5168,7 +5168,7 @@ I design resources, methods, status codes and error contracts around client need
 
 REST API以资源和HTTP语义表达操作。设计状态码、错误格式、认证、分页及幂等行为。
 
-[深入材料与练习](Study%20topics/rest-apis.html)
+[深入材料与练习](../Study%20topics/rest-apis.html)
 
 
 ## FastAPI
@@ -5202,7 +5202,7 @@ A typed API boundary can validate requests and expose a contract. I keep determi
 
 FastAPI提供Python API路由、数据验证和接口文档。耗时任务需避免阻塞请求处理。
 
-[深入材料与练习](Study%20topics/fastapi.html)
+[深入材料与练习](../Study%20topics/fastapi.html)
 
 
 ## API Tests
@@ -5236,7 +5236,7 @@ I test validation errors, ownership, duplicate submission and downstream failure
 
 接口测试验证请求、响应、权限与错误边界。应覆盖业务不变量和失败情况，而非只测成功路径。
 
-[深入材料与练习](Study%20topics/api-tests.html)
+[深入材料与练习](../Study%20topics/api-tests.html)
 
 
 ## Workers
@@ -5270,7 +5270,7 @@ A worker claims a task, executes bounded work and commits a result before acknow
 
 worker处理后台任务，应记录状态、限定资源并处理重启。重复投递不能重复产生业务副作用。
 
-[深入材料与练习](Study%20topics/workers.html)
+[深入材料与练习](../Study%20topics/workers.html)
 
 
 ## Idempotency
@@ -5304,7 +5304,7 @@ Repeating the same logical request must not create a second logical effect. I bi
 
 同一逻辑请求重复执行应产生一次业务效果。键须绑定请求内容并明确保存期限。
 
-[深入材料与练习](Study%20topics/idempotency.html)
+[深入材料与练习](../Study%20topics/idempotency.html)
 
 
 ## Timeouts
@@ -5338,7 +5338,7 @@ A timeout bounds waiting but does not prove remote work stopped. I propagate a t
 
 超时限制等待时间，但不证明远端未执行成功。对有副作用请求需状态查询或幂等保障。
 
-[深入材料与练习](Study%20topics/timeouts.html)
+[深入材料与练习](../Study%20topics/timeouts.html)
 
 
 ## Backoff
@@ -5372,7 +5372,7 @@ Exponential backoff reduces immediate retry pressure; jitter spreads synchronize
 
 退避让重试间隔逐步增长，加入随机抖动减少同步重试。还需总截止时间和次数上限。
 
-[深入材料与练习](Study%20topics/backoff.html)
+[深入材料与练习](../Study%20topics/backoff.html)
 
 
 ## Rate Limiting
@@ -5406,7 +5406,7 @@ Rate limits constrain admission over time; concurrency limits constrain in-fligh
 
 限流限制单位时间请求量。它不同于并发上限，两者都可能需要。
 
-[深入材料与练习](Study%20topics/rate-limiting.html)
+[深入材料与练习](../Study%20topics/rate-limiting.html)
 
 
 ## Backpressure
@@ -5440,7 +5440,7 @@ A saturated downstream component signals upstream producers to slow or reject wo
 
 背压在下游变慢时限制上游输入，防止队列无限增长。可采用有界队列、拒绝或延迟接收。
 
-[深入材料与练习](Study%20topics/backpressure.html)
+[深入材料与练习](../Study%20topics/backpressure.html)
 
 
 ## Docker
@@ -5474,7 +5474,7 @@ A container packages application dependencies and process configuration. It does
 
 容器封装应用运行环境，帮助一致部署。需固定依赖版本、限制权限并管理镜像和配置。
 
-[深入材料与练习](Study%20topics/docker.html)
+[深入材料与练习](../Study%20topics/docker.html)
 
 
 ## CI/CD
@@ -5508,7 +5508,7 @@ CI verifies candidate changes; CD controls promotion to an environment. I keep d
 
 持续集成自动验证变更，持续交付组织发布。测试通过不等于生产安全，仍需部署验证和回滚。
 
-[深入材料与练习](Study%20topics/ci-cd.html)
+[深入材料与练习](../Study%20topics/ci-cd.html)
 
 
 ## Cloud Fundamentals
@@ -5542,7 +5542,7 @@ Compute, storage, networking and identity are separate responsibilities. I start
 
 云服务提供计算、存储及网络资源。理解费用、权限和故障边界后再选择托管服务。
 
-[深入材料与练习](Study%20topics/cloud-fundamentals.html)
+[深入材料与练习](../Study%20topics/cloud-fundamentals.html)
 
 
 ## IAM
@@ -5576,7 +5576,7 @@ I grant identities the smallest required actions on specific resources. Applicat
 
 IAM控制身份能对哪些资源做哪些操作。按最小权限配置并避免长期共享密钥。
 
-[深入材料与练习](Study%20topics/iam.html)
+[深入材料与练习](../Study%20topics/iam.html)
 
 
 ## Networking
@@ -5610,7 +5610,7 @@ The service needs explicit ingress, egress and dependency connectivity. Private 
 
 网络设计涉及连接、路由、DNS与访问边界。排错先确认请求在哪一跳失败。
 
-[深入材料与练习](Study%20topics/networking.html)
+[深入材料与练习](../Study%20topics/networking.html)
 
 
 ## Capacity Planning
@@ -5644,7 +5644,7 @@ I estimate arrival rate, service time, concurrency and retained storage with uni
 
 根据到达速率、服务时间和资源瓶颈估算容量，再用负载测试验证。平均值之外还需考虑峰值。
 
-[深入材料与练习](Study%20topics/capacity-planning.html)
+[深入材料与练习](../Study%20topics/capacity-planning.html)
 
 
 ## Load Testing
@@ -5678,7 +5678,7 @@ I use representative requests and concurrency, track errors with latency, and se
 
 负载测试测量不同压力下的延迟、错误及资源占用。使用接近真实请求分布并找出饱和点。
 
-[深入材料与练习](Study%20topics/load-testing.html)
+[深入材料与练习](../Study%20topics/load-testing.html)
 
 
 ## Logs
@@ -5712,7 +5712,7 @@ Logs record discrete events with request IDs and structured fields. I avoid secr
 
 日志记录事件及错误上下文，使用关联ID串联请求。避免记录密钥和敏感原文。
 
-[深入材料与练习](Study%20topics/logs.html)
+[深入材料与练习](../Study%20topics/logs.html)
 
 
 ## Traces
@@ -5746,7 +5746,7 @@ A trace connects spans across a request path to identify waiting and computation
 
 追踪连接一次请求的多个处理步骤，定位检索、工具或模型延迟。记录必要元数据且保护敏感信息。
 
-[深入材料与练习](Study%20topics/traces.html)
+[深入材料与练习](../Study%20topics/traces.html)
 
 
 ## p50 / p95
@@ -5780,7 +5780,7 @@ p50 is the sample median and p95 is a high quantile, not the worst case. I repor
 
 p50是中位延迟，p95表示95%的观测不超过该值。分位数须在同一测量窗口和请求群体上比较。
 
-[深入材料与练习](Study%20topics/p50-p95.html)
+[深入材料与练习](../Study%20topics/p50-p95.html)
 
 
 ## TTFT
@@ -5814,7 +5814,7 @@ Time to first token measures initial streaming responsiveness. I also measure to
 
 TTFT是请求开始到首个token的时间。它影响响应感受，但不代表完整回答的耗时。
 
-[深入材料与练习](Study%20topics/ttft.html)
+[深入材料与练习](../Study%20topics/ttft.html)
 
 
 ## Streaming
@@ -5848,7 +5848,7 @@ Streaming sends partial output sooner but complicates cancellation, errors and v
 
 流式返回逐步展示结果，改善等待体验。需处理取消、部分失败及结构化内容未完成的状态。
 
-[深入材料与练习](Study%20topics/streaming.html)
+[深入材料与练习](../Study%20topics/streaming.html)
 
 
 ## Token Usage
@@ -5882,7 +5882,7 @@ I record input, output and any billed cached/reasoning categories supported by t
 
 记录输入输出token以估算成本和上下文压力。应按模型实际计数与计费规则核对。
 
-[深入材料与练习](Study%20topics/token-usage.html)
+[深入材料与练习](../Study%20topics/token-usage.html)
 
 
 ## Caching
@@ -5916,7 +5916,7 @@ A cache needs a key, freshness rule and eviction policy. Include data/model vers
 
 缓存复用结果以减少耗时与成本。键应包含影响结果的版本、参数和权限范围。
 
-[深入材料与练习](Study%20topics/caching.html)
+[深入材料与练习](../Study%20topics/caching.html)
 
 
 ## Semantic Caching
@@ -5950,7 +5950,7 @@ Semantic proximity is only a candidate for answer reuse. I evaluate equivalence,
 
 语义缓存复用相近请求，存在错误匹配风险。对数字、日期和权限敏感查询需更严格限制。
 
-[深入材料与练习](Study%20topics/semantic-caching.html)
+[深入材料与练习](../Study%20topics/semantic-caching.html)
 
 
 ## Freshness
@@ -5984,7 +5984,7 @@ Freshness is a business requirement about acceptable age and revision policy. TT
 
 新鲜度描述数据是否仍适用于当前问题。定义更新时间、失效条件并展示来源时间。
 
-[深入材料与练习](Study%20topics/freshness.html)
+[深入材料与练习](../Study%20topics/freshness.html)
 
 
 ## Model Routing
@@ -6018,7 +6018,7 @@ A router selects a model based on task class and constraints. I compare end-to-e
 
 按任务难度或约束选择模型，可能减少成本。路由规则需验证质量并保留失败升级路径。
 
-[深入材料与练习](Study%20topics/model-routing.html)
+[深入材料与练习](../Study%20topics/model-routing.html)
 
 
 ## Cost-Quality Trade-offs
@@ -6052,7 +6052,7 @@ I compare candidates on a Pareto view of quality, latency and cost with hard cor
 
 在可接受质量门槛下比较模型、检索和上下文的实际成本。不能只优化token而忽略错误代价。
 
-[深入材料与练习](Study%20topics/cost-quality-trade-offs.html)
+[深入材料与练习](../Study%20topics/cost-quality-trade-offs.html)
 
 
 ## Human-in-the-Loop
@@ -6086,7 +6086,7 @@ A human decision is a real authenticated workflow event, not model-generated tex
 
 高影响操作在执行前交给人审核。审核界面应展示具体参数、影响和依据。
 
-[深入材料与练习](Study%20topics/human-in-the-loop.html)
+[深入材料与练习](../Study%20topics/human-in-the-loop.html)
 
 
 ## Approval Audit Trail
@@ -6120,7 +6120,7 @@ I record approver, timestamp, action payload, version and decision. A changed pa
 
 审计记录谁批准了哪次操作、参数和时间。批准须绑定具体操作，参数变更应重新判断。
 
-[深入材料与练习](Study%20topics/approval-audit-trail.html)
+[深入材料与练习](../Study%20topics/approval-audit-trail.html)
 
 
 ## Prompt Injection
@@ -6154,7 +6154,7 @@ Untrusted text can attempt to redirect the model. I enforce permissions and tool
 
 恶意输入试图让模型越过原任务或泄露数据。把外部文本当数据，限制工具权限并测试攻击样本。
 
-[深入材料与练习](Study%20topics/prompt-injection.html)
+[深入材料与练习](../Study%20topics/prompt-injection.html)
 
 
 ## Tool Sandboxing
@@ -6188,7 +6188,7 @@ Execution is restricted by capability, resource limits and filesystem/network po
 
 沙箱限制工具能访问的文件、网络和资源。应在执行环境强制限制，而非只依赖提示。
 
-[深入材料与练习](Study%20topics/tool-sandboxing.html)
+[深入材料与练习](../Study%20topics/tool-sandboxing.html)
 
 
 ## PII
@@ -6222,7 +6222,7 @@ I minimize collection, restrict access and redact sensitive fields from logs and
 
 个人可识别信息需最小化收集、限制访问并定义保留期。日志及评估数据也需要保护。
 
-[深入材料与练习](Study%20topics/pii.html)
+[深入材料与练习](../Study%20topics/pii.html)
 
 
 ## Access Control
@@ -6256,7 +6256,7 @@ The authenticated identity determines allowed objects and actions. I enforce it 
 
 访问控制验证用户是否能读取或操作资源。检索前和执行时都要落实，不能只隐藏界面。
 
-[深入材料与练习](Study%20topics/access-control.html)
+[深入材料与练习](../Study%20topics/access-control.html)
 
 
 ## Tenant Isolation
@@ -6290,7 +6290,7 @@ Tenant scope belongs in database, retrieval, cache and artifact access. I test c
 
 租户隔离防止不同客户数据混用。数据库、检索、缓存和日志均需明确租户范围。
 
-[深入材料与练习](Study%20topics/tenant-isolation.html)
+[深入材料与练习](../Study%20topics/tenant-isolation.html)
 
 
 ## Secrets
@@ -6324,7 +6324,7 @@ Credentials come from an approved secret store or runtime injection and are excl
 
 密钥应存入专门的密钥管理系统，避免进入代码、日志和提示。使用短期凭据并支持轮换。
 
-[深入材料与练习](Study%20topics/secrets.html)
+[深入材料与练习](../Study%20topics/secrets.html)
 
 
 ## Fail-Open vs. Fail-Closed
@@ -6358,7 +6358,7 @@ For risk calculations and authorization I stop the affected operation when valid
 
 失败放行优先可用性，失败拒绝优先保护边界。权限检查通常应拒绝，具体选择由业务风险决定。
 
-[深入材料与练习](Study%20topics/fail-open-vs-fail-closed.html)
+[深入材料与练习](../Study%20topics/fail-open-vs-fail-closed.html)
 
 
 ## Graceful Degradation
@@ -6392,7 +6392,7 @@ I return a clearly limited result or baseline when a dependency fails, if the co
 
 部分依赖失败时返回受限但明确的服务，例如仅展示已验证证据。不能静默降低准确性。
 
-[深入材料与练习](Study%20topics/graceful-degradation.html)
+[深入材料与练习](../Study%20topics/graceful-degradation.html)
 
 
 ## Snowflake
@@ -6426,7 +6426,7 @@ Snowflake separates storage and compute and supports analytical SQL. I learn tab
 
 Snowflake提供云数据仓库，查询需受权限、成本和资源限制。生成SQL执行前仍须校验。
 
-[深入材料与练习](Study%20topics/snowflake.html)
+[深入材料与练习](../Study%20topics/snowflake.html)
 
 
 ## Text-to-SQL Evaluation
@@ -6460,7 +6460,7 @@ I compare execution results, clarification and rejection behavior against curate
 
 评估SQL语义、执行结果、权限和拒答，不只比较字符串。不同SQL可能表达同一正确查询。
 
-[深入材料与练习](Study%20topics/text-to-sql-evaluation.html)
+[深入材料与练习](../Study%20topics/text-to-sql-evaluation.html)
 
 
 ## SEC Financial Data
@@ -6494,7 +6494,7 @@ Financial facts include units, periods, forms and filing accessions. I retain pr
 
 SEC数据包含申报、期间、单位和修订信息。使用时核对实体、时间、口径和来源。
 
-[深入材料与练习](Study%20topics/sec-financial-data.html)
+[深入材料与练习](../Study%20topics/sec-financial-data.html)
 
 
 ## Data Quality
@@ -6528,7 +6528,7 @@ I check uniqueness, required fields, units, periods and reference totals before 
 
 数据质量包含完整性、一致性、及时性与正确性。缺失值和单位错误应在模型前被发现。
 
-[深入材料与练习](Study%20topics/data-quality.html)
+[深入材料与练习](../Study%20topics/data-quality.html)
 
 
 ## Point-in-Time Data
@@ -6562,7 +6562,7 @@ A historical decision can use only information available at that time. A fiscal 
 
 时点数据只允许使用当时已公开的信息。期末日期不同于披露日期，混淆会造成未来泄漏。
 
-[深入材料与练习](Study%20topics/point-in-time-data.html)
+[深入材料与练习](../Study%20topics/point-in-time-data.html)
 
 
 ## Experiment Tracking
@@ -6596,7 +6596,7 @@ I save configuration, seed, data/code/model versions, metrics and artifacts for 
 
 记录数据、代码、参数和指标版本，使实验可以比较和复现。只存最终分数不足以解释结果。
 
-[深入材料与练习](Study%20topics/experiment-tracking.html)
+[深入材料与练习](../Study%20topics/experiment-tracking.html)
 
 
 ## Failure Recovery
@@ -6630,7 +6630,7 @@ I inject a crash before and after result commit and observe lease expiry, redeli
 
 恢复需识别已完成步骤、持久化状态和可安全重试边界。防止重启后重复写入或执行。
 
-[深入材料与练习](Study%20topics/failure-recovery.html)
+[深入材料与练习](../Study%20topics/failure-recovery.html)
 
 
 ## Latency Benchmarking
@@ -6664,7 +6664,7 @@ I freeze workload and environment, record distributions and sample counts, and c
 
 统一请求、并发、窗口及计时范围测量延迟。区分冷启动、缓存命中与正常请求。
 
-[深入材料与练习](Study%20topics/latency-benchmarking.html)
+[深入材料与练习](../Study%20topics/latency-benchmarking.html)
 
 
 ## AWS ECS Fargate
@@ -6698,7 +6698,7 @@ Fargate runs container tasks without managing host instances. I still configure 
 
 Fargate运行托管容器任务，需配置资源、网络、角色及健康检查。应用仍要处理状态和部署故障。
 
-[深入材料与练习](Study%20topics/aws-ecs-fargate.html)
+[深入材料与练习](../Study%20topics/aws-ecs-fargate.html)
 
 
 ## ECR
@@ -6732,7 +6732,7 @@ ECR stores versioned container images. I deploy an immutable digest and retain t
 
 ECR存储容器镜像。使用不可变版本或摘要，并管理访问及镜像扫描。
 
-[深入材料与练习](Study%20topics/ecr.html)
+[深入材料与练习](../Study%20topics/ecr.html)
 
 
 ## CloudWatch
@@ -6766,7 +6766,7 @@ CloudWatch collects operational logs and metrics. I choose actionable alarms and
 
 CloudWatch收集日志、指标和告警。告警阈值应对应可采取的动作而非只制造噪声。
 
-[深入材料与练习](Study%20topics/cloudwatch.html)
+[深入材料与练习](../Study%20topics/cloudwatch.html)
 
 
 ## GitHub Actions
@@ -6800,7 +6800,7 @@ A workflow runs checks and controlled release steps. I pin dependencies as appro
 
 GitHub Actions自动运行验证和发布流程。限制凭据权限，并保护部署分支和工作流。
 
-[深入材料与练习](Study%20topics/github-actions.html)
+[深入材料与练习](../Study%20topics/github-actions.html)
 
 
 ## OIDC
@@ -6834,7 +6834,7 @@ Federated identity lets a workflow obtain short-lived cloud credentials. The tru
 
 OIDC可用身份令牌换取短期云权限，减少长期密钥。信任条件须限制仓库、分支及受众。
 
-[深入材料与练习](Study%20topics/oidc.html)
+[深入材料与练习](../Study%20topics/oidc.html)
 
 
 ## Clean-Environment Reproduction
@@ -6868,7 +6868,7 @@ I verify setup from documented dependencies and fixtures, with no hidden local f
 
 在干净环境按文档安装并运行项目，检验隐含依赖。固定版本并提供可用示例数据。
 
-[深入材料与练习](Study%20topics/clean-environment-reproduction.html)
+[深入材料与练习](../Study%20topics/clean-environment-reproduction.html)
 
 
 ## README
@@ -6902,7 +6902,7 @@ A useful README states the user problem, setup, commands, architecture, evidence
 
 README说明目标、安装、运行、限制和验证方法。读者应能按步骤复现演示。
 
-[深入材料与练习](Study%20topics/readme.html)
+[深入材料与练习](../Study%20topics/readme.html)
 
 
 ## Demo
@@ -6936,7 +6936,7 @@ A demo shows a normal request and a meaningful failure or ambiguity case. I keep
 
 演示展示真实输入、结果、依据和失败处理。说明数据与效果范围，避免夸大生产能力。
 
-[深入材料与练习](Study%20topics/demo.html)
+[深入材料与练习](../Study%20topics/demo.html)
 
 
 ## Ownership
@@ -6970,7 +6970,7 @@ I explain what I personally decided, reviewed and validated, including AI assist
 
 拥有项目意味着能解释设计、检查代码、定位故障及承担结果。AI写代码不替代这些责任。
 
-[深入材料与练习](Study%20topics/ownership.html)
+[深入材料与练习](../Study%20topics/ownership.html)
 
 
 ## AI-Assisted Code Review
@@ -7004,7 +7004,7 @@ I ask AI for a bounded diff against explicit contracts, then inspect failure pat
 
 检查AI生成代码的需求匹配、权限、异常、复杂度和测试。不能仅因运行成功就接受。
 
-[深入材料与练习](Study%20topics/ai-assisted-code-review.html)
+[深入材料与练习](../Study%20topics/ai-assisted-code-review.html)
 
 
 ## Design Trade-offs
@@ -7038,7 +7038,7 @@ I state the requirement, alternatives, selected option, downside and evidence th
 
 设计取舍说明需求、候选方案、收益与代价。通过规模、风险或延迟约束解释选择。
 
-[深入材料与练习](Study%20topics/design-trade-offs.html)
+[深入材料与练习](../Study%20topics/design-trade-offs.html)
 
 
 ## Risk Copilot
@@ -7072,7 +7072,7 @@ The project joins retrieval, scenarios, approval and deterministic risk calculat
 
 Risk Copilot应把风险分析结论连接到可核验数据和计算，并测量检索与答案质量。展示你能解释及改进的实现。
 
-[深入材料与练习](Study%20topics/risk-copilot.html)
+[深入材料与练习](../Study%20topics/risk-copilot.html)
 
 
 ## Financial Statement Analytics Assistant
@@ -7106,7 +7106,7 @@ The project combines SEC facts, curated Snowflake tables, reference SQL and a re
 
 财报分析助手重点是口径、单位、期间和受控SQL。数值计算应由确定性工具完成并保留来源。
 
-[深入材料与练习](Study%20topics/financial-statement-analytics-assistant.html)
+[深入材料与练习](../Study%20topics/financial-statement-analytics-assistant.html)
 
 
 ## Investment Research Workbench
@@ -7140,7 +7140,7 @@ The project offers restricted research tools, versioned experiments, asynchronou
 
 研究工作台组织数据、实验、评估和结果追踪。可恢复运行与可复现证据比堆叠agent更重要。
 
-[深入材料与练习](Study%20topics/investment-research-workbench.html)
+[深入材料与练习](../Study%20topics/investment-research-workbench.html)
 
 
 ## SQL
@@ -7174,7 +7174,7 @@ SQL expresses operations over relations. I identify row grain, joins, null seman
 
 SQL用于查询和聚合结构化数据。先明确每行粒度、连接关系与空值语义，再写查询。
 
-[深入材料与练习](Study%20topics/sql.html)
+[深入材料与练习](../Study%20topics/sql.html)
 
 
 ## Queues and Workers
@@ -7208,7 +7208,7 @@ A queue decouples admission from execution; workers need bounded retries, durabl
 
 队列解耦任务提交与执行，worker消费任务。考虑重复投递、重试、状态和死信处理。
 
-[深入材料与练习](Study%20topics/queues-and-workers.html)
+[深入材料与练习](../Study%20topics/queues-and-workers.html)
 
 
 ## Retries
@@ -7242,7 +7242,7 @@ I retry only classified transient failures within a total budget, with jitter an
 
 只对适合重试的暂时故障重试，设置退避和总预算。有副作用操作必须具备幂等或状态查询。
 
-[深入材料与练习](Study%20topics/retries.html)
+[深入材料与练习](../Study%20topics/retries.html)
 
 
 ## Rollback
@@ -7276,7 +7276,7 @@ A rollback restores a compatible known-good application/model configuration. Dat
 
 回滚应同步恢复模型、预处理及兼容输入接口，明确触发条件和可恢复版本。只换模型文件可能造成特征不一致。
 
-[深入材料与练习](Study%20topics/rollback.html)
+[深入材料与练习](../Study%20topics/rollback.html)
 
 
 ## Prediction Intervals
@@ -7310,7 +7310,7 @@ A prediction interval describes uncertainty for a future observation under assum
 
 预测区间描述未来观测可能范围，区别于参数或均值的置信区间。覆盖率与假设有关，市场分布改变可能使历史校准失效。
 
-[深入材料与练习](Study%20topics/prediction-intervals.html)
+[深入材料与练习](../Study%20topics/prediction-intervals.html)
 
 
 ## Reproducibility
@@ -7344,7 +7344,7 @@ I retain data snapshots, feature definitions, environment versions, seed and cod
 
 可复现需要记录代码、数据、依赖、随机性和配置。固定种子有帮助，但不同硬件和数值执行仍可能不同；复现不等于实证有效。
 
-[深入材料与练习](Study%20topics/reproducibility.html)
+[深入材料与练习](../Study%20topics/reproducibility.html)
 
 
 ## Model Versioning
@@ -7378,7 +7378,7 @@ A model version includes preprocessing, feature schema and compatible runtime, n
 
 模型版本需关联训练数据、预处理、特征顺序、配置和代码。单独保存权重不足以可靠重现预测，需验证完整输入契约。
 
-[深入材料与练习](Study%20topics/model-versioning.html)
+[深入材料与练习](../Study%20topics/model-versioning.html)
 
 
 ## Supervised and Unsupervised Learning
@@ -7413,7 +7413,7 @@ Supervised learning fits a mapping from features to known targets. Unsupervised 
 
 监督学习用输入和已知目标学习预测关系；非监督学习在没有目标标签时寻找结构。回归预测数值，分类预测类别；先定义业务目标再选方法。
 
-[深入材料与练习](Study%20topics/supervised-and-unsupervised-learning.html)
+[深入材料与练习](../Study%20topics/supervised-and-unsupervised-learning.html)
 
 
 ## Data Leakage
@@ -7448,7 +7448,7 @@ Leakage lets training use information that would be unavailable at prediction ti
 
 泄漏是训练或选择模型时用了预测时不应知道的信息。包括未来数据、测试标签或在全数据上拟合预处理。先划分，再只在训练数据上拟合变换。
 
-[深入材料与练习](Study%20topics/data-leakage.html)
+[深入材料与练习](../Study%20topics/data-leakage.html)
 
 
 ## Bias-Variance
@@ -7483,7 +7483,7 @@ An overly restricted model misses patterns; an overly flexible model is sensitiv
 
 偏差表示方法的系统性近似误差，方差表示模型对训练样本变化的敏感度。太简单可能欠拟合，太灵活可能过拟合，需用样本外验证比较。
 
-[深入材料与练习](Study%20topics/bias-variance.html)
+[深入材料与练习](../Study%20topics/bias-variance.html)
 
 
 ## Overfitting
@@ -7518,7 +7518,7 @@ Overfitting means learning sample-specific noise rather than generalizable patte
 
 过拟合是把训练数据的噪声也学进去，训练表现好但新数据差。可用合理验证、正则化和复杂度控制缓解，不只看训练误差。
 
-[深入材料与练习](Study%20topics/overfitting.html)
+[深入材料与练习](../Study%20topics/overfitting.html)
 
 
 ## Regularization
@@ -7553,7 +7553,7 @@ Regularization penalizes model complexity. Ridge shrinks coefficients with an L2
 
 正则化在拟合损失之外增加约束或惩罚，抑制过于灵活的模型。Ridge 使用 L2，Lasso 使用 L1 并可让部分系数为零；强度要在验证数据上选择。
 
-[深入材料与练习](Study%20topics/regularization.html)
+[深入材料与练习](../Study%20topics/regularization.html)
 
 
 ## Scaling
@@ -7588,7 +7588,7 @@ Scaling puts numerical features on comparable scales. Fit the scaler only on tra
 
 缩放调整特征尺度，例如标准化减去训练均值并除以训练标准差。对 Ridge、Lasso 等尺度敏感方法很重要；测试数据使用训练得到的变换。
 
-[深入材料与练习](Study%20topics/scaling.html)
+[深入材料与练习](../Study%20topics/scaling.html)
 
 
 ## Linear Regression
@@ -7623,7 +7623,7 @@ Linear regression predicts a numerical target using an intercept and weighted fe
 
 线性回归用特征的加权和加截距预测连续数值，训练时学习这些权重。它是模型；train/validation/test 是评估流程，不是另一种模型。
 
-[深入材料与练习](Study%20topics/linear-regression.html)
+[深入材料与练习](../Study%20topics/linear-regression.html)
 
 
 ## Logistic Regression
@@ -7658,7 +7658,7 @@ Logistic regression maps a linear score through a sigmoid to estimate a binary-c
 
 逻辑回归虽然名字含 regression，通常用于分类。它将线性分数经 sigmoid 转为二分类概率，用对数损失学习参数，再用阈值作类别决策。
 
-[深入材料与练习](Study%20topics/logistic-regression.html)
+[深入材料与练习](../Study%20topics/logistic-regression.html)
 
 
 ## Decision Trees
@@ -7693,7 +7693,7 @@ Decision trees repeatedly split features into regions and predict within a leaf.
 
 决策树按特征条件逐步切分空间，叶节点输出数值或类别。深度过大容易过拟合，要在验证数据上选择复杂度。
 
-[深入材料与练习](Study%20topics/decision-trees.html)
+[深入材料与练习](../Study%20topics/decision-trees.html)
 
 
 ## Random Forests
@@ -7728,7 +7728,7 @@ A random forest combines trees trained with sample and feature randomness. Avera
 
 随机森林把多个经过样本和特征随机化的树进行平均或投票，主要减少方差。它不是保证优于其他模型，仍需样本外比较。
 
-[深入材料与练习](Study%20topics/random-forests.html)
+[深入材料与练习](../Study%20topics/random-forests.html)
 
 
 ## Gradient Boosting
@@ -7763,7 +7763,7 @@ Gradient boosting adds models sequentially to reduce the current objective. Tune
 
 梯度提升依次加入模型以改进当前损失，常用浅树拟合负梯度信号。学习率和树数量控制拟合过程，过多迭代也可能过拟合。
 
-[深入材料与练习](Study%20topics/gradient-boosting.html)
+[深入材料与练习](../Study%20topics/gradient-boosting.html)
 
 
 ## scikit-learn Pipelines
@@ -7798,7 +7798,7 @@ A pipeline chains preprocessing and prediction. During cross-validation it fits 
 
 Pipeline 将预处理和模型串成统一对象，让交叉验证每个训练折分别拟合变换。它能减少预处理泄漏，但不能修复本身含未来信息的特征。
 
-[深入材料与练习](Study%20topics/scikit-learn-pipelines.html)
+[深入材料与练习](../Study%20topics/scikit-learn-pipelines.html)
 
 
 ## Cross-Validation
@@ -7833,7 +7833,7 @@ Cross-validation compares performance across multiple training and validation fo
 
 交叉验证用多个合适的训练／验证折比较方法与波动。独立样本可考虑 K-fold；时间序列需保持时间顺序，最终测试与选择过程分开。
 
-[深入材料与练习](Study%20topics/cross-validation.html)
+[深入材料与练习](../Study%20topics/cross-validation.html)
 
 
 ## Hyperparameter Tuning
@@ -7868,7 +7868,7 @@ Hyperparameters configure learning rather than being fitted as model coefficient
 
 超参数是训练前指定的配置，如 Ridge 强度、树深度。使用开发验证或交叉验证搜索；不是直接从最终测试结果选最好的设置。
 
-[深入材料与练习](Study%20topics/hyperparameter-tuning.html)
+[深入材料与练习](../Study%20topics/hyperparameter-tuning.html)
 
 
 ## Feature Engineering
@@ -7903,7 +7903,7 @@ Feature engineering turns available raw data into model inputs. Every feature mu
 
 特征工程把原始信息转为模型输入，如历史收益和过去波动率。必须明确预测时这些信息是否可知，拟合型变换只用训练数据。
 
-[深入材料与练习](Study%20topics/feature-engineering.html)
+[深入材料与练习](../Study%20topics/feature-engineering.html)
 
 
 ## Class Imbalance
@@ -7938,7 +7938,7 @@ Class imbalance means some labels are rare. Accuracy can hide missed positives; 
 
 类别不平衡时准确率可能误导。检查 precision、recall 和 PR 指标，阈值或类别权重在开发数据上选择；重采样只能在训练数据中进行。
 
-[深入材料与练习](Study%20topics/class-imbalance.html)
+[深入材料与练习](../Study%20topics/class-imbalance.html)
 
 
 ## MAE
@@ -7973,7 +7973,7 @@ MAE is the mean absolute prediction error in target units. It weights each error
 
 MAE 是预测误差绝对值的平均，单位与目标相同。可直观描述平均偏差，但不体现方向，需结合业务损失判断是否合适。
 
-[深入材料与练习](Study%20topics/mae.html)
+[深入材料与练习](../Study%20topics/mae.html)
 
 
 ## RMSE
@@ -8008,7 +8008,7 @@ RMSE is the square root of mean squared prediction error. It is in target units 
 
 RMSE 是平方误差均值的平方根，单位与目标相同。它比 MAE 更强调大误差，但不是任何任务都应该优先选它。
 
-[深入材料与练习](Study%20topics/rmse.html)
+[深入材料与练习](../Study%20topics/rmse.html)
 
 
 ## Precision
@@ -8043,7 +8043,7 @@ Precision is true positives divided by all predicted positives. It measures how 
 
 Precision 是判为正类的样本中真正为正类的比例，TP/(TP+FP)。它反映误报情况，需说明正类、阈值和分母为零时约定。
 
-[深入材料与练习](Study%20topics/precision.html)
+[深入材料与练习](../Study%20topics/precision.html)
 
 
 ## Recall
@@ -8078,7 +8078,7 @@ Recall is true positives divided by all actual positives. It measures coverage; 
 
 分类 Recall 是所有真正正类中被找到的比例，TP/(TP+FN)。它反映漏报情况，与检索 Recall@k 的任务和分母定义不同。
 
-[深入材料与练习](Study%20topics/recall.html)
+[深入材料与练习](../Study%20topics/recall.html)
 
 
 ## F1
@@ -8113,7 +8113,7 @@ F1 is the harmonic mean of precision and recall. It ignores true negatives and d
 
 F1 是 precision 和 recall 的调和平均，2PR/(P+R)。它忽略真负例，是否适合取决于业务代价，不能替代完整误差分析。
 
-[深入材料与练习](Study%20topics/f1.html)
+[深入材料与练习](../Study%20topics/f1.html)
 
 
 ## PR-AUC
@@ -8148,7 +8148,7 @@ Precision-recall curves compare precision and recall across thresholds. State th
 
 精确率召回曲线比较不同阈值下的误报与覆盖取舍，受正类比例影响。Average Precision 和梯形积分 PR-AUC 不是必然相同的计算方式。
 
-[深入材料与练习](Study%20topics/pr-auc.html)
+[深入材料与练习](../Study%20topics/pr-auc.html)
 
 
 ## ROC-AUC
@@ -8183,7 +8183,7 @@ ROC-AUC measures positive-negative ranking across thresholds. It does not assess
 
 ROC-AUC 衡量正类相对负类的排序表现，基于 TPR 和 FPR。它不证明概率校准良好，严重类别不平衡时还要看 PR 和业务阈值。
 
-[深入材料与练习](Study%20topics/roc-auc.html)
+[深入材料与练习](../Study%20topics/roc-auc.html)
 
 
 ## Calibration
@@ -8218,7 +8218,7 @@ A calibrated probability of 0.7 corresponds to about 70% positives among compara
 
 校准检查预测概率是否与实际频率一致，例如预测 0.7 的样本是否约 70% 为正类。排序准确不等于校准良好，校准不能在最终测试集上拟合。
 
-[深入材料与练习](Study%20topics/calibration.html)
+[深入材料与练习](../Study%20topics/calibration.html)
 
 
 ## Interpretability
@@ -8253,7 +8253,7 @@ Interpretability explains model behavior using coefficients or suitable explanat
 
 可解释性帮助理解模型如何关联输入与输出。线性系数、局部解释和置换重要性各有条件，相关性和模型解释不自动证明因果。
 
-[深入材料与练习](Study%20topics/interpretability.html)
+[深入材料与练习](../Study%20topics/interpretability.html)
 
 
 ## Feature Importance
@@ -8288,7 +8288,7 @@ Feature importance measures how a feature contributes under a specific method. C
 
 特征重要性依赖模型、数据和指标。置换重要性看打乱某特征后样本外性能变化；相关特征可能互相替代，重要性不是固有因果排名。
 
-[深入材料与练习](Study%20topics/feature-importance.html)
+[深入材料与练习](../Study%20topics/feature-importance.html)
 
 
 ## Time-Series Splits
@@ -8323,7 +8323,7 @@ Train on earlier observations and validate on later ones. Respect label availabi
 
 时间序列划分用较早数据训练，较晚数据验证或测试。所有训练标签必须在预测时已获得，不能只按输入日期排序而忽略标签结束时间。
 
-[深入材料与练习](Study%20topics/time-series-splits.html)
+[深入材料与练习](../Study%20topics/time-series-splits.html)
 
 
 ## Walk-Forward Validation
@@ -8358,7 +8358,7 @@ Walk-forward validation repeatedly advances a chronological training and validat
 
 滚动向前验证模拟多个历史预测时点，每次只用当时已可知的数据。可用扩展窗口或固定长度窗口，明确模型更新频率。
 
-[深入材料与练习](Study%20topics/walk-forward-validation.html)
+[深入材料与练习](../Study%20topics/walk-forward-validation.html)
 
 
 ## Temporal Leakage
@@ -8393,7 +8393,7 @@ Temporal leakage uses future or not-yet-published information. Check both observ
 
 时间泄漏是使用预测时尚未知的未来信息，包括未公布报表、未来收益和未结束标签。记录事件日期和实际公布／可用日期。
 
-[深入材料与练习](Study%20topics/temporal-leakage.html)
+[深入材料与练习](../Study%20topics/temporal-leakage.html)
 
 
 ## Forecast Horizons
@@ -8428,7 +8428,7 @@ The forecast horizon specifies how far ahead the target lies. Define target cons
 
 预测期限定义目标覆盖哪段未来，如未来五日波动率。标签要等该期限结束才可用，重叠标签还会造成误差相关。
 
-[深入材料与练习](Study%20topics/forecast-horizons.html)
+[深入材料与练习](../Study%20topics/forecast-horizons.html)
 
 
 ## Regime Changes
@@ -8463,7 +8463,7 @@ A regime change alters the data-generating environment. Good historical performa
 
 市场状态变化可能改变特征和目标关系，平均误差会掩盖局部失效。分时期评估，检查样本量和标签可用性，不凭一次变化就自动重训。
 
-[深入材料与练习](Study%20topics/regime-changes.html)
+[深入材料与练习](../Study%20topics/regime-changes.html)
 
 
 ## Volatility Forecasting
@@ -8498,7 +8498,7 @@ Define a future volatility target and point-in-time features. Compare with appro
 
 先定义波动率目标和时点，再与过去波动率基线比较。讲义的目标是未来五个日收益平方均值开根号后年化，不是自动等于任意波动率估计量。
 
-[深入材料与练习](Study%20topics/volatility-forecasting.html)
+[深入材料与练习](../Study%20topics/volatility-forecasting.html)
 
 
 ## Out-of-Sample Evaluation
@@ -8533,7 +8533,7 @@ Out-of-sample evaluation measures performance on data not used to fit or select 
 
 样本外评估用未参与拟合的案例评价泛化；最终测试还不能参与模型选择。金融数据须保证可用时间，报告基线、各资产结果和不确定性。
 
-[深入材料与练习](Study%20topics/out-of-sample-evaluation.html)
+[深入材料与练习](../Study%20topics/out-of-sample-evaluation.html)
 
 
 ## Statistical Uncertainty
@@ -8568,7 +8568,7 @@ A performance estimate varies with its evaluation sample. Quantify uncertainty u
 
 有限样本指标有不确定性，金融序列和重叠标签往往相关。区块重采样等方法也依赖假设和区块长度，不能把折间标准差直接当置信区间。
 
-[深入材料与练习](Study%20topics/statistical-uncertainty.html)
+[深入材料与练习](../Study%20topics/statistical-uncertainty.html)
 
 
 ## Drift
@@ -8603,7 +8603,7 @@ Input drift is a change in feature distributions; performance drift requires out
 
 输入漂移是特征分布变化，性能漂移需真实结果才能确认。漂移警报应触发数据与误差调查，不自动证明模型变差。
 
-[深入材料与练习](Study%20topics/drift.html)
+[深入材料与练习](../Study%20topics/drift.html)
 
 
 ## Retraining
@@ -8638,4 +8638,4 @@ Retraining updates the model using eligible new data. Validate the candidate aga
 
 重训练需有数据质量、标签可用性和性能证据，并按同一验证协议比较候选模型。未经验证直接替换可能使系统更差。
 
-[深入材料与练习](Study%20topics/retraining.html)
+[深入材料与练习](../Study%20topics/retraining.html)

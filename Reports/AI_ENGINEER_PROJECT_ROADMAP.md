@@ -1,26 +1,26 @@
 # 三项目实践路线：从当前代码到可验证的作品
 
-更新日期：2026-10-04。按已讨论的项目方向与工程要求重排；这是未来学习与交付计划，不是项目完成报告。
+更新日期：2026-11-04（Day 1 改为 2026-11-09）。按已讨论的项目方向与工程要求重排；这是未来学习与交付计划，不是项目完成报告。
 
-[每日总时间表](AI_ENGINEER_TRANSITION_PLAN.md) · [学习执行指南](AI_ENGINEER_DAILY_LEARNING_GUIDE.md)
+[每日总时间表](AI_ENGINEER_TRANSITION_PLAN.md) · [学习执行指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md)
 
 ## 已实施的学习资料更新
 
-已按确认方案生成 [Topic Library](Study%20topics/index.html)、[ML notebooks](notebook/README.md) 与 General & AI System Design讲义，并同步45个学习日。所有项目任务仍为未来实践，不把讲义生成当作功能完成。
+已按确认方案生成 [Topic Library](../Study%20topics/index.html)、[ML notebooks](../notebook/README.md) 与 General & AI System Design讲义，并同步45个学习日。所有项目任务仍为未来实践，不把讲义生成当作功能完成。
 
 ML时段逐步完成基础实验、时间验证和Volatility Forecasting；Project时段负责工程整合。主计划General 16次（12小时）、AI 24次（18小时）；缓冲期General 2次、AI 3次。
 
 ## 时间与范围
 
-项目时段固定为工作日 15:00–16:30，每天 1.5 小时。主计划 40 天共 60 小时，另有 5 天共 7.5 小时缓冲；周末不安排学习。沿用原日期，11/26–11/27 仍按工作日安排。
+项目时段固定为工作日 15:00–16:30，每天 1.5 小时。主计划 40 天共 60 小时，另有 5 天共 7.5 小时缓冲；周末不安排学习。感恩节 11/26–11/27、圣诞节 12/25 和元旦 1/1 都按工作日安排，需要休息时把当天内容顺延。
 
 | 日期与学习日 | 项目 | 项目小时 | 目标 |
 |---|---|---|---|
-| 10/5–10/30 · Day 01–20 | Risk Copilot | 30 | 深化已有项目，建立可信评估、可靠流程和部署证据 |
-| 11/2–11/13 · Day 21–30 | Financial Statement Analytics Assistant | 15 | 完成 Snowflake / SQL / Text-to-SQL 小型端到端版本 |
-| 11/16–11/25 · Day 31–38 | Investment Research Workbench | 12 | 完成受限研究工具、异步执行与故障恢复演示 |
-| 11/26–11/27 · Day 39–40 | Portfolio Review | 3 | 复现、证据核查与演示冻结 |
-| 11/30–12/4 · Day 41–45 | Buffer | 7.5 | 补关键缺口与复习 |
+| 11/9–12/4 · Day 01–20 | Risk Copilot | 30 | 深化已有项目，建立可信评估、可靠流程和部署证据 |
+| 12/7–12/18 · Day 21–30 | Financial Statement Analytics Assistant | 15 | 完成 Snowflake / SQL / Text-to-SQL 小型端到端版本 |
+| 12/21–12/30 · Day 31–38 | Investment Research Workbench | 12 | 完成受限研究工具、异步执行与故障恢复演示 |
+| 12/31–1/1 · Day 39–40 | Portfolio Review | 3 | 复现、证据核查与演示冻结 |
+| 1/4–1/8 · Day 41–45 | Buffer | 7.5 | 补关键缺口与复习 |
 
 这是紧凑的最小版本预算，默认利用现有代码、成熟组件和 AI 辅助实现，并由你读代码与验证。一天只推进一个最小切片；若任务超时，先缩小可选范围，再使用缓冲期，不从 Coding、Courses 或 Interview Questions 偷加时间。若仍不足，延后未完成项目，不能把未做的事标为完成。
 
@@ -48,7 +48,7 @@ ML时段逐步完成基础实验、时间验证和Volatility Forecasting；Proje
 ### Investment Research Workbench
 
 - 用户：研究员希望减少重复实验操作并保留可审计的研究结果；2只ETF日频、固定数据快照、一个确定性研究baseline，以及Historical Volatility + Ridge的五日Volatility Forecasting。更多策略与Tree Model为可选。
-- ML前置：[Volatility Forecasting notebook](notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb)。未来五个交易日RMS realized volatility，统一sqrt(252 × mean(return²))年化；特征仅使用t及之前，label在t+5才可用。训练按label_end清除边界，walk-forward选择alpha后冻结最终test。
+- ML前置：[Volatility Forecasting notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb)。未来五个交易日RMS realized volatility，统一sqrt(252 × mean(return²))年化；特征仅使用t及之前，label在t+5才可用。训练按label_end清除边界，walk-forward选择alpha后冻结最终test。
 - 指标：相同日期MAE/RMSE及baseline差值、时期与资产切片；保存data/code/model版本。模型不赢baseline也如实报告，不等同于策略盈利。
 - 计算：Python做信号、仓位、成本和指标；LLM只解释意图、澄清、生成合法配置、调用受限工具和解释真实结果。无任意生成代码执行、实盘下单或盈利承诺。
 - 系统：FastAPI + PostgreSQL + Redis/现成队列库 + 独立Worker，先Docker Compose单机运行；事务outbox、幂等run、有限retry/timeout、故障恢复与状态查询。
@@ -80,11 +80,11 @@ AI协作方式：你先定义输入/输出、失败情况与验证，然后要�
 
 仓库强调真实用户问题、role relevance、可获得数据、明确评估、可完成范围和工程深度。岗位资料用于方向判断，历史JD不是当前在招证明。
 
-- [Project Selection](portfolio/02-how-to-pick-a-project.md)
-- [Portfolio Evidence](portfolio/04-polishing.md)
-- [Skills Analysis](role/02-skills.md)
-- [Point72 Investment Research & Workflows：历史JD](job-market/data_raw/2026-02-04/8061454_Point72_AI_Engineer_Investment_Research_Workflows.yaml)
-- [Morgan Stanley Market Risk / Talk-to-Data：历史JD](job-market/data_raw/2026-05-29/9254629_Morgan_Stanley_Senior_AI_Engineer.yaml)
+- [Project Selection](../portfolio/02-how-to-pick-a-project.md)
+- [Portfolio Evidence](../portfolio/04-polishing.md)
+- [Skills Analysis](../role/02-skills.md)
+- [Point72 Investment Research & Workflows：历史JD](../job-market/data_raw/2026-02-04/8061454_Point72_AI_Engineer_Investment_Research_Workflows.yaml)
+- [Morgan Stanley Market Risk / Talk-to-Data：历史JD](../job-market/data_raw/2026-05-29/9254629_Morgan_Stanley_Senior_AI_Engineer.yaml)
 - [Two Sigma Engineering：研究平台与数据职责](https://www.twosigma.com/careers/engineering/)
 - [AWS ECS Fargate](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/getting-started-fargate.html)
 - [GitHub Actions OIDC for AWS](https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-aws)
@@ -97,7 +97,7 @@ AI协作方式：你先定义输入/输出、失败情况与验证，然后要�
 
 <a id="project-day-01"></a>
 
-### Day 01 · 周一 10/5
+### Day 01 · 周一 11/9
 
 15:00–16:30 · Risk Copilot
 
@@ -112,7 +112,7 @@ Topic：Baseline and Issue Audit
 
 <a id="project-day-02"></a>
 
-### Day 02 · 周二 10/6
+### Day 02 · 周二 11/10
 
 15:00–16:30 · Risk Copilot
 
@@ -127,7 +127,7 @@ Topic：Risk Numerical Correctness: Missing Data and Factors
 
 <a id="project-day-03"></a>
 
-### Day 03 · 周三 10/7
+### Day 03 · 周三 11/11
 
 15:00–16:30 · Risk Copilot
 
@@ -142,7 +142,7 @@ Topic：Risk Numerical Correctness: Zero Exposure and Units
 
 <a id="project-day-04"></a>
 
-### Day 04 · 周四 10/8
+### Day 04 · 周四 11/12
 
 15:00–16:30 · Risk Copilot
 
@@ -157,7 +157,7 @@ Topic：Retrieval Dataset and Label Review
 
 <a id="project-day-05"></a>
 
-### Day 05 · 周五 10/9
+### Day 05 · 周五 11/13
 
 15:00–16:30 · Risk Copilot
 
@@ -174,7 +174,7 @@ Topic：Metric Audit and Retrieval Baseline
 
 <a id="project-day-06"></a>
 
-### Day 06 · 周一 10/12
+### Day 06 · 周一 11/16
 
 15:00–16:30 · Risk Copilot
 
@@ -189,7 +189,7 @@ Topic：Chunking Experiment
 
 <a id="project-day-07"></a>
 
-### Day 07 · 周二 10/13
+### Day 07 · 周二 11/17
 
 15:00–16:30 · Risk Copilot
 
@@ -204,7 +204,7 @@ Topic：Embedding Model Experiment
 
 <a id="project-day-08"></a>
 
-### Day 08 · 周三 10/14
+### Day 08 · 周三 11/18
 
 15:00–16:30 · Risk Copilot
 
@@ -219,7 +219,7 @@ Topic：MMR Experiment and Held-Out Check
 
 <a id="project-day-09"></a>
 
-### Day 09 · 周四 10/15
+### Day 09 · 周四 11/19
 
 15:00–16:30 · Risk Copilot
 
@@ -234,7 +234,7 @@ Topic：Evaluator Failures and Bounded Retries
 
 <a id="project-day-10"></a>
 
-### Day 10 · 周五 10/16
+### Day 10 · 周五 11/20
 
 15:00–16:30 · Risk Copilot
 
@@ -251,7 +251,7 @@ Topic：Human Approval and State Transitions
 
 <a id="project-day-11"></a>
 
-### Day 11 · 周一 10/19
+### Day 11 · 周一 11/23
 
 15:00–16:30 · Risk Copilot
 
@@ -266,7 +266,7 @@ Topic：Scenario and Report Evaluation
 
 <a id="project-day-12"></a>
 
-### Day 12 · 周二 10/20
+### Day 12 · 周二 11/24
 
 15:00–16:30 · Risk Copilot
 
@@ -281,7 +281,7 @@ Topic：Analysis API and Error Contracts
 
 <a id="project-day-13"></a>
 
-### Day 13 · 周三 10/21
+### Day 13 · 周三 11/25
 
 15:00–16:30 · Risk Copilot
 
@@ -296,7 +296,7 @@ Topic：Tracing and Latency Baseline
 
 <a id="project-day-14"></a>
 
-### Day 14 · 周四 10/22
+### Day 14 · 周四 11/26
 
 15:00–16:30 · Risk Copilot
 
@@ -311,7 +311,7 @@ Topic：Measured Performance Improvement
 
 <a id="project-day-15"></a>
 
-### Day 15 · 周五 10/23
+### Day 15 · 周五 11/27
 
 15:00–16:30 · Risk Copilot
 
@@ -328,7 +328,7 @@ Topic：CI and Evaluation Gates
 
 <a id="project-day-16"></a>
 
-### Day 16 · 周一 10/26
+### Day 16 · 周一 11/30
 
 15:00–16:30 · Risk Copilot
 
@@ -343,7 +343,7 @@ Topic：Docker and Local Release
 
 <a id="project-day-17"></a>
 
-### Day 17 · 周二 10/27
+### Day 17 · 周二 12/1
 
 15:00–16:30 · Risk Copilot
 
@@ -358,7 +358,7 @@ Topic：AWS Deployment Configuration
 
 <a id="project-day-18"></a>
 
-### Day 18 · 周三 10/28
+### Day 18 · 周三 12/2
 
 15:00–16:30 · Risk Copilot
 
@@ -373,7 +373,7 @@ Topic：AWS Deployment and Smoke Tests
 
 <a id="project-day-19"></a>
 
-### Day 19 · 周四 10/29
+### Day 19 · 周四 12/3
 
 15:00–16:30 · Risk Copilot
 
@@ -388,7 +388,7 @@ Topic：Controlled CD and Rollback
 
 <a id="project-day-20"></a>
 
-### Day 20 · 周五 10/30
+### Day 20 · 周五 12/4
 
 15:00–16:30 · Risk Copilot
 
@@ -405,7 +405,7 @@ Topic：Reproduction and Project Deep Dive
 
 <a id="project-day-21"></a>
 
-### Day 21 · 周一 11/2
+### Day 21 · 周一 12/7
 
 15:00–16:30 · Financial Statement Analytics Assistant
 
@@ -420,7 +420,7 @@ Topic：Snowflake Setup and Sample SQL
 
 <a id="project-day-22"></a>
 
-### Day 22 · 周二 11/3
+### Day 22 · 周二 12/8
 
 15:00–16:30 · Financial Statement Analytics Assistant
 
@@ -435,7 +435,7 @@ Topic：SEC Ingestion and Raw Snapshots
 
 <a id="project-day-23"></a>
 
-### Day 23 · 周三 11/4
+### Day 23 · 周三 12/9
 
 15:00–16:30 · Financial Statement Analytics Assistant
 
@@ -450,7 +450,7 @@ Topic：Financial Data Model and Quality Checks
 
 <a id="project-day-24"></a>
 
-### Day 24 · 周四 11/5
+### Day 24 · 周四 12/10
 
 15:00–16:30 · Financial Statement Analytics Assistant
 
@@ -465,7 +465,7 @@ Topic：Reference SQL and Financial Analytics
 
 <a id="project-day-25"></a>
 
-### Day 25 · 周五 11/6
+### Day 25 · 周五 12/11
 
 15:00–16:30 · Financial Statement Analytics Assistant
 
@@ -482,7 +482,7 @@ Topic：Question Dataset and SQL Ground Truth
 
 <a id="project-day-26"></a>
 
-### Day 26 · 周一 11/9
+### Day 26 · 周一 12/14
 
 15:00–16:30 · Financial Statement Analytics Assistant
 
@@ -497,7 +497,7 @@ Topic：Text-to-SQL and Semantic Context
 
 <a id="project-day-27"></a>
 
-### Day 27 · 周二 11/10
+### Day 27 · 周二 12/15
 
 15:00–16:30 · Financial Statement Analytics Assistant
 
@@ -512,7 +512,7 @@ Topic：Query Controls and Clarification
 
 <a id="project-day-28"></a>
 
-### Day 28 · 周三 11/11
+### Day 28 · 周三 12/16
 
 15:00–16:30 · Financial Statement Analytics Assistant
 
@@ -527,7 +527,7 @@ Topic：Text-to-SQL Evaluation
 
 <a id="project-day-29"></a>
 
-### Day 29 · 周四 11/12
+### Day 29 · 周四 12/17
 
 15:00–16:30 · Financial Statement Analytics Assistant
 
@@ -542,7 +542,7 @@ Topic：Snowflake Query Performance
 
 <a id="project-day-30"></a>
 
-### Day 30 · 周五 11/13
+### Day 30 · 周五 12/18
 
 15:00–16:30 · Financial Statement Analytics Assistant
 
@@ -559,7 +559,7 @@ Topic：CI and Reproducible Demo
 
 <a id="project-day-31"></a>
 
-### Day 31 · 周一 11/16
+### Day 31 · 周一 12/21
 
 15:00–16:30 · Investment Research Workbench
 
@@ -574,7 +574,7 @@ Topic：Research Contract and Market Data
 
 <a id="project-day-32"></a>
 
-### Day 32 · 周二 11/17
+### Day 32 · 周二 12/22
 
 15:00–16:30 · Investment Research Workbench
 
@@ -589,7 +589,7 @@ Topic：Deterministic Research Tools
 
 <a id="project-day-33"></a>
 
-### Day 33 · 周三 11/18
+### Day 33 · 周三 12/23
 
 15:00–16:30 · Investment Research Workbench
 
@@ -604,7 +604,7 @@ Topic：Experiment API and Persistent Runs
 
 <a id="project-day-34"></a>
 
-### Day 34 · 周四 11/19
+### Day 34 · 周四 12/24
 
 15:00–16:30 · Investment Research Workbench
 
@@ -619,7 +619,7 @@ Topic：Queue and Worker Execution
 
 <a id="project-day-35"></a>
 
-### Day 35 · 周五 11/20
+### Day 35 · 周五 12/25
 
 15:00–16:30 · Investment Research Workbench
 
@@ -636,7 +636,7 @@ Topic：Retries, Timeouts and Worker Failure
 
 <a id="project-day-36"></a>
 
-### Day 36 · 周一 11/23
+### Day 36 · 周一 12/28
 
 15:00–16:30 · Investment Research Workbench
 
@@ -651,7 +651,7 @@ Topic：AI Experiment Planning and Tool Calling
 
 <a id="project-day-37"></a>
 
-### Day 37 · 周二 11/24
+### Day 37 · 周二 12/29
 
 15:00–16:30 · Investment Research Workbench
 
@@ -666,7 +666,7 @@ Topic：Workflow Evaluation and Observability
 
 <a id="project-day-38"></a>
 
-### Day 38 · 周三 11/25
+### Day 38 · 周三 12/30
 
 15:00–16:30 · Investment Research Workbench
 
@@ -681,7 +681,7 @@ Topic：CI, Container Release and Demo
 
 <a id="project-day-39"></a>
 
-### Day 39 · 周四 11/26
+### Day 39 · 周四 12/31
 
 15:00–16:30 · Portfolio Review
 
@@ -696,7 +696,7 @@ Topic：Evidence Audit and Cross-Project Reproduction
 
 <a id="project-day-40"></a>
 
-### Day 40 · 周五 11/27
+### Day 40 · 周五 1/1
 
 15:00–16:30 · Portfolio Review
 
@@ -713,7 +713,7 @@ Topic：Feature Freeze and Interview Deep Dive
 
 <a id="project-day-41"></a>
 
-### Day 41 · 周一 11/30
+### Day 41 · 周一 1/4
 
 15:00–16:30 · Buffer
 
@@ -728,7 +728,7 @@ Topic：Risk Copilot: Correctness Remediation
 
 <a id="project-day-42"></a>
 
-### Day 42 · 周二 12/1
+### Day 42 · 周二 1/5
 
 15:00–16:30 · Buffer
 
@@ -743,7 +743,7 @@ Topic：AWS and CD: Completion or Recovery Drill
 
 <a id="project-day-43"></a>
 
-### Day 43 · 周三 12/2
+### Day 43 · 周三 1/6
 
 15:00–16:30 · Buffer
 
@@ -758,7 +758,7 @@ Topic：Snowflake: Data and SQL Remediation
 
 <a id="project-day-44"></a>
 
-### Day 44 · 周四 12/3
+### Day 44 · 周四 1/7
 
 15:00–16:30 · Buffer
 
@@ -773,7 +773,7 @@ Topic：Research Workbench: Failure Recovery
 
 <a id="project-day-45"></a>
 
-### Day 45 · 周五 12/4
+### Day 45 · 周五 1/8
 
 15:00–16:30 · Buffer
 

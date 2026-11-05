@@ -1,4 +1,5 @@
 const fs=require('fs'),assert=require('assert');
+require('./layout.cjs'); // keep reports in Reports/ (moved to the root only while this script runs)
 const schedule=require('./quantvault-schedule.cjs');
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const pad=n=>String(n).padStart(2,'0');

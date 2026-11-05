@@ -1,4 +1,5 @@
 const fs=require('fs'),assert=require('assert');
+require('./layout.cjs'); // keep reports in Reports/ (moved to the root only while this script runs)
 const q=JSON.parse(fs.readFileSync('study-tools/quantvault-manifest.json','utf8'));
 const m=JSON.parse(fs.readFileSync('study-tools/manifest.json','utf8'));
 assert.equal(q.days.length,45);assert.equal(q.problems.length,47);
