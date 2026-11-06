@@ -43,24 +43,21 @@ const text = (n, annot = true, sec = false) => {
   return `[${n}. ${p.title}](${url(n)})` + (annot ? ` · ${sec ? p.section + ' · ' : ''}${p.diff}` : '');
 };
 
+// One problem per line, each ends with a checkbox (☐); build.cjs renders it as a saved tick box in the HTML.
 function codingCell(e, body) {
   const parts = body.split('<br>');
-  const topic = parts[0];
-  const mat = parts[parts.length - 1].startsWith('资料') ? parts[parts.length - 1] : '';
-  const out = [topic + ' + LeetCode Top 150'];
+  const out = [parts[0]];            // build.cjs appends "资料：…" to this first line
   if (e.kind === 'python') {
-    if (e.own.length) out.push(`计划原题（${e.own.length} 题）: ` + e.own.map(n => text(n)).join('; '));
-    if (e.top.length) out.push(`Top 150（${e.top.length} 题）: ` + e.top.map(n => text(n, true, true)).join('; '));
-    if (e.review.length) out.push('复习（每题约 10 分钟，做过的题限时重做）: ' + e.review.map(n => text(n, false)).join('; '));
-    if (!e.top.length && e.spare_min >= 30) out.push(`Top 150 薄弱题重做（约 ${e.spare_min} 分钟）: 回到前面卡住或做错的题，限时重做，不新增题目`);
+    for (const n of e.own) out.push(text(n) + ' ☐');
+    for (const n of e.top) out.push(text(n, true, true) + ' ☐');
+    for (const n of e.review) out.push(text(n, false) + ' · 复习 ☐');
+    if (!e.top.length && e.spare_min >= 30) out.push(`Top 150 薄弱题重做（约 ${e.spare_min} 分钟）：回到前面卡住或做错的题，限时重做，不新增题目 ☐`);
   } else {
-    const sqlPart = parts.find(x => x.startsWith('LeetCode:')).slice('LeetCode:'.length).trim();
-    out.push('SQL（1 小时，三题候选先做前两题）: ' + sqlPart);
-    out.push(e.top.length
-      ? `Top 150（1 小时，${e.top.length} 题）: ` + e.top.map(n => text(n, true, true)).join('; ')
-      : 'Top 150 薄弱题重做（约 60 分钟）: 回到前面卡住或做错的题，限时重做，不新增题目');
+    const sql = parts.find(x => x.startsWith('LeetCode:')).slice('LeetCode:'.length).trim().split('; ');
+    sql.forEach((x, i) => out.push(x + (i < 2 ? ' · SQL ☐' : ' · SQL（有时间再做） ☐')));
+    if (e.top.length) for (const n of e.top) out.push(text(n, true, true) + ' ☐');
+    else out.push('Top 150 薄弱题重做（约 60 分钟）：回到前面卡住或做错的题，限时重做，不新增题目 ☐');
   }
-  if (mat) out.push(mat);
   return out.join('<br>');
 }
 
@@ -78,6 +75,12 @@ function plan(src) {
     return `| 08:30–10:30 | ${e.kind === 'python' ? 'Python' : 'SQL'} + Top 150 刷题，2 小时 | ${codingCell(e, body)} |`;
   });
   if (k !== 45) throw Error('reschedule: expected 45 coding rows, got ' + k);
+  let courses = 0;
+  s = s.replace(/^\| 10:30–12:30 \|[^\r\n]*\|(?=\r?$)/gm, () => { courses++; return '| 10:30–12:30 | 网课，2 小时 | Online Course [____] |'; });
+  if (courses !== 45) throw Error('reschedule: expected 45 course rows, got ' + courses);
+  const before = s.length;
+  s = s.replace(/^\| 12:30–13:30 \|[^\r\n]*\r?\n/gm, '');
+  if (s.length === before) throw Error('reschedule: no lunch rows found');
   const d40 = nd(40), d41 = nd(41), d45 = nd(45);
   s = must(s, '工作日八小时学习计划', '工作日八个半小时学习计划');
   s = must(s, '2026 年 10 月 5 日至 11 月 27 日为八周主计划；11 月 30 日至 12 月 4 日为工作日缓冲期。',
@@ -111,11 +114,15 @@ function firstHardDay() {
   return 45;
 }
 
-// per-day sentence for the daily learning guide
-function guideLine(i) {
-  const e = S[i], rev = e.review.length ? `、复习${e.review.length}题` : '';
-  if (e.kind === 'python') return `今天2小时：计划原题${e.own.length}题、Top 150 ${e.top.length}题${rev}，题号与链接见当天总表。`;
-  return e.top.length ? `今天2小时：SQL 1小时，Top 150 ${e.top.length}题，题号与链接见当天总表。` : '今天2小时：SQL 1小时，Top 150薄弱题重做1小时，题号与链接见当天总表。';
+// how many problems today, for the guide's "每日入口" (the timetable has the actual problems)
+function dayCounts(i) {
+  const e = S[i], rev = e.review.length ? `，另复习${e.review.length}题` : '';
+  if (e.kind === 'python') {
+    const n = e.own.length + e.top.length;
+    if (!n) return `2hr：复习${e.review.length}题，其余时间重做薄弱题`;
+    return `2hr：${n}题${rev}` + (!e.top.length && e.spare_min >= 30 ? '，其余时间重做薄弱题' : '');
+  }
+  return `2hr：${e.sql_probs.length + e.top.length}题，含SQL ${e.sql_probs.length}题` + (!e.top.length ? '，Top 150时间重做薄弱题' : '');
 }
 
 // Reports/AI_ENGINEER_TOP150_SCHEDULE.md (root-relative links: layout.cjs moves it with the other reports)
@@ -156,4 +163,38 @@ function top150Md() {
   return L.join('\n') + '\n';
 }
 
-module.exports = { plan, roadmap, guideLine, top150Md, mapDates, nd, DATES, data };
+// Reports/AI_ENGINEER_LEETCODE_DAILY_LIST.md: one checkbox per day with problem numbers and topics.
+// planText is the rescheduled plan (plan()), so dates and SQL candidates come from the same source.
+function dailyListMd(planText) {
+  const heads = [...planText.matchAll(/^### (周[一二三四五]) (\d{1,2}\/\d{1,2})/gm)];
+  const rows = planText.split('\n').filter(l => l.startsWith('| 08:30–10:30 |'));
+  if (heads.length !== 45 || rows.length !== 45) throw Error('dailyListMd: expected 45 days');
+  const pad = n => String(n).padStart(2, '0'), join = a => a.join(', ');
+  const L = ['# LeetCode 每日刷题表', '',
+    '每天 08:30–10:30 刷题。每行是一天：Day、日期、当天的主题，下面是今天要刷的题号。做完一天就勾掉。', '',
+    '- 计划原题 - 计划里原有的 Python 题，在对应主题日刷',
+    '- SQL - SQL 日前 1 小时的三道候选题，先做前两题',
+    '- Top 150 - LeetCode 官方 Top Interview 150，括号里是专题',
+    '- Top 150 Hard - 全部放在最后',
+    '- 复习 - 之前做过的题，每题限时 10 分钟重做',
+    '- 题目标题和链接在[每日总时间表](AI_ENGINEER_TRANSITION_PLAN.md)当天的第一行，完整题单在[Top 150 排期](AI_ENGINEER_TOP150_SCHEDULE.md)', ''];
+  S.forEach((e, i) => {
+    if (i % 5 === 0) {
+      if (i > 0) L.push('');
+      L.push(`## 第 ${i / 5 + 1} 周（${nd(i + 1)} 到 ${nd(Math.min(i + 5, 45))}）`, '');
+    }
+    const topic = rows[i].split(' | ')[2].split('<br>')[0];
+    L.push(`- [ ] Day ${pad(i + 1)} · ${heads[i][1]} ${heads[i][2]} · ${topic}`);
+    if (e.kind === 'sql') L.push(`  - SQL: ${join(rows[i].split('<br>').filter(x => x.includes('· SQL')).map(x => x.match(/\[(\d+)\. /)[1]))}`);
+    if (e.own.length) L.push(`  - 计划原题: ${join(e.own)}`);
+    const nonHard = e.top.filter(n => P[n].diff !== 'Hard'), hard = e.top.filter(n => P[n].diff === 'Hard');
+    const secs = ns => [...new Set(ns.map(n => P[n].section))].join(', ');
+    if (nonHard.length) L.push(`  - Top 150（${secs(nonHard)}）: ${join(nonHard)}`);
+    if (hard.length) L.push(`  - Top 150 Hard（${secs(hard)}）: ${join(hard)}`);
+    if (e.review.length) L.push(`  - 复习: ${join(e.review)}`);
+    if (!e.top.length && e.spare_min >= 30) L.push('  - Top 150 薄弱题重做：回到前面卡住或做错的题');
+  });
+  return L.join('\n') + '\n';
+}
+
+module.exports = { plan, roadmap, dayCounts, top150Md, dailyListMd, mapDates, nd, DATES, data };

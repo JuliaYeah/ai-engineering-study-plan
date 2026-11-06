@@ -10,11 +10,11 @@
 
 13:30–14:15 · ML / Regression：讲义20分钟，Notebook15分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/train-validation-test-split.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-01)
+[当天讲义](../Study%20topics/train-validation-test-split.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-01)
 
 - [#1962 · Explaining Machine Learning to a Non-Technical Audience](https://quantvault.org/problems.html?id=1962) · Machine Learning · Easy
 
-先修：先读Machine Learning Foundations。
+先修：先读[Machine Learning Foundations](../Study%20topics/ml-foundations-start-here.html)。
 
 Conceptual：用自己的金融工作解释Feature、Target、Training和Prediction；先不背模型名。
 
@@ -26,12 +26,12 @@ Conceptual：用自己的金融工作解释Feature、Target、Training和Predict
 
 13:30–14:15 · ML / Regression：讲义20分钟，Notebook15分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-02)
+[当天讲义](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-02)
 
 - [#1432 · Linear Regression: Model, Estimation, and When to Use It](https://quantvault.org/problems.html?id=1432) · Regression · Medium
 - [#1966 · Framework for Open-Ended Modeling Strategy](https://quantvault.org/problems.html?id=1966) · Machine Learning · Easy
 
-先修：入门页的Linear Regression公式；两题各用约5分钟。
+先修：入门页的[Linear Regression](../Study%20topics/linear-regression.html)公式；两题各用约5分钟。
 
 Conceptual：先解释线性函数的输入、系数和数值输出，再用目标→数据→基线→验证组织建模思路。
 
@@ -43,11 +43,11 @@ Conceptual：先解释线性函数的输入、系数和数值输出，再用目�
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-03)
+[当天讲义](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-03)
 
 - [#1953 · End-to-End Prediction Modeling Pipeline](https://quantvault.org/problems.html?id=1953) · Machine Learning · Medium
 
-先修：先读Data Leakage与scikit-learn Pipelines。
+先修：先读[Data Leakage](../Study%20topics/data-leakage.html)与[scikit-learn Pipelines](../Study%20topics/scikit-learn-pipelines.html)。
 
 Case outline：只画Data → Split → Preprocessing → Fit → Evaluate，标出哪些步骤只能看训练集。整题的完整建模方案留到Day 31。
 
@@ -59,11 +59,11 @@ Case outline：只画Data → Split → Preprocessing → Fit → Evaluate，标
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/mae-rmse.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-04)
+[当天讲义](../Study%20topics/mae-rmse.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-04)
 
 - [#1613 · Loss Function Minimizers and Regression Variants](https://quantvault.org/problems.html?id=1613) · Regression · Medium
 
-先修：先读MAE、RMSE；Loss是训练目标，Metric是评价方式，两者可以不同。
+先修：先读[MAE](../Study%20topics/mae.html)、[RMSE](../Study%20topics/rmse.html)；Loss是训练目标，Metric是评价方式，两者可以不同。
 
 Conceptual：只比较Squared Loss与Absolute Loss，以及均值/中位数对应关系；不要求完成所有回归变体推导。
 
@@ -75,12 +75,12 @@ Conceptual：只比较Squared Loss与Absolute Loss，以及均值/中位数对�
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-05)
+[当天讲义](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-05)
 
 - [#1261 · Diagnosing Overfitting and Cross-Validation](https://quantvault.org/problems.html?id=1261) · Machine Learning · Easy
 - [#1118 · Definition and Range of R-Squared](https://quantvault.org/problems.html?id=1118) · Regression · Easy
 
-先修：补读R-Squared = 1 − SSE/SST；它不同于RMSE，样本外可能为负。
+先修：补读R-Squared = 1 − SSE/SST；它不同于[RMSE](../Study%20topics/rmse.html)，样本外可能为负。
 
 Conceptual：先识别训练好、验证差的过拟合，再解释R-Squared衡量相对均值基线的拟合；Cross-Validation细节留到Day 17。
 
@@ -92,12 +92,12 @@ Conceptual：先识别训练好、验证差的过拟合，再解释R-Squared衡�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-06)
+[当天讲义](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-06)
 
 - [#1861 · Linear Regression, Ridge, and Lasso](https://quantvault.org/problems.html?id=1861) · Regression · Medium
 - [#1078 · Advantages of Lasso Over Other Linear Feature Selection Methods](https://quantvault.org/problems.html?id=1078) · Machine Learning · Medium
 
-先修：先读Regularization讲义；L1可归零，L2通常缩小，alpha用验证选。
+先修：先读[Regularization](../Study%20topics/regularization.html)讲义；L1可归零，L2通常缩小，alpha用验证选。
 
 Comparison：先比较OLS、Ridge与Lasso，再回答Lasso的特征选择优势及相关特征下不稳定的限制。
 
@@ -109,11 +109,11 @@ Comparison：先比较OLS、Ridge与Lasso，再回答Lasso的特征选择优势�
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-07)
+[当天讲义](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-07)
 
 - [#2606 · Interpreting Logistic Regression Coefficients](https://quantvault.org/problems.html?id=2606) · Machine Learning · Medium
 
-先修：先读Logistic Regression；Odds = p/(1−p)，Log-odds = log(Odds)。
+先修：先读[Logistic Regression](../Study%20topics/logistic-regression.html)；Odds = p/(1−p)，Log-odds = log(Odds)。
 
 Conceptual：解释线性score→sigmoid→概率；系数影响log-odds，不能直接说概率增加相同数值。
 
@@ -125,7 +125,7 @@ Conceptual：解释线性score→sigmoid→概率；系数影响log-odds，不�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-08)
+[当天讲义](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-08)
 
 - [#1473 · Precision and Recall in Classification](https://quantvault.org/problems.html?id=1473) · Machine Learning · Medium
 
@@ -141,11 +141,11 @@ Worked example：手算一组TP、FP、FN的Precision与Recall；改变阈值，
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/pr-auc-roc-auc-calibration.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-09)
+[当天讲义](../Study%20topics/pr-auc-roc-auc-calibration.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-09)
 
 - [#1666 · Profit-Aware Classification Threshold](https://quantvault.org/problems.html?id=1666) · Machine Learning · Hard
 
-先修：先读Precision、Recall、ROC-AUC与PR-AUC；用每次正确收益/错误损失的小数字例子。
+先修：先读[Precision](../Study%20topics/precision.html)、[Recall](../Study%20topics/recall.html)、[ROC-AUC](../Study%20topics/roc-auc.html)与[PR-AUC](../Study%20topics/pr-auc.html)；用每次正确收益/错误损失的小数字例子。
 
 Advanced: scoped calculation：只完成二分类阈值的收益/损失判断。先画PR/ROC曲线的含义，再说明排序指标不能替代决策成本。
 
@@ -157,7 +157,7 @@ Advanced: scoped calculation：只完成二分类阈值的收益/损失判断。
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/pr-auc-roc-auc-calibration.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-10)
+[当天讲义](../Study%20topics/pr-auc-roc-auc-calibration.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-10)
 
 - [#3699 · MSE or Cross Entropy: Picking a Loss for a Probabilistic Classifier](https://quantvault.org/problems.html?id=3699) · Machine Learning · Medium
 
@@ -173,11 +173,11 @@ Conceptual：比较数值回归损失与概率分类损失；先读Calibration�
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-11)
+[当天讲义](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-11)
 
 - [#1836 · Controlling Overfitting in Decision Trees and XGBoost](https://quantvault.org/problems.html?id=1836) · Machine Learning · Medium
 
-先修：先读Decision Trees；Boosting细节尚未学，不要求第一次完整作答。
+先修：先读[Decision Trees](../Study%20topics/decision-trees.html)；Boosting细节尚未学，不要求第一次完整作答。
 
 Conceptual：先讨论树深、叶子样本数与过拟合，只做Decision Tree部分；XGBoost部分留到Day 16对照。
 
@@ -189,7 +189,7 @@ Conceptual：先讨论树深、叶子样本数与过拟合，只做Decision Tree
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-12)
+[当天讲义](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-12)
 
 - [#2017 · Missing Data Imputation and Regression Pipeline](https://quantvault.org/problems.html?id=2017) · Machine Learning · Medium
 
@@ -205,7 +205,7 @@ Implementation sketch：只写缺失值处理与Scaler放入Pipeline的最小片
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/mae-rmse.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-13)
+[当天讲义](../Study%20topics/mae-rmse.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-13)
 
 - [#1625 · Median Regression vs. OLS](https://quantvault.org/problems.html?id=1625) · Regression · Medium
 
@@ -221,7 +221,7 @@ Comparison：比较MAE/Absolute Loss与MSE/Squared Loss，说明异常值为何�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-14)
+[当天讲义](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-14)
 
 - [#1431 · Lasso, Ridge, and Elastic Net Comparison](https://quantvault.org/problems.html?id=1431) · Regression · Medium
 - [#1447 · Multicollinearity Consequences in OLS](https://quantvault.org/problems.html?id=1447) · Regression · Easy
@@ -238,11 +238,11 @@ Comparison：比较Lasso、Ridge与Elastic Net，结合相关特征解释系数�
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-15)
+[当天讲义](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-15)
 
 - [#1670 · Random Forests, Bagging, and Variance Reduction](https://quantvault.org/problems.html?id=1670) · Machine Learning · Medium
 
-先修：先读Random Forests；Bagging是重采样后组合模型。
+先修：先读[Random Forests](../Study%20topics/random-forests.html)；Bagging是重采样后组合模型。
 
 Conceptual：解释Bagging、随机特征与树平均怎样降低方差，并指出不是所有树都独立。
 
@@ -254,11 +254,11 @@ Conceptual：解释Bagging、随机特征与树平均怎样降低方差，并指
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-16)
+[当天讲义](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-16)
 
 - [#1743 · Gradient Boosting vs. Random Forests, Batch Normalization, and SGD Momentum](https://quantvault.org/problems.html?id=1743) · Machine Learning · Easy
 
-先修：先读Gradient Boosting；逐步纠正当前损失，与独立树平均不同。
+先修：先读[Gradient Boosting](../Study%20topics/gradient-boosting.html)；逐步纠正当前损失，与独立树平均不同。
 
 Comparison：只比较Random Forest与Gradient Boosting，并复习Day 11的XGBoost限制；Batch Norm和SGD Momentum作为扩展。
 
@@ -270,11 +270,11 @@ Comparison：只比较Random Forest与Gradient Boosting，并复习Day 11的XGBo
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/cross-validation-hyperparameter-tuning.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-17)
+[当天讲义](../Study%20topics/cross-validation-hyperparameter-tuning.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-17)
 
 - [#1746 · Hyperparameter Selection in Machine Learning](https://quantvault.org/problems.html?id=1746) · Machine Learning · Easy
 
-先修：先读Cross-Validation；随机K-fold不能直接用于金融时间序列。
+先修：先读[Cross-Validation](../Study%20topics/cross-validation.html)；随机K-fold不能直接用于金融时间序列。
 
 Conceptual：区分模型学到的Parameter与人为选择的Hyperparameter，说明Cross-Validation和最终测试的分工。
 
@@ -286,12 +286,12 @@ Conceptual：区分模型学到的Parameter与人为选择的Hyperparameter，�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/cross-validation-hyperparameter-tuning.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-18)
+[当天讲义](../Study%20topics/cross-validation-hyperparameter-tuning.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-18)
 
 - [#1587 · Hyperparameter Tuning and Diagnosing Flat Out-of-Sample Performance](https://quantvault.org/problems.html?id=1587) · Machine Learning · Medium
 - [#1676 · Ridge Regression Hyperparameter Diagnostics](https://quantvault.org/problems.html?id=1676) · Machine Learning · Medium
 
-先修：先读Hyperparameter Tuning；不根据最终测试反复选择配置。
+先修：先读[Hyperparameter Tuning](../Study%20topics/hyperparameter-tuning.html)；不根据最终测试反复选择配置。
 
 Diagnosis：面对样本外表现平坦，先判断数据、基线、alpha、样本量与验证方差，再决定是否继续调参。
 
@@ -303,12 +303,12 @@ Diagnosis：面对样本外表现平坦，先判断数据、基线、alpha、样
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/feature-engineering-interpretability-feature-importance.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-19)
+[当天讲义](../Study%20topics/feature-engineering-interpretability-feature-importance.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-19)
 
 - [#1757 · Limitations of One-Hot Encoding](https://quantvault.org/problems.html?id=1757) · Machine Learning · Easy
 - [#1964 · Feature Selection for Return Prediction](https://quantvault.org/problems.html?id=1964) · Machine Learning · Medium
 
-先修：先读Feature Engineering；One-Hot用多个0/1变量表示类别。
+先修：先读[Feature Engineering](../Study%20topics/feature-engineering.html)；One-Hot用多个0/1变量表示类别。
 
 Feature strategy：说明One-Hot Encoding的维度与未知类别问题；特征选择也必须在训练/验证流程内完成。
 
@@ -320,7 +320,7 @@ Feature strategy：说明One-Hot Encoding的维度与未知类别问题；特征
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/feature-engineering-interpretability-feature-importance.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-20)
+[当天讲义](../Study%20topics/feature-engineering-interpretability-feature-importance.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-20)
 
 - [#3080 · Feature Importance in Tree Models and What a SHAP Value Measures](https://quantvault.org/problems.html?id=3080) · Machine Learning · Medium
 
@@ -336,11 +336,11 @@ Conceptual：区分树内Importance、Permutation Importance与SHAP，说明相�
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-21)
+[当天讲义](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-21)
 
 - [#1939 · Cross-Validation Leakage in Financial Time Series](https://quantvault.org/problems.html?id=1939) · Machine Learning · Medium
 
-先修：先读Time-Series Splits、Walk-Forward Validation。
+先修：先读[Time-Series Splits](../Study%20topics/time-series-splits.html)、[Walk-Forward Validation](../Study%20topics/walk-forward-validation.html)。
 
 Case outline：画时间轴，指出随机切分、提前标准化和重叠目标怎样造成泄漏。
 
@@ -352,7 +352,7 @@ Case outline：画时间轴，指出随机切分、提前标准化和重叠目�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-22)
+[当天讲义](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-22)
 
 - [#2001 · Lookahead Bias From Universe Membership Leakage](https://quantvault.org/problems.html?id=2001) · Machine Learning · Medium
 - [#1980 · Handling Delayed Features in a Regression Model](https://quantvault.org/problems.html?id=1980) · Regression · Medium
@@ -369,7 +369,7 @@ Point-in-time audit：分别检查股票池成员和延迟发布特征；列出O
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-23)
+[当天讲义](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-23)
 
 - [#2168 · Purged Walk-Forward Cross-Validation](https://quantvault.org/problems.html?id=2168) · Machine Learning · Hard
 
@@ -385,11 +385,11 @@ Advanced: diagram only：用时间轴解释训练标签与验证区间重叠时�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-24)
+[当天讲义](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-24)
 
 - [#2150 · Leak-Free Feature Standardization in Walk-Forward Validation](https://quantvault.org/problems.html?id=2150) · Machine Learning · Medium
 
-先修：先读Scaling与Pipeline；只写关键伪代码，沿用本地Notebook实验。
+先修：先读[Scaling](../Study%20topics/scaling.html)与Pipeline；只写关键伪代码，沿用本地Notebook实验。
 
 Implementation sketch：在每个时间fold内fit预处理，只transform后续窗口；检查扩展窗口与滚动窗口差别。
 
@@ -401,7 +401,7 @@ Implementation sketch：在每个时间fold内fit预处理，只transform后续�
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-25)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-25)
 
 - [#1978 · HAR-RV Model for Realized Variance Forecasting](https://quantvault.org/problems.html?id=1978) · Regression · Medium
 
@@ -417,11 +417,11 @@ Financial baseline outline：只解释HAR-RV使用不同历史尺度的已实现
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-26)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-26)
 
 - [#3103 · Combining Features With Different Update Frequencies](https://quantvault.org/problems.html?id=3103) · Machine Learning · Hard
 
-先修：先读Forecast Horizons、Temporal Leakage；频率低不等于可以引用未来发布值。
+先修：先读[Forecast Horizons](../Study%20topics/forecast-horizons.html)、[Temporal Leakage](../Study%20topics/temporal-leakage.html)；频率低不等于可以引用未来发布值。
 
 Advanced: feature contract：列出日/周/月数据的发布时间、前向填充规则和缺失状态；不使用预测时不可获得的新值。
 
@@ -433,7 +433,7 @@ Advanced: feature contract：列出日/周/月数据的发布时间、前向填�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-27)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-27)
 
 - [#1996 · LASSO for Return Prediction with Time-Series Validation](https://quantvault.org/problems.html?id=1996) · Regression · Hard
 
@@ -449,11 +449,11 @@ Advanced: validation outline：只设计Lasso时间序列development folds和特
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-28)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-28)
 
 - [#1677 · Ridge Regression Regularization in Time Series](https://quantvault.org/problems.html?id=1677) · Regression · Medium
 
-先修：先复习Ridge与Hyperparameter Tuning。
+先修：先复习Ridge与[Hyperparameter Tuning](../Study%20topics/hyperparameter-tuning.html)。
 
 Model selection：解释alpha、训练窗口、预测期限与Ridge稳定性，所有配置在development数据上选择。
 
@@ -465,11 +465,11 @@ Model selection：解释alpha、训练窗口、预测期限与Ridge稳定性，�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-29)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-29)
 
 - [#2126 · Comparing Forecasting Models for Daily Asset Returns](https://quantvault.org/problems.html?id=2126) · Machine Learning · Medium
 
-先修：先读Out-of-Sample Evaluation；本题题名是收益，举例可迁移到波动率但不能混淆目标。
+先修：先读[Out-of-Sample Evaluation](../Study%20topics/out-of-sample-evaluation.html)；本题题名是收益，举例可迁移到波动率但不能混淆目标。
 
 Evaluation protocol：比较两个预测模型前先冻结数据、日期、指标与基线；最终测试不用于反复调整。
 
@@ -481,7 +481,7 @@ Evaluation protocol：比较两个预测模型前先冻结数据、日期、指�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-30)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-30)
 
 - [#1937 · Cross-Sectional Factor Model Estimation and Diagnostics](https://quantvault.org/problems.html?id=1937) · Regression · Medium
 
@@ -497,11 +497,11 @@ Case outline：只讨论资产切片、数据口径与回归残差诊断；完�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-31)
+[当天讲义](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-31)
 
 - [#1953 · End-to-End Prediction Modeling Pipeline](https://quantvault.org/problems.html?id=1953) · Machine Learning · Medium
 
-先修：先读Reproducibility、Model Versioning；本地Notebook继续承担数值实验。
+先修：先读[Reproducibility](../Study%20topics/reproducibility.html)、[Model Versioning](../Study%20topics/model-versioning.html)；本地Notebook继续承担数值实验。
 
 Case outline: second pass：补齐数据契约、实验追踪、模型产物、推理一致性、监控与回滚，复用Day 03的流程。
 
@@ -513,11 +513,11 @@ Case outline: second pass：补齐数据契约、实验追踪、模型产物、�
 
 13:30–14:15 · ML / Regression：讲义15分钟，Notebook20分钟，QuantVault10分钟。
 
-[当天讲义](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-32)
+[当天讲义](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-32)
 
 - [#1465 · Out-of-Distribution Prediction: Dog Weight Regression](https://quantvault.org/problems.html?id=1465) · Machine Learning · Easy
 
-先修：先读Regime Changes；模型能输出数值不等于有有效外推依据。
+先修：先读[Regime Changes](../Study%20topics/regime-changes.html)；模型能输出数值不等于有有效外推依据。
 
 Conceptual：解释Distribution Shift与Extrapolation，训练范围外的输入为何可能失效，连接金融Regime Change。
 
@@ -529,11 +529,11 @@ Conceptual：解释Distribution Shift与Extrapolation，训练范围外的输入
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-33)
+[当天讲义](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-33)
 
 - [#1867 · OLS Coefficient Confidence Intervals](https://quantvault.org/problems.html?id=1867) · Regression · Medium
 
-先修：先读Prediction Intervals；置信区间描述估计参数不确定性，预测区间还含新观测噪声。
+先修：先读[Prediction Intervals](../Study%20topics/prediction-intervals.html)；置信区间描述估计参数不确定性，预测区间还含新观测噪声。
 
 Uncertainty comparison：区分系数Confidence Interval与单次未来结果Prediction Interval；只说明假设与不同对象，不完成整题证明。
 
@@ -545,7 +545,7 @@ Uncertainty comparison：区分系数Confidence Interval与单次未来结果Pre
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-34)
+[当天讲义](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-34)
 
 - [#1638 · OLS with Correlated Errors](https://quantvault.org/problems.html?id=1638) · Regression · Medium
 
@@ -561,11 +561,11 @@ Conceptual：说明残差相关时独立样本标准误为何不可靠，连接�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-35)
+[当天讲义](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-35)
 
 - [#2000 · Logistic Regression: Log-Likelihood, Gradient, and Threshold Selection](https://quantvault.org/problems.html?id=2000) · Regression · Medium
 
-先修：复习Day 07、Day 10；先看本地NumPy Logistic Regression。
+先修：复习[Day 07](AI_ENGINEER_TRANSITION_PLAN.md#day-07)、[Day 10](AI_ENGINEER_TRANSITION_PLAN.md#day-10)；先看本地[NumPy Logistic Regression](../Study%20topics/numpy-logistic-regression.html)。
 
 Derivation sketch：用已学sigmoid和交叉熵写梯度关键步骤，再说明概率与阈值的分工；不要求完整Hessian。
 
@@ -577,7 +577,7 @@ Derivation sketch：用已学sigmoid和交叉熵写梯度关键步骤，再说�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-36)
+[当天讲义](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-36)
 
 - [#1736 · End-to-End EDA and Linear Regression Pipeline](https://quantvault.org/problems.html?id=1736) · Machine Learning · Medium
 
@@ -593,11 +593,11 @@ Case outline：只形成EDA→缺失处理→切分→Pipeline→指标→版本
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-37)
+[当天讲义](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-37)
 
 - [#2152 · ML Model Failures in Production](https://quantvault.org/problems.html?id=2152) · Machine Learning · Medium
 
-先修：先读Serving、Drift、Model Versioning。
+先修：先读Serving、[Drift](../Study%20topics/drift.html)、[Model Versioning](../Study%20topics/model-versioning.html)。
 
 Production diagnosis：检查输入schema、预处理、版本、真实标签延迟和服务指标；比较离线与线上预测一致性。
 
@@ -609,11 +609,11 @@ Production diagnosis：检查输入schema、预处理、版本、真实标签延
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-38)
+[当天讲义](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-38)
 
 - [#3102 · Debugging a Model That Underperforms Live](https://quantvault.org/problems.html?id=3102) · Machine Learning · Hard
 
-先修：先复习Day 37，避免一看到低分就直接重训练。
+先修：先复习[Day 37](AI_ENGINEER_TRANSITION_PLAN.md#day-37)，避免一看到低分就直接重训练。
 
 Advanced: incident outline：给出定位、可安全回滚、证据保留和复验顺序；说明哪些证据支持数据变化，哪些支持实现故障。
 
@@ -625,11 +625,11 @@ Advanced: incident outline：给出定位、可安全回滚、证据保留和复
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-39)
+[当天讲义](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-39)
 
 - [#1866 · OLS Assumptions, Violations, and Diagnostics](https://quantvault.org/problems.html?id=1866) · Regression · Medium
 
-先修：复习Linear Regression、Data Leakage、Multicollinearity。
+先修：复习[Linear Regression](../Study%20topics/linear-regression.html)、[Data Leakage](../Study%20topics/data-leakage.html)、Multicollinearity。
 
 Mock: regression foundations：口述模型、假设、残差与常见失效；重点是预测有效性，不把因果或无偏推断当作自动结论。
 
@@ -641,12 +641,12 @@ Mock: regression foundations：口述模型、假设、残差与常见失效；�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/train-validation-test-split.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-40)
+[当天讲义](../Study%20topics/train-validation-test-split.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-40)
 
 - [#1261 · Diagnosing Overfitting and Cross-Validation](https://quantvault.org/problems.html?id=1261) · Machine Learning · Easy
 - [#1078 · Advantages of Lasso Over Other Linear Feature Selection Methods](https://quantvault.org/problems.html?id=1078) · Machine Learning · Medium
 
-先修：复习Day 05、Day 06；缓冲周按错误安排重做。
+先修：复习[Day 05](AI_ENGINEER_TRANSITION_PLAN.md#day-05)、[Day 06](AI_ENGINEER_TRANSITION_PLAN.md#day-06)；缓冲周按错误安排重做。
 
 Mock: evaluation and regularization：不看答案各用2分钟回答，再回答一个追问；重点检查验证角色及Lasso限制。
 
@@ -658,7 +658,7 @@ Mock: evaluation and regularization：不看答案各用2分钟回答，再回�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/train-validation-test-split.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-41)
+[当天讲义](../Study%20topics/train-validation-test-split.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-41)
 
 - [#1118 · Definition and Range of R-Squared](https://quantvault.org/problems.html?id=1118) · Regression · Easy
 - [#1447 · Multicollinearity Consequences in OLS](https://quantvault.org/problems.html?id=1447) · Regression · Easy
@@ -675,11 +675,11 @@ Buffer: remediation：重做R-Squared和Multicollinearity；若已熟悉，用�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/drift-retraining.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-42)
+[当天讲义](../Study%20topics/drift-retraining.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-42)
 
 - [#3100 · Handling Simultaneous Feature and Target Distribution Shift](https://quantvault.org/problems.html?id=3100) · Machine Learning · Hard
 
-先修：先读Drift；概念分析，不要求完成完整分布适配项目。
+先修：先读[Drift](../Study%20topics/drift.html)；概念分析，不要求完成完整分布适配项目。
 
 Advanced: monitoring outline：分别讨论Feature Distribution与Target Distribution变化，以及标签何时才能观测。
 
@@ -691,11 +691,11 @@ Advanced: monitoring outline：分别讨论Feature Distribution与Target Distrib
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/drift-retraining.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-43)
+[当天讲义](../Study%20topics/drift-retraining.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-43)
 
 - [#3102 · Debugging a Model That Underperforms Live](https://quantvault.org/problems.html?id=3102) · Machine Learning · Hard
 
-先修：复习Day 37、Day 38、Day 42。
+先修：复习[Day 37](AI_ENGINEER_TRANSITION_PLAN.md#day-37)、[Day 38](AI_ENGINEER_TRANSITION_PLAN.md#day-38)、[Day 42](AI_ENGINEER_TRANSITION_PLAN.md#day-42)。
 
 Buffer: incident replay：重新解释真实标签延迟、预处理故障与数据变化的排查；依据错题补漏。
 
@@ -707,11 +707,11 @@ Buffer: incident replay：重新解释真实标签延迟、预处理故障与数
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/drift-retraining.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-44)
+[当天讲义](../Study%20topics/drift-retraining.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-44)
 
 - [#3322 · Preventing Overfitting and Ensuring Model Robustness](https://quantvault.org/problems.html?id=3322) · Machine Learning · Medium
 
-先修：先读Retraining与Drift。
+先修：先读[Retraining](../Study%20topics/retraining.html)与[Drift](../Study%20topics/drift.html)。
 
 Retraining decision：说明重训练触发条件、候选验证、基线比较和回滚；不把漂移告警等同于部署新模型。
 
@@ -723,7 +723,7 @@ Retraining decision：说明重训练触发条件、候选验证、基线比较�
 
 13:30–14:15 · ML / Regression：讲义10分钟，Notebook15分钟，QuantVault20分钟。
 
-[当天讲义](../Study%20topics/drift-retraining.html) · [学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md#guide-day-45)
+[当天讲义](../Study%20topics/drift-retraining.html) · [当天时间表](AI_ENGINEER_TRANSITION_PLAN.md#day-45)
 
 - [#1966 · Framework for Open-Ended Modeling Strategy](https://quantvault.org/problems.html?id=1966) · Machine Learning · Easy
 

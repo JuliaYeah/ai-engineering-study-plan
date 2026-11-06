@@ -40,3 +40,9 @@ node study-tools/validate.cjs
 - `top150-schedule.json` - 排期数据：每天的计划原题、Top 150题、复习题，以及150题的标题、难度和专题。改排期只改这个文件，再运行`node study-tools/build.cjs`
 - `layout.cjs` - 学习指南留在仓库根目录，其余报告（`AI_ENGINEER_TRANSITION_PLAN`、`PROJECT_ROADMAP`、`QUANTVAULT_PLAN`、`BILINGUAL_LESSONS`、`TOP150_SCHEDULE`）放在`Reports/`。生成脚本仍按“全部在根目录”工作，引入`layout.cjs`后，运行期间文件临时回到根目录，退出时自动放回`Reports/`并修好链接
 - 重新生成会清空notebook的运行输出，之后运行`verify_notebooks.py`重新执行
+- 学习指南与每日时间表的分工由`build.cjs`生成：总览（日期与工时、项目计划、Topic总览、规则、课程与题库说明）和“每日入口”（每天一个链接，指向时间表当天位置）写进`AI_ENGINEER_DAILY_LEARNING_GUIDE`；`AI_ENGINEER_TRANSITION_PLAN`只放每天的内容，并加上每天的“学习提示”（ML实验、设计读法、项目任务）。QuantVault的总说明只进指南，每天的题目只进时间表
+- `server.cjs` - 本地服务器（`start-server.bat`启动，默认`http://127.0.0.1:5510`，只监听本机）：提供页面，保存时间表里的勾选和课程名，并提供“从GitHub拉取”和“推送到GitHub”两个按钮。不要用5500，那是VS Code的Live Server，不能保存
+- `progress.cjs` - 进度的读写和Markdown镜像：`study-progress.json`是进度的唯一来源（每行一项、按键排序、没有时间戳，两台设备改不同项时能干净合并），时间表Markdown里的☐/☑和`Online Course [____]`由它按进度改写。`build.cjs`重新生成时也会按`study-progress.json`写回，所以重新生成不会丢进度
+- 勾选框的键是“当天锚点 + 这一项文字的哈希”：改了某一项的文字（比如换了题），它的旧勾选就不再对应
+- 两个按钮只处理`study-progress.json`和时间表Markdown两个文件：拉取是提交本地进度后`git pull --rebase`，推送是在此基础上再`git push`。只有这两个文件冲突时才自动合并（以共同祖先为基准逐项三方合并，一台设备取消的勾不会被另一台复活）；其他文件冲突会中止并提示，不会替你决定
+- 时间表13:30那一行（ML + QuantVault）由`build.cjs`用`quantvault-day.cjs`的数据直接写出：讲义、Notebook、QuantVault各一行，标着分钟数，题目带勾选框。所以改了`quantvault-selected.txt`或`quantvault-schedule.cjs`之后要运行`node study-tools/build.cjs`；单独运行`quantvault.cjs`只更新QuantVault排期页和指南里的总说明，不再改时间表

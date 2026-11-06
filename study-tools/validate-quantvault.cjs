@@ -8,11 +8,12 @@ assert.equal(new Set(q.days.flatMap(d=>d.ids)).size,q.selectedUnique);
 assert.deepEqual(q.excluded,['Coding','Optimization']);
 assert(q.problems.every(p=>['Regression','Machine Learning'].includes(p.category)));
 for(const d of q.days){assert.equal(d.date,m.days[d.day-1].date);assert.equal(d.topic,m.days[d.day-1].ml);assert.equal(Object.values(d.minutes).reduce((a,b)=>a+b),45);assert(d.prerequisites&&d.scope);}
-for(const base of ['AI_ENGINEER_TRANSITION_PLAN','AI_ENGINEER_DAILY_LEARNING_GUIDE']){
+for(const [base,days,intro] of [['AI_ENGINEER_TRANSITION_PLAN',45,0],['AI_ENGINEER_DAILY_LEARNING_GUIDE',0,1]]){
  const md=fs.readFileSync(base+'.md','utf8'),html=fs.readFileSync(base+'.html','utf8');
- assert.equal((md.match(/<!-- quantvault-day \d+ -->/g)||[]).length,45,base+' Markdown sessions');
- assert.equal((html.match(/data-quantvault-day="\d+"/g)||[]).length,45,base+' HTML sessions');
- assert.equal((html.match(/data-quantvault-intro=/g)||[]).length,1);
+ assert.equal((md.match(/QuantVault Practice · \d+ mins/g)||[]).length,days,base+' Markdown sessions');
+ assert.equal((html.match(/QuantVault Practice · \d+ mins：<a /g)||[]).length,days,base+' HTML sessions');   // visible text only, not the checkbox data-l label
+ assert.equal((html.match(/data-quantvault-intro=/g)||[]).length,intro,base+' intro');
+ assert.equal((md.match(/<!-- quantvault-intro -->/g)||[]).length,intro,base+' Markdown intro');
 }
 const page=fs.readFileSync('AI_ENGINEER_QUANTVAULT_PLAN.html','utf8');
 for(const p of q.problems)assert(page.includes(p.url),p.title);

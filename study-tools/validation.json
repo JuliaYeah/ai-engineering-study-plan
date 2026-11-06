@@ -1,7 +1,7 @@
 {
   "days": 45,
-  "mainHours": 320,
-  "bufferHours": 40,
+  "mainHours": 340,
+  "bufferHours": 42.5,
   "questions": 623,
   "questionsUnchanged": true,
   "leetcodeLinksUnchanged": true,
@@ -9,6 +9,6 @@
   "notebooks": 15,
   "generalMainSessions": 16,
   "aiMainSessions": 24,
-  "localLinksChecked": 5555,
+  "localLinksChecked": 5393,
   "brokenLinks": 0
 }

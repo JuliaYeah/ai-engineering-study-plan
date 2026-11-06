@@ -74,8 +74,8 @@ function run(records){
  fs.writeFileSync('AI_ENGINEER_BILINGUAL_LESSONS.md',markdown.join('\n'));
  require('./ml-primer.cjs')();
  const link='<p data-lesson-navigation="v1">讲义按“学习背景 → Question → Key Terms → 例子 → Short Answer → 中文回答”阅读。ML初学者先读 <a href="'+('Study topics/')+'ml-foundations-start-here.html">Machine Learning Foundations</a>，基础阅读计入原有ML时段。</p>';
- for(const file of ['AI_ENGINEER_DAILY_LEARNING_GUIDE.html','Study topics/index.html']){let html=fs.readFileSync(file,'utf8');if(!html.includes('data-lesson-navigation'))html=html.replace(/(<h1[^>]*>[\s\S]*?<\/h1>)/,`$1${file.startsWith('Study topics/')?link.replace('Study topics/',''):link}`);fs.writeFileSync(file,html);}
- const guide='AI_ENGINEER_DAILY_LEARNING_GUIDE.md';let text=fs.readFileSync(guide,'utf8');if(!text.includes('Machine Learning Foundations'))text+='\n\n## 讲义阅读方式\n\n先读[Machine Learning Foundations](Study%20topics/ml-foundations-start-here.html)。每页依次阅读学习背景、Question、Key Terms、直观例子、英文Short Answer及中文回答，再完成原有练习。入门阅读计入原有ML时段，不改变日期与课时。\n\n[全部双语讲义](AI_ENGINEER_BILINGUAL_LESSONS.md)。\n';fs.writeFileSync(guide,text);
+ for(const file of ['AI_ENGINEER_DAILY_LEARNING_GUIDE.html','Study topics/index.html']){let html=fs.readFileSync(file,'utf8');if(!html.includes('data-lesson-navigation')){if(file.startsWith('Study topics/'))html=html.replace(/(<h1[^>]*>[\s\S]*?<\/h1>)/,`$1${link.replace('Study topics/','')}`);else{if(!html.includes('<h2>面试题答案</h2>'))throw Error('guide: 面试题答案 section not found');html=html.replace('<h2>面试题答案</h2>',`<h2>讲义阅读方式</h2>${link}<h2>面试题答案</h2>`);}}fs.writeFileSync(file,html);}
+ const guide='AI_ENGINEER_DAILY_LEARNING_GUIDE.md';let text=fs.readFileSync(guide,'utf8');if(!text.includes('## 讲义阅读方式')){if(!text.includes('## 面试题答案'))throw Error('guide: 面试题答案 section not found');text=text.replace('## 面试题答案','## 讲义阅读方式\n\n先读[Machine Learning Foundations](Study%20topics/ml-foundations-start-here.html)。每页依次阅读学习背景、Question、Key Terms、直观例子、英文Short Answer及中文回答，再完成原有练习。入门阅读计入原有ML时段，不改变日期与课时。\n\n[全部双语讲义](AI_ENGINEER_BILINGUAL_LESSONS.md)。\n\n## 面试题答案');}fs.writeFileSync(guide,text);
  console.log(`Bilingual lessons: ${records.length}`);
 }
 module.exports=run;

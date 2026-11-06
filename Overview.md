@@ -13,6 +13,8 @@
 ## 想做什么,运行什么
 
 - 浏览 wiki - `python serve_wiki.py`,然后打开 http://127.0.0.1:8000
+- 打开学习计划页面(勾选能保存) - 双击 `start-server.bat`,或者在 VS Code 里打开这个文件夹让它自动启动,然后打开 http://127.0.0.1:5510/Reports/AI_ENGINEER_TRANSITION_PLAN.html
+- 把进度同步到另一台设备 - 这台点"推送到 GitHub";另一台设备运行 `start-server.bat`,打开页面点"从 GitHub 拉取"。建议开始学习时先点一次"从 GitHub 拉取",结束时点一次"推送到 GitHub"
 - 每日学习 - 直接打开 `AI_ENGINEER_DAILY_LEARNING_GUIDE.html`,不需要命令
 - 记录碎片时间看到的面试题 - 在 `micro-learning/questions.md` 里加一行 `- [ ] 题目`,答案每天自动生成到 `micro-learning/answers/`
 - 跑 ML 实验 - 先建环境(见下),再在 VS Code 打开 `notebook/*.ipynb`
@@ -37,10 +39,15 @@
 
 这些文件是同一套学习计划的不同视图。计划从 2026-11-09(周一)开始,Day 1 就是这一天:8 周主计划到 2027-01-01(Day 40),再加 1 周缓冲到 2027-01-08(Day 45)。工作日每天 8.5 小时,周末休息;感恩节、圣诞节和元旦都按工作日算,要休息就把当天内容顺延。它们都是 `study-tools/` 生成的,每份有 `.md` 和 `.html` 两个版本,除了 BILINGUAL_LESSONS 和 TOP150_SCHEDULE 只有 `.md`。
 
-当前位置:`AI_ENGINEER_DAILY_LEARNING_GUIDE` 在仓库根目录,另外 4 份在 `Reports/`。
+当前位置:`AI_ENGINEER_DAILY_LEARNING_GUIDE` 在仓库根目录,另外几份在 `Reports/`。
 
-- `AI_ENGINEER_TRANSITION_PLAN` - 总日程表(约 19,000 行,是最大的一份)。每个学习日的时间安排,以及 623 道面试原题,每题附英文 Interview Answer、Explanation 和 Follow-up。HTML 版先展开口述稿,再按需展开详解和参考代码。想知道某天该做什么,先查这份
-- `AI_ENGINEER_DAILY_LEARNING_GUIDE` - 每日执行指南。把总日程展开成每天的 Coding、ML、System Design、Project 四个时段,并链接到当天的讲义和 notebook。每天实际打开的是这份
+先分清最常用的两份:学习指南是总览入口,每日时间表是每天要做的事。
+
+- `AI_ENGINEER_DAILY_LEARNING_GUIDE` - 学习指南,总览和入口。最前面是"每日入口":每天一个带链接的日期(点开跳到每日时间表当天的位置),下面固定列 5 件事:1. 刷题(几题)、2. Topic Study(ML 45 分钟、AI Design 45 分钟、Interview Questions 1 小时,各自带链接)、3. Project 1.5 小时、4. Online Course 2 小时、5. Review 30 分钟。后面是所有规则和说明:QuantVault、讲义阅读方式、面试题答案、使用方法、日期与工时、项目计划更新、Topic 总览、为什么这样安排、覆盖深度、固定安排与网课、题库覆盖范围。想知道今天做什么,先开这份
+- `AI_ENGINEER_TRANSITION_PLAN` - 每日时间表,纯每日内容(约 19,500 行,是最大的一份)。每一天是一张 7 行的表(没有午休行):08:30–10:30 刷题(每道题一行)、10:30–12:30 Online Course、13:30 ML 加 QuantVault、14:15 设计、15:00 项目、16:30 面试题、17:30 复盘。13:30 那一行分成三行:ML 讲义(含先修阅读)、Notebook、QuantVault 题目,各标着分钟数,每道题带勾选框。表格下面是学习提示、当天 20 道左右面试原题,每题附英文 Interview Answer、Explanation 和 Follow-up。HTML 版先展开口述稿,再按需展开详解和参考代码
+  - 勾选框 - 每道刷题、ML 讲义、Notebook、设计、项目、面试题、复盘后面都有一个勾选框,做完点一下。网课那一行有输入框,可以写课程名。Notebook 后面写着它在仓库里的路径
+  - 进度保存 - 在本地服务器上打开页面时,勾选会写进 `study-progress.json`(进度的唯一来源),同时把时间表 Markdown 里对应的 ☐ 改成 ☑。页面顶部有两个按钮,点了才会动 GitHub,打勾本身不会:"从 GitHub 拉取"只拉取别的设备的进度,不推送;"推送到 GitHub"先拉取再推送。两个按钮都只处理 `study-progress.json` 和时间表 Markdown 这两个文件。只有 HTML 版有勾选框,方向是 HTML 到 Markdown,直接改 Markdown 里的 ☐ 不会反过来更新进度
+  - 一定要用 `http://127.0.0.1:5510/...` 打开,不要用 5500:5500 是 VS Code 的 Live Server,只能显示页面,不能保存。没连上服务器时,勾选只存在这个浏览器里
 - `AI_ENGINEER_PROJECT_ROADMAP` - 三项目实践路线,每天 15:00-16:30 的项目时段:Day 01-20 Risk Copilot(30 小时),Day 21-30 Financial Statement Analytics Assistant(15 小时),Day 31-38 Investment Research Workbench(12 小时),Day 39-40 复现与收尾。这是未来的计划,不是项目已完成的报告
 - `AI_ENGINEER_QUANTVAULT_PLAN` - QuantVault 题目排期。只含 Regression 和 Machine Learning 两类,实时目录共 264 题,其中 47 道核心题分配到 45 个学习日,其余作扩展。和讲义、notebook 共用每天 13:30-14:15 的 45 分钟
 - `AI_ENGINEER_TOP150_SCHEDULE` - LeetCode Top Interview 150 的完整排期(`Reports/` 里,只有 `.md`)。列出 150 题分在哪一天、每个专题的进度,以及计划里不在 Top 150 的 21 道题。详见下面的"刷题安排"
@@ -184,7 +191,7 @@ node study-tools/validate.cjs
 只改一部分时可以单独运行:
 
 - `node study-tools/bilingual-lessons.cjs` - 只更新双语讲义(之后要再运行 QuantVault 模块恢复导航)
-- `node study-tools/quantvault.cjs` - 只更新 QuantVault 排期
+- `node study-tools/quantvault.cjs` - 只更新 QuantVault 排期页和指南里的总说明;时间表 13:30 那一行由 `build.cjs` 生成,改了 QuantVault 选题后要运行 `build.cjs`
 - `node study-tools/validate-quantvault.cjs` - 核对 QuantVault
 
 注意:
@@ -192,6 +199,7 @@ node study-tools/validate.cjs
 - 重新生成时,没改过 cell 的 notebook 会保留运行输出;改过的 notebook 需要再跑一次验证
 - 原 623 道题、LeetCode 链接和 notebook 实验代码保持不变
 - `study-tools/original-plan.md` 和 `study-tools/original-roadmap.md` 是只读快照,不是当前入口
-- 日期和刷题安排已经直接改在生成好的文件里(`Reports/`、`AI_ENGINEER_DAILY_LEARNING_GUIDE.*`、`Study topics/`、`study-tools/manifest.json`),`study-tools/` 的生成脚本还没有跟着改。现在重新运行 `build.cjs`、`quantvault.cjs`、`bilingual-lessons.cjs` 会把日期改回 2026-10-05,刷题时段改回 1.5 小时,Top 150 全部丢失。要重新生成,必须先把这些改动写进脚本和 `original-plan.md`
-- `AI_ENGINEER_*` 文件目前分两处:`AI_ENGINEER_DAILY_LEARNING_GUIDE` 在仓库根目录,其余在 `Reports/`,相互之间的链接已经按这个布局改好。但 `build.cjs`、`quantvault.cjs`、`bilingual-lessons.cjs` 仍然按"全部在根目录"写文件和链接。现在重新运行它们,会在根目录生成 4 份新文件,并把已改好的链接改回旧样子,`validate.cjs` 也可能报错。重新生成之前,要先改这些脚本里的输出路径和链接前缀
+- 日期和刷题安排由生成脚本决定，改了就重新生成：`study-tools/top150-schedule.json` 是排期数据（Day 1 日期、每天的题），`study-tools/reschedule.cjs` 把它应用到 `original-plan.md` 和 `original-roadmap.md` 的快照上。不要手改生成出来的文件，下次重新生成会丢
+- 学习指南留在仓库根目录，其余报告放在 `Reports/`。生成脚本仍按"全部在根目录"工作，由 `study-tools/layout.cjs` 在运行期间把文件临时放回根目录，退出时再放回 `Reports/` 并修好链接，所以直接运行 `build.cjs`、`quantvault.cjs`、`bilingual-lessons.cjs` 都是安全的
+- 重新生成会清空 notebook 的运行输出，之后运行 `verify_notebooks.py`
 - 详细说明见 [study-tools/README.md](study-tools/README.md)
