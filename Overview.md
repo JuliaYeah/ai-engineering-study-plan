@@ -43,8 +43,8 @@
 
 先分清最常用的两份:学习指南是总览入口,每日时间表是每天要做的事。
 
-- `AI_ENGINEER_DAILY_LEARNING_GUIDE` - 学习指南,总览和入口。最前面是"每日入口":每天一个带链接的日期(点开跳到每日时间表当天的位置),下面固定列 5 件事:1. 刷题(几题)、2. Topic Study(ML 45 分钟、AI Design 45 分钟、Interview Questions 1 小时,各自带链接)、3. Project 1.5 小时、4. Online Course 2 小时、5. Review 30 分钟。后面是所有规则和说明:QuantVault、讲义阅读方式、面试题答案、使用方法、日期与工时、项目计划更新、Topic 总览、为什么这样安排、覆盖深度、固定安排与网课、题库覆盖范围。想知道今天做什么,先开这份
-- `AI_ENGINEER_TRANSITION_PLAN` - 每日时间表,纯每日内容(约 19,500 行,是最大的一份)。每一天是一张 7 行的表(没有午休行):08:30–10:30 刷题(每道题一行)、10:30–12:30 Online Course、13:30 ML 加 QuantVault、14:15 设计、15:00 项目、16:30 面试题、17:30 复盘。13:30 那一行分成三行:ML 讲义(含先修阅读)、Notebook、QuantVault 题目,各标着分钟数,每道题带勾选框。表格下面是学习提示、当天 20 道左右面试原题,每题附英文 Interview Answer、Explanation 和 Follow-up。HTML 版先展开口述稿,再按需展开详解和参考代码
+- `AI_ENGINEER_DAILY_LEARNING_GUIDE` - 学习指南,总览和入口,只有 6 节:每日入口(按周分组,每周一行,点开日期跳到每日时间表里当天的位置)、题库一览(一张表,每个题库一行:LeetCode、SQL、QuantVault、面试原题等各几道题)、使用方法、项目、Topic 总览、计划说明。想知道今天做什么,先开这份找到当天,点进去
+- `AI_ENGINEER_TRANSITION_PLAN` - 每日时间表,纯每日内容(约 19,500 行,是最大的一份)。每一天是一张 7 行的表(没有午休行):08:30–10:30 刷题(每道题一行)、10:30–12:30 Online Course、13:30 ML 加 QuantVault、14:15 设计、15:00 项目、16:30 面试题、17:30 复盘。13:30 那一行分成三行:ML 讲义(含先修阅读)、Notebook、QuantVault 题目,各标着分钟数,每道题带勾选框。表格下面是"今日申请工作"(当天申请的岗位数量,下面是岗位名称、公司、Eval 链接和 Local JD 链接,数据由本地服务器实时读自你的 career-ops 仓库,不会写进这个仓库)、学习提示、当天 20 道左右面试原题,每题附英文 Interview Answer、Explanation 和 Follow-up。HTML 版先展开口述稿,再按需展开详解和参考代码
   - 勾选框 - 每道刷题、ML 讲义、Notebook、设计、项目、面试题、复盘后面都有一个勾选框,做完点一下。网课那一行有输入框,可以写课程名。Notebook 后面写着它在仓库里的路径
   - 进度保存 - 在本地服务器上打开页面时,勾选会写进 `study-progress.json`(进度的唯一来源),同时把时间表 Markdown 里对应的 ☐ 改成 ☑。页面顶部有两个按钮,点了才会动 GitHub,打勾本身不会:"从 GitHub 拉取"只拉取别的设备的进度,不推送;"推送到 GitHub"先拉取再推送。两个按钮都只处理 `study-progress.json` 和时间表 Markdown 这两个文件。只有 HTML 版有勾选框,方向是 HTML 到 Markdown,直接改 Markdown 里的 ☐ 不会反过来更新进度
   - 一定要用 `http://127.0.0.1:5510/...` 打开,不要用 5500:5500 是 VS Code 的 Live Server,只能显示页面,不能保存。没连上服务器时,勾选只存在这个浏览器里
@@ -191,7 +191,7 @@ node study-tools/validate.cjs
 只改一部分时可以单独运行:
 
 - `node study-tools/bilingual-lessons.cjs` - 只更新双语讲义(之后要再运行 QuantVault 模块恢复导航)
-- `node study-tools/quantvault.cjs` - 只更新 QuantVault 排期页和指南里的总说明;时间表 13:30 那一行由 `build.cjs` 生成,改了 QuantVault 选题后要运行 `build.cjs`
+- `node study-tools/quantvault.cjs` - 只更新 QuantVault 排期页;时间表 13:30 那一行和指南里的"题库一览"都由 `build.cjs` 生成,改了 QuantVault 选题后要运行 `build.cjs`
 - `node study-tools/validate-quantvault.cjs` - 核对 QuantVault
 
 注意:

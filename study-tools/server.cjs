@@ -4,10 +4,13 @@
 //   - GET  /api/progress  -> { ticks, notes }
 //   - POST /api/progress  -> tick / untick / course name; writes study-progress.json and mirrors it into the timetable .md
 //   - POST /api/sync      -> commit the progress files, pull --rebase, then push unless {push:false} (only when a page button is clicked)
+//   - GET  /api/applications, /career-ops/reports/*.html -> jobs applied for per day and their evaluation reports, read live from the
+//                           private career-ops repo (CAREER_OPS_DIR, or a sibling folder named career-ops); never copied into this repo
 // Deliberately does not require layout.cjs: it never moves files.
 const http = require('http'), fs = require('fs'), path = require('path');
 const { execFileSync } = require('child_process');
 const progress = require('./progress.cjs');
+const applications = require('./applications.cjs');
 
 const root = path.resolve(__dirname, '..');
 const port = +process.argv[2] || 5510;
@@ -138,6 +141,15 @@ function update(body) {
   return st;
 }
 
+function serveFile(req, res, file) {
+  fs.stat(file, (e, st) => {
+    if (e || !st.isFile()) return send(res, 404, 'not found', 'text/plain');
+    res.writeHead(200, { 'Content-Type': TYPES[path.extname(file).toLowerCase()] || 'application/octet-stream', 'Content-Length': st.size, 'Cache-Control': 'no-cache' });
+    if (req.method === 'HEAD') return res.end();
+    fs.createReadStream(file).pipe(res);
+  });
+}
+
 http.createServer((req, res) => {
   let url;
   try { url = new URL(req.url, 'http://x'); } catch (e) { return send(res, 400, 'bad url', 'text/plain'); }
@@ -145,6 +157,12 @@ http.createServer((req, res) => {
     const why = allowed(req);
     if (why) return send(res, 403, { error: why });
     if (url.pathname === '/api/progress' && req.method === 'GET') return send(res, 200, progress.load());
+    if (url.pathname === '/api/applications') {
+      if (req.method !== 'GET') return send(res, 405, { error: 'read only' });
+      const dir = applications.careerOpsDir(root);
+      if (!dir) return send(res, 200, { error: '找不到 career-ops 仓库（放在本仓库旁边，或设置 CAREER_OPS_DIR）', byDate: {} });
+      try { return send(res, 200, applications.load(dir)); } catch (e) { return send(res, 200, { error: e.message, byDate: {} }); }
+    }
     if (req.method !== 'POST') return send(res, 405, { error: 'method' });
     if (url.pathname === '/api/progress') {
       return readBody(req, (err, body) => {
@@ -158,16 +176,19 @@ http.createServer((req, res) => {
   if (req.method !== 'GET' && req.method !== 'HEAD') return send(res, 405, 'method not allowed', 'text/plain');
   let rel;
   try { rel = decodeURIComponent(url.pathname); } catch (e) { return send(res, 400, 'bad path', 'text/plain'); }
+  if (rel.startsWith('/career-ops/reports/')) {      // evaluation reports of the private career-ops repo: html only, this machine only
+    if (allowed(req)) return send(res, 403, 'forbidden', 'text/plain');
+    const dir = applications.careerOpsDir(root);
+    if (!dir) return send(res, 404, 'career-ops not found', 'text/plain');
+    const base = path.join(dir, 'reports'), f = path.resolve(base, rel.slice('/career-ops/reports/'.length));
+    if (!f.startsWith(base + path.sep) || path.extname(f).toLowerCase() !== '.html') return send(res, 403, 'forbidden', 'text/plain');
+    return serveFile(req, res, f);
+  }
   if (rel === '/') { res.writeHead(302, { Location: '/AI_ENGINEER_DAILY_LEARNING_GUIDE.html' }); return res.end(); }
   const file = path.resolve(root, '.' + rel);
   if (file !== root && !file.startsWith(root + path.sep)) return send(res, 403, 'forbidden', 'text/plain');
   if (rel.split('/').some(p => p === '.git')) return send(res, 403, 'forbidden', 'text/plain');
-  fs.stat(file, (e, st) => {
-    if (e || !st.isFile()) return send(res, 404, 'not found', 'text/plain');
-    res.writeHead(200, { 'Content-Type': TYPES[path.extname(file).toLowerCase()] || 'application/octet-stream', 'Content-Length': st.size, 'Cache-Control': 'no-cache' });
-    if (req.method === 'HEAD') return res.end();
-    fs.createReadStream(file).pipe(res);
-  });
+  serveFile(req, res, file);
 }).on('error', e => { console.error(e.code === 'EADDRINUSE' ? `Port ${port} is already in use.` : e.message); process.exit(1); })
   .listen(port, '127.0.0.1', () => {
     if (!fs.existsSync(progress.FILE)) progress.save(progress.load());

@@ -1,6 +1,6 @@
 # 每日时间表
 
-总览、规则、Topic 总览、课程与题库说明和每天的入口链接在[学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md) / [HTML版](../AI_ENGINEER_DAILY_LEARNING_GUIDE.html)。这一份只放每天要做的事：时段安排、刷题题目、学习提示、QuantVault、当天面试题和答案。
+每天要做的事都在这里；总览和每天的入口见[学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.md) / [HTML版](../AI_ENGINEER_DAILY_LEARNING_GUIDE.html)。
 
 ## 第 1 周：Foundations and Project Baseline
 
@@ -17,6 +17,8 @@
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Baseline and Issue Audit ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-01) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / LLM Fundamentals — 20 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Tokenization](../Study%20topics/tokenization.html); [Next-Token Prediction](../Study%20topics/next-token-prediction.html); [Context Windows](../Study%20topics/context-windows.html); [Temperature](../Study%20topics/temperature.html); [Top-p](../Study%20topics/top-p.html); [Transformer and Attention Fundamentals](../Study%20topics/transformer-and-attention-fundamentals.html); [LLM Limitations](../Study%20topics/llm-limitations.html); [Risk Copilot](../Study%20topics/risk-copilot.html) |
+
+<!-- applied-jobs 2026-11-09 -->
 
 
 #### 学习提示
@@ -565,6 +567,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / LLM Fundamentals; Technical Questions / RAG Systems — 19 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Prompt Engineering](../Study%20topics/prompt-engineering.html); [Few-Shot Examples](../Study%20topics/few-shot-examples.html); [Prompt Versioning](../Study%20topics/prompt-versioning.html); [SQL](../Study%20topics/sql.html) |
 
+<!-- applied-jobs 2026-11-10 -->
+
 
 #### 学习提示
 
@@ -1097,6 +1101,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Risk Numerical Correctness: Zero Exposure and Units ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-03) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / RAG Systems — 20 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Structured Outputs](../Study%20topics/structured-outputs.html); [Pydantic](../Study%20topics/pydantic.html); [JSON Recovery](../Study%20topics/json-recovery.html) |
+
+<!-- applied-jobs 2026-11-11 -->
 
 
 #### 学习提示
@@ -1645,6 +1651,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / RAG Systems; Technical Questions / Agents and Tool Use — 19 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Prompting vs. RAG vs. Fine-Tuning](../Study%20topics/prompting-vs-rag-vs-fine-tuning.html); [LoRA](../Study%20topics/lora.html); [Quantization](../Study%20topics/quantization.html); [Golden Datasets](../Study%20topics/golden-datasets.html); [Hard Negatives](../Study%20topics/hard-negatives.html) |
 
+<!-- applied-jobs 2026-11-12 -->
+
 
 #### 学习提示
 
@@ -2165,6 +2173,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Metric Audit and Retrieval Baseline ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-05) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Agents and Tool Use — 20 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Embeddings](../Study%20topics/embeddings.html); [Vector Similarity](../Study%20topics/vector-similarity.html); [Recall@k](../Study%20topics/recall-k.html); [Precision@k](../Study%20topics/precision-k.html); [MRR](../Study%20topics/mrr.html); [nDCG](../Study%20topics/ndcg.html); [Caching](../Study%20topics/caching.html); [Freshness](../Study%20topics/freshness.html) |
+
+<!-- applied-jobs 2026-11-13 -->
 
 #### 学习提示
 
@@ -2721,6 +2731,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Agents and Tool Use; Technical Questions / Fine-tuning and Training — 19 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Chunking](../Study%20topics/chunking.html); [Metadata](../Study%20topics/metadata.html); [Context Budgets](../Study%20topics/context-budgets.html) |
 
+<!-- applied-jobs 2026-11-16 -->
+
 
 #### 学习提示
 
@@ -3251,6 +3263,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Fine-tuning and Training; Technical Questions / Evaluation and Metrics — 19 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Keyword / Vector / Hybrid Search](../Study%20topics/keyword-vector-hybrid-search.html) |
 
+<!-- applied-jobs 2026-11-17 -->
+
 
 #### 学习提示
 
@@ -3779,6 +3793,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: MMR Experiment and Held-Out Check ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-08) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Evaluation and Metrics — 20 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[MMR](../Study%20topics/mmr.html); [Reranking](../Study%20topics/reranking.html); [Query Reformulation](../Study%20topics/query-reformulation.html); [Held-Out Evaluation](../Study%20topics/held-out-evaluation.html); [Redundancy](../Study%20topics/redundancy.html) |
+
+<!-- applied-jobs 2026-11-18 -->
 
 
 #### 学习提示
@@ -4332,6 +4348,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / ML Fundamentals; Technical Questions / Python and Software Engineering — 19 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Agents vs. Workflows](../Study%20topics/agents-vs-workflows.html); [Function Calling](../Study%20topics/function-calling.html); [Tool Schemas](../Study%20topics/tool-schemas.html); [Termination Conditions](../Study%20topics/termination-conditions.html); [Timeouts](../Study%20topics/timeouts.html); [Backoff](../Study%20topics/backoff.html); [Rate Limiting](../Study%20topics/rate-limiting.html); [Capacity Planning](../Study%20topics/capacity-planning.html); [Fail-Open vs. Fail-Closed](../Study%20topics/fail-open-vs-fail-closed.html); [Retries](../Study%20topics/retries.html) |
 
+<!-- applied-jobs 2026-11-19 -->
+
 
 #### 学习提示
 
@@ -4876,6 +4894,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Human Approval and State Transitions ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-10) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Python and Software Engineering; Technical Questions / Infrastructure and MLOps — 20 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Agent State](../Study%20topics/agent-state.html); [LangGraph](../Study%20topics/langgraph.html); [Human-in-the-Loop](../Study%20topics/human-in-the-loop.html); [Approval Audit Trail](../Study%20topics/approval-audit-trail.html) |
+
+<!-- applied-jobs 2026-11-20 -->
 
 #### 学习提示
 
@@ -5445,6 +5465,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Infrastructure and MLOps; Technical Questions / Cost and Latency Optimization — 19 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Citations](../Study%20topics/citations.html); [Groundedness](../Study%20topics/groundedness.html); [Hallucination](../Study%20topics/hallucination.html); [LLM-as-Judge](../Study%20topics/llm-as-judge.html); [Human Calibration](../Study%20topics/human-calibration.html); [Judge Bias](../Study%20topics/judge-bias.html); [Idempotency](../Study%20topics/idempotency.html) |
 
+<!-- applied-jobs 2026-11-23 -->
+
 
 #### 学习提示
 
@@ -5965,6 +5987,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Analysis API and Error Contracts ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-12) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Cost and Latency Optimization; Technical Questions / Safety and Guardrails; Coding Problems / LeetCode / Algorithm Style — 20 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[REST APIs](../Study%20topics/rest-apis.html); [FastAPI](../Study%20topics/fastapi.html); [API Tests](../Study%20topics/api-tests.html) |
+
+<!-- applied-jobs 2026-11-24 -->
 
 
 #### 学习提示
@@ -6618,6 +6642,8 @@ def is_anagram(left, right):
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Tracing and Latency Baseline ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-13) |
 | 16:30–17:30 | Interview Questions，1 小时 | Coding Problems / LeetCode / Algorithm Style; Coding Problems / OpenAI-Specific Coding; Coding Problems / Anthropic-Specific Coding; Coding Problems / ML / AI Coding — 19 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Load Testing](../Study%20topics/load-testing.html); [Logs](../Study%20topics/logs.html); [Traces](../Study%20topics/traces.html); [p50 / p95](../Study%20topics/p50-p95.html); [TTFT](../Study%20topics/ttft.html); [Latency Benchmarking](../Study%20topics/latency-benchmarking.html) |
+
+<!-- applied-jobs 2026-11-25 -->
 
 
 #### 学习提示
@@ -7509,6 +7535,8 @@ def feed_forward(x, w1, b1, w2, b2):
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Measured Performance Improvement ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-14) |
 | 16:30–17:30 | Interview Questions，1 小时 | Coding Problems / ML / AI Coding; Coding Problems / Practical / Data Processing; Coding Problems / Supplemental Implementation — 19 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+
+<!-- applied-jobs 2026-11-26 -->
 
 
 #### 学习提示
@@ -8597,6 +8625,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Coding Problems / Supplemental Implementation; System Design Questions / AI System Design — 12 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Offline / Regression Evals](../Study%20topics/offline-regression-evals.html); [CI/CD](../Study%20topics/ci-cd.html); [GitHub Actions](../Study%20topics/github-actions.html) |
 
+<!-- applied-jobs 2026-11-27 -->
+
 #### 学习提示
 
 - ML 重点：Random forests
@@ -9038,6 +9068,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design — 9 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Docker](../Study%20topics/docker.html) |
 
+<!-- applied-jobs 2026-11-30 -->
+
 
 #### 学习提示
 
@@ -9299,6 +9331,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: AWS Deployment Configuration ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-17) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design — 10 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Model Selection](../Study%20topics/model-selection.html); [Cloud Fundamentals](../Study%20topics/cloud-fundamentals.html); [IAM](../Study%20topics/iam.html); [Networking](../Study%20topics/networking.html); [Secrets](../Study%20topics/secrets.html); [AWS ECS Fargate](../Study%20topics/aws-ecs-fargate.html); [ECR](../Study%20topics/ecr.html); [CloudWatch](../Study%20topics/cloudwatch.html) |
+
+<!-- applied-jobs 2026-12-01 -->
 
 
 #### 学习提示
@@ -9586,6 +9620,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: AWS Deployment and Smoke Tests ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-18) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design — 10 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+
+<!-- applied-jobs 2026-12-02 -->
 
 
 刷题对应说明：TTL 为自定义扩展练习；LeetCode 981 仅对应 Time-Based Key-Value Store，不等同于 TTL。
@@ -9876,6 +9912,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Controlled CD and Rollback ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-19) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design — 10 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[OIDC](../Study%20topics/oidc.html); [Rollback](../Study%20topics/rollback.html) |
+
+<!-- applied-jobs 2026-12-03 -->
 
 
 刷题对应说明：LeetCode 对应本日查询练习；Transactions、Constraints 和 Parameterized Queries 在 PostgreSQL 中练习。
@@ -10197,6 +10235,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design; System Design Questions / Traditional System Design — 9 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Clean-Environment Reproduction](../Study%20topics/clean-environment-reproduction.html); [README](../Study%20topics/readme.html); [Demo](../Study%20topics/demo.html); [AI-Assisted Code Review](../Study%20topics/ai-assisted-code-review.html) |
 
+<!-- applied-jobs 2026-12-04 -->
+
 刷题对应说明：LeetCode 对应解析与数据处理；Debugging、Code Reading 和 Refactoring 使用项目代码。
 
 #### 学习提示
@@ -10464,6 +10504,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Snowflake Setup and Sample SQL ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-21) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / Traditional System Design — 10 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Access Control](../Study%20topics/access-control.html); [Snowflake](../Study%20topics/snowflake.html); [Financial Statement Analytics Assistant](../Study%20topics/financial-statement-analytics-assistant.html) |
+
+<!-- applied-jobs 2026-12-07 -->
 
 
 刷题对应说明：LeetCode 对应 Validation 与 Parsing；API Clients 使用自定义工程练习。
@@ -10753,6 +10795,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: SEC Ingestion and Raw Snapshots ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-22) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / Traditional System Design; System Design Questions / System Troubleshooting — 10 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[SEC Financial Data](../Study%20topics/sec-financial-data.html) |
+
+<!-- applied-jobs 2026-12-08 -->
 
 
 刷题对应说明：LeetCode 对应查询练习；Schema Design 与主外键使用 PostgreSQL。
@@ -11044,6 +11088,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / System Troubleshooting; System Design Questions / Supplemental Designs — 9 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Data Quality](../Study%20topics/data-quality.html) |
 
+<!-- applied-jobs 2026-12-09 -->
+
 
 刷题对应说明：LeetCode 1114 / 1115 对应同步问题；Async、GIL、Race Conditions 另用自定义 Python 练习。
 
@@ -11307,6 +11353,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Reference SQL and Financial Analytics ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-24) |
 | 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / Supplemental Designs; Project Deep Dive / Opening Questions; Project Deep Dive / Follow-up Probes — 15 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Point-in-Time Data](../Study%20topics/point-in-time-data.html) |
+
+<!-- applied-jobs 2026-12-10 -->
 
 
 刷题对应说明：LeetCode 对应 SQL 查询；Indexes、EXPLAIN 和 Query Optimization 在 PostgreSQL 中练习。
@@ -11727,6 +11775,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Question Dataset and SQL Ground Truth ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-25) |
 | 16:30–17:30 | Interview Questions，1 小时 | Project Deep Dive / Follow-up Probes; Project Deep Dive / Supplemental Probes — 19 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐ |
+
+<!-- applied-jobs 2026-12-11 -->
 
 刷题对应说明：LeetCode 359 为 Premium，可跳过；Rate Limiting 也可用自定义练习。
 
@@ -12254,6 +12304,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Text-to-SQL and Semantic Context ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-26) |
 | 16:30–17:30 | Interview Questions，1 小时 | Project Deep Dive / Supplemental Probes; Behavioral Questions / Project Deep Dives; Behavioral Questions / Conflict and Collaboration — 20 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+
+<!-- applied-jobs 2026-12-14 -->
 
 
 刷题对应说明：LeetCode 1236 为 Premium；无法访问时练自定义 Crawler，127 / 200 只对应相关图遍历。
@@ -12805,6 +12857,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / Conflict and Collaboration; Behavioral Questions / Leadership and Ownership — 19 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Memory](../Study%20topics/memory.html) |
 
+<!-- applied-jobs 2026-12-15 -->
+
 
 #### 学习提示
 
@@ -13326,6 +13380,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Text-to-SQL Evaluation ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-28) |
 | 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / Technical Decision-Making; Behavioral Questions / Failure and Learning — 19 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[MCP Fundamentals](../Study%20topics/mcp-fundamentals.html); [Text-to-SQL Evaluation](../Study%20topics/text-to-sql-evaluation.html) |
+
+<!-- applied-jobs 2026-12-16 -->
 
 
 刷题对应说明：LeetCode 对应数组与算法复习；Vectorization 和 Profiling 使用自定义实验。
@@ -13850,6 +13906,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Snowflake Query Performance ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-29) |
 | 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / Failure and Learning; Behavioral Questions / AI-Specific Behavioral; Behavioral Questions / Culture and Motivation; Behavioral Questions / AI-Conducted Interview Follow-ups — 20 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+
+<!-- applied-jobs 2026-12-17 -->
 
 
 #### 学习提示
@@ -14399,6 +14457,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / AI-Conducted Interview Follow-ups; Behavioral Questions / Supplemental Behavioral — 19 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐ |
 
+<!-- applied-jobs 2026-12-18 -->
+
 #### 学习提示
 
 - ML 重点：Asset slices and baseline comparison
@@ -14925,6 +14985,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / Supplemental Behavioral; Take-Home Assignments / RAG / Chatbot Systems; Take-Home Assignments / Agent Systems — 15 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Experiment Tracking](../Study%20topics/experiment-tracking.html); [Investment Research Workbench](../Study%20topics/investment-research-workbench.html) |
 
+<!-- applied-jobs 2026-12-21 -->
+
 
 #### 学习提示
 
@@ -15343,6 +15405,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Agent Systems; Take-Home Assignments / Multi-Agent Systems — 13 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
 
+<!-- applied-jobs 2026-12-22 -->
+
 
 #### 学习提示
 
@@ -15707,6 +15771,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Experiment API and Persistent Runs ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-33)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / LLM-as-Judge / Evaluation; Take-Home Assignments / Document Extraction and Processing — 13 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Prediction Intervals](../Study%20topics/prediction-intervals.html) |
+
+<!-- applied-jobs 2026-12-23 -->
 
 
 刷题对应说明：973 / 347 对应向量距离和 Top-k 的相关算法；Embedding Debugging、Cosine Similarity 使用 NumPy 练习。
@@ -16076,6 +16142,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Document Extraction and Processing; Take-Home Assignments / Voice AI and Conversational Systems; Take-Home Assignments / Full-Stack AI Applications — 13 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Online Feedback](../Study%20topics/online-feedback.html); [Workers](../Study%20topics/workers.html); [Backpressure](../Study%20topics/backpressure.html); [Queues and Workers](../Study%20topics/queues-and-workers.html) |
 
+<!-- applied-jobs 2026-12-24 -->
+
 
 #### 学习提示
 
@@ -16441,6 +16509,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Retries, Timeouts and Worker Failure ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-35)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Full-Stack AI Applications — 13 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Streaming](../Study%20topics/streaming.html); [Token Usage](../Study%20topics/token-usage.html); [Semantic Caching](../Study%20topics/semantic-caching.html); [Model Routing](../Study%20topics/model-routing.html); [Cost-Quality Trade-offs](../Study%20topics/cost-quality-trade-offs.html); [Graceful Degradation](../Study%20topics/graceful-degradation.html); [Failure Recovery](../Study%20topics/failure-recovery.html) |
+
+<!-- applied-jobs 2026-12-25 -->
 
 刷题对应说明：Logistic Regression、Shape Checks 和 Early Stopping 无直接 LeetCode 对应，使用 NumPy 自定义练习；1 / 20 为可选算法复习。
 
@@ -16814,6 +16884,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Full-Stack AI Applications; Take-Home Assignments / Company Product Integration; Take-Home Assignments / Performance / Optimization; Take-Home Assignments / OpenAI-Specific; Take-Home Assignments / Red Flags (Unreasonable Assignments); Take-Home Assignments / RAG and Document Q&A — 13 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Reproducibility](../Study%20topics/reproducibility.html); [Model Versioning](../Study%20topics/model-versioning.html) |
 
+<!-- applied-jobs 2026-12-28 -->
+
 
 #### 学习提示
 
@@ -17178,6 +17250,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Workflow Evaluation and Observability ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-37)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / RAG and Document Q&A; Take-Home Assignments / Agents and Tool-Calling — 13 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Tool Selection Evaluation](../Study%20topics/tool-selection-evaluation.html); [Prompt Injection](../Study%20topics/prompt-injection.html); [Tool Sandboxing](../Study%20topics/tool-sandboxing.html); [PII](../Study%20topics/pii.html); [Tenant Isolation](../Study%20topics/tenant-isolation.html) |
+
+<!-- applied-jobs 2026-12-29 -->
 
 
 #### 学习提示
@@ -17545,6 +17619,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Legal Document AI; Take-Home Assignments / RAG and Document Q&A (New Companies); Take-Home Assignments / Agents and Multi-Agent Systems (New) — 13 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
 
+<!-- applied-jobs 2026-12-30 -->
+
 
 #### 学习提示
 
@@ -17911,6 +17987,8 @@ Follow-up
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Agents and Multi-Agent Systems (New); Take-Home Assignments / LLM Applications and Infrastructure; Take-Home Assignments / Embeddable and Conversational AI — 13 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Ownership](../Study%20topics/ownership.html); [Design Trade-offs](../Study%20topics/design-trade-offs.html) |
 
+<!-- applied-jobs 2026-12-31 -->
+
 
 #### 学习提示
 
@@ -18276,6 +18354,8 @@ Follow-up
 | 15:00–16:30 | 项目，1.5 小时 | Portfolio Review: Feature Freeze and Interview Deep Dive ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-40) |
 | 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Embeddable and Conversational AI; Take-Home Assignments / Official Company Challenges — 12 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐ |
+
+<!-- applied-jobs 2027-01-01 -->
 
 #### 学习提示
 
@@ -18657,6 +18737,8 @@ Technical Sources
 | 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
 
+<!-- applied-jobs 2027-01-04 -->
+
 
 #### 学习提示
 
@@ -18686,6 +18768,8 @@ Technical Sources
 | 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
 
+<!-- applied-jobs 2027-01-05 -->
+
 
 #### 学习提示
 
@@ -18713,6 +18797,8 @@ Technical Sources
 | 15:00–16:30 | 项目，1.5 小时 | Buffer: Snowflake: Data and SQL Remediation ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-43) |
 | 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+
+<!-- applied-jobs 2027-01-06 -->
 
 
 #### 学习提示
@@ -18743,6 +18829,8 @@ Technical Sources
 | 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
 
+<!-- applied-jobs 2027-01-07 -->
+
 
 #### 学习提示
 
@@ -18771,6 +18859,8 @@ Technical Sources
 | 15:00–16:30 | 项目，1.5 小时 | Buffer: Portfolio: Final Reproduction and Remaining Gaps ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-45) |
 | 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐ |
+
+<!-- applied-jobs 2027-01-08 -->
 
 #### 学习提示
 

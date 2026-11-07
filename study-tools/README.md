@@ -45,4 +45,5 @@ node study-tools/validate.cjs
 - `progress.cjs` - 进度的读写和Markdown镜像：`study-progress.json`是进度的唯一来源（每行一项、按键排序、没有时间戳，两台设备改不同项时能干净合并），时间表Markdown里的☐/☑和`Online Course [____]`由它按进度改写。`build.cjs`重新生成时也会按`study-progress.json`写回，所以重新生成不会丢进度
 - 勾选框的键是“当天锚点 + 这一项文字的哈希”：改了某一项的文字（比如换了题），它的旧勾选就不再对应
 - 两个按钮只处理`study-progress.json`和时间表Markdown两个文件：拉取是提交本地进度后`git pull --rebase`，推送是在此基础上再`git push`。只有这两个文件冲突时才自动合并（以共同祖先为基准逐项三方合并，一台设备取消的勾不会被另一台复活）；其他文件冲突会中止并提示，不会替你决定
-- 时间表13:30那一行（ML + QuantVault）由`build.cjs`用`quantvault-day.cjs`的数据直接写出：讲义、Notebook、QuantVault各一行，标着分钟数，题目带勾选框。所以改了`quantvault-selected.txt`或`quantvault-schedule.cjs`之后要运行`node study-tools/build.cjs`；单独运行`quantvault.cjs`只更新QuantVault排期页和指南里的总说明，不再改时间表
+- 时间表13:30那一行（ML + QuantVault）由`build.cjs`用`quantvault-day.cjs`的数据直接写出：讲义、Notebook、QuantVault各一行，标着分钟数，题目带勾选框。所以改了`quantvault-selected.txt`或`quantvault-schedule.cjs`之后要运行`node study-tools/build.cjs`；单独运行`quantvault.cjs`只更新QuantVault排期页，不再改时间表和指南；指南里的“题库一览”表也由`build.cjs`生成
+- `applications.cjs` - 读取career-ops仓库（私有）里的`reports/tracker/pass-tracker.md`的Applied表、`applied.json`的申请日期和`jd/`里的本地JD页面（文件名是岗位链接sha256的前16位），按日期分组；服务器通过`/api/applications`提供，评估报告HTML通过`/career-ops/reports/`提供（只开放reports下的.html，仅本机）。career-ops默认找本仓库旁边的`career-ops`文件夹，也可以用环境变量`CAREER_OPS_DIR`指定。时间表每天只放一个空的“今日申请工作”位置，页面打开时由脚本填充，申请信息不会写进Markdown、HTML或GitHub（本仓库是公开的）

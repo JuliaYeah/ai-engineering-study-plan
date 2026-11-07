@@ -114,17 +114,6 @@ function firstHardDay() {
   return 45;
 }
 
-// how many problems today, for the guide's "每日入口" (the timetable has the actual problems)
-function dayCounts(i) {
-  const e = S[i], rev = e.review.length ? `，另复习${e.review.length}题` : '';
-  if (e.kind === 'python') {
-    const n = e.own.length + e.top.length;
-    if (!n) return `2hr：复习${e.review.length}题，其余时间重做薄弱题`;
-    return `2hr：${n}题${rev}` + (!e.top.length && e.spare_min >= 30 ? '，其余时间重做薄弱题' : '');
-  }
-  return `2hr：${e.sql_probs.length + e.top.length}题，含SQL ${e.sql_probs.length}题` + (!e.top.length ? '，Top 150时间重做薄弱题' : '');
-}
-
 // Reports/AI_ENGINEER_TOP150_SCHEDULE.md (root-relative links: layout.cjs moves it with the other reports)
 function top150Md() {
   const where = {};
@@ -197,4 +186,17 @@ function dailyListMd(planText) {
   return L.join('\n') + '\n';
 }
 
-module.exports = { plan, roadmap, dayCounts, top150Md, dailyListMd, mapDates, nd, DATES, data };
+// counts for the guide's 题库一览 table
+function stats() {
+  const sql = S.filter(e => e.kind === 'sql');
+  return {
+    top150: Object.keys(P).length, other: Object.keys(data.OTHER).length,
+    sqlDistinct: new Set(sql.flatMap(e => e.sql_probs.map(x => x[0]))).size,
+    sqlSlots: sql.reduce((a, e) => a + e.sql_probs.length, 0),
+  };
+}
+
+// 'YYYY-MM-DD' of study day n (1-based); the timetable uses it to know which day's applications to show
+const iso = n => DATES[n - 1].toISOString().slice(0, 10);
+
+module.exports = { iso, stats, plan, roadmap, top150Md, dailyListMd, mapDates, nd, DATES, data };

@@ -6,9 +6,8 @@ const pad=n=>String(n).padStart(2,'0');
 const sources=[['Machine Learning','https://quantvault.org/machine-learning-interview-questions.html'],['Regression','https://quantvault.org/regression-interview-questions.html'],['All Problems','https://quantvault.org/problems.html']];
 function problemHTML(id){const p=lookup.get(id);assert(p,`Missing ID ${id}`);return `<li><a lang="en" href="${p.url}">#${id} · ${esc(p.title)}</a><span class="muted"> · ${p.category} · ${p.difficulty}</span></li>`;}
 function problemMD(id){const p=lookup.get(id);return `- [#${id} · ${p.title}](${p.url}) · ${p.category} · ${p.difficulty}`;}
-const introMD=`<!-- quantvault-intro -->\n\n## QuantVault Practice\n\n只安排Regression与Machine Learning，按已有Pro访问权限执行。2026-10-04实时目录核对：Regression 170题、Machine Learning 94题，共264个不同题号；网页搜索抓取曾显示Regression 171题，因此以实时目录为准。\n\n本轮选择${problems.length}道核心题，分配到45个学习日，重复题用于分阶段练习和复习；其余${264-problems.length}题作为扩展题库，不要求在当前45分钟ML时段内全部做完。保留现有Python、SQL与LeetCode安排，不加入QuantVault Coding或Optimization分类。\n\n讲义与先修、Notebook及QuantVault共享13:30–14:15的45分钟：入门日20+15+10，初学日15+20+10，复习日10+15+20。网站Coding类型的ML题只练指定的ML片段或方案，不另加算法刷题。\n\n[全部日期与具体题目](AI_ENGINEER_QUANTVAULT_PLAN.md) · [HTML日期索引](AI_ENGINEER_QUANTVAULT_PLAN.html)。\n\n<!-- /quantvault-intro -->\n\n`;
 function stripMD(text){return text.replace(/<!-- quantvault-intro -->[\s\S]*?<!-- \/quantvault-intro -->\s*/g,'').replace(/<!-- quantvault-day \d+ -->[\s\S]*?<!-- \/quantvault-day -->\s*/g,'').replace(/^- QuantVault 练习（[^\n]*\n(?:  [^\n]*\n)*/gm,'');}
-function stripHTML(text){return text.replace(/<section data-quantvault-day="\d+">[\s\S]*?<\/section>/g,'').replace(/<li data-quantvault-day="\d+">[\s\S]*?<\/ul><\/li>/g,'').replace(/<section data-quantvault-intro="v1">[\s\S]*?<\/section>/g,'');}
+function stripHTML(text){return text.replace(/<section data-quantvault-day="\d+">[\s\S]*?<\/section>/g,'').replace(/<li data-quantvault-day="\d+">[\s\S]*?<\/ul><\/li>/g,'').replace(/<section data-quantvault-intro="v1">[\s\S]*?<\/section>/g,'').replace(/<div data-quantvault-intro="v1">[\s\S]*?<\/div>/g,'');}
 function run(){
  const manifest=JSON.parse(fs.readFileSync('study-tools/manifest.json','utf8'));
  const terms=manifest.records.map(r=>[r.name,r.id]);
@@ -16,15 +15,10 @@ function run(){
  const entries=schedule.map(([ids,depth,scope,prerequisites,mode],i)=>({day:i+1,date:manifest.days[i].date,topic:manifest.days[i].ml,ids,depth,scope,prerequisites,mode,minutes:{lesson:timing[mode][0],notebook:timing[mode][1],practice:timing[mode][2]}}));
  assert.equal(new Set(entries.flatMap(e=>e.ids)).size,problems.length);
  for(const e of entries){assert.equal(Object.values(e.minutes).reduce((a,b)=>a+b),45);e.ids.forEach(id=>assert(lookup.has(id)));}
- const introHTML=`<section data-quantvault-intro="v1"><h2>QuantVault Practice</h2><p>只加入Regression与Machine Learning，按已有Pro访问权限执行。实时目录核对共264题；本轮${problems.length}道核心题按先修和当天主题安排，其余${264-problems.length}题作为扩展。QuantVault共享原有45分钟ML时段；现有Python、SQL、LeetCode及623道仓库原题保留。</p><p><a href="AI_ENGINEER_QUANTVAULT_PLAN.html">QuantVault每日题目与时间分配</a> · <a href="AI_ENGINEER_QUANTVAULT_PLAN.md">Markdown版本</a></p></section>`;
  for(const [base,prefix]of [['AI_ENGINEER_DAILY_LEARNING_GUIDE','guide-day-']]){   // the timetable's QuantVault lines are written by build.cjs
   let md=stripMD(fs.readFileSync(base+'.md','utf8'));
-  if(prefix==='guide-day-'){const at=['## 讲义阅读方式','## 面试题答案'].map(h=>md.indexOf(h)).find(i=>i>=0);if(at===undefined)throw Error('guide: no section to place the QuantVault intro before');md=md.slice(0,at)+introMD+'\n\n'+md.slice(at);}
-  md=md.replace('- ML：短讲义10–15分钟，notebook实验20–25分钟，英文检查题5–10分钟。重复日使用同一notebook的Review Experiment，结合当天focus。','- ML：讲义、notebook和QuantVault共享45分钟，按当天分配执行；QuantVault替代原英文检查题。复习日只完成Notebook的Review Experiment或指定片段。');
   fs.writeFileSync(base+'.md',md);
   let html=stripHTML(fs.readFileSync(base+'.html','utf8'));
-  if(prefix==='guide-day-'){const at=['<h2>讲义阅读方式</h2>','<h2>面试题答案</h2>'].map(h=>html.indexOf(h)).find(i=>i>=0);if(at===undefined)throw Error('guide: no section to place the QuantVault intro before');html=html.slice(0,at)+introHTML+html.slice(at);}
-  html=html.replace('ML：短讲义10–15分钟，notebook实验20–25分钟，英文检查题5–10分钟。重复日使用同一notebook的Review Experiment，结合当天focus。','ML：讲义、notebook和QuantVault共享45分钟，按当天分配执行；QuantVault替代原英文检查题。复习日只完成Notebook的Review Experiment或指定片段。');
   fs.writeFileSync(base+'.html',html);
  }
  const intro=`<p>按已有Pro访问权限执行，仅含Regression与Machine Learning。公开目录共264个不同题号；本轮选择${problems.length}道核心题，不复制网站题干或官方答案。题名、分类、难度与链接于2026-10-04在实时目录核对；学习顺序、先修和分段范围由本计划设计。</p><p>每题先读先修，再独立尝试，最后查看网站答案；用英文口述，并用中文检查理解。两题日平均分配练习时间；未完成内容放入错题记录，以后替换复习题，不追加课时。完整建模与take-home只做指定部分。</p>`;
