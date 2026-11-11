@@ -1,5 +1,5 @@
 # Bilingual Study Lessons
-学习顺序：背景 → Question → Key Terms → 例子 → Short Answer → 中文回答 → 实验。
+学习顺序：背景 → Question → Key Terms → Short Answer → 中文回答 → 实验。
 先读[Machine Learning Foundations](../Study%20topics/ml-foundations-start-here.html)。
 
 ## Hash Maps
@@ -14,16 +14,11 @@ Topic: Hash Maps
 
 What is Hash Maps, how does it work, and when would you use it?
 
-Hash Maps 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Hash Maps：哈希表把键映射到值，适合查找、计数和去重。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -48,16 +43,11 @@ Topic: Arrays and Strings
 
 What is Arrays and Strings, how does it work, and when would you use it?
 
-Arrays and Strings 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Arrays and Strings：数组按位置保存元素，字符串保存字符序列。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -82,16 +72,11 @@ Topic: Two Pointers
 
 What is Two Pointers, how does it work, and when would you use it?
 
-Two Pointers 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Two Pointers：双指针用两个位置维护搜索范围或配对关系。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -116,16 +101,11 @@ Topic: Sorting
 
 What is Sorting, how does it work, and when would you use it?
 
-Sorting 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Sorting：排序把元素按规则排列，便于后续查找、分组或双指针处理。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -150,16 +130,11 @@ Topic: Binary Search
 
 What is Binary Search, how does it work, and when would you use it?
 
-Binary Search 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Binary Search：二分查找要求搜索空间有序或判断条件单调。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -184,16 +159,11 @@ Topic: Complexity Analysis
 
 What is Complexity Analysis, how does it work, and when would you use it?
 
-Complexity Analysis 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Complexity Analysis：复杂度描述输入规模增长时运行时间和内存如何增长。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -218,16 +188,11 @@ Topic: Sliding Window
 
 What is Sliding Window, how does it work, and when would you use it?
 
-Sliding Window 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Sliding Window：滑动窗口维护连续区间及其状态，适合某些子串和子数组问题。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -252,16 +217,11 @@ Topic: Prefix Sums
 
 What is Prefix Sums, how does it work, and when would you use it?
 
-Prefix Sums 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Prefix Sums：前缀和保存从起点累积到每个位置的总量，区间和由两个前缀相减得到。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -286,16 +246,11 @@ Topic: Stacks
 
 What is Stacks, how does it work, and when would you use it?
 
-Stacks 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Stacks：栈遵循后进先出，适合括号匹配、表达式和某些单调栈问题。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -320,16 +275,11 @@ Topic: Queues
 
 What is Queues, how does it work, and when would you use it?
 
-Queues 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Queues：队列遵循先进先出，适合待处理任务和 BFS。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -354,16 +304,11 @@ Topic: Heaps
 
 What is Heaps, how does it work, and when would you use it?
 
-Heaps 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Heaps：堆支持快速取得最小值或最大值，适合 top-k 和调度。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -388,16 +333,11 @@ Topic: Linked Lists
 
 What is Linked Lists, how does it work, and when would you use it?
 
-Linked Lists 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Linked Lists：链表用节点引用连接元素。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -422,16 +362,11 @@ Topic: LRU Cache
 
 What is LRU Cache, how does it work, and when would you use it?
 
-LRU Cache 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- LRU Cache：LRU 淘汰最久未使用的条目，可用哈希表加双向链表实现平均 O(1) 访问与更新。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -456,16 +391,11 @@ Topic: BFS
 
 What is BFS, how does it work, and when would you use it?
 
-BFS 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- BFS：广度优先搜索逐层扩展节点，用队列管理待访问节点。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -490,16 +420,11 @@ Topic: DFS
 
 What is DFS, how does it work, and when would you use it?
 
-DFS 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- DFS：深度优先搜索沿路径深入，再回退。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -524,16 +449,11 @@ Topic: Trees
 
 What is Trees, how does it work, and when would you use it?
 
-Trees 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Trees：树是层级结构。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -558,16 +478,11 @@ Topic: Recursion
 
 What is Recursion, how does it work, and when would you use it?
 
-Recursion 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Recursion：递归把问题分解为较小的同类问题。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -592,16 +507,11 @@ Topic: Key-Value Store
 
 What is Key-Value Store, how does it work, and when would you use it?
 
-Key-Value Store 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Key-Value Store：键值存储提供按键读取、写入和删除。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -626,16 +536,11 @@ Topic: TTL
 
 What is TTL, how does it work, and when would you use it?
 
-TTL 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- TTL：TTL 是条目的有效时长。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -660,16 +565,11 @@ Topic: API Clients
 
 What is API Clients, how does it work, and when would you use it?
 
-API Clients 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- API Clients：API 客户端负责调用外部接口并处理认证、错误和响应校验。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -694,16 +594,11 @@ Topic: Rate Limiter
 
 What is Rate Limiter, how does it work, and when would you use it?
 
-Rate Limiter 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Rate Limiter：限流器控制单位时间内的请求数量，常见算法包括令牌桶。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -728,16 +623,11 @@ Topic: Crawler
 
 What is Crawler, how does it work, and when would you use it?
 
-Crawler 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Crawler：爬虫遍历链接并获取网页。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -762,16 +652,11 @@ Topic: Async
 
 What is Async, how does it work, and when would you use it?
 
-Async 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Async：异步让等待 I/O 时可以调度其他任务。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -796,16 +681,11 @@ Topic: Concurrency
 
 What is Concurrency, how does it work, and when would you use it?
 
-Concurrency 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Concurrency：并发表示多个任务的生命周期重叠，不一定同时执行。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -830,16 +710,11 @@ Topic: Parallelism
 
 What is Parallelism, how does it work, and when would you use it?
 
-Parallelism 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Parallelism：并行表示多个任务同时执行。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -864,16 +739,11 @@ Topic: GIL
 
 What is GIL, how does it work, and when would you use it?
 
-GIL 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- GIL：传统 CPython 的 GIL 限制多个线程同时执行 Python 字节码，但 I/O 和部分原生数值库可释放它。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -898,16 +768,11 @@ Topic: Race Conditions
 
 What is Race Conditions, how does it work, and when would you use it?
 
-Race Conditions 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Race Conditions：竞争条件指结果取决于并发执行顺序。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -932,16 +797,11 @@ Topic: Vectorization
 
 What is Vectorization, how does it work, and when would you use it?
 
-Vectorization 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Vectorization：向量化把逐元素 Python 循环转为数组批量操作，通常减少解释器开销。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -966,16 +826,11 @@ Topic: Profiling
 
 What is Profiling, how does it work, and when would you use it?
 
-Profiling 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Profiling：性能分析先测量时间和内存分布以定位瓶颈，再做针对性优化。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -1000,16 +855,11 @@ Topic: Debugging
 
 What is Debugging, how does it work, and when would you use it?
 
-Debugging 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Debugging：排错先复现问题，缩小输入，保留 traceback，再逐步检验原因。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -1034,16 +884,11 @@ Topic: Refactoring
 
 What is Refactoring, how does it work, and when would you use it?
 
-Refactoring 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Refactoring：重构在保持外部行为的前提下改善代码结构。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -1068,16 +913,11 @@ Topic: Code Review
 
 What is Code Review, how does it work, and when would you use it?
 
-Code Review 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Code Review：代码审查检查正确性、边界、测试、安全和维护成本。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -1102,16 +942,11 @@ Topic: NumPy Logistic Regression
 
 What is NumPy Logistic Regression, how does it work, and when would you use it?
 
-NumPy Logistic Regression 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- NumPy Logistic Regression：用 NumPy 实现逻辑回归时，先把线性分数经 sigmoid 转成二分类概率，再最小化对数损失。
 - Time complexity：输入变大时计算量如何增长。
 - Edge case：空输入、重复值等容易遗漏的边界情况。
-
-### 直观例子
-
-先用3–5个元素的输入逐步追踪，再试空输入和重复值。对照下方英文题目与代码，说明本题的数据结构为什么适用。
 
 ### Short Answer
 
@@ -1136,16 +971,11 @@ Topic: SELECT
 
 How do you use SELECT correctly, and what mistakes should you avoid?
 
-怎样正确使用 SELECT，应避免哪些错误？
-
 ### Key Terms
 
+- SELECT：SELECT 指定结果列及表达式。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1170,16 +1000,11 @@ Topic: WHERE
 
 How do you use WHERE correctly, and what mistakes should you avoid?
 
-怎样正确使用 WHERE，应避免哪些错误？
-
 ### Key Terms
 
+- WHERE：WHERE 在分组前过滤行。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1204,16 +1029,11 @@ Topic: ORDER BY
 
 How do you use ORDER BY correctly, and what mistakes should you avoid?
 
-怎样正确使用 ORDER BY，应避免哪些错误？
-
 ### Key Terms
 
+- ORDER BY：ORDER BY 定义结果顺序。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1238,16 +1058,11 @@ Topic: LIMIT
 
 How do you use LIMIT correctly, and what mistakes should you avoid?
 
-怎样正确使用 LIMIT，应避免哪些错误？
-
 ### Key Terms
 
+- LIMIT：LIMIT 限制输出行数，但不保证扫描成本低。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1272,16 +1087,11 @@ Topic: NULL
 
 How do you use NULL correctly, and what mistakes should you avoid?
 
-怎样正确使用 NULL，应避免哪些错误？
-
 ### Key Terms
 
+- NULL：NULL 表示缺失或未知，普通比较可能返回未知。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1306,16 +1116,11 @@ Topic: GROUP BY
 
 How do you use GROUP BY correctly, and what mistakes should you avoid?
 
-怎样正确使用 GROUP BY，应避免哪些错误？
-
 ### Key Terms
 
+- GROUP BY：GROUP BY 按键聚合行。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1340,16 +1145,11 @@ Topic: HAVING
 
 How do you use HAVING correctly, and what mistakes should you avoid?
 
-怎样正确使用 HAVING，应避免哪些错误？
-
 ### Key Terms
 
+- HAVING：HAVING 过滤分组后的结果，例如总金额超过阈值的组合。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1374,16 +1174,11 @@ Topic: CASE
 
 How do you use CASE correctly, and what mistakes should you avoid?
 
-怎样正确使用 CASE，应避免哪些错误？
-
 ### Key Terms
 
+- CASE：CASE 根据条件返回不同值，可实现条件分类或条件聚合。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1408,16 +1203,11 @@ Topic: JOINs
 
 How do you use JOINs correctly, and what mistakes should you avoid?
 
-怎样正确使用 JOINs，应避免哪些错误？
-
 ### Key Terms
 
+- JOINs：JOIN 按条件连接表。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1442,16 +1232,11 @@ Topic: Subqueries
 
 How do you use Subqueries correctly, and what mistakes should you avoid?
 
-怎样正确使用 Subqueries，应避免哪些错误？
-
 ### Key Terms
 
+- Subqueries：子查询把一个查询结果用于另一个查询。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1476,16 +1261,11 @@ Topic: CTEs
 
 How do you use CTEs correctly, and what mistakes should you avoid?
 
-怎样正确使用 CTEs，应避免哪些错误？
-
 ### Key Terms
 
+- CTEs：CTE 用 WITH 给中间查询命名，帮助组织复杂逻辑。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1510,16 +1290,11 @@ Topic: EXISTS
 
 How do you use EXISTS correctly, and what mistakes should you avoid?
 
-怎样正确使用 EXISTS，应避免哪些错误？
-
 ### Key Terms
 
+- EXISTS：EXISTS 判断是否存在匹配行，适合存在性过滤，避免为取右侧列而制造重复。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1544,16 +1319,11 @@ Topic: Window Functions
 
 How do you use Window Functions correctly, and what mistakes should you avoid?
 
-怎样正确使用 Window Functions，应避免哪些错误？
-
 ### Key Terms
 
+- Window Functions：窗口函数在保留原行的同时计算分组或排序后的指标。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1578,16 +1348,11 @@ Topic: ROW_NUMBER
 
 How do you use ROW_NUMBER correctly, and what mistakes should you avoid?
 
-怎样正确使用 ROW_NUMBER，应避免哪些错误？
-
 ### Key Terms
 
+- ROW_NUMBER：ROW_NUMBER 为窗口内每行编号。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1612,16 +1377,11 @@ Topic: RANK
 
 How do you use RANK correctly, and what mistakes should you avoid?
 
-怎样正确使用 RANK，应避免哪些错误？
-
 ### Key Terms
 
+- RANK：RANK 对并列值给相同名次，后续名次留空，例如 1、1、3。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1646,16 +1406,11 @@ Topic: DENSE_RANK
 
 How do you use DENSE_RANK correctly, and what mistakes should you avoid?
 
-怎样正确使用 DENSE_RANK，应避免哪些错误？
-
 ### Key Terms
 
+- DENSE_RANK：DENSE_RANK 对并列值给相同名次但不跳号，例如 1、1、2。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1680,16 +1435,11 @@ Topic: LAG
 
 How do you use LAG correctly, and what mistakes should you avoid?
 
-怎样正确使用 LAG，应避免哪些错误？
-
 ### Key Terms
 
+- LAG：LAG 读取有序窗口中的前一行或指定偏移行。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1714,16 +1464,11 @@ Topic: LEAD
 
 How do you use LEAD correctly, and what mistakes should you avoid?
 
-怎样正确使用 LEAD，应避免哪些错误？
-
 ### Key Terms
 
+- LEAD：LEAD 读取窗口中的后一行。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1748,16 +1493,11 @@ Topic: Rolling Aggregations
 
 How do you use Rolling Aggregations correctly, and what mistakes should you avoid?
 
-怎样正确使用 Rolling Aggregations，应避免哪些错误？
-
 ### Key Terms
 
+- Rolling Aggregations：滚动聚合计算窗口内的和或均值。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1782,16 +1522,11 @@ Topic: Date Queries
 
 How do you use Date Queries correctly, and what mistakes should you avoid?
 
-怎样正确使用 Date Queries，应避免哪些错误？
-
 ### Key Terms
 
+- Date Queries：日期查询要明确时区、边界与业务日期，常用半开区间。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1816,16 +1551,11 @@ Topic: Transactions
 
 How do you use Transactions correctly, and what mistakes should you avoid?
 
-怎样正确使用 Transactions，应避免哪些错误？
-
 ### Key Terms
 
+- Transactions：事务把一组操作作为一致的逻辑单元提交或回滚。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1850,16 +1580,11 @@ Topic: Constraints
 
 How do you use Constraints correctly, and what mistakes should you avoid?
 
-怎样正确使用 Constraints，应避免哪些错误？
-
 ### Key Terms
 
+- Constraints：约束把非空、唯一、引用和检查规则交给数据库执行。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1884,16 +1609,11 @@ Topic: Parameterized Queries
 
 How do you use Parameterized Queries correctly, and what mistakes should you avoid?
 
-怎样正确使用 Parameterized Queries，应避免哪些错误？
-
 ### Key Terms
 
+- Parameterized Queries：参数化查询把数据值与 SQL 结构分开，降低注入风险。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1918,16 +1638,11 @@ Topic: PostgreSQL Schema Design
 
 How do you use PostgreSQL Schema Design correctly, and what mistakes should you avoid?
 
-怎样正确使用 PostgreSQL Schema Design，应避免哪些错误？
-
 ### Key Terms
 
+- PostgreSQL Schema Design：数据库设计先定义实体、行粒度和查询需求，再选择键、类型、约束和索引。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1952,16 +1667,11 @@ Topic: Primary and Foreign Keys
 
 How do you use Primary and Foreign Keys correctly, and what mistakes should you avoid?
 
-怎样正确使用 Primary and Foreign Keys，应避免哪些错误？
-
 ### Key Terms
 
+- Primary and Foreign Keys：主键唯一标识行，外键保证引用有效。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -1986,16 +1696,11 @@ Topic: Indexes
 
 How do you use Indexes correctly, and what mistakes should you avoid?
 
-怎样正确使用 Indexes，应避免哪些错误？
-
 ### Key Terms
 
+- Indexes：索引可以加速部分查询，但占空间并增加写入成本。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -2020,16 +1725,11 @@ Topic: EXPLAIN
 
 How do you use EXPLAIN correctly, and what mistakes should you avoid?
 
-怎样正确使用 EXPLAIN，应避免哪些错误？
-
 ### Key Terms
 
+- EXPLAIN：EXPLAIN 显示查询计划，EXPLAIN ANALYZE 会实际执行。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -2054,16 +1754,11 @@ Topic: Query Optimization
 
 How do you use Query Optimization correctly, and what mistakes should you avoid?
 
-怎样正确使用 Query Optimization，应避免哪些错误？
-
 ### Key Terms
 
+- Query Optimization：查询优化从真实慢查询和执行计划开始，检查连接粒度、统计信息、索引和扫描量。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -2088,16 +1783,11 @@ Topic: Run Analytics
 
 How do you use Run Analytics correctly, and what mistakes should you avoid?
 
-怎样正确使用 Run Analytics，应避免哪些错误？
-
 ### Key Terms
 
+- Run Analytics：运行分析按请求、运行或尝试的明确粒度统计成功率、重试和成本。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -2122,16 +1812,11 @@ Topic: Percentiles
 
 How do you use Percentiles correctly, and what mistakes should you avoid?
 
-怎样正确使用 Percentiles，应避免哪些错误？
-
 ### Key Terms
 
+- Percentiles：百分位表示分布中的位置，例如 p95 表示约 95% 观测不超过该值。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -2156,16 +1841,11 @@ Topic: Financial Analytics
 
 How do you use Financial Analytics correctly, and what mistakes should you avoid?
 
-怎样正确使用 Financial Analytics，应避免哪些错误？
-
 ### Key Terms
 
+- Financial Analytics：金融查询先确认币种、单位、期间和版本，再聚合。
 - Row grain：一行数据代表的业务单位，例如一笔交易或一个账户。
 - NULL：未知或缺失值，不等同于零或空字符串。
-
-### 直观例子
-
-用账户和交易两张小表练习，加入一个没有交易的账户、一条缺失记录和重复数据。比较查询输出与手算结果，检查每行粒度。
 
 ### Short Answer
 
@@ -2190,10 +1870,9 @@ Topic: Train / Validation / Test Split
 
 What are training, validation and test sets, and why should they be separate?
 
-训练集、验证集和测试集各是什么？为什么需要分开？
-
 ### Key Terms
 
+- Train / Validation / Test Split：训练集用于学习参数，验证集用于选择模型和设置，测试集用于最终样本外评估。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
@@ -2225,17 +1904,13 @@ Topic: Supervised and Unsupervised Learning; Baselines
 
 What is Supervised and Unsupervised Learning; Baselines, how does it work, and when would you use it?
 
-Supervised and Unsupervised Learning; Baselines 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Supervised and Unsupervised Learning：监督学习用输入和已知目标学习预测关系；非监督学习在没有目标标签时寻找结构。
+- Baselines：基线是简单可比较的方案，例如预测历史均值或使用过去波动率。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2260,21 +1935,192 @@ Topic: Data Leakage; Scaling; scikit-learn Pipelines
 
 What is Data Leakage; Scaling; scikit-learn Pipelines, how does it work, and when would you use it?
 
-Data Leakage; Scaling; scikit-learn Pipelines 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Data Leakage：泄漏是训练或选择模型时用了预测时不应知道的信息。
+- Scaling：缩放调整特征尺度，例如标准化减去训练均值并除以训练标准差。
+- scikit-learn Pipelines：Pipeline 将预处理和模型串成统一对象，让交叉验证每个训练折分别拟合变换。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
 
-### 直观例子
+### 讲义
 
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
+#### Data Leakage 数据泄漏
+
+数据泄漏是训练或挑选模型时，用到了预测那一刻拿不到的信息。结果是离线分数很好看，上线后变差。常分为 2 大类，细分的话常见 5 种。
+
+##### 两大类
+
+| 大类 | 英文 | 意思 |
+| --- | --- | --- |
+| 目标泄漏 | Target leakage | 特征里包含了预测时拿不到的、和答案直接相关的信息 |
+| 训练-测试污染 | Train-test contamination | 测试数据的信息通过某种途径影响了训练过程 |
+
+##### 常见的 5 种细分
+
+1. 预处理泄漏（属于训练-测试污染）：标准化、填缺失值、编码等步骤用了全部数据来拟合
+   - 例：用训练集 + 测试集一起算平均值
+   - 解决：用 Pipeline，只在训练部分拟合
+2. 目标泄漏（Target leakage）：特征本身包含答案或答案的衍生信息
+   - 例：预测用户是否会退款，特征里有“退款处理时长”
+   - 例：预测明天股价，特征里有明天的价格
+   - 解决：逐个检查特征，预测时刻真能拿到吗
+3. 时间泄漏（Temporal leakage）：用未来的数据预测过去，或者随机切分时间序列数据
+   - 例：用 12 月的数据训练，去预测 11 月
+   - 例：财报的报告期是 3 月 31 日，但 5 月才公布，按报告期对齐就提前用了它
+   - 例：预测未来 5 日波动率，训练集最后几天的标签要用到测试期的收益
+   - 解决：按时间切分，用 TimeSeriesSplit，标签跨几天就留几天空隙（`gap=5`）；特征按实际公布时间对齐
+4. 重复 / 分组泄漏（Duplicate / group leakage）：同一个人、同一张图、同一批次的数据，同时出现在训练集和测试集
+   - 例：同一个病人的多条记录，一部分在训练集，一部分在测试集，模型学会认人而不是学规律
+   - 解决：按分组切分，用 GroupKFold
+5. 选择过程泄漏（Selection leakage）：特征选择、调参、模型挑选时用到了测试集
+   - 例：先用全部数据筛选“和标签相关性最高的特征”，再切分训练/测试
+   - 例：反复根据测试集分数调参，等于间接拟合了测试集
+   - 解决：特征选择放进 Pipeline，调参只用验证集，测试集最后只用一次
+
+##### 总结对照
+
+| 泄漏类型 | 一句话 | 怎么防 |
+| --- | --- | --- |
+| 预处理泄漏 | 偷看测试集算统计量 | Pipeline |
+| 目标泄漏 | 把答案当输入 | 检查每个特征的可得性 |
+| 时间泄漏 | 用未来预测过去 | 按时间切分，留空隙 |
+| 分组泄漏 | 同一对象跨训练/测试 | GroupKFold |
+| 选择泄漏 | 用测试集挑特征或调参 | 测试集只用一次 |
+
+##### 怎么发现可能有泄漏
+
+- 分数好得不真实，例如波动率预测的误差远低于所有基线
+- 某一个特征的重要性远高于其他特征：去查它是怎么算出来的、什么时候能拿到
+- 离线分数好，上线或换一段新的时间后明显变差
+- 删掉一个可疑特征后分数大幅下降：说明分数主要靠它，要确认它在预测时真的可得
+
+#### Scaling 特征缩放
+
+特征缩放把不同量纲的数值特征变到可比较的范围。比如过去 20 日波动率大约是 0.2，日成交量大约是 1,000,000；不缩放的话，很多模型会被数值大的特征主导。
+
+##### 哪些模型需要，哪些不需要
+
+| 模型 | 要不要缩放 | 原因 |
+| --- | --- | --- |
+| k-NN、K-means、SVM | 需要 | 靠距离计算，数值大的特征主导距离 |
+| Ridge、Lasso、带正则的逻辑回归 | 需要 | 惩罚按系数大小算，尺度不同惩罚就不公平 |
+| PCA | 需要 | 方差大的特征会主导主成分 |
+| 神经网络等用梯度下降训练的模型 | 需要 | 尺度相近收敛更快、更稳 |
+| 普通线性回归（OLS） | 预测不变 | 但系数大小会变，比较系数前要缩放 |
+| 决策树、随机森林、梯度提升 | 不需要 | 按阈值切分，单调变换不改变切分结果 |
+
+##### 常见的 4 种方法
+
+| 方法 | 怎么算（参数都来自训练集） | 什么时候用 |
+| --- | --- | --- |
+| StandardScaler | (x − 均值) / 标准差 | 默认选择 |
+| MinMaxScaler | (x − 最小值) / (最大值 − 最小值)，压到 [0, 1] | 需要固定范围的输入；对异常值敏感 |
+| RobustScaler | (x − 中位数) / 四分位距（IQR） | 有异常值，例如金融收益的厚尾 |
+| 对数变换 | log(1 + x) | 右偏的正数特征，例如成交量、市值；常和上面的方法一起用 |
+
+注意 Normalizer 是把每一行缩放到长度 1，不是按列缩放，面试里容易混。
+
+##### 关键规则：只在训练集上 fit
+
+1. 在训练集上 fit：算出均值和标准差（或者最小值、最大值等）
+2. 用同一组参数 transform 训练集、验证集、测试集和线上数据
+3. 把 fit 好的 scaler 和模型一起保存，线上不重新 fit
+
+例：训练集里 20 日波动率的均值是 0.20，标准差是 0.05。测试集里一个 0.30 的值变成 (0.30 − 0.20) / 0.05 = 2.0。测试集不能用自己的均值重新算，否则同一个 0.30 在训练集和测试集里会变成不同的数。
+
+```python
+scaler = StandardScaler().fit(X_train)   # 只用训练集算均值和标准差
+X_train_s = scaler.transform(X_train)
+X_test_s = scaler.transform(X_test)      # 用训练集的参数，不重新 fit
+```
+
+实际项目里不手写这三行，而是把 scaler 放进 Pipeline（见下面 scikit-learn Pipelines）。
+
+##### 常见错误
+
+- 在全部数据上 fit 再切分：预处理泄漏，测试集的均值和标准差进了训练
+- 测试集单独 fit：训练和测试用了两套标准，同一个原始值变成不同的数
+- 时间序列用全期的均值和标准差：等于用了未来的数据。需要滚动标准化时，只用当时之前的窗口
+- 把 one-hot 这类 0/1 特征也一起标准化：一般不需要，用 ColumnTransformer 只对数值列缩放
+- 对目标 y 缩放后忘记变换回去：报告的误差单位就错了
+
+#### scikit-learn Pipelines 流水线
+
+Pipeline 把多个步骤（预处理 → 模型）串成一个对象。这个对象用起来和一个模型一样，有 fit、predict、score。
+
+##### 怎么工作
+
+- fit(X, y)：前面每一步依次 fit_transform，把结果传给下一步；最后一步（模型）fit
+- predict(X)：前面每一步只 transform，用的是训练时 fit 出来的参数，不重新 fit；最后一步 predict
+- 放进 cross_val_score 或 GridSearchCV 时：每个训练折都重新 fit 整条 Pipeline，验证折只做 transform 和 predict
+
+##### 为什么用
+
+1. 防预处理泄漏：交叉验证时，缩放、填缺失值、特征选择都只在当前训练折里拟合
+2. 训练和线上一致：保存一个 Pipeline 对象，线上调用同一个 predict，不会漏掉或改错某一步
+3. 预处理和模型一起调参：参数名写成`步骤名__参数名`，例如`ridge__alpha`
+4. 代码短，不用在每个折里手动重复预处理
+
+##### 例子：错误写法和正确写法
+
+```python
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import GridSearchCV, TimeSeriesSplit
+
+# 错：用全部数据算均值和标准差，再切分
+X_scaled = StandardScaler().fit_transform(X)
+X_train, X_test = X_scaled[:800], X_scaled[800:]
+
+# 对：先按时间切分，scaler 放进 Pipeline
+X_train, X_test, y_train, y_test = X[:800], X[800:], y[:800], y[800:]
+pipe = make_pipeline(StandardScaler(), Ridge())   # 步骤名自动是 standardscaler、ridge
+search = GridSearchCV(pipe, {"ridge__alpha": [0.1, 1, 10]}, cv=TimeSeriesSplit(n_splits=5))
+search.fit(X_train, y_train)    # 每个训练折里重新 fit scaler
+search.score(X_test, y_test)    # 测试集最后只用一次
+```
+
+数值列和类别列要分别处理时，用 ColumnTransformer，再放进 Pipeline：
+
+```python
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.linear_model import Ridge
+
+pre = ColumnTransformer([
+    ("num", StandardScaler(), ["vol_20d", "volume"]),
+    ("cat", OneHotEncoder(handle_unknown="ignore"), ["sector"]),
+])
+pipe = Pipeline([("pre", pre), ("model", Ridge())])   # 调参时写 model__alpha
+pipe.fit(train_df, y_train)
+```
+
+##### Pipeline 防不了什么
+
+| 问题 | 为什么防不了 | 怎么办 |
+| --- | --- | --- |
+| 目标泄漏 | 特征本身就含答案，Pipeline 只管拟合在哪些数据上做 | 逐个检查特征在预测时能不能拿到 |
+| 时间泄漏 | 怎么切分由 cv 决定，不由 Pipeline 决定 | 时间序列用 TimeSeriesSplit |
+| 分组泄漏 | 同一对象跨训练和测试，也是切分的问题 | 用 GroupKFold |
+| 反复看测试集调参 | 测试集是你自己在用 | 调参只用交叉验证，测试集只用一次 |
+
+##### 常见错误
+
+- 在 Pipeline 外面先做特征选择（例如 SelectKBest），再交叉验证：选择过程泄漏，应该把它放进 Pipeline
+- 时间序列用默认的 KFold：它会用后面的折训练、预测前面的折，等于用未来预测过去
+- 只保存模型，不保存整条 Pipeline：线上的预处理和训练时不一致
 
 ### Short Answer
 
-Leakage uses information unavailable at prediction time or allows held-out data to influence training. A pipeline fits preprocessing inside each training fold. It does not repair future-looking features or incorrectly timed labels.
+Data leakage is when information that wouldn't be available at prediction time gets into training or model selection, so offline scores look better than what you'll see in production. There are two broad types: target leakage, where a feature contains the answer or something derived from it, and train-test contamination, where test data influences training - for example fitting a scaler on the full dataset, letting the same customer appear in both train and test, or tuning on the test set. To prevent it, I split first, fit all preprocessing inside a pipeline on the training folds only, check that every feature is available at prediction time, split by time or by group when the data needs it, and use the test set only once at the end.
+
+Scaling puts numeric features on comparable ranges. It matters for models that use distances or penalize coefficient size, such as k-NN, SVMs, PCA and Ridge or Lasso, and it helps gradient-based training converge; tree-based models generally don't need it. StandardScaler subtracts the mean and divides by the standard deviation, MinMaxScaler maps each feature to a fixed range, and RobustScaler uses the median and interquartile range when there are outliers. The key rule is to fit the scaler on training data only and reuse the same fitted parameters on validation, test and production data.
+
+A scikit-learn Pipeline chains preprocessing steps and a final model into one estimator. When you call fit, each step is fit on the training data and transforms it for the next step; predict only applies the already-fitted transforms. So inside cross-validation or a grid search, preprocessing is refit on each training fold, which prevents preprocessing leakage, and you can tune preprocessing and model parameters together using the step name, two underscores and the parameter name, like ridge__alpha. It also gives you one object to save, so training and serving apply the same transformations. It doesn't fix features that already contain future information, and you still need the right splitter, such as TimeSeriesSplit or GroupKFold.
 
 ### 中文回答
 
@@ -2295,17 +2141,13 @@ Topic: MAE; RMSE
 
 What is MAE; RMSE, how does it work, and when would you use it?
 
-MAE; RMSE 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- MAE：MAE 是预测误差绝对值的平均，单位与目标相同。
+- RMSE：RMSE 是平方误差均值的平方根，单位与目标相同。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2330,17 +2172,15 @@ Topic: Bias-Variance; Overfitting; Regularization; Linear Regression
 
 What is Bias-Variance; Overfitting; Regularization; Linear Regression, how does it work, and when would you use it?
 
-Bias-Variance; Overfitting; Regularization; Linear Regression 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Bias-Variance：偏差表示方法的系统性近似误差，方差表示模型对训练样本变化的敏感度。
+- Overfitting：过拟合是把训练数据的噪声也学进去，训练表现好但新数据差。
+- Regularization：正则化在拟合损失之外增加约束或惩罚，抑制过于灵活的模型。
+- Linear Regression：线性回归用特征的加权和加截距预测连续数值，训练时学习这些权重。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2365,17 +2205,16 @@ Topic: Logistic Regression; Precision; Recall; F1; Class Imbalance
 
 What is Logistic Regression; Precision; Recall; F1; Class Imbalance, how does it work, and when would you use it?
 
-Logistic Regression; Precision; Recall; F1; Class Imbalance 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Logistic Regression：逻辑回归虽然名字含 regression，通常用于分类。
+- Precision：Precision 是判为正类的样本中真正为正类的比例，TP/(TP+FP)。
+- Recall：分类 Recall 是所有真正正类中被找到的比例，TP/(TP+FN)。
+- F1：F1 是 precision 和 recall 的调和平均，2PR/(P+R)。
+- Class Imbalance：类别不平衡时准确率可能误导。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2400,17 +2239,14 @@ Topic: PR-AUC; ROC-AUC; Calibration
 
 What is PR-AUC; ROC-AUC; Calibration, how does it work, and when would you use it?
 
-PR-AUC; ROC-AUC; Calibration 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- PR-AUC：精确率召回曲线比较不同阈值下的误报与覆盖取舍，受正类比例影响。
+- ROC-AUC：ROC-AUC 衡量正类相对负类的排序表现，基于 TPR 和 FPR。
+- Calibration：校准检查预测概率是否与实际频率一致，例如预测 0.7 的样本是否约 70% 为正类。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2435,17 +2271,14 @@ Topic: Decision Trees; Random Forests; Gradient Boosting
 
 What is Decision Trees; Random Forests; Gradient Boosting, how does it work, and when would you use it?
 
-Decision Trees; Random Forests; Gradient Boosting 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Decision Trees：决策树按特征条件逐步切分空间，叶节点输出数值或类别。
+- Random Forests：随机森林把多个经过样本和特征随机化的树进行平均或投票，主要减少方差。
+- Gradient Boosting：梯度提升依次加入模型以改进当前损失，常用浅树拟合负梯度信号。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2470,17 +2303,13 @@ Topic: Cross-Validation; Hyperparameter Tuning
 
 What is Cross-Validation; Hyperparameter Tuning, how does it work, and when would you use it?
 
-Cross-Validation; Hyperparameter Tuning 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Cross-Validation：交叉验证用多个合适的训练／验证折比较方法与波动。
+- Hyperparameter Tuning：超参数是训练前指定的配置，如 Ridge 强度、树深度。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2505,17 +2334,14 @@ Topic: Feature Engineering; Interpretability; Feature Importance
 
 What is Feature Engineering; Interpretability; Feature Importance, how does it work, and when would you use it?
 
-Feature Engineering; Interpretability; Feature Importance 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Feature Engineering：特征工程把原始信息转为模型输入，如历史收益和过去波动率。
+- Interpretability：可解释性帮助理解模型如何关联输入与输出。
+- Feature Importance：特征重要性依赖模型、数据和指标。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2540,17 +2366,15 @@ Topic: Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast H
 
 What is Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons, how does it work, and when would you use it?
 
-Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Time-Series Splits：时间序列划分用较早数据训练，较晚数据验证或测试。
+- Walk-Forward Validation：滚动向前验证模拟多个历史预测时点，每次只用当时已可知的数据。
+- Temporal Leakage：时间泄漏是使用预测时尚未知的未来信息，包括未公布报表、未来收益和未结束标签。
+- Forecast Horizons：预测期限定义目标覆盖哪段未来，如未来五日波动率。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2575,17 +2399,13 @@ Topic: Volatility Forecasting; Out-of-Sample Evaluation
 
 What is Volatility Forecasting; Out-of-Sample Evaluation, how does it work, and when would you use it?
 
-Volatility Forecasting; Out-of-Sample Evaluation 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Volatility Forecasting：先定义波动率目标和时点，再与过去波动率基线比较。
+- Out-of-Sample Evaluation：样本外评估用未参与拟合的案例评价泛化；最终测试还不能参与模型选择。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2610,17 +2430,14 @@ Topic: Regime Changes; Statistical Uncertainty; Prediction Intervals
 
 What is Regime Changes; Statistical Uncertainty; Prediction Intervals, how does it work, and when would you use it?
 
-Regime Changes; Statistical Uncertainty; Prediction Intervals 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Regime Changes：市场状态变化可能改变特征和目标关系，平均误差会掩盖局部失效。
+- Statistical Uncertainty：有限样本指标有不确定性，金融序列和重叠标签往往相关。
+- Prediction Intervals：预测区间描述未来观测可能范围，区别于参数或均值的置信区间。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2645,17 +2462,15 @@ Topic: Reproducibility; Model Versioning; Serving; Rollback
 
 What is Reproducibility; Model Versioning; Serving; Rollback, how does it work, and when would you use it?
 
-Reproducibility; Model Versioning; Serving; Rollback 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Reproducibility：可复现需要记录代码、数据、依赖、随机性和配置。
+- Model Versioning：模型版本需关联训练数据、预处理、特征顺序、配置和代码。
+- Serving：模型服务把经过校验的输入转为预测结果。
+- Rollback：回滚应同步恢复模型、预处理及兼容输入接口，明确触发条件和可恢复版本。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2680,17 +2495,13 @@ Topic: Drift; Retraining
 
 What is Drift; Retraining, how does it work, and when would you use it?
 
-Drift; Retraining 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Drift：输入漂移是特征分布变化，性能漂移需真实结果才能确认。
+- Retraining：重训练需有数据质量、标签可用性和性能证据，并按同一验证协议比较候选模型。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -2715,17 +2526,12 @@ Topic: Requirements and API Design
 
 Design an API for submitting financial risk calculations.
 
-请设计 Requirements and API Design 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Requirements and API Design：先确认用户、负载和业务约束，再定义资源、状态与API契约。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -2734,6 +2540,272 @@ Client → API validation → Run database → Worker → Result store → Statu
 ### 中文回答
 
 先确认用户、负载和业务约束，再定义资源、状态与API契约。耗时研究任务返回任务ID，由用户查询状态；说明认证、错误和幂等规则。
+
+### 怎么学这一页
+
+这一页的目标不是背答案，而是练会一个说话顺序：澄清问题 → 需求 → API → 数据流 → 取舍 → 失败场景 → 追问。后面19个System Design主题都用同一个顺序。
+
+#### Day 01 第一次学（45分钟）
+
+1. 15分钟 理解：从下面“参考答案”的第1题读到第6题。每题先看问题，自己用中文想10秒，再点开；读完合上，用中文复述一遍。不认识的词看上面的Key Terms
+2. 20分钟 画图和口述：在纸上画 Client → API → Run DB → Queue → Worker → Result store，标上 `POST /v1/runs` 和 `GET /v1/runs/{id}`。对着图把最后的“5分钟英文口述稿”读一遍，再不看稿讲一遍
+3. 10分钟 取舍、失败和追问：第7到第11题，先自己用英文说，再点开对照
+4. 在学习记录里写：哪一步讲不出来、哪个词不懂
+
+#### Day 02 复习（45分钟）
+
+1. 30分钟 不看页面，计时：先问3个澄清问题，写下需求和API，画图，讲两个失败场景，全程用英文说（可以用手机录音）
+2. 15分钟 打开参考答案逐题对照，把漏掉的点记进学习记录
+
+### 参考答案
+
+#### 1. Who submits a calculation?
+
+谁来提交计算？
+
+为什么要问：调用方决定了认证方式、权限和限流。面试官一般不会主动告诉你，先问清楚再设计。
+
+合理的假设：
+
+- 内部风险分析师通过网页提交
+- 内部系统用服务账号提交，比如每天收盘后的批量任务
+- 每个run都记录owner（用户或团队），只有owner能看状态和结果
+- 限流按用户和按服务账号分别算
+
+英文答法：I'd assume two kinds of callers: risk analysts using an internal web UI, and internal services, such as an end-of-day batch job, using service accounts. Every request is authenticated, and every run records an owner, so only that owner or their team can read its status and results. Knowing the callers also tells me how to rate-limit: per user and per service account.
+
+#### 2. Is completion synchronous?
+
+计算结果是同步返回吗？
+
+为什么要问：计算要跑多久，决定API是同步还是异步。
+
+风险计算（比如蒙特卡洛VaR、压力测试）可能要几秒到几十分钟，远远超过一个HTTP请求能等的时间（网关和浏览器通常30到60秒就超时）。所以设计成异步：
+
+- 2秒内接受请求，返回 `202 Accepted` 和 run_id
+- 客户端之后查状态（轮询），或者完成时收到通知
+- 只有当计算总是在1秒左右完成时，同步才更简单
+
+英文答法：No. A risk calculation, for example a Monte Carlo VaR or a stress test, can take anywhere from seconds to tens of minutes, which is far longer than an HTTP request should stay open. So I'd make the API asynchronous: it accepts the request within two seconds and returns 202 Accepted with a run ID, and the client polls a status endpoint or gets notified when the run finishes. If every calculation reliably finished in under a second, a synchronous API would be simpler, and I'd choose that.
+
+#### 3. What makes two submissions the same logical request?
+
+什么情况下，两次提交算同一个请求？
+
+这是幂等性（idempotency）问题。网络超时后客户端会重试；如果服务器把重试当成新请求，就会算两次。
+
+做法：
+
+- 客户端为每一次“逻辑上的提交”生成一个 `Idempotency-Key`（一个UUID），重试时带同一个key
+- 服务器在 (owner_id, idempotency_key) 上建唯一索引
+- key相同、内容也相同：返回原来那个run
+- key相同、内容不同：返回 `409 Conflict`，这是客户端的bug
+
+不要只按“内容相同”来判断：两个分析师可以合法地提交同样的参数，一个人也可能故意重跑。
+
+英文答法：Two submissions are the same logical request when they carry the same idempotency key from the same caller. The client generates a UUID for each logical submission and reuses it on every retry. The server stores the key with a unique constraint on owner and key. Same key and same body: return the original run. Same key but a different body: return 409 Conflict, because that's a client bug. I wouldn't deduplicate on the payload alone, because two analysts can legitimately submit identical inputs, and someone may want to re-run a calculation on purpose.
+
+#### 4. What are the functional and non-functional requirements?
+
+功能需求和非功能需求怎么说？
+
+功能需求（系统要做什么）：
+
+- 提交一次计算：portfolio、计算类型（VaR、压力测试）、参数、as-of日期
+- 查状态：queued / running / succeeded / failed / cancelled
+- 取结果、列出我的runs，可选：取消一个run
+
+非功能需求（做得多好）：
+
+- 峰值每秒10次提交；接受请求（admission）p99小于2秒
+- 计算完成时间单独定目标，比如95%的run在10分钟内完成
+- 可靠：返回run_id之后，这个run不会丢，也不会被算两次
+- 安全：认证和owner检查，结果不会泄露给别人
+- 可审计：保存输入、模型版本和市场数据快照，结果可以复现（金融监管要求）
+
+英文答法：Functionally, a user can submit a calculation, check its status, fetch the results, list their runs, and optionally cancel one. Non-functionally, peak load is about 10 submissions per second, and accepting a request should take under 2 seconds at p99. Completion has its own target, say 95% of runs finish within 10 minutes. Once we return a run ID, the run must never be lost or executed twice. And because this is finance, every run should be reproducible, so we store its inputs, the model version and the market-data snapshot it used.
+
+#### 5. What does the API look like?
+
+API具体长什么样？
+
+资源是run（一次计算）。用名词加HTTP方法；创建时返回 `202 Accepted` 而不是 `201 Created`，表示“已经接受，但还没做完”。
+
+```
+POST /v1/runs
+Authorization: Bearer <token>
+Idempotency-Key: 3f6c2a9e-8d41-4b7a-9e0f-2c5d7a1b9e63
+
+{
+  "portfolio_id": "pf_123",
+  "calc_type": "var",
+  "params": { "confidence": 0.99, "horizon_days": 10, "method": "historical" },
+  "as_of": "2026-11-06"
+}
+
+-> 202 Accepted
+   Location: /v1/runs/run_8a7b
+   { "run_id": "run_8a7b", "status": "queued" }
+
+GET /v1/runs/run_8a7b
+-> 200 { "run_id": "run_8a7b", "status": "running",
+         "submitted_at": "...", "started_at": "...", "finished_at": null, "error": null }
+
+GET  /v1/runs/run_8a7b/result     -> 200 结果；还没完成 -> 409；结果很大时分页或给下载链接
+GET  /v1/runs?status=failed&cursor=...   -> 我的runs，按cursor分页
+POST /v1/runs/run_8a7b/cancel     -> 202
+```
+
+状态机：queued → running → succeeded / failed / cancelled。
+
+错误码：
+
+- `400` 输入不合法，指出是哪个字段
+- `401` 没有登录
+- `404` run不存在，或者不是你的（两种情况返回一样，见第8题）
+- `409` 同一个key但内容不同，或者结果还没准备好
+- `429` 超过限流，带 `Retry-After` 告诉客户端多久后再试
+
+英文答法：The resource is a run. POST /v1/runs creates one and returns 202 Accepted with the run ID, because the work hasn't happened yet. GET /v1/runs/{id} returns the status, which moves from queued to running, and then to succeeded, failed or cancelled. GET /v1/runs/{id}/result returns the output once the run has succeeded. Errors are explicit: 400 with field-level messages for invalid input, 404 for a run that doesn't exist or isn't yours, 409 for a reused idempotency key with a different body, and 429 with Retry-After when a client exceeds its rate limit.
+
+#### 6. Walk me through the data flow. Why persist before acknowledging?
+
+请求进来以后发生了什么？为什么要先存数据库再返回？
+
+一个请求的完整路径：
+
+1. API认证，校验输入：格式对不对，portfolio存不存在，调用者有没有权限
+2. 在一个数据库事务里写入runs表一行，status = queued。(owner_id, idempotency_key) 有唯一索引；冲突说明是重试，按第3题的规则返回已有的run
+3. 把 {run_id} 放进队列（比如SQS）
+4. 返回 `202` 和run_id。重的计算从不在请求里做，所以接受请求能稳定在2秒以内
+5. Worker从队列取消息，先“认领”这个run：`UPDATE runs SET status = 'running' WHERE run_id = ? AND status = 'queued'`，只有一个worker能更新成功
+6. Worker读取portfolio和市场数据，计算；结果按run_id写进对象存储（S3），再把status改成succeeded并记下结果位置
+7. 状态API只读runs表
+
+runs表：run_id（主键）、owner_id、idempotency_key、request_hash、calc_type、params、portfolio_id、as_of、model_version、status、attempts、created_at、started_at、finished_at、error、result_location。
+
+为什么先存再返回：如果先返回run_id、后写数据库，中间服务器崩溃，用户手里就有一个根本不存在的run_id，“已接受”的承诺就丢了。
+
+一个容易漏的缺口：数据库写成功了，但放进队列失败。两种解决办法：
+
+- transactional outbox：同一个事务里多写一条outbox记录，后台进程负责把它投递到队列
+- 定时扫描：status还是queued、超过N分钟的run，重新放进队列
+
+队列一般是至少投递一次（at-least-once），同一条消息可能来两次，所以worker要用第5步的条件更新来认领，认领失败就丢掉这条消息。
+
+英文答法：The API authenticates the caller and validates the input. Then, in one transaction, it inserts a run row with status queued, with a unique constraint on owner and idempotency key, so a retry finds the existing row. It puts the run ID on a queue and returns 202 with the run ID. A worker picks up the message, claims the run with a conditional update from queued to running, so only one worker wins, computes the result, writes it to object storage keyed by run ID, and marks the run succeeded. I persist before acknowledging because once I've handed out a run ID, a crash must not lose that run. And since the database write and the enqueue can't be one atomic step, I'd use a transactional outbox or a sweeper that re-enqueues runs stuck in queued.
+
+#### 7. What are the trade-offs: synchronous vs. asynchronous, polling vs. callbacks?
+
+有哪些取舍？同步还是异步？轮询还是回调？
+
+同步：
+
+- 好处：一个请求搞定，不需要队列和状态表，最简单
+- 代价：慢的计算会占住API的连接和线程，超时就白算；API重启会丢掉正在算的任务
+- 适合：计算总是很短（1秒左右）
+
+异步（队列 + worker）：
+
+- 好处：慢的计算和API隔离；重启不丢任务；可以重试；worker可以单独扩容
+- 代价：多了队列、状态表和更多需要运维的组件；客户端要查状态
+
+怎么知道算完了：
+
+- 轮询（polling）：最简单，适合网页；服务器用 `Retry-After` 建议隔多久查一次
+- 回调（webhook）：适合其他服务调用，不用一直查；但要处理回调失败和重试
+- 我会先做轮询，有服务类调用方时再加webhook
+
+英文答法：Synchronous execution is simpler: one request, no queue, no status table. But slow calculations would hold API connections, a client timeout wastes the work, and a restart loses in-flight jobs, so it only fits consistently short jobs. A queue with workers costs more to operate, but it isolates slow calculations from the API, survives restarts, allows retries, and lets me scale workers independently of the API. For completion, I'd start with polling, using Retry-After to suggest an interval, and add webhooks later for service clients, since webhooks need their own retry handling.
+
+#### 8. What can fail, and what happens then?
+
+哪里会出错？出错时会怎样？
+
+- 服务器已经接受了，但客户端超时没收到回复：客户端用同一个Idempotency-Key重试，拿到同一个run_id，不会重复计算
+- 同一个key、不同内容：返回 `409`
+- Worker算到一半崩溃：认领时设一个租约（lease_until），租约过期后别的worker重新认领，attempts加1；失败3次标记为failed，消息进死信队列（DLQ）等人查。所以计算必须可以安全重跑：结果按run_id写，覆盖也没关系
+- 队列不可用：数据库里已经有这行，outbox或定时扫描之后会补投递；API照常接受请求
+- 有人查别人的run：返回 `404`，和run不存在时一模一样，不返回 `403`。返回403等于告诉对方“这个run存在，只是你没权限”。页面上 “Unknown ownership must not leak result existence” 说的就是这个
+- 提交突然暴增：队列先接住；超过每个调用方的限额返回 `429`；按队列积压自动增加worker
+
+英文答法：If the client times out after we accepted, it retries with the same idempotency key and gets the same run back, so nothing is computed twice. If a worker crashes mid-run, its lease expires and another worker re-claims the run; after three attempts the run is marked failed and the message goes to a dead-letter queue. That's why the calculation must be safe to re-run, and results are written by run ID. If someone asks for a run that isn't theirs, they get 404, exactly like a run that doesn't exist, because a 403 would reveal that the run exists. And a burst of submissions is absorbed by the queue, with per-client rate limits returning 429.
+
+#### 9. Follow-up: Estimate daily runs and retention storage; separate admission latency from completion latency.
+
+追问：估算每天有多少个run、要存多少数据；把“接受请求的延迟”和“计算完成的延迟”分开说。
+
+每天多少个run：
+
+- 每秒10次是峰值。假设全天平均是峰值的十分之一，也就是每秒1次
+- 1 × 86,400秒 ≈ 每天约10万个run（取整，方便算）
+
+存多少数据：
+
+- 元数据：每行约2 KB，10万 × 2 KB = 每天200 MB，一年约73 GB，一台Postgres足够
+- 结果：假设每个50 KB（每个持仓的风险值加汇总），每天5 GB，一年约1.8 TB
+- 金融数据常要保存7年：结果约13 TB，放S3，90天后自动转到更便宜的存储层；数据库只存结果的位置
+
+两种延迟要分开：
+
+- 接受请求的延迟（admission latency）：从POST到拿到202。只有校验、一次写库、一次入队，通常几十到几百毫秒，目标p99小于2秒，在API层测
+- 计算完成的延迟（completion latency）：从submitted_at到finished_at，等于排队时间加计算时间，取决于worker够不够
+
+需要多少worker（Little's Law：同时在跑的数量 = 到达速率 × 平均耗时）：
+
+- 平均每秒1个 × 每个算60秒 = 平均60个同时在跑
+- 峰值每秒10个时需要600个，否则队列变长、完成时间变长。所以按队列积压自动扩容，或者接受高峰时完成得慢一些
+
+英文答法：Ten per second is the peak. If the average is a tenth of that, it's about one per second, so roughly 100,000 runs a day. At about 2 KB of metadata per run, that's 200 MB a day, around 73 GB a year, which fits in one Postgres instance. If each result is about 50 KB, that's 5 GB a day, about 1.8 TB a year, and around 13 TB over a seven-year retention period, so results go to object storage with lifecycle rules, and the database keeps only their location. Admission latency is just validation, one write and one enqueue, so it should be well under the two-second target. Completion latency is queue wait plus compute time, and it depends on worker capacity: by Little's Law, one run per second at sixty seconds each means about sixty runs in flight on average, and the peak needs far more, so I'd autoscale workers on queue age.
+
+#### 10. Follow-up: How would you adapt the design if traffic increased tenfold?
+
+追问：流量变成10倍，设计要怎么改？
+
+变成峰值每秒100次提交。先测量哪里饱和，不要默认“多加几台机器”就能解决。
+
+- 接受请求这条路：API是无状态的，加实例就行；每秒100次写入对Postgres不算多；SQS也没问题
+- 计算是10倍：按队列积压自动扩容worker，成本也接近10倍。减少计算量的办法：
+  - 同一个as-of日期的市场数据只加载一次，多个run共用
+  - 输入完全相同的计算复用结果（按输入内容的哈希查，这和幂等key是两回事）
+  - 分开交互队列和批量队列，分析师不用排在夜间批量任务后面
+- 查状态的读请求也是10倍：读副本或缓存；用推送代替频繁轮询
+- 公平：按调用方设配额，一个批量任务不能把所有worker占满
+- 共享依赖：如果市场数据服务只有一个实例，加worker只会把它压垮，要先给它扩容或加缓存
+
+英文答法：At a hundred submissions per second, the admission path is still easy: the API is stateless, so I add replicas, and a hundred inserts per second is modest for Postgres. The real cost is compute, which grows tenfold. I'd autoscale workers on queue age, and reduce the work itself: load each day's market data once and share it, reuse results for identical inputs by content hash, and split interactive and batch queues so analysts don't wait behind a nightly batch. I'd add per-client quotas for fairness, and move status reads to a replica or push notifications. Above all, I'd measure where saturation actually is, because adding workers doesn't help if they all depend on one market-data service.
+
+#### 11. Follow-up: Which component in your drawing is the first bottleneck?
+
+追问：你画的图里，哪个组件最先成为瓶颈？
+
+Worker（计算能力），以及worker依赖的服务（市场数据、portfolio服务）。
+
+- 提交这条路很轻：校验、写一行、入队
+- 队列会先把突增的请求接住，所以第一个症状不是提交失败，而是队列积压时间和完成时间变长，接受请求的延迟仍然很快
+- 这正是要把两种延迟分开测的原因：只看API延迟会以为一切正常
+
+第二个候选：runs数据库。如果几千个客户端每秒都在轮询，读请求会压过写入。办法：用Retry-After让客户端查得慢一点、读副本或缓存、webhook。
+
+英文答法：The workers, and the services they depend on, such as market data. The submission path is light, and the queue absorbs bursts, so the first symptom isn't failed submissions but growing queue age and completion latency, while admission latency still looks healthy. That's exactly why I measure the two separately. The second candidate is the runs database under heavy polling, which I'd handle with Retry-After hints, a read replica or cache, and webhooks.
+
+#### 5分钟英文口述稿
+
+英文答法：Before designing, I'd ask three questions: who submits calculations, whether completion has to be synchronous, and what makes two submissions the same request. I'll assume analysts and internal services, calculations that take seconds to tens of minutes, and a client-generated idempotency key.
+
+英文答法：So the requirements are: submit a run, check its status, and fetch results; about 10 submissions per second at peak; accept within 2 seconds; completion has its own target; and an accepted run is never lost or run twice.
+
+英文答法：The API has two main endpoints. POST /v1/runs takes the portfolio, calculation type, parameters and an Idempotency-Key header, and returns 202 Accepted with a run ID. GET /v1/runs/{id} returns the status: queued, running, succeeded or failed, plus a result link once it's done.
+
+英文答法：For the data flow: the API validates the request and writes the run to the database with a unique constraint on owner and idempotency key, and only then returns the run ID. It puts the run on a queue; a worker claims it with a conditional update, computes, writes the result to object storage, and marks it succeeded. The expensive work never sits in the request path.
+
+英文答法：The main trade-off is asynchronous versus synchronous. A queue adds moving parts, but it isolates slow calculations, survives restarts and lets workers scale independently.
+
+英文答法：For failures: if the client times out and retries with the same key, it gets the same run. If a worker crashes, its lease expires and another worker picks the run up. And a run that isn't yours returns 404, so we never reveal that it exists.
+
+英文答法：Finally, I'd check this against the requirements, and point out that the first bottleneck will be worker capacity, so I'd monitor queue age and completion latency separately from admission latency.
+
+项目连接：Risk Copilot的Workbench提交一次分析，就是这里的run合约：POST返回run_id，前端轮询状态。做到这一步时，面试里可以用自己的实现举例。
 
 [深入材料与练习](../Study%20topics/requirements-and-api-design.html)
 
@@ -2750,17 +2822,12 @@ Topic: Data Modeling and Indexes
 
 Design persistent experiment runs, predictions and metrics.
 
-请设计 Data Modeling and Indexes 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Data Modeling and Indexes：先确定实体、每行粒度及常用查询，再设计主外键、约束和索引。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -2785,17 +2852,12 @@ Topic: Cache and API Service
 
 Design caching for frequently requested financial reports.
 
-请设计 Cache and API Service 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Cache and API Service：缓存键包含数据版本、查询参数与权限范围，定义过期和失效策略。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -2820,17 +2882,12 @@ Topic: Queues and Job Scheduler
 
 Design a durable scheduler for research jobs.
 
-请设计 Queues and Job Scheduler 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Queues and Job Scheduler：提交任务和outbox记录应在同一事务中写入，再异步派发。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -2855,17 +2912,12 @@ Topic: Rate Limiting and Capacity
 
 Design a rate limiter for an expensive inference API.
 
-请设计 Rate Limiting and Capacity 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Rate Limiting and Capacity：分别限制到达速率和正在执行的请求数。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -2890,17 +2942,12 @@ Topic: Retries, Idempotency and Consistency
 
 Design safe retries for a job-submission service.
 
-请设计 Retries, Idempotency and Consistency 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Retries, Idempotency and Consistency：幂等键绑定请求内容，重复提交返回原状态或结果。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -2925,17 +2972,12 @@ Topic: Latency and Observability
 
 Diagnose a slow report service.
 
-请设计 Latency and Observability 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Latency and Observability：用请求关联ID、日志、指标和追踪定位各环节耗时，观察p50和p95。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -2960,17 +3002,12 @@ Topic: CI/CD and AWS Deployment
 
 Release a containerized AI API safely.
 
-请设计 CI/CD and AWS Deployment 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- CI/CD and AWS Deployment：自动验证代码后构建版本化镜像，使用最小权限部署并做健康检查。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -2995,17 +3032,12 @@ Topic: Financial Research RAG
 
 Design a financial research assistant with verifiable citations.
 
-请设计 Financial Research RAG 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Financial Research RAG：按实体、期间和权限检索财务证据，保留原始位置与单位。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -3030,17 +3062,12 @@ Topic: RAG Evaluation and Retrieval Trade-offs
 
 Improve a RAG pipeline that retrieves five chunks from one source.
 
-请设计 RAG Evaluation and Retrieval Trade-offs 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- RAG Evaluation and Retrieval Trade-offs：建立标注查询与相关证据集，分别测量召回、排序、重复及答案依据。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -3065,17 +3092,12 @@ Topic: Financial Text-to-SQL
 
 Design a financial analytics assistant over Snowflake.
 
-请设计 Financial Text-to-SQL 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Financial Text-to-SQL：提供受控schema与业务口径，验证SQL后以只读、限时和限量权限执行。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -3100,17 +3122,12 @@ Topic: Text-to-SQL Evaluation and Data Quality
 
 Evaluate an assistant answering financial statement questions.
 
-请设计 Text-to-SQL Evaluation and Data Quality 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Text-to-SQL Evaluation and Data Quality：以执行结果和业务语义评估SQL，同时测试权限、成本和拒答。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -3135,17 +3152,12 @@ Topic: Agents with Human Approval
 
 Design a tool-using agent that requires approval before a consequential action.
 
-请设计 Agents with Human Approval 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Agents with Human Approval：模型提出操作后，服务端先检查契约与权限；高影响操作展示具体参数供人批准。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -3170,17 +3182,12 @@ Topic: Agent Memory and Tool Contracts
 
 Design safe memory and tool contracts for a research assistant.
 
-请设计 Agent Memory and Tool Contracts 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Agent Memory and Tool Contracts：定义工具参数、错误与副作用，区分可信状态和外部文本。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -3205,17 +3212,12 @@ Topic: AI-Assisted Experiment Platform
 
 Design an AI interface to reproducible investment research jobs.
 
-请设计 AI-Assisted Experiment Platform 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- AI-Assisted Experiment Platform：实验记录数据、代码、模型、参数与指标版本。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -3240,17 +3242,12 @@ Topic: Volatility Forecasting Service
 
 Design training and serving for a five-day volatility forecast.
 
-请设计 Volatility Forecasting Service 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Volatility Forecasting Service：使用时点正确的特征和时间顺序验证，与合理金融基线比较。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -3275,17 +3272,12 @@ Topic: Evaluation and Regression Pipeline
 
 Design an evaluation gate for an AI release.
 
-请设计 Evaluation and Regression Pipeline 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Evaluation and Regression Pipeline：用固定案例检查每次提示、检索或模型变更，再用独立测试估计效果。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -3310,17 +3302,12 @@ Topic: AI Latency and Cost Budget
 
 Scale an AI assistant under a latency and cost budget.
 
-请设计 AI Latency and Cost Budget 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- AI Latency and Cost Budget：分解检索、工具、模型及排队耗时，记录token和实际费用。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -3345,17 +3332,12 @@ Topic: AI Security and Reliability
 
 Handle prompt injection, unauthorized access and tool failures.
 
-请设计 AI Security and Reliability 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- AI Security and Reliability：对检索和工具落实权限、租户隔离和资源限制，外部文本只作数据。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -3380,17 +3362,12 @@ Topic: Transfer Mock: Contract Review Assistant
 
 Design a contract-review assistant for a new business domain.
 
-请设计 Transfer Mock: Contract Review Assistant 场景中的系统，说明需求、架构、取舍和失败处理。
-
 ### Key Terms
 
+- Transfer Mock: Contract Review Assistant：先明确合同审阅范围与风险类别，检索并引用条款，区分证据与建议。
 - Requirement：系统必须满足的行为或性能约束。
 - Trade-off：一个选择带来的收益及付出的代价。
 - Failure mode：依赖或组件出错时的具体表现。
-
-### 直观例子
-
-把Risk Copilot当作具体系统：用户提交研究问题，系统检索或计算，再返回结果。围绕本页主题说明一个依赖变慢或失败后用户会看到什么。
 
 ### Short Answer
 
@@ -3415,16 +3392,11 @@ Topic: Tokenization
 
 What is Tokenization, how does it work, and when would you use it?
 
-Tokenization 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Tokenization：文本被转换成token编号；token不等于单词。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3449,16 +3421,11 @@ Topic: Next-Token Prediction
 
 What is Next-Token Prediction, how does it work, and when would you use it?
 
-Next-Token Prediction 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Next-Token Prediction：模型根据已有文本预测下一个token的概率。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3483,16 +3450,11 @@ Topic: Context Windows
 
 What is Context Windows, how does it work, and when would you use it?
 
-Context Windows 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Context Windows：上下文窗口限制模型一次处理的内容。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3517,16 +3479,11 @@ Topic: Temperature
 
 What is Temperature, how does it work, and when would you use it?
 
-Temperature 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Temperature：温度调整采样概率分布，低温通常更集中。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3551,16 +3508,11 @@ Topic: Top-p
 
 What is Top-p, how does it work, and when would you use it?
 
-Top-p 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Top-p：Top-p保留累计概率达到阈值的一组候选token。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3585,16 +3537,11 @@ Topic: Transformer and Attention Fundamentals
 
 What is Transformer and Attention Fundamentals, how does it work, and when would you use it?
 
-Transformer and Attention Fundamentals 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Transformer and Attention Fundamentals：注意力通过query与key的匹配分数加权value表示。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3619,16 +3566,11 @@ Topic: LLM Limitations
 
 What is LLM Limitations, how does it work, and when would you use it?
 
-LLM Limitations 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- LLM Limitations：模型可能编造事实、算错数字或受到恶意文本影响。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3653,16 +3595,11 @@ Topic: Model Selection
 
 What is Model Selection, how does it work, and when would you use it?
 
-Model Selection 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Model Selection：在实际任务上比较质量、延迟、成本和数据约束。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3687,16 +3624,11 @@ Topic: Prompt Engineering
 
 What is Prompt Engineering, how does it work, and when would you use it?
 
-Prompt Engineering 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Prompt Engineering：提示应说明任务、输入、输出格式和限制，并用真实及对抗案例验证。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3721,16 +3653,11 @@ Topic: Few-Shot Examples
 
 What is Few-Shot Examples, how does it work, and when would you use it?
 
-Few-Shot Examples 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Few-Shot Examples：少量示例展示输入到输出的映射，包含模糊情况和拒答边界。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3755,16 +3682,11 @@ Topic: Prompt Versioning
 
 What is Prompt Versioning, how does it work, and when would you use it?
 
-Prompt Versioning 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Prompt Versioning：记录提示版本、模型、配置与评估结果，才能定位变更造成的退化并回滚。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3789,16 +3711,11 @@ Topic: Structured Outputs
 
 What is Structured Outputs, how does it work, and when would you use it?
 
-Structured Outputs 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Structured Outputs：结构化输出约束格式，但格式正确不等于内容正确。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3823,16 +3740,11 @@ Topic: Pydantic
 
 What is Pydantic, how does it work, and when would you use it?
 
-Pydantic 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Pydantic：Pydantic验证数据类型及约束，适合定义API和工具输入输出。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3857,16 +3769,11 @@ Topic: JSON Recovery
 
 What is JSON Recovery, how does it work, and when would you use it?
 
-JSON Recovery 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- JSON Recovery：解析失败时可有次数受限的修复流程。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3891,16 +3798,11 @@ Topic: Prompting vs. RAG vs. Fine-Tuning
 
 What is Prompting vs. RAG vs. Fine-Tuning, how does it work, and when would you use it?
 
-Prompting vs. RAG vs. Fine-Tuning 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Prompting vs. RAG vs. Fine-Tuning：提示定义任务，RAG提供可更新证据，微调改变模型行为。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3925,16 +3827,11 @@ Topic: LoRA
 
 What is LoRA, how does it work, and when would you use it?
 
-LoRA 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- LoRA：LoRA训练低秩适配参数以减少可训练参数。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3959,16 +3856,11 @@ Topic: Quantization
 
 What is Quantization, how does it work, and when would you use it?
 
-Quantization 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Quantization：量化降低权重或计算精度以节省内存和可能的成本。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -3993,16 +3885,11 @@ Topic: Embeddings
 
 What is Embeddings, how does it work, and when would you use it?
 
-Embeddings 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Embeddings：嵌入把文本映射为向量以比较语义。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4027,16 +3914,11 @@ Topic: Vector Similarity
 
 What is Vector Similarity, how does it work, and when would you use it?
 
-Vector Similarity 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Vector Similarity：向量相似度衡量表示的接近程度，不等于事实相关性。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4061,16 +3943,11 @@ Topic: Chunking
 
 What is Chunking, how does it work, and when would you use it?
 
-Chunking 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Chunking：分块平衡语义完整性与检索粒度。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4095,16 +3972,11 @@ Topic: Metadata
 
 What is Metadata, how does it work, and when would you use it?
 
-Metadata 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Metadata：元数据保存来源、页码、日期、版本及权限。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4129,16 +4001,11 @@ Topic: Context Budgets
 
 What is Context Budgets, how does it work, and when would you use it?
 
-Context Budgets 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Context Budgets：分配系统提示、历史、证据和输出的token预算。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4163,16 +4030,11 @@ Topic: Keyword / Vector / Hybrid Search
 
 What is Keyword / Vector / Hybrid Search, how does it work, and when would you use it?
 
-Keyword / Vector / Hybrid Search 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Keyword / Vector / Hybrid Search：关键词适合精确术语，向量适合语义表达，混合检索合并两类信号。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4197,16 +4059,11 @@ Topic: MMR
 
 What is MMR, how does it work, and when would you use it?
 
-MMR 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- MMR：MMR平衡查询相关性与结果间多样性，可减少重复来源。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4231,16 +4088,11 @@ Topic: Reranking
 
 What is Reranking, how does it work, and when would you use it?
 
-Reranking 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Reranking：重排序对候选结果做更精细的相关性判断。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4265,16 +4117,11 @@ Topic: Query Reformulation
 
 What is Query Reformulation, how does it work, and when would you use it?
 
-Query Reformulation 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Query Reformulation：查询改写可补充缩写或拆解复杂问题。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4299,16 +4146,11 @@ Topic: Citations
 
 What is Citations, how does it work, and when would you use it?
 
-Citations 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Citations：引用应映射到真实证据位置，并验证该证据支持具体主张。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4333,16 +4175,11 @@ Topic: Golden Datasets
 
 What is Golden Datasets, how does it work, and when would you use it?
 
-Golden Datasets 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Golden Datasets：固定标注数据用于比较版本，包含常见、困难和拒答案例。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4367,16 +4204,11 @@ Topic: Hard Negatives
 
 What is Hard Negatives, how does it work, and when would you use it?
 
-Hard Negatives 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Hard Negatives：困难负例看似相关但不能回答问题，例如同公司不同年份。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4401,16 +4233,11 @@ Topic: Held-Out Evaluation
 
 What is Held-Out Evaluation, how does it work, and when would you use it?
 
-Held-Out Evaluation 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Held-Out Evaluation：保留数据不参与训练和调参，用于估计泛化能力。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4435,16 +4262,11 @@ Topic: Recall@k
 
 What is Recall@k, how does it work, and when would you use it?
 
-Recall@k 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Recall@k：前k项召回率是找回的相关项占全部标注相关项的比例。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4469,16 +4291,11 @@ Topic: Precision@k
 
 What is Precision@k, how does it work, and when would you use it?
 
-Precision@k 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Precision@k：前k项精确率是其中相关项所占比例。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4503,16 +4320,11 @@ Topic: MRR
 
 What is MRR, how does it work, and when would you use it?
 
-MRR 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- MRR：MRR平均第一条相关结果名次的倒数，适合关注首个正确结果的任务。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4537,16 +4349,11 @@ Topic: nDCG
 
 What is nDCG, how does it work, and when would you use it?
 
-nDCG 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- nDCG：nDCG结合分级相关性和位置折扣，评估排序质量。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4571,16 +4378,11 @@ Topic: Redundancy
 
 What is Redundancy, how does it work, and when would you use it?
 
-Redundancy 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Redundancy：重复结果占用上下文而不一定增加信息。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4605,16 +4407,11 @@ Topic: Groundedness
 
 What is Groundedness, how does it work, and when would you use it?
 
-Groundedness 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Groundedness：有依据指回答主张得到提供证据支持。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4639,16 +4436,11 @@ Topic: Hallucination
 
 What is Hallucination, how does it work, and when would you use it?
 
-Hallucination 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Hallucination：幻觉是生成不受证据支持或错误的内容。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4673,16 +4465,11 @@ Topic: LLM-as-Judge
 
 What is LLM-as-Judge, how does it work, and when would you use it?
 
-LLM-as-Judge 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- LLM-as-Judge：用模型按评分标准评估输出，适合扩大评估规模。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4707,16 +4494,11 @@ Topic: Human Calibration
 
 What is Human Calibration, how does it work, and when would you use it?
 
-Human Calibration 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Human Calibration：人工复核建立评分标准并检查自动评估的一致性。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4741,16 +4523,11 @@ Topic: Judge Bias
 
 What is Judge Bias, how does it work, and when would you use it?
 
-Judge Bias 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Judge Bias：评审模型可能偏好长度、表达风格或自己的输出。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4775,16 +4552,11 @@ Topic: Offline / Regression Evals
 
 What is Offline / Regression Evals, how does it work, and when would you use it?
 
-Offline / Regression Evals 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Offline / Regression Evals：离线评估比较固定案例上的版本表现，回归测试发现旧能力退化。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4809,16 +4581,11 @@ Topic: Online Feedback
 
 What is Online Feedback, how does it work, and when would you use it?
 
-Online Feedback 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Online Feedback：线上反馈反映真实用户行为，但受选择偏差影响。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4843,16 +4610,11 @@ Topic: Agents vs. Workflows
 
 What is Agents vs. Workflows, how does it work, and when would you use it?
 
-Agents vs. Workflows 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Agents vs. Workflows：工作流步骤相对固定，agent动态选择下一步。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4877,16 +4639,11 @@ Topic: Function Calling
 
 What is Function Calling, how does it work, and when would you use it?
 
-Function Calling 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Function Calling：模型提出工具名和参数，应用负责校验权限并执行。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4911,16 +4668,11 @@ Topic: Tool Schemas
 
 What is Tool Schemas, how does it work, and when would you use it?
 
-Tool Schemas 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Tool Schemas：工具契约描述字段、类型、约束及错误。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4945,16 +4697,11 @@ Topic: Tool Selection Evaluation
 
 What is Tool Selection Evaluation, how does it work, and when would you use it?
 
-Tool Selection Evaluation 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Tool Selection Evaluation：评估工具是否选对、参数是否正确以及该拒绝时是否拒绝。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -4979,16 +4726,11 @@ Topic: Agent State
 
 What is Agent State, how does it work, and when would you use it?
 
-Agent State 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Agent State：状态记录任务进度、工具结果及待批准操作。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5013,16 +4755,11 @@ Topic: Memory
 
 What is Memory, how does it work, and when would you use it?
 
-Memory 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Memory：记忆保存跨步骤或会话信息，需限制用途、权限和生命周期。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5047,16 +4784,11 @@ Topic: LangGraph
 
 What is LangGraph, how does it work, and when would you use it?
 
-LangGraph 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- LangGraph：LangGraph用状态和图结构组织流程、分支与恢复。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5081,16 +4813,11 @@ Topic: Termination Conditions
 
 What is Termination Conditions, how does it work, and when would you use it?
 
-Termination Conditions 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Termination Conditions：停止条件包括成功、步数、时间、成本和重复失败上限。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5115,16 +4842,11 @@ Topic: MCP Fundamentals
 
 What is MCP Fundamentals, how does it work, and when would you use it?
 
-MCP Fundamentals 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- MCP Fundamentals：MCP标准化工具与资源的连接方式。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5149,16 +4871,11 @@ Topic: REST APIs
 
 What is REST APIs, how does it work, and when would you use it?
 
-REST APIs 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- REST APIs：REST API以资源和HTTP语义表达操作。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5183,16 +4900,11 @@ Topic: FastAPI
 
 What is FastAPI, how does it work, and when would you use it?
 
-FastAPI 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- FastAPI：FastAPI提供Python API路由、数据验证和接口文档。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5217,16 +4929,11 @@ Topic: API Tests
 
 What is API Tests, how does it work, and when would you use it?
 
-API Tests 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- API Tests：接口测试验证请求、响应、权限与错误边界。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5251,16 +4958,11 @@ Topic: Workers
 
 What is Workers, how does it work, and when would you use it?
 
-Workers 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Workers：worker处理后台任务，应记录状态、限定资源并处理重启。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5285,16 +4987,11 @@ Topic: Idempotency
 
 What is Idempotency, how does it work, and when would you use it?
 
-Idempotency 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Idempotency：同一逻辑请求重复执行应产生一次业务效果。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5319,16 +5016,11 @@ Topic: Timeouts
 
 What is Timeouts, how does it work, and when would you use it?
 
-Timeouts 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Timeouts：超时限制等待时间，但不证明远端未执行成功。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5353,16 +5045,11 @@ Topic: Backoff
 
 What is Backoff, how does it work, and when would you use it?
 
-Backoff 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Backoff：退避让重试间隔逐步增长，加入随机抖动减少同步重试。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5387,16 +5074,11 @@ Topic: Rate Limiting
 
 What is Rate Limiting, how does it work, and when would you use it?
 
-Rate Limiting 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Rate Limiting：限流限制单位时间请求量。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5421,16 +5103,11 @@ Topic: Backpressure
 
 What is Backpressure, how does it work, and when would you use it?
 
-Backpressure 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Backpressure：背压在下游变慢时限制上游输入，防止队列无限增长。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5455,16 +5132,11 @@ Topic: Docker
 
 What is Docker, how does it work, and when would you use it?
 
-Docker 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Docker：容器封装应用运行环境，帮助一致部署。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5489,16 +5161,11 @@ Topic: CI/CD
 
 What is CI/CD, how does it work, and when would you use it?
 
-CI/CD 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- CI/CD：持续集成自动验证变更，持续交付组织发布。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5523,16 +5190,11 @@ Topic: Cloud Fundamentals
 
 What is Cloud Fundamentals, how does it work, and when would you use it?
 
-Cloud Fundamentals 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Cloud Fundamentals：云服务提供计算、存储及网络资源。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5557,16 +5219,11 @@ Topic: IAM
 
 What is IAM, how does it work, and when would you use it?
 
-IAM 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- IAM：IAM控制身份能对哪些资源做哪些操作。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5591,16 +5248,11 @@ Topic: Networking
 
 What is Networking, how does it work, and when would you use it?
 
-Networking 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Networking：网络设计涉及连接、路由、DNS与访问边界。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5625,16 +5277,11 @@ Topic: Capacity Planning
 
 What is Capacity Planning, how does it work, and when would you use it?
 
-Capacity Planning 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Capacity Planning：根据到达速率、服务时间和资源瓶颈估算容量，再用负载测试验证。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5659,16 +5306,11 @@ Topic: Load Testing
 
 What is Load Testing, how does it work, and when would you use it?
 
-Load Testing 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Load Testing：负载测试测量不同压力下的延迟、错误及资源占用。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5693,16 +5335,11 @@ Topic: Logs
 
 What is Logs, how does it work, and when would you use it?
 
-Logs 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Logs：日志记录事件及错误上下文，使用关联ID串联请求。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5727,16 +5364,11 @@ Topic: Traces
 
 What is Traces, how does it work, and when would you use it?
 
-Traces 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Traces：追踪连接一次请求的多个处理步骤，定位检索、工具或模型延迟。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5761,16 +5393,11 @@ Topic: p50 / p95
 
 What is p50 / p95, how does it work, and when would you use it?
 
-p50 / p95 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- p50 / p95：p50是中位延迟，p95表示95%的观测不超过该值。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5795,16 +5422,11 @@ Topic: TTFT
 
 What is TTFT, how does it work, and when would you use it?
 
-TTFT 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- TTFT：TTFT是请求开始到首个token的时间。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5829,16 +5451,11 @@ Topic: Streaming
 
 What is Streaming, how does it work, and when would you use it?
 
-Streaming 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Streaming：流式返回逐步展示结果，改善等待体验。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5863,16 +5480,11 @@ Topic: Token Usage
 
 What is Token Usage, how does it work, and when would you use it?
 
-Token Usage 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Token Usage：记录输入输出token以估算成本和上下文压力。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5897,16 +5509,11 @@ Topic: Caching
 
 What is Caching, how does it work, and when would you use it?
 
-Caching 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Caching：缓存复用结果以减少耗时与成本。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5931,16 +5538,11 @@ Topic: Semantic Caching
 
 What is Semantic Caching, how does it work, and when would you use it?
 
-Semantic Caching 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Semantic Caching：语义缓存复用相近请求，存在错误匹配风险。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5965,16 +5567,11 @@ Topic: Freshness
 
 What is Freshness, how does it work, and when would you use it?
 
-Freshness 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Freshness：新鲜度描述数据是否仍适用于当前问题。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -5999,16 +5596,11 @@ Topic: Model Routing
 
 What is Model Routing, how does it work, and when would you use it?
 
-Model Routing 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Model Routing：按任务难度或约束选择模型，可能减少成本。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6033,16 +5625,11 @@ Topic: Cost-Quality Trade-offs
 
 What is Cost-Quality Trade-offs, how does it work, and when would you use it?
 
-Cost-Quality Trade-offs 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Cost-Quality Trade-offs：在可接受质量门槛下比较模型、检索和上下文的实际成本。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6067,16 +5654,11 @@ Topic: Human-in-the-Loop
 
 What is Human-in-the-Loop, how does it work, and when would you use it?
 
-Human-in-the-Loop 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Human-in-the-Loop：高影响操作在执行前交给人审核。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6101,16 +5683,11 @@ Topic: Approval Audit Trail
 
 What is Approval Audit Trail, how does it work, and when would you use it?
 
-Approval Audit Trail 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Approval Audit Trail：审计记录谁批准了哪次操作、参数和时间。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6135,16 +5712,11 @@ Topic: Prompt Injection
 
 What is Prompt Injection, how does it work, and when would you use it?
 
-Prompt Injection 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Prompt Injection：恶意输入试图让模型越过原任务或泄露数据。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6169,16 +5741,11 @@ Topic: Tool Sandboxing
 
 What is Tool Sandboxing, how does it work, and when would you use it?
 
-Tool Sandboxing 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Tool Sandboxing：沙箱限制工具能访问的文件、网络和资源。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6203,16 +5770,11 @@ Topic: PII
 
 What is PII, how does it work, and when would you use it?
 
-PII 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- PII：个人可识别信息需最小化收集、限制访问并定义保留期。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6237,16 +5799,11 @@ Topic: Access Control
 
 What is Access Control, how does it work, and when would you use it?
 
-Access Control 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Access Control：访问控制验证用户是否能读取或操作资源。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6271,16 +5828,11 @@ Topic: Tenant Isolation
 
 What is Tenant Isolation, how does it work, and when would you use it?
 
-Tenant Isolation 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Tenant Isolation：租户隔离防止不同客户数据混用。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6305,16 +5857,11 @@ Topic: Secrets
 
 What is Secrets, how does it work, and when would you use it?
 
-Secrets 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Secrets：密钥应存入专门的密钥管理系统，避免进入代码、日志和提示。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6339,16 +5886,11 @@ Topic: Fail-Open vs. Fail-Closed
 
 What is Fail-Open vs. Fail-Closed, how does it work, and when would you use it?
 
-Fail-Open vs. Fail-Closed 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Fail-Open vs. Fail-Closed：失败放行优先可用性，失败拒绝优先保护边界。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6373,16 +5915,11 @@ Topic: Graceful Degradation
 
 What is Graceful Degradation, how does it work, and when would you use it?
 
-Graceful Degradation 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Graceful Degradation：部分依赖失败时返回受限但明确的服务，例如仅展示已验证证据。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6407,16 +5944,11 @@ Topic: Snowflake
 
 What is Snowflake, how does it work, and when would you use it?
 
-Snowflake 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Snowflake：Snowflake提供云数据仓库，查询需受权限、成本和资源限制。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6441,16 +5973,11 @@ Topic: Text-to-SQL Evaluation
 
 What is Text-to-SQL Evaluation, how does it work, and when would you use it?
 
-Text-to-SQL Evaluation 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Text-to-SQL Evaluation：评估SQL语义、执行结果、权限和拒答，不只比较字符串。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6475,16 +6002,11 @@ Topic: SEC Financial Data
 
 What is SEC Financial Data, how does it work, and when would you use it?
 
-SEC Financial Data 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- SEC Financial Data：SEC数据包含申报、期间、单位和修订信息。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6509,16 +6031,11 @@ Topic: Data Quality
 
 What is Data Quality, how does it work, and when would you use it?
 
-Data Quality 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Data Quality：数据质量包含完整性、一致性、及时性与正确性。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6543,16 +6060,11 @@ Topic: Point-in-Time Data
 
 What is Point-in-Time Data, how does it work, and when would you use it?
 
-Point-in-Time Data 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Point-in-Time Data：时点数据只允许使用当时已公开的信息。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6577,16 +6089,11 @@ Topic: Experiment Tracking
 
 What is Experiment Tracking, how does it work, and when would you use it?
 
-Experiment Tracking 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Experiment Tracking：记录数据、代码、参数和指标版本，使实验可以比较和复现。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6611,16 +6118,11 @@ Topic: Failure Recovery
 
 What is Failure Recovery, how does it work, and when would you use it?
 
-Failure Recovery 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Failure Recovery：恢复需识别已完成步骤、持久化状态和可安全重试边界。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6645,16 +6147,11 @@ Topic: Latency Benchmarking
 
 What is Latency Benchmarking, how does it work, and when would you use it?
 
-Latency Benchmarking 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Latency Benchmarking：统一请求、并发、窗口及计时范围测量延迟。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6679,16 +6176,11 @@ Topic: AWS ECS Fargate
 
 What is AWS ECS Fargate, how does it work, and when would you use it?
 
-AWS ECS Fargate 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- AWS ECS Fargate：Fargate运行托管容器任务，需配置资源、网络、角色及健康检查。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6713,16 +6205,11 @@ Topic: ECR
 
 What is ECR, how does it work, and when would you use it?
 
-ECR 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- ECR：ECR存储容器镜像。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6747,16 +6234,11 @@ Topic: CloudWatch
 
 What is CloudWatch, how does it work, and when would you use it?
 
-CloudWatch 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- CloudWatch：CloudWatch收集日志、指标和告警。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6781,16 +6263,11 @@ Topic: GitHub Actions
 
 What is GitHub Actions, how does it work, and when would you use it?
 
-GitHub Actions 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- GitHub Actions：GitHub Actions自动运行验证和发布流程。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6815,16 +6292,11 @@ Topic: OIDC
 
 What is OIDC, how does it work, and when would you use it?
 
-OIDC 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- OIDC：OIDC可用身份令牌换取短期云权限，减少长期密钥。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6849,16 +6321,11 @@ Topic: Clean-Environment Reproduction
 
 What is Clean-Environment Reproduction, how does it work, and when would you use it?
 
-Clean-Environment Reproduction 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Clean-Environment Reproduction：在干净环境按文档安装并运行项目，检验隐含依赖。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6883,16 +6350,11 @@ Topic: README
 
 What is README, how does it work, and when would you use it?
 
-README 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- README：README说明目标、安装、运行、限制和验证方法。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6917,16 +6379,11 @@ Topic: Demo
 
 What is Demo, how does it work, and when would you use it?
 
-Demo 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Demo：演示展示真实输入、结果、依据和失败处理。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6951,16 +6408,11 @@ Topic: Ownership
 
 What is Ownership, how does it work, and when would you use it?
 
-Ownership 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Ownership：拥有项目意味着能解释设计、检查代码、定位故障及承担结果。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -6985,16 +6437,11 @@ Topic: AI-Assisted Code Review
 
 What is AI-Assisted Code Review, how does it work, and when would you use it?
 
-AI-Assisted Code Review 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- AI-Assisted Code Review：检查AI生成代码的需求匹配、权限、异常、复杂度和测试。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -7019,16 +6466,11 @@ Topic: Design Trade-offs
 
 What is Design Trade-offs, how does it work, and when would you use it?
 
-Design Trade-offs 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Design Trade-offs：设计取舍说明需求、候选方案、收益与代价。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -7053,16 +6495,11 @@ Topic: Risk Copilot
 
 What is Risk Copilot, how does it work, and when would you use it?
 
-Risk Copilot 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Risk Copilot：Risk Copilot应把风险分析结论连接到可核验数据和计算，并测量检索与答案质量。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -7087,16 +6524,11 @@ Topic: Financial Statement Analytics Assistant
 
 What is Financial Statement Analytics Assistant, how does it work, and when would you use it?
 
-Financial Statement Analytics Assistant 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Financial Statement Analytics Assistant：财报分析助手重点是口径、单位、期间和受控SQL。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -7121,16 +6553,11 @@ Topic: Investment Research Workbench
 
 What is Investment Research Workbench, how does it work, and when would you use it?
 
-Investment Research Workbench 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Investment Research Workbench：研究工作台组织数据、实验、评估和结果追踪。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -7155,16 +6582,11 @@ Topic: SQL
 
 What is SQL, how does it work, and when would you use it?
 
-SQL 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- SQL：SQL用于查询和聚合结构化数据。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -7189,16 +6611,11 @@ Topic: Queues and Workers
 
 What is Queues and Workers, how does it work, and when would you use it?
 
-Queues and Workers 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Queues and Workers：队列解耦任务提交与执行，worker消费任务。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -7223,16 +6640,11 @@ Topic: Retries
 
 What is Retries, how does it work, and when would you use it?
 
-Retries 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Retries：只对适合重试的暂时故障重试，设置退避和总预算。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -7257,16 +6669,11 @@ Topic: Rollback
 
 What is Rollback, how does it work, and when would you use it?
 
-Rollback 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Rollback：回滚应同步恢复模型、预处理及兼容输入接口，明确触发条件和可恢复版本。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -7291,16 +6698,11 @@ Topic: Prediction Intervals
 
 What is Prediction Intervals, how does it work, and when would you use it?
 
-Prediction Intervals 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Prediction Intervals：预测区间描述未来观测可能范围，区别于参数或均值的置信区间。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -7325,16 +6727,11 @@ Topic: Reproducibility
 
 What is Reproducibility, how does it work, and when would you use it?
 
-Reproducibility 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Reproducibility：可复现需要记录代码、数据、依赖、随机性和配置。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -7359,16 +6756,11 @@ Topic: Model Versioning
 
 What is Model Versioning, how does it work, and when would you use it?
 
-Model Versioning 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Model Versioning：模型版本需关联训练数据、预处理、特征顺序、配置和代码。
 - Evaluation：用预先定义的案例和指标检验系统效果。
 - Constraint：数据、权限、成本或延迟方面的限制。
-
-### 直观例子
-
-把本页主题放回Risk Copilot：确定它影响输入、检索、工具、生成还是上线运行，并选择一个可观察的失败案例检验理解。
 
 ### Short Answer
 
@@ -7393,17 +6785,12 @@ Topic: Supervised and Unsupervised Learning
 
 What is Supervised and Unsupervised Learning, how does it work, and when would you use it?
 
-Supervised and Unsupervised Learning 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Supervised and Unsupervised Learning：监督学习用输入和已知目标学习预测关系；非监督学习在没有目标标签时寻找结构。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7428,21 +6815,68 @@ Topic: Data Leakage
 
 What is Data Leakage, how does it work, and when would you use it?
 
-Data Leakage 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Data Leakage：泄漏是训练或选择模型时用了预测时不应知道的信息。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
 
-### 直观例子
+### 讲义
 
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
+#### Data Leakage 数据泄漏
+
+数据泄漏是训练或挑选模型时，用到了预测那一刻拿不到的信息。结果是离线分数很好看，上线后变差。常分为 2 大类，细分的话常见 5 种。
+
+##### 两大类
+
+| 大类 | 英文 | 意思 |
+| --- | --- | --- |
+| 目标泄漏 | Target leakage | 特征里包含了预测时拿不到的、和答案直接相关的信息 |
+| 训练-测试污染 | Train-test contamination | 测试数据的信息通过某种途径影响了训练过程 |
+
+##### 常见的 5 种细分
+
+1. 预处理泄漏（属于训练-测试污染）：标准化、填缺失值、编码等步骤用了全部数据来拟合
+   - 例：用训练集 + 测试集一起算平均值
+   - 解决：用 Pipeline，只在训练部分拟合
+2. 目标泄漏（Target leakage）：特征本身包含答案或答案的衍生信息
+   - 例：预测用户是否会退款，特征里有“退款处理时长”
+   - 例：预测明天股价，特征里有明天的价格
+   - 解决：逐个检查特征，预测时刻真能拿到吗
+3. 时间泄漏（Temporal leakage）：用未来的数据预测过去，或者随机切分时间序列数据
+   - 例：用 12 月的数据训练，去预测 11 月
+   - 例：财报的报告期是 3 月 31 日，但 5 月才公布，按报告期对齐就提前用了它
+   - 例：预测未来 5 日波动率，训练集最后几天的标签要用到测试期的收益
+   - 解决：按时间切分，用 TimeSeriesSplit，标签跨几天就留几天空隙（`gap=5`）；特征按实际公布时间对齐
+4. 重复 / 分组泄漏（Duplicate / group leakage）：同一个人、同一张图、同一批次的数据，同时出现在训练集和测试集
+   - 例：同一个病人的多条记录，一部分在训练集，一部分在测试集，模型学会认人而不是学规律
+   - 解决：按分组切分，用 GroupKFold
+5. 选择过程泄漏（Selection leakage）：特征选择、调参、模型挑选时用到了测试集
+   - 例：先用全部数据筛选“和标签相关性最高的特征”，再切分训练/测试
+   - 例：反复根据测试集分数调参，等于间接拟合了测试集
+   - 解决：特征选择放进 Pipeline，调参只用验证集，测试集最后只用一次
+
+##### 总结对照
+
+| 泄漏类型 | 一句话 | 怎么防 |
+| --- | --- | --- |
+| 预处理泄漏 | 偷看测试集算统计量 | Pipeline |
+| 目标泄漏 | 把答案当输入 | 检查每个特征的可得性 |
+| 时间泄漏 | 用未来预测过去 | 按时间切分，留空隙 |
+| 分组泄漏 | 同一对象跨训练/测试 | GroupKFold |
+| 选择泄漏 | 用测试集挑特征或调参 | 测试集只用一次 |
+
+##### 怎么发现可能有泄漏
+
+- 分数好得不真实，例如波动率预测的误差远低于所有基线
+- 某一个特征的重要性远高于其他特征：去查它是怎么算出来的、什么时候能拿到
+- 离线分数好，上线或换一段新的时间后明显变差
+- 删掉一个可疑特征后分数大幅下降：说明分数主要靠它，要确认它在预测时真的可得
 
 ### Short Answer
 
-Leakage lets training use information that would be unavailable at prediction time. Fit preprocessing on training data only and check feature publication times.
+Data leakage is when information that wouldn't be available at prediction time gets into training or model selection, so offline scores look better than what you'll see in production. There are two broad types: target leakage, where a feature contains the answer or something derived from it, and train-test contamination, where test data influences training - for example fitting a scaler on the full dataset, letting the same customer appear in both train and test, or tuning on the test set. To prevent it, I split first, fit all preprocessing inside a pipeline on the training folds only, check that every feature is available at prediction time, split by time or by group when the data needs it, and use the test set only once at the end.
 
 ### 中文回答
 
@@ -7463,17 +6897,12 @@ Topic: Bias-Variance
 
 What is Bias-Variance, how does it work, and when would you use it?
 
-Bias-Variance 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Bias-Variance：偏差表示方法的系统性近似误差，方差表示模型对训练样本变化的敏感度。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7498,17 +6927,12 @@ Topic: Overfitting
 
 What is Overfitting, how does it work, and when would you use it?
 
-Overfitting 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Overfitting：过拟合是把训练数据的噪声也学进去，训练表现好但新数据差。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7533,17 +6957,12 @@ Topic: Regularization
 
 What is regularization, and how do Ridge and Lasso differ?
 
-什么是正则化？Ridge和Lasso有什么区别？
-
 ### Key Terms
 
+- Regularization：正则化在拟合损失之外增加约束或惩罚，抑制过于灵活的模型。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7568,21 +6987,68 @@ Topic: Scaling
 
 What is Scaling, how does it work, and when would you use it?
 
-Scaling 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Scaling：缩放调整特征尺度，例如标准化减去训练均值并除以训练标准差。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
 
-### 直观例子
+### 讲义
 
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
+#### Scaling 特征缩放
+
+特征缩放把不同量纲的数值特征变到可比较的范围。比如过去 20 日波动率大约是 0.2，日成交量大约是 1,000,000；不缩放的话，很多模型会被数值大的特征主导。
+
+##### 哪些模型需要，哪些不需要
+
+| 模型 | 要不要缩放 | 原因 |
+| --- | --- | --- |
+| k-NN、K-means、SVM | 需要 | 靠距离计算，数值大的特征主导距离 |
+| Ridge、Lasso、带正则的逻辑回归 | 需要 | 惩罚按系数大小算，尺度不同惩罚就不公平 |
+| PCA | 需要 | 方差大的特征会主导主成分 |
+| 神经网络等用梯度下降训练的模型 | 需要 | 尺度相近收敛更快、更稳 |
+| 普通线性回归（OLS） | 预测不变 | 但系数大小会变，比较系数前要缩放 |
+| 决策树、随机森林、梯度提升 | 不需要 | 按阈值切分，单调变换不改变切分结果 |
+
+##### 常见的 4 种方法
+
+| 方法 | 怎么算（参数都来自训练集） | 什么时候用 |
+| --- | --- | --- |
+| StandardScaler | (x − 均值) / 标准差 | 默认选择 |
+| MinMaxScaler | (x − 最小值) / (最大值 − 最小值)，压到 [0, 1] | 需要固定范围的输入；对异常值敏感 |
+| RobustScaler | (x − 中位数) / 四分位距（IQR） | 有异常值，例如金融收益的厚尾 |
+| 对数变换 | log(1 + x) | 右偏的正数特征，例如成交量、市值；常和上面的方法一起用 |
+
+注意 Normalizer 是把每一行缩放到长度 1，不是按列缩放，面试里容易混。
+
+##### 关键规则：只在训练集上 fit
+
+1. 在训练集上 fit：算出均值和标准差（或者最小值、最大值等）
+2. 用同一组参数 transform 训练集、验证集、测试集和线上数据
+3. 把 fit 好的 scaler 和模型一起保存，线上不重新 fit
+
+例：训练集里 20 日波动率的均值是 0.20，标准差是 0.05。测试集里一个 0.30 的值变成 (0.30 − 0.20) / 0.05 = 2.0。测试集不能用自己的均值重新算，否则同一个 0.30 在训练集和测试集里会变成不同的数。
+
+```python
+scaler = StandardScaler().fit(X_train)   # 只用训练集算均值和标准差
+X_train_s = scaler.transform(X_train)
+X_test_s = scaler.transform(X_test)      # 用训练集的参数，不重新 fit
+```
+
+实际项目里不手写这三行，而是把 scaler 放进 Pipeline（见下面 scikit-learn Pipelines）。
+
+##### 常见错误
+
+- 在全部数据上 fit 再切分：预处理泄漏，测试集的均值和标准差进了训练
+- 测试集单独 fit：训练和测试用了两套标准，同一个原始值变成不同的数
+- 时间序列用全期的均值和标准差：等于用了未来的数据。需要滚动标准化时，只用当时之前的窗口
+- 把 one-hot 这类 0/1 特征也一起标准化：一般不需要，用 ColumnTransformer 只对数值列缩放
+- 对目标 y 缩放后忘记变换回去：报告的误差单位就错了
 
 ### Short Answer
 
-Scaling puts numerical features on comparable scales. Fit the scaler only on training data and apply the same transformation at prediction time.
+Scaling puts numeric features on comparable ranges. It matters for models that use distances or penalize coefficient size, such as k-NN, SVMs, PCA and Ridge or Lasso, and it helps gradient-based training converge; tree-based models generally don't need it. StandardScaler subtracts the mean and divides by the standard deviation, MinMaxScaler maps each feature to a fixed range, and RobustScaler uses the median and interquartile range when there are outliers. The key rule is to fit the scaler on training data only and reuse the same fitted parameters on validation, test and production data.
 
 ### 中文回答
 
@@ -7603,17 +7069,12 @@ Topic: Linear Regression
 
 What does linear regression learn, and what does it predict?
 
-线性回归学习什么参数，又预测什么结果？
-
 ### Key Terms
 
+- Linear Regression：线性回归用特征的加权和加截距预测连续数值，训练时学习这些权重。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7638,17 +7099,12 @@ Topic: Logistic Regression
 
 What does logistic regression predict, and how does a threshold create a class label?
 
-逻辑回归预测什么？怎样用阈值得到类别？
-
 ### Key Terms
 
+- Logistic Regression：逻辑回归虽然名字含 regression，通常用于分类。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7673,17 +7129,12 @@ Topic: Decision Trees
 
 What is Decision Trees, how does it work, and when would you use it?
 
-Decision Trees 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Decision Trees：决策树按特征条件逐步切分空间，叶节点输出数值或类别。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7708,17 +7159,12 @@ Topic: Random Forests
 
 What is Random Forests, how does it work, and when would you use it?
 
-Random Forests 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Random Forests：随机森林把多个经过样本和特征随机化的树进行平均或投票，主要减少方差。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7743,17 +7189,12 @@ Topic: Gradient Boosting
 
 What is Gradient Boosting, how does it work, and when would you use it?
 
-Gradient Boosting 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Gradient Boosting：梯度提升依次加入模型以改进当前损失，常用浅树拟合负梯度信号。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7778,21 +7219,86 @@ Topic: scikit-learn Pipelines
 
 What is scikit-learn Pipelines, how does it work, and when would you use it?
 
-scikit-learn Pipelines 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- scikit-learn Pipelines：Pipeline 将预处理和模型串成统一对象，让交叉验证每个训练折分别拟合变换。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
 
-### 直观例子
+### 讲义
 
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
+#### scikit-learn Pipelines 流水线
+
+Pipeline 把多个步骤（预处理 → 模型）串成一个对象。这个对象用起来和一个模型一样，有 fit、predict、score。
+
+##### 怎么工作
+
+- fit(X, y)：前面每一步依次 fit_transform，把结果传给下一步；最后一步（模型）fit
+- predict(X)：前面每一步只 transform，用的是训练时 fit 出来的参数，不重新 fit；最后一步 predict
+- 放进 cross_val_score 或 GridSearchCV 时：每个训练折都重新 fit 整条 Pipeline，验证折只做 transform 和 predict
+
+##### 为什么用
+
+1. 防预处理泄漏：交叉验证时，缩放、填缺失值、特征选择都只在当前训练折里拟合
+2. 训练和线上一致：保存一个 Pipeline 对象，线上调用同一个 predict，不会漏掉或改错某一步
+3. 预处理和模型一起调参：参数名写成`步骤名__参数名`，例如`ridge__alpha`
+4. 代码短，不用在每个折里手动重复预处理
+
+##### 例子：错误写法和正确写法
+
+```python
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import GridSearchCV, TimeSeriesSplit
+
+# 错：用全部数据算均值和标准差，再切分
+X_scaled = StandardScaler().fit_transform(X)
+X_train, X_test = X_scaled[:800], X_scaled[800:]
+
+# 对：先按时间切分，scaler 放进 Pipeline
+X_train, X_test, y_train, y_test = X[:800], X[800:], y[:800], y[800:]
+pipe = make_pipeline(StandardScaler(), Ridge())   # 步骤名自动是 standardscaler、ridge
+search = GridSearchCV(pipe, {"ridge__alpha": [0.1, 1, 10]}, cv=TimeSeriesSplit(n_splits=5))
+search.fit(X_train, y_train)    # 每个训练折里重新 fit scaler
+search.score(X_test, y_test)    # 测试集最后只用一次
+```
+
+数值列和类别列要分别处理时，用 ColumnTransformer，再放进 Pipeline：
+
+```python
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.linear_model import Ridge
+
+pre = ColumnTransformer([
+    ("num", StandardScaler(), ["vol_20d", "volume"]),
+    ("cat", OneHotEncoder(handle_unknown="ignore"), ["sector"]),
+])
+pipe = Pipeline([("pre", pre), ("model", Ridge())])   # 调参时写 model__alpha
+pipe.fit(train_df, y_train)
+```
+
+##### Pipeline 防不了什么
+
+| 问题 | 为什么防不了 | 怎么办 |
+| --- | --- | --- |
+| 目标泄漏 | 特征本身就含答案，Pipeline 只管拟合在哪些数据上做 | 逐个检查特征在预测时能不能拿到 |
+| 时间泄漏 | 怎么切分由 cv 决定，不由 Pipeline 决定 | 时间序列用 TimeSeriesSplit |
+| 分组泄漏 | 同一对象跨训练和测试，也是切分的问题 | 用 GroupKFold |
+| 反复看测试集调参 | 测试集是你自己在用 | 调参只用交叉验证，测试集只用一次 |
+
+##### 常见错误
+
+- 在 Pipeline 外面先做特征选择（例如 SelectKBest），再交叉验证：选择过程泄漏，应该把它放进 Pipeline
+- 时间序列用默认的 KFold：它会用后面的折训练、预测前面的折，等于用未来预测过去
+- 只保存模型，不保存整条 Pipeline：线上的预处理和训练时不一致
 
 ### Short Answer
 
-A pipeline chains preprocessing and prediction. During cross-validation it fits preprocessing inside each training fold, but cannot fix future-looking features.
+A scikit-learn Pipeline chains preprocessing steps and a final model into one estimator. When you call fit, each step is fit on the training data and transforms it for the next step; predict only applies the already-fitted transforms. So inside cross-validation or a grid search, preprocessing is refit on each training fold, which prevents preprocessing leakage, and you can tune preprocessing and model parameters together using the step name, two underscores and the parameter name, like ridge__alpha. It also gives you one object to save, so training and serving apply the same transformations. It doesn't fix features that already contain future information, and you still need the right splitter, such as TimeSeriesSplit or GroupKFold.
 
 ### 中文回答
 
@@ -7813,17 +7319,12 @@ Topic: Cross-Validation
 
 What is Cross-Validation, how does it work, and when would you use it?
 
-Cross-Validation 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Cross-Validation：交叉验证用多个合适的训练／验证折比较方法与波动。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7848,17 +7349,12 @@ Topic: Hyperparameter Tuning
 
 What is Hyperparameter Tuning, how does it work, and when would you use it?
 
-Hyperparameter Tuning 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Hyperparameter Tuning：超参数是训练前指定的配置，如 Ridge 强度、树深度。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7883,17 +7379,12 @@ Topic: Feature Engineering
 
 What is Feature Engineering, how does it work, and when would you use it?
 
-Feature Engineering 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Feature Engineering：特征工程把原始信息转为模型输入，如历史收益和过去波动率。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7918,17 +7409,12 @@ Topic: Class Imbalance
 
 What is Class Imbalance, how does it work, and when would you use it?
 
-Class Imbalance 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Class Imbalance：类别不平衡时准确率可能误导。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7953,17 +7439,12 @@ Topic: MAE
 
 What is MAE, how does it work, and when would you use it?
 
-MAE 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- MAE：MAE 是预测误差绝对值的平均，单位与目标相同。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -7988,17 +7469,12 @@ Topic: RMSE
 
 What is RMSE, how does it work, and when would you use it?
 
-RMSE 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- RMSE：RMSE 是平方误差均值的平方根，单位与目标相同。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8023,17 +7499,12 @@ Topic: Precision
 
 What is Precision, how does it work, and when would you use it?
 
-Precision 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Precision：Precision 是判为正类的样本中真正为正类的比例，TP/(TP+FP)。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8058,17 +7529,12 @@ Topic: Recall
 
 What is Recall, how does it work, and when would you use it?
 
-Recall 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Recall：分类 Recall 是所有真正正类中被找到的比例，TP/(TP+FN)。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8093,17 +7559,12 @@ Topic: F1
 
 What is F1, how does it work, and when would you use it?
 
-F1 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- F1：F1 是 precision 和 recall 的调和平均，2PR/(P+R)。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8128,17 +7589,12 @@ Topic: PR-AUC
 
 What is PR-AUC, how does it work, and when would you use it?
 
-PR-AUC 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- PR-AUC：精确率召回曲线比较不同阈值下的误报与覆盖取舍，受正类比例影响。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8163,17 +7619,12 @@ Topic: ROC-AUC
 
 What is ROC-AUC, how does it work, and when would you use it?
 
-ROC-AUC 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- ROC-AUC：ROC-AUC 衡量正类相对负类的排序表现，基于 TPR 和 FPR。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8198,17 +7649,12 @@ Topic: Calibration
 
 What is Calibration, how does it work, and when would you use it?
 
-Calibration 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Calibration：校准检查预测概率是否与实际频率一致，例如预测 0.7 的样本是否约 70% 为正类。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8233,17 +7679,12 @@ Topic: Interpretability
 
 What is Interpretability, how does it work, and when would you use it?
 
-Interpretability 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Interpretability：可解释性帮助理解模型如何关联输入与输出。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8268,17 +7709,12 @@ Topic: Feature Importance
 
 What is Feature Importance, how does it work, and when would you use it?
 
-Feature Importance 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Feature Importance：特征重要性依赖模型、数据和指标。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8303,17 +7739,12 @@ Topic: Time-Series Splits
 
 What is Time-Series Splits, how does it work, and when would you use it?
 
-Time-Series Splits 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Time-Series Splits：时间序列划分用较早数据训练，较晚数据验证或测试。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8338,17 +7769,12 @@ Topic: Walk-Forward Validation
 
 What is Walk-Forward Validation, how does it work, and when would you use it?
 
-Walk-Forward Validation 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Walk-Forward Validation：滚动向前验证模拟多个历史预测时点，每次只用当时已可知的数据。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8373,17 +7799,12 @@ Topic: Temporal Leakage
 
 What is Temporal Leakage, how does it work, and when would you use it?
 
-Temporal Leakage 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Temporal Leakage：时间泄漏是使用预测时尚未知的未来信息，包括未公布报表、未来收益和未结束标签。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8408,17 +7829,12 @@ Topic: Forecast Horizons
 
 What is Forecast Horizons, how does it work, and when would you use it?
 
-Forecast Horizons 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Forecast Horizons：预测期限定义目标覆盖哪段未来，如未来五日波动率。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8443,17 +7859,12 @@ Topic: Regime Changes
 
 What is Regime Changes, how does it work, and when would you use it?
 
-Regime Changes 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Regime Changes：市场状态变化可能改变特征和目标关系，平均误差会掩盖局部失效。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8478,17 +7889,12 @@ Topic: Volatility Forecasting
 
 What is Volatility Forecasting, how does it work, and when would you use it?
 
-Volatility Forecasting 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Volatility Forecasting：先定义波动率目标和时点，再与过去波动率基线比较。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8513,17 +7919,12 @@ Topic: Out-of-Sample Evaluation
 
 What is Out-of-Sample Evaluation, how does it work, and when would you use it?
 
-Out-of-Sample Evaluation 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Out-of-Sample Evaluation：样本外评估用未参与拟合的案例评价泛化；最终测试还不能参与模型选择。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8548,17 +7949,12 @@ Topic: Statistical Uncertainty
 
 What is Statistical Uncertainty, how does it work, and when would you use it?
 
-Statistical Uncertainty 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Statistical Uncertainty：有限样本指标有不确定性，金融序列和重叠标签往往相关。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8583,17 +7979,12 @@ Topic: Drift
 
 What is Drift, how does it work, and when would you use it?
 
-Drift 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Drift：输入漂移是特征分布变化，性能漂移需真实结果才能确认。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 
@@ -8618,17 +8009,12 @@ Topic: Retraining
 
 What is Retraining, how does it work, and when would you use it?
 
-Retraining 是什么、如何工作、适用于什么情况？
-
 ### Key Terms
 
+- Retraining：重训练需有数据质量、标签可用性和性能证据，并按同一验证协议比较候选模型。
 - Feature：模型的输入变量，例如过去已观测的波动率。
 - Target：希望预测的结果，例如未来一段时间的波动率。
 - Generalization：模型在没有参与训练的数据上的表现。
-
-### 直观例子
-
-以预测未来波动率为贯穿例子：输入只能包含预测时已经知道的数据，输出是未来波动率。学习本页后，判断它描述的是模型、预处理、评价指标还是验证过程；这些环节不是同一种东西。
 
 ### Short Answer
 

@@ -14,7 +14,9 @@
 
 - 浏览 wiki - `python serve_wiki.py`,然后打开 http://127.0.0.1:8000
 - 打开学习计划页面(勾选能保存) - 双击 `start-server.bat`,或者在 VS Code 里打开这个文件夹让它自动启动,然后打开 http://127.0.0.1:5510/Reports/AI_ENGINEER_TRANSITION_PLAN.html
-- 把进度同步到另一台设备 - 这台点"推送到 GitHub";另一台设备运行 `start-server.bat`,打开页面点"从 GitHub 拉取"。建议开始学习时先点一次"从 GitHub 拉取",结束时点一次"推送到 GitHub"
+- 用 Chrome 书签直接打开时间表(重启电脑后也能用,不开机自启) - 每台电脑先双击一次 `open-study-plan.bat`,然后把书签网址设成 `studyplan://plan`(另有 `studyplan://guide`、`studyplan://leetcode`)。点书签时 Chrome 会问是否打开,点"打开";服务器没在运行就自动在后台启动,再打开页面。移动仓库位置后再双击一次;`open-study-plan.bat remove` 取消
+- 写每天的学习笔记 - 时间表里每天标题下有两个链接:"✎ 学习记录"是写的地方,每一项下面的框里写,自动保存,点"生成今日学习笔记"写进 `Study notes/` 里当天的 `.md`;"📖 今日学习笔记"显示生成好的笔记。见 [Study notes/README.md](Study%20notes/README.md)
+- 把进度和学习笔记同步到另一台设备 - 这台点"推送到 GitHub";另一台设备运行 `start-server.bat`,打开页面点"从 GitHub 拉取"。建议开始学习时先点一次"从 GitHub 拉取",结束时点一次"推送到 GitHub"
 - 每日学习 - 直接打开 `AI_ENGINEER_DAILY_LEARNING_GUIDE.html`,不需要命令
 - 记录碎片时间看到的面试题 - 在 `micro-learning/questions.md` 里加一行 `- [ ] 题目`,答案每天自动生成到 `micro-learning/answers/`
 - 跑 ML 实验 - 先建环境(见下),再在 VS Code 打开 `notebook/*.ipynb`
@@ -46,11 +48,12 @@
 - `AI_ENGINEER_DAILY_LEARNING_GUIDE` - 学习指南,总览和入口,只有 6 节:每日入口(按周分组,每周一行,点开日期跳到每日时间表里当天的位置)、题库一览(一张表,每个题库一行:LeetCode、SQL、QuantVault、面试原题等各几道题)、使用方法、项目、Topic 总览、计划说明。想知道今天做什么,先开这份找到当天,点进去
 - `AI_ENGINEER_TRANSITION_PLAN` - 每日时间表,纯每日内容(约 19,500 行,是最大的一份)。每一天是一张 7 行的表(没有午休行):08:30–10:30 刷题(每道题一行)、10:30–12:30 Online Course、13:30 ML 加 QuantVault、14:15 设计、15:00 项目、16:30 面试题、17:30 复盘。13:30 那一行分成三行:ML 讲义(含先修阅读)、Notebook、QuantVault 题目,各标着分钟数,每道题带勾选框。表格下面是"今日申请工作"(当天申请的岗位数量,下面是岗位名称、公司、Eval 链接和 Local JD 链接,数据由本地服务器实时读自你的 career-ops 仓库,不会写进这个仓库)、学习提示、当天 20 道左右面试原题,每题附英文 Interview Answer、Explanation 和 Follow-up。HTML 版先展开口述稿,再按需展开详解和参考代码
   - 勾选框 - 每道刷题、ML 讲义、Notebook、设计、项目、面试题、复盘后面都有一个勾选框,做完点一下。网课那一行有输入框,可以写课程名。Notebook 后面写着它在仓库里的路径
-  - 进度保存 - 在本地服务器上打开页面时,勾选会写进 `study-progress.json`(进度的唯一来源),同时把时间表 Markdown 里对应的 ☐ 改成 ☑。页面顶部有两个按钮,点了才会动 GitHub,打勾本身不会:"从 GitHub 拉取"只拉取别的设备的进度,不推送;"推送到 GitHub"先拉取再推送。两个按钮都只处理 `study-progress.json` 和时间表 Markdown 这两个文件。只有 HTML 版有勾选框,方向是 HTML 到 Markdown,直接改 Markdown 里的 ☐ 不会反过来更新进度
+  - 进度保存 - 在本地服务器上打开页面时,勾选会写进 `study-progress.json`(进度的唯一来源),同时把时间表 Markdown 里对应的 ☐ 改成 ☑。页面顶部有两个按钮,点了才会动 GitHub,打勾本身不会:"从 GitHub 拉取"只拉取别的设备的进度,不推送;"推送到 GitHub"先拉取再推送。两个按钮只处理 `study-progress.json`、时间表 Markdown 和 `Study notes/` 里的笔记(`drafts.json` 和生成的 `.md`)。只有 HTML 版有勾选框,方向是 HTML 到 Markdown,直接改 Markdown 里的 ☐ 不会反过来更新进度
   - 一定要用 `http://127.0.0.1:5510/...` 打开,不要用 5500:5500 是 VS Code 的 Live Server,只能显示页面,不能保存。没连上服务器时,勾选只存在这个浏览器里
 - `AI_ENGINEER_PROJECT_ROADMAP` - 三项目实践路线,每天 15:00-16:30 的项目时段:Day 01-20 Risk Copilot(30 小时),Day 21-30 Financial Statement Analytics Assistant(15 小时),Day 31-38 Investment Research Workbench(12 小时),Day 39-40 复现与收尾。这是未来的计划,不是项目已完成的报告
 - `AI_ENGINEER_QUANTVAULT_PLAN` - QuantVault 题目排期。只含 Regression 和 Machine Learning 两类,实时目录共 264 题,其中 47 道核心题分配到 45 个学习日,其余作扩展。和讲义、notebook 共用每天 13:30-14:15 的 45 分钟
 - `AI_ENGINEER_TOP150_SCHEDULE` - LeetCode Top Interview 150 的完整排期(`Reports/` 里,只有 `.md`)。列出 150 题分在哪一天、每个专题的进度,以及计划里不在 Top 150 的 21 道题。详见下面的"刷题安排"
+- `AI_ENGINEER_TOP150_RECORD` - 刷题记录(`Reports/` 里,只有 `.html`,每个页面顶部导航"项目路线"后面都有链接)。上面有 LeetCode 和 QuantVault 两个选项卡:LeetCode Top Interview 150 按 LeetCode 的 23 个专题分列,QuantVault 排进计划的 47 题按 ML 讲义分列,都显示已刷多少、还剩多少;在时间表里勾过一次(当天、复习日或重复排的那天)的题变绿色带 ✓。连着本地服务器时读最新的勾选,切回页面会自动刷新
 - `AI_ENGINEER_BILINGUAL_LESSONS` - 全部讲义的 Markdown 合集(约 8,600 行)。每个主题按 背景、Question、Key Terms、直观例子、英文 Short Answer、中文回答 的顺序写。适合通读或复习,不用一页页点 HTML
 
 每天的时间块是固定的:

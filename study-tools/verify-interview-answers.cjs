@@ -39,6 +39,10 @@ for(const a of answers.values()){
     })));
     for(const row of rendered){const a=answers.get(row.id);assert.equal(row.answer,a.answer);assert.equal(row.explanation,a.explanation);assert.deepStrictEqual(row.questions,a.followups.map(f=>f.question));assert.deepStrictEqual(row.followups,a.followups.map(f=>f.answer));assert.equal(row.code,a.code);}
     const first=page.locator('#answer-Q001');
+    assert.equal(await page.locator('details.day-iq').count(),45);
+    assert.equal(await page.locator('details.day-iq[open]').count(),0);
+    assert(!await first.isVisible());
+    await page.locator('details.day-iq').first().locator(':scope > summary').click();
     await first.locator(':scope > summary').click();
     assert(await first.getAttribute('open')!==null);
     assert(await first.locator('.spoken-answer').isVisible());

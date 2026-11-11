@@ -28,7 +28,7 @@ for(const r of manifest.records.filter(r=>r.notebook&&!r.parent)){
  const nb=JSON.parse(fs.readFileSync(file,'utf8'));
  nb.cells=nb.cells.filter(c=>!c.metadata?.bilingual_intro);
  const q=r.name==='Train / Validation / Test Split'?'What roles do training, validation and test sets play?':`What is ${r.name}, and how would you evaluate it?`;
- const source=`## Topic\n\n${r.name}\n\n先读[Machine Learning Foundations](../Study%20topics/ml-foundations-start-here.html)，再读对应[双语讲义](../Study%20topics/${r.id}.html)。\n\n## Question\n\n${q}\n\n本实验中的模型或评估方法是什么？它解决什么问题，又怎样检验效果？\n\n讲义提供Key Terms、直观例子、英文Short Answer及紧接其后的中文回答。先理解问题，再运行下面的代码。\n`;
+ const source=`## Topic\n\n${r.name}\n\n先读[Machine Learning Foundations](../Study%20topics/ml-foundations-start-here.html)，再读对应[双语讲义](../Study%20topics/${r.id}.html)。\n\n## Question\n\n${q}\n\n本实验中的模型或评估方法是什么？它解决什么问题，又怎样检验效果？\n\n讲义提供Key Terms、英文Short Answer及紧接其后的中文回答。先理解问题，再运行下面的代码。\n`;
  nb.cells.unshift({cell_type:'markdown',metadata:{bilingual_intro:true},source:source.split(/(?<=\n)/)});
  fs.writeFileSync(file,JSON.stringify(nb,null,2)+'\n');
 }
