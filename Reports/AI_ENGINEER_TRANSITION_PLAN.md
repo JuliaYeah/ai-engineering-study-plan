@@ -8,12 +8,23 @@
 
 ### 周一 11/9
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-01) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-01)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Hash Maps: Counting, Frequency, Duplicate Detection
+- Machine Learning：[Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html) · 先修：[Machine Learning Foundations](../Study%20topics/ml-foundations-start-here.html)
+- System Design：[Requirements and API Design](../Study%20topics/requirements-and-api-design.html)
+- Project：[Risk Copilot: Baseline and Issue Audit](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-01)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Hash Maps: Counting, Frequency, Duplicate Detection 资料：[Hash Maps](../Study%20topics/hash-maps.html)<br>[1. Two Sum](https://leetcode.com/problems/two-sum/) · Easy ☐<br>[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) · Easy ☐<br>[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) · Easy ☐<br>[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) · Hashmap · Medium ☐<br>[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) · Hashmap · Medium ☐<br>[202. Happy Number](https://leetcode.com/problems/happy-number/) · Hashmap · Easy ☐<br>[205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) · Hashmap · Easy ☐ |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Hash Maps: Counting, Frequency, Duplicate Detection 资料：[Hash Maps](../Study%20topics/hash-maps.html)<br>[1. Two Sum](https://leetcode.com/problems/two-sum/) · Easy ☑<br>[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) · Easy ☑<br>[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) · Easy ☑<br>[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) · Hashmap · Medium ☑<br>[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) · Hashmap · Medium ☑<br>[202. Happy Number](https://leetcode.com/problems/happy-number/) · Hashmap · Easy ☑<br>[205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) · Hashmap · Easy ☑ |
 | 10:30–12:30 | 网课，2 小时 | Online Course [____] |
 | 13:30–14:15 | ML + QuantVault，45 分钟 | [Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html) + 先修：[Machine Learning Foundations](../Study%20topics/ml-foundations-start-here.html) · 20 mins ☐<br>[Notebook](../notebook/01_train_validation_test_split.ipynb) `notebook/01_train_validation_test_split.ipynb` · 15 mins ☐<br>QuantVault Practice · 10 mins：[#1962 · Explaining Machine Learning to a Non-Technical Audience](https://quantvault.org/problems.html?id=1962) · Machine Learning · Easy ☐<br>本次范围：Conceptual。用自己的金融工作解释Feature、Target、Training和Prediction；先不背模型名。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Requirements and API Design](../Study%20topics/requirements-and-api-design.html) ☐ |
+| 14:15–15:00 | General & AI System Design，45 分钟 | [Requirements and API Design](../Study%20topics/requirements-and-api-design.html) ☑ |
 | 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Baseline and Issue Audit ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-01) |
 | 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / LLM Fundamentals — 20 items ☐ |
 | 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Tokenization](../Study%20topics/tokenization.html); [Next-Token Prediction](../Study%20topics/next-token-prediction.html); [Context Windows](../Study%20topics/context-windows.html); [Temperature](../Study%20topics/temperature.html); [Top-p](../Study%20topics/top-p.html); [Transformer and Attention Fundamentals](../Study%20topics/transformer-and-attention-fundamentals.html); [LLM Limitations](../Study%20topics/llm-limitations.html); [Risk Copilot](../Study%20topics/risk-copilot.html) |
@@ -557,9 +568,20 @@ Follow-up
 
 ### 周二 11/10
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-02) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-02)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: SELECT, WHERE, ORDER BY, LIMIT, NULL
+- Machine Learning：[Supervised and Unsupervised Learning; Baselines](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) · 先修：[Linear Regression](../Study%20topics/linear-regression.html)
+- System Design：[Requirements and API Design](../Study%20topics/requirements-and-api-design.html)
+- Project：[Risk Copilot: Risk Numerical Correctness: Missing Data and Factors](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-02)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: SELECT, WHERE, ORDER BY, LIMIT, NULL 资料：[SELECT](../Study%20topics/select.html); [WHERE](../Study%20topics/where.html); [ORDER BY](../Study%20topics/order-by.html); [LIMIT](../Study%20topics/limit.html); [NULL](../Study%20topics/null.html)<br>[1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) · SQL ☐<br>[584. Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) · SQL ☐<br>[595. Big Countries](https://leetcode.com/problems/big-countries/) · SQL（有时间再做） ☐<br>[219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) · Hashmap · Easy ☐<br>[290. Word Pattern](https://leetcode.com/problems/word-pattern/) · Hashmap · Easy ☐<br>[383. Ransom Note](https://leetcode.com/problems/ransom-note/) · Hashmap · Easy ☐ |
+| 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: SELECT, WHERE, ORDER BY, LIMIT, NULL 资料：[SELECT](../Study%20topics/select.html); [WHERE](../Study%20topics/where.html); [ORDER BY](../Study%20topics/order-by.html); [LIMIT](../Study%20topics/limit.html); [NULL](../Study%20topics/null.html)<br>[1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) · SQL ☐<br>[584. Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) · SQL ☐<br>[595. Big Countries](https://leetcode.com/problems/big-countries/) · SQL（有时间再做） ☐<br>[219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) · Hashmap · Easy ☑<br>[290. Word Pattern](https://leetcode.com/problems/word-pattern/) · Hashmap · Easy ☑<br>[383. Ransom Note](https://leetcode.com/problems/ransom-note/) · Hashmap · Easy ☑ |
 | 10:30–12:30 | 网课，2 小时 | Online Course [____] |
 | 13:30–14:15 | ML + QuantVault，45 分钟 | [Supervised and Unsupervised Learning; Baselines](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) + 先修：入门页的[Linear Regression](../Study%20topics/linear-regression.html)公式；两题各用约5分钟 · 20 mins ☐<br>[Notebook](../notebook/02_supervised_and_unsupervised_learning_baselines.ipynb) `notebook/02_supervised_and_unsupervised_learning_baselines.ipynb` · 15 mins ☐<br>QuantVault Practice · 10 mins：[#1432 · Linear Regression: Model, Estimation, and When to Use It](https://quantvault.org/problems.html?id=1432) · Regression · Medium ☐<br>[#1966 · Framework for Open-Ended Modeling Strategy](https://quantvault.org/problems.html?id=1966) · Machine Learning · Easy ☐<br>本次范围：Conceptual。先解释线性函数的输入、系数和数值输出，再用目标→数据→基线→验证组织建模思路。 |
 | 14:15–15:00 | General & AI System Design，45 分钟 | [Requirements and API Design](../Study%20topics/requirements-and-api-design.html) ☐ |
@@ -1092,9 +1114,20 @@ Follow-up
 
 ### 周三 11/11
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-03) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-03)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Arrays and Strings: Two Pointers
+- Machine Learning：[Data Leakage; Scaling; scikit-learn Pipelines](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · 先修：[Data Leakage](../Study%20topics/data-leakage.html)、[scikit-learn Pipelines](../Study%20topics/scikit-learn-pipelines.html)
+- System Design：[Data Modeling and Indexes](../Study%20topics/data-modeling-and-indexes.html)
+- Project：[Risk Copilot: Risk Numerical Correctness: Zero Exposure and Units](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-03)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
-| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Arrays and Strings: Two Pointers 资料：[Arrays and Strings](../Study%20topics/arrays-and-strings.html); [Two Pointers](../Study%20topics/two-pointers.html)<br>[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) · Easy ☐<br>[167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) · Medium ☐<br>[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) · Easy ☐<br>[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · Two Pointers · Medium ☐<br>[15. 3Sum](https://leetcode.com/problems/3sum/) · Two Pointers · Medium ☐<br>[392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) · Two Pointers · Easy ☐ |
+| 08:30–10:30 | Python + Top 150 刷题，2 小时 | Arrays and Strings: Two Pointers 资料：[Arrays and Strings](../Study%20topics/arrays-and-strings.html); [Two Pointers](../Study%20topics/two-pointers.html)<br>[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) · Easy ☑<br>[167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) · Medium ☑<br>[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) · Easy ☑<br>[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · Two Pointers · Medium ☑<br>[15. 3Sum](https://leetcode.com/problems/3sum/) · Two Pointers · Medium ☑<br>[392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) · Two Pointers · Easy ☑ |
 | 10:30–12:30 | 网课，2 小时 | Online Course [____] |
 | 13:30–14:15 | ML + QuantVault，45 分钟 | [Data Leakage; Scaling; scikit-learn Pipelines](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) + 先修：[Data Leakage](../Study%20topics/data-leakage.html)与[scikit-learn Pipelines](../Study%20topics/scikit-learn-pipelines.html) · 15 mins ☐<br>[Notebook](../notebook/03_data_leakage_scaling_scikit_learn_pipelines.ipynb) `notebook/03_data_leakage_scaling_scikit_learn_pipelines.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1953 · End-to-End Prediction Modeling Pipeline](https://quantvault.org/problems.html?id=1953) · Machine Learning · Medium ☐<br>本次范围：Case outline。只画Data → Split → Preprocessing → Fit → Evaluate，标出哪些步骤只能看训练集。整题的完整建模方案留到Day 31。 |
 | 14:15–15:00 | General & AI System Design，45 分钟 | [Data Modeling and Indexes](../Study%20topics/data-modeling-and-indexes.html) ☐ |
@@ -1641,6 +1674,17 @@ Follow-up
 
 ### 周四 11/12
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-04) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-04)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: GROUP BY, HAVING, CASE, Aggregations
+- Machine Learning：[MAE; RMSE](../Study%20topics/mae-rmse.html) · 先修：[MAE](../Study%20topics/mae.html)、[RMSE](../Study%20topics/rmse.html)
+- System Design：[Data Modeling and Indexes](../Study%20topics/data-modeling-and-indexes.html)
+- Project：[Risk Copilot: Retrieval Dataset and Label Review](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-04)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: GROUP BY, HAVING, CASE, Aggregations 资料：[GROUP BY](../Study%20topics/group-by.html); [HAVING](../Study%20topics/having.html); [CASE](../Study%20topics/case.html)<br>[182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) · SQL ☐<br>[596. Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/) · SQL ☐<br>[620. Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) · SQL（有时间再做） ☐<br>[6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) · Array / String · Medium ☐<br>[12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) · Array / String · Medium ☐<br>[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) · Array / String · Easy ☐ |
@@ -2163,6 +2207,17 @@ Follow-up
 <a id="day-05"></a>
 
 ### 周五 11/13
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-05) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-05)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Sorting; Binary Search; Complexity Analysis
+- Machine Learning：[Bias-Variance; Overfitting; Regularization; Linear Regression](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · 先修：[RMSE](../Study%20topics/rmse.html)
+- System Design：[Cache and API Service](../Study%20topics/cache-and-api-service.html)
+- Project：[Risk Copilot: Metric Audit and Retrieval Baseline](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-05)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -2721,6 +2776,17 @@ Follow-up
 
 ### 周一 11/16
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-06) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-06)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Hash Maps and Two Pointers: Review
+- Machine Learning：[Bias-Variance; Overfitting; Regularization; Linear Regression](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · 先修：[Regularization](../Study%20topics/regularization.html)
+- System Design：[Cache and API Service](../Study%20topics/cache-and-api-service.html)
+- Project：[Risk Copilot: Chunking Experiment](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-06)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Hash Maps and Two Pointers: Review 资料：[Hash Maps](../Study%20topics/hash-maps.html); [Arrays and Strings](../Study%20topics/arrays-and-strings.html); [Two Pointers](../Study%20topics/two-pointers.html)<br>[162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) · Binary Search · Medium ☐<br>[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) · Intervals · Medium ☐<br>[57. Insert Interval](https://leetcode.com/problems/insert-interval/) · Intervals · Medium ☐<br>[228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) · Intervals · Easy ☐<br>[1. Two Sum](https://leetcode.com/problems/two-sum/) · 复习 ☐<br>[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) · 复习 ☐<br>[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) · 复习 ☐ |
@@ -3253,6 +3319,17 @@ Follow-up
 
 ### 周二 11/17
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-07) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-07)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: INNER JOIN, LEFT JOIN, Duplicate Rows
+- Machine Learning：[Logistic Regression; Precision; Recall; F1; Class Imbalance](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · 先修：[Logistic Regression](../Study%20topics/logistic-regression.html)
+- System Design：[Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html)
+- Project：[Risk Copilot: Embedding Model Experiment](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-07)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: INNER JOIN, LEFT JOIN, Duplicate Rows 资料：[JOINs](../Study%20topics/joins.html)<br>[175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) · SQL ☐<br>[577. Employee Bonus](https://leetcode.com/problems/employee-bonus/) · SQL ☐<br>[1581. Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) · SQL（有时间再做） ☐<br>[452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) · Intervals · Medium ☐<br>[14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) · Array / String · Easy ☐<br>[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) · Array / String · Easy ☐ |
@@ -3783,6 +3860,17 @@ Follow-up
 <a id="day-08"></a>
 
 ### 周三 11/18
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-08) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-08)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Sliding Window; Prefix Sums
+- Machine Learning：[Logistic Regression; Precision; Recall; F1; Class Imbalance](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html)
+- System Design：[Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html)
+- Project：[Risk Copilot: MMR Experiment and Held-Out Check](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-08)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -4338,6 +4426,17 @@ Follow-up
 
 ### 周四 11/19
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-09) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-09)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: Subqueries, CTEs, EXISTS
+- Machine Learning：[PR-AUC; ROC-AUC; Calibration](../Study%20topics/pr-auc-roc-auc-calibration.html) · 先修：[Precision](../Study%20topics/precision.html)、[Recall](../Study%20topics/recall.html)、[ROC-AUC](../Study%20topics/roc-auc.html)、[PR-AUC](../Study%20topics/pr-auc.html)
+- System Design：[Rate Limiting and Capacity](../Study%20topics/rate-limiting-and-capacity.html)
+- Project：[Risk Copilot: Evaluator Failures and Bounded Retries](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-09)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Subqueries, CTEs, EXISTS 资料：[Subqueries](../Study%20topics/subqueries.html); [CTEs](../Study%20topics/ctes.html); [EXISTS](../Study%20topics/exists.html)<br>[197. Rising Temperature](https://leetcode.com/problems/rising-temperature/) · SQL ☐<br>[1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/) · SQL ☐<br>[1148. Article Views I](https://leetcode.com/problems/article-views-i/) · SQL（有时间再做） ☐<br>[55. Jump Game](https://leetcode.com/problems/jump-game/) · Array / String · Medium ☐<br>[58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) · Array / String · Easy ☐<br>[80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) · Array / String · Medium ☐ |
@@ -4884,6 +4983,17 @@ Follow-up
 <a id="day-10"></a>
 
 ### 周五 11/20
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-10) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-10)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Stacks; Queues; String Parsing
+- Machine Learning：[PR-AUC; ROC-AUC; Calibration](../Study%20topics/pr-auc-roc-auc-calibration.html)
+- System Design：[Rate Limiting and Capacity](../Study%20topics/rate-limiting-and-capacity.html)
+- Project：[Risk Copilot: Human Approval and State Transitions](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-10)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -5455,6 +5565,17 @@ Follow-up
 
 ### 周一 11/23
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-11) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-11)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Heaps; Top-k; Priority Queues
+- Machine Learning：[Decision Trees; Random Forests; Gradient Boosting](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · 先修：[Decision Trees](../Study%20topics/decision-trees.html)
+- System Design：[Retries, Idempotency and Consistency](../Study%20topics/retries-idempotency-and-consistency.html)
+- Project：[Risk Copilot: Scenario and Report Evaluation](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-11)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Heaps; Top-k; Priority Queues 资料：[Heaps](../Study%20topics/heaps.html)<br>[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) · Medium ☐<br>[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) · Medium ☐<br>[703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) · Easy ☐<br>[373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) · Heap · Medium ☐<br>[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) · Array / String · Medium ☐<br>[134. Gas Station](https://leetcode.com/problems/gas-station/) · Array / String · Medium ☐ |
@@ -5977,6 +6098,17 @@ Follow-up
 <a id="day-12"></a>
 
 ### 周二 11/24
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-12) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-12)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: ROW_NUMBER, RANK, DENSE_RANK
+- Machine Learning：[Data Leakage; Scaling; scikit-learn Pipelines](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html)
+- System Design：[Retries, Idempotency and Consistency](../Study%20topics/retries-idempotency-and-consistency.html)
+- Project：[Risk Copilot: Analysis API and Error Contracts](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-12)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -6632,6 +6764,17 @@ def is_anagram(left, right):
 <a id="day-13"></a>
 
 ### 周三 11/25
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-13) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-13)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Linked Lists; LRU Cache
+- Machine Learning：[MAE; RMSE](../Study%20topics/mae-rmse.html)
+- System Design：[Latency and Observability](../Study%20topics/latency-and-observability.html)
+- Project：[Risk Copilot: Tracing and Latency Baseline](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-13)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -7525,6 +7668,17 @@ def feed_forward(x, w1, b1, w2, b2):
 <a id="day-14"></a>
 
 ### 周四 11/26
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-14) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-14)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: LAG, LEAD, Rolling Aggregations
+- Machine Learning：[Bias-Variance; Overfitting; Regularization; Linear Regression](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html)
+- System Design：[Latency and Observability](../Study%20topics/latency-and-observability.html)
+- Project：[Risk Copilot: Measured Performance Improvement](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-14)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -8615,6 +8769,17 @@ Follow-up
 
 ### 周五 11/27
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-15) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-15)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：BFS; DFS; Graph Traversal
+- Machine Learning：[Decision Trees; Random Forests; Gradient Boosting](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · 先修：[Random Forests](../Study%20topics/random-forests.html)
+- System Design：[CI/CD and AWS Deployment](../Study%20topics/ci-cd-and-aws-deployment.html)
+- Project：[Risk Copilot: CI and Evaluation Gates](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-15)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | BFS; DFS; Graph Traversal 资料：[Queues](../Study%20topics/queues.html); [BFS](../Study%20topics/bfs.html); [DFS](../Study%20topics/dfs.html)<br>[200. Number of Islands](https://leetcode.com/problems/number-of-islands/) · Medium ☐<br>[133. Clone Graph](https://leetcode.com/problems/clone-graph/) · Medium ☐<br>[994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) · Medium ☐<br>[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) · Graph General · Medium ☐<br>[207. Course Schedule](https://leetcode.com/problems/course-schedule/) · Graph General · Medium ☐<br>[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) · Graph General · Medium ☐ |
@@ -9058,6 +9223,17 @@ Follow-up
 
 ### 周一 11/30
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-16) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-16)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Trees; Recursion
+- Machine Learning：[Decision Trees; Random Forests; Gradient Boosting](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · 先修：[Gradient Boosting](../Study%20topics/gradient-boosting.html)
+- System Design：[CI/CD and AWS Deployment](../Study%20topics/ci-cd-and-aws-deployment.html)
+- Project：[Risk Copilot: Docker and Local Release](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-16)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Trees; Recursion 资料：[BFS](../Study%20topics/bfs.html); [Trees](../Study%20topics/trees.html); [Recursion](../Study%20topics/recursion.html)<br>[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · Easy ☐<br>[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) · Medium ☐<br>[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) · Easy ☐<br>[100. Same Tree](https://leetcode.com/problems/same-tree/) · Binary Tree General · Easy ☐<br>[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) · Binary Tree General · Easy ☐<br>[105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) · Binary Tree General · Medium ☐<br>[106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) · Binary Tree General · Medium ☐ |
@@ -9321,6 +9497,17 @@ Follow-up
 <a id="day-17"></a>
 
 ### 周二 12/1
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-17) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-17)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: Window Functions; Date Queries
+- Machine Learning：[Cross-Validation; Hyperparameter Tuning](../Study%20topics/cross-validation-hyperparameter-tuning.html) · 先修：[Cross-Validation](../Study%20topics/cross-validation.html)
+- System Design：[Financial Research RAG](../Study%20topics/financial-research-rag.html)
+- Project：[Risk Copilot: AWS Deployment Configuration](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-17)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -9610,6 +9797,17 @@ Follow-up
 <a id="day-18"></a>
 
 ### 周三 12/2
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-18) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-18)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Practical Coding: Key-Value Store; TTL
+- Machine Learning：[Cross-Validation; Hyperparameter Tuning](../Study%20topics/cross-validation-hyperparameter-tuning.html) · 先修：[Hyperparameter Tuning](../Study%20topics/hyperparameter-tuning.html)
+- System Design：[Financial Research RAG](../Study%20topics/financial-research-rag.html)
+- Project：[Risk Copilot: AWS Deployment and Smoke Tests](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-18)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -9902,6 +10100,17 @@ Follow-up
 <a id="day-19"></a>
 
 ### 周四 12/3
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-19) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-19)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: Transactions; Constraints; Parameterized Queries
+- Machine Learning：[Feature Engineering; Interpretability; Feature Importance](../Study%20topics/feature-engineering-interpretability-feature-importance.html) · 先修：[Feature Engineering](../Study%20topics/feature-engineering.html)
+- System Design：[RAG Evaluation and Retrieval Trade-offs](../Study%20topics/rag-evaluation-and-retrieval-trade-offs.html)
+- Project：[Risk Copilot: Controlled CD and Rollback](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-19)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -10225,6 +10434,17 @@ Follow-up
 
 ### 周五 12/4
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-20) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-20)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Debugging; Code Reading; Refactoring
+- Machine Learning：[Feature Engineering; Interpretability; Feature Importance](../Study%20topics/feature-engineering-interpretability-feature-importance.html)
+- System Design：[RAG Evaluation and Retrieval Trade-offs](../Study%20topics/rag-evaluation-and-retrieval-trade-offs.html)
+- Project：[Risk Copilot: Reproduction and Project Deep Dive](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-20)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Debugging; Code Reading; Refactoring 资料：[Stacks](../Study%20topics/stacks.html); [Debugging](../Study%20topics/debugging.html); [Refactoring](../Study%20topics/refactoring.html); [Code Review](../Study%20topics/code-review.html)<br>[394. Decode String](https://leetcode.com/problems/decode-string/) · Medium ☐<br>[274. H-Index](https://leetcode.com/problems/h-index/) · Array / String · Medium ☐<br>[380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) · Array / String · Medium ☐<br>[114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) · Binary Tree General · Medium ☐<br>[71. Simplify Path](https://leetcode.com/problems/simplify-path/) · 复习 ☐<br>[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) · 复习 ☐ |
@@ -10494,6 +10714,17 @@ Follow-up
 <a id="day-21"></a>
 
 ### 周一 12/7
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-21) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-21)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Practical Coding: API Clients; Input Validation
+- Machine Learning：[Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · 先修：[Time-Series Splits](../Study%20topics/time-series-splits.html)、[Walk-Forward Validation](../Study%20topics/walk-forward-validation.html)
+- System Design：[Financial Text-to-SQL](../Study%20topics/financial-text-to-sql.html)
+- Project：[Financial Statement Analytics Assistant: Snowflake Setup and Sample SQL](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-21)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -10785,6 +11016,17 @@ Follow-up
 <a id="day-22"></a>
 
 ### 周二 12/8
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-22) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-22)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: PostgreSQL Schema Design; Primary and Foreign Keys
+- Machine Learning：[Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html)
+- System Design：[Financial Text-to-SQL](../Study%20topics/financial-text-to-sql.html)
+- Project：[Financial Statement Analytics Assistant: SEC Ingestion and Raw Snapshots](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-22)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -11078,6 +11320,17 @@ Follow-up
 
 ### 周三 12/9
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-23) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-23)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Python: Async; Concurrency; Parallelism; GIL; Race Conditions
+- Machine Learning：[Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html)
+- System Design：[Text-to-SQL Evaluation and Data Quality](../Study%20topics/text-to-sql-evaluation-and-data-quality.html)
+- Project：[Financial Statement Analytics Assistant: Financial Data Model and Quality Checks](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-23)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Async; Concurrency; Parallelism; GIL; Race Conditions 资料：[Async](../Study%20topics/async.html); [Concurrency](../Study%20topics/concurrency.html); [Parallelism](../Study%20topics/parallelism.html); [GIL](../Study%20topics/gil.html); [Race Conditions](../Study%20topics/race-conditions.html)<br>[1114. Print in Order](https://leetcode.com/problems/print-in-order/) · Easy ☐<br>[1115. Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/) · Medium ☐<br>[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) · Backtracking · Medium ☐<br>[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) · Backtracking · Medium ☐<br>[39. Combination Sum](https://leetcode.com/problems/combination-sum/) · Backtracking · Medium ☐ |
@@ -11343,6 +11596,17 @@ Follow-up
 <a id="day-24"></a>
 
 ### 周四 12/10
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-24) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-24)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: Indexes; EXPLAIN; Query Optimization
+- Machine Learning：[Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · 先修：[Scaling](../Study%20topics/scaling.html)
+- System Design：[Text-to-SQL Evaluation and Data Quality](../Study%20topics/text-to-sql-evaluation-and-data-quality.html)
+- Project：[Financial Statement Analytics Assistant: Reference SQL and Financial Analytics](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-24)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -11765,6 +12029,17 @@ Follow-up
 <a id="day-25"></a>
 
 ### 周五 12/11
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-25) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-25)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Practical Coding: Rate Limiter; Cache
+- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html)
+- System Design：[Agents with Human Approval](../Study%20topics/agents-with-human-approval.html)
+- Project：[Financial Statement Analytics Assistant: Question Dataset and SQL Ground Truth](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-25)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -12294,6 +12569,17 @@ Follow-up
 <a id="day-26"></a>
 
 ### 周一 12/14
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-26) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-26)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Practical Coding: Crawler; Bounded Concurrency
+- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · 先修：[Forecast Horizons](../Study%20topics/forecast-horizons.html)、[Temporal Leakage](../Study%20topics/temporal-leakage.html)
+- System Design：[Agents with Human Approval](../Study%20topics/agents-with-human-approval.html)
+- Project：[Financial Statement Analytics Assistant: Text-to-SQL and Semantic Context](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-26)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -12847,6 +13133,17 @@ Follow-up
 
 ### 周二 12/15
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-27) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-27)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: Run Analytics; Percentiles; Cost Aggregation
+- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html)
+- System Design：[Agent Memory and Tool Contracts](../Study%20topics/agent-memory-and-tool-contracts.html)
+- Project：[Financial Statement Analytics Assistant: Query Controls and Clarification](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-27)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Run Analytics; Percentiles; Cost Aggregation 资料：[Run Analytics](../Study%20topics/run-analytics.html); [Percentiles](../Study%20topics/percentiles.html)<br>[1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) · SQL ☐<br>[1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/) · SQL ☐<br>[1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/) · SQL（有时间再做） ☐<br>[530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) · Binary Search Tree · Easy ☐<br>[73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) · Matrix · Medium ☐<br>[289. Game of Life](https://leetcode.com/problems/game-of-life/) · Matrix · Medium ☐ |
@@ -13370,6 +13667,17 @@ Follow-up
 <a id="day-28"></a>
 
 ### 周三 12/16
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-28) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-28)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Python: Vectorization; Profiling; Performance
+- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · 先修：[Hyperparameter Tuning](../Study%20topics/hyperparameter-tuning.html)
+- System Design：[Agent Memory and Tool Contracts](../Study%20topics/agent-memory-and-tool-contracts.html)
+- Project：[Financial Statement Analytics Assistant: Text-to-SQL Evaluation](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-28)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -13896,6 +14204,17 @@ Follow-up
 <a id="day-29"></a>
 
 ### 周四 12/17
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-29) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-29)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: Time-Series Joins; Missing Dates
+- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · 先修：[Out-of-Sample Evaluation](../Study%20topics/out-of-sample-evaluation.html)
+- System Design：[AI-Assisted Experiment Platform](../Study%20topics/ai-assisted-experiment-platform.html)
+- Project：[Financial Statement Analytics Assistant: Snowflake Query Performance](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-29)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -14447,6 +14766,17 @@ Follow-up
 
 ### 周五 12/18
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-30) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-30)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Coding Review: Mixed Python Patterns
+- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html)
+- System Design：[AI-Assisted Experiment Platform](../Study%20topics/ai-assisted-experiment-platform.html)
+- Project：[Financial Statement Analytics Assistant: CI and Reproducible Demo](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-30)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Coding Review: Mixed Python Patterns 资料：[Complexity Analysis](../Study%20topics/complexity-analysis.html); [Sliding Window](../Study%20topics/sliding-window.html); [Heaps](../Study%20topics/heaps.html); [BFS](../Study%20topics/bfs.html); [DFS](../Study%20topics/dfs.html); [Trees](../Study%20topics/trees.html)<br>[9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) · Math · Easy ☐<br>[50. Pow(x, n)](https://leetcode.com/problems/powx-n/) · Math · Medium ☐<br>[66. Plus One](https://leetcode.com/problems/plus-one/) · Math · Easy ☐<br>[69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) · Math · Easy ☐<br>[172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) · Math · Medium ☐<br>[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · 复习 ☐<br>[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) · 复习 ☐<br>[200. Number of Islands](https://leetcode.com/problems/number-of-islands/) · 复习 ☐ |
@@ -14975,6 +15305,17 @@ Follow-up
 
 ### 周一 12/21
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-31) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-31)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Python: Progressive Implementation Problems
+- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · 先修：[Reproducibility](../Study%20topics/reproducibility.html)、[Model Versioning](../Study%20topics/model-versioning.html)
+- System Design：[Volatility Forecasting Service](../Study%20topics/volatility-forecasting-service.html)
+- Project：[Investment Research Workbench: Research Contract and Market Data](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-31)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Progressive Implementation Problems 资料：[LRU Cache](../Study%20topics/lru-cache.html); [Key-Value Store](../Study%20topics/key-value-store.html); [TTL](../Study%20topics/ttl.html)<br>[2408. Design SQL](https://leetcode.com/problems/design-sql/) · Medium ☐<br>[67. Add Binary](https://leetcode.com/problems/add-binary/) · Bit Manipulation · Easy ☐<br>[136. Single Number](https://leetcode.com/problems/single-number/) · Bit Manipulation · Easy ☐<br>[137. Single Number II](https://leetcode.com/problems/single-number-ii/) · Bit Manipulation · Medium ☐<br>[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) · Bit Manipulation · Easy ☐<br>[981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) · 复习 ☐<br>[146. LRU Cache](https://leetcode.com/problems/lru-cache/) · 复习 ☐ |
@@ -15395,6 +15736,17 @@ Follow-up
 
 ### 周二 12/22
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-32) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-32)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: Integrated Query Practice
+- Machine Learning：[Regime Changes; Statistical Uncertainty; Prediction Intervals](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · 先修：[Regime Changes](../Study%20topics/regime-changes.html)
+- System Design：[Volatility Forecasting Service](../Study%20topics/volatility-forecasting-service.html)
+- Project：[Investment Research Workbench: Deterministic Research Tools](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-32)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Integrated Query Practice 资料：[JOINs](../Study%20topics/joins.html); [GROUP BY](../Study%20topics/group-by.html)<br>[1075. Project Employees I](https://leetcode.com/problems/project-employees-i/) · SQL ☐<br>[1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations/) · SQL ☐<br>[1193. Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/) · SQL（有时间再做） ☐<br>[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) · Bit Manipulation · Easy ☐<br>[201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) · Bit Manipulation · Medium ☐<br>[108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) · Divide & Conquer · Easy ☐ |
@@ -15761,6 +16113,17 @@ Follow-up
 <a id="day-33"></a>
 
 ### 周三 12/23
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-33) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-33)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Python: Embedding Debugging; Cosine Similarity
+- Machine Learning：[Regime Changes; Statistical Uncertainty; Prediction Intervals](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · 先修：[Prediction Intervals](../Study%20topics/prediction-intervals.html)
+- System Design：[Evaluation and Regression Pipeline](../Study%20topics/evaluation-and-regression-pipeline.html)
+- Project：[Investment Research Workbench: Experiment API and Persistent Runs](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-33)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -16132,6 +16495,17 @@ Follow-up
 
 ### 周四 12/24
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-34) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-34)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: Financial Analytics; Window Functions Review
+- Machine Learning：[Regime Changes; Statistical Uncertainty; Prediction Intervals](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html)
+- System Design：[Evaluation and Regression Pipeline](../Study%20topics/evaluation-and-regression-pipeline.html)
+- Project：[Investment Research Workbench: Queue and Worker Execution](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-34)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Financial Analytics; Window Functions Review 资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html); [LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html); [Financial Analytics](../Study%20topics/financial-analytics.html)<br>[185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) · SQL ☐<br>[1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) · SQL ☐<br>[1341. Movie Rating](https://leetcode.com/problems/movie-rating/) · SQL（有时间再做） ☐<br>[64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) · Multidimensional DP · Medium ☐<br>[72. Edit Distance](https://leetcode.com/problems/edit-distance/) · Multidimensional DP · Medium ☐<br>[97. Interleaving String](https://leetcode.com/problems/interleaving-string/) · Multidimensional DP · Medium ☐ |
@@ -16499,6 +16873,17 @@ Follow-up
 <a id="day-35"></a>
 
 ### 周五 12/25
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-35) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-35)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Python: Logistic Regression with NumPy; Shape Checks
+- Machine Learning：[Logistic Regression; Precision; Recall; F1; Class Imbalance](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · 先修：[NumPy Logistic Regression](../Study%20topics/numpy-logistic-regression.html)
+- System Design：[AI Latency and Cost Budget](../Study%20topics/ai-latency-and-cost-budget.html)
+- Project：[Investment Research Workbench: Retries, Timeouts and Worker Failure](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-35)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -16874,6 +17259,17 @@ Follow-up
 
 ### 周一 12/28
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-36) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-36)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Python: Timed Coding Mock
+- Machine Learning：[Reproducibility; Model Versioning; Serving; Rollback](../Study%20topics/reproducibility-model-versioning-serving-rollback.html)
+- System Design：[AI Latency and Cost Budget](../Study%20topics/ai-latency-and-cost-budget.html)
+- Project：[Investment Research Workbench: AI Experiment Planning and Tool Calling](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-36)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Timed Coding Mock 资料：[Binary Search](../Study%20topics/binary-search.html); [Prefix Sums](../Study%20topics/prefix-sums.html); [Recursion](../Study%20topics/recursion.html)<br>[135. Candy](https://leetcode.com/problems/candy/) · Array / String · Hard ☐<br>[30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) · Sliding Window · Hard ☐<br>[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) · Sliding Window · Hard ☐<br>[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) · 复习 ☐<br>[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) · 复习 ☐<br>[200. Number of Islands](https://leetcode.com/problems/number-of-islands/) · 复习 ☐ |
@@ -17240,6 +17636,17 @@ Follow-up
 <a id="day-37"></a>
 
 ### 周二 12/29
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-37) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-37)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: Timed Query Mock
+- Machine Learning：[Reproducibility; Model Versioning; Serving; Rollback](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · 先修：[Drift](../Study%20topics/drift.html)、[Model Versioning](../Study%20topics/model-versioning.html)
+- System Design：[AI Security and Reliability](../Study%20topics/ai-security-and-reliability.html)
+- Project：[Investment Research Workbench: Workflow Evaluation and Observability](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-37)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -17609,6 +18016,17 @@ Follow-up
 
 ### 周三 12/30
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-38) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-38)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Python: Debugging and Code Review Mock
+- Machine Learning：[Reproducibility; Model Versioning; Serving; Rollback](../Study%20topics/reproducibility-model-versioning-serving-rollback.html)
+- System Design：[AI Security and Reliability](../Study%20topics/ai-security-and-reliability.html)
+- Project：[Investment Research Workbench: CI, Container Release and Demo](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-38)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Debugging and Code Review Mock 资料：[API Clients](../Study%20topics/api-clients.html); [Race Conditions](../Study%20topics/race-conditions.html); [Profiling](../Study%20topics/profiling.html); [Debugging](../Study%20topics/debugging.html); [Refactoring](../Study%20topics/refactoring.html); [Code Review](../Study%20topics/code-review.html)<br>[124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) · Binary Tree General · Hard ☐<br>[127. Word Ladder](https://leetcode.com/problems/word-ladder/) · Graph BFS · Hard ☐<br>[212. Word Search II](https://leetcode.com/problems/word-search-ii/) · Trie · Hard ☐<br>[71. Simplify Path](https://leetcode.com/problems/simplify-path/) · 复习 ☐<br>[394. Decode String](https://leetcode.com/problems/decode-string/) · 复习 ☐<br>[981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) · 复习 ☐ |
@@ -17977,6 +18395,17 @@ Follow-up
 
 ### 周四 12/31
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-39) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-39)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: Weak-Topic Review
+- Machine Learning：[Supervised and Unsupervised Learning; Baselines](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) · 先修：[Linear Regression](../Study%20topics/linear-regression.html)、[Data Leakage](../Study%20topics/data-leakage.html)
+- System Design：[Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html)
+- Project：[Portfolio Review: Evidence Audit and Cross-Project Reproduction](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-39)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Weak-Topic Review 资料：[SELECT](../Study%20topics/select.html); [WHERE](../Study%20topics/where.html); [ORDER BY](../Study%20topics/order-by.html); [LIMIT](../Study%20topics/limit.html); [NULL](../Study%20topics/null.html); [GROUP BY](../Study%20topics/group-by.html); [HAVING](../Study%20topics/having.html); [CASE](../Study%20topics/case.html); [Subqueries](../Study%20topics/subqueries.html); [CTEs](../Study%20topics/ctes.html); [EXISTS](../Study%20topics/exists.html); [Date Queries](../Study%20topics/date-queries.html); [Transactions](../Study%20topics/transactions.html); [Constraints](../Study%20topics/constraints.html); [Parameterized Queries](../Study%20topics/parameterized-queries.html); [PostgreSQL Schema Design](../Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](../Study%20topics/primary-and-foreign-keys.html); [Indexes](../Study%20topics/indexes.html); [EXPLAIN](../Study%20topics/explain.html); [Query Optimization](../Study%20topics/query-optimization.html); [Run Analytics](../Study%20topics/run-analytics.html); [Percentiles](../Study%20topics/percentiles.html); [Financial Analytics](../Study%20topics/financial-analytics.html); [JOINs](../Study%20topics/joins.html)<br>[1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/) · SQL ☐<br>[1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/) · SQL ☐<br>[1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/) · SQL（有时间再做） ☐<br>[52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) · Backtracking · Hard ☐<br>[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) · Divide & Conquer · Hard ☐ |
@@ -18344,6 +18773,17 @@ Follow-up
 <a id="day-40"></a>
 
 ### 周五 1/1
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-40) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-40)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Python: Weak-Topic Review
+- Machine Learning：[Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html)
+- System Design：[Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html)
+- Project：[Portfolio Review: Feature Freeze and Interview Deep Dive](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-40)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -18727,6 +19167,17 @@ Technical Sources
 
 ### 周一 1/4
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-41) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-41)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Python: Coding Mock Remediation
+- Machine Learning：[Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html)
+- System Design：[Cache and API Service](../Study%20topics/cache-and-api-service.html)
+- Project：[Buffer: Risk Copilot: Correctness Remediation](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-41)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Coding Mock Remediation 资料：[Sorting](../Study%20topics/sorting.html); [Binary Search](../Study%20topics/binary-search.html); [Linked Lists](../Study%20topics/linked-lists.html)<br>[149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) · Math · Hard ☐<br>[123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) · Multidimensional DP · Hard ☐<br>[188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) · Multidimensional DP · Hard ☐<br>[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) · 复习 ☐<br>[704. Binary Search](https://leetcode.com/problems/binary-search/) · 复习 ☐<br>[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) · 复习 ☐ |
@@ -18758,6 +19209,17 @@ Technical Sources
 
 ### 周二 1/5
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-42) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-42)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: Query Mock Remediation
+- Machine Learning：[Drift; Retraining](../Study%20topics/drift-retraining.html) · 先修：[Drift](../Study%20topics/drift.html)
+- System Design：[Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html)
+- Project：[Buffer: AWS and CD: Completion or Recovery Drill](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-42)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Query Mock Remediation 资料：[JOINs](../Study%20topics/joins.html); [HAVING](../Study%20topics/having.html)<br>[175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) · SQL ☐<br>[596. Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/) · SQL ☐<br>[180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) · SQL（有时间再做） ☐<br>Top 150 薄弱题重做（约 60 分钟）：回到前面卡住或做错的题，限时重做，不新增题目 ☐ |
@@ -18787,6 +19249,17 @@ Technical Sources
 <a id="day-43"></a>
 
 ### 周三 1/6
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-43) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-43)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Python: Practical Implementation Mock
+- Machine Learning：[Drift; Retraining](../Study%20topics/drift-retraining.html)
+- System Design：[Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html)
+- Project：[Buffer: Snowflake: Data and SQL Remediation](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-43)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
@@ -18819,6 +19292,17 @@ Technical Sources
 
 ### 周四 1/7
 
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-44) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-44)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：SQL: Comprehensive Review
+- Machine Learning：[Drift; Retraining](../Study%20topics/drift-retraining.html) · 先修：[Retraining](../Study%20topics/retraining.html)、[Drift](../Study%20topics/drift.html)
+- System Design：[Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html)
+- Project：[Buffer: Research Workbench: Failure Recovery](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-44)
+<!-- /day-topics -->
+
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Comprehensive Review 资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html); [LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html)<br>[185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) · SQL ☐<br>[550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/) · SQL ☐<br>[1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) · SQL（有时间再做） ☐<br>Top 150 薄弱题重做（约 60 分钟）：回到前面卡住或做错的题，限时重做，不新增题目 ☐ |
@@ -18849,6 +19333,17 @@ Technical Sources
 <a id="day-45"></a>
 
 ### 周五 1/8
+
+[✎ 学习记录](AI_ENGINEER_STUDY_LOG.html#day-45) · [📖 今日学习笔记](AI_ENGINEER_STUDY_NOTES.html#day-45)
+
+<!-- day-topics -->
+今天学习 Topic：
+
+- 刷题：Python: Final Mixed Review
+- Machine Learning：[Drift; Retraining](../Study%20topics/drift-retraining.html)
+- System Design：[Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html)
+- Project：[Buffer: Portfolio: Final Reproduction and Remaining Gaps](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-45)
+<!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|

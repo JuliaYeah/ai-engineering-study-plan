@@ -1,0 +1,17 @@
+{
+ "day-01.1ej99x0": "建立一个seen的dict，如果是不等于1或者没见过就加",
+ "day-01.1fka7gr": "了解一下算法有哪些，排序的方法有哪些，然后怎么看时间和空间复杂度。这个值得学习好好弄清楚一下。",
+ "day-01.1ijawbg": "找到起点用while， hashmap 搜索就是O（1）， list 就是O（n）",
+ "day-01.1m0bf74": "set() 就是dict没有values只有key",
+ "day-01.1qfofob": "Counter, Sorted可以用在这里",
+ "day-01.1v47dns": "output.setdefault(tuple(sorted(x)), []).append(x), 第一次就可以append， 要不然之前没有set过就会出错\n一般几个items同样的value的才是dict的key，比如counter的结果几个词都一样这个就是key",
+ "day-01.9gejbn": "字母被替换就能成另外个单词： 字母位置，然后比较两个sorted dict.values。 另外可以用快慢指针的方法，之后学习",
+ "day-02.1wmq7gd": "if x in last and i - last[x] <= k: 同时满足条件，也可以用sliding window。",
+ "day-02.6lmhp5": "用Counter， Counter算出每次字母出现几次，然后查ransomnote， for ch in randomnote就差每个字母",
+ "day-02.sl1thm": "- pattern_dict.setdefault(x, []).append(i)\n- sorted(pattern_dict.values()) == sorted(str_dict.values())",
+ "day-03.1ktdbqg": "双指针-快慢指针。 \n快指针遍历list，慢指针是存位置这样",
+ "day-03.1vicfku": "要经常考虑边界，会不会index out of range。 比如空输入“ ”",
+ "day-03.hzukgb": "对撞指针：有序数列two sum, 回文串， 盛最多水容器\n快慢指针\n什么时候该想到双指针\n题目特征\t想到的方法\n有序数组，找两个数满足条件\t相向指针\n回文判断\t相向指针（或中心扩展）\n原地修改数组，空间 O(1)\t快慢（读写）指针\n链表找环、中点、倒数第 K 个\t链表快慢指针\n合并两个有序序列\t各一个指针\n连续子数组/子串的最长/最短\t滑动窗口",
+ "day-03.q9do2m": "nums.sort()\ncontinue 就是跳过当前一轮循环，进入for loop的下一个循环\ni, pointer1,pointer2都要跳过重复，nums[i] == nums[i - 1]这样check \n",
+ "day-03.xuwvqn": "isalnum() 是字符串方法，判断字符串是不是只由字母和数字组成\ncleaned == cleaned[::-1]  正序=返序"
+}
