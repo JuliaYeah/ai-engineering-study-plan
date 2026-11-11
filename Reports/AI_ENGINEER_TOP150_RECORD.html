@@ -1,4 +1,4 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>刷题记录</title><link rel="stylesheet" href="../Study%20topics/style.css"></head><body><main><nav><a href="AI_ENGINEER_TRANSITION_PLAN.html">每日时间表</a><a href="../Study%20topics/index.html">Topic 索引</a><a href="../AI_ENGINEER_DAILY_LEARNING_GUIDE.html">学习指南</a><a href="AI_ENGINEER_PROJECT_ROADMAP.html">项目路线</a><a href="AI_ENGINEER_TOP150_RECORD.html">刷题记录</a></nav><style>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>刷题记录</title><link rel="stylesheet" href="../Study%20topics/style.css"></head><body><main><nav><a href="AI_ENGINEER_TRANSITION_PLAN.html">每日时间表</a><a href="../Study%20topics/index.html">Topic 索引</a><a href="../AI_ENGINEER_DAILY_LEARNING_GUIDE.html">学习指南</a><a href="AI_ENGINEER_PROJECT_ROADMAP.html">项目路线</a><a href="AI_ENGINEER_TOP150_RECORD.html">刷题记录</a><a href="AI_ENGINEER_VIDEOS.html">视频链接</a></nav><style>
 .rec-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:0 0 6px}
 .rec-head h1{margin:0}
 .rec-tabs{display:inline-flex;border:1px solid #c9d6de;border-radius:8px;overflow:hidden;background:#fff}
@@ -33,6 +33,7 @@ li.rec-p.done .rec-title a{color:#116329}
   var items = [].slice.call(document.querySelectorAll('.rec-p')), P = 'study-plan:', TAB = 'study-record-tab';
   var panels = [].slice.call(document.querySelectorAll('.rec-panel')), tabs = [].slice.call(document.querySelectorAll('.rec-tabs button'));
   var built = items.map(function (li) { return li.classList.contains('done'); });
+  var web = location.protocol !== 'file:' && ['127.0.0.1', 'localhost'].indexOf(location.hostname) < 0;   // GitHub Pages
   function ls(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function keys(li) { return li.dataset.keys.split(' '); }
   function bar(el, done, total) { el.style.width = (total ? 100 * done / total : 0).toFixed(1) + '%'; }
@@ -62,7 +63,7 @@ li.rec-p.done .rec-title a{color:#116329}
   }
   function offline() {
     show(function (li, i) { return built[i] || keys(li).some(function (k) { return ls(P + k) === '1'; }); },
-      '没有连接本地服务器：显示的是上次生成页面时的进度，加上这个浏览器里的勾选');
+      web ? '网页版：显示的是上次推送到 GitHub 时的进度，加上这台设备里的勾选' : '没有连接本地服务器：显示的是上次生成页面时的进度，加上这个浏览器里的勾选');
   }
   function load() {
     if (location.protocol === 'file:') return offline();

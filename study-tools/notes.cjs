@@ -88,6 +88,7 @@ function client() {
   const days = [...document.querySelectorAll('.noteday')], boxes = [...document.querySelectorAll('.ni textarea')], courses = [...document.querySelectorAll('input.course')];
   const timer = {};
   let online = false, files = [];
+  const web = location.protocol !== 'file:' && !['127.0.0.1', 'localhost'].includes(location.hostname);   // GitHub Pages
   const keyOf = t => t.closest('.ni').dataset.k;
   const ls = (k, v) => { try { if (v === undefined) return localStorage.getItem(P + k); if (v) localStorage.setItem(P + k, v); else localStorage.removeItem(P + k); } catch (e) { /* storage blocked */ } return null; };
   const msg = (text, links) => {
@@ -104,7 +105,7 @@ function client() {
   const view = d => 'AI_ENGINEER_STUDY_NOTES.html#' + d.id;      // the rendered note (今日学习笔记)
 
   function status(d) {
-    if (!online) return msg('没有连接本地服务器：笔记先存在这个浏览器里，生成时会下载 .md 文件');
+    if (!online) return msg(web ? '网页版：笔记只存在这台设备的浏览器里，生成时会下载 .md 文件' : '没有连接本地服务器：笔记先存在这个浏览器里，生成时会下载 .md 文件');
     if (files.includes(fileName(d))) return msg('已生成过 Study notes/' + fileName(d) + '，再点生成会用最新内容覆盖', [['查看今日学习笔记', view(d)]]);
     msg('输入会自动保存');
   }

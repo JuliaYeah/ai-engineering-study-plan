@@ -105,6 +105,7 @@ function client() {
   var items = [].slice.call(document.querySelectorAll('.rec-p')), P = 'study-plan:', TAB = 'study-record-tab';
   var panels = [].slice.call(document.querySelectorAll('.rec-panel')), tabs = [].slice.call(document.querySelectorAll('.rec-tabs button'));
   var built = items.map(function (li) { return li.classList.contains('done'); });
+  var web = location.protocol !== 'file:' && ['127.0.0.1', 'localhost'].indexOf(location.hostname) < 0;   // GitHub Pages
   function ls(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function keys(li) { return li.dataset.keys.split(' '); }
   function bar(el, done, total) { el.style.width = (total ? 100 * done / total : 0).toFixed(1) + '%'; }
@@ -134,7 +135,7 @@ function client() {
   }
   function offline() {
     show(function (li, i) { return built[i] || keys(li).some(function (k) { return ls(P + k) === '1'; }); },
-      '没有连接本地服务器：显示的是上次生成页面时的进度，加上这个浏览器里的勾选');
+      web ? '网页版：显示的是上次推送到 GitHub 时的进度，加上这台设备里的勾选' : '没有连接本地服务器：显示的是上次生成页面时的进度，加上这个浏览器里的勾选');
   }
   function load() {
     if (location.protocol === 'file:') return offline();

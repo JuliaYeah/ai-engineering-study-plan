@@ -4,7 +4,8 @@
 //   - GET  /api/progress  -> { ticks, notes }
 //   - POST /api/progress  -> tick / untick / course name; writes study-progress.json and mirrors it into the timetable .md
 //   - GET/POST /api/notes, POST /api/notes/generate -> study-note drafts (学习记录) and the generated "Study notes/<date> Day NN.md" (今日学习笔记)
-//   - POST /api/sync      -> commit the progress files and the study notes, pull --rebase, then push unless {push:false}
+//   - GET/POST /api/videos -> 视频链接: list, add (reads title and author from the link), edit, delete; "Study notes/videos.json" (videos.cjs)
+//   - POST /api/sync      -> commit the progress files, the study notes and the videos, pull --rebase, then push unless {push:false}
 //                           (only when a page button is clicked)
 //   - GET  /api/applications, /career-ops/reports/*.html -> jobs applied for per day and their evaluation reports, read live from the
 //                           private career-ops repo (CAREER_OPS_DIR, or a sibling folder named career-ops); never copied into this repo
@@ -13,6 +14,7 @@ const http = require('http'), fs = require('fs'), path = require('path');
 const { execFileSync } = require('child_process');
 const progress = require('./progress.cjs');
 const applications = require('./applications.cjs');
+const videos = require('./videos.cjs');
 
 const root = path.resolve(__dirname, '..');
 const port = +process.argv[2] || 5510;
@@ -46,8 +48,9 @@ function git(log, ...args) {
   }
 }
 
-// The study notes travel with the progress: the drafts of 学习记录 and the generated notes (see notes.cjs).
-const DRAFTS_REL = 'Study notes/drafts.json', NOTE_PATH = /^Study notes\/(drafts\.json|\d{4}-\d{2}-\d{2} Day \d{2}\.md)$/;
+// The study notes travel with the progress: the drafts of 学习记录, the generated notes (see notes.cjs) and the videos (videos.cjs).
+const DRAFTS_REL = 'Study notes/drafts.json', VIDEOS_REL = videos.DATA_REL;
+const NOTE_PATH = /^Study notes\/(drafts\.json|videos\.json|\d{4}-\d{2}-\d{2} Day \d{2}\.md)$/;
 const synced = f => FILES.includes(f) || NOTE_PATH.test(f);
 // every synced path that exists here or is tracked (so a deleted note is committed as deleted)
 function syncPaths(log) {
@@ -89,9 +92,11 @@ function resolveConflicts(log, original) {
         fs.writeFileSync(path.join(root, MD), progress.applyToMd(upstream, progress.load()));
       }
       if (c.includes(DRAFTS_REL)) writeDrafts(merge3(json(1, DRAFTS_REL), json(2, DRAFTS_REL), json(3, DRAFTS_REL)));
+      // videos added on both devices: keep all of them (a video deleted on one device stays deleted)
+      if (c.includes(VIDEOS_REL)) videos.save(videos.merge(json(1, VIDEOS_REL), json(2, VIDEOS_REL), json(3, VIDEOS_REL)));
       // the same day's note generated on both devices: keep this device's file. The drafts are merged, so
       // generating it again in 学习记录 puts both devices' text together.
-      for (const f of c.filter(f => f !== DRAFTS_REL && NOTE_PATH.test(f))) {
+      for (const f of c.filter(f => f !== DRAFTS_REL && f !== VIDEOS_REL && NOTE_PATH.test(f))) {
         const s = stage(3, f) ?? stage(2, f);
         if (s == null) { git(log, 'rm', '-q', '--cached', '--ignore-unmatch', '--', f); try { fs.unlinkSync(path.join(root, f)); } catch (_) { /* gone */ } }
         else fs.writeFileSync(path.join(root, f), s);
@@ -111,7 +116,7 @@ function sync(push = true) {
     git(log, 'add', '-A', '--', ...paths);
     let changed = true;
     try { git(log, 'diff', '--cached', '--quiet', '--', ...paths); changed = false; } catch (e) { if (e.status !== 1) throw e; }
-    if (changed) git(log, 'commit', '-m', 'Update study progress and notes', '--', ...paths);
+    if (changed) git(log, 'commit', '-m', 'Update study progress, notes and videos', '--', ...paths);
   };
   try {
     syncMd();
@@ -222,6 +227,7 @@ http.createServer((req, res) => {
     if (why) return send(res, 403, { error: why });
     if (url.pathname === '/api/progress' && req.method === 'GET') return send(res, 200, progress.load());
     if (url.pathname === '/api/notes' && req.method === 'GET') return send(res, 200, noteList());
+    if (url.pathname === '/api/videos' && req.method === 'GET') return send(res, 200, { items: videos.list() });
     if (url.pathname === '/api/applications') {
       if (req.method !== 'GET') return send(res, 405, { error: 'read only' });
       const dir = applications.careerOpsDir(root);
@@ -239,6 +245,12 @@ http.createServer((req, res) => {
       return readBody(req, (err, body) => {
         if (err) return send(res, 400, { error: 'bad json' });
         try { send(res, 200, url.pathname === '/api/notes' ? (saveDrafts(body), { ok: true }) : generateNote(body)); } catch (e) { send(res, 400, { error: e.message }); }
+      });
+    }
+    if (url.pathname === '/api/videos') {
+      return readBody(req, (err, body) => {
+        if (err) return send(res, 400, { error: 'bad json' });
+        videos.handle(body).then(r => send(res, 200, r), e => send(res, 400, { error: e.message }));
       });
     }
     if (url.pathname === '/api/sync') return readBody(req, (err, body) => send(res, 200, sync(!(body && body.push === false))));

@@ -54,6 +54,7 @@
 - `AI_ENGINEER_QUANTVAULT_PLAN` - QuantVault 题目排期。只含 Regression 和 Machine Learning 两类,实时目录共 264 题,其中 47 道核心题分配到 45 个学习日,其余作扩展。和讲义、notebook 共用每天 13:30-14:15 的 45 分钟
 - `AI_ENGINEER_TOP150_SCHEDULE` - LeetCode Top Interview 150 的完整排期(`Reports/` 里,只有 `.md`)。列出 150 题分在哪一天、每个专题的进度,以及计划里不在 Top 150 的 21 道题。详见下面的"刷题安排"
 - `AI_ENGINEER_TOP150_RECORD` - 刷题记录(`Reports/` 里,只有 `.html`,每个页面顶部导航"项目路线"后面都有链接)。上面有 LeetCode 和 QuantVault 两个选项卡:LeetCode Top Interview 150 按 LeetCode 的 23 个专题分列,QuantVault 排进计划的 47 题按 ML 讲义分列,都显示已刷多少、还剩多少;在时间表里勾过一次(当天、复习日或重复排的那天)的题变绿色带 ✓。连着本地服务器时读最新的勾选,切回页面会自动刷新
+- `AI_ENGINEER_VIDEOS` - 视频链接(`Reports/` 里,只有 `.html`,顶部导航"刷题记录"后面)。粘贴 YouTube、小红书、B站等视频链接点 Save,自动读出标题和作者,存进 `Study notes/videos.json`,跟着"推送到 GitHub"同步;网页版只能看
 - `AI_ENGINEER_BILINGUAL_LESSONS` - 全部讲义的 Markdown 合集(约 8,600 行)。每个主题按 背景、Question、Key Terms、直观例子、英文 Short Answer、中文回答 的顺序写。适合通读或复习,不用一页页点 HTML
 
 每天的时间块是固定的:
