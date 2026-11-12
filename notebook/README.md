@@ -15,11 +15,11 @@ py -3.12 -m venv .study-venv
 
 本次已在当前仓库的`.study-venv`中安装并验证环境，可直接选择它。`requirements-lock.txt`是已验证版本；`requirements.txt`保留允许升级的版本范围。
 
-## 每天怎么用
+## 怎么用
 
-从[每日学习指南](../AI_ENGINEER_DAILY_LEARNING_GUIDE.html)打开对应实验。先读Learning Goal，再Run All；修改Guided Experiment指定的一个参数并比较结果，最后口述English Check Questions。复习日围绕指南中的Focus使用同一本，不额外增加学习时间。
+这些notebook不再排进每日时间表（原来每天13:30的ML时段已改成LeetCode Pattern），需要时自学；Day 31–38的项目前要先看Volatility Forecasting notebook。每本先读Learning Goal，再Run All；修改Guided Experiment指定的一个参数并比较结果，最后口述English Check Questions。
 
-第一天打开[Train / Validation / Test Split](01_train_validation_test_split.ipynb)，里面已准备Clean Linear、Noisy Linear、Nonlinear三组数据。
+从[Train / Validation / Test Split](01_train_validation_test_split.ipynb)开始，里面已准备Clean Linear、Noisy Linear、Nonlinear三组数据。
 
 ## 金融实验边界
 
@@ -33,4 +33,4 @@ Volatility Forecasting notebook中使用两个合成资产，演示未来五个�
 .\.study-venv\Scripts\python.exe study-tools/verify_notebooks.py
 ```
 
-每本使用新的kernel，从头顺序执行。执行结果保留在notebook内；验证摘要见`study-tools/notebook-validation.json`。环境安装需要网络，基础实验运行不需要网络。首次安装耗时不属于每天45分钟实验本身，可使用第一天Review时间完成。
+每本使用新的kernel，从头顺序执行。执行结果保留在notebook内；验证摘要见`study-tools/notebook-validation.json`。环境安装需要网络，基础实验运行不需要网络。首次安装需要几分钟。

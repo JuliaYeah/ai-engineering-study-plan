@@ -14,29 +14,24 @@
 今天学习 Topic：
 
 - 刷题：Hash Maps: Counting, Frequency, Duplicate Detection
-- Machine Learning：[Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html) · 先修：[Machine Learning Foundations](../Study%20topics/ml-foundations-start-here.html)
-- System Design：[Requirements and API Design](../Study%20topics/requirements-and-api-design.html)
 - Project：[Risk Copilot: Baseline and Issue Audit](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-01)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Hash Maps: Counting, Frequency, Duplicate Detection 资料：[Hash Maps](../Study%20topics/hash-maps.html)<br>[1. Two Sum](https://leetcode.com/problems/two-sum/) · Easy ☑<br>[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) · Easy ☑<br>[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) · Easy ☑<br>[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) · Hashmap · Medium ☑<br>[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) · Hashmap · Medium ☑<br>[202. Happy Number](https://leetcode.com/problems/happy-number/) · Hashmap · Easy ☑<br>[205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) · Hashmap · Easy ☑ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html) + 先修：[Machine Learning Foundations](../Study%20topics/ml-foundations-start-here.html) · 20 mins ☐<br>[Notebook](../notebook/01_train_validation_test_split.ipynb) `notebook/01_train_validation_test_split.ipynb` · 15 mins ☐<br>QuantVault Practice · 10 mins：[#1962 · Explaining Machine Learning to a Non-Technical Audience](https://quantvault.org/problems.html?id=1962) · Machine Learning · Easy ☐<br>本次范围：Conceptual。用自己的金融工作解释Feature、Target、Training和Prediction；先不背模型名。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Requirements and API Design](../Study%20topics/requirements-and-api-design.html) ☑ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Baseline and Issue Audit ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-01) |
-| 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / LLM Fundamentals — 20 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Tokenization](../Study%20topics/tokenization.html); [Next-Token Prediction](../Study%20topics/next-token-prediction.html); [Context Windows](../Study%20topics/context-windows.html); [Temperature](../Study%20topics/temperature.html); [Top-p](../Study%20topics/top-p.html); [Transformer and Attention Fundamentals](../Study%20topics/transformer-and-attention-fundamentals.html); [LLM Limitations](../Study%20topics/llm-limitations.html); [Risk Copilot](../Study%20topics/risk-copilot.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | 跳过：这一格原来是 ML，LeetCode Pattern 从 [Day 04](#day-04) 开始 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | [Requirements and API Design](../Study%20topics/requirements-and-api-design.html) ☑<br>这一格原来是 General & AI System Design，这天已经做完；Hello Interview 从 [Day 04](#day-04) 开始 |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Baseline and Issue Audit ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-01) |
+| 16:45–17:45 | Interview Questions，1 小时 | Technical Questions / LLM Fundamentals — 20 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Tokenization](../Study%20topics/tokenization.html); [Next-Token Prediction](../Study%20topics/next-token-prediction.html); [Context Windows](../Study%20topics/context-windows.html); [Temperature](../Study%20topics/temperature.html); [Top-p](../Study%20topics/top-p.html); [Transformer and Attention Fundamentals](../Study%20topics/transformer-and-attention-fundamentals.html); [LLM Limitations](../Study%20topics/llm-limitations.html); [Risk Copilot](../Study%20topics/risk-copilot.html) |
 
 <!-- applied-jobs 2026-11-09 -->
 
 
 #### 学习提示
 
-- ML 重点：Split roles and three datasets
-- ML 具体实验：Change the random seed and validation fraction. Compare score variability across three synthetic datasets: clean linear, noisy linear, and nonlinear. Explain why a random split is only appropriate for independent observations.
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
 - 项目今天改进：读项目 AGENTS、codebase_map、CHANGELOG；运行现有 tests/lint，复现一个失败。把旧 known_issues 标为 Confirmed / Fixed / Unverified，并记录当前 commit。
 - 项目如何验证：用离线 fixture 重现失败，保留完整 traceback；历史文档不能直接当当前事实。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-01)
@@ -574,29 +569,24 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: SELECT, WHERE, ORDER BY, LIMIT, NULL
-- Machine Learning：[Supervised and Unsupervised Learning; Baselines](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) · 先修：[Linear Regression](../Study%20topics/linear-regression.html)
-- System Design：[Requirements and API Design](../Study%20topics/requirements-and-api-design.html)
 - Project：[Risk Copilot: Risk Numerical Correctness: Missing Data and Factors](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-02)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: SELECT, WHERE, ORDER BY, LIMIT, NULL 资料：[SELECT](../Study%20topics/select.html); [WHERE](../Study%20topics/where.html); [ORDER BY](../Study%20topics/order-by.html); [LIMIT](../Study%20topics/limit.html); [NULL](../Study%20topics/null.html)<br>[1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) · SQL ☐<br>[584. Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) · SQL ☐<br>[595. Big Countries](https://leetcode.com/problems/big-countries/) · SQL（有时间再做） ☐<br>[219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) · Hashmap · Easy ☑<br>[290. Word Pattern](https://leetcode.com/problems/word-pattern/) · Hashmap · Easy ☑<br>[383. Ransom Note](https://leetcode.com/problems/ransom-note/) · Hashmap · Easy ☑ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Supervised and Unsupervised Learning; Baselines](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) + 先修：入门页的[Linear Regression](../Study%20topics/linear-regression.html)公式；两题各用约5分钟 · 20 mins ☐<br>[Notebook](../notebook/02_supervised_and_unsupervised_learning_baselines.ipynb) `notebook/02_supervised_and_unsupervised_learning_baselines.ipynb` · 15 mins ☐<br>QuantVault Practice · 10 mins：[#1432 · Linear Regression: Model, Estimation, and When to Use It](https://quantvault.org/problems.html?id=1432) · Regression · Medium ☐<br>[#1966 · Framework for Open-Ended Modeling Strategy](https://quantvault.org/problems.html?id=1966) · Machine Learning · Easy ☐<br>本次范围：Conceptual。先解释线性函数的输入、系数和数值输出，再用目标→数据→基线→验证组织建模思路。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Requirements and API Design](../Study%20topics/requirements-and-api-design.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Risk Numerical Correctness: Missing Data and Factors ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-02) |
-| 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / LLM Fundamentals; Technical Questions / RAG Systems — 19 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Prompt Engineering](../Study%20topics/prompt-engineering.html); [Few-Shot Examples](../Study%20topics/few-shot-examples.html); [Prompt Versioning](../Study%20topics/prompt-versioning.html); [SQL](../Study%20topics/sql.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | 跳过：这一格原来是 ML，LeetCode Pattern 从 [Day 04](#day-04) 开始 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | 跳过：这一格原来是 General & AI System Design，Hello Interview 从 [Day 04](#day-04) 开始 |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Risk Numerical Correctness: Missing Data and Factors ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-02) |
+| 16:45–17:45 | Interview Questions，1 小时 | Technical Questions / LLM Fundamentals; Technical Questions / RAG Systems — 19 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Prompt Engineering](../Study%20topics/prompt-engineering.html); [Few-Shot Examples](../Study%20topics/few-shot-examples.html); [Prompt Versioning](../Study%20topics/prompt-versioning.html); [SQL](../Study%20topics/sql.html) |
 
 <!-- applied-jobs 2026-11-10 -->
 
 
 #### 学习提示
 
-- ML 重点：Supervised targets and mean baseline
-- ML 具体实验：Increase the noise level and compare Ridge with a training-mean predictor. Change the clustering seed and compare group labels with the continuous regression target.
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
 - 项目今天改进：优先核查 risk/var.py 的缺失值处理和 data/preprocess.py 的 DXY 映射；只修已复现的问题，定义缺数据时拒绝或明确排除的规则。
 - 项目如何验证：手算 tiny portfolio 参考值；测缺失值、因子缺失与单位，不把缺失默认为零。关键数值问题未解决则缩小演示范围。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-02)
@@ -1120,29 +1110,24 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Arrays and Strings: Two Pointers
-- Machine Learning：[Data Leakage; Scaling; scikit-learn Pipelines](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) · 先修：[Data Leakage](../Study%20topics/data-leakage.html)、[scikit-learn Pipelines](../Study%20topics/scikit-learn-pipelines.html)
-- System Design：[Data Modeling and Indexes](../Study%20topics/data-modeling-and-indexes.html)
 - Project：[Risk Copilot: Risk Numerical Correctness: Zero Exposure and Units](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-03)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Arrays and Strings: Two Pointers 资料：[Arrays and Strings](../Study%20topics/arrays-and-strings.html); [Two Pointers](../Study%20topics/two-pointers.html)<br>[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) · Easy ☑<br>[167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) · Medium ☑<br>[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) · Easy ☑<br>[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · Two Pointers · Medium ☑<br>[15. 3Sum](https://leetcode.com/problems/3sum/) · Two Pointers · Medium ☑<br>[392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) · Two Pointers · Easy ☑ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Data Leakage; Scaling; scikit-learn Pipelines](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) + 先修：[Data Leakage](../Study%20topics/data-leakage.html)与[scikit-learn Pipelines](../Study%20topics/scikit-learn-pipelines.html) · 15 mins ☐<br>[Notebook](../notebook/03_data_leakage_scaling_scikit_learn_pipelines.ipynb) `notebook/03_data_leakage_scaling_scikit_learn_pipelines.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1953 · End-to-End Prediction Modeling Pipeline](https://quantvault.org/problems.html?id=1953) · Machine Learning · Medium ☐<br>本次范围：Case outline。只画Data → Split → Preprocessing → Fit → Evaluate，标出哪些步骤只能看训练集。整题的完整建模方案留到Day 31。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Data Modeling and Indexes](../Study%20topics/data-modeling-and-indexes.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Risk Numerical Correctness: Zero Exposure and Units ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-03) |
-| 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / RAG Systems — 20 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Structured Outputs](../Study%20topics/structured-outputs.html); [Pydantic](../Study%20topics/pydantic.html); [JSON Recovery](../Study%20topics/json-recovery.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | 跳过：这一格原来是 ML，LeetCode Pattern 从 [Day 04](#day-04) 开始 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | 跳过：这一格原来是 General & AI System Design，Hello Interview 从 [Day 04](#day-04) 开始 |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Risk Numerical Correctness: Zero Exposure and Units ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-03) |
+| 16:45–17:45 | Interview Questions，1 小时 | Technical Questions / RAG Systems — 20 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Structured Outputs](../Study%20topics/structured-outputs.html); [Pydantic](../Study%20topics/pydantic.html); [JSON Recovery](../Study%20topics/json-recovery.html) |
 
 <!-- applied-jobs 2026-11-11 -->
 
 
 #### 学习提示
 
-- ML 重点：Train-only scaling and leakage
-- ML 具体实验：Inspect train-only versus full-data scaler means under a shifted holdout. Add a future target as a feature only in a deliberately invalid copy and explain why the score cannot be trusted.
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
 - 项目今天改进：核查 risk/greeks.py 的零值、VaR/P&L 因子映射和支持的置信度；集中完成一个小修复，剩余高影响问题先禁用对应演示功能。
 - 项目如何验证：区分 zero 与 missing，验证 shock 单位和数值符号；重跑相关用例，记录仍失败的基线测试。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-03)
@@ -1680,29 +1665,29 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: GROUP BY, HAVING, CASE, Aggregations
-- Machine Learning：[MAE; RMSE](../Study%20topics/mae-rmse.html) · 先修：[MAE](../Study%20topics/mae.html)、[RMSE](../Study%20topics/rmse.html)
-- System Design：[Data Modeling and Indexes](../Study%20topics/data-modeling-and-indexes.html)
+- LeetCode Pattern：[#9 Hash Maps](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/hash-maps.md)
+- Hello Interview：基础 · [准备方法和 System Design 入门](https://www.hellointerview.com/learn/system-design/in-a-hurry/how-to-prepare)
 - Project：[Risk Copilot: Retrieval Dataset and Label Review](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-04)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: GROUP BY, HAVING, CASE, Aggregations 资料：[GROUP BY](../Study%20topics/group-by.html); [HAVING](../Study%20topics/having.html); [CASE](../Study%20topics/case.html)<br>[182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) · SQL ☐<br>[596. Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/) · SQL ☐<br>[620. Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) · SQL（有时间再做） ☐<br>[6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) · Array / String · Medium ☐<br>[12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) · Array / String · Medium ☐<br>[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) · Array / String · Easy ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [MAE; RMSE](../Study%20topics/mae-rmse.html) + 先修：[MAE](../Study%20topics/mae.html)、[RMSE](../Study%20topics/rmse.html)；Loss是训练目标，Metric是评价方式，两者可以不同 · 15 mins ☐<br>[Notebook](../notebook/04_mae_rmse.ipynb) `notebook/04_mae_rmse.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1613 · Loss Function Minimizers and Regression Variants](https://quantvault.org/problems.html?id=1613) · Regression · Medium ☐<br>本次范围：Conceptual。只比较Squared Loss与Absolute Loss，以及均值/中位数对应关系；不要求完成所有回归变体推导。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Data Modeling and Indexes](../Study%20topics/data-modeling-and-indexes.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Retrieval Dataset and Label Review ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-04) |
-| 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / RAG Systems; Technical Questions / Agents and Tool Use — 19 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Prompting vs. RAG vs. Fine-Tuning](../Study%20topics/prompting-vs-rag-vs-fine-tuning.html); [LoRA](../Study%20topics/lora.html); [Quantization](../Study%20topics/quantization.html); [Golden Datasets](../Study%20topics/golden-datasets.html); [Hard Negatives](../Study%20topics/hard-negatives.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#9 Hash Maps](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/hash-maps.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) · Easy ☐<br>[1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) · Easy ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview 热身 · 基础：准备方法和 System Design 入门 ☐<br>读 How to Prepare，了解 Hello Interview 推荐的准备顺序；读 System Design in a Hurry 的 Introduction 和 Core Concepts，写一页笔记，标出最不熟的 3 个概念。<br>[How to Prepare](https://www.hellointerview.com/learn/system-design/in-a-hurry/how-to-prepare) · [Introduction](https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction) · [Core Concepts](https://www.hellointerview.com/learn/system-design/in-a-hurry/core-concepts) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Retrieval Dataset and Label Review ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-04) |
+| 16:45–17:45 | Interview Questions，1 小时 | Technical Questions / RAG Systems; Technical Questions / Agents and Tool Use — 19 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Prompting vs. RAG vs. Fine-Tuning](../Study%20topics/prompting-vs-rag-vs-fine-tuning.html); [LoRA](../Study%20topics/lora.html); [Quantization](../Study%20topics/quantization.html); [Golden Datasets](../Study%20topics/golden-datasets.html); [Hard Negatives](../Study%20topics/hard-negatives.html) |
 
 <!-- applied-jobs 2026-11-12 -->
 
 
 #### 学习提示
 
-- ML 重点：MAE versus RMSE
-- ML 具体实验：Increase one prediction error from 2 to 20. Compare how MAE and RMSE change and decide which error pattern matters for a risk forecast.
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Hash Maps - 见过没有、出现几次、按算出来的 key 分组：用 dict 或 set，把"往回找"变成 O(1) 的查询。
+- Hello Interview 本周目标（热身）：了解准备顺序和 System Design、AI Coding 的基本概念。
+- Hello Interview：30 分钟阅读，60 分钟画图、写代码或重做，30 分钟整理笔记。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：复用现有 evals/datasets 样本，先人工审核 30 个 query：20 development、10 held-out；包含无答案、近似错误来源、跨来源问题。相似问题按组切分。
 - 项目如何验证：每题标 relevant section IDs、分级和理由；检查来源确实存在。held-out 不用于调参；审核未完成先不比较模型。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-04)
@@ -2214,28 +2199,27 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Sorting; Binary Search; Complexity Analysis
-- Machine Learning：[Bias-Variance; Overfitting; Regularization; Linear Regression](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · 先修：[RMSE](../Study%20topics/rmse.html)
-- System Design：[Cache and API Service](../Study%20topics/cache-and-api-service.html)
+- LeetCode Pattern：[#1 Two Pointers](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/two-pointers.md)
+- Hello Interview：基础 · [Key Technologies 和 AI Coding 入门](https://www.hellointerview.com/learn/system-design/in-a-hurry/key-technologies)
 - Project：[Risk Copilot: Metric Audit and Retrieval Baseline](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-05)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Sorting; Binary Search; Complexity Analysis 资料：[Sorting](../Study%20topics/sorting.html); [Binary Search](../Study%20topics/binary-search.html); [Complexity Analysis](../Study%20topics/complexity-analysis.html)<br>[704. Binary Search](https://leetcode.com/problems/binary-search/) · Easy ☐<br>[35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) · Easy ☐<br>[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) · Medium ☐<br>[34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) · Binary Search · Medium ☐<br>[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) · Binary Search · Medium ☐<br>[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · Binary Search · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Bias-Variance; Overfitting; Regularization; Linear Regression](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) + 先修：补读R-Squared = 1 − SSE/SST；它不同于[RMSE](../Study%20topics/rmse.html)，样本外可能为负 · 15 mins ☐<br>[Notebook](../notebook/05_bias_variance_overfitting_regularization_linear_regression.ipynb) `notebook/05_bias_variance_overfitting_regularization_linear_regression.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1261 · Diagnosing Overfitting and Cross-Validation](https://quantvault.org/problems.html?id=1261) · Machine Learning · Easy ☐<br>[#1118 · Definition and Range of R-Squared](https://quantvault.org/problems.html?id=1118) · Regression · Easy ☐<br>本次范围：Conceptual。先识别训练好、验证差的过拟合，再解释R-Squared衡量相对均值基线的拟合；Cross-Validation细节留到Day 17。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Cache and API Service](../Study%20topics/cache-and-api-service.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Metric Audit and Retrieval Baseline ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-05) |
-| 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Agents and Tool Use — 20 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Embeddings](../Study%20topics/embeddings.html); [Vector Similarity](../Study%20topics/vector-similarity.html); [Recall@k](../Study%20topics/recall-k.html); [Precision@k](../Study%20topics/precision-k.html); [MRR](../Study%20topics/mrr.html); [nDCG](../Study%20topics/ndcg.html); [Caching](../Study%20topics/caching.html); [Freshness](../Study%20topics/freshness.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#1 Two Pointers](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/two-pointers.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) · Easy ☐<br>[844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) · Easy ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview 热身 · 基础：Key Technologies 和 AI Coding 入门 ☐<br>读 Key Technologies，记下每种技术在什么场景用；读 AI Coding 的 Introduction，了解这一轮面试怎么考、怎么和 AI 协作。<br>[Key Technologies](https://www.hellointerview.com/learn/system-design/in-a-hurry/key-technologies) · [AI Coding · Introduction](https://www.hellointerview.com/learn/ai-coding/overview/introduction) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Metric Audit and Retrieval Baseline ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-05) |
+| 16:45–17:45 | Interview Questions，1 小时 | Technical Questions / Agents and Tool Use — 20 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Embeddings](../Study%20topics/embeddings.html); [Vector Similarity](../Study%20topics/vector-similarity.html); [Recall@k](../Study%20topics/recall-k.html); [Precision@k](../Study%20topics/precision-k.html); [MRR](../Study%20topics/mrr.html); [nDCG](../Study%20topics/ndcg.html); [Caching](../Study%20topics/caching.html); [Freshness](../Study%20topics/freshness.html) |
 
 <!-- applied-jobs 2026-11-13 -->
 
 #### 学习提示
 
-- ML 重点：Underfitting and overfitting
-- ML 具体实验：Change polynomial degree and alpha. Compare training versus validation errors and describe underfitting and overfitting.
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Two Pointers - 有序数组里找一对或三个数，或者原地改写数组：两个下标从两头往中间走（或者一个读一个写同向走），把 O(n²) 的双循环变成 O(n)。
+- Hello Interview：30 分钟阅读，60 分钟画图、写代码或重做，30 分钟整理笔记。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：复用 evaluation/retrieval 的 metrics/runner；核对 Recall@k、nDCG、MRR、冗余定义，以当前配置在 development 跑基线。无答案另记拒绝/误检，不混入 recall 均值。
 - 项目如何验证：手算重复 section 的 toy ranking 并核对实现；保存配置、模型、索引、数据版本、tokens 和耗时。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-05)
@@ -2782,30 +2766,29 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Hash Maps and Two Pointers: Review
-- Machine Learning：[Bias-Variance; Overfitting; Regularization; Linear Regression](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) · 先修：[Regularization](../Study%20topics/regularization.html)
-- System Design：[Cache and API Service](../Study%20topics/cache-and-api-service.html)
+- LeetCode Pattern：[#3 Sliding Window](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/sliding-window.md)
+- Hello Interview：基础 · [System Design 答题框架](https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery)
 - Project：[Risk Copilot: Chunking Experiment](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-06)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Hash Maps and Two Pointers: Review 资料：[Hash Maps](../Study%20topics/hash-maps.html); [Arrays and Strings](../Study%20topics/arrays-and-strings.html); [Two Pointers](../Study%20topics/two-pointers.html)<br>[162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) · Binary Search · Medium ☐<br>[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) · Intervals · Medium ☐<br>[57. Insert Interval](https://leetcode.com/problems/insert-interval/) · Intervals · Medium ☐<br>[228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) · Intervals · Easy ☐<br>[1. Two Sum](https://leetcode.com/problems/two-sum/) · 复习 ☐<br>[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) · 复习 ☐<br>[128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Bias-Variance; Overfitting; Regularization; Linear Regression](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) + 先修：[Regularization](../Study%20topics/regularization.html)讲义；L1可归零，L2通常缩小，alpha用验证选 · 10 mins ☐<br>[Notebook](../notebook/05_bias_variance_overfitting_regularization_linear_regression.ipynb) `notebook/05_bias_variance_overfitting_regularization_linear_regression.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1861 · Linear Regression, Ridge, and Lasso](https://quantvault.org/problems.html?id=1861) · Regression · Medium ☐<br>[#1078 · Advantages of Lasso Over Other Linear Feature Selection Methods](https://quantvault.org/problems.html?id=1078) · Machine Learning · Medium ☐<br>本次范围：Comparison。先比较OLS、Ridge与Lasso，再回答Lasso的特征选择优势及相关特征下不稳定的限制。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Cache and API Service](../Study%20topics/cache-and-api-service.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Chunking Experiment ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-06) |
-| 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Agents and Tool Use; Technical Questions / Fine-tuning and Training — 19 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Chunking](../Study%20topics/chunking.html); [Metadata](../Study%20topics/metadata.html); [Context Budgets](../Study%20topics/context-budgets.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#3 Sliding Window](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/sliding-window.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) · Easy ☐<br>[904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 01 · 基础：System Design 答题框架 ☐<br>学习 Hello Interview 的 System Design 答题框架。用短链服务写一页提纲，区分 Functional 与 Non-Functional Requirements。<br>[Delivery Framework](https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Chunking Experiment ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-06) |
+| 16:45–17:45 | Interview Questions，1 小时 | Technical Questions / Agents and Tool Use; Technical Questions / Fine-tuning and Training — 19 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Chunking](../Study%20topics/chunking.html); [Metadata](../Study%20topics/metadata.html); [Context Budgets](../Study%20topics/context-budgets.html) |
 
 <!-- applied-jobs 2026-11-16 -->
 
 
 #### 学习提示
 
-- ML 重点：Ridge regularization
-- ML 具体实验：Change polynomial degree and alpha. Compare training versus validation errors and describe underfitting and overfitting.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Sliding Window - 连续子数组或子串的最长、最短、满足某个条件：右边扩、左边缩，窗口里的统计量随进随出更新，O(n)。
+- Hello Interview 本周目标（Week 1 · 建立面试框架）：能按 Requirements → Entities → API → High-Level Design → Deep Dive 讲完一题，并跑通 AI Coding 的阅读、实现和验证流程。
+- Hello Interview：30 分钟阅读，60 分钟画图、写代码或重做，30 分钟整理笔记。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：固定 embedding、search type、k；仅比较当前 chunk 配置与一个较小/较大候选，记录大小计量单位及 overlap。每个配置重建独立索引。
 - 项目如何验证：development 同一 query 集比较 recall、nDCG、重复来源、context tokens；不追求所有指标同时上升。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-06)
@@ -3325,29 +3308,28 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: INNER JOIN, LEFT JOIN, Duplicate Rows
-- Machine Learning：[Logistic Regression; Precision; Recall; F1; Class Imbalance](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · 先修：[Logistic Regression](../Study%20topics/logistic-regression.html)
-- System Design：[Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html)
+- LeetCode Pattern：[#29 Prefix Sum](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/prefix-sum.md)
+- Hello Interview：System Design · [Design Bitly](https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly)
 - Project：[Risk Copilot: Embedding Model Experiment](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-07)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: INNER JOIN, LEFT JOIN, Duplicate Rows 资料：[JOINs](../Study%20topics/joins.html)<br>[175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) · SQL ☐<br>[577. Employee Bonus](https://leetcode.com/problems/employee-bonus/) · SQL ☐<br>[1581. Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) · SQL（有时间再做） ☐<br>[452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) · Intervals · Medium ☐<br>[14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) · Array / String · Easy ☐<br>[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) · Array / String · Easy ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Logistic Regression; Precision; Recall; F1; Class Imbalance](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) + 先修：[Logistic Regression](../Study%20topics/logistic-regression.html)；Odds = p/(1−p)，Log-odds = log(Odds) · 15 mins ☐<br>[Notebook](../notebook/06_logistic_regression_precision_recall_f1_class_imbalance.ipynb) `notebook/06_logistic_regression_precision_recall_f1_class_imbalance.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#2606 · Interpreting Logistic Regression Coefficients](https://quantvault.org/problems.html?id=2606) · Machine Learning · Medium ☐<br>本次范围：Conceptual。解释线性score→sigmoid→概率；系数影响log-odds，不能直接说概率增加相同数值。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Embedding Model Experiment ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-07) |
-| 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Fine-tuning and Training; Technical Questions / Evaluation and Metrics — 19 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Keyword / Vector / Hybrid Search](../Study%20topics/keyword-vector-hybrid-search.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#29 Prefix Sum](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/prefix-sum.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/) · Easy ☐<br>[2574. Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) · Easy ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 02 · System Design：Design Bitly ☐<br>设计创建与跳转 API，估算读写量，画出数据库和缓存，说明短码碰撞如何处理。<br>[Bitly 题解](https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly) · [Guided Practice](https://www.hellointerview.com/practice/system-design) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Embedding Model Experiment ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-07) |
+| 16:45–17:45 | Interview Questions，1 小时 | Technical Questions / Fine-tuning and Training; Technical Questions / Evaluation and Metrics — 19 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Keyword / Vector / Hybrid Search](../Study%20topics/keyword-vector-hybrid-search.html) |
 
 <!-- applied-jobs 2026-11-17 -->
 
 
 #### 学习提示
 
-- ML 重点：Logistic probabilities
-- ML 具体实验：Move the threshold from .2 to .8 and compare confusion matrices. Explain why recall here has the same coverage idea as retrieval recall but a different denominator.
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Prefix Sum - 固定数组上多次求区间和，或者数和为 k 的子数组：先算前缀和，区间和 = P[r] - P[l]，常和 hash map 一起用来计数。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：固定选定 chunk 方案和检索设置，对比当前 embedding 与一个可用替代模型；模型/维度/版本绑定独立索引和缓存。
 - 项目如何验证：确认 query/document embedding 配套、不能复用旧向量；比较相同样本的质量、构建成本与查询耗时。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-07)
@@ -3867,30 +3849,28 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Sliding Window; Prefix Sums
-- Machine Learning：[Logistic Regression; Precision; Recall; F1; Class Imbalance](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html)
-- System Design：[Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html)
+- LeetCode Pattern：[#16 Modified Binary Search](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/modified-binary-search.md)
+- Hello Interview：AI Coding · [Inventory Packer（Easy）](https://www.hellointerview.com/practice/ai-coding?format=structured)
 - Project：[Risk Copilot: MMR Experiment and Held-Out Check](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-08)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Sliding Window; Prefix Sums 资料：[Sliding Window](../Study%20topics/sliding-window.html); [Prefix Sums](../Study%20topics/prefix-sums.html)<br>[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · Medium ☐<br>[209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) · Medium ☐<br>[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) · Medium ☐<br>[27. Remove Element](https://leetcode.com/problems/remove-element/) · Array / String · Easy ☐<br>[28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) · Array / String · Easy ☐<br>[45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) · Array / String · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Logistic Regression; Precision; Recall; F1; Class Imbalance](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) + 先修：先认识Confusion Matrix：实际类别与预测类别的交叉计数 · 10 mins ☐<br>[Notebook](../notebook/06_logistic_regression_precision_recall_f1_class_imbalance.ipynb) `notebook/06_logistic_regression_precision_recall_f1_class_imbalance.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1473 · Precision and Recall in Classification](https://quantvault.org/problems.html?id=1473) · Machine Learning · Medium ☐<br>本次范围：Worked example。手算一组TP、FP、FN的Precision与Recall；改变阈值，解释误报和漏报。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: MMR Experiment and Held-Out Check ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-08) |
-| 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Evaluation and Metrics — 20 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[MMR](../Study%20topics/mmr.html); [Reranking](../Study%20topics/reranking.html); [Query Reformulation](../Study%20topics/query-reformulation.html); [Held-Out Evaluation](../Study%20topics/held-out-evaluation.html); [Redundancy](../Study%20topics/redundancy.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#16 Modified Binary Search](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/modified-binary-search.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) · Easy ☐<br>[852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 03 · AI Coding：Inventory Packer（Easy） ☐<br>读题与现有代码，先写验收样例，再用 AI 分步实现并检查边界。<br>[Structured 练习 · 选 Inventory Packer](https://www.hellointerview.com/practice/ai-coding?format=structured) · [Inventory Packer 题解](https://www.hellointerview.com/learn/ai-coding/problem-breakdowns/inventory-packer) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: MMR Experiment and Held-Out Check ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-08) |
+| 16:45–17:45 | Interview Questions，1 小时 | Technical Questions / Evaluation and Metrics — 20 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[MMR](../Study%20topics/mmr.html); [Reranking](../Study%20topics/reranking.html); [Query Reformulation](../Study%20topics/query-reformulation.html); [Held-Out Evaluation](../Study%20topics/held-out-evaluation.html); [Redundancy](../Study%20topics/redundancy.html) |
 
 <!-- applied-jobs 2026-11-18 -->
 
 
 #### 学习提示
 
-- ML 重点：Thresholds and imbalance
-- ML 具体实验：Move the threshold from .2 to .8 and compare confusion matrices. Explain why recall here has the same coverage idea as retrieval recall but a different denominator.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Modified Binary Search - 有序、旋转、单调的输入，或者在答案的范围上搜索：每次判断答案在哪一半，O(log n)；边界和终止条件要想清楚。
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：固定其他参数比较 Similarity 与 MMR，再锁定最终配置、运行 held-out 一次。检查误检和来源冗余；Hybrid/Reranking 只有发现对应失败才进入后续 backlog。
 - 项目如何验证：MMR 不保证不同来源；根据质量、成本和冗余作取舍。保存失败案例，即使没有提升也如实报告。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-08)
@@ -4432,29 +4412,28 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: Subqueries, CTEs, EXISTS
-- Machine Learning：[PR-AUC; ROC-AUC; Calibration](../Study%20topics/pr-auc-roc-auc-calibration.html) · 先修：[Precision](../Study%20topics/precision.html)、[Recall](../Study%20topics/recall.html)、[ROC-AUC](../Study%20topics/roc-auc.html)、[PR-AUC](../Study%20topics/pr-auc.html)
-- System Design：[Rate Limiting and Capacity](../Study%20topics/rate-limiting-and-capacity.html)
+- LeetCode Pattern：[#4 Merge Intervals](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/merge-intervals.md)
+- Hello Interview：System Design · [Design Dropbox](https://www.hellointerview.com/learn/system-design/problem-breakdowns/dropbox)
 - Project：[Risk Copilot: Evaluator Failures and Bounded Retries](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-09)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Subqueries, CTEs, EXISTS 资料：[Subqueries](../Study%20topics/subqueries.html); [CTEs](../Study%20topics/ctes.html); [EXISTS](../Study%20topics/exists.html)<br>[197. Rising Temperature](https://leetcode.com/problems/rising-temperature/) · SQL ☐<br>[1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/) · SQL ☐<br>[1148. Article Views I](https://leetcode.com/problems/article-views-i/) · SQL（有时间再做） ☐<br>[55. Jump Game](https://leetcode.com/problems/jump-game/) · Array / String · Medium ☐<br>[58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) · Array / String · Easy ☐<br>[80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) · Array / String · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [PR-AUC; ROC-AUC; Calibration](../Study%20topics/pr-auc-roc-auc-calibration.html) + 先修：[Precision](../Study%20topics/precision.html)、[Recall](../Study%20topics/recall.html)、[ROC-AUC](../Study%20topics/roc-auc.html)与[PR-AUC](../Study%20topics/pr-auc.html)；用每次正确收益/错误损失的小数字例子 · 15 mins ☐<br>[Notebook](../notebook/07_pr_auc_roc_auc_calibration.ipynb) `notebook/07_pr_auc_roc_auc_calibration.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1666 · Profit-Aware Classification Threshold](https://quantvault.org/problems.html?id=1666) · Machine Learning · Hard ☐<br>本次范围：Advanced: scoped calculation。只完成二分类阈值的收益/损失判断。先画PR/ROC曲线的含义，再说明排序指标不能替代决策成本。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Rate Limiting and Capacity](../Study%20topics/rate-limiting-and-capacity.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Evaluator Failures and Bounded Retries ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-09) |
-| 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / ML Fundamentals; Technical Questions / Python and Software Engineering — 19 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Agents vs. Workflows](../Study%20topics/agents-vs-workflows.html); [Function Calling](../Study%20topics/function-calling.html); [Tool Schemas](../Study%20topics/tool-schemas.html); [Termination Conditions](../Study%20topics/termination-conditions.html); [Timeouts](../Study%20topics/timeouts.html); [Backoff](../Study%20topics/backoff.html); [Rate Limiting](../Study%20topics/rate-limiting.html); [Capacity Planning](../Study%20topics/capacity-planning.html); [Fail-Open vs. Fail-Closed](../Study%20topics/fail-open-vs-fail-closed.html); [Retries](../Study%20topics/retries.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#4 Merge Intervals](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/merge-intervals.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) · Medium ☐<br>[435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 04 · System Design：Design Dropbox ☐<br>分离文件与 Metadata，画出上传、下载和同步流程，讨论冲突与失败重试。<br>[Dropbox 题解](https://www.hellointerview.com/learn/system-design/problem-breakdowns/dropbox) · [Guided Practice](https://www.hellointerview.com/practice/system-design) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Evaluator Failures and Bounded Retries ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-09) |
+| 16:45–17:45 | Interview Questions，1 小时 | Technical Questions / ML Fundamentals; Technical Questions / Python and Software Engineering — 19 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Agents vs. Workflows](../Study%20topics/agents-vs-workflows.html); [Function Calling](../Study%20topics/function-calling.html); [Tool Schemas](../Study%20topics/tool-schemas.html); [Termination Conditions](../Study%20topics/termination-conditions.html); [Timeouts](../Study%20topics/timeouts.html); [Backoff](../Study%20topics/backoff.html); [Rate Limiting](../Study%20topics/rate-limiting.html); [Capacity Planning](../Study%20topics/capacity-planning.html); [Fail-Open vs. Fail-Closed](../Study%20topics/fail-open-vs-fail-closed.html); [Retries](../Study%20topics/retries.html) |
 
 <!-- applied-jobs 2026-11-19 -->
 
 
 #### 学习提示
 
-- ML 重点：ROC and precision-recall
-- ML 具体实验：Compare raw probabilities with an overconfident monotone transformation. Check ROC-AUC and Brier score. Distinguish average precision from trapezoidal PR area.
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Merge Intervals - 区间可能重叠（会议、预订、时间段）：先按起点排序，再从左到右扫一遍，合并或者计数。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：检查 evaluator_agent 和 routing：坏 JSON、缺分、越界分数、调用异常要有明确结果；重试带拒绝原因，耗尽时阻断而非进入 risk engine。
 - 项目如何验证：mock 成功、拒绝、解析失败、超时、预算耗尽；确认没有无限循环和静默通过。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-09)
@@ -4990,29 +4969,27 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Stacks; Queues; String Parsing
-- Machine Learning：[PR-AUC; ROC-AUC; Calibration](../Study%20topics/pr-auc-roc-auc-calibration.html)
-- System Design：[Rate Limiting and Capacity](../Study%20topics/rate-limiting-and-capacity.html)
+- LeetCode Pattern：[#7 Stacks](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/stacks.md)
+- Hello Interview：复盘 · [重画 Bitly 和 Dropbox](https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly)
 - Project：[Risk Copilot: Human Approval and State Transitions](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-10)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Stacks; Queues; String Parsing 资料：[Stacks](../Study%20topics/stacks.html); [Queues](../Study%20topics/queues.html)<br>[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) · Easy ☐<br>[155. Min Stack](https://leetcode.com/problems/min-stack/) · Medium ☐<br>[232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) · Easy ☐<br>[71. Simplify Path](https://leetcode.com/problems/simplify-path/) · Stack · Medium ☐<br>[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) · Stack · Medium ☐<br>[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) · Array / String · Easy ☐<br>[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) · Array / String · Easy ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [PR-AUC; ROC-AUC; Calibration](../Study%20topics/pr-auc-roc-auc-calibration.html) + 先修：Cross Entropy衡量真实类别被赋予的概率；Brier Score是概率的平方误差。这里不要求证明 · 10 mins ☐<br>[Notebook](../notebook/07_pr_auc_roc_auc_calibration.ipynb) `notebook/07_pr_auc_roc_auc_calibration.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#3699 · MSE or Cross Entropy: Picking a Loss for a Probabilistic Classifier](https://quantvault.org/problems.html?id=3699) · Machine Learning · Medium ☐<br>本次范围：Conceptual。比较数值回归损失与概率分类损失；先读Calibration，说明校准、排序和训练目标是不同问题。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Rate Limiting and Capacity](../Study%20topics/rate-limiting-and-capacity.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Human Approval and State Transitions ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-10) |
-| 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Python and Software Engineering; Technical Questions / Infrastructure and MLOps — 20 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Agent State](../Study%20topics/agent-state.html); [LangGraph](../Study%20topics/langgraph.html); [Human-in-the-Loop](../Study%20topics/human-in-the-loop.html); [Approval Audit Trail](../Study%20topics/approval-audit-trail.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#7 Stacks](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/stacks.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[344. Reverse String](https://leetcode.com/problems/reverse-string/) · Easy ☐<br>[496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) · Easy ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 05 · 复盘：重画 Bitly 和 Dropbox ☐<br>重画 Bitly 和 Dropbox 的核心路径。各选一个遗漏的 Trade-off，练习用两分钟讲清取舍。<br>[Bitly 复盘](https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly) · [Dropbox 复盘](https://www.hellointerview.com/learn/system-design/problem-breakdowns/dropbox) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Human Approval and State Transitions ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-10) |
+| 16:45–17:45 | Interview Questions，1 小时 | Technical Questions / Python and Software Engineering; Technical Questions / Infrastructure and MLOps — 20 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Agent State](../Study%20topics/agent-state.html); [LangGraph](../Study%20topics/langgraph.html); [Human-in-the-Loop](../Study%20topics/human-in-the-loop.html); [Approval Audit Trail](../Study%20topics/approval-audit-trail.html) |
 
 <!-- applied-jobs 2026-11-20 -->
 
 #### 学习提示
 
-- ML 重点：Calibration
-- ML 具体实验：Compare raw probabilities with an overconfident monotone transformation. Check ROC-AUC and Brier score. Distinguish average precision from trapezoidal PR area.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Stacks - 括号匹配、嵌套、撤销、"最近的那个"：后进先出，遇到开括号压栈，遇到闭括号弹栈比对。
+- Hello Interview：30 分钟回顾，60 分钟画图、写代码或重做，30 分钟整理笔记。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：把 workflow.py 自动批准改为明确的 Pending / Approved / Rejected 状态；先完成单用户演示的暂停和同 run 恢复，保存批准记录。
 - 项目如何验证：未批准不能执行风险计算；拒绝终止；重复恢复不能重复副作用。多用户身份系统留待扩展，不声称已实现。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-10)
@@ -5571,29 +5548,29 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Heaps; Top-k; Priority Queues
-- Machine Learning：[Decision Trees; Random Forests; Gradient Boosting](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · 先修：[Decision Trees](../Study%20topics/decision-trees.html)
-- System Design：[Retries, Idempotency and Consistency](../Study%20topics/retries-idempotency-and-consistency.html)
+- LeetCode Pattern：[#8 Monotonic Stack](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/monotonic-stack.md)
+- Hello Interview：基础 · [Redis、缓存与限流](https://www.hellointerview.com/learn/system-design/deep-dives/redis)
 - Project：[Risk Copilot: Scenario and Report Evaluation](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-11)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Heaps; Top-k; Priority Queues 资料：[Heaps](../Study%20topics/heaps.html)<br>[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) · Medium ☐<br>[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) · Medium ☐<br>[703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) · Easy ☐<br>[373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) · Heap · Medium ☐<br>[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) · Array / String · Medium ☐<br>[134. Gas Station](https://leetcode.com/problems/gas-station/) · Array / String · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Decision Trees; Random Forests; Gradient Boosting](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) + 先修：[Decision Trees](../Study%20topics/decision-trees.html)；Boosting细节尚未学，不要求第一次完整作答 · 15 mins ☐<br>[Notebook](../notebook/08_decision_trees_random_forests_gradient_boosting.ipynb) `notebook/08_decision_trees_random_forests_gradient_boosting.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1836 · Controlling Overfitting in Decision Trees and XGBoost](https://quantvault.org/problems.html?id=1836) · Machine Learning · Medium ☐<br>本次范围：Conceptual。先讨论树深、叶子样本数与过拟合，只做Decision Tree部分；XGBoost部分留到Day 16对照。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Retries, Idempotency and Consistency](../Study%20topics/retries-idempotency-and-consistency.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Scenario and Report Evaluation ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-11) |
-| 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Infrastructure and MLOps; Technical Questions / Cost and Latency Optimization — 19 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Citations](../Study%20topics/citations.html); [Groundedness](../Study%20topics/groundedness.html); [Hallucination](../Study%20topics/hallucination.html); [LLM-as-Judge](../Study%20topics/llm-as-judge.html); [Human Calibration](../Study%20topics/human-calibration.html); [Judge Bias](../Study%20topics/judge-bias.html); [Idempotency](../Study%20topics/idempotency.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#8 Monotonic Stack](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/monotonic-stack.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) · Easy ☐<br>[2487. Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 06 · 基础：Redis、缓存与限流 ☐<br>学习 Redis、Cache-Aside、TTL、Eviction 与 Token Bucket。手算一组请求在限流窗口中的结果。<br>[Redis](https://www.hellointerview.com/learn/system-design/deep-dives/redis) · [Caching](https://www.hellointerview.com/learn/system-design/core-concepts/caching) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Scenario and Report Evaluation ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-11) |
+| 16:45–17:45 | Interview Questions，1 小时 | Technical Questions / Infrastructure and MLOps; Technical Questions / Cost and Latency Optimization — 19 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Citations](../Study%20topics/citations.html); [Groundedness](../Study%20topics/groundedness.html); [Hallucination](../Study%20topics/hallucination.html); [LLM-as-Judge](../Study%20topics/llm-as-judge.html); [Human Calibration](../Study%20topics/human-calibration.html); [Judge Bias](../Study%20topics/judge-bias.html); [Idempotency](../Study%20topics/idempotency.html) |
 
 <!-- applied-jobs 2026-11-23 -->
 
 
 #### 学习提示
 
-- ML 重点：Tree depth
-- ML 具体实验：Increase tree depth and compare train/validation errors for tree, forest and boosting. Keep dataset and split fixed.
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Monotonic Stack - 下一个（或上一个）更大或更小的元素、跨度、柱状图面积：栈里保持单调，新元素进来时弹出所有被它"解决"的元素。
+- Hello Interview 本周目标（Week 2 · 缓存、限流与 Python 测试）：能说明并发下的数据更新和缓存行为，并用 Python 测试验证 AI 生成的代码。
+- Hello Interview：30 分钟阅读，60 分钟画图、写代码或重做，30 分钟整理笔记。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：建立 10 个小型 E2E 场景：有效输入、非法单位、无支持证据、明确冲突和 evaluator 故障。用确定性 risk fixture 检查报告；保留 injection 反例。
 - 项目如何验证：报告数字、单位、方向与 engine 一致；场景约束区分硬规则和需复核假设，不把市场方向经验当普适定律。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-11)
@@ -6105,30 +6082,28 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: ROW_NUMBER, RANK, DENSE_RANK
-- Machine Learning：[Data Leakage; Scaling; scikit-learn Pipelines](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html)
-- System Design：[Retries, Idempotency and Consistency](../Study%20topics/retries-idempotency-and-consistency.html)
+- LeetCode Pattern：[#18 Top K Elements](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/top-k-elements.md)
+- Hello Interview：System Design · [Design Rate Limiter](https://www.hellointerview.com/learn/system-design/problem-breakdowns/distributed-rate-limiter)
 - Project：[Risk Copilot: Analysis API and Error Contracts](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-12)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: ROW_NUMBER, RANK, DENSE_RANK 资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html)<br>[178. Rank Scores](https://leetcode.com/problems/rank-scores/) · SQL ☐<br>[176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) · SQL ☐<br>[177. Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/) · SQL（有时间再做） ☐<br>[151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) · Array / String · Medium ☐<br>[169. Majority Element](https://leetcode.com/problems/majority-element/) · Array / String · Easy ☐<br>[189. Rotate Array](https://leetcode.com/problems/rotate-array/) · Array / String · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Data Leakage; Scaling; scikit-learn Pipelines](../Study%20topics/data-leakage-scaling-scikit-learn-pipelines.html) + 先修：Imputation：用训练数据确定填充值；Notebook示例仍保留 · 10 mins ☐<br>[Notebook](../notebook/03_data_leakage_scaling_scikit_learn_pipelines.ipynb) `notebook/03_data_leakage_scaling_scikit_learn_pipelines.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#2017 · Missing Data Imputation and Regression Pipeline](https://quantvault.org/problems.html?id=2017) · Machine Learning · Medium ☐<br>本次范围：Implementation sketch。只写缺失值处理与Scaler放入Pipeline的最小片段；验证预处理没有读取验证集。完整题不要求当日实现。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Retries, Idempotency and Consistency](../Study%20topics/retries-idempotency-and-consistency.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Analysis API and Error Contracts ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-12) |
-| 16:30–17:30 | Interview Questions，1 小时 | Technical Questions / Cost and Latency Optimization; Technical Questions / Safety and Guardrails; Coding Problems / LeetCode / Algorithm Style — 20 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[REST APIs](../Study%20topics/rest-apis.html); [FastAPI](../Study%20topics/fastapi.html); [API Tests](../Study%20topics/api-tests.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#18 Top K Elements](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/top-k-elements.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) · Medium ☐<br>[658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 07 · System Design：Design Rate Limiter ☐<br>比较 Token Bucket 与 Sliding Window，说明原子更新、热点和 Redis 故障时的行为。<br>[Rate Limiter 题解](https://www.hellointerview.com/learn/system-design/problem-breakdowns/distributed-rate-limiter) · [Guided Practice](https://www.hellointerview.com/practice/system-design) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Analysis API and Error Contracts ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-12) |
+| 16:45–17:45 | Interview Questions，1 小时 | Technical Questions / Cost and Latency Optimization; Technical Questions / Safety and Guardrails; Coding Problems / LeetCode / Algorithm Style — 20 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[REST APIs](../Study%20topics/rest-apis.html); [FastAPI](../Study%20topics/fastapi.html); [API Tests](../Study%20topics/api-tests.html) |
 
 <!-- applied-jobs 2026-11-24 -->
 
 
 #### 学习提示
 
-- ML 重点：Pipeline leakage review
-- ML 具体实验：Inspect train-only versus full-data scaler means under a shifted holdout. Add a future target as a feature only in a deliberately invalid copy and explain why the score cannot be trusted.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Top K Elements - 前 K 大、第 K 大、出现最多的 K 个：维护一个大小为 K 的堆（求前 K 大用小顶堆），O(n log k)。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：复用 workflow 建最小 FastAPI analysis 接口与 health endpoint；薄封装共享编排，不新造整套后台。审批路径通过 run ID 与现有状态衔接。
 - 项目如何验证：用 TestClient/fakes 测输入错误、成功、等待审批、拒绝和依赖失败；服务超时可见。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-12)
@@ -6771,30 +6746,28 @@ def is_anagram(left, right):
 今天学习 Topic：
 
 - 刷题：Linked Lists; LRU Cache
-- Machine Learning：[MAE; RMSE](../Study%20topics/mae-rmse.html)
-- System Design：[Latency and Observability](../Study%20topics/latency-and-observability.html)
+- LeetCode Pattern：[#10 Tree Level Order Traversal](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/tree-level-order-traversal.md)
+- Hello Interview：AI Coding · [Spell Checker（Easy）](https://www.hellointerview.com/practice/ai-coding?format=structured)
 - Project：[Risk Copilot: Tracing and Latency Baseline](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-13)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Linked Lists; LRU Cache 资料：[Linked Lists](../Study%20topics/linked-lists.html); [LRU Cache](../Study%20topics/lru-cache.html)<br>[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) · Easy ☐<br>[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) · Easy ☐<br>[146. LRU Cache](https://leetcode.com/problems/lru-cache/) · Medium ☐<br>[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) · Linked List · Medium ☐<br>[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) · Linked List · Medium ☐<br>[61. Rotate List](https://leetcode.com/problems/rotate-list/) · Linked List · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [MAE; RMSE](../Study%20topics/mae-rmse.html) + 先修：Median Regression对应中位数目标；注意它与均值OLS的差异 · 10 mins ☐<br>[Notebook](../notebook/04_mae_rmse.ipynb) `notebook/04_mae_rmse.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1625 · Median Regression vs. OLS](https://quantvault.org/problems.html?id=1625) · Regression · Medium ☐<br>本次范围：Comparison。比较MAE/Absolute Loss与MSE/Squared Loss，说明异常值为何影响不同；不要求完整Quantile Regression证明。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Latency and Observability](../Study%20topics/latency-and-observability.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Tracing and Latency Baseline ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-13) |
-| 16:30–17:30 | Interview Questions，1 小时 | Coding Problems / LeetCode / Algorithm Style; Coding Problems / OpenAI-Specific Coding; Coding Problems / Anthropic-Specific Coding; Coding Problems / ML / AI Coding — 19 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Load Testing](../Study%20topics/load-testing.html); [Logs](../Study%20topics/logs.html); [Traces](../Study%20topics/traces.html); [p50 / p95](../Study%20topics/p50-p95.html); [TTFT](../Study%20topics/ttft.html); [Latency Benchmarking](../Study%20topics/latency-benchmarking.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#10 Tree Level Order Traversal](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/tree-level-order-traversal.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) · Easy ☐<br>[107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 08 · AI Coding：Spell Checker（Easy） ☐<br>先确认匹配规则，再分步实现，覆盖空输入、大小写和未命中等边界。<br>[Structured 练习 · 选 Spell Checker](https://www.hellointerview.com/practice/ai-coding?format=structured) · [Spell Checker 题解](https://www.hellointerview.com/learn/ai-coding/problem-breakdowns/spell-checker) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Tracing and Latency Baseline ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-13) |
+| 16:45–17:45 | Interview Questions，1 小时 | Coding Problems / LeetCode / Algorithm Style; Coding Problems / OpenAI-Specific Coding; Coding Problems / Anthropic-Specific Coding; Coding Problems / ML / AI Coding — 19 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Load Testing](../Study%20topics/load-testing.html); [Logs](../Study%20topics/logs.html); [Traces](../Study%20topics/traces.html); [p50 / p95](../Study%20topics/p50-p95.html); [TTFT](../Study%20topics/ttft.html); [Latency Benchmarking](../Study%20topics/latency-benchmarking.html) |
 
 <!-- applied-jobs 2026-11-25 -->
 
 
 #### 学习提示
 
-- ML 重点：Metric sensitivity review
-- ML 具体实验：Increase one prediction error from 2 to 20. Compare how MAE and RMSE change and decide which error pattern matters for a risk forecast.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Tree Level Order Traversal - 每一层要一个答案，或者找最浅的那个：队列做 BFS，每轮先记下这一层有几个节点，再一次处理完这一层。
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：记录 run_id、各节点耗时、model/prompt版本、tokens、重试和失败；日志不记录密钥。用固定请求测冷/热路径。
 - 项目如何验证：先做 30 次离线服务实验，再按预算跑少量真实请求；两组分开报告样本数、p50/p95、错误率。小样本尾延迟只作描述。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-13)
@@ -7675,30 +7648,28 @@ def feed_forward(x, w1, b1, w2, b2):
 今天学习 Topic：
 
 - 刷题：SQL: LAG, LEAD, Rolling Aggregations
-- Machine Learning：[Bias-Variance; Overfitting; Regularization; Linear Regression](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html)
-- System Design：[Latency and Observability](../Study%20topics/latency-and-observability.html)
+- LeetCode Pattern：[#11 Tree Depth First Search](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/tree-depth-first-search.md)
+- Hello Interview：System Design · [Design Distributed Cache](https://www.hellointerview.com/learn/system-design/problem-breakdowns/distributed-cache)
 - Project：[Risk Copilot: Measured Performance Improvement](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-14)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: LAG, LEAD, Rolling Aggregations 资料：[LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html)<br>[180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) · SQL ☐<br>[550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/) · SQL ☐<br>[1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) · SQL（有时间再做） ☐<br>[82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) · Linked List · Medium ☐<br>[86. Partition List](https://leetcode.com/problems/partition-list/) · Linked List · Medium ☐<br>[92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) · Linked List · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Bias-Variance; Overfitting; Regularization; Linear Regression](../Study%20topics/bias-variance-overfitting-regularization-linear-regression.html) + 先修：Elastic Net结合L1与L2；Multicollinearity指输入特征近似线性相关 · 10 mins ☐<br>[Notebook](../notebook/05_bias_variance_overfitting_regularization_linear_regression.ipynb) `notebook/05_bias_variance_overfitting_regularization_linear_regression.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1431 · Lasso, Ridge, and Elastic Net Comparison](https://quantvault.org/problems.html?id=1431) · Regression · Medium ☐<br>[#1447 · Multicollinearity Consequences in OLS](https://quantvault.org/problems.html?id=1447) · Regression · Easy ☐<br>本次范围：Comparison。比较Lasso、Ridge与Elastic Net，结合相关特征解释系数稳定性和特征选择。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Latency and Observability](../Study%20topics/latency-and-observability.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Measured Performance Improvement ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-14) |
-| 16:30–17:30 | Interview Questions，1 小时 | Coding Problems / ML / AI Coding; Coding Problems / Practical / Data Processing; Coding Problems / Supplemental Implementation — 19 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#11 Tree Depth First Search](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/tree-depth-first-search.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) · Easy ☐<br>[113. Path Sum II](https://leetcode.com/problems/path-sum-ii/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 09 · System Design：Design Distributed Cache ☐<br>画出读写路径，解释分片、TTL、Eviction 和节点故障，讨论热点键如何缓解。<br>[Distributed Cache 题解](https://www.hellointerview.com/learn/system-design/problem-breakdowns/distributed-cache) · [Guided Practice](https://www.hellointerview.com/practice/system-design) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Measured Performance Improvement ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-14) |
+| 16:45–17:45 | Interview Questions，1 小时 | Coding Problems / ML / AI Coding; Coding Problems / Practical / Data Processing; Coding Problems / Supplemental Implementation — 19 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐ |
 
 <!-- applied-jobs 2026-11-26 -->
 
 
 #### 学习提示
 
-- ML 重点：Bias-variance review
-- ML 具体实验：Change polynomial degree and alpha. Compare training versus validation errors and describe underfitting and overfitting.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Tree Depth First Search - 每条路径要一个答案，或者祖先和后代的关系：递归 DFS，把路径上的状态往下传，把结果往上返回。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：根据昨日瓶颈只选一项：减少重复调用、限制 context、缓存静态 retrieval 或并发独立步骤。缓存 key 包含数据/index/model版本及权限范围。
 - 项目如何验证：相同请求、环境、并发下对比延迟/成本/质量/失败率；标结果缓存命中与未命中。Streaming 只在已实现时测 TTFT。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-14)
@@ -8775,29 +8746,27 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：BFS; DFS; Graph Traversal
-- Machine Learning：[Decision Trees; Random Forests; Gradient Boosting](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · 先修：[Random Forests](../Study%20topics/random-forests.html)
-- System Design：[CI/CD and AWS Deployment](../Study%20topics/ci-cd-and-aws-deployment.html)
+- LeetCode Pattern：[#12 Graphs](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/graphs.md)
+- Hello Interview：AI Coding · [Easy 练习 3](https://www.hellointerview.com/practice/ai-coding?format=structured)
 - Project：[Risk Copilot: CI and Evaluation Gates](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-15)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | BFS; DFS; Graph Traversal 资料：[Queues](../Study%20topics/queues.html); [BFS](../Study%20topics/bfs.html); [DFS](../Study%20topics/dfs.html)<br>[200. Number of Islands](https://leetcode.com/problems/number-of-islands/) · Medium ☐<br>[133. Clone Graph](https://leetcode.com/problems/clone-graph/) · Medium ☐<br>[994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) · Medium ☐<br>[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) · Graph General · Medium ☐<br>[207. Course Schedule](https://leetcode.com/problems/course-schedule/) · Graph General · Medium ☐<br>[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) · Graph General · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Decision Trees; Random Forests; Gradient Boosting](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) + 先修：[Random Forests](../Study%20topics/random-forests.html)；Bagging是重采样后组合模型 · 15 mins ☐<br>[Notebook](../notebook/08_decision_trees_random_forests_gradient_boosting.ipynb) `notebook/08_decision_trees_random_forests_gradient_boosting.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1670 · Random Forests, Bagging, and Variance Reduction](https://quantvault.org/problems.html?id=1670) · Machine Learning · Medium ☐<br>本次范围：Conceptual。解释Bagging、随机特征与树平均怎样降低方差，并指出不是所有树都独立。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [CI/CD and AWS Deployment](../Study%20topics/ci-cd-and-aws-deployment.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: CI and Evaluation Gates ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-15) |
-| 16:30–17:30 | Interview Questions，1 小时 | Coding Problems / Supplemental Implementation; System Design Questions / AI System Design — 12 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Offline / Regression Evals](../Study%20topics/offline-regression-evals.html); [CI/CD](../Study%20topics/ci-cd.html); [GitHub Actions](../Study%20topics/github-actions.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#12 Graphs](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/graphs.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) · Easy ☐<br>[547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 10 · AI Coding：Easy 练习 3 ☐<br>从题库选一道未做过的 Easy，阅读现有代码并完成最小改动。记录一个 AI 假设及其验证测试。<br>[Structured 题库 · 选未做过的 Easy](https://www.hellointerview.com/practice/ai-coding?format=structured) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: CI and Evaluation Gates ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-15) |
+| 16:45–17:45 | Interview Questions，1 小时 | Coding Problems / Supplemental Implementation; System Design Questions / AI System Design — 12 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Offline / Regression Evals](../Study%20topics/offline-regression-evals.html); [CI/CD](../Study%20topics/ci-cd.html); [GitHub Actions](../Study%20topics/github-actions.html) |
 
 <!-- applied-jobs 2026-11-27 -->
 
 #### 学习提示
 
-- ML 重点：Random forests
-- ML 具体实验：Increase tree depth and compare train/validation errors for tree, forest and boosting. Keep dataset and split fixed.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Graphs - 节点和边、能不能到达、是否连通、最少几步：先建邻接表，BFS 求最少步数，DFS 求连通，都要记 visited。
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：建立 PR workflow：ruff、unit tests、mock integration、tiny deterministic eval；真实付费 eval 独立手动触发。已知失败登记，新增回归阻断。
 - 项目如何验证：故意引入一个临时失败验证 gate，再撤销；CI 不依赖个人 .env。记录 workflow 实际运行结果。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-15)
@@ -9229,30 +9198,29 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Trees; Recursion
-- Machine Learning：[Decision Trees; Random Forests; Gradient Boosting](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) · 先修：[Gradient Boosting](../Study%20topics/gradient-boosting.html)
-- System Design：[CI/CD and AWS Deployment](../Study%20topics/ci-cd-and-aws-deployment.html)
+- LeetCode Pattern：[#24 Backtracking](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/backtracking.md)
+- Hello Interview：基础 · [队列、重试与幂等](https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler)
 - Project：[Risk Copilot: Docker and Local Release](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-16)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Trees; Recursion 资料：[BFS](../Study%20topics/bfs.html); [Trees](../Study%20topics/trees.html); [Recursion](../Study%20topics/recursion.html)<br>[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · Easy ☐<br>[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) · Medium ☐<br>[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) · Easy ☐<br>[100. Same Tree](https://leetcode.com/problems/same-tree/) · Binary Tree General · Easy ☐<br>[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) · Binary Tree General · Easy ☐<br>[105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) · Binary Tree General · Medium ☐<br>[106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) · Binary Tree General · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Decision Trees; Random Forests; Gradient Boosting](../Study%20topics/decision-trees-random-forests-gradient-boosting.html) + 先修：[Gradient Boosting](../Study%20topics/gradient-boosting.html)；逐步纠正当前损失，与独立树平均不同 · 15 mins ☐<br>[Notebook](../notebook/08_decision_trees_random_forests_gradient_boosting.ipynb) `notebook/08_decision_trees_random_forests_gradient_boosting.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1743 · Gradient Boosting vs. Random Forests, Batch Normalization, and SGD Momentum](https://quantvault.org/problems.html?id=1743) · Machine Learning · Easy ☐<br>本次范围：Comparison。只比较Random Forest与Gradient Boosting，并复习Day 11的XGBoost限制；Batch Norm和SGD Momentum作为扩展。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [CI/CD and AWS Deployment](../Study%20topics/ci-cd-and-aws-deployment.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Docker and Local Release ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-16) |
-| 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design — 9 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Docker](../Study%20topics/docker.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#24 Backtracking](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/backtracking.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[1593. Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) · Medium ☐<br>[37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) · Hard ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 11 · 基础：队列、重试与幂等 ☐<br>学习 Queue、Workers、Retries、Backoff、Idempotency 和 Dead-Letter Queue。画出任务状态图。<br>[Job Scheduler · 队列与重试](https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler) · [Managing Long Running Tasks](https://www.hellointerview.com/learn/system-design/patterns/long-running-tasks) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Docker and Local Release ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-16) |
+| 16:45–17:45 | Interview Questions，1 小时 | System Design Questions / AI System Design — 9 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Docker](../Study%20topics/docker.html) |
 
 <!-- applied-jobs 2026-11-30 -->
 
 
 #### 学习提示
 
-- ML 重点：Gradient boosting
-- ML 具体实验：Increase tree depth and compare train/validation errors for tree, forest and boosting. Keep dataset and split fixed.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Backtracking - 构造一个方案、撤销、剪掉不可能的分支：选择 → 递归 → 撤销，越早判断不可能，省下的搜索越多。
+- Hello Interview 本周目标（Week 3 · 调度、队列与依赖）：能解释 Job Scheduling 的任务生命周期，并验证依赖、重试和重复执行等边界。
+- Hello Interview：30 分钟阅读，60 分钟画图、写代码或重做，30 分钟整理笔记。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：统一可用 Docker 构建入口，排除密钥/私人文件，锁依赖；复用当前 demo 界面和 API，定义明确启动命令。
 - 项目如何验证：新环境启动镜像、health/smoke test；写明索引来源、模型配置、审批状态是否持久化。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-16)
@@ -9504,29 +9472,28 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: Window Functions; Date Queries
-- Machine Learning：[Cross-Validation; Hyperparameter Tuning](../Study%20topics/cross-validation-hyperparameter-tuning.html) · 先修：[Cross-Validation](../Study%20topics/cross-validation.html)
-- System Design：[Financial Research RAG](../Study%20topics/financial-research-rag.html)
+- LeetCode Pattern：[#20 Greedy Algorithms](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/greedy-algorithms.md)
+- Hello Interview：System Design · [Design Job Scheduler](https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler)
 - Project：[Risk Copilot: AWS Deployment Configuration](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-17)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Window Functions; Date Queries 资料：[Date Queries](../Study%20topics/date-queries.html)<br>[1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/) · SQL ☐<br>[1164. Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/) · SQL ☐<br>[1070. Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/) · SQL（有时间再做） ☐<br>[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) · Linked List · Medium ☐<br>[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) · Linked List · Easy ☐<br>[399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) · Graph General · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Cross-Validation; Hyperparameter Tuning](../Study%20topics/cross-validation-hyperparameter-tuning.html) + 先修：[Cross-Validation](../Study%20topics/cross-validation.html)；随机K-fold不能直接用于金融时间序列 · 15 mins ☐<br>[Notebook](../notebook/09_cross_validation_hyperparameter_tuning.ipynb) `notebook/09_cross_validation_hyperparameter_tuning.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1746 · Hyperparameter Selection in Machine Learning](https://quantvault.org/problems.html?id=1746) · Machine Learning · Easy ☐<br>本次范围：Conceptual。区分模型学到的Parameter与人为选择的Hyperparameter，说明Cross-Validation和最终测试的分工。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Financial Research RAG](../Study%20topics/financial-research-rag.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: AWS Deployment Configuration ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-17) |
-| 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design — 10 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Model Selection](../Study%20topics/model-selection.html); [Cloud Fundamentals](../Study%20topics/cloud-fundamentals.html); [IAM](../Study%20topics/iam.html); [Networking](../Study%20topics/networking.html); [Secrets](../Study%20topics/secrets.html); [AWS ECS Fargate](../Study%20topics/aws-ecs-fargate.html); [ECR](../Study%20topics/ecr.html); [CloudWatch](../Study%20topics/cloudwatch.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#20 Greedy Algorithms](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/greedy-algorithms.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) · Easy ☐<br>[646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 12 · System Design：Design Job Scheduler ☐<br>设计提交、调度、执行和状态查询，说明 Worker 崩溃后如何恢复，以及怎样处理重复执行。<br>[Job Scheduler 题解](https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler) · [Guided Practice](https://www.hellointerview.com/practice/system-design) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: AWS Deployment Configuration ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-17) |
+| 16:45–17:45 | Interview Questions，1 小时 | System Design Questions / AI System Design — 10 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Model Selection](../Study%20topics/model-selection.html); [Cloud Fundamentals](../Study%20topics/cloud-fundamentals.html); [IAM](../Study%20topics/iam.html); [Networking](../Study%20topics/networking.html); [Secrets](../Study%20topics/secrets.html); [AWS ECS Fargate](../Study%20topics/aws-ecs-fargate.html); [ECR](../Study%20topics/ecr.html); [CloudWatch](../Study%20topics/cloudwatch.html) |
 
 <!-- applied-jobs 2026-12-01 -->
 
 
 #### 学习提示
 
-- ML 重点：Cross-validation
-- ML 具体实验：Change alpha candidates and inspect fold-score variation. Explain why this shuffled K-fold example is not the workbench time-series validation.
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Greedy Algorithms - 排一次序以后每一步怎么选都很明显，而且不用回头：每步选当前最好的，关键是说清楚为什么局部最好就是整体最好。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：以 ECS Fargate 单任务为默认演示目标：ECR 镜像、CloudWatch 日志、执行/应用 IAM role、最小网络规则；写部署与清理步骤。首版用只读打包小索引。
 - 项目如何验证：核对容器端口、health、secret注入、权限和预计计费资源；今日先完成配置。无账号/预算则用本地演练保留待部署状态。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-17)
@@ -9804,20 +9771,20 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Practical Coding: Key-Value Store; TTL
-- Machine Learning：[Cross-Validation; Hyperparameter Tuning](../Study%20topics/cross-validation-hyperparameter-tuning.html) · 先修：[Hyperparameter Tuning](../Study%20topics/hyperparameter-tuning.html)
-- System Design：[Financial Research RAG](../Study%20topics/financial-research-rag.html)
+- LeetCode Pattern：[#22 Fibonacci Numbers](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/fibonacci-numbers.md)
+- Hello Interview：AI Coding · [Task Scheduler（Medium）](https://www.hellointerview.com/practice/ai-coding?format=structured)
 - Project：[Risk Copilot: AWS Deployment and Smoke Tests](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-18)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Practical Coding: Key-Value Store; TTL 资料：[Key-Value Store](../Study%20topics/key-value-store.html); [TTL](../Study%20topics/ttl.html)<br>[706. Design HashMap](https://leetcode.com/problems/design-hashmap/) · Easy ☐<br>[981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) · Medium ☐<br>[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) · Trie · Medium ☐<br>[211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) · Trie · Medium ☐<br>[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) · Array / String · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Cross-Validation; Hyperparameter Tuning](../Study%20topics/cross-validation-hyperparameter-tuning.html) + 先修：[Hyperparameter Tuning](../Study%20topics/hyperparameter-tuning.html)；不根据最终测试反复选择配置 · 10 mins ☐<br>[Notebook](../notebook/09_cross_validation_hyperparameter_tuning.ipynb) `notebook/09_cross_validation_hyperparameter_tuning.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1587 · Hyperparameter Tuning and Diagnosing Flat Out-of-Sample Performance](https://quantvault.org/problems.html?id=1587) · Machine Learning · Medium ☐<br>[#1676 · Ridge Regression Hyperparameter Diagnostics](https://quantvault.org/problems.html?id=1676) · Machine Learning · Medium ☐<br>本次范围：Diagnosis。面对样本外表现平坦，先判断数据、基线、alpha、样本量与验证方差，再决定是否继续调参。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Financial Research RAG](../Study%20topics/financial-research-rag.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: AWS Deployment and Smoke Tests ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-18) |
-| 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design — 10 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#22 Fibonacci Numbers](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/fibonacci-numbers.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) · Easy ☐<br>[746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) · Easy ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 13 · AI Coding：Task Scheduler（Medium） ☐<br>先梳理任务依赖与执行顺序，再实现并测试循环依赖等边界。<br>[Structured 练习 · 选 Task Scheduler](https://www.hellointerview.com/practice/ai-coding?format=structured) · [Task Scheduler 题解](https://www.hellointerview.com/learn/ai-coding/problem-breakdowns/task-scheduler) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: AWS Deployment and Smoke Tests ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-18) |
+| 16:45–17:45 | Interview Questions，1 小时 | System Design Questions / AI System Design — 10 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐ |
 
 <!-- applied-jobs 2026-12-02 -->
 
@@ -9826,10 +9793,8 @@ Follow-up
 
 #### 学习提示
 
-- ML 重点：Hyperparameter selection
-- ML 具体实验：Change alpha candidates and inspect fold-score variation. Explain why this shuffled K-fold example is not the workbench time-series validation.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Fibonacci Numbers - 每个答案由前面固定几个答案推出来（爬楼梯、打家劫舍）：先写出递推式，再用两三个变量滚动保存。
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：在个人 AWS 环境部署受限访问的 demo，先 mock 模式再按预算验证真实请求；查看 CloudWatch 错误。单实例是演示配置。
 - 项目如何验证：验证实际请求、故障日志和服务重启；本地审批状态若会丢失必须明确标限制，不能声称生产持久化/高可用。记录资源与关闭步骤。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-18)
@@ -10107,20 +10072,20 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: Transactions; Constraints; Parameterized Queries
-- Machine Learning：[Feature Engineering; Interpretability; Feature Importance](../Study%20topics/feature-engineering-interpretability-feature-importance.html) · 先修：[Feature Engineering](../Study%20topics/feature-engineering.html)
-- System Design：[RAG Evaluation and Retrieval Trade-offs](../Study%20topics/rag-evaluation-and-retrieval-trade-offs.html)
+- LeetCode Pattern：[#21 0/1 Knapsack](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/0-1-knapsack.md)
+- Hello Interview：System Design · [Design Metrics Monitoring](https://www.hellointerview.com/learn/system-design/problem-breakdowns/metrics-monitoring)
 - Project：[Risk Copilot: Controlled CD and Rollback](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-19)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Transactions; Constraints; Parameterized Queries 资料：[Transactions](../Study%20topics/transactions.html); [Constraints](../Study%20topics/constraints.html); [Parameterized Queries](../Study%20topics/parameterized-queries.html)<br>[196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) · SQL ☐<br>[602. Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) · SQL ☐<br>[1341. Movie Rating](https://leetcode.com/problems/movie-rating/) · SQL（有时间再做） ☐<br>[433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) · Graph BFS · Medium ☐<br>[909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) · Graph BFS · Medium ☐<br>[112. Path Sum](https://leetcode.com/problems/path-sum/) · Binary Tree General · Easy ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Feature Engineering; Interpretability; Feature Importance](../Study%20topics/feature-engineering-interpretability-feature-importance.html) + 先修：[Feature Engineering](../Study%20topics/feature-engineering.html)；One-Hot用多个0/1变量表示类别 · 15 mins ☐<br>[Notebook](../notebook/10_feature_engineering_interpretability_feature_importance.ipynb) `notebook/10_feature_engineering_interpretability_feature_importance.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1757 · Limitations of One-Hot Encoding](https://quantvault.org/problems.html?id=1757) · Machine Learning · Easy ☐<br>[#1964 · Feature Selection for Return Prediction](https://quantvault.org/problems.html?id=1964) · Machine Learning · Medium ☐<br>本次范围：Feature strategy。说明One-Hot Encoding的维度与未知类别问题；特征选择也必须在训练/验证流程内完成。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [RAG Evaluation and Retrieval Trade-offs](../Study%20topics/rag-evaluation-and-retrieval-trade-offs.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Controlled CD and Rollback ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-19) |
-| 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design — 10 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[OIDC](../Study%20topics/oidc.html); [Rollback](../Study%20topics/rollback.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#21 0/1 Knapsack](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/0-1-knapsack.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) · Medium ☐<br>[1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 14 · System Design：Design Metrics Monitoring ☐<br>设计指标采集、聚合、存储和告警路径，讨论高基数和迟到数据。<br>[Metrics Monitoring 题解](https://www.hellointerview.com/learn/system-design/problem-breakdowns/metrics-monitoring) · [Guided Practice](https://www.hellointerview.com/practice/system-design) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Controlled CD and Rollback ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-19) |
+| 16:45–17:45 | Interview Questions，1 小时 | System Design Questions / AI System Design — 10 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[OIDC](../Study%20topics/oidc.html); [Rollback](../Study%20topics/rollback.html) |
 
 <!-- applied-jobs 2026-12-03 -->
 
@@ -10129,9 +10094,8 @@ Follow-up
 
 #### 学习提示
 
-- ML 重点：Feature engineering
-- ML 具体实验：Duplicate the strongest feature and compare permutation importance before and after. Explain why feature importance is not a causal effect.
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：0/1 Knapsack - 每样东西拿或者不拿，受容量或目标和限制：dp[i][c] 在"不拿"和"拿"里取较好的，常常可以压成一维、倒着遍历。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：CI 后增加手动 release workflow；GitHub OIDC 获取限定 AWS role，推送有版本镜像并更新 task，部署后 smoke。保留前一 task/image/config。
 - 项目如何验证：演练回退至前版并重新 smoke；不只截图流水线成功。OIDC/IAM 未通先手动验证发布，CD 标未完成并进缓冲期。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-19)
@@ -10440,20 +10404,20 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Debugging; Code Reading; Refactoring
-- Machine Learning：[Feature Engineering; Interpretability; Feature Importance](../Study%20topics/feature-engineering-interpretability-feature-importance.html)
-- System Design：[RAG Evaluation and Retrieval Trade-offs](../Study%20topics/rag-evaluation-and-retrieval-trade-offs.html)
+- LeetCode Pattern：[#23 Palindromic Subsequence](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/palindromic-subsequence.md)
+- Hello Interview：复盘 · [调度系统故障推演](https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler)
 - Project：[Risk Copilot: Reproduction and Project Deep Dive](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-20)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Debugging; Code Reading; Refactoring 资料：[Stacks](../Study%20topics/stacks.html); [Debugging](../Study%20topics/debugging.html); [Refactoring](../Study%20topics/refactoring.html); [Code Review](../Study%20topics/code-review.html)<br>[394. Decode String](https://leetcode.com/problems/decode-string/) · Medium ☐<br>[274. H-Index](https://leetcode.com/problems/h-index/) · Array / String · Medium ☐<br>[380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) · Array / String · Medium ☐<br>[114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) · Binary Tree General · Medium ☐<br>[71. Simplify Path](https://leetcode.com/problems/simplify-path/) · 复习 ☐<br>[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Feature Engineering; Interpretability; Feature Importance](../Study%20topics/feature-engineering-interpretability-feature-importance.html) + 先修：SHAP把某个预测相对基准的差异分摊到特征，取决于所用基准与方法 · 10 mins ☐<br>[Notebook](../notebook/10_feature_engineering_interpretability_feature_importance.ipynb) `notebook/10_feature_engineering_interpretability_feature_importance.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#3080 · Feature Importance in Tree Models and What a SHAP Value Measures](https://quantvault.org/problems.html?id=3080) · Machine Learning · Medium ☐<br>本次范围：Conceptual。区分树内Importance、Permutation Importance与SHAP，说明相关特征及因果解释的限制。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [RAG Evaluation and Retrieval Trade-offs](../Study%20topics/rag-evaluation-and-retrieval-trade-offs.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Risk Copilot: Reproduction and Project Deep Dive ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-20) |
-| 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / AI System Design; System Design Questions / Traditional System Design — 9 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Clean-Environment Reproduction](../Study%20topics/clean-environment-reproduction.html); [README](../Study%20topics/readme.html); [Demo](../Study%20topics/demo.html); [AI-Assisted Code Review](../Study%20topics/ai-assisted-code-review.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#23 Palindromic Subsequence](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/palindromic-subsequence.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) · Medium ☐<br>[647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 15 · 复盘：调度系统故障推演 ☐<br>为调度系统推演超时、重复投递和 Worker 崩溃。用 Python 写一个小例子验证幂等处理，并复盘前三周的卡点。<br>[Job Scheduler · 故障恢复复盘](https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler) · [Verification and Testing](https://www.hellointerview.com/learn/ai-coding/fundamentals/verification-and-testing) |
+| 15:45–16:45 | 项目，1 小时 | Risk Copilot: Reproduction and Project Deep Dive ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-20) |
+| 16:45–17:45 | Interview Questions，1 小时 | System Design Questions / AI System Design; System Design Questions / Traditional System Design — 9 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Clean-Environment Reproduction](../Study%20topics/clean-environment-reproduction.html); [README](../Study%20topics/readme.html); [Demo](../Study%20topics/demo.html); [AI-Assisted Code Review](../Study%20topics/ai-assisted-code-review.html) |
 
 <!-- applied-jobs 2026-12-04 -->
 
@@ -10461,10 +10425,8 @@ Follow-up
 
 #### 学习提示
 
-- ML 重点：Permutation importance
-- ML 具体实验：Duplicate the strongest feature and compare permutation importance before and after. Explain why feature importance is not a causal effect.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Palindromic Subsequence - 回文，或者两个字符串逐个字符比较：dp[i][j] 表示区间 i..j（或两个前缀）的答案，从短区间推到长区间。
+- Hello Interview：30 分钟回顾，60 分钟画图、写代码或重做，30 分钟整理笔记。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：从干净环境运行最小演示与 eval，更新 README/CHANGELOG；整理一个RAG实验、一个真实故障、一个延迟取舍。
 - 项目如何验证：数字指向原始结果；标本人设计验证/AI协助实现/现成组件；删除过期“已完成”描述。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-20)
@@ -10721,20 +10683,20 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Practical Coding: API Clients; Input Validation
-- Machine Learning：[Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · 先修：[Time-Series Splits](../Study%20topics/time-series-splits.html)、[Walk-Forward Validation](../Study%20topics/walk-forward-validation.html)
-- System Design：[Financial Text-to-SQL](../Study%20topics/financial-text-to-sql.html)
+- LeetCode Pattern：[#2 Fast and Slow Pointers](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/fast-and-slow-pointers.md)
+- Hello Interview：System Design · [限时 Mock：分布式消息队列](https://www.hellointerview.com/learn/system-design/deep-dives/kafka)
 - Project：[Financial Statement Analytics Assistant: Snowflake Setup and Sample SQL](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-21)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Practical Coding: API Clients; Input Validation 资料：[API Clients](../Study%20topics/api-clients.html)<br>[165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) · Medium ☐<br>[468. Validate IP Address](https://leetcode.com/problems/validate-ip-address/) · Medium ☐<br>[36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) · Matrix · Medium ☐<br>[48. Rotate Image](https://leetcode.com/problems/rotate-image/) · Matrix · Medium ☐<br>[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) · Matrix · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) + 先修：[Time-Series Splits](../Study%20topics/time-series-splits.html)、[Walk-Forward Validation](../Study%20topics/walk-forward-validation.html) · 15 mins ☐<br>[Notebook](../notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb) `notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1939 · Cross-Validation Leakage in Financial Time Series](https://quantvault.org/problems.html?id=1939) · Machine Learning · Medium ☐<br>本次范围：Case outline。画时间轴，指出随机切分、提前标准化和重叠目标怎样造成泄漏。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Financial Text-to-SQL](../Study%20topics/financial-text-to-sql.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Snowflake Setup and Sample SQL ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-21) |
-| 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / Traditional System Design — 10 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Access Control](../Study%20topics/access-control.html); [Snowflake](../Study%20topics/snowflake.html); [Financial Statement Analytics Assistant](../Study%20topics/financial-statement-analytics-assistant.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#2 Fast and Slow Pointers](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/fast-and-slow-pointers.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) · Easy ☐<br>[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) · Easy ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 16 · System Design：限时 Mock：分布式消息队列 ☐<br>设计 Producer、Broker 和 Consumer，讲清分区内顺序、投递语义与 Backpressure。<br>[相关参考 · Kafka Deep Dive](https://www.hellointerview.com/learn/system-design/deep-dives/kafka) |
+| 15:45–16:45 | 项目，1 小时 | Financial Statement Analytics Assistant: Snowflake Setup and Sample SQL ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-21) |
+| 16:45–17:45 | Interview Questions，1 小时 | System Design Questions / Traditional System Design — 10 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Access Control](../Study%20topics/access-control.html); [Snowflake](../Study%20topics/snowflake.html); [Financial Statement Analytics Assistant](../Study%20topics/financial-statement-analytics-assistant.html) |
 
 <!-- applied-jobs 2026-12-07 -->
 
@@ -10743,9 +10705,9 @@ Follow-up
 
 #### 学习提示
 
-- ML 重点：Chronological splits
-- ML 具体实验：Change the horizon from 5 to 10 and observe which training origins are purged. Draw origin and label-end timelines. Compare expanding and fixed-width training windows.
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Fast and Slow Pointers - 链表找环、找中点、找倒数第 k 个，而且不能用额外空间：快指针一次走两步、慢指针走一步，相遇就说明有环。
+- Hello Interview 本周目标（Week 4 · 开始限时模拟）：在规定时间内完成一轮设计或实现，留出时间讲清最重要的取舍和验证结果。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：项目开始时启用个人 Snowflake 环境；用小型 TPC-H sample 练连接、JOIN、GROUP BY，设置独立 role、warehouse、auto-suspend 和查询超时。
 - 项目如何验证：能自己解释一条多表查询及其结果粒度；记录执行环境和资源设置，不复制未知生产权限。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-21)
@@ -11023,20 +10985,20 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: PostgreSQL Schema Design; Primary and Foreign Keys
-- Machine Learning：[Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html)
-- System Design：[Financial Text-to-SQL](../Study%20topics/financial-text-to-sql.html)
+- LeetCode Pattern：[#5 Cyclic Sort](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/cyclic-sort.md)
+- Hello Interview：AI Coding · [Route Planner（Medium）](https://www.hellointerview.com/practice/ai-coding?format=structured)
 - Project：[Financial Statement Analytics Assistant: SEC Ingestion and Raw Snapshots](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-22)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: PostgreSQL Schema Design; Primary and Foreign Keys 资料：[PostgreSQL Schema Design](../Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](../Study%20topics/primary-and-foreign-keys.html)<br>[1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/) · SQL ☐<br>[1251. Average Selling Price](https://leetcode.com/problems/average-selling-price/) · SQL ☐<br>[1633. Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) · SQL（有时间再做） ☐<br>[117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) · Binary Tree General · Medium ☐<br>[129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) · Binary Tree General · Medium ☐<br>[173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) · Binary Tree General · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) + 先修：Point-in-Time只使用预测时已知信息，期末日期不等于公布日期 · 10 mins ☐<br>[Notebook](../notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb) `notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#2001 · Lookahead Bias From Universe Membership Leakage](https://quantvault.org/problems.html?id=2001) · Machine Learning · Medium ☐<br>[#1980 · Handling Delayed Features in a Regression Model](https://quantvault.org/problems.html?id=1980) · Regression · Medium ☐<br>本次范围：Point-in-time audit。分别检查股票池成员和延迟发布特征；列出Observation Date、Publication Date、Prediction Date。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Financial Text-to-SQL](../Study%20topics/financial-text-to-sql.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: SEC Ingestion and Raw Snapshots ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-22) |
-| 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / Traditional System Design; System Design Questions / System Troubleshooting — 10 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[SEC Financial Data](../Study%20topics/sec-financial-data.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#5 Cyclic Sort](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/cyclic-sort.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[268. Missing Number](https://leetcode.com/problems/missing-number/) · Easy ☐<br>[448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) · Easy ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 17 · AI Coding：Route Planner（Medium） ☐<br>限时完成需求拆解、图建模和核心实现，用测试验证不可达路径和其他关键边界。<br>[Structured 练习 · 选 Route Planner](https://www.hellointerview.com/practice/ai-coding?format=structured) · [Route Planner 题解](https://www.hellointerview.com/learn/ai-coding/problem-breakdowns/route-planner) |
+| 15:45–16:45 | 项目，1 小时 | Financial Statement Analytics Assistant: SEC Ingestion and Raw Snapshots ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-22) |
+| 16:45–17:45 | Interview Questions，1 小时 | System Design Questions / Traditional System Design; System Design Questions / System Troubleshooting — 10 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[SEC Financial Data](../Study%20topics/sec-financial-data.html) |
 
 <!-- applied-jobs 2026-12-08 -->
 
@@ -11045,10 +11007,8 @@ Follow-up
 
 #### 学习提示
 
-- ML 重点：Label availability
-- ML 具体实验：Change the horizon from 5 to 10 and observe which training origins are purged. Draw origin and label-end timelines. Compare expanding and fixed-width training windows.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Cyclic Sort - 数字是 1 到 n 的连续范围，找缺失或重复的数：把每个数换到它该在的位置，再扫一遍看哪里不对。
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：限定 3 家同业公司、3 个已完成财政年度；选择 Revenue / Operating Income / Assets。获取 SEC Company Facts，保存原始快照、CIK、来源和下载时间；缺字段显式标识。
 - 项目如何验证：按SEC访问要求限速并标识客户端；tiny fixture验证解析、重复下载可重复执行，原始数据不被清洗覆盖。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-22)
@@ -11326,20 +11286,20 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Python: Async; Concurrency; Parallelism; GIL; Race Conditions
-- Machine Learning：[Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html)
-- System Design：[Text-to-SQL Evaluation and Data Quality](../Study%20topics/text-to-sql-evaluation-and-data-quality.html)
+- LeetCode Pattern：[#30 Multi-threaded](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/multi-threaded.md)
+- Hello Interview：System Design · [限时 Mock：实时行情分发](https://www.hellointerview.com/learn/system-design/patterns/realtime-updates)
 - Project：[Financial Statement Analytics Assistant: Financial Data Model and Quality Checks](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-23)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Async; Concurrency; Parallelism; GIL; Race Conditions 资料：[Async](../Study%20topics/async.html); [Concurrency](../Study%20topics/concurrency.html); [Parallelism](../Study%20topics/parallelism.html); [GIL](../Study%20topics/gil.html); [Race Conditions](../Study%20topics/race-conditions.html)<br>[1114. Print in Order](https://leetcode.com/problems/print-in-order/) · Easy ☐<br>[1115. Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/) · Medium ☐<br>[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) · Backtracking · Medium ☐<br>[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) · Backtracking · Medium ☐<br>[39. Combination Sum](https://leetcode.com/problems/combination-sum/) · Backtracking · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) + 先修：Purging排除信息区间重叠的训练样本；Embargo是额外隔离期，长度取决于标签和依赖 · 10 mins ☐<br>[Notebook](../notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb) `notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#2168 · Purged Walk-Forward Cross-Validation](https://quantvault.org/problems.html?id=2168) · Machine Learning · Hard ☐<br>本次范围：Advanced: diagram only。用时间轴解释训练标签与验证区间重叠时需要purging；只画窗口和gap，不要求完整实现。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Text-to-SQL Evaluation and Data Quality](../Study%20topics/text-to-sql-evaluation-and-data-quality.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Financial Data Model and Quality Checks ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-23) |
-| 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / System Troubleshooting; System Design Questions / Supplemental Designs — 9 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Data Quality](../Study%20topics/data-quality.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#30 Multi-threaded](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/multi-threaded.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[1116. Print Zero Even Odd](https://leetcode.com/problems/print-zero-even-odd/) · Medium ☐<br>[1117. Building H2O](https://leetcode.com/problems/building-h2o/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 18 · System Design：限时 Mock：实时行情分发 ☐<br>设计行情接入和订阅推送，讨论延迟、顺序、慢消费者及断线重连。<br>[相关参考 · Real-time Updates](https://www.hellointerview.com/learn/system-design/patterns/realtime-updates) · [Robinhood 题解](https://www.hellointerview.com/learn/system-design/problem-breakdowns/robinhood) |
+| 15:45–16:45 | 项目，1 小时 | Financial Statement Analytics Assistant: Financial Data Model and Quality Checks ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-23) |
+| 16:45–17:45 | Interview Questions，1 小时 | System Design Questions / System Troubleshooting; System Design Questions / Supplemental Designs — 9 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Data Quality](../Study%20topics/data-quality.html) |
 
 <!-- applied-jobs 2026-12-09 -->
 
@@ -11348,10 +11308,8 @@ Follow-up
 
 #### 学习提示
 
-- ML 重点：Purged walk-forward
-- ML 具体实验：Change the horizon from 5 to 10 and observe which training origins are purged. Draw origin and label-end timelines. Compare expanding and fixed-width training windows.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Multi-threaded - 多线程、执行顺序、共享状态：用锁、信号量、条件变量控制谁先谁后，重点是正确，而不是复杂度。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：建 companies、filings、financial_facts；保留 accession、filed date、period、unit、tag。定义 Revenue/Operating Margin 的年度口径和修订选择视图。
 - 项目如何验证：唯一键/单位/期间检查用查询测试，不依赖未强制执行的声明约束；duration与instant指标分开处理。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-23)
@@ -11603,20 +11561,20 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: Indexes; EXPLAIN; Query Optimization
-- Machine Learning：[Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) · 先修：[Scaling](../Study%20topics/scaling.html)
-- System Design：[Text-to-SQL Evaluation and Data Quality](../Study%20topics/text-to-sql-evaluation-and-data-quality.html)
+- LeetCode Pattern：[#6 In-place Reversal of a Linked List](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/in-place-reversal-of-a-linked-list.md)
+- Hello Interview：AI Coding · [Medium 练习 3](https://www.hellointerview.com/practice/ai-coding?format=structured)
 - Project：[Financial Statement Analytics Assistant: Reference SQL and Financial Analytics](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-24)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Indexes; EXPLAIN; Query Optimization 资料：[Indexes](../Study%20topics/indexes.html); [EXPLAIN](../Study%20topics/explain.html); [Query Optimization](../Study%20topics/query-optimization.html)<br>[1193. Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/) · SQL ☐<br>[1211. Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/) · SQL ☐<br>[185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) · SQL（有时间再做） ☐<br>[222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) · Binary Tree General · Medium ☐<br>[236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) · Binary Tree General · Medium ☐<br>[103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) · Binary Tree BFS · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons](../Study%20topics/time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons.html) + 先修：[Scaling](../Study%20topics/scaling.html)与Pipeline；只写关键伪代码，沿用本地Notebook实验 · 10 mins ☐<br>[Notebook](../notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb) `notebook/11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#2150 · Leak-Free Feature Standardization in Walk-Forward Validation](https://quantvault.org/problems.html?id=2150) · Machine Learning · Medium ☐<br>本次范围：Implementation sketch。在每个时间fold内fit预处理，只transform后续窗口；检查扩展窗口与滚动窗口差别。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Text-to-SQL Evaluation and Data Quality](../Study%20topics/text-to-sql-evaluation-and-data-quality.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Reference SQL and Financial Analytics ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-24) |
-| 16:30–17:30 | Interview Questions，1 小时 | System Design Questions / Supplemental Designs; Project Deep Dive / Opening Questions; Project Deep Dive / Follow-up Probes — 15 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Point-in-Time Data](../Study%20topics/point-in-time-data.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#6 In-place Reversal of a Linked List](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/in-place-reversal-of-a-linked-list.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) · Medium ☐<br>[2074. Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 19 · AI Coding：Medium 练习 3 ☐<br>从题库选一道未做过的 Medium，限时实现并记录一次发现 AI 错误、接管 Debug 的过程。<br>[Structured 题库 · 选未做过的 Medium](https://www.hellointerview.com/practice/ai-coding?format=structured) |
+| 15:45–16:45 | 项目，1 小时 | Financial Statement Analytics Assistant: Reference SQL and Financial Analytics ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-24) |
+| 16:45–17:45 | Interview Questions，1 小时 | System Design Questions / Supplemental Designs; Project Deep Dive / Opening Questions; Project Deep Dive / Follow-up Probes — 15 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Point-in-Time Data](../Study%20topics/point-in-time-data.html) |
 
 <!-- applied-jobs 2026-12-10 -->
 
@@ -11625,10 +11583,8 @@ Follow-up
 
 #### 学习提示
 
-- ML 重点：Expanding versus rolling windows
-- ML 具体实验：Change the horizon from 5 to 10 and observe which training origins are purged. Draw origin and label-end timelines. Compare expanding and fixed-width training windows.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：In-place Reversal of a Linked List - 原地反转整条或一段链表：用 prev、curr、next 三个指针，边走边改指向。
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：自己写年度趋势、margin计算、公司排名、同比变化查询，练CTE/JOIN/LAG；按确定的最新已申报口径计算。
 - 项目如何验证：手工核对小样本，防止JOIN膨胀；NULL不当零，零分母有显式行为；本项目不冒充point-in-time回测数据。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-24)
@@ -12036,20 +11992,20 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Practical Coding: Rate Limiter; Cache
-- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html)
-- System Design：[Agents with Human Approval](../Study%20topics/agents-with-human-approval.html)
+- LeetCode Pattern：[#13 Island (Matrix Traversal)](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/island-matrix-traversal.md)
+- Hello Interview：复盘 · [本周设计和代码复盘](https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery)
 - Project：[Financial Statement Analytics Assistant: Question Dataset and SQL Ground Truth](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-25)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Practical Coding: Rate Limiter; Cache 资料：[LRU Cache](../Study%20topics/lru-cache.html); [Rate Limiter](../Study%20topics/rate-limiter.html)<br>[622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) · Medium ☐<br>[359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) · Easy ☐<br>[46. Permutations](https://leetcode.com/problems/permutations/) · Backtracking · Medium ☐<br>[77. Combinations](https://leetcode.com/problems/combinations/) · Backtracking · Medium ☐<br>[146. LRU Cache](https://leetcode.com/problems/lru-cache/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) + 先修：Realized Variance是已实现方差；HAR组合日/周/月等历史尺度，详细估计作为扩展 · 15 mins ☐<br>[Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) `notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1978 · HAR-RV Model for Realized Variance Forecasting](https://quantvault.org/problems.html?id=1978) · Regression · Medium ☐<br>本次范围：Financial baseline outline。只解释HAR-RV使用不同历史尺度的已实现方差作输入，并定义未来目标、单位和简单基线。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Agents with Human Approval](../Study%20topics/agents-with-human-approval.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Question Dataset and SQL Ground Truth ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-25) |
-| 16:30–17:30 | Interview Questions，1 小时 | Project Deep Dive / Follow-up Probes; Project Deep Dive / Supplemental Probes — 19 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#13 Island (Matrix Traversal)](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/island-matrix-traversal.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[733. Flood Fill](https://leetcode.com/problems/flood-fill/) · Easy ☐<br>[463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) · Easy ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 20 · 复盘：本周设计和代码复盘 ☐<br>回放本周两次设计的开场和 Deep Dive，重讲一个薄弱段落。重跑本周代码测试，补一个遗漏的用例。<br>[Delivery Framework 复盘](https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery) · [Verification and Testing](https://www.hellointerview.com/learn/ai-coding/fundamentals/verification-and-testing) |
+| 15:45–16:45 | 项目，1 小时 | Financial Statement Analytics Assistant: Question Dataset and SQL Ground Truth ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-25) |
+| 16:45–17:45 | Interview Questions，1 小时 | Project Deep Dive / Follow-up Probes; Project Deep Dive / Supplemental Probes — 19 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐ |
 
 <!-- applied-jobs 2026-12-11 -->
 
@@ -12057,9 +12013,8 @@ Follow-up
 
 #### 学习提示
 
-- ML 重点：Target and baseline formula
-- ML 具体实验：Run the synthetic two-asset experiment. Change alpha only using walk-forward development folds, freeze it, then evaluate the locked final test once. Record when features and labels become available.
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Island (Matrix Traversal) - 二维网格里相邻格子连成一块（岛屿、区域）：遇到没访问过的格子就 BFS 或 DFS，把整块都标记掉。
+- Hello Interview：30 分钟回顾，60 分钟画图、写代码或重做，30 分钟整理笔记。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：建立20个问题：12 development、8 held-out，包括简单查询、时间比较、含糊口径和不支持请求；参考SQL来自上一日的正确逻辑。
 - 项目如何验证：拆分相近问法防泄漏；预期结果带排序/数值容差/空结果规则；held-out答案不放prompt。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-25)
@@ -12576,20 +12531,20 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Practical Coding: Crawler; Bounded Concurrency
-- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · 先修：[Forecast Horizons](../Study%20topics/forecast-horizons.html)、[Temporal Leakage](../Study%20topics/temporal-leakage.html)
-- System Design：[Agents with Human Approval](../Study%20topics/agents-with-human-approval.html)
+- LeetCode Pattern：[#14 Two Heaps](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/two-heaps.md)
+- Hello Interview：System Design · [限时 Mock：批量风险计算平台](https://www.hellointerview.com/learn/system-design/patterns/long-running-tasks)
 - Project：[Financial Statement Analytics Assistant: Text-to-SQL and Semantic Context](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-26)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Practical Coding: Crawler; Bounded Concurrency 资料：[Crawler](../Study%20topics/crawler.html); [Async](../Study%20topics/async.html); [Concurrency](../Study%20topics/concurrency.html)<br>[1236. Web Crawler](https://leetcode.com/problems/web-crawler/) · Medium ☐<br>[199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) · Binary Tree BFS · Medium ☐<br>[637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) · Binary Tree BFS · Easy ☐<br>[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) · Binary Search Tree · Medium ☐<br>[230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) · Binary Search Tree · Medium ☐<br>[200. Number of Islands](https://leetcode.com/problems/number-of-islands/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) + 先修：[Forecast Horizons](../Study%20topics/forecast-horizons.html)、[Temporal Leakage](../Study%20topics/temporal-leakage.html)；频率低不等于可以引用未来发布值 · 10 mins ☐<br>[Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) `notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#3103 · Combining Features With Different Update Frequencies](https://quantvault.org/problems.html?id=3103) · Machine Learning · Hard ☐<br>本次范围：Advanced: feature contract。列出日/周/月数据的发布时间、前向填充规则和缺失状态；不使用预测时不可获得的新值。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Agents with Human Approval](../Study%20topics/agents-with-human-approval.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Text-to-SQL and Semantic Context ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-26) |
-| 16:30–17:30 | Interview Questions，1 小时 | Project Deep Dive / Supplemental Probes; Behavioral Questions / Project Deep Dives; Behavioral Questions / Conflict and Collaboration — 20 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#14 Two Heaps](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/two-heaps.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[436. Find Right Interval](https://leetcode.com/problems/find-right-interval/) · Medium ☐<br>[480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) · Hard ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 21 · System Design：限时 Mock：批量风险计算平台 ☐<br>设计任务拆分、队列、Workers 和结果聚合，处理重试、部分失败与重复计算。<br>[相关参考 · Managing Long Running Tasks](https://www.hellointerview.com/learn/system-design/patterns/long-running-tasks) · [Job Scheduler 题解](https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler) |
+| 15:45–16:45 | 项目，1 小时 | Financial Statement Analytics Assistant: Text-to-SQL and Semantic Context ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-26) |
+| 16:45–17:45 | Interview Questions，1 小时 | Project Deep Dive / Supplemental Probes; Behavioral Questions / Project Deep Dives; Behavioral Questions / Conflict and Collaboration — 20 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐ |
 
 <!-- applied-jobs 2026-12-14 -->
 
@@ -12598,10 +12553,9 @@ Follow-up
 
 #### 学习提示
 
-- ML 重点：Lagged feature contract
-- ML 具体实验：Run the synthetic two-asset experiment. Change alpha only using walk-forward development folds, freeze it, then evaluate the locked final test once. Record when features and labels become available.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Two Heaps - 数据流的中位数，或者"中间那个"：大顶堆存较小的一半，小顶堆存较大的一半，保持两边个数平衡。
+- Hello Interview 本周目标（Week 5 · 金融系统场景与故障处理）：围绕延迟、一致性和可靠性做出明确取舍，并能用测试解释代码在故障或边界条件下的行为。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：首版复用熟悉的LLM API，输入允许的schema、指标口径与development示例，生成结构化query/clarification；通过Snowflake connector执行。
 - 项目如何验证：能完成一条问句→SQL→表格链路；Cortex Analyst只作后续对照，避免同时维护两个生成方案。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-26)
@@ -13139,30 +13093,28 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: Run Analytics; Percentiles; Cost Aggregation
-- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html)
-- System Design：[Agent Memory and Tool Contracts](../Study%20topics/agent-memory-and-tool-contracts.html)
+- LeetCode Pattern：[#15 Subsets](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/subsets.md)
+- Hello Interview：AI Coding · [Medium 练习 4](https://www.hellointerview.com/practice/ai-coding?format=structured)
 - Project：[Financial Statement Analytics Assistant: Query Controls and Clarification](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-27)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Run Analytics; Percentiles; Cost Aggregation 资料：[Run Analytics](../Study%20topics/run-analytics.html); [Percentiles](../Study%20topics/percentiles.html)<br>[1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) · SQL ☐<br>[1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/) · SQL ☐<br>[1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/) · SQL（有时间再做） ☐<br>[530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) · Binary Search Tree · Easy ☐<br>[73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) · Matrix · Medium ☐<br>[289. Game of Life](https://leetcode.com/problems/game-of-life/) · Matrix · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) + 先修：先复习Lasso、Walk-Forward与基线；具体预测目标使用本地Workbench契约 · 10 mins ☐<br>[Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) `notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1996 · LASSO for Return Prediction with Time-Series Validation](https://quantvault.org/problems.html?id=1996) · Regression · Hard ☐<br>本次范围：Advanced: validation outline。只设计Lasso时间序列development folds和特征缩放，不执行整套投资回测。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Agent Memory and Tool Contracts](../Study%20topics/agent-memory-and-tool-contracts.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Query Controls and Clarification ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-27) |
-| 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / Conflict and Collaboration; Behavioral Questions / Leadership and Ownership — 19 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Memory](../Study%20topics/memory.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#15 Subsets](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/subsets.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[78. Subsets](https://leetcode.com/problems/subsets/) · Medium ☐<br>[90. Subsets II](https://leetcode.com/problems/subsets-ii/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 22 · AI Coding：Medium 练习 4 ☐<br>选一道未做过的 Medium，先读懂接口和测试，再让 AI 实现一个子任务，逐步检查改动。<br>[Structured 题库 · 选未做过的 Medium](https://www.hellointerview.com/practice/ai-coding?format=structured) |
+| 15:45–16:45 | 项目，1 小时 | Financial Statement Analytics Assistant: Query Controls and Clarification ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-27) |
+| 16:45–17:45 | Interview Questions，1 小时 | Behavioral Questions / Conflict and Collaboration; Behavioral Questions / Leadership and Ownership — 19 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Memory](../Study%20topics/memory.html) |
 
 <!-- applied-jobs 2026-12-15 -->
 
 
 #### 学习提示
 
-- ML 重点：Ridge development folds
-- ML 具体实验：Run the synthetic two-asset experiment. Change alpha only using walk-forward development folds, freeze it, then evaluate the locked final test once. Record when features and labels become available.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Subsets - 生成所有子集、排列、组合：从空集开始，把每个新元素加到已有的结果上，或者用回溯一个个选或不选。
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：用Snowflake只读role限制到批准views，加statement timeout/输出行数限制/单语句检查；含糊Fiscal Year/指标定义先澄清。
 - 项目如何验证：尝试写操作、非允许表、多语句和高成本请求；权限由DB执行，SQL文本检查不是唯一防线。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-27)
@@ -13674,20 +13626,20 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Python: Vectorization; Profiling; Performance
-- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · 先修：[Hyperparameter Tuning](../Study%20topics/hyperparameter-tuning.html)
-- System Design：[Agent Memory and Tool Contracts](../Study%20topics/agent-memory-and-tool-contracts.html)
+- LeetCode Pattern：[#17 Bitwise XOR](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/bitwise-xor.md)
+- Hello Interview：System Design · [限时 Mock：交易事件处理](https://www.hellointerview.com/learn/system-design/deep-dives/kafka)
 - Project：[Financial Statement Analytics Assistant: Text-to-SQL Evaluation](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-28)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Vectorization; Profiling; Performance 资料：[Parallelism](../Study%20topics/parallelism.html); [GIL](../Study%20topics/gil.html); [Vectorization](../Study%20topics/vectorization.html); [Profiling](../Study%20topics/profiling.html)<br>[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) · Medium ☐<br>[79. Word Search](https://leetcode.com/problems/word-search/) · Backtracking · Medium ☐<br>[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) · 1D DP · Easy ☐<br>[139. Word Break](https://leetcode.com/problems/word-break/) · 1D DP · Medium ☐<br>[198. House Robber](https://leetcode.com/problems/house-robber/) · 1D DP · Medium ☐<br>[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) + 先修：先复习Ridge与[Hyperparameter Tuning](../Study%20topics/hyperparameter-tuning.html) · 10 mins ☐<br>[Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) `notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1677 · Ridge Regression Regularization in Time Series](https://quantvault.org/problems.html?id=1677) · Regression · Medium ☐<br>本次范围：Model selection。解释alpha、训练窗口、预测期限与Ridge稳定性，所有配置在development数据上选择。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Agent Memory and Tool Contracts](../Study%20topics/agent-memory-and-tool-contracts.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Text-to-SQL Evaluation ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-28) |
-| 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / Technical Decision-Making; Behavioral Questions / Failure and Learning — 19 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[MCP Fundamentals](../Study%20topics/mcp-fundamentals.html); [Text-to-SQL Evaluation](../Study%20topics/text-to-sql-evaluation.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#17 Bitwise XOR](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/bitwise-xor.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[1009. Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) · Easy ☐<br>[832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/) · Easy ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 23 · System Design：限时 Mock：交易事件处理 ☐<br>设计事件接入、持久化和消费，说明去重、重放和端到端一致性的取舍。<br>[相关参考 · Kafka Deep Dive](https://www.hellointerview.com/learn/system-design/deep-dives/kafka) · [Payment System 题解](https://www.hellointerview.com/learn/system-design/problem-breakdowns/payment-system) |
+| 15:45–16:45 | 项目，1 小时 | Financial Statement Analytics Assistant: Text-to-SQL Evaluation ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-28) |
+| 16:45–17:45 | Interview Questions，1 小时 | Behavioral Questions / Technical Decision-Making; Behavioral Questions / Failure and Learning — 19 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[MCP Fundamentals](../Study%20topics/mcp-fundamentals.html); [Text-to-SQL Evaluation](../Study%20topics/text-to-sql-evaluation.html) |
 
 <!-- applied-jobs 2026-12-16 -->
 
@@ -13696,10 +13648,8 @@ Follow-up
 
 #### 学习提示
 
-- ML 重点：Select alpha on development only
-- ML 具体实验：Run the synthetic two-asset experiment. Change alpha only using walk-forward development folds, freeze it, then evaluate the locked final test once. Record when features and labels become available.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Bitwise XOR - 除了一个以外都成对出现，并且要 O(1) 空间：a^a=0、a^0=a，全部异或一遍就只剩单独的那个。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：在development修明确错误后锁prompt，跑held-out；比较执行结果而非SQL字符串。保存query id、生成SQL、错误类型与成本/延迟。
 - 项目如何验证：检查result accuracy、clarification/refusal、无数据；评估不赢baseline也报告。8题仅是小型验证，不宣称市场级准确率。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-28)
@@ -14211,30 +14161,28 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: Time-Series Joins; Missing Dates
-- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · 先修：[Out-of-Sample Evaluation](../Study%20topics/out-of-sample-evaluation.html)
-- System Design：[AI-Assisted Experiment Platform](../Study%20topics/ai-assisted-experiment-platform.html)
+- LeetCode Pattern：[#19 K-way Merge](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/k-way-merge.md)
+- Hello Interview：AI Coding · [Medium 练习 5](https://www.hellointerview.com/practice/ai-coding?format=structured)
 - Project：[Financial Statement Analytics Assistant: Snowflake Query Performance](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-29)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Time-Series Joins; Missing Dates 资料：[LAG](../Study%20topics/lag.html); [Date Queries](../Study%20topics/date-queries.html)<br>[1148. Article Views I](https://leetcode.com/problems/article-views-i/) · SQL ☐<br>[197. Rising Temperature](https://leetcode.com/problems/rising-temperature/) · SQL ☐<br>[550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/) · SQL（有时间再做） ☐<br>[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) · 1D DP · Medium ☐<br>[322. Coin Change](https://leetcode.com/problems/coin-change/) · 1D DP · Medium ☐<br>[918. Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) · Kadane's Algorithm · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) + 先修：[Out-of-Sample Evaluation](../Study%20topics/out-of-sample-evaluation.html)；本题题名是收益，举例可迁移到波动率但不能混淆目标 · 10 mins ☐<br>[Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) `notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#2126 · Comparing Forecasting Models for Daily Asset Returns](https://quantvault.org/problems.html?id=2126) · Machine Learning · Medium ☐<br>本次范围：Evaluation protocol。比较两个预测模型前先冻结数据、日期、指标与基线；最终测试不用于反复调整。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [AI-Assisted Experiment Platform](../Study%20topics/ai-assisted-experiment-platform.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: Snowflake Query Performance ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-29) |
-| 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / Failure and Learning; Behavioral Questions / AI-Specific Behavioral; Behavioral Questions / Culture and Motivation; Behavioral Questions / AI-Conducted Interview Follow-ups — 20 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#19 K-way Merge](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/k-way-merge.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) · Medium ☐<br>[632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) · Hard ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 24 · AI Coding：Medium 练习 5 ☐<br>选一道未做过的 Medium，先用测试复现一个问题，再修复并验证相关行为。<br>[Structured 题库 · 选未做过的 Medium](https://www.hellointerview.com/practice/ai-coding?format=structured) |
+| 15:45–16:45 | 项目，1 小时 | Financial Statement Analytics Assistant: Snowflake Query Performance ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-29) |
+| 16:45–17:45 | Interview Questions，1 小时 | Behavioral Questions / Failure and Learning; Behavioral Questions / AI-Specific Behavioral; Behavioral Questions / Culture and Motivation; Behavioral Questions / AI-Conducted Interview Follow-ups — 20 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐ |
 
 <!-- applied-jobs 2026-12-17 -->
 
 
 #### 学习提示
 
-- ML 重点：Freeze configuration and final test
-- ML 具体实验：Run the synthetic two-asset experiment. Change alpha only using walk-forward development folds, freeze it, then evaluate the locked final test once. Record when features and labels become available.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：K-way Merge - 把好几个有序列表合并成一个：每个列表的第一个放进小顶堆，每次取出最小的，再补进它后面那个。
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：选一条扫描量较大的查询读Query Profile，比较过滤/预聚合或修正JOIN前后的结果、扫描量与耗时，记录warehouse和cache状态。
 - 项目如何验证：结果保持一致；多次重复并区分result cache，不直接把缓存加速归因SQL优化；练实际query profiling。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-29)
@@ -14772,29 +14720,27 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Coding Review: Mixed Python Patterns
-- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html)
-- System Design：[AI-Assisted Experiment Platform](../Study%20topics/ai-assisted-experiment-platform.html)
+- LeetCode Pattern：[#25 Trie](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/trie.md)
+- Hello Interview：复盘 · [重做最弱的 Deep Dive](https://www.hellointerview.com/learn/system-design/deep-dives/kafka)
 - Project：[Financial Statement Analytics Assistant: CI and Reproducible Demo](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-30)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Coding Review: Mixed Python Patterns 资料：[Complexity Analysis](../Study%20topics/complexity-analysis.html); [Sliding Window](../Study%20topics/sliding-window.html); [Heaps](../Study%20topics/heaps.html); [BFS](../Study%20topics/bfs.html); [DFS](../Study%20topics/dfs.html); [Trees](../Study%20topics/trees.html)<br>[9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) · Math · Easy ☐<br>[50. Pow(x, n)](https://leetcode.com/problems/powx-n/) · Math · Medium ☐<br>[66. Plus One](https://leetcode.com/problems/plus-one/) · Math · Easy ☐<br>[69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) · Math · Easy ☐<br>[172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) · Math · Medium ☐<br>[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · 复习 ☐<br>[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) · 复习 ☐<br>[200. Number of Islands](https://leetcode.com/problems/number-of-islands/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) + 先修：Residual：实际值减预测值；核对同一时期和信息可用时间 · 10 mins ☐<br>[Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) `notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1937 · Cross-Sectional Factor Model Estimation and Diagnostics](https://quantvault.org/problems.html?id=1937) · Regression · Medium ☐<br>本次范围：Case outline。只讨论资产切片、数据口径与回归残差诊断；完整横截面因子模型作为扩展。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [AI-Assisted Experiment Platform](../Study%20topics/ai-assisted-experiment-platform.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Financial Statement Analytics Assistant: CI and Reproducible Demo ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-30) |
-| 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / AI-Conducted Interview Follow-ups; Behavioral Questions / Supplemental Behavioral — 19 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#25 Trie](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/trie.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[2707. Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) · Medium ☐<br>[1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 25 · 复盘：重做最弱的 Deep Dive ☐<br>重做本周最薄弱的设计 Deep Dive，口述一个故障恢复流程。回看代码，删掉不必要的复杂度并重跑测试。<br>[相关参考 · Kafka 故障处理](https://www.hellointerview.com/learn/system-design/deep-dives/kafka) · [Verification and Testing](https://www.hellointerview.com/learn/ai-coding/fundamentals/verification-and-testing) |
+| 15:45–16:45 | 项目，1 小时 | Financial Statement Analytics Assistant: CI and Reproducible Demo ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-30) |
+| 16:45–17:45 | Interview Questions，1 小时 | Behavioral Questions / AI-Conducted Interview Follow-ups; Behavioral Questions / Supplemental Behavioral — 19 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐ |
 
 <!-- applied-jobs 2026-12-18 -->
 
 #### 学习提示
 
-- ML 重点：Asset slices and baseline comparison
-- ML 具体实验：Run the synthetic two-asset experiment. Change alpha only using walk-forward development folds, freeze it, then evaluate the locked final test once. Record when features and labels become available.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Trie - 按前缀查字典、自动补全：每个节点存一个字符，沿着路径往下走就是前缀查询，O(单词长度)。
+- Hello Interview：30 分钟回顾，60 分钟画图、写代码或重做，30 分钟整理笔记。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：加离线parser/SQL fixture/guardrail tests到CI；真实Snowflake integration与LLM eval手动触发。整理小型UI或CLI及建库/导入/运行命令。
 - 项目如何验证：从快照重建数据，演示正确查询、澄清和拒绝三条路径；保存录屏与Snowflake query证据。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-30)
@@ -15311,30 +15257,29 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Python: Progressive Implementation Problems
-- Machine Learning：[Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) · 先修：[Reproducibility](../Study%20topics/reproducibility.html)、[Model Versioning](../Study%20topics/model-versioning.html)
-- System Design：[Volatility Forecasting Service](../Study%20topics/volatility-forecasting-service.html)
+- LeetCode Pattern：[#26 Topological Sort](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/topological-sort.md)
+- Hello Interview：System Design · [限时 Mock：Design Job Scheduler 重做](https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler)
 - Project：[Investment Research Workbench: Research Contract and Market Data](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-31)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Progressive Implementation Problems 资料：[LRU Cache](../Study%20topics/lru-cache.html); [Key-Value Store](../Study%20topics/key-value-store.html); [TTL](../Study%20topics/ttl.html)<br>[2408. Design SQL](https://leetcode.com/problems/design-sql/) · Medium ☐<br>[67. Add Binary](https://leetcode.com/problems/add-binary/) · Bit Manipulation · Easy ☐<br>[136. Single Number](https://leetcode.com/problems/single-number/) · Bit Manipulation · Easy ☐<br>[137. Single Number II](https://leetcode.com/problems/single-number-ii/) · Bit Manipulation · Medium ☐<br>[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) · Bit Manipulation · Easy ☐<br>[981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) · 复习 ☐<br>[146. LRU Cache](https://leetcode.com/problems/lru-cache/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Volatility Forecasting; Out-of-Sample Evaluation](../Study%20topics/volatility-forecasting-out-of-sample-evaluation.html) + 先修：[Reproducibility](../Study%20topics/reproducibility.html)、[Model Versioning](../Study%20topics/model-versioning.html)；本地Notebook继续承担数值实验 · 10 mins ☐<br>[Notebook](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) `notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1953 · End-to-End Prediction Modeling Pipeline](https://quantvault.org/problems.html?id=1953) · Machine Learning · Medium ☐<br>本次范围：Case outline: second pass。补齐数据契约、实验追踪、模型产物、推理一致性、监控与回滚，复用Day 03的流程。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Volatility Forecasting Service](../Study%20topics/volatility-forecasting-service.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Research Contract and Market Data ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-31)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 16:30–17:30 | Interview Questions，1 小时 | Behavioral Questions / Supplemental Behavioral; Take-Home Assignments / RAG / Chatbot Systems; Take-Home Assignments / Agent Systems — 15 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Experiment Tracking](../Study%20topics/experiment-tracking.html); [Investment Research Workbench](../Study%20topics/investment-research-workbench.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#26 Topological Sort](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/topological-sort.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) · Medium ☐<br>[2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 26 · System Design：限时 Mock：Design Job Scheduler 重做 ☐<br>独立完成全流程，加入优先级或延迟执行，并对照 Day 12 的遗漏。<br>[Job Scheduler 题解](https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler) · [Guided Practice](https://www.hellointerview.com/practice/system-design) |
+| 15:45–16:45 | 项目，1 小时 | Investment Research Workbench: Research Contract and Market Data ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-31)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 16:45–17:45 | Interview Questions，1 小时 | Behavioral Questions / Supplemental Behavioral; Take-Home Assignments / RAG / Chatbot Systems; Take-Home Assignments / Agent Systems — 15 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Experiment Tracking](../Study%20topics/experiment-tracking.html); [Investment Research Workbench](../Study%20topics/investment-research-workbench.html) |
 
 <!-- applied-jobs 2026-12-21 -->
 
 
 #### 学习提示
 
-- ML 重点：Notebook-to-tool contract
-- ML 具体实验：Run the synthetic two-asset experiment. Change alpha only using walk-forward development folds, freeze it, then evaluate the locked final test once. Record when features and labels become available.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Topological Sort - 先修课、依赖关系、合法的构建顺序：统计入度，入度为 0 的先入队，BFS 一个个删边；最后还有没处理的说明有环。
+- Hello Interview 本周目标（Week 6 · 完整模拟与收尾）：完成最后两次独立设计和两道 AI Coding 练习，检查能否稳定地按时完成并解释结果。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：Freeze ExperimentConfig for two assets, a five-day forecast horizon, feature timing, baseline and Ridge. Reuse the ML notebook and record data/code versions; the synthetic fixture is not market-performance evidence.
 - 项目如何验证：核对许可/缺失/重复/时区；signal只用当时可得信息。保存fixture与data hash，声明小样本不代表投资价值。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-31)
@@ -15742,29 +15687,28 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: Integrated Query Practice
-- Machine Learning：[Regime Changes; Statistical Uncertainty; Prediction Intervals](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · 先修：[Regime Changes](../Study%20topics/regime-changes.html)
-- System Design：[Volatility Forecasting Service](../Study%20topics/volatility-forecasting-service.html)
+- LeetCode Pattern：[#27 Union Find](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/union-find.md)
+- Hello Interview：AI Coding · [Medium 练习 6](https://www.hellointerview.com/practice/ai-coding?format=structured)
 - Project：[Investment Research Workbench: Deterministic Research Tools](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-32)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Integrated Query Practice 资料：[JOINs](../Study%20topics/joins.html); [GROUP BY](../Study%20topics/group-by.html)<br>[1075. Project Employees I](https://leetcode.com/problems/project-employees-i/) · SQL ☐<br>[1280. Students and Examinations](https://leetcode.com/problems/students-and-examinations/) · SQL ☐<br>[1193. Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/) · SQL（有时间再做） ☐<br>[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) · Bit Manipulation · Easy ☐<br>[201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) · Bit Manipulation · Medium ☐<br>[108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) · Divide & Conquer · Easy ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Regime Changes; Statistical Uncertainty; Prediction Intervals](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) + 先修：[Regime Changes](../Study%20topics/regime-changes.html)；模型能输出数值不等于有有效外推依据 · 15 mins ☐<br>[Notebook](../notebook/13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb) `notebook/13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb` · 20 mins ☐<br>QuantVault Practice · 10 mins：[#1465 · Out-of-Distribution Prediction: Dog Weight Regression](https://quantvault.org/problems.html?id=1465) · Machine Learning · Easy ☐<br>本次范围：Conceptual。解释Distribution Shift与Extrapolation，训练范围外的输入为何可能失效，连接金融Regime Change。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Volatility Forecasting Service](../Study%20topics/volatility-forecasting-service.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Deterministic Research Tools ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-32)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Agent Systems; Take-Home Assignments / Multi-Agent Systems — 13 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#27 Union Find](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/union-find.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) · Medium ☐<br>[785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 27 · AI Coding：Medium 练习 6 ☐<br>选一道未做过的 Structured Medium，按面试节奏完成需求确认、实现、测试和代码讲解。<br>[Structured 题库 · 选未做过的 Medium](https://www.hellointerview.com/practice/ai-coding?format=structured) |
+| 15:45–16:45 | 项目，1 小时 | Investment Research Workbench: Deterministic Research Tools ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-32)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 16:45–17:45 | Interview Questions，1 小时 | Take-Home Assignments / Agent Systems; Take-Home Assignments / Multi-Agent Systems — 13 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐ |
 
 <!-- applied-jobs 2026-12-22 -->
 
 
 #### 学习提示
 
-- ML 重点：Regime changes
-- ML 具体实验：Increase block length and compare paired-error confidence intervals. Calibrate a residual interval on the early regime and measure its coverage after the shift.
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Union Find - 一边不断加连接，一边问是否连通、分成几组：find 找根（路径压缩），union 合并两个根，几乎 O(1)。
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：Extract train/evaluate/predict functions from the completed ML notebook. Preserve train-only preprocessing and label_end purging; test baseline and Ridge on identical prediction dates.
 - 项目如何验证：用手算tiny series测零信号、常价格、成本、错位；明确close-to-close执行简化，不宣称真实可成交。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-32)
@@ -16120,20 +16064,20 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Python: Embedding Debugging; Cosine Similarity
-- Machine Learning：[Regime Changes; Statistical Uncertainty; Prediction Intervals](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) · 先修：[Prediction Intervals](../Study%20topics/prediction-intervals.html)
-- System Design：[Evaluation and Regression Pipeline](../Study%20topics/evaluation-and-regression-pipeline.html)
+- LeetCode Pattern：[#28 Ordered Set](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/ordered-set.md)
+- Hello Interview：System Design · [最终 Mock](https://www.hellointerview.com/practice/system-design)
 - Project：[Investment Research Workbench: Experiment API and Persistent Runs](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-33)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Embedding Debugging; Cosine Similarity 资料：[Debugging](../Study%20topics/debugging.html); [Vectorization](../Study%20topics/vectorization.html)<br>[973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) · Medium ☐<br>[148. Sort List](https://leetcode.com/problems/sort-list/) · Divide & Conquer · Medium ☐<br>[427. Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/) · Divide & Conquer · Medium ☐<br>[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) · Multidimensional DP · Medium ☐<br>[63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) · Multidimensional DP · Medium ☐<br>[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Regime Changes; Statistical Uncertainty; Prediction Intervals](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) + 先修：[Prediction Intervals](../Study%20topics/prediction-intervals.html)；置信区间描述估计参数不确定性，预测区间还含新观测噪声 · 10 mins ☐<br>[Notebook](../notebook/13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb) `notebook/13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1867 · OLS Coefficient Confidence Intervals](https://quantvault.org/problems.html?id=1867) · Regression · Medium ☐<br>本次范围：Uncertainty comparison。区分系数Confidence Interval与单次未来结果Prediction Interval；只说明假设与不同对象，不完成整题证明。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Evaluation and Regression Pipeline](../Study%20topics/evaluation-and-regression-pipeline.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Experiment API and Persistent Runs ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-33)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / LLM-as-Judge / Evaluation; Take-Home Assignments / Document Extraction and Processing — 13 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Prediction Intervals](../Study%20topics/prediction-intervals.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#28 Ordered Set](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/ordered-set.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[2363. Merge Similar Items](https://leetcode.com/problems/merge-similar-items/) · Easy ☐<br>[456. 132 Pattern](https://leetcode.com/problems/132-pattern/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 28 · System Design：最终 Mock ☐<br>选一道未做过的 Medium 题，限时完成从 Requirements 到 Deep Dive 的完整流程，再对照参考设计评分。<br>[System Design 题库 · 选未做过的 Medium](https://www.hellointerview.com/practice/system-design) |
+| 15:45–16:45 | 项目，1 小时 | Investment Research Workbench: Experiment API and Persistent Runs ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-33)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 16:45–17:45 | Interview Questions，1 小时 | Take-Home Assignments / LLM-as-Judge / Evaluation; Take-Home Assignments / Document Extraction and Processing — 13 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Prediction Intervals](../Study%20topics/prediction-intervals.html) |
 
 <!-- applied-jobs 2026-12-23 -->
 
@@ -16142,10 +16086,8 @@ Follow-up
 
 #### 学习提示
 
-- ML 重点：Prediction interval coverage
-- ML 具体实验：Increase block length and compare paired-error confidence intervals. Calibrate a residual interval on the early regime and measure its coverage after the shift.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Ordered Set - 在不断变化的集合里找比某个值大或小的最近值：用有序结构（Python 用 SortedList 或 bisect），插入和查找 O(log n)。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：Persist experiment configuration, model artifact reference, metrics and predictions with data/code/model versions. Insert run and outbox atomically; unique keys prevent duplicate logical publication.
 - 项目如何验证：重复提交复用run；API重启后状态仍在；run与待投递任务同事务，先用本地数据库和fake queue。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-33)
@@ -16501,30 +16443,28 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: Financial Analytics; Window Functions Review
-- Machine Learning：[Regime Changes; Statistical Uncertainty; Prediction Intervals](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html)
-- System Design：[Evaluation and Regression Pipeline](../Study%20topics/evaluation-and-regression-pipeline.html)
+- LeetCode Pattern：[#31 Counting](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/counting.md)
+- Hello Interview：AI Coding · [最终 Open-Ended 练习](https://www.hellointerview.com/practice/ai-coding)
 - Project：[Investment Research Workbench: Queue and Worker Execution](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-34)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Financial Analytics; Window Functions Review 资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html); [LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html); [Financial Analytics](../Study%20topics/financial-analytics.html)<br>[185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) · SQL ☐<br>[1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) · SQL ☐<br>[1341. Movie Rating](https://leetcode.com/problems/movie-rating/) · SQL（有时间再做） ☐<br>[64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) · Multidimensional DP · Medium ☐<br>[72. Edit Distance](https://leetcode.com/problems/edit-distance/) · Multidimensional DP · Medium ☐<br>[97. Interleaving String](https://leetcode.com/problems/interleaving-string/) · Multidimensional DP · Medium ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Regime Changes; Statistical Uncertainty; Prediction Intervals](../Study%20topics/regime-changes-statistical-uncertainty-prediction-intervals.html) + 先修：先认识Autocorrelation；本题只分析依赖和评价假设，GLS推导作为扩展 · 10 mins ☐<br>[Notebook](../notebook/13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb) `notebook/13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1638 · OLS with Correlated Errors](https://quantvault.org/problems.html?id=1638) · Regression · Medium ☐<br>本次范围：Conceptual。说明残差相关时独立样本标准误为何不可靠，连接区块估计与配对比较。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Evaluation and Regression Pipeline](../Study%20topics/evaluation-and-regression-pipeline.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Queue and Worker Execution ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-34)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Document Extraction and Processing; Take-Home Assignments / Voice AI and Conversational Systems; Take-Home Assignments / Full-Stack AI Applications — 13 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Online Feedback](../Study%20topics/online-feedback.html); [Workers](../Study%20topics/workers.html); [Backpressure](../Study%20topics/backpressure.html); [Queues and Workers](../Study%20topics/queues-and-workers.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#31 Counting](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/counting.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[3005. Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) · Easy ☐<br>[1854. Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) · Easy ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 29 · AI Coding：最终 Open-Ended 练习 ☐<br>选一道新题，用 Python 和自己的 AI 工具完成，保留关键 Prompt、测试结果和 Debug 记录。<br>[AI Coding 练习 · 选择 Open-Ended](https://www.hellointerview.com/practice/ai-coding) |
+| 15:45–16:45 | 项目，1 小时 | Investment Research Workbench: Queue and Worker Execution ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-34)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 16:45–17:45 | Interview Questions，1 小时 | Take-Home Assignments / Document Extraction and Processing; Take-Home Assignments / Voice AI and Conversational Systems; Take-Home Assignments / Full-Stack AI Applications — 13 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Online Feedback](../Study%20topics/online-feedback.html); [Workers](../Study%20topics/workers.html); [Backpressure](../Study%20topics/backpressure.html); [Queues and Workers](../Study%20topics/queues-and-workers.html) |
 
 <!-- applied-jobs 2026-12-24 -->
 
 
 #### 学习提示
 
-- ML 重点：Paired block uncertainty
-- ML 具体实验：Increase block length and compare paired-error confidence intervals. Calibrate a residual interval on the early regime and measure its coverage after the shift.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Counting - 频率、字母异位词、重复、多数元素：用 Counter 或固定大小的数组计数，再根据计数回答。
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：Run bounded train/evaluate/predict jobs in a worker. Retain the completed notebook outputs as the numerical reference; persist status and artifacts before acknowledgment.
 - 项目如何验证：HTTP先返回run ID，Worker写result后更新终态；可重复投递但结果幂等。LLM仍未加入，先验证执行链路。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-34)
@@ -16880,20 +16820,20 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Python: Logistic Regression with NumPy; Shape Checks
-- Machine Learning：[Logistic Regression; Precision; Recall; F1; Class Imbalance](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) · 先修：[NumPy Logistic Regression](../Study%20topics/numpy-logistic-regression.html)
-- System Design：[AI Latency and Cost Budget](../Study%20topics/ai-latency-and-cost-budget.html)
+- LeetCode Pattern：[#32 Monotonic Queue](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/monotonic-queue.md)
+- Hello Interview：复盘 · [6 周总复盘](https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery)
 - Project：[Investment Research Workbench: Retries, Timeouts and Worker Failure](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-35)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Logistic Regression with NumPy; Shape Checks 资料：[Vectorization](../Study%20topics/vectorization.html); [NumPy Logistic Regression](../Study%20topics/numpy-logistic-regression.html)<br>[120. Triangle](https://leetcode.com/problems/triangle/) · Multidimensional DP · Medium ☐<br>[221. Maximal Square](https://leetcode.com/problems/maximal-square/) · Multidimensional DP · Medium ☐<br>[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) · Array / String · Hard ☐<br>[68. Text Justification](https://leetcode.com/problems/text-justification/) · Array / String · Hard ☐<br>[1. Two Sum](https://leetcode.com/problems/two-sum/) · 复习 ☐<br>[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Logistic Regression; Precision; Recall; F1; Class Imbalance](../Study%20topics/logistic-regression-precision-recall-f1-class-imbalance.html) + 先修：复习[Day 07](#day-07)、[Day 10](#day-10)；先看本地[NumPy Logistic Regression](../Study%20topics/numpy-logistic-regression.html) · 10 mins ☐<br>[Notebook](../notebook/06_logistic_regression_precision_recall_f1_class_imbalance.ipynb) `notebook/06_logistic_regression_precision_recall_f1_class_imbalance.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#2000 · Logistic Regression: Log-Likelihood, Gradient, and Threshold Selection](https://quantvault.org/problems.html?id=2000) · Regression · Medium ☐<br>本次范围：Derivation sketch。用已学sigmoid和交叉熵写梯度关键步骤，再说明概率与阈值的分工；不要求完整Hessian。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [AI Latency and Cost Budget](../Study%20topics/ai-latency-and-cost-budget.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Retries, Timeouts and Worker Failure ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-35)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Full-Stack AI Applications — 13 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Streaming](../Study%20topics/streaming.html); [Token Usage](../Study%20topics/token-usage.html); [Semantic Caching](../Study%20topics/semantic-caching.html); [Model Routing](../Study%20topics/model-routing.html); [Cost-Quality Trade-offs](../Study%20topics/cost-quality-trade-offs.html); [Graceful Degradation](../Study%20topics/graceful-degradation.html); [Failure Recovery](../Study%20topics/failure-recovery.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#32 Monotonic Queue](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/monotonic-queue.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) · Medium ☐<br>[2944. Minimum Number of Coins for Fruits](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview Day 30 · 复盘：6 周总复盘 ☐<br>核对 12 次设计、10 题 Coding 和 8 天基础或复盘。各选一道代表题，口述设计取舍或代码验证过程，记录仍需改进的点。<br>[Delivery Framework](https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery) · [AI Coding · Communication](https://www.hellointerview.com/learn/ai-coding/fundamentals/communication) |
+| 15:45–16:45 | 项目，1 小时 | Investment Research Workbench: Retries, Timeouts and Worker Failure ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-35)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 16:45–17:45 | Interview Questions，1 小时 | Take-Home Assignments / Full-Stack AI Applications — 13 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐<br>当日概念索引（按需）：[Streaming](../Study%20topics/streaming.html); [Token Usage](../Study%20topics/token-usage.html); [Semantic Caching](../Study%20topics/semantic-caching.html); [Model Routing](../Study%20topics/model-routing.html); [Cost-Quality Trade-offs](../Study%20topics/cost-quality-trade-offs.html); [Graceful Degradation](../Study%20topics/graceful-degradation.html); [Failure Recovery](../Study%20topics/failure-recovery.html) |
 
 <!-- applied-jobs 2026-12-25 -->
 
@@ -16901,10 +16841,8 @@ Follow-up
 
 #### 学习提示
 
-- ML 重点：Logistic gradient review
-- ML 具体实验：Move the threshold from .2 to .8 and compare confusion matrices. Explain why recall here has the same coverage idea as retrieval recall but a different denominator.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Monotonic Queue - 滑动窗口里还要随时知道最大或最小值：双端队列保持单调，队头就是当前窗口的最值，O(n)。
+- Hello Interview：30 分钟回顾，60 分钟画图、写代码或重做，30 分钟整理笔记。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：Inject duplicate delivery and worker crashes around result commit. Verify no duplicate published predictions; reject unavailable labels and invalid feature schemas.
 - 项目如何验证：确认已提交结果不会重复生效、超时有终态、lease过期可恢复；单Worker是故障实验，不声称验证大规模吞吐。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-35)
@@ -17265,29 +17203,29 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Python: Timed Coding Mock
-- Machine Learning：[Reproducibility; Model Versioning; Serving; Rollback](../Study%20topics/reproducibility-model-versioning-serving-rollback.html)
-- System Design：[AI Latency and Cost Budget](../Study%20topics/ai-latency-and-cost-budget.html)
+- LeetCode Pattern：[#33 Simulation](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/simulation.md)
+- Hello Interview：System Design · [新题：限时 Mock](https://www.hellointerview.com/practice/system-design)
 - Project：[Investment Research Workbench: AI Experiment Planning and Tool Calling](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-36)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Timed Coding Mock 资料：[Binary Search](../Study%20topics/binary-search.html); [Prefix Sums](../Study%20topics/prefix-sums.html); [Recursion](../Study%20topics/recursion.html)<br>[135. Candy](https://leetcode.com/problems/candy/) · Array / String · Hard ☐<br>[30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) · Sliding Window · Hard ☐<br>[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) · Sliding Window · Hard ☐<br>[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) · 复习 ☐<br>[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) · 复习 ☐<br>[200. Number of Islands](https://leetcode.com/problems/number-of-islands/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Reproducibility; Model Versioning; Serving; Rollback](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) + 先修：EDA是Exploratory Data Analysis；完整网站Coding题不作为额外算法刷题 · 10 mins ☐<br>[Notebook](../notebook/14_reproducibility_model_versioning_serving_rollback.ipynb) `notebook/14_reproducibility_model_versioning_serving_rollback.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1736 · End-to-End EDA and Linear Regression Pipeline](https://quantvault.org/problems.html?id=1736) · Machine Learning · Medium ☐<br>本次范围：Case outline。只形成EDA→缺失处理→切分→Pipeline→指标→版本化产物的方案，明确训练与服务使用同一变换。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [AI Latency and Cost Budget](../Study%20topics/ai-latency-and-cost-budget.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: AI Experiment Planning and Tool Calling ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-36)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Full-Stack AI Applications; Take-Home Assignments / Company Product Integration; Take-Home Assignments / Performance / Optimization; Take-Home Assignments / OpenAI-Specific; Take-Home Assignments / Red Flags (Unreasonable Assignments); Take-Home Assignments / RAG and Document Q&A — 13 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Reproducibility](../Study%20topics/reproducibility.html); [Model Versioning](../Study%20topics/model-versioning.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#33 Simulation](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/simulation.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[1518. Water Bottles](https://leetcode.com/problems/water-bottles/) · Easy ☐<br>[885. Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview 加练 · System Design：新题：限时 Mock ☐<br>从题库选一道没做过的 Medium，限时完成从 Requirements 到 Deep Dive，再对照参考设计评分。<br>[System Design 题库](https://www.hellointerview.com/practice/system-design) |
+| 15:45–16:45 | 项目，1 小时 | Investment Research Workbench: AI Experiment Planning and Tool Calling ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-36)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 16:45–17:45 | Interview Questions，1 小时 | Take-Home Assignments / Full-Stack AI Applications; Take-Home Assignments / Company Product Integration; Take-Home Assignments / Performance / Optimization; Take-Home Assignments / OpenAI-Specific; Take-Home Assignments / Red Flags (Unreasonable Assignments); Take-Home Assignments / RAG and Document Q&A — 13 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Reproducibility](../Study%20topics/reproducibility.html); [Model Versioning](../Study%20topics/model-versioning.html) |
 
 <!-- applied-jobs 2026-12-28 -->
 
 
 #### 学习提示
 
-- ML 重点：Artifact and schema
-- ML 具体实验：Round-trip a tiny model in a temporary directory and verify prediction equality. Change feature ordering deliberately and explain why a schema check is necessary.
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Simulation - 题目描述了一个过程，而且数据规模小：按规则一步步模拟，重点是把边界和状态更新写对。
+- Hello Interview 本周目标（第 7 周 · 新题加练）：做没做过的题，检查能不能稳定地按时完成。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：Expose restricted train/evaluate/predict and submit/status/results tools. Validate assets, dates, model type and feature schema; the LLM explains stored results and never computes or invents metrics.
 - 项目如何验证：非法资产/未来日期/未知策略被拒绝或澄清；摘要数值来自结果文件；记录实际调用链。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-36)
@@ -17643,30 +17581,28 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: Timed Query Mock
-- Machine Learning：[Reproducibility; Model Versioning; Serving; Rollback](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) · 先修：[Drift](../Study%20topics/drift.html)、[Model Versioning](../Study%20topics/model-versioning.html)
-- System Design：[AI Security and Reliability](../Study%20topics/ai-security-and-reliability.html)
+- LeetCode Pattern：[#37 Serialize and Deserialize](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/serialize-and-deserialize.md)
+- Hello Interview：AI Coding · [新题：Medium](https://www.hellointerview.com/practice/ai-coding?format=structured)
 - Project：[Investment Research Workbench: Workflow Evaluation and Observability](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-37)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Timed Query Mock 资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html); [LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html)<br>[178. Rank Scores](https://leetcode.com/problems/rank-scores/) · SQL ☐<br>[550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/) · SQL ☐<br>[1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) · SQL（有时间再做） ☐<br>[224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) · Stack · Hard ☐<br>[25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) · Linked List · Hard ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Reproducibility; Model Versioning; Serving; Rollback](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) + 先修：Serving、[Drift](../Study%20topics/drift.html)、[Model Versioning](../Study%20topics/model-versioning.html) · 10 mins ☐<br>[Notebook](../notebook/14_reproducibility_model_versioning_serving_rollback.ipynb) `notebook/14_reproducibility_model_versioning_serving_rollback.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#2152 · ML Model Failures in Production](https://quantvault.org/problems.html?id=2152) · Machine Learning · Medium ☐<br>本次范围：Production diagnosis。检查输入schema、预处理、版本、真实标签延迟和服务指标；比较离线与线上预测一致性。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [AI Security and Reliability](../Study%20topics/ai-security-and-reliability.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: Workflow Evaluation and Observability ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-37)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / RAG and Document Q&A; Take-Home Assignments / Agents and Tool-Calling — 13 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Tool Selection Evaluation](../Study%20topics/tool-selection-evaluation.html); [Prompt Injection](../Study%20topics/prompt-injection.html); [Tool Sandboxing](../Study%20topics/tool-sandboxing.html); [PII](../Study%20topics/pii.html); [Tenant Isolation](../Study%20topics/tenant-isolation.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#37 Serialize and Deserialize](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/serialize-and-deserialize.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/) · Medium ☐<br>[331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview 加练 · AI Coding：新题：Medium ☐<br>选一道没做过的 Structured Medium，按面试节奏完成需求确认、实现、测试和代码讲解。<br>[Structured 题库](https://www.hellointerview.com/practice/ai-coding?format=structured) |
+| 15:45–16:45 | 项目，1 小时 | Investment Research Workbench: Workflow Evaluation and Observability ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-37)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 16:45–17:45 | Interview Questions，1 小时 | Take-Home Assignments / RAG and Document Q&A; Take-Home Assignments / Agents and Tool-Calling — 13 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Tool Selection Evaluation](../Study%20topics/tool-selection-evaluation.html); [Prompt Injection](../Study%20topics/prompt-injection.html); [Tool Sandboxing](../Study%20topics/tool-sandboxing.html); [PII](../Study%20topics/pii.html); [Tenant Isolation](../Study%20topics/tenant-isolation.html) |
 
 <!-- applied-jobs 2026-12-29 -->
 
 
 #### 学习提示
 
-- ML 重点：Prediction parity
-- ML 具体实验：Round-trip a tiny model in a temporary directory and verify prediction equality. Change feature ordering deliberately and explain why a schema check is necessary.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Serialize and Deserialize - 把树或其他结构编码成字符串，再还原回来：选一种遍历顺序，用标记表示空节点，还原时按同样的顺序读。
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：Evaluate ten workflow cases plus ML baseline/Ridge MAE and RMSE on paired dates. Record delayed-label behavior, asset/regime slices, queue/worker/LLM latency and real failure outcomes.
 - 项目如何验证：同config/data版本结果可重现；比较无LLM直接配置基线。故意给失败任务，摘要不可捏造成功。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-37)
@@ -18022,30 +17958,28 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Python: Debugging and Code Review Mock
-- Machine Learning：[Reproducibility; Model Versioning; Serving; Rollback](../Study%20topics/reproducibility-model-versioning-serving-rollback.html)
-- System Design：[AI Security and Reliability](../Study%20topics/ai-security-and-reliability.html)
+- LeetCode Pattern：[#38 Clone](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/clone.md)
+- Hello Interview：System Design · [限时 Mock：Design Robinhood](https://www.hellointerview.com/learn/system-design/problem-breakdowns/robinhood)
 - Project：[Investment Research Workbench: CI, Container Release and Demo](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-38)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Debugging and Code Review Mock 资料：[API Clients](../Study%20topics/api-clients.html); [Race Conditions](../Study%20topics/race-conditions.html); [Profiling](../Study%20topics/profiling.html); [Debugging](../Study%20topics/debugging.html); [Refactoring](../Study%20topics/refactoring.html); [Code Review](../Study%20topics/code-review.html)<br>[124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) · Binary Tree General · Hard ☐<br>[127. Word Ladder](https://leetcode.com/problems/word-ladder/) · Graph BFS · Hard ☐<br>[212. Word Search II](https://leetcode.com/problems/word-search-ii/) · Trie · Hard ☐<br>[71. Simplify Path](https://leetcode.com/problems/simplify-path/) · 复习 ☐<br>[394. Decode String](https://leetcode.com/problems/decode-string/) · 复习 ☐<br>[981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Reproducibility; Model Versioning; Serving; Rollback](../Study%20topics/reproducibility-model-versioning-serving-rollback.html) + 先修：先复习[Day 37](#day-37)，避免一看到低分就直接重训练 · 10 mins ☐<br>[Notebook](../notebook/14_reproducibility_model_versioning_serving_rollback.ipynb) `notebook/14_reproducibility_model_versioning_serving_rollback.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#3102 · Debugging a Model That Underperforms Live](https://quantvault.org/problems.html?id=3102) · Machine Learning · Hard ☐<br>本次范围：Advanced: incident outline。给出定位、可安全回滚、证据保留和复验顺序；说明哪些证据支持数据变化，哪些支持实现故障。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [AI Security and Reliability](../Study%20topics/ai-security-and-reliability.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Investment Research Workbench: CI, Container Release and Demo ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-38)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
-| 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Legal Document AI; Take-Home Assignments / RAG and Document Q&A (New Companies); Take-Home Assignments / Agents and Multi-Agent Systems (New) — 13 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#38 Clone](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/clone.md) · 读 Recognize it when、How it works、模板 · 15 mins ☐<br>识别练习 · 30 mins：[1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) · Easy ☐<br>先说出 cue 和 pattern 再写代码；最后不看页面写一遍模板，记进学习记录 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview 加练 · System Design：限时 Mock：Design Robinhood ☐<br>设计下单、行情和持仓，讨论订单状态、一致性、延迟和交易所断线。<br>[Robinhood 题解](https://www.hellointerview.com/learn/system-design/problem-breakdowns/robinhood) · [Guided Practice](https://www.hellointerview.com/practice/system-design) |
+| 15:45–16:45 | 项目，1 小时 | Investment Research Workbench: CI, Container Release and Demo ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-38)<br>ML integration: [Volatility Forecasting prerequisite](../notebook/12_volatility_forecasting_out_of_sample_evaluation.ipynb) |
+| 16:45–17:45 | Interview Questions，1 小时 | Take-Home Assignments / Legal Document AI; Take-Home Assignments / RAG and Document Q&A (New Companies); Take-Home Assignments / Agents and Multi-Agent Systems (New) — 13 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐ |
 
 <!-- applied-jobs 2026-12-30 -->
 
 
 #### 学习提示
 
-- ML 重点：Model rollback
-- ML 具体实验：Round-trip a tiny model in a temporary directory and verify prediction equality. Change feature ordering deliberately and explain why a schema check is necessary.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Clone - 深拷贝图，或带额外指针的结构：用 hash map 记"原节点 → 新节点"，先查表再创建，避免重复和死循环。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：Add numerical timing assertions, mock-tool tests and Compose integration to CI. Demonstrate training, prediction, honest baseline comparison and worker recovery; document synthetic versus real-data status.
 - 项目如何验证：干净环境运行一条命令重建；记录单机与生产分布式部署差距。AWS队列/多Worker作为可选扩展。 同时核对ML notebook的feature timing、label availability、同日期baseline/model指标与artifact版本。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-38)
@@ -18401,30 +18335,29 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：SQL: Weak-Topic Review
-- Machine Learning：[Supervised and Unsupervised Learning; Baselines](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) · 先修：[Linear Regression](../Study%20topics/linear-regression.html)、[Data Leakage](../Study%20topics/data-leakage.html)
-- System Design：[Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html)
+- LeetCode Pattern：[#34 Linear Sorting Algorithms](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/linear-sorting-algorithms.md)、[#35 Meet in the Middle](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/meet-in-the-middle.md)
+- Hello Interview：AI Coding · [新题：Open-Ended](https://www.hellointerview.com/practice/ai-coding)
 - Project：[Portfolio Review: Evidence Audit and Cross-Project Reproduction](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-39)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Weak-Topic Review 资料：[SELECT](../Study%20topics/select.html); [WHERE](../Study%20topics/where.html); [ORDER BY](../Study%20topics/order-by.html); [LIMIT](../Study%20topics/limit.html); [NULL](../Study%20topics/null.html); [GROUP BY](../Study%20topics/group-by.html); [HAVING](../Study%20topics/having.html); [CASE](../Study%20topics/case.html); [Subqueries](../Study%20topics/subqueries.html); [CTEs](../Study%20topics/ctes.html); [EXISTS](../Study%20topics/exists.html); [Date Queries](../Study%20topics/date-queries.html); [Transactions](../Study%20topics/transactions.html); [Constraints](../Study%20topics/constraints.html); [Parameterized Queries](../Study%20topics/parameterized-queries.html); [PostgreSQL Schema Design](../Study%20topics/postgresql-schema-design.html); [Primary and Foreign Keys](../Study%20topics/primary-and-foreign-keys.html); [Indexes](../Study%20topics/indexes.html); [EXPLAIN](../Study%20topics/explain.html); [Query Optimization](../Study%20topics/query-optimization.html); [Run Analytics](../Study%20topics/run-analytics.html); [Percentiles](../Study%20topics/percentiles.html); [Financial Analytics](../Study%20topics/financial-analytics.html); [JOINs](../Study%20topics/joins.html)<br>[1661. Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/) · SQL ☐<br>[1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/) · SQL ☐<br>[1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/) · SQL（有时间再做） ☐<br>[52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) · Backtracking · Hard ☐<br>[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) · Divide & Conquer · Hard ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Supervised and Unsupervised Learning; Baselines](../Study%20topics/supervised-and-unsupervised-learning-baselines.html) + 先修：复习[Linear Regression](../Study%20topics/linear-regression.html)、[Data Leakage](../Study%20topics/data-leakage.html)、Multicollinearity · 10 mins ☐<br>[Notebook](../notebook/02_supervised_and_unsupervised_learning_baselines.ipynb) `notebook/02_supervised_and_unsupervised_learning_baselines.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1866 · OLS Assumptions, Violations, and Diagnostics](https://quantvault.org/problems.html?id=1866) · Regression · Medium ☐<br>本次范围：Mock: regression foundations。口述模型、假设、残差与常见失效；重点是预测有效性，不把因果或无偏推断当作自动结论。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Portfolio Review: Evidence Audit and Cross-Project Reproduction ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-39) |
-| 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Agents and Multi-Agent Systems (New); Take-Home Assignments / LLM Applications and Infrastructure; Take-Home Assignments / Embeddable and Conversational AI — 13 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Ownership](../Study%20topics/ownership.html); [Design Trade-offs](../Study%20topics/design-trade-offs.html) |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#34 Linear Sorting Algorithms](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/linear-sorting-algorithms.md) · 读 Recognize it when、How it works、模板 · 10 mins ☐<br>[#35 Meet in the Middle](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/meet-in-the-middle.md) · 读 Recognize it when、How it works、模板 · 10 mins ☐<br>识别练习 · 25 mins：[1122. Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) · Easy ☐<br>[1755. Closest Subsequence Sum](https://leetcode.com/problems/closest-subsequence-sum/) · Hard ☐<br>先说出 cue 和 pattern 再写代码；偏门的说得清思路就够，不一定写完 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview 加练 · AI Coding：新题：Open-Ended ☐<br>选一道新题，用 Python 和自己的 AI 工具完成，保留关键 Prompt、测试结果和 Debug 记录。<br>[AI Coding 练习](https://www.hellointerview.com/practice/ai-coding) |
+| 15:45–16:45 | 项目，1 小时 | Portfolio Review: Evidence Audit and Cross-Project Reproduction ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-39) |
+| 16:45–17:45 | Interview Questions，1 小时 | Take-Home Assignments / Agents and Multi-Agent Systems (New); Take-Home Assignments / LLM Applications and Infrastructure; Take-Home Assignments / Embeddable and Conversational AI — 13 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐<br>当日概念索引（按需）：[Ownership](../Study%20topics/ownership.html); [Design Trade-offs](../Study%20topics/design-trade-offs.html) |
 
 <!-- applied-jobs 2026-12-31 -->
 
 
 #### 学习提示
 
-- ML 重点：Baseline explanation mock
-- ML 具体实验：Increase the noise level and compare Ridge with a training-mean predictor. Change the clustering seed and compare group labels with the continuous regression target.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先读Prompt和Clarifying Questions，再画数据流，最后回答Follow-ups。
+- Pattern 重点：Linear Sorting Algorithms - 值是小范围内的整数：用计数排序、桶排序或基数排序，不用比较，O(n + k)。
+- Pattern 重点：Meet in the Middle - n 大约 30 到 45 的子集搜索：把数组分成两半，各自枚举所有子集和，再排序加二分把两边配起来。
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：核对三个项目的README、代码版本、eval、测试和demo；各选一个真实失败和取舍。打通证据索引，不新加功能。
 - 项目如何验证：项目陈述逐条能找到代码或实验；把缺少线上验证与未实现功能明确标注。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-39)
@@ -18780,29 +18713,28 @@ Follow-up
 今天学习 Topic：
 
 - 刷题：Python: Weak-Topic Review
-- Machine Learning：[Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html)
-- System Design：[Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html)
+- LeetCode Pattern：[#40 Segment Tree](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/segment-tree.md)、[#41 Binary Indexed Tree](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/binary-indexed-tree.md)
+- Hello Interview：复盘 · [7 周卡点清单](https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery)
 - Project：[Portfolio Review: Feature Freeze and Interview Deep Dive](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-40)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Weak-Topic Review 资料：[Hash Maps](../Study%20topics/hash-maps.html); [LRU Cache](../Study%20topics/lru-cache.html); [NumPy Logistic Regression](../Study%20topics/numpy-logistic-regression.html)<br>[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) · Binary Search · Hard ☐<br>[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) · Heap · Hard ☐<br>[502. IPO](https://leetcode.com/problems/ipo/) · Heap · Hard ☐<br>[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) · 复习 ☐<br>[146. LRU Cache](https://leetcode.com/problems/lru-cache/) · 复习 ☐<br>[994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html) + 先修：复习[Day 05](#day-05)、[Day 06](#day-06)；缓冲周按错误安排重做 · 10 mins ☐<br>[Notebook](../notebook/01_train_validation_test_split.ipynb) `notebook/01_train_validation_test_split.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1261 · Diagnosing Overfitting and Cross-Validation](https://quantvault.org/problems.html?id=1261) · Machine Learning · Easy ☐<br>[#1078 · Advantages of Lasso Over Other Linear Feature Selection Methods](https://quantvault.org/problems.html?id=1078) · Machine Learning · Medium ☐<br>本次范围：Mock: evaluation and regularization。不看答案各用2分钟回答，再回答一个追问；重点检查验证角色及Lasso限制。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Portfolio Review: Feature Freeze and Interview Deep Dive ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-40) |
-| 16:30–17:30 | Interview Questions，1 小时 | Take-Home Assignments / Embeddable and Conversational AI; Take-Home Assignments / Official Company Challenges — 12 items ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#40 Segment Tree](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/segment-tree.md) · 读 Recognize it when、How it works、模板 · 10 mins ☐<br>[#41 Binary Indexed Tree](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/binary-indexed-tree.md) · 读 Recognize it when、How it works、模板 · 10 mins ☐<br>识别练习 · 25 mins：[406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) · Medium ☐<br>[673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；偏门的说得清思路就够，不一定写完 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview 加练 · 复盘：7 周卡点清单 ☐<br>整理 7 周最常见的卡点，各选一道代表题，口述设计取舍或代码验证过程。<br>[Delivery Framework](https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery) · [AI Coding · Communication](https://www.hellointerview.com/learn/ai-coding/fundamentals/communication) |
+| 15:45–16:45 | 项目，1 小时 | Portfolio Review: Feature Freeze and Interview Deep Dive ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-40) |
+| 16:45–17:45 | Interview Questions，1 小时 | Take-Home Assignments / Embeddable and Conversational AI; Take-Home Assignments / Official Company Challenges — 12 items ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐ |
 
 <!-- applied-jobs 2027-01-01 -->
 
 #### 学习提示
 
-- ML 重点：Split and evaluation mock
-- ML 具体实验：Change the random seed and validation fraction. Compare score variability across three synthetic datasets: clean linear, noisy linear, and nonlinear. Explain why a random split is only appropriate for independent observations.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Segment Tree - 区间查询加单点或区间更新，包括最大最小值：每个节点存一段区间的结果，查询和更新都是 O(log n)。
+- Pattern 重点：Binary Indexed Tree - 前缀和需要支持更新，或者统计"比我小的有几个"：树状数组用 lowbit 跳着加，代码比线段树短。
+- Hello Interview：30 分钟回顾，60 分钟画图、写代码或重做，30 分钟整理笔记。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：冻结三个可演示范围，练讲用户问题→设计→失败→验证→限制；用已有工程经验连接项目决策，明确AI贡献边界。
 - 项目如何验证：抽问一段AI代码，自己解释并做反例；每个项目都有可运行入口和诚实的完成状态。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-40)
@@ -19173,30 +19105,30 @@ Technical Sources
 今天学习 Topic：
 
 - 刷题：Python: Coding Mock Remediation
-- Machine Learning：[Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html)
-- System Design：[Cache and API Service](../Study%20topics/cache-and-api-service.html)
+- LeetCode Pattern：[#39 Articulation Points and Bridges](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/articulation-points-and-bridges.md)、[#36 Mo's Algorithm](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/mos-algorithm.md)
+- Hello Interview：System Design · [重做最弱的设计](https://www.hellointerview.com/practice/system-design)
 - Project：[Buffer: Risk Copilot: Correctness Remediation](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-41)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Coding Mock Remediation 资料：[Sorting](../Study%20topics/sorting.html); [Binary Search](../Study%20topics/binary-search.html); [Linked Lists](../Study%20topics/linked-lists.html)<br>[149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) · Math · Hard ☐<br>[123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) · Multidimensional DP · Hard ☐<br>[188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) · Multidimensional DP · Hard ☐<br>[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) · 复习 ☐<br>[704. Binary Search](https://leetcode.com/problems/binary-search/) · 复习 ☐<br>[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) · 复习 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Train / Validation / Test Split](../Study%20topics/train-validation-test-split.html) + 先修：复习自己的错题记录 · 10 mins ☐<br>[Notebook](../notebook/01_train_validation_test_split.ipynb) `notebook/01_train_validation_test_split.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1118 · Definition and Range of R-Squared](https://quantvault.org/problems.html?id=1118) · Regression · Easy ☐<br>[#1447 · Multicollinearity Consequences in OLS](https://quantvault.org/problems.html?id=1447) · Regression · Easy ☐<br>本次范围：Buffer: remediation。重做R-Squared和Multicollinearity；若已熟悉，用最弱的Regression题替换，不增加新题。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Cache and API Service](../Study%20topics/cache-and-api-service.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Buffer: Risk Copilot: Correctness Remediation ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-41) |
-| 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | [#39 Articulation Points and Bridges](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/articulation-points-and-bridges.md) · 读 Recognize it when、How it works、模板 · 10 mins ☐<br>[#36 Mo's Algorithm](https://github.com/design-gurus/grokking-coding-interview/blob/main/patterns/mos-algorithm.md) · 读 Recognize it when、How it works、模板 · 10 mins ☐<br>识别练习 · 25 mins：[1568. Minimum Number of Days to Disconnect Island](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/) · Hard ☐<br>[1310. XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/) · Medium ☐<br>先说出 cue 和 pattern 再写代码；偏门的说得清思路就够，不一定写完 |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview 加练 · System Design：重做最弱的设计 ☐<br>选得分最低的一次 System Design，限时重做，对照上次的遗漏。<br>[System Design 题库](https://www.hellointerview.com/practice/system-design) |
+| 15:45–16:45 | 项目，1 小时 | Buffer: Risk Copilot: Correctness Remediation ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-41) |
+| 16:45–17:45 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐ |
 
 <!-- applied-jobs 2027-01-04 -->
 
 
 #### 学习提示
 
-- ML 重点：Split remediation
-- ML 具体实验：Change the random seed and validation fraction. Compare score variability across three synthetic datasets: clean linear, noisy linear, and nonlinear. Explain why a random split is only appropriate for independent observations.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 重点：Articulation Points and Bridges - 无向图里删掉哪个点或哪条边会断开（单点故障）：Tarjan 算法，DFS 时记下发现时间 disc 和能回到的最早时间 low。
+- Pattern 重点：Mo's Algorithm - 不变的数组上有大量离线区间查询：把查询按块排序，左右端点一小步一小步移动，增量更新答案。
+- Hello Interview 本周目标（缓冲周 · 重做弱项）：重做最弱的设计和 Coding，再各做一次完整 Mock。
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：优先处理影响风险数值或流程阻断的剩余问题；复现后小范围修复，不新增模型/框架。
 - 项目如何验证：重跑相关数值与失败路径回归。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-41)
@@ -19215,29 +19147,28 @@ Technical Sources
 今天学习 Topic：
 
 - 刷题：SQL: Query Mock Remediation
-- Machine Learning：[Drift; Retraining](../Study%20topics/drift-retraining.html) · 先修：[Drift](../Study%20topics/drift.html)
-- System Design：[Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html)
+- LeetCode Pattern：混合识别（4 题）
+- Hello Interview：AI Coding · [重做最弱的 Coding](https://www.hellointerview.com/practice/ai-coding?format=structured)
 - Project：[Buffer: AWS and CD: Completion or Recovery Drill](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-42)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Query Mock Remediation 资料：[JOINs](../Study%20topics/joins.html); [HAVING](../Study%20topics/having.html)<br>[175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) · SQL ☐<br>[596. Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/) · SQL ☐<br>[180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) · SQL（有时间再做） ☐<br>Top 150 薄弱题重做（约 60 分钟）：回到前面卡住或做错的题，限时重做，不新增题目 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Drift; Retraining](../Study%20topics/drift-retraining.html) + 先修：[Drift](../Study%20topics/drift.html)；概念分析，不要求完成完整分布适配项目 · 10 mins ☐<br>[Notebook](../notebook/15_drift_retraining.ipynb) `notebook/15_drift_retraining.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#3100 · Handling Simultaneous Feature and Target Distribution Shift](https://quantvault.org/problems.html?id=3100) · Machine Learning · Hard ☐<br>本次范围：Advanced: monitoring outline。分别讨论Feature Distribution与Target Distribution变化，以及标签何时才能观测。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Queues and Job Scheduler](../Study%20topics/queues-and-job-scheduler.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Buffer: AWS and CD: Completion or Recovery Drill ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-42) |
-| 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | 混合识别 · 40 mins（题目不标 pattern）：[409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) · Easy ☐<br>[1288. Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) · Medium ☐<br>[437. Path Sum III](https://leetcode.com/problems/path-sum-iii/) · Medium ☐<br>[142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) · Medium ☐<br>先说出 pattern 和让你这么判断的 cue，再写代码；拿不准就对照 [Recognize the Pattern](https://github.com/design-gurus/grokking-coding-interview/blob/main/cheat-sheets/recognize-the-pattern.md) 的 Decision Tree。剩下的时间重学刷题记录 Pattern tab 里还没勾的 pattern |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview 加练 · AI Coding：重做最弱的 Coding ☐<br>选最不顺的一道 AI Coding，重新做一遍，先补测试再改代码。<br>[Structured 题库](https://www.hellointerview.com/practice/ai-coding?format=structured) |
+| 15:45–16:45 | 项目，1 小时 | Buffer: AWS and CD: Completion or Recovery Drill ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-42) |
+| 16:45–17:45 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐ |
 
 <!-- applied-jobs 2027-01-05 -->
 
 
 #### 学习提示
 
-- ML 重点：Input drift
-- ML 具体实验：Change the shift size and compare input histograms and mean residuals. Describe how delayed five-day labels postpone performance monitoring.
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 混合识别：先盖住答案读题，说出 pattern 和 cue，再对照 Recognize the Pattern 检查判断对不对
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：补足未完成AWS部署/OIDC/release验证；已完成则演练重启和rollback、检查资源清理。
 - 项目如何验证：保存真实运行证据；无账户则保留未部署标识。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-42)
@@ -19256,30 +19187,28 @@ Technical Sources
 今天学习 Topic：
 
 - 刷题：Python: Practical Implementation Mock
-- Machine Learning：[Drift; Retraining](../Study%20topics/drift-retraining.html)
-- System Design：[Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html)
+- LeetCode Pattern：混合识别（4 题）
+- Hello Interview：System Design · [完整 Mock：System Design](https://www.hellointerview.com/practice/system-design)
 - Project：[Buffer: Snowflake: Data and SQL Remediation](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-43)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Practical Implementation Mock 资料：[Queues](../Study%20topics/queues.html); [Key-Value Store](../Study%20topics/key-value-store.html); [TTL](../Study%20topics/ttl.html); [Rate Limiter](../Study%20topics/rate-limiter.html); [Crawler](../Study%20topics/crawler.html)<br>[706. Design HashMap](https://leetcode.com/problems/design-hashmap/) · 复习 ☐<br>[981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) · 复习 ☐<br>[622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) · 复习 ☐<br>Top 150 薄弱题重做（约 90 分钟）：回到前面卡住或做错的题，限时重做，不新增题目 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Drift; Retraining](../Study%20topics/drift-retraining.html) + 先修：复习[Day 37](#day-37)、[Day 38](#day-38)、[Day 42](#day-42) · 10 mins ☐<br>[Notebook](../notebook/15_drift_retraining.ipynb) `notebook/15_drift_retraining.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#3102 · Debugging a Model That Underperforms Live](https://quantvault.org/problems.html?id=3102) · Machine Learning · Hard ☐<br>本次范围：Buffer: incident replay。重新解释真实标签延迟、预处理故障与数据变化的排查；依据错题补漏。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Buffer: Snowflake: Data and SQL Remediation ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-43) |
-| 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | 混合识别 · 40 mins（题目不标 pattern）：[16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) · Medium ☐<br>[739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) · Medium ☐<br>[802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) · Medium ☐<br>[287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) · Medium ☐<br>先说出 pattern 和让你这么判断的 cue，再写代码；拿不准就对照 [Recognize the Pattern](https://github.com/design-gurus/grokking-coding-interview/blob/main/cheat-sheets/recognize-the-pattern.md) 的 Decision Tree。剩下的时间重学刷题记录 Pattern tab 里还没勾的 pattern |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview 加练 · System Design：完整 Mock：System Design ☐<br>选一道没做过的题，45 分钟内不看参考完成，再对照评分。<br>[Guided Practice](https://www.hellointerview.com/practice/system-design) |
+| 15:45–16:45 | 项目，1 小时 | Buffer: Snowflake: Data and SQL Remediation ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-43) |
+| 16:45–17:45 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐ |
 
 <!-- applied-jobs 2027-01-06 -->
 
 
 #### 学习提示
 
-- ML 重点：Delayed-label monitoring
-- ML 具体实验：Change the shift size and compare input histograms and mean residuals. Describe how delayed five-day labels postpone performance monitoring.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 混合识别：先盖住答案读题，说出 pattern 和 cue，再对照 Recognize the Pattern 检查判断对不对
+- Hello Interview：10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：修复最重要的期间/单位/重复行或SQL错误；修正后使用新验证问题，避免把反复调试的held-out继续称独立测试。
 - 项目如何验证：核对参考结果与权限，重跑integration。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-43)
@@ -19298,30 +19227,28 @@ Technical Sources
 今天学习 Topic：
 
 - 刷题：SQL: Comprehensive Review
-- Machine Learning：[Drift; Retraining](../Study%20topics/drift-retraining.html) · 先修：[Retraining](../Study%20topics/retraining.html)、[Drift](../Study%20topics/drift.html)
-- System Design：[Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html)
+- LeetCode Pattern：混合识别（4 题）
+- Hello Interview：AI Coding · [完整 Mock：AI Coding](https://www.hellointerview.com/practice/ai-coding)
 - Project：[Buffer: Research Workbench: Failure Recovery](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-44)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | SQL + Top 150 刷题，2 小时 | SQL: Comprehensive Review 资料：[Window Functions](../Study%20topics/window-functions.html); [ROW_NUMBER](../Study%20topics/row-number.html); [RANK](../Study%20topics/rank.html); [DENSE_RANK](../Study%20topics/dense-rank.html); [LAG](../Study%20topics/lag.html); [LEAD](../Study%20topics/lead.html); [Rolling Aggregations](../Study%20topics/rolling-aggregations.html)<br>[185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) · SQL ☐<br>[550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/) · SQL ☐<br>[1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) · SQL（有时间再做） ☐<br>Top 150 薄弱题重做（约 60 分钟）：回到前面卡住或做错的题，限时重做，不新增题目 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Drift; Retraining](../Study%20topics/drift-retraining.html) + 先修：[Retraining](../Study%20topics/retraining.html)与[Drift](../Study%20topics/drift.html) · 10 mins ☐<br>[Notebook](../notebook/15_drift_retraining.ipynb) `notebook/15_drift_retraining.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#3322 · Preventing Overfitting and Ensuring Model Robustness](https://quantvault.org/problems.html?id=3322) · Machine Learning · Medium ☐<br>本次范围：Retraining decision。说明重训练触发条件、候选验证、基线比较和回滚；不把漂移告警等同于部署新模型。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Buffer: Research Workbench: Failure Recovery ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-44) |
-| 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Daily Review ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | 混合识别 · 40 mins（题目不标 pattern）：[424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) · Medium ☐<br>[767. Reorganize String](https://leetcode.com/problems/reorganize-string/) · Medium ☐<br>[921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) · Medium ☐<br>[1195. Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/) · Medium ☐<br>先说出 pattern 和让你这么判断的 cue，再写代码；拿不准就对照 [Recognize the Pattern](https://github.com/design-gurus/grokking-coding-interview/blob/main/cheat-sheets/recognize-the-pattern.md) 的 Decision Tree。剩下的时间重学刷题记录 Pattern tab 里还没勾的 pattern |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview 加练 · AI Coding：完整 Mock：AI Coding ☐<br>选一道没做过的 Open-Ended，按面试节奏完成并讲解代码和测试。<br>[AI Coding 练习](https://www.hellointerview.com/practice/ai-coding) |
+| 15:45–16:45 | 项目，1 小时 | Buffer: Research Workbench: Failure Recovery ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-44) |
+| 16:45–17:45 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Daily Review ☐ |
 
 <!-- applied-jobs 2027-01-07 -->
 
 
 #### 学习提示
 
-- ML 重点：Retraining decision
-- ML 具体实验：Change the shift size and compare input histograms and mean residuals. Describe how delayed five-day labels postpone performance monitoring.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 混合识别：先盖住答案读题，说出 pattern 和 cue，再对照 Recognize the Pattern 检查判断对不对
+- Hello Interview：5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：修复outbox/claim/worker中断最弱路径；复测重复投递和幂等结果。
 - 项目如何验证：多次故障实验有可复查日志。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-44)
@@ -19340,29 +19267,27 @@ Technical Sources
 今天学习 Topic：
 
 - 刷题：Python: Final Mixed Review
-- Machine Learning：[Drift; Retraining](../Study%20topics/drift-retraining.html)
-- System Design：[Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html)
+- LeetCode Pattern：混合识别（4 题）
+- Hello Interview：复盘 · [总复盘](https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery)
 - Project：[Buffer: Portfolio: Final Reproduction and Remaining Gaps](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-45)
 <!-- /day-topics -->
 
 | 时间 | 安排 | Topic |
 |---|---|---|
 | 08:30–10:30 | Python + Top 150 刷题，2 小时 | Python: Final Mixed Review 资料：[Sliding Window](../Study%20topics/sliding-window.html); [Heaps](../Study%20topics/heaps.html); [BFS](../Study%20topics/bfs.html); [DFS](../Study%20topics/dfs.html)<br>[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · 复习 ☐<br>[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) · 复习 ☐<br>[200. Number of Islands](https://leetcode.com/problems/number-of-islands/) · 复习 ☐<br>Top 150 薄弱题重做（约 90 分钟）：回到前面卡住或做错的题，限时重做，不新增题目 ☐ |
-| 10:30–12:30 | 网课，2 小时 | Online Course [____] |
-| 13:30–14:15 | ML + QuantVault，45 分钟 | [Drift; Retraining](../Study%20topics/drift-retraining.html) + 先修：仅复习，不再加入未学过的高级模型 · 10 mins ☐<br>[Notebook](../notebook/15_drift_retraining.ipynb) `notebook/15_drift_retraining.ipynb` · 15 mins ☐<br>QuantVault Practice · 20 mins：[#1966 · Framework for Open-Ended Modeling Strategy](https://quantvault.org/problems.html?id=1966) · Machine Learning · Easy ☐<br>本次范围：Final mock。用自己项目讲目标、数据、基线、切分、指标、失败与下一步；选最弱两题补问。 |
-| 14:15–15:00 | General & AI System Design，45 分钟 | [Transfer Mock: Contract Review Assistant](../Study%20topics/transfer-mock-contract-review-assistant.html) ☐ |
-| 15:00–16:30 | 项目，1.5 小时 | Buffer: Portfolio: Final Reproduction and Remaining Gaps ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-45) |
-| 16:30–17:30 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
-| 17:30–18:00 | 复盘，30 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐ |
+| 10:30–11:15 | LeetCode Pattern，45 分钟 | 混合识别 · 40 mins（题目不标 pattern）：[930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) · Medium ☐<br>[515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) · Medium ☐<br>[494. Target Sum](https://leetcode.com/problems/target-sum/) · Medium ☐<br>[695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) · Medium ☐<br>先说出 pattern 和让你这么判断的 cue，再写代码；拿不准就对照 [Recognize the Pattern](https://github.com/design-gurus/grokking-coding-interview/blob/main/cheat-sheets/recognize-the-pattern.md) 的 Decision Tree。剩下的时间重学刷题记录 Pattern tab 里还没勾的 pattern |
+| 11:15–13:15 | 网课，2 小时 | Online Course [____] |
+| 13:45–15:45 | Hello Interview，2 小时 | Hello Interview 加练 · 复盘：总复盘 ☐<br>核对全部 System Design、AI Coding 和复盘，记录面试前还要再练的点。<br>[Delivery Framework](https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery) · [AI Coding · Communication](https://www.hellointerview.com/learn/ai-coding/fundamentals/communication) |
+| 15:45–16:45 | 项目，1 小时 | Buffer: Portfolio: Final Reproduction and Remaining Gaps ☐<br>[改进任务与验收](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-45) |
+| 16:45–17:45 | Interview Questions，1 小时 | Question Bank Review: Weak Questions and Follow-ups ☐ |
+| 17:45–18:00 | 复盘，15 分钟 | Weekly Review; Weak Topics; Next-Week Priorities ☐ |
 
 <!-- applied-jobs 2027-01-08 -->
 
 #### 学习提示
 
-- ML 重点：Monitoring explanation mock
-- ML 具体实验：Change the shift size and compare input histograms and mean residuals. Describe how delayed five-day labels postpone performance monitoring.
-- ML 复习日：围绕当天重点改变一个参数或复述一个假设，使用Notebook的Review Experiment，不重新完成全部扩展。
-- System Design：先不看答案完成设计与口述，再展开Interview Script对照；缓冲日改变一个约束。
+- Pattern 混合识别：先盖住答案读题，说出 pattern 和 cue，再对照 Recognize the Pattern 检查判断对不对
+- Hello Interview：30 分钟回顾，60 分钟画图、写代码或重做，30 分钟整理笔记。记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改
 - 项目今天改进：最终核对demo和证据，整理后续迭代顺序。没有阻塞缺陷时用于深挖，不为了凑功能增加范围。
 - 项目如何验证：说明完成、仅设计、未验证各是什么；周末不补。
 - 项目前置、成果与路线：[项目路线](AI_ENGINEER_PROJECT_ROADMAP.md#project-day-45)

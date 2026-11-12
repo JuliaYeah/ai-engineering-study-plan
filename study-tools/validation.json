@@ -1,14 +1,13 @@
 {
   "days": 45,
-  "mainHours": 340,
-  "bufferHours": 42.5,
+  "mainHours": 360,
+  "bufferHours": 45,
   "questions": 623,
   "questionsUnchanged": true,
   "leetcodeLinksUnchanged": true,
   "topicPages": 252,
   "notebooks": 15,
-  "generalMainSessions": 16,
-  "aiMainSessions": 24,
-  "localLinksChecked": 6766,
+  "helloInterviewDays": 42,
+  "localLinksChecked": 5928,
   "brokenLinks": 0
 }

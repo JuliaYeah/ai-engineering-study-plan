@@ -1,6 +1,6 @@
 # 金融转 Applied AI：工作日八个半小时学习计划
 
-2026-11-09 开始，周一到周五每天 8.5 小时，周末休息。Day 01–40 是主计划（到 2027-01-01），Day 41–45 是缓冲周。感恩节、圣诞节、元旦照常算工作日，要休息就把当天内容顺延。主计划共 340 小时，含缓冲周 382.5 小时。
+2026-11-09 开始，周一到周五每天 9 小时（08:30–18:00，13:15–13:45 午饭），周末休息。Day 01–40 是主计划（到 2027-01-01），Day 41–45 是缓冲周。感恩节、圣诞节、元旦照常算工作日，要休息就把当天内容顺延。主计划共 360 小时，含缓冲周 405 小时。
 
 ## 每日入口
 
@@ -22,16 +22,19 @@
 |---|---|---|
 | LeetCode | 171 题 | Top Interview 150 共 150 题（Hard 在 Day 35 之后）加计划原有 21 题。每天 08:30–10:30。[Top 150 排期](Reports/AI_ENGINEER_TOP150_SCHEDULE.md) · [每日刷题表](Reports/AI_ENGINEER_LEETCODE_DAILY_LIST.md) |
 | SQL | 34 题 | 周二、周四前 1 小时，每天 3 题先做前两题；部分题重复复习，共 54 道次 |
-| QuantVault | 核心 47 题，扩展 217 题 | 核心题已排进 45 天（时间表 13:30 那一行），共 54 次做题；扩展题没有排进时间表，只是备选。[每日题目与时间分配](Reports/AI_ENGINEER_QUANTVAULT_PLAN.md) |
-| 面试原题 | 623 题 | 每天 16:30–17:30，9–20 题，题下有英文答案、详解和追问 |
-| System Design | 20 个主题 | 每天 14:15–15:00 |
-| ML Notebook | 15 个 | 每天 13:30 那一行 |
+| LeetCode Pattern | 41 个 | 每天 10:30–11:15，从 Day 04 开始：常见 15 种（DP 算 3 个，共 17 个）一天一个，其余 Core 和 Advanced 一天一个，偏门的两个一天；Day 42–45 混合识别。每个 pattern 读完再做两道练习题。[Pattern 总表](Reports/AI_ENGINEER_TOP150_RECORD.html#pattern) |
+| 面试原题 | 623 题 | 每天 16:45–17:45，9–20 题，题下有英文答案、详解和追问 |
+| Hello Interview | 42 天 | 每天 13:45–15:45，2 小时：Day 04–05 热身；Day 06–35 是 30 天计划（System Design 12 次、AI Coding 10 题、基础与复盘 8 天）；Day 36–45 新题和重做弱项。[记录](Reports/AI_ENGINEER_TOP150_RECORD.html#hellointerview) |
+| System Design 讲义 | 20 个主题 | 不排进时间表，需要时在 [Topic Library](Study%20topics/index.html) 里找 |
+| ML Notebook | 15 个 | 不排进时间表，需要时在 [Topic Library](Study%20topics/index.html) 里找 |
 | Topic 讲义 | 252 页 | 时间表里有链接，也可在 [Topic Library](Study%20topics/index.html) 搜索 |
 
 ## 使用方法
 
-- Notebook - 先按 [Notebook setup](notebook/README.md) 选好 Python kernel，基础实验不需要密钥
-- System Design - 初学日 15 分钟讲解、20 分钟画图、10 分钟追问；练习日 30 分钟独立模拟、15 分钟对照
+- LeetCode Pattern - 先读 pattern 页的 Recognize it when 和模板，再做两道练习题，做题前先说出 cue 和 pattern；学完在时间表或 [刷题记录的 Pattern tab](Reports/AI_ENGINEER_TOP150_RECORD.html#pattern) 里打勾
+- Notebook - 不再每天排；Day 31–38 项目前要看 Volatility Forecasting notebook，先按 [Notebook setup](notebook/README.md) 选好 Python kernel
+- Hello Interview - System Design：读题和 Requirements 10 分钟、独立模拟 45 分钟、对照参考设计 20 分钟、复盘 15 分钟，剩下的补图或重讲 Deep Dive；AI Coding：每次只给 AI 一个能验证的子任务，先检查再继续。每天记下卡在哪里、AI 帮了什么、哪里出了错
+- 一天的顺序 - 08:30 刷题，10:30 LeetCode Pattern，11:15 网课，13:15 午饭，13:45 Hello Interview，15:45 项目，16:45 Interview Questions，17:45 复盘
 
 ## 项目
 
@@ -39,7 +42,7 @@ Day 01–20 Risk Copilot；Day 21–30 Financial Statement Analytics Assistant�
 
 ## Topic 总览
 
-每个主题后面是首次学习的那一天。
+每个主题后面是首次学习的那一天。"ML 与金融验证"和"General & AI System Design"不排进时间表，需要时自学；System Design 现在跟 Hello Interview 学。
 
 ### Python 与编码
 
@@ -51,7 +54,7 @@ Day 01–20 Risk Copilot；Day 21–30 Financial Statement Analytics Assistant�
 
 ### ML 与金融验证
 
-[Supervised and Unsupervised Learning](Study%20topics/supervised-and-unsupervised-learning.html)（[Day 02](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-02)）; [Train / Validation / Test Split](Study%20topics/train-validation-test-split.html)（[Day 01](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-01)）; [Data Leakage](Study%20topics/data-leakage.html)（[Day 03](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-03)）; [Bias-Variance](Study%20topics/bias-variance.html)（[Day 05](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-05)）; [Overfitting](Study%20topics/overfitting.html)（[Day 05](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-05)）; [Regularization](Study%20topics/regularization.html)（[Day 05](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-05)）; [Scaling](Study%20topics/scaling.html)（[Day 03](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-03)）; [Linear Regression](Study%20topics/linear-regression.html)（[Day 05](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-05)）; [Logistic Regression](Study%20topics/logistic-regression.html)（[Day 07](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-07)）; [Decision Trees](Study%20topics/decision-trees.html)（[Day 11](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-11)）; [Random Forests](Study%20topics/random-forests.html)（[Day 11](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-11)）; [Gradient Boosting](Study%20topics/gradient-boosting.html)（[Day 11](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-11)）; [scikit-learn Pipelines](Study%20topics/scikit-learn-pipelines.html)（[Day 03](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-03)）; [Cross-Validation](Study%20topics/cross-validation.html)（[Day 17](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-17)）; [Hyperparameter Tuning](Study%20topics/hyperparameter-tuning.html)（[Day 17](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-17)）; [Feature Engineering](Study%20topics/feature-engineering.html)（[Day 19](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-19)）; [Class Imbalance](Study%20topics/class-imbalance.html)（[Day 07](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-07)）; [MAE](Study%20topics/mae.html)（[Day 04](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-04)）; [RMSE](Study%20topics/rmse.html)（[Day 04](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-04)）; [Precision](Study%20topics/precision.html)（[Day 07](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-07)）; [Recall](Study%20topics/recall.html)（[Day 07](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-07)）; [F1](Study%20topics/f1.html)（[Day 07](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-07)）; [PR-AUC](Study%20topics/pr-auc.html)（[Day 09](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-09)）; [ROC-AUC](Study%20topics/roc-auc.html)（[Day 09](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-09)）; [Calibration](Study%20topics/calibration.html)（[Day 09](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-09)）; [Interpretability](Study%20topics/interpretability.html)（[Day 19](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-19)）; [Feature Importance](Study%20topics/feature-importance.html)（[Day 19](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-19)）; [Time-Series Splits](Study%20topics/time-series-splits.html)（[Day 21](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-21)）; [Walk-Forward Validation](Study%20topics/walk-forward-validation.html)（[Day 21](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-21)）; [Temporal Leakage](Study%20topics/temporal-leakage.html)（[Day 21](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-21)）; [Forecast Horizons](Study%20topics/forecast-horizons.html)（[Day 21](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-21)）; [Regime Changes](Study%20topics/regime-changes.html)（[Day 32](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-32)）; [Volatility Forecasting](Study%20topics/volatility-forecasting.html)（[Day 25](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-25)）; [Out-of-Sample Evaluation](Study%20topics/out-of-sample-evaluation.html)（[Day 25](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-25)）; [Reproducibility](Study%20topics/reproducibility.html)（[Day 36](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-36)）; [Statistical Uncertainty](Study%20topics/statistical-uncertainty.html)（[Day 32](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-32)）; [Prediction Intervals](Study%20topics/prediction-intervals.html)（[Day 33](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-33)）; [Drift](Study%20topics/drift.html)（[Day 42](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-42)）; [Retraining](Study%20topics/retraining.html)（[Day 42](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-42)）; [Model Versioning](Study%20topics/model-versioning.html)（[Day 36](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-36)）; [Rollback](Study%20topics/rollback.html)（[Day 19](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-19)）.
+[Supervised and Unsupervised Learning](Study%20topics/supervised-and-unsupervised-learning.html); [Train / Validation / Test Split](Study%20topics/train-validation-test-split.html); [Data Leakage](Study%20topics/data-leakage.html); [Bias-Variance](Study%20topics/bias-variance.html); [Overfitting](Study%20topics/overfitting.html); [Regularization](Study%20topics/regularization.html); [Scaling](Study%20topics/scaling.html); [Linear Regression](Study%20topics/linear-regression.html); [Logistic Regression](Study%20topics/logistic-regression.html); [Decision Trees](Study%20topics/decision-trees.html); [Random Forests](Study%20topics/random-forests.html); [Gradient Boosting](Study%20topics/gradient-boosting.html); [scikit-learn Pipelines](Study%20topics/scikit-learn-pipelines.html); [Cross-Validation](Study%20topics/cross-validation.html); [Hyperparameter Tuning](Study%20topics/hyperparameter-tuning.html); [Feature Engineering](Study%20topics/feature-engineering.html); [Class Imbalance](Study%20topics/class-imbalance.html); [MAE](Study%20topics/mae.html); [RMSE](Study%20topics/rmse.html); [Precision](Study%20topics/precision.html); [Recall](Study%20topics/recall.html); [F1](Study%20topics/f1.html); [PR-AUC](Study%20topics/pr-auc.html); [ROC-AUC](Study%20topics/roc-auc.html); [Calibration](Study%20topics/calibration.html); [Interpretability](Study%20topics/interpretability.html); [Feature Importance](Study%20topics/feature-importance.html); [Time-Series Splits](Study%20topics/time-series-splits.html); [Walk-Forward Validation](Study%20topics/walk-forward-validation.html); [Temporal Leakage](Study%20topics/temporal-leakage.html); [Forecast Horizons](Study%20topics/forecast-horizons.html); [Regime Changes](Study%20topics/regime-changes.html); [Volatility Forecasting](Study%20topics/volatility-forecasting.html); [Out-of-Sample Evaluation](Study%20topics/out-of-sample-evaluation.html); [Reproducibility](Study%20topics/reproducibility.html)（[Day 36](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-36)）; [Statistical Uncertainty](Study%20topics/statistical-uncertainty.html); [Prediction Intervals](Study%20topics/prediction-intervals.html)（[Day 33](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-33)）; [Drift](Study%20topics/drift.html); [Retraining](Study%20topics/retraining.html); [Model Versioning](Study%20topics/model-versioning.html)（[Day 36](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-36)）; [Rollback](Study%20topics/rollback.html)（[Day 19](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-19)）.
 
 ### LLM 基础与方案取舍
 
@@ -71,26 +74,26 @@ Day 01–20 Risk Copilot；Day 21–30 Financial Statement Analytics Assistant�
 
 ### General & AI System Design
 
-- [Requirements and API Design](Study%20topics/requirements-and-api-design.html) · [Day 01](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-01)
-- [Data Modeling and Indexes](Study%20topics/data-modeling-and-indexes.html) · [Day 03](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-03)
-- [Cache and API Service](Study%20topics/cache-and-api-service.html) · [Day 05](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-05)
-- [Queues and Job Scheduler](Study%20topics/queues-and-job-scheduler.html) · [Day 07](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-07)
-- [Rate Limiting and Capacity](Study%20topics/rate-limiting-and-capacity.html) · [Day 09](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-09)
-- [Retries, Idempotency and Consistency](Study%20topics/retries-idempotency-and-consistency.html) · [Day 11](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-11)
-- [Latency and Observability](Study%20topics/latency-and-observability.html) · [Day 13](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-13)
-- [CI/CD and AWS Deployment](Study%20topics/ci-cd-and-aws-deployment.html) · [Day 15](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-15)
-- [Financial Research RAG](Study%20topics/financial-research-rag.html) · [Day 17](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-17)
-- [RAG Evaluation and Retrieval Trade-offs](Study%20topics/rag-evaluation-and-retrieval-trade-offs.html) · [Day 19](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-19)
-- [Financial Text-to-SQL](Study%20topics/financial-text-to-sql.html) · [Day 21](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-21)
-- [Text-to-SQL Evaluation and Data Quality](Study%20topics/text-to-sql-evaluation-and-data-quality.html) · [Day 23](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-23)
-- [Agents with Human Approval](Study%20topics/agents-with-human-approval.html) · [Day 25](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-25)
-- [Agent Memory and Tool Contracts](Study%20topics/agent-memory-and-tool-contracts.html) · [Day 27](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-27)
-- [AI-Assisted Experiment Platform](Study%20topics/ai-assisted-experiment-platform.html) · [Day 29](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-29)
-- [Volatility Forecasting Service](Study%20topics/volatility-forecasting-service.html) · [Day 31](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-31)
-- [Evaluation and Regression Pipeline](Study%20topics/evaluation-and-regression-pipeline.html) · [Day 33](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-33)
-- [AI Latency and Cost Budget](Study%20topics/ai-latency-and-cost-budget.html) · [Day 35](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-35)
-- [AI Security and Reliability](Study%20topics/ai-security-and-reliability.html) · [Day 37](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-37)
-- [Transfer Mock: Contract Review Assistant](Study%20topics/transfer-mock-contract-review-assistant.html) · [Day 39](Reports/AI_ENGINEER_TRANSITION_PLAN.md#day-39)
+- [Requirements and API Design](Study%20topics/requirements-and-api-design.html)
+- [Data Modeling and Indexes](Study%20topics/data-modeling-and-indexes.html)
+- [Cache and API Service](Study%20topics/cache-and-api-service.html)
+- [Queues and Job Scheduler](Study%20topics/queues-and-job-scheduler.html)
+- [Rate Limiting and Capacity](Study%20topics/rate-limiting-and-capacity.html)
+- [Retries, Idempotency and Consistency](Study%20topics/retries-idempotency-and-consistency.html)
+- [Latency and Observability](Study%20topics/latency-and-observability.html)
+- [CI/CD and AWS Deployment](Study%20topics/ci-cd-and-aws-deployment.html)
+- [Financial Research RAG](Study%20topics/financial-research-rag.html)
+- [RAG Evaluation and Retrieval Trade-offs](Study%20topics/rag-evaluation-and-retrieval-trade-offs.html)
+- [Financial Text-to-SQL](Study%20topics/financial-text-to-sql.html)
+- [Text-to-SQL Evaluation and Data Quality](Study%20topics/text-to-sql-evaluation-and-data-quality.html)
+- [Agents with Human Approval](Study%20topics/agents-with-human-approval.html)
+- [Agent Memory and Tool Contracts](Study%20topics/agent-memory-and-tool-contracts.html)
+- [AI-Assisted Experiment Platform](Study%20topics/ai-assisted-experiment-platform.html)
+- [Volatility Forecasting Service](Study%20topics/volatility-forecasting-service.html)
+- [Evaluation and Regression Pipeline](Study%20topics/evaluation-and-regression-pipeline.html)
+- [AI Latency and Cost Budget](Study%20topics/ai-latency-and-cost-budget.html)
+- [AI Security and Reliability](Study%20topics/ai-security-and-reliability.html)
+- [Transfer Mock: Contract Review Assistant](Study%20topics/transfer-mock-contract-review-assistant.html)
 
 ### 每日 Interview Questions
 
@@ -98,8 +101,8 @@ LLM Theory; RAG; Agents; Evaluation; Safety; Monitoring; Cost and Latency; Pytho
 
 ## 计划说明
 
-- 依据 - 仓库里 6,964 条岗位数据和面试题，加上你有金融建模、Python 和性能优化经验，所以多加了 SQL、ML 基础、时间序列验证、API、测试和部署
-- 重点练 - Python、SQL、RAG 和 Agent 评估、可靠性、API、数据库、Docker、CI、金融 ML 实验
+- 依据 - 仓库里 6,964 条岗位数据和面试题，加上你有金融建模、Python 和性能优化经验，所以多加了 SQL、LeetCode Pattern、API、测试和部署；ML 基础讲义和 notebook 留在 Topic Library，不排进时间表
+- 重点练 - Python、LeetCode Pattern 识别、SQL、RAG 和 Agent 评估、可靠性、API、数据库、Docker、CI
 - 只学概念 - Transformer、LoRA、量化、MCP、云权限、多租户隔离、流式输出
 - 暂不练 - 分布式训练、CUDA、GPU 推理优化、从零写 Transformer、RLHF / DPO、高级 Kubernetes 和 Terraform、全栈 React
 - 网课 - 每天 2 小时，先学完 Core 再学 Production：[Core Track](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/) · [Production Track](https://www.udemy.com/course/generative-and-agentic-ai-in-production/)

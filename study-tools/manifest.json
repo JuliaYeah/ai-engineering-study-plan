@@ -614,370 +614,245 @@
     {
       "name": "Train / Validation / Test Split",
       "module": "ML",
-      "days": [
-        1,
-        40,
-        41
-      ],
+      "days": [],
       "id": "train-validation-test-split",
       "notebook": "01_train_validation_test_split.ipynb"
     },
     {
       "name": "Supervised and Unsupervised Learning; Baselines",
       "module": "ML",
-      "days": [
-        2,
-        39
-      ],
+      "days": [],
       "id": "supervised-and-unsupervised-learning-baselines",
       "notebook": "02_supervised_and_unsupervised_learning_baselines.ipynb"
     },
     {
       "name": "Data Leakage; Scaling; scikit-learn Pipelines",
       "module": "ML",
-      "days": [
-        3,
-        12
-      ],
+      "days": [],
       "id": "data-leakage-scaling-scikit-learn-pipelines",
       "notebook": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb"
     },
     {
       "name": "MAE; RMSE",
       "module": "ML",
-      "days": [
-        4,
-        13
-      ],
+      "days": [],
       "id": "mae-rmse",
       "notebook": "04_mae_rmse.ipynb"
     },
     {
       "name": "Bias-Variance; Overfitting; Regularization; Linear Regression",
       "module": "ML",
-      "days": [
-        5,
-        6,
-        14
-      ],
+      "days": [],
       "id": "bias-variance-overfitting-regularization-linear-regression",
       "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb"
     },
     {
       "name": "Logistic Regression; Precision; Recall; F1; Class Imbalance",
       "module": "ML",
-      "days": [
-        7,
-        8,
-        35
-      ],
+      "days": [],
       "id": "logistic-regression-precision-recall-f1-class-imbalance",
       "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb"
     },
     {
       "name": "PR-AUC; ROC-AUC; Calibration",
       "module": "ML",
-      "days": [
-        9,
-        10
-      ],
+      "days": [],
       "id": "pr-auc-roc-auc-calibration",
       "notebook": "07_pr_auc_roc_auc_calibration.ipynb"
     },
     {
       "name": "Decision Trees; Random Forests; Gradient Boosting",
       "module": "ML",
-      "days": [
-        11,
-        15,
-        16
-      ],
+      "days": [],
       "id": "decision-trees-random-forests-gradient-boosting",
       "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb"
     },
     {
       "name": "Cross-Validation; Hyperparameter Tuning",
       "module": "ML",
-      "days": [
-        17,
-        18
-      ],
+      "days": [],
       "id": "cross-validation-hyperparameter-tuning",
       "notebook": "09_cross_validation_hyperparameter_tuning.ipynb"
     },
     {
       "name": "Feature Engineering; Interpretability; Feature Importance",
       "module": "ML",
-      "days": [
-        19,
-        20
-      ],
+      "days": [],
       "id": "feature-engineering-interpretability-feature-importance",
       "notebook": "10_feature_engineering_interpretability_feature_importance.ipynb"
     },
     {
       "name": "Time-Series Splits; Walk-Forward Validation; Temporal Leakage; Forecast Horizons",
       "module": "ML",
-      "days": [
-        21,
-        22,
-        23,
-        24
-      ],
+      "days": [],
       "id": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
       "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb"
     },
     {
       "name": "Volatility Forecasting; Out-of-Sample Evaluation",
       "module": "ML",
-      "days": [
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31
-      ],
+      "days": [],
       "id": "volatility-forecasting-out-of-sample-evaluation",
       "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb"
     },
     {
       "name": "Regime Changes; Statistical Uncertainty; Prediction Intervals",
       "module": "ML",
-      "days": [
-        32,
-        33,
-        34
-      ],
+      "days": [],
       "id": "regime-changes-statistical-uncertainty-prediction-intervals",
       "notebook": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb"
     },
     {
       "name": "Reproducibility; Model Versioning; Serving; Rollback",
       "module": "ML",
-      "days": [
-        36,
-        37,
-        38
-      ],
+      "days": [],
       "id": "reproducibility-model-versioning-serving-rollback",
       "notebook": "14_reproducibility_model_versioning_serving_rollback.ipynb"
     },
     {
       "name": "Drift; Retraining",
       "module": "ML",
-      "days": [
-        42,
-        43,
-        44,
-        45
-      ],
+      "days": [],
       "id": "drift-retraining",
       "notebook": "15_drift_retraining.ipynb"
     },
     {
       "name": "Requirements and API Design",
       "module": "General System Design",
-      "days": [
-        1,
-        2
-      ],
+      "days": [],
       "id": "requirements-and-api-design",
       "mode": "General"
     },
     {
       "name": "Data Modeling and Indexes",
       "module": "General System Design",
-      "days": [
-        3,
-        4
-      ],
+      "days": [],
       "id": "data-modeling-and-indexes",
       "mode": "General"
     },
     {
       "name": "Cache and API Service",
       "module": "General System Design",
-      "days": [
-        5,
-        6,
-        41
-      ],
+      "days": [],
       "id": "cache-and-api-service",
       "mode": "General"
     },
     {
       "name": "Queues and Job Scheduler",
       "module": "General System Design",
-      "days": [
-        7,
-        8,
-        42
-      ],
+      "days": [],
       "id": "queues-and-job-scheduler",
       "mode": "General"
     },
     {
       "name": "Rate Limiting and Capacity",
       "module": "General System Design",
-      "days": [
-        9,
-        10
-      ],
+      "days": [],
       "id": "rate-limiting-and-capacity",
       "mode": "General"
     },
     {
       "name": "Retries, Idempotency and Consistency",
       "module": "General System Design",
-      "days": [
-        11,
-        12
-      ],
+      "days": [],
       "id": "retries-idempotency-and-consistency",
       "mode": "General"
     },
     {
       "name": "Latency and Observability",
       "module": "General System Design",
-      "days": [
-        13,
-        14
-      ],
+      "days": [],
       "id": "latency-and-observability",
       "mode": "General"
     },
     {
       "name": "CI/CD and AWS Deployment",
       "module": "General System Design",
-      "days": [
-        15,
-        16
-      ],
+      "days": [],
       "id": "ci-cd-and-aws-deployment",
       "mode": "General"
     },
     {
       "name": "Financial Research RAG",
       "module": "AI System Design",
-      "days": [
-        17,
-        18
-      ],
+      "days": [],
       "id": "financial-research-rag",
       "mode": "AI"
     },
     {
       "name": "RAG Evaluation and Retrieval Trade-offs",
       "module": "AI System Design",
-      "days": [
-        19,
-        20
-      ],
+      "days": [],
       "id": "rag-evaluation-and-retrieval-trade-offs",
       "mode": "AI"
     },
     {
       "name": "Financial Text-to-SQL",
       "module": "AI System Design",
-      "days": [
-        21,
-        22
-      ],
+      "days": [],
       "id": "financial-text-to-sql",
       "mode": "AI"
     },
     {
       "name": "Text-to-SQL Evaluation and Data Quality",
       "module": "AI System Design",
-      "days": [
-        23,
-        24
-      ],
+      "days": [],
       "id": "text-to-sql-evaluation-and-data-quality",
       "mode": "AI"
     },
     {
       "name": "Agents with Human Approval",
       "module": "AI System Design",
-      "days": [
-        25,
-        26
-      ],
+      "days": [],
       "id": "agents-with-human-approval",
       "mode": "AI"
     },
     {
       "name": "Agent Memory and Tool Contracts",
       "module": "AI System Design",
-      "days": [
-        27,
-        28
-      ],
+      "days": [],
       "id": "agent-memory-and-tool-contracts",
       "mode": "AI"
     },
     {
       "name": "AI-Assisted Experiment Platform",
       "module": "AI System Design",
-      "days": [
-        29,
-        30
-      ],
+      "days": [],
       "id": "ai-assisted-experiment-platform",
       "mode": "AI"
     },
     {
       "name": "Volatility Forecasting Service",
       "module": "AI System Design",
-      "days": [
-        31,
-        32
-      ],
+      "days": [],
       "id": "volatility-forecasting-service",
       "mode": "AI"
     },
     {
       "name": "Evaluation and Regression Pipeline",
       "module": "AI System Design",
-      "days": [
-        33,
-        34
-      ],
+      "days": [],
       "id": "evaluation-and-regression-pipeline",
       "mode": "AI"
     },
     {
       "name": "AI Latency and Cost Budget",
       "module": "AI System Design",
-      "days": [
-        35,
-        36
-      ],
+      "days": [],
       "id": "ai-latency-and-cost-budget",
       "mode": "AI"
     },
     {
       "name": "AI Security and Reliability",
       "module": "AI System Design",
-      "days": [
-        37,
-        38
-      ],
+      "days": [],
       "id": "ai-security-and-reliability",
       "mode": "AI"
     },
     {
       "name": "Transfer Mock: Contract Review Assistant",
       "module": "AI System Design",
-      "days": [
-        39,
-        40,
-        43,
-        44,
-        45
-      ],
+      "days": [],
       "id": "transfer-mock-contract-review-assistant",
       "mode": "AI"
     },
@@ -1920,10 +1795,7 @@
     {
       "name": "Supervised and Unsupervised Learning",
       "module": "ML",
-      "days": [
-        2,
-        39
-      ],
+      "days": [],
       "id": "supervised-and-unsupervised-learning",
       "parent": "supervised-and-unsupervised-learning-baselines",
       "notebook": "02_supervised_and_unsupervised_learning_baselines.ipynb"
@@ -1931,10 +1803,7 @@
     {
       "name": "Data Leakage",
       "module": "ML",
-      "days": [
-        3,
-        12
-      ],
+      "days": [],
       "id": "data-leakage",
       "parent": "data-leakage-scaling-scikit-learn-pipelines",
       "notebook": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb"
@@ -1942,11 +1811,7 @@
     {
       "name": "Bias-Variance",
       "module": "ML",
-      "days": [
-        5,
-        6,
-        14
-      ],
+      "days": [],
       "id": "bias-variance",
       "parent": "bias-variance-overfitting-regularization-linear-regression",
       "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb"
@@ -1954,11 +1819,7 @@
     {
       "name": "Overfitting",
       "module": "ML",
-      "days": [
-        5,
-        6,
-        14
-      ],
+      "days": [],
       "id": "overfitting",
       "parent": "bias-variance-overfitting-regularization-linear-regression",
       "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb"
@@ -1966,11 +1827,7 @@
     {
       "name": "Regularization",
       "module": "ML",
-      "days": [
-        5,
-        6,
-        14
-      ],
+      "days": [],
       "id": "regularization",
       "parent": "bias-variance-overfitting-regularization-linear-regression",
       "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb"
@@ -1978,10 +1835,7 @@
     {
       "name": "Scaling",
       "module": "ML",
-      "days": [
-        3,
-        12
-      ],
+      "days": [],
       "id": "scaling",
       "parent": "data-leakage-scaling-scikit-learn-pipelines",
       "notebook": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb"
@@ -1989,11 +1843,7 @@
     {
       "name": "Linear Regression",
       "module": "ML",
-      "days": [
-        5,
-        6,
-        14
-      ],
+      "days": [],
       "id": "linear-regression",
       "parent": "bias-variance-overfitting-regularization-linear-regression",
       "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb"
@@ -2001,11 +1851,7 @@
     {
       "name": "Logistic Regression",
       "module": "ML",
-      "days": [
-        7,
-        8,
-        35
-      ],
+      "days": [],
       "id": "logistic-regression",
       "parent": "logistic-regression-precision-recall-f1-class-imbalance",
       "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb"
@@ -2013,11 +1859,7 @@
     {
       "name": "Decision Trees",
       "module": "ML",
-      "days": [
-        11,
-        15,
-        16
-      ],
+      "days": [],
       "id": "decision-trees",
       "parent": "decision-trees-random-forests-gradient-boosting",
       "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb"
@@ -2025,11 +1867,7 @@
     {
       "name": "Random Forests",
       "module": "ML",
-      "days": [
-        11,
-        15,
-        16
-      ],
+      "days": [],
       "id": "random-forests",
       "parent": "decision-trees-random-forests-gradient-boosting",
       "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb"
@@ -2037,11 +1875,7 @@
     {
       "name": "Gradient Boosting",
       "module": "ML",
-      "days": [
-        11,
-        15,
-        16
-      ],
+      "days": [],
       "id": "gradient-boosting",
       "parent": "decision-trees-random-forests-gradient-boosting",
       "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb"
@@ -2049,10 +1883,7 @@
     {
       "name": "scikit-learn Pipelines",
       "module": "ML",
-      "days": [
-        3,
-        12
-      ],
+      "days": [],
       "id": "scikit-learn-pipelines",
       "parent": "data-leakage-scaling-scikit-learn-pipelines",
       "notebook": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb"
@@ -2060,10 +1891,7 @@
     {
       "name": "Cross-Validation",
       "module": "ML",
-      "days": [
-        17,
-        18
-      ],
+      "days": [],
       "id": "cross-validation",
       "parent": "cross-validation-hyperparameter-tuning",
       "notebook": "09_cross_validation_hyperparameter_tuning.ipynb"
@@ -2071,10 +1899,7 @@
     {
       "name": "Hyperparameter Tuning",
       "module": "ML",
-      "days": [
-        17,
-        18
-      ],
+      "days": [],
       "id": "hyperparameter-tuning",
       "parent": "cross-validation-hyperparameter-tuning",
       "notebook": "09_cross_validation_hyperparameter_tuning.ipynb"
@@ -2082,10 +1907,7 @@
     {
       "name": "Feature Engineering",
       "module": "ML",
-      "days": [
-        19,
-        20
-      ],
+      "days": [],
       "id": "feature-engineering",
       "parent": "feature-engineering-interpretability-feature-importance",
       "notebook": "10_feature_engineering_interpretability_feature_importance.ipynb"
@@ -2093,11 +1915,7 @@
     {
       "name": "Class Imbalance",
       "module": "ML",
-      "days": [
-        7,
-        8,
-        35
-      ],
+      "days": [],
       "id": "class-imbalance",
       "parent": "logistic-regression-precision-recall-f1-class-imbalance",
       "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb"
@@ -2105,10 +1923,7 @@
     {
       "name": "MAE",
       "module": "ML",
-      "days": [
-        4,
-        13
-      ],
+      "days": [],
       "id": "mae",
       "parent": "mae-rmse",
       "notebook": "04_mae_rmse.ipynb"
@@ -2116,10 +1931,7 @@
     {
       "name": "RMSE",
       "module": "ML",
-      "days": [
-        4,
-        13
-      ],
+      "days": [],
       "id": "rmse",
       "parent": "mae-rmse",
       "notebook": "04_mae_rmse.ipynb"
@@ -2127,11 +1939,7 @@
     {
       "name": "Precision",
       "module": "ML",
-      "days": [
-        7,
-        8,
-        35
-      ],
+      "days": [],
       "id": "precision",
       "parent": "logistic-regression-precision-recall-f1-class-imbalance",
       "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb"
@@ -2139,11 +1947,7 @@
     {
       "name": "Recall",
       "module": "ML",
-      "days": [
-        7,
-        8,
-        35
-      ],
+      "days": [],
       "id": "recall",
       "parent": "logistic-regression-precision-recall-f1-class-imbalance",
       "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb"
@@ -2151,11 +1955,7 @@
     {
       "name": "F1",
       "module": "ML",
-      "days": [
-        7,
-        8,
-        35
-      ],
+      "days": [],
       "id": "f1",
       "parent": "logistic-regression-precision-recall-f1-class-imbalance",
       "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb"
@@ -2163,10 +1963,7 @@
     {
       "name": "PR-AUC",
       "module": "ML",
-      "days": [
-        9,
-        10
-      ],
+      "days": [],
       "id": "pr-auc",
       "parent": "pr-auc-roc-auc-calibration",
       "notebook": "07_pr_auc_roc_auc_calibration.ipynb"
@@ -2174,10 +1971,7 @@
     {
       "name": "ROC-AUC",
       "module": "ML",
-      "days": [
-        9,
-        10
-      ],
+      "days": [],
       "id": "roc-auc",
       "parent": "pr-auc-roc-auc-calibration",
       "notebook": "07_pr_auc_roc_auc_calibration.ipynb"
@@ -2185,10 +1979,7 @@
     {
       "name": "Calibration",
       "module": "ML",
-      "days": [
-        9,
-        10
-      ],
+      "days": [],
       "id": "calibration",
       "parent": "pr-auc-roc-auc-calibration",
       "notebook": "07_pr_auc_roc_auc_calibration.ipynb"
@@ -2196,10 +1987,7 @@
     {
       "name": "Interpretability",
       "module": "ML",
-      "days": [
-        19,
-        20
-      ],
+      "days": [],
       "id": "interpretability",
       "parent": "feature-engineering-interpretability-feature-importance",
       "notebook": "10_feature_engineering_interpretability_feature_importance.ipynb"
@@ -2207,10 +1995,7 @@
     {
       "name": "Feature Importance",
       "module": "ML",
-      "days": [
-        19,
-        20
-      ],
+      "days": [],
       "id": "feature-importance",
       "parent": "feature-engineering-interpretability-feature-importance",
       "notebook": "10_feature_engineering_interpretability_feature_importance.ipynb"
@@ -2218,12 +2003,7 @@
     {
       "name": "Time-Series Splits",
       "module": "ML",
-      "days": [
-        21,
-        22,
-        23,
-        24
-      ],
+      "days": [],
       "id": "time-series-splits",
       "parent": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
       "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb"
@@ -2231,12 +2011,7 @@
     {
       "name": "Walk-Forward Validation",
       "module": "ML",
-      "days": [
-        21,
-        22,
-        23,
-        24
-      ],
+      "days": [],
       "id": "walk-forward-validation",
       "parent": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
       "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb"
@@ -2244,12 +2019,7 @@
     {
       "name": "Temporal Leakage",
       "module": "ML",
-      "days": [
-        21,
-        22,
-        23,
-        24
-      ],
+      "days": [],
       "id": "temporal-leakage",
       "parent": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
       "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb"
@@ -2257,12 +2027,7 @@
     {
       "name": "Forecast Horizons",
       "module": "ML",
-      "days": [
-        21,
-        22,
-        23,
-        24
-      ],
+      "days": [],
       "id": "forecast-horizons",
       "parent": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
       "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb"
@@ -2270,11 +2035,7 @@
     {
       "name": "Regime Changes",
       "module": "ML",
-      "days": [
-        32,
-        33,
-        34
-      ],
+      "days": [],
       "id": "regime-changes",
       "parent": "regime-changes-statistical-uncertainty-prediction-intervals",
       "notebook": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb"
@@ -2282,15 +2043,7 @@
     {
       "name": "Volatility Forecasting",
       "module": "ML",
-      "days": [
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31
-      ],
+      "days": [],
       "id": "volatility-forecasting",
       "parent": "volatility-forecasting-out-of-sample-evaluation",
       "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb"
@@ -2298,15 +2051,7 @@
     {
       "name": "Out-of-Sample Evaluation",
       "module": "ML",
-      "days": [
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31
-      ],
+      "days": [],
       "id": "out-of-sample-evaluation",
       "parent": "volatility-forecasting-out-of-sample-evaluation",
       "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb"
@@ -2314,11 +2059,7 @@
     {
       "name": "Statistical Uncertainty",
       "module": "ML",
-      "days": [
-        32,
-        33,
-        34
-      ],
+      "days": [],
       "id": "statistical-uncertainty",
       "parent": "regime-changes-statistical-uncertainty-prediction-intervals",
       "notebook": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb"
@@ -2326,12 +2067,7 @@
     {
       "name": "Drift",
       "module": "ML",
-      "days": [
-        42,
-        43,
-        44,
-        45
-      ],
+      "days": [],
       "id": "drift",
       "parent": "drift-retraining",
       "notebook": "15_drift_retraining.ipynb"
@@ -2339,12 +2075,7 @@
     {
       "name": "Retraining",
       "module": "ML",
-      "days": [
-        42,
-        43,
-        44,
-        45
-      ],
+      "days": [],
       "id": "retraining",
       "parent": "drift-retraining",
       "notebook": "15_drift_retraining.ipynb"
@@ -2357,10 +2088,8 @@
       "coding": [
         "hash-maps"
       ],
-      "ml": "train-validation-test-split",
-      "notebook": "01_train_validation_test_split.ipynb",
-      "design": "requirements-and-api-design",
-      "designModule": "General",
+      "patterns": [],
+      "helloInterview": "",
       "concepts": [
         "tokenization",
         "next-token-prediction",
@@ -2382,10 +2111,8 @@
         "limit",
         "null"
       ],
-      "ml": "supervised-and-unsupervised-learning-baselines",
-      "notebook": "02_supervised_and_unsupervised_learning_baselines.ipynb",
-      "design": "requirements-and-api-design",
-      "designModule": "General",
+      "patterns": [],
+      "helloInterview": "",
       "concepts": [
         "prompt-engineering",
         "few-shot-examples",
@@ -2400,10 +2127,8 @@
         "arrays-and-strings",
         "two-pointers"
       ],
-      "ml": "data-leakage-scaling-scikit-learn-pipelines",
-      "notebook": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb",
-      "design": "data-modeling-and-indexes",
-      "designModule": "General",
+      "patterns": [],
+      "helloInterview": "",
       "concepts": [
         "structured-outputs",
         "pydantic",
@@ -2418,10 +2143,10 @@
         "having",
         "case"
       ],
-      "ml": "mae-rmse",
-      "notebook": "04_mae_rmse.ipynb",
-      "design": "data-modeling-and-indexes",
-      "designModule": "General",
+      "patterns": [
+        9
+      ],
+      "helloInterview": "准备方法和 System Design 入门",
       "concepts": [
         "prompting-vs-rag-vs-fine-tuning",
         "lora",
@@ -2438,10 +2163,10 @@
         "binary-search",
         "complexity-analysis"
       ],
-      "ml": "bias-variance-overfitting-regularization-linear-regression",
-      "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb",
-      "design": "cache-and-api-service",
-      "designModule": "General",
+      "patterns": [
+        1
+      ],
+      "helloInterview": "Key Technologies 和 AI Coding 入门",
       "concepts": [
         "embeddings",
         "vector-similarity",
@@ -2461,10 +2186,10 @@
         "arrays-and-strings",
         "two-pointers"
       ],
-      "ml": "bias-variance-overfitting-regularization-linear-regression",
-      "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb",
-      "design": "cache-and-api-service",
-      "designModule": "General",
+      "patterns": [
+        3
+      ],
+      "helloInterview": "System Design 答题框架",
       "concepts": [
         "chunking",
         "metadata",
@@ -2477,10 +2202,10 @@
       "coding": [
         "joins"
       ],
-      "ml": "logistic-regression-precision-recall-f1-class-imbalance",
-      "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb",
-      "design": "queues-and-job-scheduler",
-      "designModule": "General",
+      "patterns": [
+        29
+      ],
+      "helloInterview": "Design Bitly",
       "concepts": [
         "keyword-vector-hybrid-search"
       ]
@@ -2492,10 +2217,10 @@
         "sliding-window",
         "prefix-sums"
       ],
-      "ml": "logistic-regression-precision-recall-f1-class-imbalance",
-      "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb",
-      "design": "queues-and-job-scheduler",
-      "designModule": "General",
+      "patterns": [
+        16
+      ],
+      "helloInterview": "Inventory Packer（Easy）",
       "concepts": [
         "mmr",
         "reranking",
@@ -2512,10 +2237,10 @@
         "ctes",
         "exists"
       ],
-      "ml": "pr-auc-roc-auc-calibration",
-      "notebook": "07_pr_auc_roc_auc_calibration.ipynb",
-      "design": "rate-limiting-and-capacity",
-      "designModule": "General",
+      "patterns": [
+        4
+      ],
+      "helloInterview": "Design Dropbox",
       "concepts": [
         "agents-vs-workflows",
         "function-calling",
@@ -2536,10 +2261,10 @@
         "stacks",
         "queues"
       ],
-      "ml": "pr-auc-roc-auc-calibration",
-      "notebook": "07_pr_auc_roc_auc_calibration.ipynb",
-      "design": "rate-limiting-and-capacity",
-      "designModule": "General",
+      "patterns": [
+        7
+      ],
+      "helloInterview": "重画 Bitly 和 Dropbox",
       "concepts": [
         "agent-state",
         "langgraph",
@@ -2553,10 +2278,10 @@
       "coding": [
         "heaps"
       ],
-      "ml": "decision-trees-random-forests-gradient-boosting",
-      "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb",
-      "design": "retries-idempotency-and-consistency",
-      "designModule": "General",
+      "patterns": [
+        8
+      ],
+      "helloInterview": "Redis、缓存与限流",
       "concepts": [
         "citations",
         "groundedness",
@@ -2576,10 +2301,10 @@
         "rank",
         "dense-rank"
       ],
-      "ml": "data-leakage-scaling-scikit-learn-pipelines",
-      "notebook": "03_data_leakage_scaling_scikit_learn_pipelines.ipynb",
-      "design": "retries-idempotency-and-consistency",
-      "designModule": "General",
+      "patterns": [
+        18
+      ],
+      "helloInterview": "Design Rate Limiter",
       "concepts": [
         "rest-apis",
         "fastapi",
@@ -2593,10 +2318,10 @@
         "linked-lists",
         "lru-cache"
       ],
-      "ml": "mae-rmse",
-      "notebook": "04_mae_rmse.ipynb",
-      "design": "latency-and-observability",
-      "designModule": "General",
+      "patterns": [
+        10
+      ],
+      "helloInterview": "Spell Checker（Easy）",
       "concepts": [
         "load-testing",
         "logs",
@@ -2614,10 +2339,10 @@
         "lead",
         "rolling-aggregations"
       ],
-      "ml": "bias-variance-overfitting-regularization-linear-regression",
-      "notebook": "05_bias_variance_overfitting_regularization_linear_regression.ipynb",
-      "design": "latency-and-observability",
-      "designModule": "General",
+      "patterns": [
+        11
+      ],
+      "helloInterview": "Design Distributed Cache",
       "concepts": []
     },
     {
@@ -2628,10 +2353,10 @@
         "bfs",
         "dfs"
       ],
-      "ml": "decision-trees-random-forests-gradient-boosting",
-      "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb",
-      "design": "ci-cd-and-aws-deployment",
-      "designModule": "General",
+      "patterns": [
+        12
+      ],
+      "helloInterview": "Easy 练习 3",
       "concepts": [
         "offline-regression-evals",
         "ci-cd",
@@ -2646,10 +2371,10 @@
         "trees",
         "recursion"
       ],
-      "ml": "decision-trees-random-forests-gradient-boosting",
-      "notebook": "08_decision_trees_random_forests_gradient_boosting.ipynb",
-      "design": "ci-cd-and-aws-deployment",
-      "designModule": "General",
+      "patterns": [
+        24
+      ],
+      "helloInterview": "队列、重试与幂等",
       "concepts": [
         "docker"
       ]
@@ -2660,10 +2385,10 @@
       "coding": [
         "date-queries"
       ],
-      "ml": "cross-validation-hyperparameter-tuning",
-      "notebook": "09_cross_validation_hyperparameter_tuning.ipynb",
-      "design": "financial-research-rag",
-      "designModule": "AI",
+      "patterns": [
+        20
+      ],
+      "helloInterview": "Design Job Scheduler",
       "concepts": [
         "model-selection",
         "cloud-fundamentals",
@@ -2682,10 +2407,10 @@
         "key-value-store",
         "ttl"
       ],
-      "ml": "cross-validation-hyperparameter-tuning",
-      "notebook": "09_cross_validation_hyperparameter_tuning.ipynb",
-      "design": "financial-research-rag",
-      "designModule": "AI",
+      "patterns": [
+        22
+      ],
+      "helloInterview": "Task Scheduler（Medium）",
       "concepts": []
     },
     {
@@ -2696,10 +2421,10 @@
         "constraints",
         "parameterized-queries"
       ],
-      "ml": "feature-engineering-interpretability-feature-importance",
-      "notebook": "10_feature_engineering_interpretability_feature_importance.ipynb",
-      "design": "rag-evaluation-and-retrieval-trade-offs",
-      "designModule": "AI",
+      "patterns": [
+        21
+      ],
+      "helloInterview": "Design Metrics Monitoring",
       "concepts": [
         "oidc",
         "rollback"
@@ -2714,10 +2439,10 @@
         "refactoring",
         "code-review"
       ],
-      "ml": "feature-engineering-interpretability-feature-importance",
-      "notebook": "10_feature_engineering_interpretability_feature_importance.ipynb",
-      "design": "rag-evaluation-and-retrieval-trade-offs",
-      "designModule": "AI",
+      "patterns": [
+        23
+      ],
+      "helloInterview": "调度系统故障推演",
       "concepts": [
         "clean-environment-reproduction",
         "readme",
@@ -2731,10 +2456,10 @@
       "coding": [
         "api-clients"
       ],
-      "ml": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
-      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb",
-      "design": "financial-text-to-sql",
-      "designModule": "AI",
+      "patterns": [
+        2
+      ],
+      "helloInterview": "限时 Mock：分布式消息队列",
       "concepts": [
         "access-control",
         "snowflake",
@@ -2748,10 +2473,10 @@
         "postgresql-schema-design",
         "primary-and-foreign-keys"
       ],
-      "ml": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
-      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb",
-      "design": "financial-text-to-sql",
-      "designModule": "AI",
+      "patterns": [
+        5
+      ],
+      "helloInterview": "Route Planner（Medium）",
       "concepts": [
         "sec-financial-data"
       ]
@@ -2766,10 +2491,10 @@
         "gil",
         "race-conditions"
       ],
-      "ml": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
-      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb",
-      "design": "text-to-sql-evaluation-and-data-quality",
-      "designModule": "AI",
+      "patterns": [
+        30
+      ],
+      "helloInterview": "限时 Mock：实时行情分发",
       "concepts": [
         "data-quality"
       ]
@@ -2782,10 +2507,10 @@
         "explain",
         "query-optimization"
       ],
-      "ml": "time-series-splits-walk-forward-validation-temporal-leakage-forecast-horizons",
-      "notebook": "11_time_series_splits_walk_forward_validation_temporal_leakage_forecast_horizons.ipynb",
-      "design": "text-to-sql-evaluation-and-data-quality",
-      "designModule": "AI",
+      "patterns": [
+        6
+      ],
+      "helloInterview": "Medium 练习 3",
       "concepts": [
         "point-in-time-data"
       ]
@@ -2797,10 +2522,10 @@
         "lru-cache",
         "rate-limiter"
       ],
-      "ml": "volatility-forecasting-out-of-sample-evaluation",
-      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
-      "design": "agents-with-human-approval",
-      "designModule": "AI",
+      "patterns": [
+        13
+      ],
+      "helloInterview": "本周设计和代码复盘",
       "concepts": []
     },
     {
@@ -2811,10 +2536,10 @@
         "async",
         "concurrency"
       ],
-      "ml": "volatility-forecasting-out-of-sample-evaluation",
-      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
-      "design": "agents-with-human-approval",
-      "designModule": "AI",
+      "patterns": [
+        14
+      ],
+      "helloInterview": "限时 Mock：批量风险计算平台",
       "concepts": []
     },
     {
@@ -2824,10 +2549,10 @@
         "run-analytics",
         "percentiles"
       ],
-      "ml": "volatility-forecasting-out-of-sample-evaluation",
-      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
-      "design": "agent-memory-and-tool-contracts",
-      "designModule": "AI",
+      "patterns": [
+        15
+      ],
+      "helloInterview": "Medium 练习 4",
       "concepts": [
         "memory"
       ]
@@ -2841,10 +2566,10 @@
         "vectorization",
         "profiling"
       ],
-      "ml": "volatility-forecasting-out-of-sample-evaluation",
-      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
-      "design": "agent-memory-and-tool-contracts",
-      "designModule": "AI",
+      "patterns": [
+        17
+      ],
+      "helloInterview": "限时 Mock：交易事件处理",
       "concepts": [
         "mcp-fundamentals",
         "text-to-sql-evaluation"
@@ -2857,10 +2582,10 @@
         "lag",
         "date-queries"
       ],
-      "ml": "volatility-forecasting-out-of-sample-evaluation",
-      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
-      "design": "ai-assisted-experiment-platform",
-      "designModule": "AI",
+      "patterns": [
+        19
+      ],
+      "helloInterview": "Medium 练习 5",
       "concepts": []
     },
     {
@@ -2874,10 +2599,10 @@
         "dfs",
         "trees"
       ],
-      "ml": "volatility-forecasting-out-of-sample-evaluation",
-      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
-      "design": "ai-assisted-experiment-platform",
-      "designModule": "AI",
+      "patterns": [
+        25
+      ],
+      "helloInterview": "重做最弱的 Deep Dive",
       "concepts": []
     },
     {
@@ -2888,10 +2613,10 @@
         "key-value-store",
         "ttl"
       ],
-      "ml": "volatility-forecasting-out-of-sample-evaluation",
-      "notebook": "12_volatility_forecasting_out_of_sample_evaluation.ipynb",
-      "design": "volatility-forecasting-service",
-      "designModule": "AI",
+      "patterns": [
+        26
+      ],
+      "helloInterview": "限时 Mock：Design Job Scheduler 重做",
       "concepts": [
         "experiment-tracking",
         "investment-research-workbench"
@@ -2904,10 +2629,10 @@
         "joins",
         "group-by"
       ],
-      "ml": "regime-changes-statistical-uncertainty-prediction-intervals",
-      "notebook": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb",
-      "design": "volatility-forecasting-service",
-      "designModule": "AI",
+      "patterns": [
+        27
+      ],
+      "helloInterview": "Medium 练习 6",
       "concepts": []
     },
     {
@@ -2917,10 +2642,10 @@
         "debugging",
         "vectorization"
       ],
-      "ml": "regime-changes-statistical-uncertainty-prediction-intervals",
-      "notebook": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb",
-      "design": "evaluation-and-regression-pipeline",
-      "designModule": "AI",
+      "patterns": [
+        28
+      ],
+      "helloInterview": "最终 Mock",
       "concepts": [
         "prediction-intervals"
       ]
@@ -2938,10 +2663,10 @@
         "rolling-aggregations",
         "financial-analytics"
       ],
-      "ml": "regime-changes-statistical-uncertainty-prediction-intervals",
-      "notebook": "13_regime_changes_statistical_uncertainty_prediction_intervals.ipynb",
-      "design": "evaluation-and-regression-pipeline",
-      "designModule": "AI",
+      "patterns": [
+        31
+      ],
+      "helloInterview": "最终 Open-Ended 练习",
       "concepts": [
         "online-feedback",
         "workers",
@@ -2956,10 +2681,10 @@
         "vectorization",
         "numpy-logistic-regression"
       ],
-      "ml": "logistic-regression-precision-recall-f1-class-imbalance",
-      "notebook": "06_logistic_regression_precision_recall_f1_class_imbalance.ipynb",
-      "design": "ai-latency-and-cost-budget",
-      "designModule": "AI",
+      "patterns": [
+        32
+      ],
+      "helloInterview": "6 周总复盘",
       "concepts": [
         "streaming",
         "token-usage",
@@ -2978,10 +2703,10 @@
         "prefix-sums",
         "recursion"
       ],
-      "ml": "reproducibility-model-versioning-serving-rollback",
-      "notebook": "14_reproducibility_model_versioning_serving_rollback.ipynb",
-      "design": "ai-latency-and-cost-budget",
-      "designModule": "AI",
+      "patterns": [
+        33
+      ],
+      "helloInterview": "新题：限时 Mock",
       "concepts": [
         "reproducibility",
         "model-versioning"
@@ -2999,10 +2724,10 @@
         "lead",
         "rolling-aggregations"
       ],
-      "ml": "reproducibility-model-versioning-serving-rollback",
-      "notebook": "14_reproducibility_model_versioning_serving_rollback.ipynb",
-      "design": "ai-security-and-reliability",
-      "designModule": "AI",
+      "patterns": [
+        37
+      ],
+      "helloInterview": "新题：Medium",
       "concepts": [
         "tool-selection-evaluation",
         "prompt-injection",
@@ -3022,10 +2747,10 @@
         "refactoring",
         "code-review"
       ],
-      "ml": "reproducibility-model-versioning-serving-rollback",
-      "notebook": "14_reproducibility_model_versioning_serving_rollback.ipynb",
-      "design": "ai-security-and-reliability",
-      "designModule": "AI",
+      "patterns": [
+        38
+      ],
+      "helloInterview": "限时 Mock：Design Robinhood",
       "concepts": []
     },
     {
@@ -3057,10 +2782,11 @@
         "financial-analytics",
         "joins"
       ],
-      "ml": "supervised-and-unsupervised-learning-baselines",
-      "notebook": "02_supervised_and_unsupervised_learning_baselines.ipynb",
-      "design": "transfer-mock-contract-review-assistant",
-      "designModule": "AI",
+      "patterns": [
+        34,
+        35
+      ],
+      "helloInterview": "新题：Open-Ended",
       "concepts": [
         "ownership",
         "design-trade-offs"
@@ -3074,10 +2800,11 @@
         "lru-cache",
         "numpy-logistic-regression"
       ],
-      "ml": "train-validation-test-split",
-      "notebook": "01_train_validation_test_split.ipynb",
-      "design": "transfer-mock-contract-review-assistant",
-      "designModule": "AI",
+      "patterns": [
+        40,
+        41
+      ],
+      "helloInterview": "7 周卡点清单",
       "concepts": []
     },
     {
@@ -3088,10 +2815,11 @@
         "binary-search",
         "linked-lists"
       ],
-      "ml": "train-validation-test-split",
-      "notebook": "01_train_validation_test_split.ipynb",
-      "design": "cache-and-api-service",
-      "designModule": "General",
+      "patterns": [
+        39,
+        36
+      ],
+      "helloInterview": "重做最弱的设计",
       "concepts": []
     },
     {
@@ -3101,10 +2829,8 @@
         "joins",
         "having"
       ],
-      "ml": "drift-retraining",
-      "notebook": "15_drift_retraining.ipynb",
-      "design": "queues-and-job-scheduler",
-      "designModule": "General",
+      "patterns": [],
+      "helloInterview": "重做最弱的 Coding",
       "concepts": []
     },
     {
@@ -3117,10 +2843,8 @@
         "rate-limiter",
         "crawler"
       ],
-      "ml": "drift-retraining",
-      "notebook": "15_drift_retraining.ipynb",
-      "design": "transfer-mock-contract-review-assistant",
-      "designModule": "AI",
+      "patterns": [],
+      "helloInterview": "完整 Mock：System Design",
       "concepts": []
     },
     {
@@ -3135,10 +2859,8 @@
         "lead",
         "rolling-aggregations"
       ],
-      "ml": "drift-retraining",
-      "notebook": "15_drift_retraining.ipynb",
-      "design": "transfer-mock-contract-review-assistant",
-      "designModule": "AI",
+      "patterns": [],
+      "helloInterview": "完整 Mock：AI Coding",
       "concepts": []
     },
     {
@@ -3150,10 +2872,8 @@
         "bfs",
         "dfs"
       ],
-      "ml": "drift-retraining",
-      "notebook": "15_drift_retraining.ipynb",
-      "design": "transfer-mock-contract-review-assistant",
-      "designModule": "AI",
+      "patterns": [],
+      "helloInterview": "总复盘",
       "concepts": []
     }
   ]

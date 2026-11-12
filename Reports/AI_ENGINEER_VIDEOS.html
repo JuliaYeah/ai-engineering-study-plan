@@ -1,52 +1,256 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>视频链接</title><link rel="stylesheet" href="../Study%20topics/style.css"></head><body><main><nav><a href="AI_ENGINEER_TRANSITION_PLAN.html">每日时间表</a><a href="../Study%20topics/index.html">Topic 索引</a><a href="../AI_ENGINEER_DAILY_LEARNING_GUIDE.html">学习指南</a><a href="AI_ENGINEER_PROJECT_ROADMAP.html">项目路线</a><a href="AI_ENGINEER_TOP150_RECORD.html">刷题记录</a><a href="AI_ENGINEER_VIDEOS.html">视频链接</a></nav><style>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>视频链接</title><link rel="stylesheet" href="../Study%20topics/style.css"></head><body><main><nav><a href="AI_ENGINEER_TRANSITION_PLAN.html">每日时间表</a><a href="../Study%20topics/index.html">Topic 索引</a><a href="../AI_ENGINEER_DAILY_LEARNING_GUIDE.html">学习指南</a><a href="AI_ENGINEER_PROJECT_ROADMAP.html">项目路线</a><a href="AI_ENGINEER_TOP150_RECORD.html">刷题记录</a><a href="AI_ENGINEER_VIDEOS.html">视频链接</a><a href="AI_ENGINEER_THOUGHTS.html">随想笔记</a></nav><style>
 .vd-form{display:flex;gap:8px;margin:6px 0 4px}
 .vd-form[hidden]{display:none}
 .vd-form input{flex:1;min-width:0;max-width:none;padding:9px 12px}
-.vd-form button,.vd-act button{font:inherit;cursor:pointer;border:1px solid #b4c9d4;border-radius:6px;background:#fff;color:#1d2b36}
+.vd-form button,.vd-act button,.vd-sum button{font:inherit;cursor:pointer;border:1px solid #b4c9d4;border-radius:6px;background:#fff;color:#1d2b36}
 .vd-form button{padding:8px 18px;background:var(--accent);border-color:var(--accent);color:#fff}
-.vd-form button:disabled{opacity:.6;cursor:wait}
+.vd-form button:disabled,.vd-act button:disabled{opacity:.6;cursor:wait}
 #vd-msg{min-height:1.4em;margin:4px 0 10px}
-.vd-tools{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 6px;font-size:14px}
-.vd-tools input{width:min(100%,260px);padding:6px 10px;font-size:14px}
+.vd-tools{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:6px 10px;margin:0 0 6px;font-size:14px}
+.vd-tools input{width:min(100%,240px);padding:6px 10px;font-size:14px}
+.vd-tools select{font:inherit;font-size:14px;padding:5px 6px;border:1px solid #b4c9d4;border-radius:6px;background:#fff}
+.vd-tools .vd-right{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.vd-tools .vd-right[hidden]{display:none}
+.vd-wrap{overflow-x:auto}
 table.vd{font-size:14px;table-layout:fixed}
-table.vd th:nth-child(1){width:40%}table.vd th:nth-child(2){width:16%}table.vd th:nth-child(4){width:132px}
+table.vd th{position:relative;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+table.vd th:nth-child(1){width:58px}table.vd th:nth-child(2){width:34%}table.vd th:nth-child(3){width:70px}table.vd th:nth-child(4){width:13%}
+table.vd th:nth-child(5){width:124px}table.vd th:nth-child(7){width:150px}
+table.vd .vd-d{white-space:nowrap;font-variant-numeric:tabular-nums;color:#33454f}
 table.vd td{padding:8px 10px;overflow-wrap:anywhere}
+table.vd .vd-w{text-align:center}
+.vd-grip{position:absolute;top:0;right:0;width:9px;height:100%;cursor:col-resize;touch-action:none}
+.vd-grip::after{content:"";position:absolute;top:22%;bottom:22%;right:3px;border-right:1px solid #c9d6de}
+.vd-grip:hover::after,.vd-grip.vd-on::after{border-right:2px solid var(--accent)}
+table.vd.vd-dragging{user-select:none;cursor:col-resize}
+.vd-check{width:16px;height:16px;margin:2px 0 0;cursor:pointer;accent-color:var(--accent)}
+.vd-check:disabled{cursor:default}
+td.vd-r{white-space:nowrap;overflow:hidden}
+.vd-stars{display:inline-flex}
+.vd-star{font:inherit;font-size:18px;line-height:1;padding:0 1px;border:0;background:none;color:#c5ced6;cursor:pointer}
+.vd-star.vd-on{color:#d99a00}
+.vd-stars:hover .vd-star{color:#ebb434}
+.vd-stars .vd-star:hover~.vd-star{color:#c5ced6}
+span.vd-star{cursor:default}
 .vd-sub{display:block;margin-top:2px;font-size:12px;color:#5b6b78}
 .vd-url{font-size:13px}
-.vd-act{white-space:nowrap}
+button.vd-author{font:inherit;color:inherit;text-align:left;background:none;border:0;padding:0;cursor:pointer;overflow-wrap:anywhere}
+.vd-pen{font-size:13px;color:#a3b1bc}
+button.vd-author:hover .vd-pen,button.vd-author.vd-open .vd-pen{color:var(--accent)}
+button.vd-author.vd-noted .vd-pen{color:var(--accent);font-weight:600}
+.vd-anote textarea{display:block;width:100%;min-height:90px;resize:vertical;margin:4px 0 6px;padding:8px 10px;border:1px solid #b4c9d4;border-radius:6px;font:inherit;font-size:14px;line-height:1.55}
+.vd-note-btns button{margin:0 6px 0 0}
+.vd-note-ro{white-space:pre-wrap}
+.vd-act{white-space:normal}
 .vd-act button{padding:2px 8px;font-size:13px;margin:0 4px 4px 0}
+.vd-act button.vd-has{border-color:#2da44e;color:#116329}
 table.vd input{width:100%;box-sizing:border-box;padding:5px 8px;font-size:14px}
+tr.vd-sum-row td{padding:0 10px 12px;border-bottom:1px solid #dce4ea}
+.vd-sum{background:#fff;border:1px solid #dce4ea;border-radius:8px;padding:10px 14px;font-size:14px;line-height:1.55}
+.vd-sum h4{margin:12px 0 4px;font-size:15px}
+.vd-sum ul{margin:4px 0;padding-left:1.3em}
+.vd-sum li{margin:3px 0}
+.vd-sum p{margin:4px 0}
+.vd-sum .vd-meta{font-size:12px;color:#5b6b78;margin:0 0 6px}
+.vd-sum a.vd-t{font-family:Consolas,monospace;font-size:13px;text-decoration:none;margin-right:4px}
+.vd-sum button{padding:2px 8px;font-size:13px;margin-top:6px}
 .vd-empty{color:#5b6b78}
 @media(max-width:640px){
- table.vd,table.vd tbody,table.vd tr,table.vd td{display:block;width:auto}
+ table.vd,table.vd tbody{display:block;width:auto!important}
  table.vd thead{display:none}
- table.vd tr{border-bottom:1px solid #dce4ea;padding:8px 0}
- table.vd td{border:0;padding:2px 0}
- table.vd td:nth-child(2):not(:empty)::before{content:"作者："; color:#5b6b78}
+ table.vd tr{display:flex;flex-wrap:wrap;align-items:flex-start;border-bottom:1px solid #dce4ea;padding:8px 0}
+ table.vd td{display:block;flex:0 0 100%;border:0;padding:2px 0}
+ table.vd td.vd-w{flex:0 0 28px;text-align:left}
+ table.vd td.vd-t{flex:1 1 calc(100% - 28px);min-width:0}
+ table.vd td.vd-d{flex:0 0 auto;margin-right:14px}
+ table.vd td.vd-d:empty{display:none}
+ table.vd td.vd-d::before{content:"时长："; color:#5b6b78}
+ table.vd td.vd-a{flex:1 1 0;min-width:0}
+ table.vd td.vd-a:not(:empty)::before{content:"作者："; color:#5b6b78}
+ table.vd td.vd-r:not(:empty)::before{content:"Usefulness："; color:#5b6b78}
+ tr.vd-sum-row{padding-top:0}
+ tr.vd-sum-row td{padding:0 0 4px;border:0}
 }
-</style><h1>视频链接</h1><form id="vd-form" class="vd-form" hidden><input id="vd-url" type="text" inputmode="url" autocomplete="off" placeholder="粘贴视频链接：YouTube、小红书、B站…（连分享文字一起粘贴也可以）" aria-label="视频链接"><button id="vd-save" type="submit">Save</button></form><p id="vd-msg" class="muted"></p><div class="vd-tools"><span id="vd-count" class="muted"></span><input id="vd-q" type="search" placeholder="搜索主题、作者" aria-label="搜索"></div><table class="vd"><thead><tr><th>主题</th><th>作者</th><th>链接</th><th></th></tr></thead><tbody id="vd-rows"></tbody></table><p id="vd-empty" class="vd-empty" hidden>还没有视频。把链接粘贴到上面的框里，点 Save。</p><script>(function client() {
-  var online = false, items = [], editing = '';
+</style><h1>视频链接</h1><form id="vd-form" class="vd-form" hidden><input id="vd-url" type="text" inputmode="url" autocomplete="off" placeholder="粘贴视频链接（YouTube 视频可以生成总结）" aria-label="视频链接"><button id="vd-save" type="submit">Save</button></form><p id="vd-msg" class="muted"></p><div class="vd-tools"><span id="vd-count" class="muted"></span><span class="vd-right"><label id="vd-model-wrap" hidden title="生成总结用的模型，用的是这台电脑上 Claude Code 的登录（算在套餐用量里）">总结用 <select id="vd-model"><option value="sonnet">Sonnet（推荐）</option><option value="opus">Opus（最好，用量最多）</option><option value="haiku">Haiku（最省）</option></select></label><input id="vd-q" type="search" placeholder="搜索主题、作者" aria-label="搜索"></span></div><div class="vd-wrap"><table id="vd-table" class="vd"><thead><tr><th class="vd-w">看过</th><th>主题</th><th class="vd-d" title="视频长度">时长</th><th>作者</th><th>Usefulness</th><th>链接</th><th></th></tr></thead><tbody id="vd-rows"></tbody></table></div><p id="vd-empty" class="vd-empty" hidden>还没有视频。把链接粘贴到上面的框里，点 Save。</p><script>(function client() {
+  var online = false, items = [], editing = '', open = {}, busy = {}, cache = {}, MODEL = 'study-video-model';
+  var authors = {}, noteOpen = {}, noteDraft = {}, noteFocus = '';   // author 备注: saved notes; per video row: open, unsaved text
   function $(id) { return document.getElementById(id); }
   function msg(t) { $('vd-msg').textContent = t || ''; }
+  function ls(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
   function post(body) {
     return fetch('/api/videos', { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Study': '1' }, body: JSON.stringify(body) })
       .then(function (r) { return r.json().then(function (j) { if (!r.ok) throw new Error(j.error || ('HTTP ' + r.status)); return j; }); });
   }
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
   function link(url, text, cls) { var a = el('a', cls, text); a.href = url; a.target = '_blank'; a.rel = 'noopener'; return a; }
-  function btn(text, fn) { var b = el('button', '', text); b.type = 'button'; b.addEventListener('click', fn); return b; }
+  function btn(text, fn, cls) { var b = el('button', cls || '', text); b.type = 'button'; b.addEventListener('click', fn); return b; }
   function day(iso) { var d = new Date(iso); return isNaN(d) ? '' : (d.getMonth() + 1) + '/' + d.getDate(); }
-  function act(body, done) {
+  function ytId(u) {
+    try {
+      var x = new URL(u);
+      if (x.hostname === 'youtu.be') return x.pathname.slice(1).split('/')[0];
+      return x.searchParams.get('v') || ((x.pathname.match(/\/(?:shorts|live|embed)\/([\w-]+)/) || [])[1]) || '';
+    } catch (e) { return ''; }
+  }
+  function act(body) {
     msg('正在保存…');
-    post(body).then(function (j) { items = j.items; editing = ''; render(); msg(j.message); if (done) done(j); })
+    post(body).then(function (j) { items = j.items; editing = ''; render(); msg(j.message); })
       .catch(function (e) { msg('失败：' + e.message); });
   }
+  // 看过 and Usefulness: shown at once and saved quietly; the row is not redrawn, so an open 编辑 row keeps what was typed
+  function mark(v, field, value, repaint) {
+    var before = v[field], body = { action: 'mark', id: v.id };
+    if (value) v[field] = field === 'watched' ? (v.watched || new Date().toISOString()) : value; else delete v[field];
+    body[field] = value; repaint(); count();
+    post(body).catch(function (e) {
+      if (before === undefined) delete v[field]; else v[field] = before;
+      repaint(); count(); msg('保存失败：' + e.message);
+    });
+  }
+  // 时长: seconds -> "24:37" or "1:02:05"; '' when not known
+  function hms(s) {
+    s = Math.round(+s);
+    if (!(s > 0)) return '';
+    var h = Math.floor(s / 3600), m = Math.floor(s / 60) % 60, x = s % 60, two = function (n) { return (n < 10 ? '0' : '') + n; };
+    return (h ? h + ':' + two(m) : m) + ':' + two(x);
+  }
+  function subText(v) {
+    return v.platform + (day(v.added) ? ' · ' + day(v.added) + ' 添加' : '') + (v.watched && day(v.watched) ? ' · ' + day(v.watched) + ' 看过' : '');
+  }
+  function watchedCell(td, v, sub) {
+    var c = el('input', 'vd-check');
+    c.type = 'checkbox'; c.disabled = !online; c.setAttribute('aria-label', '看过');
+    function paint() {
+      c.checked = !!v.watched;
+      c.title = v.watched ? (day(v.watched) ? day(v.watched) + ' ' : '') + '看过' : (online ? '看过了就勾上' : '没看过');
+      if (sub) sub.textContent = subText(v);
+    }
+    paint();
+    c.addEventListener('change', function () { mark(v, 'watched', c.checked, paint); });
+    td.appendChild(c);
+  }
+  function ratingCell(td, v) {
+    if (!online) {   // read only: the stars, or nothing when not rated
+      if (!v.rating) return;
+      var ro = el('span', 'vd-stars-ro');
+      ro.title = 'Usefulness ' + v.rating + ' / 5';
+      for (var k = 1; k <= 5; k++) ro.appendChild(el('span', 'vd-star' + (k <= v.rating ? ' vd-on' : ''), '★'));
+      return td.appendChild(ro);
+    }
+    var box = el('span', 'vd-stars'), stars = [];
+    function paint() {
+      stars.forEach(function (s, i) {
+        var n = i + 1;
+        s.classList.toggle('vd-on', n <= (v.rating || 0));
+        s.title = n === v.rating ? n + ' 分（再点一次清除）' : n + ' 分';
+        s.setAttribute('aria-pressed', n === v.rating ? 'true' : 'false');
+      });
+    }
+    [1, 2, 3, 4, 5].forEach(function (n) {
+      var s = btn('★', function () { mark(v, 'rating', n === v.rating ? 0 : n, paint); }, 'vd-star');
+      s.setAttribute('aria-label', 'Usefulness ' + n + ' 分');
+      stars.push(s); box.appendChild(s);
+    });
+    paint();
+    td.appendChild(box);
+  }
+  // 作者 备注: click an author's name to open a box under that row with what you think of them, click again to close it.
+  // One 备注 per author (the same in every row of theirs); ✎ is coloured when there is one, and hovering shows it.
+  function authorCell(td, v) {
+    if (!v.author) return;
+    var note = (authors[v.author] || {}).note || '';
+    if (!online && !note) { td.textContent = v.author; return; }
+    var b = btn('', function () {
+      noteOpen[v.id] = !noteOpen[v.id];
+      if (noteOpen[v.id]) noteFocus = v.id;
+      render();
+    }, 'vd-author' + (note ? ' vd-noted' : '') + (noteOpen[v.id] ? ' vd-open' : ''));
+    b.appendChild(document.createTextNode(v.author + ' '));
+    b.appendChild(el('span', 'vd-pen', '✎'));
+    b.title = note ? '备注：' + (note.length > 200 ? note.slice(0, 200) + '…' : note) + '\n（点一下展开）' : '点一下写对 ' + v.author + ' 的备注';
+    b.setAttribute('aria-expanded', noteOpen[v.id] ? 'true' : 'false');
+    td.appendChild(b);
+  }
+  function saveNote(v, text, button) {
+    button.disabled = true; msg('正在保存…');
+    post({ action: 'author', author: v.author, note: text }).then(function (j) {
+      authors = j.authors || {}; delete noteDraft[v.id]; noteOpen[v.id] = false; render(); msg(j.message);
+    }).catch(function (e) { button.disabled = false; msg('保存失败：' + e.message); });
+  }
+  function noteRow(v) {
+    var tr = el('tr', 'vd-sum-row vd-note-row'), td = el('td'), box = el('div', 'vd-sum vd-anote'), cur = authors[v.author] || {};
+    td.colSpan = 7; td.appendChild(box); tr.appendChild(td);
+    box.appendChild(el('p', 'vd-meta', '对 ' + v.author + ' 的备注' + (cur.updated && day(cur.updated) ? ' · ' + day(cur.updated) + ' 更新' : '')));
+    if (!online) { box.appendChild(el('p', 'vd-note-ro', cur.note || '')); return tr; }
+    var ta = el('textarea', 'vd-note-text'), row = el('div', 'vd-note-btns'), save;
+    ta.value = v.id in noteDraft ? noteDraft[v.id] : (cur.note || '');
+    ta.placeholder = '对这个作者的看法：讲得怎么样、擅长什么、值不值得继续看…（Ctrl+Enter 保存，清空后保存就删除备注）';
+    ta.addEventListener('input', function () { noteDraft[v.id] = ta.value; });
+    ta.addEventListener('keydown', function (e) { if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); save.click(); } });
+    save = btn('保存', function () { saveNote(v, ta.value, save); });
+    row.appendChild(save);
+    row.appendChild(btn('取消', function () { delete noteDraft[v.id]; noteOpen[v.id] = false; render(); }));
+    box.appendChild(ta); box.appendChild(row);
+    if (noteFocus === v.id) { noteFocus = ''; setTimeout(function () { ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length); }, 0); }
+    return tr;
+  }
+  function summarize(v) {
+    busy[v.id] = true; render();
+    msg('正在读字幕，再让 Claude 写总结，大约 20–60 秒…');
+    post({ action: 'summarize', id: v.id, model: $('vd-model').value }).then(function (j) {
+      items = j.items; delete cache[v.id]; open[v.id] = true; msg(j.message);
+    }).catch(function (e) { msg('生成失败：' + e.message); })
+      .then(function () { delete busy[v.id]; render(); });
+  }
+
+  // the summary Markdown: meta lines before <!-- summary -->, then 一句话总结, ## headings and (nested) bullets;
+  // [mm:ss] / [h:mm:ss] become links to that moment of the video
+  function inline(parent, text, vid) {
+    var re = /\[(\d{1,2}:\d{2}(?::\d{2})?)\]/g, last = 0, m;
+    while ((m = re.exec(text))) {
+      parent.appendChild(document.createTextNode(text.slice(last, m.index)));
+      var p = m[1].split(':').map(Number), s = p.reduce(function (a, b) { return a * 60 + b; }, 0);
+      parent.appendChild(vid ? link('https://www.youtube.com/watch?v=' + vid + '&t=' + s + 's', m[1], 'vd-t') : el('span', 'vd-t', m[1]));
+      last = re.lastIndex;
+    }
+    parent.appendChild(document.createTextNode(text.slice(last)));
+  }
+  function renderSummary(box, md, v) {
+    var vid = ytId(v.url), parts = md.split('<!-- summary -->'), meta = parts.length > 1 ? parts[0] : '', body = parts.length > 1 ? parts[1] : md;
+    var gen = (meta.match(/^- 生成：(.*)$/m) || [])[1], sub = (meta.match(/^- 字幕：(.*)$/m) || [])[1];
+    box.textContent = '';
+    if (gen || sub) box.appendChild(el('p', 'vd-meta', [sub && '字幕：' + sub, gen && '生成：' + gen].filter(Boolean).join(' · ')));
+    var list = null, last = null;
+    body.split('\n').forEach(function (line) {
+      if (!line.trim()) return;
+      var h = line.match(/^#{1,4}\s+(.*)$/), top = line.match(/^[-*]\s+(.*)$/), nest = line.match(/^\s+[-*]\s+(.*)$/);
+      if (h) { list = null; box.appendChild(el('h4', '', h[1])); }
+      else if (nest && last) {
+        var ul = last.querySelector('ul') || last.appendChild(el('ul'));
+        var li2 = el('li'); inline(li2, nest[1], vid); ul.appendChild(li2);
+      } else if (top) {
+        if (!list) list = box.appendChild(el('ul'));
+        last = el('li'); inline(last, top[1], vid); list.appendChild(last);
+      } else { list = null; var p = el('p'); inline(p, line.trim(), vid); box.appendChild(p); }
+    });
+    if (online) box.appendChild(btn(busy[v.id] ? '生成中…' : '重新生成', function () { if (confirm('用 ' + $('vd-model').selectedOptions[0].textContent + ' 重新生成这个总结？会再用一次 Claude 的用量。')) summarize(v); }));
+  }
+  function showSummary(box, v) {
+    var key = v.id + '@' + v.summary.at;
+    if (cache[key]) return renderSummary(box, cache[key], v);
+    box.textContent = '正在读取总结…';
+    fetch('../Study%20notes/video-summaries/' + v.id + '.md?v=' + encodeURIComponent(v.summary.at), { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+      .then(function (md) { cache[key] = md; renderSummary(box, md, v); })
+      .catch(function () { box.textContent = '读不到总结文件。网页版要等电脑推送到 GitHub 以后才有。'; });
+  }
+
   function render() {
     var q = $('vd-q').value.trim().toLowerCase(), body = $('vd-rows');
     body.textContent = '';
     var shown = items.filter(function (v) { return !q || (v.title + ' ' + v.author + ' ' + v.url + ' ' + v.platform).toLowerCase().indexOf(q) >= 0; });
     shown.forEach(function (v) {
-      var tr = el('tr'), t = el('td'), a = el('td'), u = el('td', 'vd-url'), x = el('td', 'vd-act');
+      var tr = el('tr'), w = el('td', 'vd-w'), t = el('td', 'vd-t'), d = el('td', 'vd-d', hms(v.seconds)), a = el('td', 'vd-a'), r = el('td', 'vd-r'), u = el('td', 'vd-url'), x = el('td', 'vd-act'), sub = null;
       if (editing === v.id) {
         var ti = el('input'), ai = el('input');
         ti.value = v.title; ti.placeholder = '主题'; ai.value = v.author; ai.placeholder = '作者';
@@ -56,27 +260,76 @@ table.vd input{width:100%;box-sizing:border-box;padding:5px 8px;font-size:14px}
         x.appendChild(btn('重新读取', function () { msg('正在重新读取…'); act({ action: 'refetch', id: v.id }); }));
       } else {
         t.appendChild(link(v.url, v.title || '（没有标题，点编辑填写）'));
-        t.appendChild(el('span', 'vd-sub', v.platform + (day(v.added) ? ' · ' + day(v.added) + ' 添加' : '')));
-        a.textContent = v.author;
+        sub = t.appendChild(el('span', 'vd-sub'));
+        authorCell(a, v);
+        if (v.summary) x.appendChild(btn(open[v.id] ? '收起总结' : '看总结', function () { open[v.id] = !open[v.id]; render(); }, 'vd-has'));
+        else if (online && v.platform === 'YouTube') {
+          var b = btn(busy[v.id] ? '生成中…' : '生成总结', function () { summarize(v); });
+          b.disabled = !!busy[v.id];
+          x.appendChild(b);
+        }
         if (online) {
           x.appendChild(btn('编辑', function () { editing = v.id; render(); }));
-          x.appendChild(btn('删除', function () { if (confirm('删除「' + (v.title || v.url) + '」？')) act({ action: 'delete', id: v.id }); }));
+          x.appendChild(btn('删除', function () { if (confirm('删除「' + (v.title || v.url) + '」？' + (v.summary ? '它的总结也会删掉。' : ''))) act({ action: 'delete', id: v.id }); }));
         }
       }
+      watchedCell(w, v, sub);
+      ratingCell(r, v);
       u.appendChild(link(v.url, v.url));
-      [t, a, u, x].forEach(function (c) { tr.appendChild(c); });
+      [w, t, d, a, r, u, x].forEach(function (c) { tr.appendChild(c); });
       body.appendChild(tr);
+      if (v.author && noteOpen[v.id] && editing !== v.id) body.appendChild(noteRow(v));
+      if (v.summary && open[v.id] && editing !== v.id) {
+        var sr = el('tr', 'vd-sum-row'), sd = el('td'), box = el('div', 'vd-sum');
+        sd.colSpan = 7; sd.appendChild(box); sr.appendChild(sd); body.appendChild(sr);
+        showSummary(box, v);
+      }
     });
-    $('vd-count').textContent = q ? shown.length + ' / ' + items.length + ' 个视频' : items.length + ' 个视频';
+    count(shown.length);
     $('vd-empty').hidden = items.length > 0;
   }
+  function count(n) {
+    var q = $('vd-q').value.trim(), seen = items.filter(function (v) { return v.watched; }).length;
+    if (n === undefined) n = $('vd-rows').querySelectorAll('tr:not(.vd-sum-row)').length;
+    $('vd-count').textContent = (q ? n + ' / ' : '') + items.length + ' 个视频' + (items.length ? ' · 看过 ' + seen : '');
+  }
+
+  // column widths: drag the line at the right edge of a heading; saved in this browser, double-click a line to go back to the default
+  var COLS = 'study-video-cols', table = $('vd-table'), ths = [].slice.call(table.querySelectorAll('thead th'));
+  function setCols(w) {
+    ths.forEach(function (th, i) { th.style.width = w ? w[i] + 'px' : ''; });
+    table.style.width = w ? w.reduce(function (s, x) { return s + x; }, 0) + 'px' : '';
+  }
+  ths.forEach(function (th, i) {
+    var g = th.appendChild(el('span', 'vd-grip'));
+    g.title = '拖动调整列宽，双击恢复默认';
+    g.addEventListener('pointerdown', function (e) {
+      if (e.button) return;
+      e.preventDefault();
+      var w = ths.map(function (h) { return Math.round(h.getBoundingClientRect().width); }), x0 = e.clientX, w0 = w[i], moved = false;
+      g.setPointerCapture(e.pointerId); g.classList.add('vd-on'); table.classList.add('vd-dragging');
+      function move(ev) { if (ev.clientX === x0 && !moved) return; moved = true; w[i] = Math.max(44, Math.round(w0 + ev.clientX - x0)); setCols(w); }
+      function up() {
+        g.removeEventListener('pointermove', move); g.removeEventListener('pointerup', up); g.removeEventListener('pointercancel', up);
+        g.classList.remove('vd-on'); table.classList.remove('vd-dragging');
+        if (moved) ls(COLS, JSON.stringify(w));
+      }
+      g.addEventListener('pointermove', move); g.addEventListener('pointerup', up); g.addEventListener('pointercancel', up);
+    });
+    g.addEventListener('dblclick', function () { setCols(null); try { localStorage.removeItem(COLS); } catch (e) { /* nothing saved */ } });
+  });
+  try {
+    var cw = JSON.parse(ls(COLS) || 'null');
+    if (cw && cw.length === ths.length && cw.every(function (x) { return x >= 44 && x < 5000; })) setCols(cw);
+  } catch (e) { /* default widths */ }
   function setOnline(on) {
     online = on;
     $('vd-form').hidden = !on;
+    $('vd-model-wrap').hidden = !on;
   }
   function load() {
     fetch('/api/videos', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-      .then(function (j) { setOnline(true); items = j.items; render(); })
+      .then(function (j) { setOnline(true); items = j.items; authors = j.authors || {}; render(); })
       .catch(function () {
         // web version or no server: read the pushed file, read only
         var web = location.protocol !== 'file:' && ['127.0.0.1', 'localhost'].indexOf(location.hostname) < 0;
@@ -86,8 +339,10 @@ table.vd input{width:100%;box-sizing:border-box;padding:5px 8px;font-size:14px}
             items = Object.keys(all).map(function (k) { var v = all[k]; v.id = k; return v; })
               .sort(function (a, b) { return (b.added || '').localeCompare(a.added || ''); });
             render();
-            msg(web ? '网页版只能看：在电脑上打开这个页面（本地服务器）才能添加和修改，推送到 GitHub 后这里会更新'
-              : '没有连接本地服务器：只能看已经存过的视频。运行 start-server.bat 后才能添加');
+            fetch('../Study%20notes/authors.json', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : {}; })
+              .catch(function () { return {}; }).then(function (a) { authors = a; render(); });
+            msg(web ? '网页版只能看：在电脑上打开这个页面（本地服务器）才能添加、修改和生成总结，推送到 GitHub 后这里会更新'
+              : '没有连接本地服务器：只能看已经存过的视频和总结。运行 start-server.bat 后才能添加');
           });
       });
   }
@@ -102,6 +357,9 @@ table.vd input{width:100%;box-sizing:border-box;padding:5px 8px;font-size:14px}
     }).catch(function (e2) { msg('保存失败：' + e2.message); }).then(function () { b.disabled = false; });
   });
   $('vd-q').addEventListener('input', render);
+  var saved = ls(MODEL);
+  if (saved && $('vd-model').querySelector('option[value="' + saved + '"]')) $('vd-model').value = saved;
+  $('vd-model').addEventListener('change', function () { ls(MODEL, $('vd-model').value); });
   load();
-  document.addEventListener('visibilitychange', function () { if (!document.hidden && !editing) load(); });
+  document.addEventListener('visibilitychange', function () { if (!document.hidden && !editing && !Object.keys(busy).length) load(); });
 })();</script></main></body></html>

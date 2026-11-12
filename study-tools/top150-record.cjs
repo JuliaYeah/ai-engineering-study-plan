@@ -1,11 +1,13 @@
-// 刷题记录: two tabs, LeetCode (the Top Interview 150, one column per LeetCode topic) and QuantVault (the scheduled
-// problems, one column per ML lesson of the day they are first scheduled). Solved problems are green with a check.
+// 刷题记录: three tabs, LeetCode (the Top Interview 150, one column per LeetCode topic; solved problems are green with a
+// check), Pattern (the 41 LeetCode patterns of the 10:30 block, patterns.cjs; ticked there or in the timetable) and
+// Hello Interview (the 13:45 block, hello-interview.cjs, one column per week; a day is done when its ☐ is ticked).
 // A problem counts as solved when any of its ticks in the timetable is checked (its day, a review day or a repeat day).
 // build.cjs writes AI_ENGINEER_TOP150_RECORD.html with the state at build time; the page then reads the live ticks from
 // /api/progress (local server), or falls back to that state plus the ticks saved in this browser.
 const fs = require('fs'), path = require('path');
 const progress = require('./progress.cjs');
-const qvd = require('./quantvault-day.cjs');
+const patterns = require('./patterns.cjs');
+const hi = require('./hello-interview.cjs');
 
 const FILE = 'AI_ENGINEER_TOP150_RECORD.html', TITLE = '刷题记录';
 // LeetCode's own topic order for the study plan; a topic not listed here goes at the end
@@ -42,29 +44,6 @@ function problems(md) {
   if (lost.length) throw new Error('Top 150 problems without a tick in the timetable: ' + lost.map(p => p.n).join(', '));
   const first = p => Math.min(...(p.days.length ? p.days : p.reviews));
   return list.sort((a, b) => first(a) - first(b) || a.n - b.n);
-}
-
-// the scheduled QuantVault problems with their days and tick keys (13:30 row), in the order they first come up;
-// section = the ML lesson of the first day (the row starts with the lesson link)
-function quantvault(md) {
-  const byId = new Map();
-  for (const [day, block] of dayBlocks(md)) {
-    const parts = rowParts(block, '13:30');
-    const lesson = ((parts[0] || '').match(/^\[([^\]]+)\]/) || [])[1] || 'Other';
-    for (const part of parts) {
-      const m = part.match(/quantvault\.org\/problems\.html\?id=(\d+)/);
-      if (!m || !/[☐☑]/.test(part)) continue;
-      const q = qvd.lookup.get(Number(m[1]));
-      if (!q) throw new Error('QuantVault problem not in quantvault-selected.txt: ' + m[1]);
-      if (!byId.has(q.id)) byId.set(q.id, { ...q, section: lesson, days: [], keys: [], done: false });
-      const p = byId.get(q.id);
-      p.days.push(day);
-      tick(p, day, part);
-    }
-  }
-  const lost = qvd.problems.filter(q => !byId.has(q.id));
-  if (lost.length) throw new Error('QuantVault problems without a tick in the timetable: ' + lost.map(q => q.id).join(', '));
-  return [...byId.values()];
 }
 
 const style = `<style>
@@ -116,7 +95,7 @@ function client() {
       li.classList.toggle('done', d);
       li.querySelector('.rec-ck').textContent = d ? '✓' : '';
     });
-    panels.forEach(function (panel) {
+    panels.filter(function (panel) { return panel.querySelector('.rec-p'); }).forEach(function (panel) {
       var all = panel.querySelectorAll('.rec-p'), done = [].slice.call(panel.querySelectorAll('.rec-p.done'));
       set(panel, '.rec-done', done.length);
       set(panel, '.rec-left', all.length - done.length);
@@ -164,7 +143,7 @@ function page(md, { shell, esc }) {
   const pct = (d, n) => (n ? 100 * d / n : 0).toFixed(1) + '%';
   const dayLink = (day, tip) => `<a href="AI_ENGINEER_TRANSITION_PLAN.html#day-${pad(day)}" target="_blank" rel="noopener"${tip ? ` title="${esc(tip)}"` : ''}>Day ${pad(day)}</a>`;
   // one tab: summary (done / left, bar, count lines) and one column per section
-  const panel = (tab, list, sections, lines, item) => {
+  const panel = (tab, list, sections, lines, item, [doneWord, unit] = ['已刷', '题']) => {
     const done = list.filter(p => p.done).length;
     const line = ([key, label, values]) => `<span class="rec-line">${label ? label + ' ' : ''}${values.map(v => {
       const all = list.filter(p => p[key] === v);
@@ -176,11 +155,11 @@ function page(md, { shell, esc }) {
         + `<div class="rec-bar"><span style="width:${pct(d, ps.length)}"></span></div><ul>${ps.map(item).join('')}</ul></section>`;
     };
     return `<div class="rec-panel" data-tab="${tab}"${tab === 'leetcode' ? '' : ' hidden'}>`
-      + `<div class="rec-sum"><span class="rec-big">已刷 <span class="rec-done">${done}</span> / ${list.length}<span class="muted"> · 还剩 <span class="rec-left">${list.length - done}</span> 题</span></span>`
+      + `<div class="rec-sum"><span class="rec-big">${doneWord} <span class="rec-done">${done}</span> / ${list.length}<span class="muted"> · 还剩 <span class="rec-left">${list.length - done}</span> ${unit}</span></span>`
       + `<span class="rec-bar"><span style="width:${pct(done, list.length)}"></span></span>${lines.map(line).join('')}<p class="rec-msg muted"></p></div>`
       + `<div class="rec-grid">${sections.map(col).join('')}</div></div>`;
   };
-  const li = (p, link, day, tip) => `<li class="rec-p${p.done ? ' done' : ''}" data-keys="${esc(p.keys.join(' '))}" data-diff="${esc(p.diff)}"${p.category ? ` data-category="${esc(p.category)}"` : ''}>`
+  const li = (p, link, day, tip) => `<li class="rec-p${p.done ? ' done' : ''}" data-keys="${esc(p.keys.join(' '))}" data-diff="${esc(p.diff)}">`
     + `<span class="rec-ck" aria-hidden="true">${p.done ? '✓' : ''}</span><span class="rec-title">${link}</span>`
     + `<span class="rec-meta">${esc(p.diff[0])} · ${dayLink(day, tip)}</span></li>`;
 
@@ -195,20 +174,27 @@ function page(md, { shell, esc }) {
       day, rev.length ? '复习：' + rev.map(r => 'Day ' + pad(r)).join('、') : '');
   };
 
-  const qv = quantvault(md).map(p => ({ ...p, diff: p.difficulty }));
-  const qvItem = p => li(p, `<a href="${esc(p.url)}" target="_blank" rel="noopener" title="#${p.id} · ${esc(p.category)}">${esc(p.title)}</a>`,
-    p.days[0], p.days.length > 1 ? '也排在：' + p.days.slice(1).map(d => 'Day ' + pad(d)).join('、') : '');
+  const pt = patterns.tab(md, { esc });
+
+  // Hello Interview: one column per week; meta = kind and day
+  const KIND = { 'System Design': 'SD', 'AI Coding': 'AI Coding', '基础': '基础', '复盘': '复盘' };
+  const hiList = hi.items(md);
+  const hiItem = p => `<li class="rec-p${p.done ? ' done' : ''}" data-keys="${esc(p.keys.join(' '))}" data-group="${esc(p.group)}">`
+    + `<span class="rec-ck" aria-hidden="true">${p.done ? '✓' : ''}</span><span class="rec-title"><a href="${esc(p.links[0][1])}" target="_blank" rel="noopener" title="${esc(p.task)}">${esc(p.title)}</a></span>`
+    + `<span class="rec-meta">${esc(KIND[p.kind])} · ${dayLink(p.day, p.hi ? 'Hello Interview 计划的 Day ' + pad(p.hi) : '')}</span></li>`;
 
   const count = list => `${list.filter(p => p.done).length} / ${list.length}`;
-  const body = `${style}<div class="rec-head"><h1>${TITLE}</h1><div class="rec-tabs" role="tablist">`
-    + `<button type="button" role="tab" data-tab="leetcode" aria-selected="true">LeetCode<span class="rec-tab-n" data-tab="leetcode">${count(lc)}</span></button>`
-    + `<button type="button" role="tab" data-tab="quantvault" aria-selected="false">QuantVault<span class="rec-tab-n" data-tab="quantvault">${count(qv)}</span></button></div></div>`
-    + `<p class="rec-note muted">勾选在<a href="AI_ENGINEER_TRANSITION_PLAN.html">每日时间表</a>里做，当天、复习日或重复的那天勾过一次就算做了。LeetCode 按 LeetCode 的专题分列，QuantVault 按第一次排到那天的 ML 讲义分列；每列按日期排序。鼠标停在 Day 上能看到其他日期。</p>`
+  const body = `${style}${patterns.style}<div class="rec-head"><h1>${TITLE}</h1><div class="rec-tabs" role="tablist">`
+    + `<button type="button" role="tab" id="leetcode" data-tab="leetcode" aria-selected="true">LeetCode<span class="rec-tab-n" data-tab="leetcode">${count(lc)}</span></button>`
+    + `<button type="button" role="tab" id="pattern" data-tab="pattern" aria-selected="false">Pattern<span class="rec-tab-n" data-tab="pattern">${pt.done} / ${pt.total}</span></button>`
+    + `<button type="button" role="tab" id="hellointerview" data-tab="hellointerview" aria-selected="false">Hello Interview<span class="rec-tab-n" data-tab="hellointerview">${count(hiList)}</span></button></div></div>`
+    + `<p class="rec-note muted">LeetCode 的勾选在<a href="AI_ENGINEER_TRANSITION_PLAN.html">每日时间表</a>里做，当天、复习日或重复的那天勾过一次就算做了；按 LeetCode 的专题分列，每列按日期排序，鼠标停在 Day 上能看到其他日期。Pattern 可以直接在表里打勾，和时间表当天 10:30 那一格是同一个勾。Hello Interview 在时间表 13:45 那一格打勾，每周一列，鼠标停在题目上能看到当天要做什么。</p>`
     + panel('leetcode', lc, lcSections, [['diff', '', DIFFS]], lcItem)
-    + panel('quantvault', qv, [...new Set(qv.map(p => p.section))], [['diff', '', DIFFS], ['category', '', ['Machine Learning', 'Regression']]], qvItem)
-    + `<script>(${client.toString()})();</script>`;
+    + pt.panel
+    + panel('hellointerview', hiList, [...new Set(hiList.map(p => p.section))], [['group', '', hi.GROUPS]], hiItem, ['已完成', '天'])
+    + `<script>(${client.toString()})();(${patterns.client.toString()})();</script>`;
   fs.writeFileSync(FILE, shell(TITLE, body, true));
-  return { file: FILE, leetcode: lc.length, quantvault: qv.length };
+  return { file: FILE, leetcode: lc.length, patterns: pt.total, helloInterview: hiList.length };
 }
 
-module.exports = { FILE, TITLE, problems, quantvault, page };
+module.exports = { FILE, TITLE, problems, page };

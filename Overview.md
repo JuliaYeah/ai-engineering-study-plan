@@ -3,8 +3,8 @@
 这个仓库由几套东西叠在一起:
 
 - 原版 AI Engineering Field Guide - 岗位、面试、学习路线、作品集资料,基于 6,964 条真实 JD
-- 每日学习计划 - 252 页中英双语讲义、题库、QuantVault 排期
-- ML notebooks - 15 个本地可运行的实验
+- 每日学习计划 - 252 页中英双语讲义、题库、41 个 LeetCode pattern 的学习排期
+- ML notebooks - 15 个本地可运行的实验(不排进时间表,需要时自学)
 - 职位数据流水线 - 每月抓取并用 LLM 结构化新数据
 - `wiki/` - 由 LLM 维护的知识库
 
@@ -16,6 +16,7 @@
 - 打开学习计划页面(勾选能保存) - 双击 `start-server.bat`,或者在 VS Code 里打开这个文件夹让它自动启动,然后打开 http://127.0.0.1:5510/Reports/AI_ENGINEER_TRANSITION_PLAN.html
 - 用 Chrome 书签直接打开时间表(重启电脑后也能用,不开机自启) - 每台电脑先双击一次 `open-study-plan.bat`,然后把书签网址设成 `studyplan://plan`(另有 `studyplan://guide`、`studyplan://leetcode`)。点书签时 Chrome 会问是否打开,点"打开";服务器没在运行就自动在后台启动,再打开页面。移动仓库位置后再双击一次;`open-study-plan.bat remove` 取消
 - 写每天的学习笔记 - 时间表里每天标题下有两个链接:"✎ 学习记录"是写的地方,每一项下面的框里写,自动保存,点"生成今日学习笔记"写进 `Study notes/` 里当天的 `.md`;"📖 今日学习笔记"显示生成好的笔记。见 [Study notes/README.md](Study%20notes/README.md)
+- 随手记临时想法 - 任意页面顶部导航点"随想笔记",File name 填新名字或选已有的笔记,写完点 Update,新建一篇或者加到那篇的最后,存在 `Study notes/thoughts/`
 - 把进度和学习笔记同步到另一台设备 - 这台点"推送到 GitHub";另一台设备运行 `start-server.bat`,打开页面点"从 GitHub 拉取"。建议开始学习时先点一次"从 GitHub 拉取",结束时点一次"推送到 GitHub"
 - 每日学习 - 直接打开 `AI_ENGINEER_DAILY_LEARNING_GUIDE.html`,不需要命令
 - 记录碎片时间看到的面试题 - 在 `micro-learning/questions.md` 里加一行 `- [ ] 题目`,答案每天自动生成到 `micro-learning/answers/`
@@ -39,32 +40,34 @@
 
 ## 学习计划文件
 
-这些文件是同一套学习计划的不同视图。计划从 2026-11-09(周一)开始,Day 1 就是这一天:8 周主计划到 2027-01-01(Day 40),再加 1 周缓冲到 2027-01-08(Day 45)。工作日每天 8.5 小时,周末休息;感恩节、圣诞节和元旦都按工作日算,要休息就把当天内容顺延。它们都是 `study-tools/` 生成的,每份有 `.md` 和 `.html` 两个版本,除了 BILINGUAL_LESSONS 和 TOP150_SCHEDULE 只有 `.md`。
+这些文件是同一套学习计划的不同视图。计划从 2026-11-09(周一)开始,Day 1 就是这一天:8 周主计划到 2027-01-01(Day 40),再加 1 周缓冲到 2027-01-08(Day 45)。工作日每天 9 小时(08:30–18:00,13:15–13:45 午饭),周末休息;感恩节、圣诞节和元旦都按工作日算,要休息就把当天内容顺延。它们都是 `study-tools/` 生成的,每份有 `.md` 和 `.html` 两个版本,除了 BILINGUAL_LESSONS 和 TOP150_SCHEDULE 只有 `.md`。
 
 当前位置:`AI_ENGINEER_DAILY_LEARNING_GUIDE` 在仓库根目录,另外几份在 `Reports/`。
 
 先分清最常用的两份:学习指南是总览入口,每日时间表是每天要做的事。
 
-- `AI_ENGINEER_DAILY_LEARNING_GUIDE` - 学习指南,总览和入口,只有 6 节:每日入口(按周分组,每周一行,点开日期跳到每日时间表里当天的位置)、题库一览(一张表,每个题库一行:LeetCode、SQL、QuantVault、面试原题等各几道题)、使用方法、项目、Topic 总览、计划说明。想知道今天做什么,先开这份找到当天,点进去
-- `AI_ENGINEER_TRANSITION_PLAN` - 每日时间表,纯每日内容(约 19,500 行,是最大的一份)。每一天是一张 7 行的表(没有午休行):08:30–10:30 刷题(每道题一行)、10:30–12:30 Online Course、13:30 ML 加 QuantVault、14:15 设计、15:00 项目、16:30 面试题、17:30 复盘。13:30 那一行分成三行:ML 讲义(含先修阅读)、Notebook、QuantVault 题目,各标着分钟数,每道题带勾选框。表格下面是"今日申请工作"(当天申请的岗位数量,下面是岗位名称、公司、Eval 链接和 Local JD 链接,数据由本地服务器实时读自你的 career-ops 仓库,不会写进这个仓库)、学习提示、当天 20 道左右面试原题,每题附英文 Interview Answer、Explanation 和 Follow-up。HTML 版先展开口述稿,再按需展开详解和参考代码
-  - 勾选框 - 每道刷题、ML 讲义、Notebook、设计、项目、面试题、复盘后面都有一个勾选框,做完点一下。网课那一行有输入框,可以写课程名。Notebook 后面写着它在仓库里的路径
-  - 进度保存 - 在本地服务器上打开页面时,勾选会写进 `study-progress.json`(进度的唯一来源),同时把时间表 Markdown 里对应的 ☐ 改成 ☑。页面顶部有两个按钮,点了才会动 GitHub,打勾本身不会:"从 GitHub 拉取"只拉取别的设备的进度,不推送;"推送到 GitHub"先拉取再推送。两个按钮只处理 `study-progress.json`、时间表 Markdown 和 `Study notes/` 里的笔记(`drafts.json` 和生成的 `.md`)。只有 HTML 版有勾选框,方向是 HTML 到 Markdown,直接改 Markdown 里的 ☐ 不会反过来更新进度
+- `AI_ENGINEER_DAILY_LEARNING_GUIDE` - 学习指南,总览和入口,只有 6 节:每日入口(按周分组,每周一行,点开日期跳到每日时间表里当天的位置)、题库一览(一张表,每个题库一行:LeetCode、SQL、LeetCode Pattern、面试原题等各有多少)、使用方法、项目、Topic 总览、计划说明。想知道今天做什么,先开这份找到当天,点进去
+- `AI_ENGINEER_TRANSITION_PLAN` - 每日时间表,纯每日内容(约 19,500 行,是最大的一份)。每一天是一张 7 行的表(没有午休行):08:30–10:30 刷题(每道题一行)、10:30 LeetCode Pattern、11:15 Online Course、13:45 Hello Interview、15:45 项目、16:45 面试题、17:45 复盘。10:30 那一行是当天的 LeetCode pattern:pattern 页面链接(读 Recognize it when、原理和模板)加两道练习题,各标着分钟数,都带勾选框;Day 01–03 这一格跳过,偏门的 pattern 两个一天,Day 42–45 是不标 pattern 的混合识别题。13:45 那一行是 Hello Interview(System Design 和 AI Coding,2 小时):当天的题目和任务、Hello Interview 的题解和练习链接,一个勾选框;Day 04–05 热身,Day 06–35 是 30 天计划,Day 36–45 做新题和重做弱项,Day 01–03 原来是 General & AI System Design。表格下面是"今日申请工作"(当天申请的岗位数量,下面是岗位名称、公司、Eval 链接和 Local JD 链接,数据由本地服务器实时读自你的 career-ops 仓库,不会写进这个仓库)、学习提示、当天 20 道左右面试原题,每题附英文 Interview Answer、Explanation 和 Follow-up。HTML 版先展开口述稿,再按需展开详解和参考代码
+  - 勾选框 - 每道刷题、pattern、练习题、设计、项目、面试题、复盘后面都有一个勾选框,做完点一下。网课那一行有输入框,可以写课程名
+  - 进度保存 - 在本地服务器上打开页面时,勾选会写进 `study-progress.json`(进度的唯一来源),同时把时间表 Markdown 里对应的 ☐ 改成 ☑。页面顶部有两个按钮,点了才会动 GitHub,打勾本身不会:"从 GitHub 拉取"只拉取别的设备的进度,不推送;"推送到 GitHub"先拉取再推送。两个按钮只处理 `study-progress.json`、时间表 Markdown 和 `Study notes/` 里的笔记(`drafts.json`、生成的 `.md`、视频和随想笔记)。只有 HTML 版有勾选框,方向是 HTML 到 Markdown,直接改 Markdown 里的 ☐ 不会反过来更新进度
   - 一定要用 `http://127.0.0.1:5510/...` 打开,不要用 5500:5500 是 VS Code 的 Live Server,只能显示页面,不能保存。没连上服务器时,勾选只存在这个浏览器里
-- `AI_ENGINEER_PROJECT_ROADMAP` - 三项目实践路线,每天 15:00-16:30 的项目时段:Day 01-20 Risk Copilot(30 小时),Day 21-30 Financial Statement Analytics Assistant(15 小时),Day 31-38 Investment Research Workbench(12 小时),Day 39-40 复现与收尾。这是未来的计划,不是项目已完成的报告
-- `AI_ENGINEER_QUANTVAULT_PLAN` - QuantVault 题目排期。只含 Regression 和 Machine Learning 两类,实时目录共 264 题,其中 47 道核心题分配到 45 个学习日,其余作扩展。和讲义、notebook 共用每天 13:30-14:15 的 45 分钟
+- `AI_ENGINEER_PROJECT_ROADMAP` - 三项目实践路线,每天 15:45-16:45 的项目时段(1 小时):Day 01-20 Risk Copilot(20 小时),Day 21-30 Financial Statement Analytics Assistant(10 小时),Day 31-38 Investment Research Workbench(8 小时),Day 39-40 复现与收尾。每天的任务和原来一样,做不完的放到缓冲周。这是未来的计划,不是项目已完成的报告
 - `AI_ENGINEER_TOP150_SCHEDULE` - LeetCode Top Interview 150 的完整排期(`Reports/` 里,只有 `.md`)。列出 150 题分在哪一天、每个专题的进度,以及计划里不在 Top 150 的 21 道题。详见下面的"刷题安排"
-- `AI_ENGINEER_TOP150_RECORD` - 刷题记录(`Reports/` 里,只有 `.html`,每个页面顶部导航"项目路线"后面都有链接)。上面有 LeetCode 和 QuantVault 两个选项卡:LeetCode Top Interview 150 按 LeetCode 的 23 个专题分列,QuantVault 排进计划的 47 题按 ML 讲义分列,都显示已刷多少、还剩多少;在时间表里勾过一次(当天、复习日或重复排的那天)的题变绿色带 ✓。连着本地服务器时读最新的勾选,切回页面会自动刷新
-- `AI_ENGINEER_VIDEOS` - 视频链接(`Reports/` 里,只有 `.html`,顶部导航"刷题记录"后面)。粘贴 YouTube、小红书、B站等视频链接点 Save,自动读出标题和作者,存进 `Study notes/videos.json`,跟着"推送到 GitHub"同步;网页版只能看
+- `AI_ENGINEER_TOP150_RECORD` - 刷题记录(`Reports/` 里,只有 `.html`,每个页面顶部导航"项目路线"后面都有链接)。上面有 LeetCode、Pattern 和 Hello Interview 三个选项卡(`#pattern`、`#hellointerview` 直接打开)。Hello Interview 每周一列,在时间表 13:45 那一格勾过的那天变绿,上面按 System Design、AI Coding、基础与复盘分别计数。LeetCode 是 Top Interview 150,按 LeetCode 的 23 个专题分列,显示已刷多少、还剩多少,在时间表里勾过一次(当天、复习日或重复排的那天)的题变绿色带 ✓。Pattern 是 [grokking-coding-interview](https://github.com/design-gurus/grokking-coding-interview) 的 41 个 pattern,按学习顺序分四个阶段列成一张表:最上面是这个 repo 最值得看的 4 个链接,每行是 pattern(冻结在最左边,前面有勾)、对应的 LeetCode 题、中文说明、Recognize it when、Typical cost、哪天学和早上哪几天刷到这个 pattern 的题;列宽可以拖,表格可以左右滑。这里的勾和时间表当天 10:30 那一格是同一个勾。连着本地服务器时读最新的勾选,切回页面会自动刷新
+- `AI_ENGINEER_VIDEOS` - 视频链接(`Reports/` 里,只有 `.html`,顶部导航"刷题记录"后面)。粘贴 YouTube、小红书、B站等视频链接点 Save,自动读出标题、作者和时长,存进 `Study notes/videos.json`,跟着"推送到 GitHub"同步;YouTube 视频可以生成带时间的中文总结(用这台电脑上 Claude Code 的登录,存在 `Study notes/video-summaries/`);点作者名字在那一行下面展开对这个作者的备注,写完保存(存在 `Study notes/authors.json`),不点不展开,有备注的作者 ✎ 是主题色;网页版只能看
+- `AI_ENGINEER_THOUGHTS` - 随想笔记(`Reports/` 里,只有 `.html`,顶部导航"视频链接"后面)。File name 输入新名字或从下拉里选已有的笔记,下面的框写临时想法,点 Update(或 Ctrl+Enter)就新建 `Study notes/thoughts/<名字>.md`,或者加到那篇的最后,每条带日期时间。左边列出全部笔记,点一下看全文。跟着"推送到 GitHub"同步;网页版只能看
 - `AI_ENGINEER_BILINGUAL_LESSONS` - 全部讲义的 Markdown 合集(约 8,600 行)。每个主题按 背景、Question、Key Terms、直观例子、英文 Short Answer、中文回答 的顺序写。适合通读或复习,不用一页页点 HTML
 
 每天的时间块是固定的:
 
 1. 08:30-10:30 - Coding(2 小时,Python 题和 Top 150 混合刷)
-2. 13:30-14:15 - ML(讲义、notebook、QuantVault)
-3. 14:15-15:00 - General 与 AI System Design
-4. 15:00-16:30 - Project
-5. 16:30-17:30 - 面试原题
-6. 17:30-18:00 - 复盘
+2. 10:30-11:15 - LeetCode Pattern(一天一个 pattern 加两道练习题)
+3. 11:15-13:15 - 网课(2 小时)
+4. 13:15-13:45 - 午饭
+5. 13:45-15:45 - Hello Interview(System Design 和 AI Coding,2 小时)
+6. 15:45-16:45 - Project(1 小时)
+7. 16:45-17:45 - 面试原题
+8. 17:45-18:00 - 复盘(15 分钟)
 
 ## 刷题安排
 
@@ -176,7 +179,8 @@ uv run python extract_llm.py --all --csv all_jobs_{YYYYMMDD}_dedup.csv
 
 - `coding.cjs`、`sql.cjs`、`ml.cjs`、`design.cjs`、`concepts.cjs` - 各类题目和知识点
 - `lesson-zh.txt`、`concept-zh.txt`、`design-zh.txt` - 讲义的中文内容
-- `quantvault-selected.txt`、`quantvault-schedule.cjs` - QuantVault 选题和排期(日期、先修、分钟数)
+- `hello-interview.json`、`hello-interview.cjs` - Hello Interview 每天的题目、任务、链接和每周目标(Day 06–35 来自 30 天计划),时间表 13:45 那一行和刷题记录的 Hello Interview 选项卡;改了以后运行 `build.cjs`
+- `patterns.json`、`patterns.cjs` - 41 个 LeetCode pattern(英文说明来自 grokking-coding-interview,中文说明、对应的 LeetCode 题、早上每道题属于哪个 pattern)和每天学哪个;改了排期或题目后运行 `build.cjs`
 
 完整流程:
 
@@ -188,22 +192,20 @@ node study-tools/validate.cjs
 
 三条命令的作用:
 
-1. `build.cjs` - 生成学习指南(MD 和 HTML)、Topic Library 和 notebooks,末尾自动执行双语讲义和 QuantVault 模块
+1. `build.cjs` - 生成学习指南(MD 和 HTML)、Topic Library 和 notebooks,末尾自动执行双语讲义模块
 2. `validate.cjs` - 核对日期、课时、题库数量和本地链接,结果写进 `validation.json`
 3. `verify_notebooks.py` - 在独立 kernel 里执行 notebook,结果写进 `notebook-validation.json`
 
 只改一部分时可以单独运行:
 
-- `node study-tools/bilingual-lessons.cjs` - 只更新双语讲义(之后要再运行 QuantVault 模块恢复导航)
-- `node study-tools/quantvault.cjs` - 只更新 QuantVault 排期页;时间表 13:30 那一行和指南里的"题库一览"都由 `build.cjs` 生成,改了 QuantVault 选题后要运行 `build.cjs`
-- `node study-tools/validate-quantvault.cjs` - 核对 QuantVault
+- `node study-tools/bilingual-lessons.cjs` - 只更新双语讲义
 
 注意:
 
 - 重新生成时,没改过 cell 的 notebook 会保留运行输出;改过的 notebook 需要再跑一次验证
-- 原 623 道题、LeetCode 链接和 notebook 实验代码保持不变
+- 原 623 道题、早上的 LeetCode 链接和 notebook 实验代码保持不变(10:30 的 pattern 练习题是另加的)
 - `study-tools/original-plan.md` 和 `study-tools/original-roadmap.md` 是只读快照,不是当前入口
 - 日期和刷题安排由生成脚本决定，改了就重新生成：`study-tools/top150-schedule.json` 是排期数据（Day 1 日期、每天的题），`study-tools/reschedule.cjs` 把它应用到 `original-plan.md` 和 `original-roadmap.md` 的快照上。不要手改生成出来的文件，下次重新生成会丢
-- 学习指南留在仓库根目录，其余报告放在 `Reports/`。生成脚本仍按"全部在根目录"工作，由 `study-tools/layout.cjs` 在运行期间把文件临时放回根目录，退出时再放回 `Reports/` 并修好链接，所以直接运行 `build.cjs`、`quantvault.cjs`、`bilingual-lessons.cjs` 都是安全的
+- 学习指南留在仓库根目录，其余报告放在 `Reports/`。生成脚本仍按"全部在根目录"工作，由 `study-tools/layout.cjs` 在运行期间把文件临时放回根目录，退出时再放回 `Reports/` 并修好链接，所以直接运行 `build.cjs`、`bilingual-lessons.cjs` 都是安全的
 - 重新生成会清空 notebook 的运行输出，之后运行 `verify_notebooks.py`
 - 详细说明见 [study-tools/README.md](study-tools/README.md)

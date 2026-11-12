@@ -1,0 +1,536 @@
+{
+ "about": "Hello Interview 学习计划（System Design + AI Coding），每天 13:45–15:45。Day 04–05 热身；Day 06–35 是原来的 30 天计划（hi = 原计划的 Day）；Day 36–45 新题和重做弱项。kind: System Design / AI Coding / 基础 / 复盘。",
+ "sections": [
+  {
+   "id": "warm",
+   "name": "热身",
+   "goal": "了解准备顺序和 System Design、AI Coding 的基本概念。"
+  },
+  {
+   "id": "w1",
+   "name": "Week 1 · 建立面试框架",
+   "goal": "能按 Requirements → Entities → API → High-Level Design → Deep Dive 讲完一题，并跑通 AI Coding 的阅读、实现和验证流程。"
+  },
+  {
+   "id": "w2",
+   "name": "Week 2 · 缓存、限流与 Python 测试",
+   "goal": "能说明并发下的数据更新和缓存行为，并用 Python 测试验证 AI 生成的代码。"
+  },
+  {
+   "id": "w3",
+   "name": "Week 3 · 调度、队列与依赖",
+   "goal": "能解释 Job Scheduling 的任务生命周期，并验证依赖、重试和重复执行等边界。"
+  },
+  {
+   "id": "w4",
+   "name": "Week 4 · 开始限时模拟",
+   "goal": "在规定时间内完成一轮设计或实现，留出时间讲清最重要的取舍和验证结果。"
+  },
+  {
+   "id": "w5",
+   "name": "Week 5 · 金融系统场景与故障处理",
+   "goal": "围绕延迟、一致性和可靠性做出明确取舍，并能用测试解释代码在故障或边界条件下的行为。"
+  },
+  {
+   "id": "w6",
+   "name": "Week 6 · 完整模拟与收尾",
+   "goal": "完成最后两次独立设计和两道 AI Coding 练习，检查能否稳定地按时完成并解释结果。"
+  },
+  {
+   "id": "w7",
+   "name": "第 7 周 · 新题加练",
+   "goal": "做没做过的题，检查能不能稳定地按时完成。"
+  },
+  {
+   "id": "buffer",
+   "name": "缓冲周 · 重做弱项",
+   "goal": "重做最弱的设计和 Coding，再各做一次完整 Mock。"
+  }
+ ],
+ "method": {
+  "System Design": "10 分钟读题、整理 Requirements，45 分钟独立模拟，20 分钟对照参考设计，15 分钟复盘 Scalability、Reliability、Consistency 和 Trade-offs，剩下 30 分钟补架构图或重讲一个 Deep Dive",
+  "AI Coding": "5 分钟理解需求，45 分钟分步骤和 AI 一起实现（每次只给 AI 一个能验证的子任务，先检查结果再继续），15 分钟测试和 Debug，15 分钟复盘 Prompt、AI 的错误和代码质量，剩下 40 分钟补边界测试、讲解最终实现",
+  "基础": "30 分钟阅读，60 分钟画图、写代码或重做，30 分钟整理笔记",
+  "复盘": "30 分钟回顾，60 分钟画图、写代码或重做，30 分钟整理笔记"
+ },
+ "record": "记进学习记录：卡在哪里、AI 帮了什么、哪里出了错、下次怎么改",
+ "items": [
+  {
+   "day": 4,
+   "section": "warm",
+   "kind": "基础",
+   "title": "准备方法和 System Design 入门",
+   "task": "读 How to Prepare，了解 Hello Interview 推荐的准备顺序；读 System Design in a Hurry 的 Introduction 和 Core Concepts，写一页笔记，标出最不熟的 3 个概念。",
+   "links": [
+    ["How to Prepare", "https://www.hellointerview.com/learn/system-design/in-a-hurry/how-to-prepare"],
+    ["Introduction", "https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction"],
+    ["Core Concepts", "https://www.hellointerview.com/learn/system-design/in-a-hurry/core-concepts"]
+   ]
+  },
+  {
+   "day": 5,
+   "section": "warm",
+   "kind": "基础",
+   "title": "Key Technologies 和 AI Coding 入门",
+   "task": "读 Key Technologies，记下每种技术在什么场景用；读 AI Coding 的 Introduction，了解这一轮面试怎么考、怎么和 AI 协作。",
+   "links": [
+    ["Key Technologies", "https://www.hellointerview.com/learn/system-design/in-a-hurry/key-technologies"],
+    ["AI Coding · Introduction", "https://www.hellointerview.com/learn/ai-coding/overview/introduction"]
+   ]
+  },
+  {
+   "day": 6,
+   "hi": 1,
+   "section": "w1",
+   "kind": "基础",
+   "title": "System Design 答题框架",
+   "task": "学习 Hello Interview 的 System Design 答题框架。用短链服务写一页提纲，区分 Functional 与 Non-Functional Requirements。",
+   "links": [
+    ["Delivery Framework", "https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery"]
+   ]
+  },
+  {
+   "day": 7,
+   "hi": 2,
+   "section": "w1",
+   "kind": "System Design",
+   "title": "Design Bitly",
+   "task": "设计创建与跳转 API，估算读写量，画出数据库和缓存，说明短码碰撞如何处理。",
+   "links": [
+    ["Bitly 题解", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly"],
+    ["Guided Practice", "https://www.hellointerview.com/practice/system-design"]
+   ]
+  },
+  {
+   "day": 8,
+   "hi": 3,
+   "section": "w1",
+   "kind": "AI Coding",
+   "title": "Inventory Packer（Easy）",
+   "task": "读题与现有代码，先写验收样例，再用 AI 分步实现并检查边界。",
+   "links": [
+    ["Structured 练习 · 选 Inventory Packer", "https://www.hellointerview.com/practice/ai-coding?format=structured"],
+    ["Inventory Packer 题解", "https://www.hellointerview.com/learn/ai-coding/problem-breakdowns/inventory-packer"]
+   ]
+  },
+  {
+   "day": 9,
+   "hi": 4,
+   "section": "w1",
+   "kind": "System Design",
+   "title": "Design Dropbox",
+   "task": "分离文件与 Metadata，画出上传、下载和同步流程，讨论冲突与失败重试。",
+   "links": [
+    ["Dropbox 题解", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/dropbox"],
+    ["Guided Practice", "https://www.hellointerview.com/practice/system-design"]
+   ]
+  },
+  {
+   "day": 10,
+   "hi": 5,
+   "section": "w1",
+   "kind": "复盘",
+   "title": "重画 Bitly 和 Dropbox",
+   "task": "重画 Bitly 和 Dropbox 的核心路径。各选一个遗漏的 Trade-off，练习用两分钟讲清取舍。",
+   "links": [
+    ["Bitly 复盘", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly"],
+    ["Dropbox 复盘", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/dropbox"]
+   ]
+  },
+  {
+   "day": 11,
+   "hi": 6,
+   "section": "w2",
+   "kind": "基础",
+   "title": "Redis、缓存与限流",
+   "task": "学习 Redis、Cache-Aside、TTL、Eviction 与 Token Bucket。手算一组请求在限流窗口中的结果。",
+   "links": [
+    ["Redis", "https://www.hellointerview.com/learn/system-design/deep-dives/redis"],
+    ["Caching", "https://www.hellointerview.com/learn/system-design/core-concepts/caching"]
+   ]
+  },
+  {
+   "day": 12,
+   "hi": 7,
+   "section": "w2",
+   "kind": "System Design",
+   "title": "Design Rate Limiter",
+   "task": "比较 Token Bucket 与 Sliding Window，说明原子更新、热点和 Redis 故障时的行为。",
+   "links": [
+    ["Rate Limiter 题解", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/distributed-rate-limiter"],
+    ["Guided Practice", "https://www.hellointerview.com/practice/system-design"]
+   ]
+  },
+  {
+   "day": 13,
+   "hi": 8,
+   "section": "w2",
+   "kind": "AI Coding",
+   "title": "Spell Checker（Easy）",
+   "task": "先确认匹配规则，再分步实现，覆盖空输入、大小写和未命中等边界。",
+   "links": [
+    ["Structured 练习 · 选 Spell Checker", "https://www.hellointerview.com/practice/ai-coding?format=structured"],
+    ["Spell Checker 题解", "https://www.hellointerview.com/learn/ai-coding/problem-breakdowns/spell-checker"]
+   ]
+  },
+  {
+   "day": 14,
+   "hi": 9,
+   "section": "w2",
+   "kind": "System Design",
+   "title": "Design Distributed Cache",
+   "task": "画出读写路径，解释分片、TTL、Eviction 和节点故障，讨论热点键如何缓解。",
+   "links": [
+    ["Distributed Cache 题解", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/distributed-cache"],
+    ["Guided Practice", "https://www.hellointerview.com/practice/system-design"]
+   ]
+  },
+  {
+   "day": 15,
+   "hi": 10,
+   "section": "w2",
+   "kind": "AI Coding",
+   "title": "Easy 练习 3",
+   "task": "从题库选一道未做过的 Easy，阅读现有代码并完成最小改动。记录一个 AI 假设及其验证测试。",
+   "links": [
+    ["Structured 题库 · 选未做过的 Easy", "https://www.hellointerview.com/practice/ai-coding?format=structured"]
+   ]
+  },
+  {
+   "day": 16,
+   "hi": 11,
+   "section": "w3",
+   "kind": "基础",
+   "title": "队列、重试与幂等",
+   "task": "学习 Queue、Workers、Retries、Backoff、Idempotency 和 Dead-Letter Queue。画出任务状态图。",
+   "links": [
+    ["Job Scheduler · 队列与重试", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler"],
+    ["Managing Long Running Tasks", "https://www.hellointerview.com/learn/system-design/patterns/long-running-tasks"]
+   ]
+  },
+  {
+   "day": 17,
+   "hi": 12,
+   "section": "w3",
+   "kind": "System Design",
+   "title": "Design Job Scheduler",
+   "task": "设计提交、调度、执行和状态查询，说明 Worker 崩溃后如何恢复，以及怎样处理重复执行。",
+   "links": [
+    ["Job Scheduler 题解", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler"],
+    ["Guided Practice", "https://www.hellointerview.com/practice/system-design"]
+   ]
+  },
+  {
+   "day": 18,
+   "hi": 13,
+   "section": "w3",
+   "kind": "AI Coding",
+   "title": "Task Scheduler（Medium）",
+   "task": "先梳理任务依赖与执行顺序，再实现并测试循环依赖等边界。",
+   "links": [
+    ["Structured 练习 · 选 Task Scheduler", "https://www.hellointerview.com/practice/ai-coding?format=structured"],
+    ["Task Scheduler 题解", "https://www.hellointerview.com/learn/ai-coding/problem-breakdowns/task-scheduler"]
+   ]
+  },
+  {
+   "day": 19,
+   "hi": 14,
+   "section": "w3",
+   "kind": "System Design",
+   "title": "Design Metrics Monitoring",
+   "task": "设计指标采集、聚合、存储和告警路径，讨论高基数和迟到数据。",
+   "links": [
+    ["Metrics Monitoring 题解", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/metrics-monitoring"],
+    ["Guided Practice", "https://www.hellointerview.com/practice/system-design"]
+   ]
+  },
+  {
+   "day": 20,
+   "hi": 15,
+   "section": "w3",
+   "kind": "复盘",
+   "title": "调度系统故障推演",
+   "task": "为调度系统推演超时、重复投递和 Worker 崩溃。用 Python 写一个小例子验证幂等处理，并复盘前三周的卡点。",
+   "links": [
+    ["Job Scheduler · 故障恢复复盘", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler"],
+    ["Verification and Testing", "https://www.hellointerview.com/learn/ai-coding/fundamentals/verification-and-testing"]
+   ]
+  },
+  {
+   "day": 21,
+   "hi": 16,
+   "section": "w4",
+   "kind": "System Design",
+   "title": "限时 Mock：分布式消息队列",
+   "task": "设计 Producer、Broker 和 Consumer，讲清分区内顺序、投递语义与 Backpressure。",
+   "links": [
+    ["相关参考 · Kafka Deep Dive", "https://www.hellointerview.com/learn/system-design/deep-dives/kafka"]
+   ]
+  },
+  {
+   "day": 22,
+   "hi": 17,
+   "section": "w4",
+   "kind": "AI Coding",
+   "title": "Route Planner（Medium）",
+   "task": "限时完成需求拆解、图建模和核心实现，用测试验证不可达路径和其他关键边界。",
+   "links": [
+    ["Structured 练习 · 选 Route Planner", "https://www.hellointerview.com/practice/ai-coding?format=structured"],
+    ["Route Planner 题解", "https://www.hellointerview.com/learn/ai-coding/problem-breakdowns/route-planner"]
+   ]
+  },
+  {
+   "day": 23,
+   "hi": 18,
+   "section": "w4",
+   "kind": "System Design",
+   "title": "限时 Mock：实时行情分发",
+   "task": "设计行情接入和订阅推送，讨论延迟、顺序、慢消费者及断线重连。",
+   "links": [
+    ["相关参考 · Real-time Updates", "https://www.hellointerview.com/learn/system-design/patterns/realtime-updates"],
+    ["Robinhood 题解", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/robinhood"]
+   ]
+  },
+  {
+   "day": 24,
+   "hi": 19,
+   "section": "w4",
+   "kind": "AI Coding",
+   "title": "Medium 练习 3",
+   "task": "从题库选一道未做过的 Medium，限时实现并记录一次发现 AI 错误、接管 Debug 的过程。",
+   "links": [
+    ["Structured 题库 · 选未做过的 Medium", "https://www.hellointerview.com/practice/ai-coding?format=structured"]
+   ]
+  },
+  {
+   "day": 25,
+   "hi": 20,
+   "section": "w4",
+   "kind": "复盘",
+   "title": "本周设计和代码复盘",
+   "task": "回放本周两次设计的开场和 Deep Dive，重讲一个薄弱段落。重跑本周代码测试，补一个遗漏的用例。",
+   "links": [
+    ["Delivery Framework 复盘", "https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery"],
+    ["Verification and Testing", "https://www.hellointerview.com/learn/ai-coding/fundamentals/verification-and-testing"]
+   ]
+  },
+  {
+   "day": 26,
+   "hi": 21,
+   "section": "w5",
+   "kind": "System Design",
+   "title": "限时 Mock：批量风险计算平台",
+   "task": "设计任务拆分、队列、Workers 和结果聚合，处理重试、部分失败与重复计算。",
+   "links": [
+    ["相关参考 · Managing Long Running Tasks", "https://www.hellointerview.com/learn/system-design/patterns/long-running-tasks"],
+    ["Job Scheduler 题解", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler"]
+   ]
+  },
+  {
+   "day": 27,
+   "hi": 22,
+   "section": "w5",
+   "kind": "AI Coding",
+   "title": "Medium 练习 4",
+   "task": "选一道未做过的 Medium，先读懂接口和测试，再让 AI 实现一个子任务，逐步检查改动。",
+   "links": [
+    ["Structured 题库 · 选未做过的 Medium", "https://www.hellointerview.com/practice/ai-coding?format=structured"]
+   ]
+  },
+  {
+   "day": 28,
+   "hi": 23,
+   "section": "w5",
+   "kind": "System Design",
+   "title": "限时 Mock：交易事件处理",
+   "task": "设计事件接入、持久化和消费，说明去重、重放和端到端一致性的取舍。",
+   "links": [
+    ["相关参考 · Kafka Deep Dive", "https://www.hellointerview.com/learn/system-design/deep-dives/kafka"],
+    ["Payment System 题解", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/payment-system"]
+   ]
+  },
+  {
+   "day": 29,
+   "hi": 24,
+   "section": "w5",
+   "kind": "AI Coding",
+   "title": "Medium 练习 5",
+   "task": "选一道未做过的 Medium，先用测试复现一个问题，再修复并验证相关行为。",
+   "links": [
+    ["Structured 题库 · 选未做过的 Medium", "https://www.hellointerview.com/practice/ai-coding?format=structured"]
+   ]
+  },
+  {
+   "day": 30,
+   "hi": 25,
+   "section": "w5",
+   "kind": "复盘",
+   "title": "重做最弱的 Deep Dive",
+   "task": "重做本周最薄弱的设计 Deep Dive，口述一个故障恢复流程。回看代码，删掉不必要的复杂度并重跑测试。",
+   "links": [
+    ["相关参考 · Kafka 故障处理", "https://www.hellointerview.com/learn/system-design/deep-dives/kafka"],
+    ["Verification and Testing", "https://www.hellointerview.com/learn/ai-coding/fundamentals/verification-and-testing"]
+   ]
+  },
+  {
+   "day": 31,
+   "hi": 26,
+   "section": "w6",
+   "kind": "System Design",
+   "title": "限时 Mock：Design Job Scheduler 重做",
+   "task": "独立完成全流程，加入优先级或延迟执行，并对照 Day 12 的遗漏。",
+   "links": [
+    ["Job Scheduler 题解", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/job-scheduler"],
+    ["Guided Practice", "https://www.hellointerview.com/practice/system-design"]
+   ]
+  },
+  {
+   "day": 32,
+   "hi": 27,
+   "section": "w6",
+   "kind": "AI Coding",
+   "title": "Medium 练习 6",
+   "task": "选一道未做过的 Structured Medium，按面试节奏完成需求确认、实现、测试和代码讲解。",
+   "links": [
+    ["Structured 题库 · 选未做过的 Medium", "https://www.hellointerview.com/practice/ai-coding?format=structured"]
+   ]
+  },
+  {
+   "day": 33,
+   "hi": 28,
+   "section": "w6",
+   "kind": "System Design",
+   "title": "最终 Mock",
+   "task": "选一道未做过的 Medium 题，限时完成从 Requirements 到 Deep Dive 的完整流程，再对照参考设计评分。",
+   "links": [
+    ["System Design 题库 · 选未做过的 Medium", "https://www.hellointerview.com/practice/system-design"]
+   ]
+  },
+  {
+   "day": 34,
+   "hi": 29,
+   "section": "w6",
+   "kind": "AI Coding",
+   "title": "最终 Open-Ended 练习",
+   "task": "选一道新题，用 Python 和自己的 AI 工具完成，保留关键 Prompt、测试结果和 Debug 记录。",
+   "links": [
+    ["AI Coding 练习 · 选择 Open-Ended", "https://www.hellointerview.com/practice/ai-coding"]
+   ]
+  },
+  {
+   "day": 35,
+   "hi": 30,
+   "section": "w6",
+   "kind": "复盘",
+   "title": "6 周总复盘",
+   "task": "核对 12 次设计、10 题 Coding 和 8 天基础或复盘。各选一道代表题，口述设计取舍或代码验证过程，记录仍需改进的点。",
+   "links": [
+    ["Delivery Framework", "https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery"],
+    ["AI Coding · Communication", "https://www.hellointerview.com/learn/ai-coding/fundamentals/communication"]
+   ]
+  },
+  {
+   "day": 36,
+   "section": "w7",
+   "kind": "System Design",
+   "title": "新题：限时 Mock",
+   "task": "从题库选一道没做过的 Medium，限时完成从 Requirements 到 Deep Dive，再对照参考设计评分。",
+   "links": [
+    ["System Design 题库", "https://www.hellointerview.com/practice/system-design"]
+   ]
+  },
+  {
+   "day": 37,
+   "section": "w7",
+   "kind": "AI Coding",
+   "title": "新题：Medium",
+   "task": "选一道没做过的 Structured Medium，按面试节奏完成需求确认、实现、测试和代码讲解。",
+   "links": [
+    ["Structured 题库", "https://www.hellointerview.com/practice/ai-coding?format=structured"]
+   ]
+  },
+  {
+   "day": 38,
+   "section": "w7",
+   "kind": "System Design",
+   "title": "限时 Mock：Design Robinhood",
+   "task": "设计下单、行情和持仓，讨论订单状态、一致性、延迟和交易所断线。",
+   "links": [
+    ["Robinhood 题解", "https://www.hellointerview.com/learn/system-design/problem-breakdowns/robinhood"],
+    ["Guided Practice", "https://www.hellointerview.com/practice/system-design"]
+   ]
+  },
+  {
+   "day": 39,
+   "section": "w7",
+   "kind": "AI Coding",
+   "title": "新题：Open-Ended",
+   "task": "选一道新题，用 Python 和自己的 AI 工具完成，保留关键 Prompt、测试结果和 Debug 记录。",
+   "links": [
+    ["AI Coding 练习", "https://www.hellointerview.com/practice/ai-coding"]
+   ]
+  },
+  {
+   "day": 40,
+   "section": "w7",
+   "kind": "复盘",
+   "title": "7 周卡点清单",
+   "task": "整理 7 周最常见的卡点，各选一道代表题，口述设计取舍或代码验证过程。",
+   "links": [
+    ["Delivery Framework", "https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery"],
+    ["AI Coding · Communication", "https://www.hellointerview.com/learn/ai-coding/fundamentals/communication"]
+   ]
+  },
+  {
+   "day": 41,
+   "section": "buffer",
+   "kind": "System Design",
+   "title": "重做最弱的设计",
+   "task": "选得分最低的一次 System Design，限时重做，对照上次的遗漏。",
+   "links": [
+    ["System Design 题库", "https://www.hellointerview.com/practice/system-design"]
+   ]
+  },
+  {
+   "day": 42,
+   "section": "buffer",
+   "kind": "AI Coding",
+   "title": "重做最弱的 Coding",
+   "task": "选最不顺的一道 AI Coding，重新做一遍，先补测试再改代码。",
+   "links": [
+    ["Structured 题库", "https://www.hellointerview.com/practice/ai-coding?format=structured"]
+   ]
+  },
+  {
+   "day": 43,
+   "section": "buffer",
+   "kind": "System Design",
+   "title": "完整 Mock：System Design",
+   "task": "选一道没做过的题，45 分钟内不看参考完成，再对照评分。",
+   "links": [
+    ["Guided Practice", "https://www.hellointerview.com/practice/system-design"]
+   ]
+  },
+  {
+   "day": 44,
+   "section": "buffer",
+   "kind": "AI Coding",
+   "title": "完整 Mock：AI Coding",
+   "task": "选一道没做过的 Open-Ended，按面试节奏完成并讲解代码和测试。",
+   "links": [
+    ["AI Coding 练习", "https://www.hellointerview.com/practice/ai-coding"]
+   ]
+  },
+  {
+   "day": 45,
+   "section": "buffer",
+   "kind": "复盘",
+   "title": "总复盘",
+   "task": "核对全部 System Design、AI Coding 和复盘，记录面试前还要再练的点。",
+   "links": [
+    ["Delivery Framework", "https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery"],
+    ["AI Coding · Communication", "https://www.hellointerview.com/learn/ai-coding/fundamentals/communication"]
+   ]
+  }
+ ]
+}

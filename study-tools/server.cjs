@@ -4,7 +4,11 @@
 //   - GET  /api/progress  -> { ticks, notes }
 //   - POST /api/progress  -> tick / untick / course name; writes study-progress.json and mirrors it into the timetable .md
 //   - GET/POST /api/notes, POST /api/notes/generate -> study-note drafts (学习记录) and the generated "Study notes/<date> Day NN.md" (今日学习笔记)
-//   - GET/POST /api/videos -> 视频链接: list, add (reads title and author from the link), edit, delete; "Study notes/videos.json" (videos.cjs)
+//   - GET/POST /api/videos -> 视频链接: list, add (reads title and author from the link), edit, delete, summarize a YouTube video
+//                           with claude -p, 备注 about an author; "Study notes/videos.json", "Study notes/video-summaries/<id>.md"
+//                           and "Study notes/authors.json" (videos.cjs)
+//   - GET/POST /api/thoughts -> 随想笔记: list the notes, add a thought to a note (new or existing), delete a note;
+//                           "Study notes/thoughts/<name>.md" and its index.json (thoughts.cjs)
 //   - POST /api/sync      -> commit the progress files, the study notes and the videos, pull --rebase, then push unless {push:false}
 //                           (only when a page button is clicked)
 //   - GET  /api/applications, /career-ops/reports/*.html -> jobs applied for per day and their evaluation reports, read live from the
@@ -15,6 +19,7 @@ const { execFileSync } = require('child_process');
 const progress = require('./progress.cjs');
 const applications = require('./applications.cjs');
 const videos = require('./videos.cjs');
+const thoughts = require('./thoughts.cjs');
 
 const root = path.resolve(__dirname, '..');
 const port = +process.argv[2] || 5510;
@@ -48,14 +53,17 @@ function git(log, ...args) {
   }
 }
 
-// The study notes travel with the progress: the drafts of 学习记录, the generated notes (see notes.cjs) and the videos (videos.cjs).
-const DRAFTS_REL = 'Study notes/drafts.json', VIDEOS_REL = videos.DATA_REL;
-const NOTE_PATH = /^Study notes\/(drafts\.json|videos\.json|\d{4}-\d{2}-\d{2} Day \d{2}\.md)$/;
+// The study notes travel with the progress: the drafts of 学习记录, the generated notes (see notes.cjs), the videos (videos.cjs)
+// and the 随想笔记 (thoughts.cjs).
+const DRAFTS_REL = 'Study notes/drafts.json', VIDEOS_REL = videos.DATA_REL, AUTHORS_REL = videos.AUTHORS_REL;
+const NOTE_PATH = /^Study notes\/(drafts\.json|videos\.json|authors\.json|\d{4}-\d{2}-\d{2} Day \d{2}\.md|video-summaries\/[0-9a-f]{10}\.md|thoughts\/(?:[^/]+\.md|index\.json))$/;
 const synced = f => FILES.includes(f) || NOTE_PATH.test(f);
 // every synced path that exists here or is tracked (so a deleted note is committed as deleted)
 function syncPaths(log) {
   const notes = new Set();
   try { for (const f of fs.readdirSync(NOTES_DIR)) notes.add('Study notes/' + f); } catch (_) { /* no notes yet */ }
+  try { for (const f of fs.readdirSync(path.join(NOTES_DIR, 'video-summaries'))) notes.add('Study notes/video-summaries/' + f); } catch (_) { /* no summaries yet */ }
+  try { for (const f of fs.readdirSync(path.join(NOTES_DIR, 'thoughts'))) notes.add('Study notes/thoughts/' + f); } catch (_) { /* no thoughts yet */ }
   for (const f of git(log, 'ls-files', '-z', '--', 'Study notes').split('\0')) if (f) notes.add(f);
   return [...FILES, ...[...notes].filter(f => NOTE_PATH.test(f)).sort()];
 }
@@ -75,7 +83,8 @@ function merge3(b = {}, o = {}, t = {}) {
 // instead of failing. Only the synced files are resolved this way; a conflict anywhere else aborts the rebase.
 function resolveConflicts(log, original) {
   const abort = () => { try { git(log, 'rebase', '--abort'); } catch (_) { /* nothing to abort */ } };
-  const conflicts = () => { try { return git(log, 'diff', '--name-only', '--diff-filter=U').split('\n').map(s => s.trim()).filter(Boolean); } catch (_) { return []; } };
+  // -z: names as they are (a 随想笔记 can have a Chinese name, which git would otherwise print quoted and escaped)
+  const conflicts = () => { try { return git(log, 'diff', '--name-only', '-z', '--diff-filter=U').split('\0').filter(Boolean); } catch (_) { return []; } };
   // :1: = common ancestor, :2: = upstream, :3: = the commit being replayed (this device); a side can be missing
   const stage = (n, f) => { try { return git(log, 'show', `:${n}:${f}`); } catch (_) { return null; } };
   const json = (n, f) => { const s = stage(n, f); return s == null ? {} : JSON.parse(s); };
@@ -94,9 +103,18 @@ function resolveConflicts(log, original) {
       if (c.includes(DRAFTS_REL)) writeDrafts(merge3(json(1, DRAFTS_REL), json(2, DRAFTS_REL), json(3, DRAFTS_REL)));
       // videos added on both devices: keep all of them (a video deleted on one device stays deleted)
       if (c.includes(VIDEOS_REL)) videos.save(videos.merge(json(1, VIDEOS_REL), json(2, VIDEOS_REL), json(3, VIDEOS_REL)));
+      // author 备注: per author; the same author's 备注 changed on both devices: this device's text wins
+      if (c.includes(AUTHORS_REL)) videos.saveAuthors(videos.merge(json(1, AUTHORS_REL), json(2, AUTHORS_REL), json(3, AUTHORS_REL), false));
+      // 随想笔记: thoughts added to the same note on both devices are all kept; then the index is rebuilt from the notes
+      for (const f of c.filter(f => f !== thoughts.INDEX_REL && thoughts.PATH.test(f))) {
+        const s = thoughts.merge(stage(1, f), stage(2, f), stage(3, f));
+        if (s == null) { git(log, 'rm', '-q', '--cached', '--ignore-unmatch', '--', f); try { fs.unlinkSync(path.join(root, f)); } catch (_) { /* gone */ } }
+        else fs.writeFileSync(path.join(root, f), s);
+      }
+      if (c.includes(thoughts.INDEX_REL)) thoughts.writeIndex();
       // the same day's note generated on both devices: keep this device's file. The drafts are merged, so
       // generating it again in 学习记录 puts both devices' text together.
-      for (const f of c.filter(f => f !== DRAFTS_REL && f !== VIDEOS_REL && NOTE_PATH.test(f))) {
+      for (const f of c.filter(f => f !== DRAFTS_REL && f !== VIDEOS_REL && f !== AUTHORS_REL && !thoughts.PATH.test(f) && NOTE_PATH.test(f))) {
         const s = stage(3, f) ?? stage(2, f);
         if (s == null) { git(log, 'rm', '-q', '--cached', '--ignore-unmatch', '--', f); try { fs.unlinkSync(path.join(root, f)); } catch (_) { /* gone */ } }
         else fs.writeFileSync(path.join(root, f), s);
@@ -120,9 +138,11 @@ function sync(push = true) {
   };
   try {
     syncMd();
+    thoughts.writeIndex();   // a 随想笔记 may have been edited, renamed or deleted by hand
     commitIfNeeded();
     try { git(log, 'pull', '--rebase', '--autostash'); } catch (e) { resolveConflicts(log, e); }
     syncMd();            // progress may have come from another device: mirror it into the Markdown
+    thoughts.writeIndex();   // notes merged from both devices
     commitIfNeeded();
     if (push) git(log, 'push');
     return { ok: true, message: push ? '已推送' : '已拉取', log, state: progress.load() };
@@ -227,7 +247,8 @@ http.createServer((req, res) => {
     if (why) return send(res, 403, { error: why });
     if (url.pathname === '/api/progress' && req.method === 'GET') return send(res, 200, progress.load());
     if (url.pathname === '/api/notes' && req.method === 'GET') return send(res, 200, noteList());
-    if (url.pathname === '/api/videos' && req.method === 'GET') return send(res, 200, { items: videos.list() });
+    if (url.pathname === '/api/videos' && req.method === 'GET') return send(res, 200, { items: videos.list(), authors: videos.loadAuthors() });
+    if (url.pathname === '/api/thoughts' && req.method === 'GET') return send(res, 200, { items: thoughts.list() });
     if (url.pathname === '/api/applications') {
       if (req.method !== 'GET') return send(res, 405, { error: 'read only' });
       const dir = applications.careerOpsDir(root);
@@ -251,6 +272,12 @@ http.createServer((req, res) => {
       return readBody(req, (err, body) => {
         if (err) return send(res, 400, { error: 'bad json' });
         videos.handle(body).then(r => send(res, 200, r), e => send(res, 400, { error: e.message }));
+      });
+    }
+    if (url.pathname === '/api/thoughts') {
+      return readBody(req, (err, body) => {
+        if (err) return send(res, 400, { error: 'bad json' });
+        try { send(res, 200, thoughts.handle(body)); } catch (e) { send(res, 400, { error: e.message }); }
       });
     }
     if (url.pathname === '/api/sync') return readBody(req, (err, body) => send(res, 200, sync(!(body && body.push === false))));

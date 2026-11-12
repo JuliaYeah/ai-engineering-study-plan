@@ -1,0 +1,193 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>随想笔记</title><link rel="stylesheet" href="../Study%20topics/style.css"></head><body><main><nav><a href="AI_ENGINEER_TRANSITION_PLAN.html">每日时间表</a><a href="../Study%20topics/index.html">Topic 索引</a><a href="../AI_ENGINEER_DAILY_LEARNING_GUIDE.html">学习指南</a><a href="AI_ENGINEER_PROJECT_ROADMAP.html">项目路线</a><a href="AI_ENGINEER_TOP150_RECORD.html">刷题记录</a><a href="AI_ENGINEER_VIDEOS.html">视频链接</a><a href="AI_ENGINEER_THOUGHTS.html">随想笔记</a></nav><style>
+.th-grid{display:grid;grid-template-columns:minmax(220px,290px) minmax(0,1fr);gap:20px;align-items:start;margin-top:8px}
+.th-side{background:#fff;border:1px solid #dce4ea;border-radius:12px;padding:10px;position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto}
+.th-side-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:0 4px 6px}
+.th-side ul{list-style:none;margin:0;padding:0}
+.th-item{display:block;width:100%;text-align:left;font:inherit;color:inherit;background:none;border:0;border-radius:8px;padding:7px 10px;cursor:pointer}
+.th-item:hover{background:#eef4f7}
+.th-item.th-on{background:#e3f0f1;box-shadow:inset 3px 0 0 var(--accent)}
+.th-name{display:block;font-weight:600;line-height:1.4;overflow-wrap:anywhere}
+.th-meta{display:block;font-size:12px;line-height:1.5;color:#5b6b78}
+.th-prev{display:block;font-size:13px;line-height:1.5;color:#526b7c;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.th-empty{color:#5b6b78;font-size:14px;margin:6px 4px}
+.th-form{display:flex;flex-direction:column;gap:6px}
+.th-form[hidden]{display:none}
+.th-form label{font-size:14px;color:#526b7c}
+.th-form input{width:100%;padding:9px 12px}
+.th-form textarea{width:100%;min-height:160px;resize:vertical;padding:10px 12px;border:1px solid #b4c9d4;border-radius:6px;font:inherit;line-height:1.6}
+.th-actions{display:flex;align-items:center;gap:6px 12px;flex-wrap:wrap;margin-top:2px}
+.th-btn{font:inherit;font-size:14px;cursor:pointer;border:1px solid #b4c9d4;border-radius:6px;background:#fff;color:#1d2b36;padding:3px 12px}
+.th-btn[hidden]{display:none}
+.th-primary{font-size:16px;padding:8px 24px;background:var(--accent);border-color:var(--accent);color:#fff}
+.th-btn:disabled{opacity:.6;cursor:wait}
+#th-msg{min-height:1.4em;margin:6px 0 10px}
+.th-view{background:#fff;border:1px solid #dce4ea;border-radius:12px;padding:12px 18px}
+.th-view[hidden]{display:none}
+.th-view-head{display:flex;justify-content:space-between;align-items:baseline;gap:6px 12px;flex-wrap:wrap;border-bottom:1px solid #dce4ea;padding-bottom:8px}
+.th-view h2{margin:0;font-size:20px;overflow-wrap:anywhere}
+.th-entry{padding:10px 0;border-bottom:1px solid #eef2f5}
+.th-entry:last-child{border-bottom:0}
+.th-at{font-size:12px;color:#5b6b78}
+.th-text{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65}
+@media(max-width:760px){
+ .th-grid{grid-template-columns:minmax(0,1fr)}
+ .th-side{position:static;max-height:none;order:2}
+ .th-main{order:1}
+}
+</style><h1>随想笔记</h1><div class="th-grid"><aside class="th-side" aria-label="全部笔记"><div class="th-side-head"><span id="th-count" class="muted"></span><button id="th-new" class="th-btn" type="button" hidden>+ 新笔记</button></div><ul id="th-list"></ul><p id="th-empty" class="th-empty" hidden>还没有笔记。写下第一条随想，点 Update，就会出现在这里。</p></aside><div class="th-main"><form id="th-form" class="th-form" hidden><label for="th-name">File name</label><input id="th-name" type="text" list="th-names" autocomplete="off" maxlength="60" placeholder="输入新名字，或选一篇已有的笔记"><datalist id="th-names"></datalist><label for="th-text">随想</label><textarea id="th-text" placeholder="想到什么写什么…"></textarea><div class="th-actions"><button id="th-save" class="th-btn th-primary" type="submit">Update</button><span id="th-mode" class="muted"></span></div></form><p id="th-msg" class="muted"></p><div id="th-view" class="th-view" hidden></div></div></div><script>(function client() {
+  var online = false, items = [], current = '', busy = false, showing = 0, DRAFT = 'study-thought-draft';
+  function $(id) { return document.getElementById(id); }
+  function msg(t) { $('th-msg').textContent = t || ''; }
+  function ls(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function post(body) {
+    return fetch('/api/thoughts', { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Study': '1' }, body: JSON.stringify(body) })
+      .then(function (r) { return r.json().then(function (j) { if (!r.ok) throw new Error(j.error || ('HTTP ' + r.status)); return j; }); });
+  }
+  function norm(s) { return String(s || '').replace(/\.md$/i, '').replace(/\s+/g, ' ').trim().toLowerCase(); }
+  function find(name) { var n = norm(name); for (var i = 0; i < items.length; i++) if (n && items[i].name.toLowerCase() === n) return items[i]; return null; }
+  function when(s) { var m = /^\d{4}-(\d{2})-(\d{2}) (\d{2}:\d{2})$/.exec(s || ''); return m ? (+m[1]) + '/' + (+m[2]) + ' ' + m[3] : ''; }
+  function byUpdated(a, b) { return (b.updated || '').localeCompare(a.updated || '') || a.name.localeCompare(b.name, 'zh'); }
+
+  function renderList() {
+    var ul = $('th-list'), dl = $('th-names');
+    ul.textContent = ''; dl.textContent = '';
+    items.forEach(function (it) {
+      var li = el('li'), b = el('button', 'th-item' + (it.name === current ? ' th-on' : ''));
+      b.type = 'button';
+      b.appendChild(el('span', 'th-name', it.name));
+      b.appendChild(el('span', 'th-meta', [when(it.updated), it.count ? it.count + ' 条' : ''].filter(Boolean).join(' · ')));
+      if (it.preview) b.appendChild(el('span', 'th-prev', it.preview));
+      b.addEventListener('click', function () { pick(it.name, true); });
+      li.appendChild(b); ul.appendChild(li);
+      var o = el('option'); o.value = it.name; dl.appendChild(o);
+    });
+    $('th-count').textContent = items.length ? items.length + ' 篇笔记' : '';
+    $('th-empty').hidden = items.length > 0;
+  }
+  // under the button: what Update will do with the name in the box
+  function mode() {
+    var name = $('th-name').value.replace(/\s+/g, ' ').trim(), it = find(name);
+    $('th-mode').textContent = !name ? '先填 File name：新名字会新建一篇，已有的名字会加到那篇的最后'
+      : it ? '会加到「' + it.name + '」的最后（Ctrl+Enter 也能保存）' : '会新建「' + name + '」（Ctrl+Enter 也能保存）';
+  }
+  function pick(name, fill) {
+    if (fill) { $('th-name').value = name; saveDraft(); }
+    current = name; renderList(); mode(); show(name);
+    if (fill && online) $('th-text').focus();
+  }
+
+  // a note: thoughts newest first; links are clickable
+  function parseMd(md) {
+    var head = [], entries = [], cur = null;
+    md.replace(/\r\n?/g, '\n').split('\n').forEach(function (l) {
+      var m = /^## (\d{4}-\d{2}-\d{2} \d{2}:\d{2})[ \t]*$/.exec(l);
+      if (m) entries.push(cur = { at: m[1], lines: [] }); else (cur ? cur.lines : head).push(l);
+    });
+    function trim(a) { return a.join('\n').replace(/^\s*\n/, '').replace(/\s+$/, '').replace(/^\\(## \d{4}-)/gm, '$1'); }
+    return { head: trim(head).replace(/^# .*(\n|$)/, '').replace(/^\s*\n/, ''), entries: entries.map(function (e) { return { at: e.at, text: trim(e.lines) }; }) };
+  }
+  function linkify(parent, text) {
+    var re = /https?:\/\/[^\s<>"'，。！）】]+/g, last = 0, m;
+    while ((m = re.exec(text))) {
+      var url = m[0].replace(/[),.;:!?]+$/, ''), a = el('a', '', url);
+      parent.appendChild(document.createTextNode(text.slice(last, m.index)));
+      a.href = url; a.target = '_blank'; a.rel = 'noopener'; parent.appendChild(a);
+      last = re.lastIndex = m.index + url.length;
+    }
+    parent.appendChild(document.createTextNode(text.slice(last)));
+  }
+  function renderNote(view, name, md) {
+    var n = parseMd(md), head = el('div', 'th-view-head'), right = el('span');
+    view.textContent = '';
+    head.appendChild(el('h2', '', name));
+    right.appendChild(el('span', 'muted', n.entries.length ? n.entries.length + ' 条 · 最新的在上面 ' : ''));
+    if (online) {
+      var del = el('button', 'th-btn', '删除');
+      del.type = 'button';
+      del.addEventListener('click', function () { remove(name); });
+      right.appendChild(del);
+    }
+    head.appendChild(right); view.appendChild(head);
+    if (n.head) { var h = el('div', 'th-entry'), ht = el('div', 'th-text'); linkify(ht, n.head); h.appendChild(ht); view.appendChild(h); }
+    n.entries.slice().reverse().forEach(function (e) {
+      var box = el('div', 'th-entry'), t = el('div', 'th-text');
+      box.appendChild(el('div', 'th-at', e.at));
+      linkify(t, e.text); box.appendChild(t); view.appendChild(box);
+    });
+  }
+  function show(name) {
+    var view = $('th-view'), my = ++showing;
+    if (!name) { view.hidden = true; view.textContent = ''; return; }
+    view.hidden = false;
+    if (!view.firstChild) view.textContent = '正在读取…';
+    fetch('../Study%20notes/thoughts/' + encodeURIComponent(name) + '.md?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+      .then(function (md) { if (my === showing) renderNote(view, name, md); })
+      .catch(function () { if (my === showing) view.textContent = '读不到这篇笔记。网页版要等电脑推送到 GitHub 以后才有。'; });
+  }
+  function remove(name) {
+    if (!confirm('删除「' + name + '」？这篇笔记里的全部随想都会删掉。')) return;
+    busy = true; msg('正在删除…');
+    post({ action: 'delete', name: name }).then(function (j) {
+      items = j.items;
+      if (norm($('th-name').value) === norm(name)) { $('th-name').value = ''; saveDraft(); }
+      current = ''; renderList(); mode(); show(''); msg(j.message);
+    }).catch(function (e) { msg('删除失败：' + e.message); }).then(function () { busy = false; });
+  }
+
+  // what is typed stays in this browser until it is saved, so closing the page by accident loses nothing
+  function saveDraft() { ls(DRAFT, JSON.stringify({ name: $('th-name').value, text: $('th-text').value })); }
+  try { var d = JSON.parse(ls(DRAFT) || 'null'); if (d) { $('th-name').value = d.name || ''; $('th-text').value = d.text || ''; } } catch (e) { /* no draft */ }
+
+  function setOnline(on) { online = on; $('th-form').hidden = !on; $('th-new').hidden = !on; }
+  function after(first) {
+    renderList(); mode();
+    var it = find($('th-name').value);
+    if (first) { if (it) pick(it.name, false); else if (!online && items.length) pick(items[0].name, false); }
+    else if (current) { if (find(current)) show(current); else { current = ''; renderList(); show(''); } }
+  }
+  function load(first) {
+    fetch('/api/thoughts', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function (j) { setOnline(true); items = j.items; after(first); })
+      .catch(function () {
+        // web version or no server: read the pushed index, read only
+        var web = location.protocol !== 'file:' && ['127.0.0.1', 'localhost'].indexOf(location.hostname) < 0;
+        setOnline(false);
+        fetch('../Study%20notes/thoughts/index.json', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
+          .then(function (all) {
+            items = Object.keys(all).map(function (k) { var v = all[k]; v.name = k; return v; }).sort(byUpdated);
+            after(first);
+            msg(web ? '网页版只能看：在电脑上打开这个页面（本地服务器）才能写随想，推送到 GitHub 后这里会更新'
+              : '没有连接本地服务器：只能看已经存过的笔记。运行 start-server.bat 后才能写');
+          });
+      });
+  }
+
+  $('th-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var name = $('th-name').value, text = $('th-text').value, b = $('th-save');
+    if (!name.trim()) { msg('先填 File name：输入新名字，或者从列表里选一篇'); return $('th-name').focus(); }
+    if (!text.trim()) { msg('先写点内容'); return $('th-text').focus(); }
+    b.disabled = true; busy = true; msg('正在保存…');
+    post({ action: 'update', name: name, text: text }).then(function (j) {
+      items = j.items; $('th-name').value = j.name; $('th-text').value = ''; saveDraft();
+      current = j.name; renderList(); mode(); show(j.name); msg(j.message);
+    }).catch(function (e2) { msg('保存失败：' + e2.message); }).then(function () { b.disabled = false; busy = false; });
+  });
+  $('th-text').addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); if ($('th-form').requestSubmit) $('th-form').requestSubmit(); else $('th-save').click(); }
+  });
+  $('th-text').addEventListener('input', saveDraft);
+  $('th-name').addEventListener('input', function () {
+    saveDraft(); mode();
+    var it = find($('th-name').value);
+    if (it && it.name !== current) pick(it.name, false);
+    else if (!it && current) { current = ''; renderList(); show(''); }
+  });
+  $('th-new').addEventListener('click', function () {
+    $('th-name').value = ''; saveDraft(); current = ''; renderList(); mode(); show(''); msg(''); $('th-name').focus();
+  });
+  load(true);
+  document.addEventListener('visibilitychange', function () { if (!document.hidden && !busy) load(false); });
+})();</script></main></body></html>

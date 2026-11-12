@@ -1,6 +1,6 @@
 // Keeps the generated files where we want them without teaching every generator about it.
 //
-// The generators (build, quantvault, bilingual-lessons, validate*) all assume the AI_ENGINEER_* files sit in the
+// The generators (build, bilingual-lessons, validate*) all assume the AI_ENGINEER_* files sit in the
 // repo root next to "Study topics/". We keep AI_ENGINEER_DAILY_LEARNING_GUIDE.* in the root and the other
 // reports in Reports/. Requiring this module:
 //   1. immediately moves the reports back to the root (links rewritten back to root-relative form)
@@ -12,9 +12,8 @@ const root = path.resolve(__dirname, '..');
 const MOVED = [
   'AI_ENGINEER_BILINGUAL_LESSONS.md',
   'AI_ENGINEER_PROJECT_ROADMAP.md', 'AI_ENGINEER_PROJECT_ROADMAP.html',
-  'AI_ENGINEER_QUANTVAULT_PLAN.md', 'AI_ENGINEER_QUANTVAULT_PLAN.html',
   'AI_ENGINEER_TRANSITION_PLAN.md', 'AI_ENGINEER_TRANSITION_PLAN.html',
-  'AI_ENGINEER_STUDY_LOG.html', 'AI_ENGINEER_STUDY_NOTES.html', 'AI_ENGINEER_TOP150_RECORD.html', 'AI_ENGINEER_VIDEOS.html',
+  'AI_ENGINEER_STUDY_LOG.html', 'AI_ENGINEER_STUDY_NOTES.html', 'AI_ENGINEER_TOP150_RECORD.html', 'AI_ENGINEER_VIDEOS.html', 'AI_ENGINEER_THOUGHTS.html',
   'AI_ENGINEER_TOP150_SCHEDULE.md', 'AI_ENGINEER_TOP150_SCHEDULE.html',
   'AI_ENGINEER_LEETCODE_DAILY_LIST.md', 'AI_ENGINEER_LEETCODE_DAILY_LIST.html',
 ];

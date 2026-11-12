@@ -1,7 +1,7 @@
 // Daily study notes: two pages, both linked under every day of the timetable.
 //   - 学习记录, AI_ENGINEER_STUDY_LOG.html (in Reports/), is where you write. It shows one day at a time (#day-NN)
-//     with a box under every item of that day: each problem, the coding study topic, the online course, the ML
-//     lesson / notebook / QuantVault problem, system design, the project, each interview question and the daily review.
+//     with a box under every item of that day: each problem, the coding study topic, the LeetCode pattern and its practice
+//     problems, the online course, Hello Interview, the project, each interview question and the daily review.
 //     What you type is saved as you go: POST /api/notes -> "Study notes/drafts.json" (server.cjs). Without the server
 //     it stays in this browser and is sent to the server the next time the page is opened through it.
 //     "生成今日学习笔记" writes "Study notes/<date> Day NN.md" from the boxes that have text (POST /api/notes/generate).
@@ -20,20 +20,23 @@ const ROW = /^\| (\d{2}:\d{2}–\d{2}:\d{2}) \| ([^|]+?) \| (.*) \|$/;
 const PLACEHOLDER = {
   problem: '这道题：思路、卡在哪里、学到的技巧…',
   topic: '这个 topic 学到了什么、哪里还不懂…',
+  pattern: '这个 pattern 的 cue、模板、哪里还不懂…',
+  hi: '卡在哪里、AI 帮了什么、哪里出了错、下次怎么改…',
   course: '网课学到了什么…',
   project: '今天项目做了什么、遇到什么问题…',
   question: '这道面试题的要点、自己的答法…',
   review: '今天的总结、明天要注意什么…',
   item: '学到了什么、有什么感想…',
 };
-// heading text for the generated .md: keep links to websites (LeetCode, QuantVault), drop links into this repo
+// heading text for the generated .md: keep links to websites (LeetCode, GitHub), drop links into this repo
 const mdLabel = p => p.split(/\s*资料：/)[0].replace(/\[([^\]]+)\]\(([^)]*)\)/g, (m, t, u) => (/^https?:/.test(u) ? m : t))
   .replace(/[☐☑]/g, '').replace(/\s+/g, ' ').trim();
 
 function kindOf(time, part, first) {
+  if (/\]\(https:\/\/github\.com\/design-gurus\/[^)]*\/patterns\//.test(part)) return 'pattern';
   if (/\]\(https?:/.test(part) && /[☐☑]/.test(part)) return 'problem';
   if (part.includes('Study%20topics/') || (first && part.includes('资料：'))) return 'topic';
-  return { '15:00': 'project', '17:30': 'review' }[time.slice(0, 5)] || 'item';
+  return { '13:45': 'hi', '15:45': 'project', '17:45': 'review' }[time.slice(0, 5)] || 'item';
 }
 
 function days(md, inline, esc) {
@@ -51,7 +54,7 @@ function days(md, inline, esc) {
           items.push({ k: key(progress.keyOf(anchor, part)), kind, html: inline(part.replace(/\s*[☐☑]/g, '')), md: (kind === 'topic' && i === 0 ? 'Study topic：' : '') + mdLabel(part) });
         }
       });
-      const questions = time.startsWith('16:30')
+      const questions = time.startsWith('16:45')
         ? [...block.matchAll(/^- (Q\d{3}) — (.+?)(?:（来源|$)/gm)].map(([, q, t]) => ({ k: key(`${anchor}.${q.toLowerCase()}`), kind: 'question', html: esc(`${q} — ${t}`), md: `${q} — ${t}` }))
         : [];
       if (items.length || questions.length) groups.push({ title: `${time} · ${what}`, items, questions });
